@@ -1,0 +1,2087 @@
+[
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/thesis/manuscript/04_results_and_discussion.tex",
+    "exists": true,
+    "bytes": 39502,
+    "sha256": "cd0106b7f3955975bdea1a4a53983f19dbf87fde25c218dc4d1f438366f053cd",
+    "matching_package_copies": [],
+    "roles": [
+      "audited_scope"
+    ],
+    "groups": [
+      "scope"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/bbox_only__logreg__seed42.csv",
+    "exists": true,
+    "bytes": 668483,
+    "sha256": "b81f5bd2fb519ba50169f2b465db2ce4ae513e286358805ac0499807eb4232f5",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/bbox_only__logreg__seed43.csv",
+    "exists": true,
+    "bytes": 668483,
+    "sha256": "86bff039dc11648020d6a4f27b52e9e9366abd64918efc7f612c26fed08abcab",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/bbox_only__logreg__seed44.csv",
+    "exists": true,
+    "bytes": 668483,
+    "sha256": "08a554354f6904d853a8746102975bf2a451c13c0277f3998e0cbcd74131308e",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/bbox_only__rf__seed42.csv",
+    "exists": true,
+    "bytes": 630765,
+    "sha256": "95b3d18fa9c799d8de4c8e6b1ca20586e154244c1960e6343afd99d2fbe04d3a",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/bbox_only__rf__seed43.csv",
+    "exists": true,
+    "bytes": 631078,
+    "sha256": "755fa1aa022fc0b8de211f1a8e6d28d9625e762a4682e42f08f8d6fc6e7ff304",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/bbox_only__rf__seed44.csv",
+    "exists": true,
+    "bytes": 631597,
+    "sha256": "5920c352d32bfc29d594f8722331d8ee7b46ceb0a8560c77d64c5cdc7b4583f9",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/bbox_only__xgb__seed42.csv",
+    "exists": true,
+    "bytes": 583625,
+    "sha256": "f5d2da5e2ce272e52e3b4542c673516ec2dd4b7e083207608788cfbf74655f7e",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/bbox_only__xgb__seed43.csv",
+    "exists": true,
+    "bytes": 583687,
+    "sha256": "595b0061a6058a53e550a32f6296a1625ad8f7a4277c61944cb89fe527b96157",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/bbox_only__xgb__seed44.csv",
+    "exists": true,
+    "bytes": 583564,
+    "sha256": "555eb9588b51cdccf785170e13e2794dabcc847b8786c0272b986ce8b27c2e4c",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__logreg__seed42.csv",
+    "exists": true,
+    "bytes": 720977,
+    "sha256": "1f64c1446008e9cc40c2216c34dc8311b702ccd411098796e068d524109b6e1c",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__logreg__seed43.csv",
+    "exists": true,
+    "bytes": 720977,
+    "sha256": "7fab668c7ceb0f439e0ccc195cba04381b8b0dddd33c4f3f3fff69c274fe9ae3",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__logreg__seed44.csv",
+    "exists": true,
+    "bytes": 720977,
+    "sha256": "2023620770502ec0b13ed759eb6df32eeb68aad5254f79fb895e5c01e8709d8c",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__rf__seed42.csv",
+    "exists": true,
+    "bytes": 686217,
+    "sha256": "d317230de70cee367236f188bb188d89947869fa3b5aa75227aed977c5fa6bf8",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__rf__seed43.csv",
+    "exists": true,
+    "bytes": 686176,
+    "sha256": "0aa599ed6281f8e148acc9bdda3fc43b1fd0380c73d055ea3baf39204e89b3ad",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__rf__seed44.csv",
+    "exists": true,
+    "bytes": 686204,
+    "sha256": "aaf0191a7c844eae93b0040776485e80b092d9c34883b286b7f9c176f3476bb5",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__xgb__seed42.csv",
+    "exists": true,
+    "bytes": 636478,
+    "sha256": "e97272b262f8bcd45af39542bc25bbfcb5d818ec7dd2bf0626d3c35647d43972",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__xgb__seed43.csv",
+    "exists": true,
+    "bytes": 636367,
+    "sha256": "860fcdda1480414c0e54671e327d38eca5c5f235e5bfe8adf67b8242726c5970",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__xgb__seed44.csv",
+    "exists": true,
+    "bytes": 636326,
+    "sha256": "4944ad85f6e9cacb3203cf223f6b590698bfd9ed7a31279a8f74a9ccb39f7f88",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v2_core_plus_bbox__logreg__seed42.csv",
+    "exists": true,
+    "bytes": 757464,
+    "sha256": "6dc06db38b28c9a313dc26cd469a6dd19ccc1d12db3a9797d8b0b981940c7ab0",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v2_core_plus_bbox__logreg__seed43.csv",
+    "exists": true,
+    "bytes": 757464,
+    "sha256": "bb7b9e407439140707da3678308d722a80082026dc96e9c2f4de702032a29f1c",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v2_core_plus_bbox__logreg__seed44.csv",
+    "exists": true,
+    "bytes": 757464,
+    "sha256": "c2e713a110bfbe75f757b439ded83240e47035476e812e6927c2b031b2042e0d",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v2_core_plus_bbox__rf__seed42.csv",
+    "exists": true,
+    "bytes": 721479,
+    "sha256": "fd089cbb1c4f6db037ee5f6fb74955f851099472aeff1a6779f060f180d1b668",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v2_core_plus_bbox__rf__seed43.csv",
+    "exists": true,
+    "bytes": 720814,
+    "sha256": "1f792d3aeacc2aa7c5a4905cc9b3cbd192e5cab2b63240d20607110cc5081233",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v2_core_plus_bbox__rf__seed44.csv",
+    "exists": true,
+    "bytes": 721838,
+    "sha256": "708e8a17ce9be8a8f66d661fb311aeb6cd76aecb55dab9981d77f251c4fb4498",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v2_core_plus_bbox__xgb__seed42.csv",
+    "exists": true,
+    "bytes": 673121,
+    "sha256": "ea02edfa1ffb2915bd629b9f9d79523cdb3aff5b267b0833fe421c8ad4226deb",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v2_core_plus_bbox__xgb__seed43.csv",
+    "exists": true,
+    "bytes": 673089,
+    "sha256": "1a7b165934f7df6826b09d46bc90cbfd8a38c0c8800bb20e45f5bd3d7a139e37",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v2_core_plus_bbox__xgb__seed44.csv",
+    "exists": true,
+    "bytes": 672832,
+    "sha256": "8063852f2c211f7ab80b95725ccfddbb6e42a1e45a48959baec3651ccad8cd0c",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "01"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_logistic_regression.csv",
+    "exists": true,
+    "bytes": 473712,
+    "sha256": "0f8ff92130de292e662cc85da0594f35cd429a8c733a86b33332522a4101f5d8",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_random_forest.csv",
+    "exists": true,
+    "bytes": 450070,
+    "sha256": "2907d555df8151f9a837e07c8b0f8eece0f0d210a8f63aab721405d43c3e2f14",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_xgboost.csv",
+    "exists": true,
+    "bytes": 431183,
+    "sha256": "b9e3141077d0c08fb3dffc5248b4754f269cd6bd9ff74251d8d120f360ec1088",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_lightgbm.csv",
+    "exists": true,
+    "bytes": 438233,
+    "sha256": "ad1b8cf8320cb1d7832b7201cee5df7a5aaf65134a967fcc739e43b665741941",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_logistic_regression.csv",
+    "exists": true,
+    "bytes": 491541,
+    "sha256": "780197f32edfdc1254b11f9d4b6b78a2bc5b56acf0b4e155a00410bf85ce6f28",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_random_forest.csv",
+    "exists": true,
+    "bytes": 464851,
+    "sha256": "274ac81dbc5273ae318f83057abd2943f29e88dbec05157688264278e7bcf199",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_xgboost.csv",
+    "exists": true,
+    "bytes": 448353,
+    "sha256": "af6126d4a662f76000097d98fe400b5c8d12d3b2acced53c855a0527ab31b11e",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_lightgbm.csv",
+    "exists": true,
+    "bytes": 455548,
+    "sha256": "2ee81492d5db424a61b72322acbf4750b48cb3f5e928afbaa14c35d82f24a9d9",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_logistic_regression.csv",
+    "exists": true,
+    "bytes": 474047,
+    "sha256": "26c490094ec4008eed076394102d427219b830ad1e735110c4f04632227e0a4a",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_random_forest.csv",
+    "exists": true,
+    "bytes": 454798,
+    "sha256": "798254d53a28c9f7e4456fda7bab3c1eddf7908e9ddf13535a8cdf94ba3cd18c",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_xgboost.csv",
+    "exists": true,
+    "bytes": 435624,
+    "sha256": "5d8485b061139d27692807d378600d8deb8656a021a333443c930b167b4813e9",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_lightgbm.csv",
+    "exists": true,
+    "bytes": 442464,
+    "sha256": "ff11841ae01eb514702d0cc4607afeb82254dc6381fa6909889d58f945d4b18c",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_logistic_regression.csv",
+    "exists": true,
+    "bytes": 491856,
+    "sha256": "166e0a5df2271e289f33ebc407b875498a968f668cadc0f50ae2087eee2e96d4",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_random_forest.csv",
+    "exists": true,
+    "bytes": 471076,
+    "sha256": "424f3801c1299413717b15a2327079610b0273758f1fc1448f6f02b437aa507f",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_xgboost.csv",
+    "exists": true,
+    "bytes": 452492,
+    "sha256": "2ff71648f74f466e338bf835f41154e4147c115f93687c516ff76a909ed69fc6",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_lightgbm.csv",
+    "exists": true,
+    "bytes": 459428,
+    "sha256": "56fac1a84b1b59839f7d1dc62db6fdc2499c4b04a2f9ce875e081f9b624556bb",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_logistic_regression.csv",
+    "exists": true,
+    "bytes": 474839,
+    "sha256": "53e7a1c05327aafe832935ffaf21434a25ba63f93d064effffe474c295eed7e6",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_random_forest.csv",
+    "exists": true,
+    "bytes": 454898,
+    "sha256": "ca90e77682654509c64af1608f4195cff5642b7984b543d0a6b20644dd029455",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_xgboost.csv",
+    "exists": true,
+    "bytes": 430902,
+    "sha256": "ce428110b9a6a883078ef3710f863dc552f2a09d195778ae1e684acc821143c5",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_lightgbm.csv",
+    "exists": true,
+    "bytes": 437863,
+    "sha256": "748042bb5f798d7997ffb67a11f3b9c3ad87f9ce0340305f3f86bc3bcaaa3051",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_logistic_regression.csv",
+    "exists": true,
+    "bytes": 492871,
+    "sha256": "1e117d1c0e1ae0199f22ece7b7bb9f5a933054b4c8a8dc6438796949a2bc5faa",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_random_forest.csv",
+    "exists": true,
+    "bytes": 471820,
+    "sha256": "adbd020028869c3ec7b845fb4cfe5a70730e17976b39bed1b58e538a8eec0a14",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_xgboost.csv",
+    "exists": true,
+    "bytes": 448394,
+    "sha256": "e555cdb002734e6c3cb8f450f5b40a708e2a252a911ca374eb68a48395023bdb",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_lightgbm.csv",
+    "exists": true,
+    "bytes": 455282,
+    "sha256": "f894b317b0bb07849319eb3e95c0c12838f31c3111c87d147eb38cba95107a5f",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_logistic_regression.csv",
+    "exists": true,
+    "bytes": 475280,
+    "sha256": "747f2b2bd98edf6eef44894a4f9fb7a1364976889bf3e435335be162da1183a0",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_random_forest.csv",
+    "exists": true,
+    "bytes": 455023,
+    "sha256": "263282303a6352ffb0f5999bf9472778a60adc86d1db18d13ed707b2b2b6f171",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_xgboost.csv",
+    "exists": true,
+    "bytes": 434833,
+    "sha256": "a67c092c4ac445df795755d3b1dec83398d8aa3853f25d21e410f0e6db5ba15f",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_lightgbm.csv",
+    "exists": true,
+    "bytes": 442038,
+    "sha256": "5fdf6e25c90d2de61af1d658f79d32715213b2d81d28d969a08d83e7d64732a2",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_logistic_regression.csv",
+    "exists": true,
+    "bytes": 493290,
+    "sha256": "ef40ab726023de365c42a212f34d1af73e5b58726e7c35f5019a9a77c2032632",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_random_forest.csv",
+    "exists": true,
+    "bytes": 472057,
+    "sha256": "790ce149cfe3a10fc84b9b7ebc688cdcdcafed93c8d14d0e9c78578b4dc6bd93",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_xgboost.csv",
+    "exists": true,
+    "bytes": 452413,
+    "sha256": "433da8873ba9462e87311d4998c3406c5c9b926432ed0ac18872b4ba924f6a02",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_lightgbm.csv",
+    "exists": true,
+    "bytes": 459218,
+    "sha256": "2c27e4e0d8e14617fd887b6c9dde123d83f1ceae86dce492e5a507ba32f6e755",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "02"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/096_pie_exp072_matched_biu_ablation/models/base_seed42.joblib",
+    "exists": true,
+    "bytes": 363288,
+    "sha256": "7cf9af011c9bee3961e6a84dd14ae159546a8a247bd7e22995541bb224803ba4",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "03",
+      "09",
+      "11",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/096_pie_exp072_matched_biu_ablation/models/base_seed43.joblib",
+    "exists": true,
+    "bytes": 365396,
+    "sha256": "9d3f57ab312feb1caebda9ab2fc40b7e7affd8da75489a788ed2cbb70505dac9",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "03",
+      "09",
+      "11",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/096_pie_exp072_matched_biu_ablation/models/base_seed44.joblib",
+    "exists": true,
+    "bytes": 365056,
+    "sha256": "5a998d18e27f9ae0b610d46afcdd0a5b78c089cd6a177f1b669ddd6beac471ac",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "03",
+      "09",
+      "11",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/096_pie_exp072_matched_biu_ablation/models/v1_seed42.joblib",
+    "exists": true,
+    "bytes": 368308,
+    "sha256": "ac91290d1de46f7af4785b7a704101786257ff92d49c9740090e292daa3411f4",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "03",
+      "09",
+      "11",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/096_pie_exp072_matched_biu_ablation/models/v1_seed43.joblib",
+    "exists": true,
+    "bytes": 369124,
+    "sha256": "6facd151c52ce8179d7aa8047ad14e3e2cb74a826662f5990fc8569b1e3deb9c",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "03",
+      "09",
+      "11",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/096_pie_exp072_matched_biu_ablation/models/v1_seed44.joblib",
+    "exists": true,
+    "bytes": 369804,
+    "sha256": "62b1e00a98190d3d01c341b8159590b477d34f0c41f8c4770563a9bafbd13e36",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "03",
+      "09",
+      "11",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/096_pie_exp072_matched_biu_ablation/models/v2_seed42.joblib",
+    "exists": true,
+    "bytes": 370624,
+    "sha256": "034b216c72d168818f153e0d4acacd6267d490eeec4fedcb0c241a223de11763",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "03",
+      "09",
+      "11",
+      "12",
+      "10"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/096_pie_exp072_matched_biu_ablation/models/v2_seed43.joblib",
+    "exists": true,
+    "bytes": 368720,
+    "sha256": "92f8a9f6770f32da20c93b980a49a165882e8fe33e1aa83f9c384ea42970c36b",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "03",
+      "09",
+      "11",
+      "12",
+      "10"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/096_pie_exp072_matched_biu_ablation/models/v2_seed44.joblib",
+    "exists": true,
+    "bytes": 367836,
+    "sha256": "e6c134882c452d8d3edaaa7f332430a44c12412d7f6cff2b4b0b8859a7353a7c",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "03",
+      "09",
+      "11",
+      "12",
+      "10"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/pie_road_seed42.joblib",
+    "exists": true,
+    "bytes": 377860,
+    "sha256": "24c597207897dfb0dd642fe4133e032e16a8987f25d6e8ad3b86ebd382cc489f",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "03",
+      "09",
+      "11",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/pie_road_seed43.joblib",
+    "exists": true,
+    "bytes": 378268,
+    "sha256": "f49c56bfbdf69dd6db89309f7e372bb02aa8c18e5f740c4747e35d46733dd9bf",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "03",
+      "09",
+      "11",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/pie_road_seed44.joblib",
+    "exists": true,
+    "bytes": 377656,
+    "sha256": "e9363c5ad95db771e24009f8405422781aa8abc01d198c7d5393149a511190b1",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "03",
+      "09",
+      "11",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/053_mslstm_bbox53_replacement/checkpoints/G_seed42.best.pt",
+    "exists": true,
+    "bytes": 27083767,
+    "sha256": "251cf476a45d3842bf5fc0d34cbf83ce78a37418e0e02b7f76f5f7a932e1eb1b",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "05",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/053_mslstm_bbox53_replacement/checkpoints/G_seed43.best.pt",
+    "exists": true,
+    "bytes": 27083767,
+    "sha256": "11244b96234e9658c1a7853ed13c8fd817b2b721440dfbcf7ed08af904d5738f",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "05",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/053_mslstm_bbox53_replacement/checkpoints/G_seed44.best.pt",
+    "exists": true,
+    "bytes": 27083767,
+    "sha256": "0317c14d4192ac5d9bde0ab6d592b62e63a7057b479b17f6342c5e02717d53c2",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "05",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/053_mslstm_bbox53_replacement/checkpoints/H_seed42.best.pt",
+    "exists": true,
+    "bytes": 27386575,
+    "sha256": "92679fb88abf7cae765bc67a91efcdf0ef26729a68103333eb79b32670bb1561",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "05",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/053_mslstm_bbox53_replacement/checkpoints/H_seed43.best.pt",
+    "exists": true,
+    "bytes": 27386575,
+    "sha256": "f40f580020f34be0cee2a11011eca07858632443aec3a6663818d6429c7ec413",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "05",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/053_mslstm_bbox53_replacement/checkpoints/H_seed44.best.pt",
+    "exists": true,
+    "bytes": 27386575,
+    "sha256": "e7054b27d806478a11b4b053d91da0a49de6912270fa73316a02954b5b2abc81",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "05",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/053_mslstm_bbox53_replacement/checkpoints/I_seed42.best.pt",
+    "exists": true,
+    "bytes": 27381967,
+    "sha256": "92bd9d91aeefe9e61b68462c587e01c4d9252e5de3efb3bf97a612f0510b9358",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "05",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/053_mslstm_bbox53_replacement/checkpoints/I_seed43.best.pt",
+    "exists": true,
+    "bytes": 27381967,
+    "sha256": "4e5cd0114651ccc3e4c46e08f94104c436cdae3fa6cf5729fe75bf643ed7f977",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "05",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/053_mslstm_bbox53_replacement/checkpoints/I_seed44.best.pt",
+    "exists": true,
+    "bytes": 27381967,
+    "sha256": "d1fe3a378597400b49421f8ac1bca89ed55fcebb53524d7eb7d540f01de638b9",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "05",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/095_mslstm_bbox53_final_controls/checkpoints/J_seed42.best.pt",
+    "exists": true,
+    "bytes": 36053039,
+    "sha256": "38bd79973b8f274966550c308ead32cadd4dce6dd0b1d7e668f0e0ca7334f483",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "05",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/095_mslstm_bbox53_final_controls/checkpoints/J_seed43.best.pt",
+    "exists": true,
+    "bytes": 36053039,
+    "sha256": "fd0528e2d7aa0218d32daac961b30fe6c53dcee75c20abcf2d083de3bb70247c",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "05",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/095_mslstm_bbox53_final_controls/checkpoints/J_seed44.best.pt",
+    "exists": true,
+    "bytes": 36053039,
+    "sha256": "42e1055b7a72373aedaf05f1c22d3eec0b6e2b0578c5d1387552edb1e92aa652",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "05",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/095_mslstm_bbox53_final_controls/checkpoints/K_seed42.best.pt",
+    "exists": true,
+    "bytes": 44481904,
+    "sha256": "1d7cad6f04d5269911251638b1e747acc14c13934820aafb3d9ec12f22c31d70",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "05",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/095_mslstm_bbox53_final_controls/checkpoints/K_seed43.best.pt",
+    "exists": true,
+    "bytes": 44481904,
+    "sha256": "5d8ed33a00908177aac9dae1942119a83c1440d308cc00e63ebefb32845b526b",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "05",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/095_mslstm_bbox53_final_controls/checkpoints/K_seed44.best.pt",
+    "exists": true,
+    "bytes": 44481904,
+    "sha256": "0cad10a751cf1a28361a875fd87620f4535c69232721b07af8460958f1d170b4",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "05",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/117_neural_v2_core_completion/mslstm_pie/checkpoints/I_seed42.best.pt",
+    "exists": true,
+    "bytes": 27378383,
+    "sha256": "e6d8dde9d8fb7326cb70c99c410317c1cb853887a90013f07aac388c1369d440",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "05",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/117_neural_v2_core_completion/mslstm_pie/checkpoints/I_seed43.best.pt",
+    "exists": true,
+    "bytes": 27378383,
+    "sha256": "15e1681cbfe129ad289fe37294ebb2bef1e1f9f267296349a4652753d34613e9",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "05",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/117_neural_v2_core_completion/mslstm_pie/checkpoints/I_seed44.best.pt",
+    "exists": true,
+    "bytes": 27378383,
+    "sha256": "d42f77f95a1796a321792cceabf2fad3255ba78626e31c72eb3cc186dd6c9fcd",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "05",
+      "12"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/098_jaad_matched_biu_xgb/models/A_seed42.joblib",
+    "exists": true,
+    "bytes": 347854,
+    "sha256": "32e2296c19f67c5c6bd18a3657d275aa9d89e46a7e894c7d8e589f277dd3d7a2",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/098_jaad_matched_biu_xgb/models/A_seed43.joblib",
+    "exists": true,
+    "bytes": 348601,
+    "sha256": "b21783db42279a7c973258520351795f27ffd3bf7211e015243e419f7a5cdc2d",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/098_jaad_matched_biu_xgb/models/A_seed44.joblib",
+    "exists": true,
+    "bytes": 349825,
+    "sha256": "1a8980284e50d67ffd02bcaf4c6309bf1d3425adf508df8edd9fe470c01b3b52",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/100_jaad_exp099_biu_pathways/models/v2_seed42.joblib",
+    "exists": true,
+    "bytes": 346325,
+    "sha256": "d803a63231acb5b68137052ae17bd33b55c9a5661205103a80847f5006c1a79b",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09",
+      "10"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/100_jaad_exp099_biu_pathways/models/v2_seed43.joblib",
+    "exists": true,
+    "bytes": 349998,
+    "sha256": "06c5817132999475961ebff7fbfc20a03aec46e8ba189537bb8e5ce8689f9cf7",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09",
+      "10"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/100_jaad_exp099_biu_pathways/models/v2_seed44.joblib",
+    "exists": true,
+    "bytes": 347210,
+    "sha256": "cc7d1d4ec5ebea0cf6a2f94e830b587ba02e2f4f759ae5a44a31f0980b03a08c",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09",
+      "10"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/102_jaad_api_matched_biu/models/jaad_beh_A_42.joblib",
+    "exists": true,
+    "bytes": 329080,
+    "sha256": "b2fa701afbeea4b198acd123800b28c92a398f9945681ed3a632a8031f0e7c2e",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/102_jaad_api_matched_biu/models/jaad_beh_A_43.joblib",
+    "exists": true,
+    "bytes": 332961,
+    "sha256": "5089e988ccfb6733c32d582bbcd76b5b6de1fe11b196b684d340341ef432e6b3",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/102_jaad_api_matched_biu/models/jaad_beh_A_44.joblib",
+    "exists": true,
+    "bytes": 327044,
+    "sha256": "d76c7afb58f81193f1610d33714f09eac231573805514f62ae1915a46d2bc311",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/102_jaad_api_matched_biu/models/jaad_beh_C_42.joblib",
+    "exists": true,
+    "bytes": 338285,
+    "sha256": "ce449980412a8e87e3f304c98f8269013d414c6a6c0cefa288802ff9d95d57d3",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/102_jaad_api_matched_biu/models/jaad_beh_C_43.joblib",
+    "exists": true,
+    "bytes": 341617,
+    "sha256": "9ef3d3ce9085d4bb79b6da0c1ba2a5a6752b42a9303019ffc7d209687b1b180e",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/102_jaad_api_matched_biu/models/jaad_beh_C_44.joblib",
+    "exists": true,
+    "bytes": 341888,
+    "sha256": "4697c4a1ef32294bdd650c8819b371baad31f76ed365acc6f2e900af6e766bb5",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/102_jaad_api_matched_biu/models/jaad_all_C_42.joblib",
+    "exists": true,
+    "bytes": 403564,
+    "sha256": "b3c50a3a930832a64aac26b2545195e5b92327d5e0ef62f4bf2488d1bcbd7dfc",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/102_jaad_api_matched_biu/models/jaad_all_C_43.joblib",
+    "exists": true,
+    "bytes": 404312,
+    "sha256": "d69a56f3b9aa6b6ca8b740fa5ea81a4a2e6efce306a26e922782b70137d90a6a",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/102_jaad_api_matched_biu/models/jaad_all_C_44.joblib",
+    "exists": true,
+    "bytes": 407168,
+    "sha256": "7d87ce390a67ab288967b90ba8fed25f77cf948f088e423039db7aa93d67c56a",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/jaad_clean_simple_seed42.joblib",
+    "exists": true,
+    "bytes": 350270,
+    "sha256": "37e94bad1fc80789ed4460df9da8aec66bb357fc5a70bb2daad5d694e5e748f4",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/jaad_clean_simple_seed43.joblib",
+    "exists": true,
+    "bytes": 351085,
+    "sha256": "8fc60f9362d8524081a14b1faf8ec9eb7ce339d3f4bddd56fe8ee96037c4ae61",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/jaad_clean_simple_seed44.joblib",
+    "exists": true,
+    "bytes": 350403,
+    "sha256": "bd60fb2974f5e35b353b57e4070203e2703d84c3c30652e0476bbbe36f6f4958",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/jaad_clean_road_seed42.joblib",
+    "exists": true,
+    "bytes": 352960,
+    "sha256": "77bfc7c916dc0ca4f8e25923895b9ecc4aa215856c6069e15ef8f0724596252f",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/jaad_clean_road_seed43.joblib",
+    "exists": true,
+    "bytes": 353911,
+    "sha256": "8f5a2acfd74d59a39c41f526f8a041831acf711468e5df6bc5ab1e2758288519",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/jaad_clean_road_seed44.joblib",
+    "exists": true,
+    "bytes": 351396,
+    "sha256": "602d69073d35bb8d161bcbf9b193cb546c8cc33b4e29a4af3d0df8c4a26bc77b",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/jaad_clean_road_vehicle_seed42.joblib",
+    "exists": true,
+    "bytes": 355824,
+    "sha256": "9e4bc86f62593a54ea300cc18f65755c2134f65caae1e036a73e015c9b438bf2",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/jaad_clean_road_vehicle_seed43.joblib",
+    "exists": true,
+    "bytes": 354464,
+    "sha256": "73562b91c576c7d26ad8dadbefef5db423654aaf54181e4ae32c29ab64b68c13",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/jaad_clean_road_vehicle_seed44.joblib",
+    "exists": true,
+    "bytes": 352220,
+    "sha256": "a85d9ae3438046cbd1df420959ae16c1a76fb4af18033fbf88f6e3df830ce883",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/jaad_beh_road_seed42.joblib",
+    "exists": true,
+    "bytes": 349153,
+    "sha256": "36a38ff6f45e2da8fe043f102cd52cb88ed3ad2e83891f3dfa7e3f81efe45a2c",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/jaad_beh_road_seed43.joblib",
+    "exists": true,
+    "bytes": 346841,
+    "sha256": "eb508781fe17e9d1d645f088fcb18f232c967df8ea0982b227bc9ac58b66e8d6",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/jaad_beh_road_seed44.joblib",
+    "exists": true,
+    "bytes": 349154,
+    "sha256": "dd8d4c17e2125c3603fccad4cab403a388213780643c916b98fb8eeca4eaa71f",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/jaad_beh_road_vehicle_seed42.joblib",
+    "exists": true,
+    "bytes": 348684,
+    "sha256": "f7c56db939e899b88ebda427a66a95c6ed036888bb9576cb820a70b512af4f6c",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/jaad_beh_road_vehicle_seed43.joblib",
+    "exists": true,
+    "bytes": 347189,
+    "sha256": "e9d2a684f0b06c412c7360307f5d9877a42351793e51af1a79d340f36a6e99eb",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/jaad_beh_road_vehicle_seed44.joblib",
+    "exists": true,
+    "bytes": 348957,
+    "sha256": "42797c9abff85882522403145e2e641b39947f352a9414918c61e8682a44bf7b",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/jaad_all_road_seed42.joblib",
+    "exists": true,
+    "bytes": 412528,
+    "sha256": "e515a887412e2336eeee8290b9567cd1541906a3e8d2ad4d8a21251500fa23de",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/jaad_all_road_seed43.joblib",
+    "exists": true,
+    "bytes": 417356,
+    "sha256": "6963f305229aa0e837203fc374faa5f350912efc181d86f9eb7600fde8db16ab",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/jaad_all_road_seed44.joblib",
+    "exists": true,
+    "bytes": 413888,
+    "sha256": "9881e1be2e3b5a5baff1989d1b1988c03e266994b73c6a41eab432ab2e5c7229",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/jaad_all_road_vehicle_seed42.joblib",
+    "exists": true,
+    "bytes": 416684,
+    "sha256": "72c614290787e58ce3c6bcce199af263d857a0788ad049a30b10a2c9eecb9ba7",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/jaad_all_road_vehicle_seed43.joblib",
+    "exists": true,
+    "bytes": 414576,
+    "sha256": "cd46794f29094fc6c77281e331a9d27f79d7d93543615bbaf181afb839a86c15",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/jaad_all_road_vehicle_seed44.joblib",
+    "exists": true,
+    "bytes": 417228,
+    "sha256": "825273b25ac95f4f44e5817fa988f35ed10ce7aec303e5cbac6e54ed561c8f12",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "07",
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/thesis/manuscript/bibliography.bib",
+    "exists": true,
+    "bytes": 21586,
+    "sha256": "bab67eb79f51ce80fce63b146c5ba96dca7910ba6248b32c2cac05bbe83bc834",
+    "matching_package_copies": [],
+    "roles": [
+      "contracts"
+    ],
+    "groups": [
+      "09"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/thesis/manuscript/Figures/build_ch4_attribution.py",
+    "exists": true,
+    "bytes": 4238,
+    "sha256": "2fa10af8e3ef88012c15b425426ddbe34ca12db41751f9476bec5a0d1631d251",
+    "matching_package_copies": [],
+    "roles": [
+      "code"
+    ],
+    "groups": [
+      "10"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/118_pie_ordered_history_xgb/models/ordered_seed42.joblib",
+    "exists": true,
+    "bytes": 384048,
+    "sha256": "22e43ada599f46092ee2c5962755f543a14f41f85b610f2993da697c4de60eb2",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "13"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/118_pie_ordered_history_xgb/models/ordered_seed43.joblib",
+    "exists": true,
+    "bytes": 385884,
+    "sha256": "b17a525e90656a085d80c4bbcf5038238823211482ae1a2b5081dfa6fd33113b",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "13"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/118_pie_ordered_history_xgb/models/ordered_seed44.joblib",
+    "exists": true,
+    "bytes": 384796,
+    "sha256": "3408b5ae5f5728b017e6819e49e303dc68689bdd02b381adefdc67caf6ebbfde",
+    "matching_package_copies": [],
+    "roles": [
+      "weights"
+    ],
+    "groups": [
+      "13"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/031_jaad_api_label_protocol_sensitivity/metrics/selected_model_predictions.csv",
+    "exists": true,
+    "bytes": 6172461,
+    "sha256": "719f06d9a3820688c16d1a1f8e6b0ea5f5dc74d1cb63be9d9a4a48a2c0cdd639",
+    "matching_package_copies": [],
+    "roles": [
+      "predictions"
+    ],
+    "groups": [
+      "07"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/thesis_confusion_matrices_2026_09_12/matrix_cells.csv",
+    "exists": true,
+    "bytes": 8344,
+    "sha256": "21a3690bfd00d9951afe1cafc1ca976cf32073d938acbe5af0c6473230ffa739",
+    "matching_package_copies": [],
+    "roles": [
+      "chapter_source_comment"
+    ],
+    "groups": [
+      "chapter"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/thesis_confusion_matrices_2026_09_12/sources_sha256.json",
+    "exists": true,
+    "bytes": 1246,
+    "sha256": "1f507bfe5cb28ef2aeaf5f73150d06069059519bda6c2418dce115af6233cf49",
+    "matching_package_copies": [],
+    "roles": [
+      "chapter_source_comment"
+    ],
+    "groups": [
+      "chapter"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/thesis/manuscript/Tables/ch4_pose_fusion.tex",
+    "exists": true,
+    "bytes": 1428,
+    "sha256": "3351b60cbd48d00ad4865275b60af1ea7ed94c1c00b262823bf1fb12ef7fa121",
+    "matching_package_copies": [],
+    "roles": [
+      "current_exhibit"
+    ],
+    "groups": [
+      "chapter"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/thesis/manuscript/Tables/ch4_initial_classifiers.tex",
+    "exists": true,
+    "bytes": 1087,
+    "sha256": "ae7c0f41c274a4129ae2c1b94c01f5ffd3e20a433d4326973f7f162bb2446a11",
+    "matching_package_copies": [],
+    "roles": [
+      "current_exhibit"
+    ],
+    "groups": [
+      "chapter"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/thesis/manuscript/Figures/ch4_cm_initial.tex",
+    "exists": true,
+    "bytes": 215,
+    "sha256": "54783cb72a7d00938751b985ceb2b793e2b93be445e3c8286f0b1b0182314cf1",
+    "matching_package_copies": [],
+    "roles": [
+      "current_exhibit"
+    ],
+    "groups": [
+      "chapter"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/thesis/manuscript/Tables/ch4_versions.tex",
+    "exists": true,
+    "bytes": 742,
+    "sha256": "6657aeb0a0beab52f398df28eb2fa78966d0135e4d95b818f1335a4195402ac9",
+    "matching_package_copies": [],
+    "roles": [
+      "current_exhibit"
+    ],
+    "groups": [
+      "chapter"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/thesis/manuscript/Tables/ch4_architecture.tex",
+    "exists": true,
+    "bytes": 685,
+    "sha256": "c455bfec8efce731c79988fe080d2b185384e28dcd72e88674754d6102444521",
+    "matching_package_copies": [],
+    "roles": [
+      "current_exhibit"
+    ],
+    "groups": [
+      "chapter"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/thesis/manuscript/Tables/ch4_jaad_native.tex",
+    "exists": true,
+    "bytes": 1618,
+    "sha256": "68937d31656ae447fe7ddce37818707d3f9699928645a1a727c88dd0524e1bd2",
+    "matching_package_copies": [],
+    "roles": [
+      "current_exhibit"
+    ],
+    "groups": [
+      "chapter"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/thesis/manuscript/Tables/ch4_psi.tex",
+    "exists": true,
+    "bytes": 796,
+    "sha256": "0133f8c0aa1f1b9744687c78772f97c496f026366c13a971d7937933504d54ac",
+    "matching_package_copies": [],
+    "roles": [
+      "current_exhibit"
+    ],
+    "groups": [
+      "chapter"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/thesis/manuscript/Figures/ch4_cm_psi.tex",
+    "exists": true,
+    "bytes": 209,
+    "sha256": "ad26167d089d01fb3eda192b025c79ab45a738ee5883a4c5f8a86bffc52d35f6",
+    "matching_package_copies": [],
+    "roles": [
+      "current_exhibit"
+    ],
+    "groups": [
+      "chapter"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/thesis/manuscript/Tables/ch4_neural.tex",
+    "exists": true,
+    "bytes": 1512,
+    "sha256": "417c29a6da85a96b9d4da20f09c4252d079c4128f184d83d75fdac4c3e90ce04",
+    "matching_package_copies": [],
+    "roles": [
+      "current_exhibit"
+    ],
+    "groups": [
+      "chapter"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/thesis/manuscript/Figures/ch4_cm_mslstm.tex",
+    "exists": true,
+    "bytes": 206,
+    "sha256": "3f8c8877e9a71a82e6b7e0ae2ef4f775b6e88a9320c9724b24cdf4ffb863f4ec",
+    "matching_package_copies": [],
+    "roles": [
+      "current_exhibit"
+    ],
+    "groups": [
+      "chapter"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/thesis/manuscript/Tables/ch4_pedcmt_capped.tex",
+    "exists": true,
+    "bytes": 1284,
+    "sha256": "d918258639d4d0f351ad0b440c1888b783946d569c67afc957101ae05ec4b640",
+    "matching_package_copies": [],
+    "roles": [
+      "current_exhibit"
+    ],
+    "groups": [
+      "chapter"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/thesis/manuscript/Figures/ch4_cm_pedcmt_capped.tex",
+    "exists": true,
+    "bytes": 265,
+    "sha256": "66fd1fbb05d25c600856244f155d1b6983fb11d61f9cd9bc88312d56f6d29a7c",
+    "matching_package_copies": [],
+    "roles": [
+      "current_exhibit"
+    ],
+    "groups": [
+      "chapter"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/thesis/manuscript/Tables/ch4_literature_pie.tex",
+    "exists": true,
+    "bytes": 1068,
+    "sha256": "895e1de6f41691e0b7b4564a832155b70b2f4d275164e7a0352b96f307db915c",
+    "matching_package_copies": [],
+    "roles": [
+      "current_exhibit"
+    ],
+    "groups": [
+      "chapter"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/thesis/manuscript/Tables/ch4_literature_jaad.tex",
+    "exists": true,
+    "bytes": 1766,
+    "sha256": "c034702fdae120c07b2eb4e0134988e896f448d8c24efd31646f23d67598dc02",
+    "matching_package_copies": [],
+    "roles": [
+      "current_exhibit"
+    ],
+    "groups": [
+      "chapter"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/thesis/manuscript/Tables/ch4_literature_psi.tex",
+    "exists": true,
+    "bytes": 788,
+    "sha256": "0c23aed7ad829567320397d619f5f91dbfda46f04d23667551032dcb0e5c8c41",
+    "matching_package_copies": [],
+    "roles": [
+      "current_exhibit"
+    ],
+    "groups": [
+      "chapter"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/thesis/manuscript/Tables/ch4_v2_cue_importance.tex",
+    "exists": true,
+    "bytes": 987,
+    "sha256": "e62ce90ab328949264ac725f1bb56b53ebed75c34e467322e666b56a075390e5",
+    "matching_package_copies": [],
+    "roles": [
+      "current_exhibit"
+    ],
+    "groups": [
+      "chapter"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/thesis/manuscript/Tables/ch4_runtime.tex",
+    "exists": true,
+    "bytes": 821,
+    "sha256": "5206622b483dc71baf69486a608a1ce6c1f7a64a97957cec25ca2836c3555d37",
+    "matching_package_copies": [],
+    "roles": [
+      "current_exhibit"
+    ],
+    "groups": [
+      "chapter"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/thesis/manuscript/Figures/ch4_runtime.tex",
+    "exists": true,
+    "bytes": 1348,
+    "sha256": "c262643e4d607e2a057f2ef96d78b52ef8ed7ec9ed404131a4bfeb3c8c752ddc",
+    "matching_package_copies": [],
+    "roles": [
+      "current_exhibit"
+    ],
+    "groups": [
+      "chapter"
+    ]
+  },
+  {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/thesis/manuscript/Tables/ch4_model_size.tex",
+    "exists": true,
+    "bytes": 1444,
+    "sha256": "640e723cb0ae4f456fe1b5dc8771c14c8a9aa59b8ce4e7228ace4cb20f95b834",
+    "matching_package_copies": [],
+    "roles": [
+      "current_exhibit"
+    ],
+    "groups": [
+      "chapter"
+    ]
+  }
+]

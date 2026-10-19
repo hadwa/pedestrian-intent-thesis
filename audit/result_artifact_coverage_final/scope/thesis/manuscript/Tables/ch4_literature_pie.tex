@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering
+\caption{Reported PIE results and our BIU-v2 XGBoost models (ours: three-run means).}\label{tab:ch4_literature_pie}
+\begin{tabularx}{\textwidth}{@{}Xrrrrr@{}}\toprule
+\textbf{Method} & \textbf{Acc.} & \textbf{\boldmath $F_1$} & \textbf{Precision} & \textbf{Recall} & \textbf{AUC} \\[3pt]
+\midrule
+PCPA~\cite{Kotseruba2021Benchmark} & 0.870 & 0.770 & -- & -- & 0.860\\[3pt]
+GTransPDM: with keypoints~\cite{Xie2025GTransPDM} & 0.900 & 0.820 & 0.860 & -- & 0.870\\[3pt]
+GTransPDM: without keypoints~\cite{Xie2025GTransPDM} & 0.920 & 0.860 & 0.850 & -- & 0.900\\[3pt]
+TrajFusionNet~\cite{Landry2025TrajFusionNet} & 0.920 & 0.860 & 0.850 & 0.880 & 0.910\\[3pt]
+PCAP-SL: selected ViT-16-s~\cite{Benkabou2026PCAPSL} & 0.934 & 0.863 & \textbf{0.898} & 0.830 & 0.896\\[3pt]
+\midrule
+Ours: XGBoost behavioral (\mbox{135-D}) & 0.9316 & 0.8770 & 0.8448 & 0.9118 & \textbf{0.9740}\\[3pt]
+Ours: XGBoost + road context (\mbox{195-D}) & \textbf{0.9350} & \textbf{0.8829} & 0.8517 & \textbf{0.9164} & 0.9731\\[3pt]
+\bottomrule
+\end{tabularx}
+\end{table}

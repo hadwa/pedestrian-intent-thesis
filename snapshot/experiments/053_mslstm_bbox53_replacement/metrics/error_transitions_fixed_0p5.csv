@@ -1,0 +1,10 @@
+comparison,condition,seed,raw_wrong_bbox53_correct,raw_correct_bbox53_wrong,both_wrong,both_correct
+C_to_G,core,42,249,156,213,3142
+C_to_G,core,43,304,179,210,3067
+C_to_G,core,44,236,138,212,3174
+F_to_H,biu_v1,42,193,146,223,3198
+F_to_H,biu_v1,43,190,124,221,3225
+F_to_H,biu_v1,44,220,119,226,3195
+E_to_I,biu_v2,42,244,142,217,3157
+E_to_I,biu_v2,43,218,144,203,3195
+E_to_I,biu_v2,44,195,101,216,3248

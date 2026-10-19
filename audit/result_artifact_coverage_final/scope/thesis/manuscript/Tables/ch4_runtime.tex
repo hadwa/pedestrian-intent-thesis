@@ -1,0 +1,15 @@
+\begin{table}[tbp]
+\centering
+\caption{Measured CPU milliseconds per observation window.}\label{tab:ch4_runtime}
+\begin{tabularx}{\textwidth}{@{}Xrrr@{}}\toprule
+\textbf{Model} & \shortstack{\textbf{Prediction}\\\textbf{only}\\\textbf{Mean (ms)}} & \shortstack{\textbf{Features +}\\\textbf{prediction}\\\textbf{Mean (ms)}} & \shortstack{\textbf{Features +}\\\textbf{prediction}\\\textbf{95th pct. (ms)}}\\[3pt]\midrule
+XGBoost behavioral (135-D) & 1.06 & 9.55 & 10.59\\[3pt]
+XGBoost + road context (195-D) & 1.17 & 9.64 & 10.33\\[3pt]
+\bottomrule
+\end{tabularx}
+\smallskip
+\begin{minipage}{\textwidth}\footnotesize
+Ready-feature means average three model seeds; sequential feature-to-prediction timings
+use seed 42 and include BBox extraction. The road row starts from available road geometry.
+\end{minipage}
+\end{table}

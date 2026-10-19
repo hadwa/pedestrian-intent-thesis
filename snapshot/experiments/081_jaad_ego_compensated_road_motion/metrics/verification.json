@@ -1,0 +1,12 @@
+{
+  "authenticated_phases": [
+    "audit",
+    "extract-development",
+    "prepare",
+    "validate",
+    "latency",
+    "report"
+  ],
+  "gate_status": "no_advance",
+  "status": "pass"
+}

@@ -1,0 +1,2018 @@
+[
+  {
+    "file": "docs/retained_predictor_complexity_2026_09_16/evidence/scripts/audit_models.py",
+    "line": 8,
+    "kind": "local_path_or_archive_reference",
+    "text": "R=Path('/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean');O=Path(__file__).resolve().parents[1]"
+  },
+  {
+    "file": "docs/retained_predictor_complexity_2026_09_16/evidence/scripts/audit_models.py",
+    "line": 132,
+    "kind": "local_path_or_archive_reference",
+    "text": "  if p and str(p).startswith('/home/abdelrahman/Hadwa/') and Path(p).is_file():source(p)"
+  },
+  {
+    "file": "docs/retained_predictor_complexity_2026_09_16/evidence/scripts/build_report.py",
+    "line": 85,
+    "kind": "local_path_or_archive_reference",
+    "text": "add('## H. Traceability, commands and deliverables\\n\\nPrimary calculation code: `scripts/audit_models.py` (actual structures, strict checkpoint loading, freeze policy, tensor inventories, file sizes and inference exports); `scripts/latency.py` (ready-input reconstruction, saved-prediction replay and CPU timing); `scripts/build_report.py` (unit conversions and presentation outputs). No training entry point or experiment writer was invoked. Imported architecture modules run with bytecode writing d"
+  },
+  {
+    "file": "docs/retained_predictor_complexity_2026_09_16/evidence/scripts/probe.py",
+    "line": 5,
+    "kind": "local_path_or_archive_reference",
+    "text": "R=Path('/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean')"
+  },
+  {
+    "file": "docs/retained_predictor_complexity_2026_09_16/evidence/scripts/verify_integrity.py",
+    "line": 5,
+    "kind": "local_path_or_archive_reference",
+    "text": "R=Path('/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean')"
+  },
+  {
+    "file": "experiments/037_pie_joint_biu_temporal_ego/scripts/run_experiment.py",
+    "line": 33,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation\")"
+  },
+  {
+    "file": "experiments/037_pie_joint_biu_temporal_ego/scripts/run_experiment.py",
+    "line": 34,
+    "kind": "local_path_or_archive_reference",
+    "text": "SPLIT_DIR = ARCHIVE_ROOT / \"data/splits_pie_wacv_pcpa_30_60_overlap06\""
+  },
+  {
+    "file": "experiments/037_pie_joint_biu_temporal_ego/scripts/run_experiment.py",
+    "line": 35,
+    "kind": "local_path_or_archive_reference",
+    "text": "FEATURE_DIR = ARCHIVE_ROOT / \"data/processed/features_wacv_pcpa_30_60_overlap06\""
+  },
+  {
+    "file": "experiments/037_pie_joint_biu_temporal_ego/scripts/run_experiment.py",
+    "line": 36,
+    "kind": "local_path_or_archive_reference",
+    "text": "KEYPOINTS_PATH = Path(\"/home/abdelrahman/Hadwa/pedestrian-intent-biu/data/data_keypoints_all.jsonl\")"
+  },
+  {
+    "file": "experiments/037_pie_joint_biu_temporal_ego/scripts/run_experiment.py",
+    "line": 37,
+    "kind": "local_path_or_archive_reference",
+    "text": "ANNOTATIONS_DIR = Path(\"/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations\")"
+  },
+  {
+    "file": "experiments/037_pie_joint_biu_temporal_ego/scripts/run_experiment.py",
+    "line": 38,
+    "kind": "local_path_or_archive_reference",
+    "text": "OBD_DIR = Path(\"/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_vehicle\")"
+  },
+  {
+    "file": "experiments/047_mslstm_vitpose_biu_pose_replacement/scripts/exp047_core.py",
+    "line": 55,
+    "kind": "local_path_or_archive_reference",
+    "text": "    \"/home/abdelrahman/Hadwa/Pedestrian-keypoints-crossing-intent/\""
+  },
+  {
+    "file": "experiments/047_mslstm_vitpose_biu_pose_replacement/scripts/exp047_core.py",
+    "line": 59,
+    "kind": "local_path_or_archive_reference",
+    "text": "    \"/home/abdelrahman/Hadwa/pedestrian-intent-biu/data/data_keypoints_all.jsonl\""
+  },
+  {
+    "file": "experiments/047_mslstm_vitpose_biu_pose_replacement/scripts/exp047_core.py",
+    "line": 62,
+    "kind": "local_path_or_archive_reference",
+    "text": "YOLO_POSE_ROOT = Path(\"/home/abdelrahman/Hadwa/MSLSTM-PID/Extracted Poses\")"
+  },
+  {
+    "file": "experiments/047_mslstm_vitpose_biu_pose_replacement/scripts/exp047_core.py",
+    "line": 64,
+    "kind": "local_path_or_archive_reference",
+    "text": "    \"/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/data_cache/pie_database.pkl\""
+  },
+  {
+    "file": "experiments/047_mslstm_vitpose_biu_pose_replacement/scripts/exp047_core.py",
+    "line": 66,
+    "kind": "local_path_or_archive_reference",
+    "text": "TRAIN_INDEX_PATH = Path(\"/home/abdelrahman/Hadwa/MSLSTM-PID/checkpoints/train_index.pkl\")"
+  },
+  {
+    "file": "experiments/047_mslstm_vitpose_biu_pose_replacement/scripts/exp047_core.py",
+    "line": 67,
+    "kind": "local_path_or_archive_reference",
+    "text": "PIE_ANNOTATION_ROOT = Path(\"/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations\")"
+  },
+  {
+    "file": "experiments/047_mslstm_vitpose_biu_pose_replacement/scripts/exp047_core.py",
+    "line": 68,
+    "kind": "local_path_or_archive_reference",
+    "text": "PIE_PARSER_PATH = Path(\"/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/utilities/pie_data.py\")"
+  },
+  {
+    "file": "experiments/047_mslstm_vitpose_biu_pose_replacement/scripts/exp047_core.py",
+    "line": 69,
+    "kind": "local_path_or_archive_reference",
+    "text": "SCALERS_PATH = Path(\"/home/abdelrahman/Hadwa/MSLSTM-PID/checkpoints/scalers.pkl\")"
+  },
+  {
+    "file": "experiments/047_mslstm_vitpose_biu_pose_replacement/scripts/run_experiment.py",
+    "line": 205,
+    "kind": "local_path_or_archive_reference",
+    "text": "    root = Path(\"/home/abdelrahman/Hadwa/MSLSTM-PID/Extracted Poses\")"
+  },
+  {
+    "file": "experiments/048_mslstm_practical_behavior_replacement/scripts/exp048_core.py",
+    "line": 46,
+    "kind": "local_path_or_archive_reference",
+    "text": "    \"/home/abdelrahman/Hadwa/Pedestrian-keypoints-crossing-intent/\""
+  },
+  {
+    "file": "experiments/048_mslstm_practical_behavior_replacement/scripts/exp048_core.py",
+    "line": 50,
+    "kind": "local_path_or_archive_reference",
+    "text": "YOLOP_ROOT = Path(\"/home/abdelrahman/Hadwa/MSLSTM-PID/Extracted YOLOP\")"
+  },
+  {
+    "file": "experiments/048_mslstm_practical_behavior_replacement/scripts/run_biu_v1_amendment.py",
+    "line": 47,
+    "kind": "local_path_or_archive_reference",
+    "text": "    \"/home/abdelrahman/Hadwa/Pedestrian-keypoints-crossing-intent/\""
+  },
+  {
+    "file": "experiments/049_exp048_to_jaad_zero_shot/scripts/jaad_protocol.py",
+    "line": 17,
+    "kind": "local_path_or_archive_reference",
+    "text": "JAAD_ROOT = Path(\"/home/abdelrahman/Hadwa/datasets/JAAD\")"
+  },
+  {
+    "file": "experiments/049_exp048_to_jaad_zero_shot/scripts/yolop.py",
+    "line": 17,
+    "kind": "local_path_or_archive_reference",
+    "text": "YOLOP_ROOT = Path(\"/home/abdelrahman/Hadwa/MSLSTM-PID/YOLOP\")"
+  },
+  {
+    "file": "experiments/049_exp048_to_jaad_zero_shot/scripts/yolop.py",
+    "line": 21,
+    "kind": "local_path_or_archive_reference",
+    "text": "YOLOP_NOTEBOOK = Path(\"/home/abdelrahman/Hadwa/MSLSTM-PID/Offline Extraction/yolop-extraction.ipynb\")"
+  },
+  {
+    "file": "experiments/049_exp048_to_jaad_zero_shot/scripts/yolop.py",
+    "line": 23,
+    "kind": "local_path_or_archive_reference",
+    "text": "PIE_VIDEO_ROOT = Path(\"/home/abdelrahman/Hadwa/PIE_Dataset\")"
+  },
+  {
+    "file": "experiments/049_exp048_to_jaad_zero_shot/scripts/yolop.py",
+    "line": 24,
+    "kind": "local_path_or_archive_reference",
+    "text": "PIE_ANNOTATION_ROOT = Path(\"/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations\")"
+  },
+  {
+    "file": "experiments/049_exp048_to_jaad_zero_shot/scripts/yolop.py",
+    "line": 25,
+    "kind": "local_path_or_archive_reference",
+    "text": "PIE_YOLOP_CACHE_ROOT = Path(\"/home/abdelrahman/Hadwa/MSLSTM-PID/Extracted YOLOP\")"
+  },
+  {
+    "file": "experiments/049_exp048_to_jaad_zero_shot/scripts/yolop.py",
+    "line": 26,
+    "kind": "local_path_or_archive_reference",
+    "text": "JAAD_IMAGE_ROOT = Path(\"/home/abdelrahman/Hadwa/datasets/JAAD/images\")"
+  },
+  {
+    "file": "experiments/050_mslstm_practical_behavior_replacement_pie_16f_tte30_60/scripts/run_experiment.py",
+    "line": 30,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation\")"
+  },
+  {
+    "file": "experiments/050_mslstm_practical_behavior_replacement_pie_16f_tte30_60/scripts/run_experiment.py",
+    "line": 31,
+    "kind": "local_path_or_archive_reference",
+    "text": "MSLSTM_ROOT = Path(\"/home/abdelrahman/Hadwa/MSLSTM-PID\")"
+  },
+  {
+    "file": "experiments/050_mslstm_practical_behavior_replacement_pie_16f_tte30_60/scripts/run_experiment.py",
+    "line": 32,
+    "kind": "local_path_or_archive_reference",
+    "text": "SPLIT_ROOT = ARCHIVE_ROOT / \"data/splits_pie_wacv_pcpa_30_60_overlap06\""
+  },
+  {
+    "file": "experiments/050_mslstm_practical_behavior_replacement_pie_16f_tte30_60/scripts/run_experiment.py",
+    "line": 34,
+    "kind": "local_path_or_archive_reference",
+    "text": "POSE_PATH = Path(\"/home/abdelrahman/Hadwa/pedestrian-intent-biu/data/data_keypoints_all.jsonl\")"
+  },
+  {
+    "file": "experiments/053_mslstm_bbox53_replacement/scripts/exp053_core.py",
+    "line": 17,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_BBOX_CORE_PATH = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation/src/features/bbox_features.py\")"
+  },
+  {
+    "file": "experiments/053_mslstm_bbox53_replacement/scripts/exp053_core.py",
+    "line": 31,
+    "kind": "local_path_or_archive_reference",
+    "text": "_bbox = _load_module(\"_archive_bbox_core_for_exp053\", ARCHIVE_BBOX_CORE_PATH)"
+  },
+  {
+    "file": "experiments/053_mslstm_bbox53_replacement/scripts/run_experiment.py",
+    "line": 25,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_FEATURE_ROOT = Path("
+  },
+  {
+    "file": "experiments/053_mslstm_bbox53_replacement/scripts/run_experiment.py",
+    "line": 26,
+    "kind": "local_path_or_archive_reference",
+    "text": "    \"/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/processed/features_wacv_pcpa_30_60_overlap06\""
+  },
+  {
+    "file": "experiments/053_mslstm_bbox53_replacement/scripts/run_experiment.py",
+    "line": 83,
+    "kind": "local_path_or_archive_reference",
+    "text": "    tables = [pd.read_csv(ARCHIVE_FEATURE_ROOT / f\"bbox_{split}.csv\") for split in splits]"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/numpy/distutils/misc_util.py",
+    "line": 396,
+    "kind": "local_path_or_archive_reference",
+    "text": "    ``/home/username``"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/numpy/lib/_datasource.py",
+    "line": 14,
+    "kind": "local_path_or_archive_reference",
+    "text": "- local files : '/home/guido/src/local/data.txt'"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/numpy/lib/_datasource.py",
+    "line": 232,
+    "kind": "local_path_or_archive_reference",
+    "text": "        >>> ds = np.DataSource('/home/guido')"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/numpy/lib/_datasource.py",
+    "line": 236,
+    "kind": "local_path_or_archive_reference",
+    "text": "        '/home/guido/www.google.com/index.html'"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/numpy/lib/_datasource.py",
+    "line": 239,
+    "kind": "local_path_or_archive_reference",
+    "text": "        >>> ds.open('/home/guido/foobar.txt')"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/numpy/lib/_datasource.py",
+    "line": 240,
+    "kind": "local_path_or_archive_reference",
+    "text": "        <open file '/home/guido.foobar.txt', mode 'r' at 0x91d4430>"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/numpy/lib/_datasource.py",
+    "line": 241,
+    "kind": "local_path_or_archive_reference",
+    "text": "        >>> ds.abspath('/home/guido/foobar.txt')"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/numpy/lib/_datasource.py",
+    "line": 242,
+    "kind": "local_path_or_archive_reference",
+    "text": "        '/tmp/.../home/guido/foobar.txt'"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/numpy/lib/_datasource.py",
+    "line": 403,
+    "kind": "local_path_or_archive_reference",
+    "text": "        #        path = /home/guido/datafile.txt"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/numpy/lib/_datasource.py",
+    "line": 404,
+    "kind": "local_path_or_archive_reference",
+    "text": "        #        destpath = /home/alex/"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/numpy/lib/_datasource.py",
+    "line": 406,
+    "kind": "local_path_or_archive_reference",
+    "text": "        #        upath == '/home/alex/home/guido/datafile.txt'"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/numpy/lib/_datasource.py",
+    "line": 564,
+    "kind": "local_path_or_archive_reference",
+    "text": "        >>> repos = np.lib._datasource.Repository('/home/user/data/dir/')"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/numpy/lib/utils.py",
+    "line": 1070,
+    "kind": "local_path_or_archive_reference",
+    "text": "    >>> np.safe_eval('open(\"/home/user/.ssh/id_dsa\").read()')"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/pip/_internal/utils/filetypes.py",
+    "line": 19,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_EXTENSIONS = ZIP_EXTENSIONS + BZ2_EXTENSIONS + TAR_EXTENSIONS + XZ_EXTENSIONS"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/pip/_internal/utils/filetypes.py",
+    "line": 25,
+    "kind": "local_path_or_archive_reference",
+    "text": "    if ext in ARCHIVE_EXTENSIONS:"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/pip/_vendor/distlib/util.py",
+    "line": 1202,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_EXTENSIONS = ('.tar.gz', '.tar.bz2', '.tar', '.zip',"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/scipy/integrate/_quadpack_py.py",
+    "line": 410,
+    "kind": "local_path_or_archive_reference",
+    "text": "       lib = ctypes.CDLL('/home/.../testlib.*') #use absolute path"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/_distutils/archive_util.py",
+    "line": 194,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_FORMATS = {"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/_distutils/archive_util.py",
+    "line": 210,
+    "kind": "local_path_or_archive_reference",
+    "text": "        if format not in ARCHIVE_FORMATS:"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/_distutils/archive_util.py",
+    "line": 276,
+    "kind": "local_path_or_archive_reference",
+    "text": "        format_info = ARCHIVE_FORMATS[format]"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py",
+    "line": 27,
+    "kind": "local_path_or_archive_reference",
+    "text": "    from ..archive_util import ARCHIVE_FORMATS"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py",
+    "line": 31,
+    "kind": "local_path_or_archive_reference",
+    "text": "        (\"formats=\" + format, None, ARCHIVE_FORMATS[format][2])"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py",
+    "line": 32,
+    "kind": "local_path_or_archive_reference",
+    "text": "        for format in ARCHIVE_FORMATS.keys()"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/_distutils/tests/test_archive_util.py",
+    "line": 11,
+    "kind": "local_path_or_archive_reference",
+    "text": "    ARCHIVE_FORMATS,"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/_distutils/tests/test_archive_util.py",
+    "line": 251,
+    "kind": "local_path_or_archive_reference",
+    "text": "        ARCHIVE_FORMATS['xxx'] = (_breaks, [], 'xxx file')"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/_distutils/tests/test_archive_util.py",
+    "line": 259,
+    "kind": "local_path_or_archive_reference",
+    "text": "            ARCHIVE_FORMATS.pop('xxx')"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/_distutils/tests/test_dir_util.py",
+    "line": 100,
+    "kind": "local_path_or_archive_reference",
+    "text": "            assert ensure_relative('/home/foo') == 'home/foo'"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/_distutils/tests/test_sdist.py",
+    "line": 8,
+    "kind": "local_path_or_archive_reference",
+    "text": "from distutils.archive_util import ARCHIVE_FORMATS"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/_distutils/tests/test_sdist.py",
+    "line": 281,
+    "kind": "local_path_or_archive_reference",
+    "text": "        num_formats = len(ARCHIVE_FORMATS.keys())"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/_distutils/tests/test_util.py",
+    "line": 68,
+    "kind": "local_path_or_archive_reference",
+    "text": "        assert convert_path('/home/to/my/stuff') == expected"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/_distutils/tests/test_util.py",
+    "line": 69,
+    "kind": "local_path_or_archive_reference",
+    "text": "        assert convert_path(pathlib.Path('/home/to/my/stuff')) == expected"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/_distutils/tests/test_util.py",
+    "line": 144,
+    "kind": "local_path_or_archive_reference",
+    "text": "            '/home/distutils',"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/_distutils/tests/test_util.py",
+    "line": 149,
+    "kind": "local_path_or_archive_reference",
+    "text": "            assert os.environ['HOME'] == '/home/distutils'"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/package_index.py",
+    "line": 816,
+    "kind": "local_path_or_archive_reference",
+    "text": "        >>> san('/home/user/.ssh/authorized_keys')"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/tests/test_easy_install.py",
+    "line": 1432,
+    "kind": "local_path_or_archive_reference",
+    "text": "    #            \"/home/user/.pyenv/versions/3.9.10 \""
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/tests/test_easy_install.py",
+    "line": 1433,
+    "kind": "local_path_or_archive_reference",
+    "text": "    #            \"/home/user/.pyenv/versions/3.9.10/lib \""
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/tests/test_easy_install.py",
+    "line": 1434,
+    "kind": "local_path_or_archive_reference",
+    "text": "    #            \"/home/user/.pyenv/versions/3.9.10/lib/python3.9 \""
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/tests/test_easy_install.py",
+    "line": 1435,
+    "kind": "local_path_or_archive_reference",
+    "text": "    #            \"/home/user/.pyenv/versions/3.9.10/lib/python3.9/lib-dynload\")"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/tests/test_easy_install.py",
+    "line": 1438,
+    "kind": "local_path_or_archive_reference",
+    "text": "    #            \"/home/user/.pyenv/versions/3.9.10 \""
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/tests/test_easy_install.py",
+    "line": 1439,
+    "kind": "local_path_or_archive_reference",
+    "text": "    #            \"/home/user/.pyenv/versions/3.9.10/lib \""
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/tests/test_easy_install.py",
+    "line": 1440,
+    "kind": "local_path_or_archive_reference",
+    "text": "    #            \"/home/user/.pyenv/versions/3.9.10/lib/python3.9 \""
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/setuptools/tests/test_easy_install.py",
+    "line": 1441,
+    "kind": "local_path_or_archive_reference",
+    "text": "    #            \"/home/user/.pyenv/versions/3.9.10/lib/python3.9/lib-dynload\")"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/sklearn/datasets/_california_housing.py",
+    "line": 47,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE = RemoteFileMetadata("
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/sklearn/datasets/_california_housing.py",
+    "line": 174,
+    "kind": "local_path_or_archive_reference",
+    "text": "            \"Downloading Cal. housing from {} to {}\".format(ARCHIVE.url, data_home)"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/sklearn/datasets/_california_housing.py",
+    "line": 178,
+    "kind": "local_path_or_archive_reference",
+    "text": "            ARCHIVE,"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/sklearn/datasets/_covtype.py",
+    "line": 40,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE = RemoteFileMetadata("
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/sklearn/datasets/_covtype.py",
+    "line": 200,
+    "kind": "local_path_or_archive_reference",
+    "text": "            logger.info(f\"Downloading {ARCHIVE.url}\")"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/sklearn/datasets/_covtype.py",
+    "line": 202,
+    "kind": "local_path_or_archive_reference",
+    "text": "                ARCHIVE, dirname=temp_dir, n_retries=n_retries, delay=delay"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/sklearn/datasets/_kddcup99.py",
+    "line": 34,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE = RemoteFileMetadata("
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/sklearn/datasets/_kddcup99.py",
+    "line": 42,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_10_PERCENT = RemoteFileMetadata("
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/sklearn/datasets/_kddcup99.py",
+    "line": 311,
+    "kind": "local_path_or_archive_reference",
+    "text": "        archive = ARCHIVE_10_PERCENT"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/sklearn/datasets/_kddcup99.py",
+    "line": 314,
+    "kind": "local_path_or_archive_reference",
+    "text": "        archive = ARCHIVE"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/sklearn/datasets/_lfw.py",
+    "line": 34,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE = RemoteFileMetadata("
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/sklearn/datasets/_lfw.py",
+    "line": 42,
+    "kind": "local_path_or_archive_reference",
+    "text": "FUNNELED_ARCHIVE = RemoteFileMetadata("
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/sklearn/datasets/_lfw.py",
+    "line": 101,
+    "kind": "local_path_or_archive_reference",
+    "text": "        archive = FUNNELED_ARCHIVE"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/sklearn/datasets/_lfw.py",
+    "line": 104,
+    "kind": "local_path_or_archive_reference",
+    "text": "        archive = ARCHIVE"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/sklearn/datasets/_species_distributions.py",
+    "line": 70,
+    "kind": "local_path_or_archive_reference",
+    "text": "DATA_ARCHIVE_NAME = \"species_coverage.pkz\""
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/sklearn/datasets/_species_distributions.py",
+    "line": 261,
+    "kind": "local_path_or_archive_reference",
+    "text": "    archive_path = _pkl_filepath(data_home, DATA_ARCHIVE_NAME)"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/sklearn/datasets/_twenty_newsgroups.py",
+    "line": 60,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE = RemoteFileMetadata("
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/sklearn/datasets/_twenty_newsgroups.py",
+    "line": 78,
+    "kind": "local_path_or_archive_reference",
+    "text": "    logger.info(\"Downloading dataset from %s (14 MB)\", ARCHIVE.url)"
+  },
+  {
+    "file": "experiments/062_hybrid_tree_anchor_context_correction_skl152/.venv/lib/python3.10/site-packages/sklearn/datasets/_twenty_newsgroups.py",
+    "line": 80,
+    "kind": "local_path_or_archive_reference",
+    "text": "        ARCHIVE, dirname=target_dir, n_retries=n_retries, delay=delay"
+  },
+  {
+    "file": "experiments/063_pie_corrected_yolop_road_relative_context/scripts/extract_trainval.py",
+    "line": 36,
+    "kind": "local_path_or_archive_reference",
+    "text": "PIE_VIDEO_ROOT = Path(\"/home/abdelrahman/Hadwa/PIE_Dataset\")"
+  },
+  {
+    "file": "experiments/063_pie_corrected_yolop_road_relative_context/scripts/extract_trainval.py",
+    "line": 38,
+    "kind": "local_path_or_archive_reference",
+    "text": "    \"/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations\""
+  },
+  {
+    "file": "experiments/063_pie_corrected_yolop_road_relative_context/scripts/yolop_inference.py",
+    "line": 14,
+    "kind": "local_path_or_archive_reference",
+    "text": "YOLOP_ROOT = Path(\"/home/abdelrahman/Hadwa/MSLSTM-PID/YOLOP\")"
+  },
+  {
+    "file": "experiments/063_pie_corrected_yolop_road_relative_context/scripts/yolop_inference.py",
+    "line": 17,
+    "kind": "local_path_or_archive_reference",
+    "text": "    \"/home/abdelrahman/Hadwa/MSLSTM-PID/Offline Extraction/yolop-extraction.ipynb\""
+  },
+  {
+    "file": "experiments/075_pie_twinlitenetplus_road_context/scripts/extract_development.py",
+    "line": 47,
+    "kind": "local_path_or_archive_reference",
+    "text": "    \"/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations\""
+  },
+  {
+    "file": "experiments/075_pie_twinlitenetplus_road_context/scripts/extract_development.py",
+    "line": 49,
+    "kind": "local_path_or_archive_reference",
+    "text": "PIE_VIDEO_ROOT = Path(\"/home/abdelrahman/Hadwa/PIE_Dataset\")"
+  },
+  {
+    "file": "experiments/076_pie_two_stage_early_late_xgb/scripts/run_experiment.py",
+    "line": 33,
+    "kind": "local_path_or_archive_reference",
+    "text": "KEYPOINTS = Path(\"/home/abdelrahman/Hadwa/pedestrian-intent-biu/data/data_keypoints_all.jsonl\")"
+  },
+  {
+    "file": "experiments/076_pie_two_stage_early_late_xgb/scripts/run_experiment.py",
+    "line": 34,
+    "kind": "local_path_or_archive_reference",
+    "text": "ANNOTATIONS = Path(\"/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations\")"
+  },
+  {
+    "file": "experiments/076_pie_two_stage_early_late_xgb/scripts/run_experiment.py",
+    "line": 35,
+    "kind": "local_path_or_archive_reference",
+    "text": "OBD = Path(\"/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_vehicle\")"
+  },
+  {
+    "file": "experiments/077_jaad_two_stage_early_late_xgb_transfer/scripts/run_experiment.py",
+    "line": 31,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation\")"
+  },
+  {
+    "file": "experiments/077_jaad_two_stage_early_late_xgb_transfer/scripts/run_experiment.py",
+    "line": 32,
+    "kind": "local_path_or_archive_reference",
+    "text": "SPLIT_DIR = ARCHIVE_ROOT / \"data/jaad_splits_event_16_30_60_overlap08_default\""
+  },
+  {
+    "file": "experiments/077_jaad_two_stage_early_late_xgb_transfer/scripts/run_experiment.py",
+    "line": 33,
+    "kind": "local_path_or_archive_reference",
+    "text": "FEATURE_DIR = ARCHIVE_ROOT / \"data/jaad_features_event_16_30_60_overlap08_default\""
+  },
+  {
+    "file": "experiments/077_jaad_two_stage_early_late_xgb_transfer/scripts/run_experiment.py",
+    "line": 38,
+    "kind": "local_path_or_archive_reference",
+    "text": "ORIGINAL_JAAD_KEYPOINTS = ARCHIVE_ROOT / \"data/jaad_keypoints_vitpose_s.jsonl\""
+  },
+  {
+    "file": "experiments/079_jaad_api_protocol_two_stage_xgb/scripts/run_pose_extraction.py",
+    "line": 29,
+    "kind": "local_path_or_archive_reference",
+    "text": "DEFAULT_DATASET = Path(\"/home/abdelrahman/Hadwa/datasets/JAAD\")"
+  },
+  {
+    "file": "experiments/079_jaad_api_protocol_two_stage_xgb/scripts/run_pose_extraction.py",
+    "line": 31,
+    "kind": "local_path_or_archive_reference",
+    "text": "    \"/home/abdelrahman/miniconda3/envs/cv_env/lib/python3.9/site-packages/mmpose/.mim/configs/\""
+  },
+  {
+    "file": "experiments/079_jaad_api_protocol_two_stage_xgb/scripts/run_pose_extraction.py",
+    "line": 35,
+    "kind": "local_path_or_archive_reference",
+    "text": "    \"/home/abdelrahman/Hadwa/Pedestrian-keypoints-crossing-intent/classification/models/checkpoints/\""
+  },
+  {
+    "file": "experiments/081_jaad_ego_compensated_road_motion/scripts/extract.py",
+    "line": 132,
+    "kind": "local_path_or_archive_reference",
+    "text": "        \"/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/jaad_splits_event_16_30_60_overlap08_default/test.csv\""
+  },
+  {
+    "file": "experiments/081_jaad_ego_compensated_road_motion/scripts/extract.py",
+    "line": 800,
+    "kind": "local_path_or_archive_reference",
+    "text": "        \"/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/jaad_splits_event_16_30_60_overlap08_default/test.csv\""
+  },
+  {
+    "file": "experiments/081_jaad_ego_compensated_road_motion/scripts/jaad_data.py",
+    "line": 19,
+    "kind": "local_path_or_archive_reference",
+    "text": "JAAD_ROOT = Path(\"/home/abdelrahman/Hadwa/datasets/JAAD\")"
+  },
+  {
+    "file": "experiments/081_jaad_ego_compensated_road_motion/scripts/latency.py",
+    "line": 281,
+    "kind": "local_path_or_archive_reference",
+    "text": "    video_root = Path(\"/home/abdelrahman/Hadwa/PIE_Dataset\")"
+  },
+  {
+    "file": "experiments/081_jaad_ego_compensated_road_motion/scripts/latency.py",
+    "line": 283,
+    "kind": "local_path_or_archive_reference",
+    "text": "        \"/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations\""
+  },
+  {
+    "file": "experiments/083_jaad_pcpa_aligned_exp082/scripts/cohort.py",
+    "line": 23,
+    "kind": "local_path_or_archive_reference",
+    "text": "JAAD_ROOT = Path(\"/home/abdelrahman/Hadwa/datasets/JAAD\")"
+  },
+  {
+    "file": "experiments/083_jaad_pcpa_aligned_exp082/scripts/coverage.py",
+    "line": 17,
+    "kind": "local_path_or_archive_reference",
+    "text": "JAAD_IMAGES_ROOT = Path(\"/home/abdelrahman/Hadwa/datasets/JAAD/images\")"
+  },
+  {
+    "file": "experiments/089_pedcmt_standardized_jaad_biu_transfer/scripts/exp089_data.py",
+    "line": 19,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation\")"
+  },
+  {
+    "file": "experiments/089_pedcmt_standardized_jaad_biu_transfer/scripts/exp089_data.py",
+    "line": 20,
+    "kind": "local_path_or_archive_reference",
+    "text": "SPLIT_ROOT = ARCHIVE_ROOT / \"data/jaad_splits_event_16_30_60_overlap08_default\""
+  },
+  {
+    "file": "experiments/098_jaad_matched_biu_xgb/scripts/run_experiment.py",
+    "line": 29,
+    "kind": "local_path_or_archive_reference",
+    "text": "SPLITS = Path('/home/abdelrahman/Hadwa/datasets/JAAD/split_ids/default')"
+  },
+  {
+    "file": "experiments/099_jaad_exp077_vehicle_action/scripts/run_experiment.py",
+    "line": 31,
+    "kind": "local_path_or_archive_reference",
+    "text": "VEHICLE = Path('/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle')"
+  },
+  {
+    "file": "experiments/100_jaad_exp099_biu_pathways/scripts/run_experiment.py",
+    "line": 38,
+    "kind": "local_path_or_archive_reference",
+    "text": "SPLITS = Path('/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/jaad_splits_event_16_30_60_overlap08_default')"
+  },
+  {
+    "file": "experiments/102_jaad_api_matched_biu/scripts/run_experiment.py",
+    "line": 46,
+    "kind": "local_path_or_archive_reference",
+    "text": "OLD_BBOX = Path('/home/abdelrahman/Hadwa/BIU-PID-Distillation/src/features/bbox_features.py')"
+  },
+  {
+    "file": "experiments/113_psi_native_biu_xgb/official_code/baseline/main.py",
+    "line": 48,
+    "kind": "local_path_or_archive_reference",
+    "text": "    # /home/scott/Work/Toyota/PSI_Competition/Dataset"
+  },
+  {
+    "file": "experiments/113_psi_native_biu_xgb/official_code/baseline/main.py",
+    "line": 50,
+    "kind": "local_path_or_archive_reference",
+    "text": "    args.dataset_root_path = '/home/scott/Work/Toyota/PSI_Competition/Dataset'"
+  },
+  {
+    "file": "experiments/115_jaad_road_vehicle_state_xgb/scripts/report.py",
+    "line": 103,
+    "kind": "local_path_or_archive_reference",
+    "text": "lines+=['', 'Test-window attribution percentages, mean \u00b1 sample seed SD. Exact training-path-statistics feature TreeSHAP uses raw log-odds: sum signed feature contributions within each branch per window; average the absolute net; normalize included branches to100 within each seed; average across seeds. Baseline excluded. This is aggregation of feature Shapley values, not an independent coalition/group-SHAP computation.','', 'Vehicle-state share is smaller with road present than in the clean V197"
+  },
+  {
+    "file": "experiments/115_jaad_road_vehicle_state_xgb/scripts/report.py",
+    "line": 104,
+    "kind": "local_path_or_archive_reference",
+    "text": "rel=str(OUT.relative_to(ROOT));py='/home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python'"
+  },
+  {
+    "file": "experiments/115_jaad_road_vehicle_state_xgb/scripts/run.py",
+    "line": 89,
+    "kind": "local_path_or_archive_reference",
+    "text": "  path=source(Path('/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle')/f'{video}_vehicle.xml')"
+  },
+  {
+    "file": "experiments/119_pedcmt_v2_capped_completion/scripts/audit_mslstm_gap.py",
+    "line": 27,
+    "kind": "local_path_or_archive_reference",
+    "text": "    image_root = Path('/home/abdelrahman/Hadwa/datasets/JAAD/images')"
+  },
+  {
+    "file": "experiments/120_jaad_mslstm_v2_completion/scripts/run.py",
+    "line": 117,
+    "kind": "local_path_or_archive_reference",
+    "text": "        subprocess.run(['/home/abdelrahman/miniconda3/envs/mslstm_pid_env/bin/python','-u',str(worker),str(request)],check=True)"
+  },
+  {
+    "file": "experiments/120_jaad_mslstm_v2_completion/scripts/run.py",
+    "line": 238,
+    "kind": "local_path_or_archive_reference",
+    "text": "    src(C.ARCHIVE_BBOX_CORE_PATH)"
+  },
+  {
+    "file": "experiments/121_jaad_mslstm_ap_selection/scripts/report.py",
+    "line": 50,
+    "kind": "local_path_or_archive_reference",
+    "text": "'','Training: `env LD_LIBRARY_PATH=/usr/lib/wsl/lib PYTHONDONTWRITEBYTECODE=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 /home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python -u experiments/121_jaad_mslstm_ap_selection/scripts/run.py`.',"
+  },
+  {
+    "file": "experiments/121_jaad_mslstm_ap_selection/scripts/report.py",
+    "line": 51,
+    "kind": "local_path_or_archive_reference",
+    "text": "'','Verification/report: `env PYTHONDONTWRITEBYTECODE=1 /home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python experiments/121_jaad_mslstm_ap_selection/scripts/report.py`.',"
+  },
+  {
+    "file": "experiments/121_jaad_mslstm_ap_selection/scripts/run.py",
+    "line": 114,
+    "kind": "local_path_or_archive_reference",
+    "text": "    P.src(P.C.ARCHIVE_BBOX_CORE_PATH)"
+  },
+  {
+    "file": "experiments/122_jaad_mslstm_no_noise/scripts/report.py",
+    "line": 68,
+    "kind": "local_path_or_archive_reference",
+    "text": "'Training: `env LD_LIBRARY_PATH=/usr/lib/wsl/lib PYTHONDONTWRITEBYTECODE=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 /home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python -u experiments/122_jaad_mslstm_no_noise/scripts/run.py`.',"
+  },
+  {
+    "file": "experiments/122_jaad_mslstm_no_noise/scripts/report.py",
+    "line": 69,
+    "kind": "local_path_or_archive_reference",
+    "text": "'','Report: `env PYTHONDONTWRITEBYTECODE=1 /home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python experiments/122_jaad_mslstm_no_noise/scripts/report.py`.',"
+  },
+  {
+    "file": "experiments/122_jaad_mslstm_no_noise/scripts/run.py",
+    "line": 68,
+    "kind": "local_path_or_archive_reference",
+    "text": "    P.src(P.C.ARCHIVE_BBOX_CORE_PATH)"
+  },
+  {
+    "file": "experiments/122_jaad_mslstm_no_noise/test_evaluation/evaluate.py",
+    "line": 100,
+    "kind": "local_path_or_archive_reference",
+    "text": "        '','Command: `env LD_LIBRARY_PATH=/usr/lib/wsl/lib PYTHONDONTWRITEBYTECODE=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 /home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python -u experiments/122_jaad_mslstm_no_noise/test_evaluation/evaluate.py`.',"
+  },
+  {
+    "file": "experiments/123_jaad_mslstm_bounded_correction/scripts/report.py",
+    "line": 65,
+    "kind": "local_path_or_archive_reference",
+    "text": "'','Training: `env LD_LIBRARY_PATH=/usr/lib/wsl/lib PYTHONDONTWRITEBYTECODE=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 /home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python -u experiments/123_jaad_mslstm_bounded_correction/scripts/run.py`.',"
+  },
+  {
+    "file": "experiments/123_jaad_mslstm_bounded_correction/scripts/report.py",
+    "line": 66,
+    "kind": "local_path_or_archive_reference",
+    "text": "'','Report: `env PYTHONDONTWRITEBYTECODE=1 /home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python experiments/123_jaad_mslstm_bounded_correction/scripts/report.py`.']"
+  },
+  {
+    "file": "experiments/123_jaad_mslstm_bounded_correction/scripts/run.py",
+    "line": 114,
+    "kind": "local_path_or_archive_reference",
+    "text": "    P.src(P.C.ARCHIVE_BBOX_CORE_PATH)"
+  },
+  {
+    "file": "experiments/124_psi_matched_lightweight_ablation/run.py",
+    "line": 128,
+    "kind": "local_path_or_archive_reference",
+    "text": "        'Command: `env PYTHONDONTWRITEBYTECODE=1 /home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python -u experiments/124_psi_matched_lightweight_ablation/run.py`. CPU fitting preserves the historical4-thread recipe; no GPU perception needed.','',"
+  },
+  {
+    "file": "experiments/aibthings_pie_val_fixed_0p5_selection/run_cluster_bootstrap.py",
+    "line": 18,
+    "kind": "local_path_or_archive_reference",
+    "text": "PIE_DIR = \"/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06\""
+  },
+  {
+    "file": "experiments/aibthings_pie_val_fixed_0p5_selection/run_cluster_bootstrap.py",
+    "line": 19,
+    "kind": "local_path_or_archive_reference",
+    "text": "JAAD_PROB_DIR = \"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/aibthings_jaad_all_models_fixed_0p5_30_60/probabilities\""
+  },
+  {
+    "file": "experiments/aibthings_pie_val_fixed_0p5_selection/run_feature_importance.py",
+    "line": 7,
+    "kind": "local_path_or_archive_reference",
+    "text": "- Feature table (column order): /home/abdelrahman/Hadwa/BIU-PID-Distillation/data/processed/features_wacv_pcpa_30_60_overlap06/biu_bbox_test.csv"
+  },
+  {
+    "file": "experiments/aibthings_pie_val_fixed_0p5_selection/run_feature_importance.py",
+    "line": 22,
+    "kind": "local_path_or_archive_reference",
+    "text": "MODEL = \"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/aibthings_gpu_runtime_minimal/pie_biu_bbox_random_forest_reproduced.joblib\""
+  },
+  {
+    "file": "experiments/aibthings_pie_val_fixed_0p5_selection/run_feature_importance.py",
+    "line": 23,
+    "kind": "local_path_or_archive_reference",
+    "text": "FEATS = \"/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/processed/features_wacv_pcpa_30_60_overlap06/biu_bbox_test.csv\""
+  },
+  {
+    "file": "experiments/aibthings_pie_val_fixed_0p5_selection/run_val_fixed_0p5_selection.py",
+    "line": 5,
+    "kind": "local_path_or_archive_reference",
+    "text": "  /home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/"
+  },
+  {
+    "file": "experiments/aibthings_pie_val_fixed_0p5_selection/run_val_fixed_0p5_selection.py",
+    "line": 7,
+    "kind": "local_path_or_archive_reference",
+    "text": "  /home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/aibthings_jaad_all_models_fixed_0p5_30_60/probabilities/"
+  },
+  {
+    "file": "experiments/aibthings_pie_val_fixed_0p5_selection/run_val_fixed_0p5_selection.py",
+    "line": 25,
+    "kind": "local_path_or_archive_reference",
+    "text": "PIE_DIR = \"/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06\""
+  },
+  {
+    "file": "experiments/aibthings_pie_val_fixed_0p5_selection/run_val_fixed_0p5_selection.py",
+    "line": 26,
+    "kind": "local_path_or_archive_reference",
+    "text": "JAAD_PROB_DIR = \"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/aibthings_jaad_all_models_fixed_0p5_30_60/probabilities\""
+  },
+  {
+    "file": "experiments/matched_biu_cue_rankings_2026_09_12/report.py",
+    "line": 112,
+    "kind": "local_path_or_archive_reference",
+    "text": "lines.extend(['## Reproducibility','','Commands, run from `/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean`:','', '```bash','OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=4 /home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python experiments/matched_biu_cue_rankings_2026_09_12/analyze.py','MPLCONFIGDIR=/tmp/thesis-input-attribution-mpl /home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python experiments/matched_biu_cue_rankings_2026_09_12/report.py','/home/abdelrahman/miniconda3/envs/biu-pid"
+  },
+  {
+    "file": "experiments/v2_xgboost_runtime_2026_09_13/run.py",
+    "line": 25,
+    "kind": "local_path_or_archive_reference",
+    "text": " box=module('/home/abdelrahman/Hadwa/BIU-PID-Distillation/src/features/bbox_features.py','runtime_bbox')"
+  },
+  {
+    "file": "scripts/audits/jaad_biu_v2_spec_smoke_test.py",
+    "line": 12,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/audits/jaad_biu_variant_normalization_audit.py",
+    "line": 31,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/audits/jaad_biu_variant_normalization_audit.py",
+    "line": 1176,
+    "kind": "local_path_or_archive_reference",
+    "text": "            cd /home/abdelrahman/Hadwa/BIU-PID-Distillation-clean"
+  },
+  {
+    "file": "scripts/audits/jaad_pose_label_forensic_audit.py",
+    "line": 28,
+    "kind": "local_path_or_archive_reference",
+    "text": "JAAD_IMAGE_ROOT = Path(\"/home/abdelrahman/Hadwa/datasets/JAAD/images\")"
+  },
+  {
+    "file": "scripts/audits/jaad_protocol_integrity_audit.py",
+    "line": 15,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/audits/jaad_protocol_integrity_audit.py",
+    "line": 16,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation\")"
+  },
+  {
+    "file": "scripts/audits/jaad_protocol_integrity_audit.py",
+    "line": 17,
+    "kind": "local_path_or_archive_reference",
+    "text": "JAAD_ROOT = Path(\"/home/abdelrahman/Hadwa/datasets/JAAD\")"
+  },
+  {
+    "file": "scripts/audits/jaad_protocol_integrity_audit.py",
+    "line": 235,
+    "kind": "local_path_or_archive_reference",
+    "text": "            \"path\": ARCHIVE_ROOT / \"data/jaad_splits_event_16_30_60_overlap08_default\","
+  },
+  {
+    "file": "scripts/audits/jaad_protocol_integrity_audit.py",
+    "line": 242,
+    "kind": "local_path_or_archive_reference",
+    "text": "            \"path\": ARCHIVE_ROOT / \"data/jaad_splits_stage_horizon_audit/tte_15_30\","
+  },
+  {
+    "file": "scripts/audits/jaad_protocol_integrity_audit.py",
+    "line": 249,
+    "kind": "local_path_or_archive_reference",
+    "text": "            \"path\": ARCHIVE_ROOT / \"data/jaad_splits_stage_horizon_audit/tte_5_15\","
+  },
+  {
+    "file": "scripts/audits/jaad_protocol_integrity_audit.py",
+    "line": 496,
+    "kind": "local_path_or_archive_reference",
+    "text": "    archive_builder = ARCHIVE_ROOT / \"src/benchmark/build_jaad_event_aligned_candidates.py\""
+  },
+  {
+    "file": "scripts/audits/jaad_protocol_integrity_audit.py",
+    "line": 597,
+    "kind": "local_path_or_archive_reference",
+    "text": "            - Raw JAAD annotations in `/home/abdelrahman/Hadwa/datasets/JAAD`"
+  },
+  {
+    "file": "scripts/audits/jaad_protocol_integrity_audit.py",
+    "line": 604,
+    "kind": "local_path_or_archive_reference",
+    "text": "            cd /home/abdelrahman/Hadwa/BIU-PID-Distillation-clean"
+  },
+  {
+    "file": "scripts/audits/jaad_qualitative_casebook.py",
+    "line": 16,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path('/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean')"
+  },
+  {
+    "file": "scripts/audits/jaad_qualitative_casebook.py",
+    "line": 17,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_ROOT = Path('/home/abdelrahman/Hadwa/BIU-PID-Distillation')"
+  },
+  {
+    "file": "scripts/audits/jaad_qualitative_casebook.py",
+    "line": 18,
+    "kind": "local_path_or_archive_reference",
+    "text": "JAAD_ROOT = Path('/home/abdelrahman/Hadwa/datasets/JAAD')"
+  },
+  {
+    "file": "scripts/audits/jaad_qualitative_casebook.py",
+    "line": 27,
+    "kind": "local_path_or_archive_reference",
+    "text": "PRED_30_60_PATH = ARCHIVE_ROOT / 'results/jaad_event_16_30_60_overlap08_default/per_sample_fixed_0p5_predictions.csv'"
+  },
+  {
+    "file": "scripts/audits/jaad_qualitative_casebook.py",
+    "line": 28,
+    "kind": "local_path_or_archive_reference",
+    "text": "KEYPOINT_JSONL = ARCHIVE_ROOT / 'data/jaad_keypoints_vitpose_s_extended_short_horizon.jsonl'"
+  },
+  {
+    "file": "scripts/audits/jaad_qualitative_casebook.py",
+    "line": 549,
+    "kind": "local_path_or_archive_reference",
+    "text": "- Archived JAAD split/window artifacts from `/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/...`"
+  },
+  {
+    "file": "scripts/audits/jaad_qualitative_casebook.py",
+    "line": 550,
+    "kind": "local_path_or_archive_reference",
+    "text": "- Archived JAAD `30_60` per-sample BBox / BIU v1 predictions from `/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/jaad_event_16_30_60_overlap08_default/per_sample_fixed_0p5_predictions.csv`"
+  },
+  {
+    "file": "scripts/audits/jaad_qualitative_casebook.py",
+    "line": 551,
+    "kind": "local_path_or_archive_reference",
+    "text": "- JAAD images under `/home/abdelrahman/Hadwa/datasets/JAAD/images/`"
+  },
+  {
+    "file": "scripts/audits/jaad_qualitative_casebook.py",
+    "line": 552,
+    "kind": "local_path_or_archive_reference",
+    "text": "- JAAD keypoints under `/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/jaad_keypoints_vitpose_s_extended_short_horizon.jsonl`"
+  },
+  {
+    "file": "scripts/audits/jaad_qualitative_casebook.py",
+    "line": 556,
+    "kind": "local_path_or_archive_reference",
+    "text": "cd /home/abdelrahman/Hadwa/BIU-PID-Distillation-clean"
+  },
+  {
+    "file": "scripts/audits/jaad_raw_keypoint_pattern_audit.py",
+    "line": 20,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/audits/jaad_raw_keypoint_pattern_audit.py",
+    "line": 21,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation\")"
+  },
+  {
+    "file": "scripts/audits/jaad_raw_keypoint_pattern_audit.py",
+    "line": 30,
+    "kind": "local_path_or_archive_reference",
+    "text": "SAMPLE_IMAGE_PATH = Path(\"/home/abdelrahman/Hadwa/datasets/JAAD/images/video_0032/00160.png\")"
+  },
+  {
+    "file": "scripts/audits/jaad_raw_keypoint_pattern_audit.py",
+    "line": 844,
+    "kind": "local_path_or_archive_reference",
+    "text": "            cd /home/abdelrahman/Hadwa/BIU-PID-Distillation-clean"
+  },
+  {
+    "file": "scripts/experiments/cairo_dashcam_biu_traces.py",
+    "line": 47,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/cairo_dashcam_detect_track.py",
+    "line": 4,
+    "kind": "local_path_or_archive_reference",
+    "text": "    /home/abdelrahman/miniconda3/envs/mslstm_pid_env/bin/python \\"
+  },
+  {
+    "file": "scripts/experiments/cairo_dashcam_detect_track.py",
+    "line": 30,
+    "kind": "local_path_or_archive_reference",
+    "text": "EXP_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/028_cairo_dashcam_case_study\")"
+  },
+  {
+    "file": "scripts/experiments/cairo_dashcam_review_clips.py",
+    "line": 4,
+    "kind": "local_path_or_archive_reference",
+    "text": "    /home/abdelrahman/miniconda3/envs/mslstm_pid_env/bin/python \\"
+  },
+  {
+    "file": "scripts/experiments/cairo_dashcam_review_clips.py",
+    "line": 38,
+    "kind": "local_path_or_archive_reference",
+    "text": "EXP_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/028_cairo_dashcam_case_study\")"
+  },
+  {
+    "file": "scripts/experiments/cairo_dashcam_vitpose_extract.py",
+    "line": 4,
+    "kind": "local_path_or_archive_reference",
+    "text": "    /home/abdelrahman/miniconda3/envs/cv_env/bin/python \\"
+  },
+  {
+    "file": "scripts/experiments/cairo_dashcam_vitpose_extract.py",
+    "line": 9,
+    "kind": "local_path_or_archive_reference",
+    "text": "(/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/jaad_keypoints_vitpose_s.jsonl,"
+  },
+  {
+    "file": "scripts/experiments/cairo_dashcam_vitpose_extract.py",
+    "line": 18,
+    "kind": "local_path_or_archive_reference",
+    "text": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/src/pose/extract_jaad_vitpose_jsonl.py."
+  },
+  {
+    "file": "scripts/experiments/cairo_dashcam_vitpose_extract.py",
+    "line": 28,
+    "kind": "local_path_or_archive_reference",
+    "text": "EXP_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/028_cairo_dashcam_case_study\")"
+  },
+  {
+    "file": "scripts/experiments/cairo_dashcam_vitpose_extract.py",
+    "line": 30,
+    "kind": "local_path_or_archive_reference",
+    "text": "    \"/home/abdelrahman/miniconda3/envs/cv_env/lib/python3.9/site-packages/mmpose/.mim/configs/\""
+  },
+  {
+    "file": "scripts/experiments/cairo_dashcam_vitpose_extract.py",
+    "line": 34,
+    "kind": "local_path_or_archive_reference",
+    "text": "    \"/home/abdelrahman/Hadwa/Pedestrian-keypoints-crossing-intent/classification/models/checkpoints/\""
+  },
+  {
+    "file": "scripts/experiments/cairo_dashcam_zero_shot_probe.py",
+    "line": 14,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/cairo_dashcam_zero_shot_probe.py",
+    "line": 15,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation\")"
+  },
+  {
+    "file": "scripts/experiments/cairo_dashcam_zero_shot_probe.py",
+    "line": 233,
+    "kind": "local_path_or_archive_reference",
+    "text": "    bbox30 = _read_split_feature_frame(ARCHIVE_ROOT / \"data/jaad_features_event_16_30_60_overlap08_default\", \"bbox\")"
+  },
+  {
+    "file": "scripts/experiments/cairo_dashcam_zero_shot_probe.py",
+    "line": 571,
+    "kind": "local_path_or_archive_reference",
+    "text": "        str(ARCHIVE_ROOT / \"data/jaad_features_event_16_30_60_overlap08_default\"),"
+  },
+  {
+    "file": "scripts/experiments/calibration_analysis.py",
+    "line": 37,
+    "kind": "local_path_or_archive_reference",
+    "text": "REPO = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/calibration_analysis.py",
+    "line": 38,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation\")"
+  },
+  {
+    "file": "scripts/experiments/calibration_analysis.py",
+    "line": 41,
+    "kind": "local_path_or_archive_reference",
+    "text": "PIE_DIR = ARCHIVE / \"results/wacv_pcpa_30_60_overlap06\""
+  },
+  {
+    "file": "scripts/experiments/confidence_aware_biu_audit.py",
+    "line": 44,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/confidence_aware_biu_audit.py",
+    "line": 45,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation\")"
+  },
+  {
+    "file": "scripts/experiments/confidence_aware_biu_audit.py",
+    "line": 58,
+    "kind": "local_path_or_archive_reference",
+    "text": "KEYPOINTS_JSONL = ARCHIVE_ROOT / \"data/jaad_keypoints_vitpose_s_extended_short_horizon.jsonl\""
+  },
+  {
+    "file": "scripts/experiments/exp032_mslstm_biu_v2_transfer.py",
+    "line": 35,
+    "kind": "local_path_or_archive_reference",
+    "text": "ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/exp032_mslstm_biu_v2_transfer.py",
+    "line": 36,
+    "kind": "local_path_or_archive_reference",
+    "text": "MSLSTM_ROOT = Path(\"/home/abdelrahman/Hadwa/MSLSTM-PID\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_adaptive_early_decision.py",
+    "line": 25,
+    "kind": "local_path_or_archive_reference",
+    "text": "REPO = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_adaptive_early_decision.py",
+    "line": 26,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_adaptive_early_decision.py",
+    "line": 707,
+    "kind": "local_path_or_archive_reference",
+    "text": "        \"cd /home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\\n\""
+  },
+  {
+    "file": "scripts/experiments/jaad_ambiguous_negative_pattern_mining.py",
+    "line": 49,
+    "kind": "local_path_or_archive_reference",
+    "text": "cd /home/abdelrahman/Hadwa/BIU-PID-Distillation-clean && \\"
+  },
+  {
+    "file": "scripts/experiments/jaad_ambiguous_negative_pattern_mining.py",
+    "line": 77,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_ambiguous_negative_pattern_mining.py",
+    "line": 101,
+    "kind": "local_path_or_archive_reference",
+    "text": "JAAD_ANN_DIR = Path(\"/home/abdelrahman/Hadwa/datasets/JAAD/annotations\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_ambiguous_negative_pattern_mining.py",
+    "line": 239,
+    "kind": "local_path_or_archive_reference",
+    "text": "                                \"status\": \"MISSING_IN_ARCHIVE\"})"
+  },
+  {
+    "file": "scripts/experiments/jaad_api_label_protocol_sensitivity.py",
+    "line": 26,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_api_label_protocol_sensitivity.py",
+    "line": 27,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_api_label_protocol_sensitivity.py",
+    "line": 28,
+    "kind": "local_path_or_archive_reference",
+    "text": "DATASET_ROOT = Path(\"/home/abdelrahman/Hadwa/datasets/JAAD\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_api_label_protocol_sensitivity.py",
+    "line": 37,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_SPLIT_DIR = ARCHIVE_ROOT / \"data/jaad_splits_event_16_30_60_overlap08_default\""
+  },
+  {
+    "file": "scripts/experiments/jaad_api_label_protocol_sensitivity.py",
+    "line": 38,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_FEATURE_DIR = ARCHIVE_ROOT / \"data/jaad_features_event_16_30_60_overlap08_default\""
+  },
+  {
+    "file": "scripts/experiments/jaad_api_label_protocol_sensitivity.py",
+    "line": 39,
+    "kind": "local_path_or_archive_reference",
+    "text": "KEYPOINT_JSONL = ARCHIVE_ROOT / \"data/jaad_keypoints_vitpose_s_extended_short_horizon.jsonl\""
+  },
+  {
+    "file": "scripts/experiments/jaad_api_label_protocol_sensitivity.py",
+    "line": 111,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_BBOX = _load_module("
+  },
+  {
+    "file": "scripts/experiments/jaad_api_label_protocol_sensitivity.py",
+    "line": 113,
+    "kind": "local_path_or_archive_reference",
+    "text": "    ARCHIVE_ROOT / \"src/features/bbox_features.py\","
+  },
+  {
+    "file": "scripts/experiments/jaad_api_label_protocol_sensitivity.py",
+    "line": 450,
+    "kind": "local_path_or_archive_reference",
+    "text": "        feats = ARCHIVE_BBOX.compute_bbox_motion_features(bboxes)"
+  },
+  {
+    "file": "scripts/experiments/jaad_api_label_protocol_sensitivity.py",
+    "line": 918,
+    "kind": "local_path_or_archive_reference",
+    "text": "        \"cd /home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\","
+  },
+  {
+    "file": "scripts/experiments/jaad_biu_v2_benchmark_comparison.py",
+    "line": 44,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_biu_v2_benchmark_comparison.py",
+    "line": 45,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_biu_v2_benchmark_comparison.py",
+    "line": 61,
+    "kind": "local_path_or_archive_reference",
+    "text": "        \"split_dir\": ARCHIVE_ROOT / \"data/jaad_splits_event_16_30_60_overlap08_default\","
+  },
+  {
+    "file": "scripts/experiments/jaad_biu_v2_benchmark_comparison.py",
+    "line": 62,
+    "kind": "local_path_or_archive_reference",
+    "text": "        \"feature_dir\": ARCHIVE_ROOT / \"data/jaad_features_event_16_30_60_overlap08_default\","
+  },
+  {
+    "file": "scripts/experiments/jaad_biu_v2_benchmark_comparison.py",
+    "line": 63,
+    "kind": "local_path_or_archive_reference",
+    "text": "        \"keypoints_jsonl\": ARCHIVE_ROOT / \"data/jaad_keypoints_vitpose_s_extended_short_horizon.jsonl\","
+  },
+  {
+    "file": "scripts/experiments/jaad_biu_v2_benchmark_comparison.py",
+    "line": 68,
+    "kind": "local_path_or_archive_reference",
+    "text": "        \"split_dir\": ARCHIVE_ROOT / \"data/jaad_splits_stage_horizon_audit/tte_15_30\","
+  },
+  {
+    "file": "scripts/experiments/jaad_biu_v2_benchmark_comparison.py",
+    "line": 69,
+    "kind": "local_path_or_archive_reference",
+    "text": "        \"feature_dir\": ARCHIVE_ROOT / \"data/jaad_features_stage_horizon_audit/tte_15_30\","
+  },
+  {
+    "file": "scripts/experiments/jaad_biu_v2_benchmark_comparison.py",
+    "line": 70,
+    "kind": "local_path_or_archive_reference",
+    "text": "        \"keypoints_jsonl\": ARCHIVE_ROOT / \"data/jaad_keypoints_vitpose_s_extended_short_horizon.jsonl\","
+  },
+  {
+    "file": "scripts/experiments/jaad_biu_v2_benchmark_comparison.py",
+    "line": 75,
+    "kind": "local_path_or_archive_reference",
+    "text": "        \"split_dir\": ARCHIVE_ROOT / \"data/jaad_splits_stage_horizon_audit/tte_5_15\","
+  },
+  {
+    "file": "scripts/experiments/jaad_biu_v2_benchmark_comparison.py",
+    "line": 76,
+    "kind": "local_path_or_archive_reference",
+    "text": "        \"feature_dir\": ARCHIVE_ROOT / \"data/jaad_features_stage_horizon_audit/tte_5_15\","
+  },
+  {
+    "file": "scripts/experiments/jaad_biu_v2_benchmark_comparison.py",
+    "line": 77,
+    "kind": "local_path_or_archive_reference",
+    "text": "        \"keypoints_jsonl\": ARCHIVE_ROOT / \"data/jaad_keypoints_vitpose_s_extended_short_horizon.jsonl\","
+  },
+  {
+    "file": "scripts/experiments/jaad_biu_v2_benchmark_comparison.py",
+    "line": 827,
+    "kind": "local_path_or_archive_reference",
+    "text": "    report += \"- Archived JAAD split/feature tables under `/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/...`\\n\""
+  },
+  {
+    "file": "scripts/experiments/jaad_biu_v2_benchmark_comparison.py",
+    "line": 828,
+    "kind": "local_path_or_archive_reference",
+    "text": "    report += \"- Archived extended JAAD keypoints JSONL under `/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/jaad_keypoints_vitpose_s_extended_short_horizon.jsonl`\\n\\n\""
+  },
+  {
+    "file": "scripts/experiments/jaad_biu_v2_benchmark_comparison.py",
+    "line": 850,
+    "kind": "local_path_or_archive_reference",
+    "text": "    readme += \"cd /home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\\n\""
+  },
+  {
+    "file": "scripts/experiments/jaad_calibrated_selective_early_exit.py",
+    "line": 45,
+    "kind": "local_path_or_archive_reference",
+    "text": "    repo = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_commitment_transition_specialist.py",
+    "line": 27,
+    "kind": "local_path_or_archive_reference",
+    "text": "REPO = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_commitment_transition_specialist.py",
+    "line": 28,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_commitment_transition_specialist.py",
+    "line": 46,
+    "kind": "local_path_or_archive_reference",
+    "text": "        \"split_dir\": ARCHIVE / \"data/jaad_splits_event_16_30_60_overlap08_default\","
+  },
+  {
+    "file": "scripts/experiments/jaad_commitment_transition_specialist.py",
+    "line": 47,
+    "kind": "local_path_or_archive_reference",
+    "text": "        \"bbox_dir\": ARCHIVE / \"data/jaad_features_event_16_30_60_overlap08_default\","
+  },
+  {
+    "file": "scripts/experiments/jaad_commitment_transition_specialist.py",
+    "line": 48,
+    "kind": "local_path_or_archive_reference",
+    "text": "        \"keypoints_jsonl\": ARCHIVE / \"data/jaad_keypoints_vitpose_s_extended_short_horizon.jsonl\","
+  },
+  {
+    "file": "scripts/experiments/jaad_commitment_transition_specialist.py",
+    "line": 53,
+    "kind": "local_path_or_archive_reference",
+    "text": "        \"keypoints_jsonl\": ARCHIVE / \"data/jaad_keypoints_vitpose_s_extended_short_horizon.jsonl\","
+  },
+  {
+    "file": "scripts/experiments/jaad_commitment_transition_specialist.py",
+    "line": 56,
+    "kind": "local_path_or_archive_reference",
+    "text": "        \"split_dir\": ARCHIVE / \"data/jaad_splits_stage_horizon_audit/tte_5_15\","
+  },
+  {
+    "file": "scripts/experiments/jaad_commitment_transition_specialist.py",
+    "line": 57,
+    "kind": "local_path_or_archive_reference",
+    "text": "        \"bbox_dir\": ARCHIVE / \"data/jaad_features_stage_horizon_audit/tte_5_15\","
+  },
+  {
+    "file": "scripts/experiments/jaad_commitment_transition_specialist.py",
+    "line": 58,
+    "kind": "local_path_or_archive_reference",
+    "text": "        \"keypoints_jsonl\": ARCHIVE / \"data/jaad_keypoints_vitpose_s_extended_short_horizon.jsonl\","
+  },
+  {
+    "file": "scripts/experiments/jaad_commitment_verifier.py",
+    "line": 67,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_confidence_gated_veto.py",
+    "line": 54,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_context_features.py",
+    "line": 58,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_context_features.py",
+    "line": 59,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_context_features.py",
+    "line": 60,
+    "kind": "local_path_or_archive_reference",
+    "text": "JAAD_ROOT = Path(\"/home/abdelrahman/Hadwa/datasets/JAAD\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_context_features.py",
+    "line": 62,
+    "kind": "local_path_or_archive_reference",
+    "text": "SPLIT_DIR = ARCHIVE_ROOT / \"data/jaad_splits_event_16_30_60_overlap08_default\""
+  },
+  {
+    "file": "scripts/experiments/jaad_context_features.py",
+    "line": 63,
+    "kind": "local_path_or_archive_reference",
+    "text": "FEATURE_DIR = ARCHIVE_ROOT / \"data/jaad_features_event_16_30_60_overlap08_default\""
+  },
+  {
+    "file": "scripts/experiments/jaad_corrected_15_30_rebuild.py",
+    "line": 54,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_corrected_15_30_rebuild.py",
+    "line": 55,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_corrected_15_30_rebuild.py",
+    "line": 56,
+    "kind": "local_path_or_archive_reference",
+    "text": "JAAD_DATASET_ROOT = Path(\"/home/abdelrahman/Hadwa/datasets/JAAD\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_corrected_15_30_rebuild.py",
+    "line": 58,
+    "kind": "local_path_or_archive_reference",
+    "text": "if str(ARCHIVE_ROOT) not in sys.path:"
+  },
+  {
+    "file": "scripts/experiments/jaad_corrected_15_30_rebuild.py",
+    "line": 59,
+    "kind": "local_path_or_archive_reference",
+    "text": "    sys.path.insert(0, str(ARCHIVE_ROOT))"
+  },
+  {
+    "file": "scripts/experiments/jaad_corrected_15_30_rebuild.py",
+    "line": 76,
+    "kind": "local_path_or_archive_reference",
+    "text": "OLD_JSONL = ARCHIVE_ROOT / \"data/jaad_keypoints_vitpose_s.jsonl\""
+  },
+  {
+    "file": "scripts/experiments/jaad_corrected_15_30_rebuild.py",
+    "line": 77,
+    "kind": "local_path_or_archive_reference",
+    "text": "EXT_JSONL = ARCHIVE_ROOT / \"data/jaad_keypoints_vitpose_s_extended_short_horizon.jsonl\""
+  },
+  {
+    "file": "scripts/experiments/jaad_corrected_15_30_rebuild.py",
+    "line": 79,
+    "kind": "local_path_or_archive_reference",
+    "text": "BROKEN_SPLIT_DIR = ARCHIVE_ROOT / \"data/jaad_splits_stage_horizon_audit/tte_15_30\""
+  },
+  {
+    "file": "scripts/experiments/jaad_corrected_15_30_rebuild.py",
+    "line": 80,
+    "kind": "local_path_or_archive_reference",
+    "text": "BROKEN_FEATURE_DIR = ARCHIVE_ROOT / \"data/jaad_features_stage_horizon_audit/tte_15_30\""
+  },
+  {
+    "file": "scripts/experiments/jaad_corrected_15_30_rebuild.py",
+    "line": 81,
+    "kind": "local_path_or_archive_reference",
+    "text": "T5_15_SPLIT_DIR = ARCHIVE_ROOT / \"data/jaad_splits_stage_horizon_audit/tte_5_15\""
+  },
+  {
+    "file": "scripts/experiments/jaad_corrected_15_30_rebuild.py",
+    "line": 82,
+    "kind": "local_path_or_archive_reference",
+    "text": "T60_90_SPLIT_DIR = ARCHIVE_ROOT / \"data/jaad_splits_stage_horizon_audit/tte_60_90\""
+  },
+  {
+    "file": "scripts/experiments/jaad_corrected_15_30_rebuild.py",
+    "line": 83,
+    "kind": "local_path_or_archive_reference",
+    "text": "MAIN_30_60_SPLIT_DIR = ARCHIVE_ROOT / \"data/jaad_splits_event_16_30_60_overlap08_default\""
+  },
+  {
+    "file": "scripts/experiments/jaad_corrected_15_30_rebuild.py",
+    "line": 84,
+    "kind": "local_path_or_archive_reference",
+    "text": "REF_5_15_FEATURE_DIR = ARCHIVE_ROOT / \"data/jaad_features_stage_horizon_audit/tte_5_15\""
+  },
+  {
+    "file": "scripts/experiments/jaad_corrected_15_30_rebuild_benchmark.py",
+    "line": 23,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_corrected_15_30_rebuild_staged.py",
+    "line": 36,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_frozen_veto_nested_cv.py",
+    "line": 46,
+    "kind": "local_path_or_archive_reference",
+    "text": "cd /home/abdelrahman/Hadwa/BIU-PID-Distillation-clean && \\"
+  },
+  {
+    "file": "scripts/experiments/jaad_frozen_veto_nested_cv.py",
+    "line": 74,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_staged_bbox_biu_v2.py",
+    "line": 42,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/jaad_staged_predictions_rescore.py",
+    "line": 29,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/leakage_invariant_sweep.py",
+    "line": 48,
+    "kind": "local_path_or_archive_reference",
+    "text": "  cd /home/abdelrahman/Hadwa/BIU-PID-Distillation-clean && \\"
+  },
+  {
+    "file": "scripts/experiments/leakage_invariant_sweep.py",
+    "line": 68,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/leakage_invariant_sweep.py",
+    "line": 69,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation\")"
+  },
+  {
+    "file": "scripts/experiments/mslstm_retrain_benchmark.py",
+    "line": 4,
+    "kind": "local_path_or_archive_reference",
+    "text": "architecture from /home/abdelrahman/Hadwa/MSLSTM-PID/Final Version.ipynb, but under the"
+  },
+  {
+    "file": "scripts/experiments/mslstm_retrain_benchmark.py",
+    "line": 43,
+    "kind": "local_path_or_archive_reference",
+    "text": "- Splits: /home/abdelrahman/Hadwa/BIU-PID-Distillation/data/splits_pie_wacv_pcpa_30_60_overlap06/{train,val,test}_sequences.csv"
+  },
+  {
+    "file": "scripts/experiments/mslstm_retrain_benchmark.py",
+    "line": 44,
+    "kind": "local_path_or_archive_reference",
+    "text": "- PIE DB cache: /home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/data_cache/pie_database.pkl"
+  },
+  {
+    "file": "scripts/experiments/mslstm_retrain_benchmark.py",
+    "line": 45,
+    "kind": "local_path_or_archive_reference",
+    "text": "- Keypoints: /home/abdelrahman/Hadwa/pedestrian-intent-biu/data/data_keypoints_all.jsonl"
+  },
+  {
+    "file": "scripts/experiments/mslstm_retrain_benchmark.py",
+    "line": 46,
+    "kind": "local_path_or_archive_reference",
+    "text": "- YOLOP cache: /home/abdelrahman/Hadwa/MSLSTM-PID/Extracted YOLOP/*.pkl"
+  },
+  {
+    "file": "scripts/experiments/mslstm_retrain_benchmark.py",
+    "line": 47,
+    "kind": "local_path_or_archive_reference",
+    "text": "- Tabular anchors: /home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/lightweight_baseline_metrics.csv"
+  },
+  {
+    "file": "scripts/experiments/mslstm_retrain_benchmark.py",
+    "line": 66,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/mslstm_retrain_benchmark.py",
+    "line": 67,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation\")"
+  },
+  {
+    "file": "scripts/experiments/mslstm_retrain_benchmark.py",
+    "line": 68,
+    "kind": "local_path_or_archive_reference",
+    "text": "MSLSTM_ROOT = Path(\"/home/abdelrahman/Hadwa/MSLSTM-PID\")"
+  },
+  {
+    "file": "scripts/experiments/mslstm_retrain_benchmark.py",
+    "line": 79,
+    "kind": "local_path_or_archive_reference",
+    "text": "SPLIT_DIR = ARCHIVE_ROOT / \"data/splits_pie_wacv_pcpa_30_60_overlap06\""
+  },
+  {
+    "file": "scripts/experiments/mslstm_retrain_benchmark.py",
+    "line": 81,
+    "kind": "local_path_or_archive_reference",
+    "text": "KEYPOINTS_JSONL = Path(\"/home/abdelrahman/Hadwa/pedestrian-intent-biu/data/data_keypoints_all.jsonl\")"
+  },
+  {
+    "file": "scripts/experiments/mslstm_retrain_benchmark.py",
+    "line": 83,
+    "kind": "local_path_or_archive_reference",
+    "text": "ANCHOR_SOURCE = ARCHIVE_ROOT / \"results/wacv_pcpa_30_60_overlap06/lightweight_baseline_metrics.csv\""
+  },
+  {
+    "file": "scripts/experiments/pie_ambiguous_negative_intention_audit.py",
+    "line": 11,
+    "kind": "local_path_or_archive_reference",
+    "text": "  /home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_attributes/set*/video_*_attributes.xml"
+  },
+  {
+    "file": "scripts/experiments/pie_ambiguous_negative_intention_audit.py",
+    "line": 14,
+    "kind": "local_path_or_archive_reference",
+    "text": "  /home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/"
+  },
+  {
+    "file": "scripts/experiments/pie_ambiguous_negative_intention_audit.py",
+    "line": 45,
+    "kind": "local_path_or_archive_reference",
+    "text": "PIE_ATTR_DIR = \"/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_attributes\""
+  },
+  {
+    "file": "scripts/experiments/pie_ambiguous_negative_intention_audit.py",
+    "line": 46,
+    "kind": "local_path_or_archive_reference",
+    "text": "PRED_DIR = \"/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06\""
+  },
+  {
+    "file": "scripts/experiments/pie_ambiguous_negative_intention_audit.py",
+    "line": 48,
+    "kind": "local_path_or_archive_reference",
+    "text": "    \"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/\""
+  },
+  {
+    "file": "scripts/experiments/pie_biu_v2_30_60_benchmark.py",
+    "line": 9,
+    "kind": "local_path_or_archive_reference",
+    "text": "- Splits: /home/abdelrahman/Hadwa/BIU-PID-Distillation/data/splits_pie_wacv_pcpa_30_60_overlap06/{train,val,test}_sequences.csv"
+  },
+  {
+    "file": "scripts/experiments/pie_biu_v2_30_60_benchmark.py",
+    "line": 10,
+    "kind": "local_path_or_archive_reference",
+    "text": "- Existing bbox / BIU v1 tables: /home/abdelrahman/Hadwa/BIU-PID-Distillation/data/processed/features_wacv_pcpa_30_60_overlap06/{bbox,biu}_{split}.csv"
+  },
+  {
+    "file": "scripts/experiments/pie_biu_v2_30_60_benchmark.py",
+    "line": 11,
+    "kind": "local_path_or_archive_reference",
+    "text": "- Keypoints: /home/abdelrahman/Hadwa/pedestrian-intent-biu/data/data_keypoints_all.jsonl"
+  },
+  {
+    "file": "scripts/experiments/pie_biu_v2_30_60_benchmark.py",
+    "line": 28,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/pie_biu_v2_30_60_benchmark.py",
+    "line": 29,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation\")"
+  },
+  {
+    "file": "scripts/experiments/pie_biu_v2_30_60_benchmark.py",
+    "line": 39,
+    "kind": "local_path_or_archive_reference",
+    "text": "SPLIT_DIR = ARCHIVE_ROOT / \"data/splits_pie_wacv_pcpa_30_60_overlap06\""
+  },
+  {
+    "file": "scripts/experiments/pie_biu_v2_30_60_benchmark.py",
+    "line": 40,
+    "kind": "local_path_or_archive_reference",
+    "text": "FEATURE_DIR = ARCHIVE_ROOT / \"data/processed/features_wacv_pcpa_30_60_overlap06\""
+  },
+  {
+    "file": "scripts/experiments/pie_biu_v2_30_60_benchmark.py",
+    "line": 41,
+    "kind": "local_path_or_archive_reference",
+    "text": "KEYPOINTS_JSONL = Path(\"/home/abdelrahman/Hadwa/pedestrian-intent-biu/data/data_keypoints_all.jsonl\")"
+  },
+  {
+    "file": "scripts/experiments/pie_biu_v2_30_60_benchmark.py",
+    "line": 42,
+    "kind": "local_path_or_archive_reference",
+    "text": "PIE_ANNOTATIONS_DIR = Path(\"/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations\")"
+  },
+  {
+    "file": "scripts/experiments/pie_biu_v2_30_60_benchmark.py",
+    "line": 43,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_BBOX_FEATURES_PY = ARCHIVE_ROOT / \"src/features/bbox_features.py\""
+  },
+  {
+    "file": "scripts/experiments/pie_biu_v2_30_60_benchmark.py",
+    "line": 44,
+    "kind": "local_path_or_archive_reference",
+    "text": "ANCHOR_SOURCE = ARCHIVE_ROOT / \"results/wacv_pcpa_30_60_overlap06/lightweight_baseline_metrics.csv\""
+  },
+  {
+    "file": "scripts/experiments/pie_biu_v2_30_60_benchmark.py",
+    "line": 83,
+    "kind": "local_path_or_archive_reference",
+    "text": "    spec = importlib.util.spec_from_file_location(\"archive_bbox_features\", ARCHIVE_BBOX_FEATURES_PY)"
+  },
+  {
+    "file": "scripts/experiments/psi_keypoint_fidelity_study.py",
+    "line": 22,
+    "kind": "local_path_or_archive_reference",
+    "text": "archive pipeline (/home/abdelrahman/Hadwa/BIU-PID-Distillation/src/features/"
+  },
+  {
+    "file": "scripts/experiments/psi_keypoint_fidelity_study.py",
+    "line": 43,
+    "kind": "local_path_or_archive_reference",
+    "text": "REPO = \"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\""
+  },
+  {
+    "file": "scripts/experiments/recover_fixed_0p5_benchmarks.py",
+    "line": 20,
+    "kind": "local_path_or_archive_reference",
+    "text": "ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "scripts/experiments/recover_fixed_0p5_benchmarks.py",
+    "line": 544,
+    "kind": "local_path_or_archive_reference",
+    "text": "        \"`/home/abdelrahman/Hadwa/pedestrian-intent-biu/data/data_keypoints_all.jsonl`, so the current \""
+  },
+  {
+    "file": "src/analysis/jaad_5_15_zero_sample_audit.py",
+    "line": 19,
+    "kind": "local_path_or_archive_reference",
+    "text": "JAAD_ROOT = Path(\"/home/abdelrahman/Hadwa/datasets/JAAD\")"
+  },
+  {
+    "file": "src/analysis/staged_prediction_hypothesis_audit.py",
+    "line": 92,
+    "kind": "local_path_or_archive_reference",
+    "text": "JAAD_DATASET_ROOT = Path(\"/home/abdelrahman/Hadwa/datasets/JAAD\")"
+  },
+  {
+    "file": "src/analysis/staged_prediction_hypothesis_audit.py",
+    "line": 102,
+    "kind": "local_path_or_archive_reference",
+    "text": "PIE_JSONL = Path(\"/home/abdelrahman/Hadwa/pedestrian-intent-biu/data/data_keypoints_all.jsonl\")"
+  },
+  {
+    "file": "src/analysis/staged_prediction_hypothesis_audit.py",
+    "line": 103,
+    "kind": "local_path_or_archive_reference",
+    "text": "PIE_BBOX_SOURCE = Path(\"/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations\")"
+  },
+  {
+    "file": "src/benchmark/final_confidence_sources.py",
+    "line": 12,
+    "kind": "local_path_or_archive_reference",
+    "text": "CLEAN_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean\")"
+  },
+  {
+    "file": "src/benchmark/final_confidence_sources.py",
+    "line": 13,
+    "kind": "local_path_or_archive_reference",
+    "text": "ARCHIVE_ROOT = Path(\"/home/abdelrahman/Hadwa/BIU-PID-Distillation\")"
+  },
+  {
+    "file": "src/benchmark/final_confidence_sources.py",
+    "line": 29,
+    "kind": "local_path_or_archive_reference",
+    "text": "            \"feature_dir\": str(ARCHIVE_ROOT / \"data/jaad_features_event_16_30_60_overlap08_default\"),"
+  },
+  {
+    "file": "src/benchmark/final_confidence_sources.py",
+    "line": 30,
+    "kind": "local_path_or_archive_reference",
+    "text": "            \"split_dir\": str(ARCHIVE_ROOT / \"data/jaad_splits_event_16_30_60_overlap08_default\"),"
+  },
+  {
+    "file": "src/benchmark/final_confidence_sources.py",
+    "line": 31,
+    "kind": "local_path_or_archive_reference",
+    "text": "            \"lineage_metadata_path\": str(ARCHIVE_ROOT / \"data/jaad_splits_event_16_30_60_overlap08_default/metadata.json\"),"
+  },
+  {
+    "file": "src/benchmark/final_confidence_sources.py",
+    "line": 38,
+    "kind": "local_path_or_archive_reference",
+    "text": "            \"feature_dir\": str(ARCHIVE_ROOT / \"data/jaad_features_stage_horizon_audit/tte_15_30\"),"
+  },
+  {
+    "file": "src/benchmark/final_confidence_sources.py",
+    "line": 39,
+    "kind": "local_path_or_archive_reference",
+    "text": "            \"split_dir\": str(ARCHIVE_ROOT / \"data/jaad_splits_stage_horizon_audit/tte_15_30\"),"
+  },
+  {
+    "file": "src/benchmark/final_confidence_sources.py",
+    "line": 40,
+    "kind": "local_path_or_archive_reference",
+    "text": "            \"lineage_metadata_path\": str(ARCHIVE_ROOT / \"data/jaad_splits_stage_horizon_audit/tte_15_30/metadata.json\"),"
+  },
+  {
+    "file": "src/benchmark/final_confidence_sources.py",
+    "line": 47,
+    "kind": "local_path_or_archive_reference",
+    "text": "            \"feature_dir\": str(ARCHIVE_ROOT / \"data/jaad_features_stage_horizon_audit/tte_5_15\"),"
+  },
+  {
+    "file": "src/benchmark/final_confidence_sources.py",
+    "line": 48,
+    "kind": "local_path_or_archive_reference",
+    "text": "            \"split_dir\": str(ARCHIVE_ROOT / \"data/jaad_splits_stage_horizon_audit/tte_5_15\"),"
+  },
+  {
+    "file": "src/benchmark/final_confidence_sources.py",
+    "line": 49,
+    "kind": "local_path_or_archive_reference",
+    "text": "            \"lineage_metadata_path\": str(ARCHIVE_ROOT / \"data/jaad_splits_stage_horizon_audit/tte_5_15/metadata.json\"),"
+  },
+  {
+    "file": "src/benchmark/final_confidence_sources.py",
+    "line": 56,
+    "kind": "local_path_or_archive_reference",
+    "text": "            \"feature_dir\": str(ARCHIVE_ROOT / \"data/processed/features_wacv_pcpa_30_60_overlap06\"),"
+  },
+  {
+    "file": "src/benchmark/final_confidence_sources.py",
+    "line": 57,
+    "kind": "local_path_or_archive_reference",
+    "text": "            \"split_dir\": str(ARCHIVE_ROOT / \"data/splits_pie_wacv_pcpa_30_60_overlap06\"),"
+  },
+  {
+    "file": "src/benchmark/final_confidence_sources.py",
+    "line": 58,
+    "kind": "local_path_or_archive_reference",
+    "text": "            \"lineage_metadata_path\": str(ARCHIVE_ROOT / \"data/splits_pie_wacv_pcpa_30_60_overlap06/benchmark_config.yaml\"),"
+  },
+  {
+    "file": "src/benchmark/final_confidence_transition_audit.py",
+    "line": 30,
+    "kind": "local_path_or_archive_reference",
+    "text": "    \"/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/jaad_keypoints_vitpose_s_extended_short_horizon.jsonl\""
+  },
+  {
+    "file": "src/pose/extract_jaad_vitpose_jsonl.py",
+    "line": 330,
+    "kind": "local_path_or_archive_reference",
+    "text": "    parser.add_argument(\"--dataset_root\", type=Path, default=Path(\"/home/abdelrahman/Hadwa/datasets/JAAD\"))"
+  },
+  {
+    "file": "src/pose/extract_jaad_vitpose_jsonl.py",
+    "line": 336,
+    "kind": "local_path_or_archive_reference",
+    "text": "        default=Path(\"/home/abdelrahman/Hadwa/Pedestrian-keypoints-crossing-intent/classification/models/vitpose/td_hm_ViTPose_small_8xb64.py\"),"
+  },
+  {
+    "file": "src/pose/extract_jaad_vitpose_jsonl.py",
+    "line": 341,
+    "kind": "local_path_or_archive_reference",
+    "text": "        default=Path(\"/home/abdelrahman/Hadwa/Pedestrian-keypoints-crossing-intent/classification/models/checkpoints/td_hm_ViTPose_small_8xb64_210e_coco.pth\"),"
+  },
+  {
+    "file": "src/teachers/mslstm_pid/build_frozen_teacher_tables.py",
+    "line": 329,
+    "kind": "local_path_or_archive_reference",
+    "text": "    parser.add_argument(\"--mslstm_root\", type=Path, default=Path(\"/home/abdelrahman/Hadwa/MSLSTM-PID\"))"
+  },
+  {
+    "file": "src/teachers/mslstm_pid/extract_frozen_teacher_inputs.py",
+    "line": 232,
+    "kind": "local_path_or_archive_reference",
+    "text": "    parser.add_argument(\"--mslstm_root\", type=Path, default=Path(\"/home/abdelrahman/Hadwa/MSLSTM-PID\"))"
+  }
+]

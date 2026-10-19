@@ -1,0 +1,26 @@
+{
+  "checks": {
+    "bootstrap_f1_positive": true,
+    "bootstrap_pr_positive": true,
+    "brier_improved": true,
+    "combined_tail_reduction": true,
+    "confusion_invariant": true,
+    "ece_nonincrease": true,
+    "f1_gain": true,
+    "f1_invariant": true,
+    "fn_tail_nonincrease": true,
+    "fp_tail_nonincrease": true,
+    "log_loss_improved": true,
+    "per_set_f1": true,
+    "per_set_pr": true,
+    "pr_auc_gain": true,
+    "pr_auc_noninferiority": false
+  },
+  "observed": {
+    "candidate_f1": 0.7766129032258065,
+    "candidate_pr_auc": 0.8079271795031812,
+    "combined_tail_count": 98,
+    "combined_tail_limit": 181
+  },
+  "status": "no_advance"
+}

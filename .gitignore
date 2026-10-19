@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+runs/
+data/
+*.pt
+*.pth
+*.joblib
+*.npy
+*.npz
+.venv-psi/
+
+# Local staging provenance and upstream dataset copies
+audit/source_git_status.txt
+snapshot/experiments/113_psi_native_biu_xgb/dataset/
+snapshot/experiments/113_psi_native_biu_xgb/test_evaluation/dataset/

@@ -1,0 +1,42 @@
+[
+  {
+    "check": "arbitrary_cwd_integrity",
+    "command": [
+      "/home/abdelrahman/miniconda3/bin/python",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/evidence.py",
+      "verify"
+    ],
+    "cwd": "/tmp",
+    "returncode": 0,
+    "stdout": "{\n  \"files_verified\": 4903,\n  \"mode\": \"copied evidence integrity, not model reproduction\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "check": "reject_output_outside_runs",
+    "command": [
+      "/home/abdelrahman/miniconda3/bin/python",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/evidence.py",
+      "summaries",
+      "--output",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/must_not_be_created"
+    ],
+    "cwd": "/tmp",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/evidence.py\", line 66, in <module>\n    if __name__=='__main__':main()\n                            ~~~~^^\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/evidence.py\", line 61, in main\n    out=contained(Path(args.output) if args.output else runs/datetime.datetime.now(datetime.timezone.utc).strftime('summary_check_%Y%m%dT%H%M%S%fZ'),runs)\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/evidence.py\", line 18, in contained\n    if not p.is_relative_to(root.resolve()):raise ValueError(f'Path outside publication workspace: {p}')\n                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Path outside publication workspace: /home/abdelrahman/Hadwa/pedestrian-intent-thesis/must_not_be_created\n"
+  },
+  {
+    "check": "reject_existing_output",
+    "command": [
+      "/home/abdelrahman/miniconda3/bin/python",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/evidence.py",
+      "summaries",
+      "--output",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/runs/summary_check_20261019T214049013038Z"
+    ],
+    "cwd": "/tmp",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/evidence.py\", line 66, in <module>\n    if __name__=='__main__':main()\n                            ~~~~^^\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/evidence.py\", line 62, in main\n    out.mkdir(parents=True,exist_ok=False)\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/abdelrahman/miniconda3/lib/python3.13/pathlib/_local.py\", line 722, in mkdir\n    os.mkdir(self, mode)\n    ~~~~~~~~^^^^^^^^^^^^\nFileExistsError: [Errno 17] File exists: '/home/abdelrahman/Hadwa/pedestrian-intent-thesis/runs/summary_check_20261019T214049013038Z'\n"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "cohorts": [
+    {
+      "all_finite": true,
+      "features": 187,
+      "split": "train",
+      "windows": 26295
+    },
+    {
+      "all_finite": true,
+      "features": 187,
+      "split": "val",
+      "windows": 14922
+    }
+  ],
+  "development_only": true,
+  "first_partition_frames": 7,
+  "last_partition_frames": 8,
+  "speed_unit": "km/hr",
+  "status": "complete",
+  "target_frame_used_as_feature": false,
+  "test_accessed": false
+}

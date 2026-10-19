@@ -1,0 +1,32 @@
+{
+  "all_passed": true,
+  "atol": 1e-06,
+  "cases": [
+    {
+      "frame": 1464,
+      "max_abs_error": 0.0,
+      "passed_atol_1e_6": true,
+      "ped_id": "3_1_220",
+      "set_id": "set03",
+      "video_id": "video_0001"
+    },
+    {
+      "frame": 1465,
+      "max_abs_error": 0.0,
+      "passed_atol_1e_6": true,
+      "ped_id": "3_1_220",
+      "set_id": "set03",
+      "video_id": "video_0001"
+    },
+    {
+      "frame": 1466,
+      "max_abs_error": 0.0,
+      "passed_atol_1e_6": true,
+      "ped_id": "3_1_220",
+      "set_id": "set03",
+      "video_id": "video_0001"
+    }
+  ],
+  "device": "cuda:0",
+  "rtol": 0.0
+}

@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "experiment": "Exp075",
+  "name": "PIE TwinLiteNet+ Large road-context source replacement",
+  "status": "FROZEN_BEFORE_EXTRACTION",
+  "benchmark": {
+    "dataset": "PIE",
+    "observation_frames": 16,
+    "tte": "30_60",
+    "overlap": 0.6,
+    "threshold": 0.5
+  },
+  "cohorts": {
+    "train": {"sets": ["set01", "set02", "set06"], "rows": 2366},
+    "validation": {"sets": ["set04", "set05"], "rows": 3619},
+    "test": {"sets": ["set03"], "rows": 3760}
+  },
+  "seeds": [42, 43, 44],
+  "features": {"base": 187, "road": 60, "total": 247},
+  "fit_rule": "train_only_same_saved_model_for_validation_and_test",
+  "reference": "Exp072_XGBoost",
+  "source_comparison": "Exp074_original_YOLOP",
+  "model": {
+    "kind": "xgboost",
+    "n_estimators": 250,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_lambda": 1.0,
+    "objective": "binary:logistic",
+    "eval_metric": "logloss",
+    "n_jobs": 4
+  },
+  "twinlite": {
+    "repository": "https://github.com/chequanghuy/TwinLiteNetPlus.git",
+    "commit": "90f1b8695ae311d5123b05f8534b2e11e42499d2",
+    "config": "large",
+    "constructor": "TwinLiteNetPlus(SimpleNamespace(config='large'))",
+    "checkpoint_file_id": "1H8P-GrOUBOaVs5LEqXBfz0dC9gguUUio",
+    "checkpoint_sha256": "5605d1a8ce762c1b6f7d23f4c2e7ec9384bfd6e6887b040b43e1f8902a817e22",
+    "checkpoint_size_bytes": 7959943,
+    "state_container": "OrderedDict",
+    "state_entries": 408,
+    "parameters": 1943911,
+    "strict_load": true,
+    "primary_device": "cuda",
+    "primary_precision": "float16",
+    "target_size": 640,
+    "stride": 32,
+    "letterbox_auto": true,
+    "padding_value": 114,
+    "foreground_class": 1,
+    "candidate_batch_size": 8,
+    "fallback_batch_size": 1,
+    "parity_frame_count": 32
+  },
+  "paper": {
+    "url": "https://arxiv.org/pdf/2403.16958",
+    "path": "papers/Che_2025_TwinLiteNetPlus.pdf",
+    "sha256": "be71abe6d7aeaac128ac8beda408e39436f7c92bf2761abe6e874505df5c13ff",
+    "size_bytes": 14342482
+  },
+  "road_context": {
+    "source_channels": 20,
+    "observation_shape": [16, 20],
+    "summaries": [
+      "early_mean_frames_1_8",
+      "late_mean_frames_9_16",
+      "late_minus_early"
+    ],
+    "ordering": "channel_major",
+    "channels": [
+      "road_foot_inside",
+      "road_signed_boundary_distance_h",
+      "road_nearest_boundary_dx_h",
+      "road_nearest_boundary_dy_h",
+      "road_boundary_tangent_x",
+      "road_boundary_tangent_y",
+      "road_boundary_valid",
+      "lane_nearest_distance_h",
+      "lane_nearest_dx_h",
+      "lane_nearest_dy_h",
+      "lane_tangent_x",
+      "lane_tangent_y",
+      "lane_geometry_valid",
+      "foot_velocity_x_h",
+      "foot_velocity_y_h",
+      "foot_speed_h",
+      "motion_parallel_to_road",
+      "motion_toward_drivable_area",
+      "motion_parallel_to_lane",
+      "road_signed_distance_change_h"
+    ]
+  },
+  "gate": {
+    "per_seed_min_f1_delta": -0.01,
+    "per_seed_min_pr_auc_delta": -0.01,
+    "mean_min_roc_auc_delta": -0.002,
+    "performance": {
+      "material_delta": 0.005,
+      "other_metric_noninferiority": -0.005,
+      "combined_hc_may_increase": false
+    },
+    "confidence": {
+      "f1_noninferiority": -0.005,
+      "pr_auc_noninferiority": -0.005,
+      "combined_hc_ratio_max": 0.85,
+      "fp_may_increase": false,
+      "fn_may_increase": false,
+      "corrections_must_exceed_harms": true
+    }
+  },
+  "latency": {
+    "predictor_batch1": {"warmups": 100, "repetitions": 1000},
+    "predictor_batch256": {"warmups": 20, "repetitions": 200},
+    "summarizer": {"warmups": 100, "repetitions": 5000},
+    "road_construction": {"warmups": 20, "repetitions": 500},
+    "twinlite": {"warmups": 10, "repetitions": 100},
+    "online_incremental_window": {"warmups": 10, "repetitions": 100},
+    "online_includes": [
+      "twinlite_masks",
+      "road_relative_20d",
+      "road_summary_60d",
+      "xgboost_predict"
+    ],
+    "online_excludes": ["frame_video_decoding", "vitpose_keypoint_extraction"]
+  },
+  "sources": {
+    "exp072_prepare_completion": {"path": "experiments/072_pie_joint_biu_temporal_ego_confirmation/metrics/.prepare.complete.json", "sha256": "f828a7cb3a75e2bd1f7758e284e191a1700444278e0676bd188b177a79d6fc67", "size_bytes": 831},
+    "exp072_validate_completion": {"path": "experiments/072_pie_joint_biu_temporal_ego_confirmation/metrics/.validate.complete.json", "sha256": "55e030ceec4447460061bdc82ac15e5a46b4f601649f1b54cb760241213c620b", "size_bytes": 1903},
+    "exp072_evaluate_completion": {"path": "experiments/072_pie_joint_biu_temporal_ego_confirmation/metrics/.evaluate.complete.json", "sha256": "7337cc8c6a95205ff41246383808940639adaa61620dfe7fd04093a501f1affd", "size_bytes": 2628},
+    "exp072_prepared_train": {"path": "experiments/072_pie_joint_biu_temporal_ego_confirmation/metrics/prepared_train.csv", "sha256": "e0d1b9a35c74de95c4f6c56f13c4db8123b1272f8609b56208d571342f4689ea", "size_bytes": 9524457},
+    "exp072_prepared_validation": {"path": "experiments/072_pie_joint_biu_temporal_ego_confirmation/metrics/prepared_validation.csv", "sha256": "7b72d2476d38aa9b7efe40680e00bbe5c7aef3aeaedf731708225dacce275356", "size_bytes": 14563019},
+    "exp072_prepared_test": {"path": "experiments/072_pie_joint_biu_temporal_ego_confirmation/metrics/prepared_test.csv", "sha256": "72e4e0ded1350d6eb6a095d72d43cbf6b1aae716305f06b49f531f27da8bc7a6", "size_bytes": 15649056},
+    "exp072_cohort_audit": {"path": "experiments/072_pie_joint_biu_temporal_ego_confirmation/metrics/cohort_audit.json", "sha256": "56c722adb6b9c6229f86739359a3f2ef5a693277fda60e649c1156d418c97228", "size_bytes": 6682},
+    "exp072_model_core": {"path": "experiments/072_pie_joint_biu_temporal_ego_confirmation/scripts/model_core.py", "sha256": "f68b3ac04e37e8d6581172738a3e94dab5f05785ad6a8632279369449b8f5e87", "size_bytes": 11486},
+    "exp074_validate_completion": {"path": "experiments/074_pie_road_relative_yolop_xgb_extension/metrics/.validate.complete.json", "sha256": "2a96def529e18043fb9372841f81e5de14a67aa07285d889f82b71df3af073f5", "size_bytes": 2066},
+    "exp074_context": {"path": "experiments/074_pie_road_relative_yolop_xgb_extension/scripts/context.py", "sha256": "7ddf339039e689d8ee97ae2b6ca606721f3f08a7cecc7ac9d9d1ab041e099fbc", "size_bytes": 5225},
+    "exp074_model": {"path": "experiments/074_pie_road_relative_yolop_xgb_extension/scripts/model.py", "sha256": "86f46087f7be487a798ec418d8b52c772077271d378b40e39fd965cc7a51a864", "size_bytes": 5142},
+    "exp074_runner": {"path": "experiments/074_pie_road_relative_yolop_xgb_extension/scripts/run_experiment.py", "sha256": "2b2054ebec3c7b6f0c0abfbb89a68816e84e4d22fc558a40e885a8eead46e05d", "size_bytes": 19806},
+    "exp074_context_coverage": {"path": "experiments/074_pie_road_relative_yolop_xgb_extension/metrics/context_coverage.json", "sha256": "1a0b4d129e396ff7f1ce2ee22cc056f0f597cb5daf12df57016381f531b9f273", "size_bytes": 15074},
+    "exp063_manifest": {"path": "experiments/063_pie_corrected_yolop_road_relative_context/metrics/extraction_manifest.json", "sha256": "23aa9f72e4f3930427c21fcf21d1d408fa494b6daa8a8b93f40e3a4b4d96ff52", "size_bytes": 23787},
+    "exp063_representations": {"path": "experiments/063_pie_corrected_yolop_road_relative_context/scripts/representations.py", "sha256": "066d1cea57d38726dd1fd6cad36587733ea2f85fe1f03634c5db568969a25b03", "size_bytes": 14683},
+    "exp063_contracts": {"path": "experiments/063_pie_corrected_yolop_road_relative_context/scripts/contracts.py", "sha256": "c3ec52090c6d6f42a09174932abeb4d437c8414f745e86bc26feb793cf8b4998", "size_bytes": 3867},
+    "exp063_extract": {"path": "experiments/063_pie_corrected_yolop_road_relative_context/scripts/extract_trainval.py", "sha256": "a07c8333d1ff3dc7c84e42a211349ad133758c901b5309eee6b9e2f74eef8d90", "size_bytes": 18603},
+    "twinlite_model": {"path": "external/TwinLiteNetPlus/model/model.py", "sha256": "d26dfc2ae950038ff334155438f8c5536aeac1087778a28a2feea6206fc97fd4", "size_bytes": 18978},
+    "twinlite_config": {"path": "external/TwinLiteNetPlus/model/config.py", "sha256": "f34024ce090b63090a501bcad17d5681d968c9b1932e929b32d9f73ccd28384f", "size_bytes": 425},
+    "twinlite_demo": {"path": "external/TwinLiteNetPlus/demo.py", "sha256": "fb935382f35868751e05177a84a3cebfe6d2382cf2dd378fde2698cf9d579ea5", "size_bytes": 5513},
+    "twinlite_dataset": {"path": "external/TwinLiteNetPlus/demoDataset.py", "sha256": "b27cd742016d70cc3fa52c1b555b5fd2d271f62b6a40a94b1662f0795c80e34d", "size_bytes": 8890},
+    "twinlite_license": {"path": "external/TwinLiteNetPlus/LICENSE", "sha256": "6f5d45253175ad2d856dc82acfed573cd86e64a4e4ef93a250e2f83357159946", "size_bytes": 1072},
+    "twinlite_checkpoint": {"path": "experiments/075_pie_twinlitenetplus_road_context/checkpoints/large.pth", "sha256": "5605d1a8ce762c1b6f7d23f4c2e7ec9384bfd6e6887b040b43e1f8902a817e22", "size_bytes": 7959943},
+    "twinlite_paper": {"path": "papers/Che_2025_TwinLiteNetPlus.pdf", "sha256": "be71abe6d7aeaac128ac8beda408e39436f7c92bf2761abe6e874505df5c13ff", "size_bytes": 14342482}
+  }
+}

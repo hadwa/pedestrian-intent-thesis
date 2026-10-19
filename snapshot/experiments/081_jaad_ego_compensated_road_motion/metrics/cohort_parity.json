@@ -1,0 +1,27 @@
+{
+  "splits": {
+    "train": {
+      "dimensions": {
+        "A": 182,
+        "B": 197,
+        "C": 242,
+        "D": 242
+      },
+      "labels_identical": true,
+      "rows": 1552,
+      "sequence_sha256": "b8ed17a6b25e096c1db53a01cf5c160acb74b9cdf98219f2150fb429830c5e47"
+    },
+    "validation": {
+      "dimensions": {
+        "A": 182,
+        "B": 197,
+        "C": 242,
+        "D": 242
+      },
+      "labels_identical": true,
+      "rows": 274,
+      "sequence_sha256": "3852d1022cdca58cf254a7d313b73ab87e55b6dcb3469822b1c30cfc45fb04da"
+    }
+  },
+  "test_accessed": false
+}

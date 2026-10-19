@@ -1,0 +1,86 @@
+{
+  "definitions": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/metrics/pie_biu_v2_feature_set_definitions.csv",
+    "sha256": "6708d290d9263ad29000786cf6d15c5ec052dc8712c1b5a16741944295d0145c",
+    "size_bytes": 11768
+  },
+  "exp077_pre_registration": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/077_jaad_two_stage_early_late_xgb_transfer/pre_registration.json",
+    "sha256": "e71ea09200a16e5977d19e6ba107b353ee1cb26d729dd9690cc983141b0ac92b",
+    "size_bytes": 1991
+  },
+  "pie_prepared_train": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/076_pie_two_stage_early_late_xgb/metrics/prepared_train.csv",
+    "sha256": "2b3ce208c557cbc2abd2988f5dcdc073db8c7d2a4bca9a503eb5551583270510",
+    "size_bytes": 15032696
+  },
+  "pose_sources": [
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/049_exp048_to_jaad_zero_shot/cache/jaad_keypoints_vitpose_s_exp049_extended.jsonl",
+      "sha256": "9eae258cd7fed3b1278aa86f6ab5c508fb759a24c7912d5c57677506ae86e4db",
+      "size_bytes": 80354810
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/079_jaad_api_protocol_two_stage_xgb/cache/jaad_api_protocol_missing_pose.jsonl",
+      "sha256": "d0c0fd771eff1dadd7c499a680cef704409e6a07a72ca31f3f3b39d6a86fe038",
+      "size_bytes": 68682860
+    }
+  ],
+  "pre_registration": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/079_jaad_api_protocol_two_stage_xgb/pre_registration.json",
+    "sha256": "fb45a6e319b1265b3807817d8d924750b7c9df2d42753fe974a3988cf3512c4f",
+    "size_bytes": 1760
+  },
+  "protocol_a_windows": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/031_jaad_api_label_protocol_sensitivity/metrics/protocol_a_window_audit.csv",
+    "sha256": "56e3cb42efe80ae41968c6fa97de45475b09cc1459d1d6bd4bb39e109f568bcb",
+    "size_bytes": 20976495
+  },
+  "reused_zero_shot_models": [
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/077_jaad_two_stage_early_late_xgb_transfer/models/pie_zero_shot_one_stage_seed42.joblib",
+      "sha256": "731d39c84acd5d057bfe022789e64aa32c8a9c023c517d4ac16354a6b76d5fbd",
+      "size_bytes": 381300
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/077_jaad_two_stage_early_late_xgb_transfer/models/pie_zero_shot_one_stage_seed43.joblib",
+      "sha256": "7958a2fda09b54affcc62b26eac70fa50ecfd2f3d84d65e5c5ae9f74f574aff1",
+      "size_bytes": 379532
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/077_jaad_two_stage_early_late_xgb_transfer/models/pie_zero_shot_one_stage_seed44.joblib",
+      "sha256": "02aef20aae1547c99b36a67d81b797580ce0f4563bb5bbb90651b8878f1d9b1e",
+      "size_bytes": 376064
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/077_jaad_two_stage_early_late_xgb_transfer/models/pie_zero_shot_two_stage_seed42.joblib",
+      "sha256": "fd682250e333c0a0cb89e667cbee2865cfd2ff2711c07918c9137459d328046c",
+      "size_bytes": 402127
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/077_jaad_two_stage_early_late_xgb_transfer/models/pie_zero_shot_two_stage_seed43.joblib",
+      "sha256": "f4a99e9dfdb3512077302460e9d07ac537634a8a9e14b21d2fef477f4d3aebe1",
+      "size_bytes": 402459
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/077_jaad_two_stage_early_late_xgb_transfer/models/pie_zero_shot_two_stage_seed44.joblib",
+      "sha256": "b3dc0af63b7eb75dea5e9b25054a1dde5c74290287d087955284ad0c09bf4a6a",
+      "size_bytes": 404779
+    }
+  ],
+  "shared_data_core": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/076_pie_two_stage_early_late_xgb/scripts/data_core.py",
+    "sha256": "a7daf5df78ec9a44ca0f9fed5729e3e04e55c68f9291e9fe03ef5bad0311c9fa",
+    "size_bytes": 10290
+  },
+  "shared_evaluation": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/076_pie_two_stage_early_late_xgb/scripts/evaluation.py",
+    "sha256": "a938d43ac3dbe88821005aa9819f4e187e047577a45c720ab9a1df65c5c9b1a9",
+    "size_bytes": 4548
+  },
+  "shared_two_stage_core": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/076_pie_two_stage_early_late_xgb/scripts/two_stage_core.py",
+    "sha256": "5647a8538e804f318f3b5b37536aabead975078a10c3fd17188b64801060ab2b",
+    "size_bytes": 16384
+  }
+}

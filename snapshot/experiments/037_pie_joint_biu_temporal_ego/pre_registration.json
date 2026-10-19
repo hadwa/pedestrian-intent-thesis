@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "experiment": "Exp037",
+  "name": "PIE joint BIU temporal-ego",
+  "status": "PRE_REGISTERED_NOT_RUN",
+  "dataset": "PIE",
+  "benchmark": "standard anticipatory",
+  "observation_frames": 16,
+  "tte": "30_60",
+  "overlap": 0.6,
+  "threshold": 0.5,
+  "development_sets": ["set01", "set02", "set04", "set05"],
+  "confirmation_set": "set06",
+  "diagnostic_test_set": "set03",
+  "diagnostic_test_status": "TEST_INFORMED_NOT_INDEPENDENT_CONFIRMATION",
+  "baseline_arms": ["v2_bbox_xgb", "v1_bbox_rf"],
+  "candidate_arms": [
+    "joint_xgb",
+    "joint_rf",
+    "joint_temporal_xgb",
+    "joint_temporal_ego_xgb"
+  ],
+  "seeds": [42, 43, 44],
+  "bootstrap_seed": 42,
+  "bootstrap_replicates": 10000,
+  "minimum_pr_auc_gain": 0.005,
+  "minimum_f1_gain": 0.005,
+  "maximum_per_set_regression": 0.01,
+  "fp_high_confidence_min": 0.9,
+  "fn_high_confidence_max": 0.1,
+  "selection_priority": [
+    "pr_auc",
+    "f1_fixed_0p5",
+    "roc_auc",
+    "fewer_high_confidence_errors",
+    "lower_feature_count"
+  ],
+  "feature_contract": {
+    "joint_unique_feature_count": 161,
+    "temporal_bases": [
+      "lower_body_motion_magnitude_mean",
+      "lead_ankle_forward_delta",
+      "torso_motion_magnitude_mean",
+      "torso_center_x_delta",
+      "bbox_center_dx_norm",
+      "bbox_scale_log_delta",
+      "pose_confidence_mean"
+    ],
+    "temporal_statistics": ["early", "late", "late_minus_early"],
+    "obd_columns": [
+      "obd_speed_mean",
+      "obd_speed_std",
+      "obd_speed_first",
+      "obd_speed_last",
+      "obd_speed_delta"
+    ]
+  },
+  "models": {
+    "rf": {
+      "n_estimators": 300,
+      "min_samples_leaf": 2,
+      "class_weight": "balanced_subsample",
+      "n_jobs": -1
+    },
+    "xgb": {
+      "n_estimators": 250,
+      "max_depth": 4,
+      "learning_rate": 0.05,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "reg_lambda": 1.0,
+      "objective": "binary:logistic",
+      "eval_metric": "logloss",
+      "n_jobs": 4
+    }
+  },
+  "phase_contract": {
+    "prepare": "authenticate sources and materialize development features only",
+    "develop": "leave-one-set-out OOF on set01/set02/set04/set05",
+    "confirm": "fit development sets and evaluate one locked candidate on set06",
+    "evaluate": "conditional authenticated set03 diagnostic only after advance",
+    "shared_unlabeled_keypoint_exception": "The combined keypoint JSONL may be streamed before evaluation, but only phase-authorized set records may be retained; set03 labels, predictions, feature matrices, and metrics remain forbidden."
+  },
+  "papers": [
+    {
+      "title": "PIE: A Large-Scale Dataset and Models for Pedestrian Intention Estimation and Trajectory Prediction",
+      "year": 2019,
+      "local_copy": "papers/Rasouli_2019_PIE.pdf"
+    },
+    {
+      "title": "Benchmark for Evaluating Pedestrian Action Prediction",
+      "year": 2021,
+      "local_copy": "papers/Kotseruba_2021_PCPA_Benchmark.pdf"
+    },
+    {
+      "title": "Distributionally Robust Neural Networks for Group Shifts: On the Importance of Regularization for Worst-Case Generalization",
+      "year": 2020,
+      "local_copy": "papers/Sagawa_2020_Group_DRO.pdf"
+    }
+  ]
+}

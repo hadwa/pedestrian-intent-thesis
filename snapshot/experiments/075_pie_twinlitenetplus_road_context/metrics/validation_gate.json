@@ -1,0 +1,24 @@
+{
+  "confidence_path": false,
+  "mean_deltas": {
+    "f1": 0.0003796356306903596,
+    "pr_auc": 0.009712079140414276,
+    "roc_auc": 0.00817459565767257
+  },
+  "mean_high_confidence": {
+    "candidate_combined": 192.33333333333334,
+    "candidate_fn": 91.66666666666667,
+    "candidate_fp": 100.66666666666667,
+    "combined_ratio": 0.9600665557404326,
+    "reference_combined": 200.33333333333334,
+    "reference_fn": 90.66666666666667,
+    "reference_fp": 109.66666666666667
+  },
+  "mean_transitions": {
+    "corrections": 65.0,
+    "harms": 59.666666666666664
+  },
+  "per_seed_safety": true,
+  "performance_path": true,
+  "status": "advance"
+}

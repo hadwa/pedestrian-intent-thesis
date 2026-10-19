@@ -1,0 +1,6 @@
+held_out_set,training_sets,train_rows,evaluation_rows,seed_count,epochs
+set01,"['set02', 'set04', 'set05', 'set06']",5422,563,3,80
+set02,"['set01', 'set04', 'set05', 'set06']",5386,599,3,80
+set04,"['set01', 'set02', 'set05', 'set06']",2452,3533,3,80
+set05,"['set01', 'set02', 'set04', 'set06']",5899,86,3,80
+set06,"['set01', 'set02', 'set04', 'set05']",4781,1204,3,80

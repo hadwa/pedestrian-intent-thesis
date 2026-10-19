@@ -1,0 +1,19 @@
+{
+  "cases": [
+    "jaad_clean_simple",
+    "psi_simple",
+    "pie_road",
+    "jaad_clean_road",
+    "jaad_beh_road",
+    "jaad_all_road",
+    "jaad_clean_road_vehicle",
+    "jaad_beh_road_vehicle",
+    "jaad_all_road_vehicle",
+    "psi_ego",
+    "psi_road_ego"
+  ],
+  "code_design": {
+    "DESIGN.md": "14bc00bbb89aeeb7ce771e2ecb1ce4353cf9d53a631c91737140fdc79f5c48ae",
+    "scripts/run.py": "28a2923bc600086c1426f8ed5bd1b5523ef238b0f8f726ea7913beb61d0b0d4f"
+  }
+}

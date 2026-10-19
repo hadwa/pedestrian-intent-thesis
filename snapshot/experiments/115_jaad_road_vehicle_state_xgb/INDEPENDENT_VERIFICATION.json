@@ -1,0 +1,348 @@
+{
+  "status": "PASS",
+  "models_verified": 9,
+  "prediction_groups_verified": 42,
+  "metric_cells_verified": 630,
+  "max_metric_error": 1.1102230246251565e-16,
+  "source_and_output_hashes_verified": true,
+  "train_only_imputation_and_class_weights_verified": true,
+  "paired_deltas_verified": true,
+  "checks": [
+    {
+      "cohort": "jaad_all",
+      "split": "test",
+      "seed": 42,
+      "arm": "R242",
+      "n": 6732,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_all",
+      "split": "test",
+      "seed": 43,
+      "arm": "R242",
+      "n": 6732,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_all",
+      "split": "test",
+      "seed": 44,
+      "arm": "R242",
+      "n": 6732,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_all",
+      "split": "test",
+      "seed": 42,
+      "arm": "RV257",
+      "n": 6732,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_all",
+      "split": "test",
+      "seed": 43,
+      "arm": "RV257",
+      "n": 6732,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_all",
+      "split": "test",
+      "seed": 44,
+      "arm": "RV257",
+      "n": 6732,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_all",
+      "split": "validation",
+      "seed": 42,
+      "arm": "R242",
+      "n": 1265,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_all",
+      "split": "validation",
+      "seed": 43,
+      "arm": "R242",
+      "n": 1265,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_all",
+      "split": "validation",
+      "seed": 44,
+      "arm": "R242",
+      "n": 1265,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_all",
+      "split": "validation",
+      "seed": 42,
+      "arm": "RV257",
+      "n": 1265,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_all",
+      "split": "validation",
+      "seed": 43,
+      "arm": "RV257",
+      "n": 1265,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_all",
+      "split": "validation",
+      "seed": 44,
+      "arm": "RV257",
+      "n": 1265,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_beh",
+      "split": "test",
+      "seed": 42,
+      "arm": "R242",
+      "n": 1881,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_beh",
+      "split": "test",
+      "seed": 43,
+      "arm": "R242",
+      "n": 1881,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_beh",
+      "split": "test",
+      "seed": 44,
+      "arm": "R242",
+      "n": 1881,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_beh",
+      "split": "test",
+      "seed": 42,
+      "arm": "RV257",
+      "n": 1881,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_beh",
+      "split": "test",
+      "seed": 43,
+      "arm": "RV257",
+      "n": 1881,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_beh",
+      "split": "test",
+      "seed": 44,
+      "arm": "RV257",
+      "n": 1881,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_beh",
+      "split": "validation",
+      "seed": 42,
+      "arm": "R242",
+      "n": 242,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_beh",
+      "split": "validation",
+      "seed": 43,
+      "arm": "R242",
+      "n": 242,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_beh",
+      "split": "validation",
+      "seed": 44,
+      "arm": "R242",
+      "n": 242,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_beh",
+      "split": "validation",
+      "seed": 42,
+      "arm": "RV257",
+      "n": 242,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_beh",
+      "split": "validation",
+      "seed": 43,
+      "arm": "RV257",
+      "n": 242,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_beh",
+      "split": "validation",
+      "seed": 44,
+      "arm": "RV257",
+      "n": 242,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_clean",
+      "split": "test",
+      "seed": 42,
+      "arm": "R242",
+      "n": 1501,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_clean",
+      "split": "test",
+      "seed": 43,
+      "arm": "R242",
+      "n": 1501,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_clean",
+      "split": "test",
+      "seed": 44,
+      "arm": "R242",
+      "n": 1501,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_clean",
+      "split": "test",
+      "seed": 42,
+      "arm": "RV257",
+      "n": 1501,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_clean",
+      "split": "test",
+      "seed": 43,
+      "arm": "RV257",
+      "n": 1501,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_clean",
+      "split": "test",
+      "seed": 44,
+      "arm": "RV257",
+      "n": 1501,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_clean",
+      "split": "test",
+      "seed": 42,
+      "arm": "V197",
+      "n": 1501,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_clean",
+      "split": "test",
+      "seed": 43,
+      "arm": "V197",
+      "n": 1501,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_clean",
+      "split": "test",
+      "seed": 44,
+      "arm": "V197",
+      "n": 1501,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_clean",
+      "split": "validation",
+      "seed": 42,
+      "arm": "R242",
+      "n": 274,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_clean",
+      "split": "validation",
+      "seed": 43,
+      "arm": "R242",
+      "n": 274,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_clean",
+      "split": "validation",
+      "seed": 44,
+      "arm": "R242",
+      "n": 274,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_clean",
+      "split": "validation",
+      "seed": 42,
+      "arm": "RV257",
+      "n": 274,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_clean",
+      "split": "validation",
+      "seed": 43,
+      "arm": "RV257",
+      "n": 274,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_clean",
+      "split": "validation",
+      "seed": 44,
+      "arm": "RV257",
+      "n": 274,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_clean",
+      "split": "validation",
+      "seed": 42,
+      "arm": "V197",
+      "n": 274,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_clean",
+      "split": "validation",
+      "seed": 43,
+      "arm": "V197",
+      "n": 274,
+      "verified": true
+    },
+    {
+      "cohort": "jaad_clean",
+      "split": "validation",
+      "seed": 44,
+      "arm": "V197",
+      "n": 274,
+      "verified": true
+    }
+  ]
+}

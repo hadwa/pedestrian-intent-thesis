@@ -1,0 +1,1275 @@
+{
+  "all_required_frames_have_numeric_speed": true,
+  "archive_etag": "\"3868cb96ae54e00a99ad64d9e17bc701-325\"",
+  "development_only": true,
+  "records": [
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0001.json",
+      "maximum_km_hr": 34.0,
+      "minimum_km_hr": 30.0,
+      "required_frames": 122,
+      "source_crc32": 1612957479,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0001/cv_annotation.json",
+      "video": "video_0001"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0002.json",
+      "maximum_km_hr": 26.0,
+      "minimum_km_hr": 20.0,
+      "required_frames": 160,
+      "source_crc32": 827282772,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0002/cv_annotation.json",
+      "video": "video_0002"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0003.json",
+      "maximum_km_hr": 11.0,
+      "minimum_km_hr": 5.0,
+      "required_frames": 233,
+      "source_crc32": 751836470,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0003/cv_annotation.json",
+      "video": "video_0003"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0004.json",
+      "maximum_km_hr": 14.0,
+      "minimum_km_hr": 6.0,
+      "required_frames": 97,
+      "source_crc32": 1893644088,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0004/cv_annotation.json",
+      "video": "video_0004"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0005.json",
+      "maximum_km_hr": 14.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 300,
+      "source_crc32": 679930832,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0005/cv_annotation.json",
+      "video": "video_0005"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0006.json",
+      "maximum_km_hr": 52.0,
+      "minimum_km_hr": 50.0,
+      "required_frames": 189,
+      "source_crc32": 641074249,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0006/cv_annotation.json",
+      "video": "video_0006"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0007.json",
+      "maximum_km_hr": 33.0,
+      "minimum_km_hr": 27.0,
+      "required_frames": 93,
+      "source_crc32": 2547142909,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0007/cv_annotation.json",
+      "video": "video_0007"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0008.json",
+      "maximum_km_hr": 48.0,
+      "minimum_km_hr": 39.0,
+      "required_frames": 180,
+      "source_crc32": 1254606261,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0008/cv_annotation.json",
+      "video": "video_0008"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0009.json",
+      "maximum_km_hr": 70.0,
+      "minimum_km_hr": 69.0,
+      "required_frames": 88,
+      "source_crc32": 3655960277,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0009/cv_annotation.json",
+      "video": "video_0009"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0010.json",
+      "maximum_km_hr": 55.0,
+      "minimum_km_hr": 53.0,
+      "required_frames": 114,
+      "source_crc32": 2003274998,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0010/cv_annotation.json",
+      "video": "video_0010"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0011.json",
+      "maximum_km_hr": 57.0,
+      "minimum_km_hr": 47.0,
+      "required_frames": 140,
+      "source_crc32": 1054908457,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0011/cv_annotation.json",
+      "video": "video_0011"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0012.json",
+      "maximum_km_hr": 48.0,
+      "minimum_km_hr": 24.0,
+      "required_frames": 183,
+      "source_crc32": 1607284180,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0012/cv_annotation.json",
+      "video": "video_0012"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0013.json",
+      "maximum_km_hr": 17.0,
+      "minimum_km_hr": 16.0,
+      "required_frames": 171,
+      "source_crc32": 3715199152,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0013/cv_annotation.json",
+      "video": "video_0013"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0014.json",
+      "maximum_km_hr": 54.0,
+      "minimum_km_hr": 51.0,
+      "required_frames": 140,
+      "source_crc32": 3643836899,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0014/cv_annotation.json",
+      "video": "video_0014"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0015.json",
+      "maximum_km_hr": 24.0,
+      "minimum_km_hr": 10.0,
+      "required_frames": 215,
+      "source_crc32": 896359149,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0015/cv_annotation.json",
+      "video": "video_0015"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0016.json",
+      "maximum_km_hr": 50.0,
+      "minimum_km_hr": 45.0,
+      "required_frames": 198,
+      "source_crc32": 3636052515,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0016/cv_annotation.json",
+      "video": "video_0016"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0017.json",
+      "maximum_km_hr": 49.0,
+      "minimum_km_hr": 46.0,
+      "required_frames": 130,
+      "source_crc32": 4251461211,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0017/cv_annotation.json",
+      "video": "video_0017"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0018.json",
+      "maximum_km_hr": 28.0,
+      "minimum_km_hr": 24.0,
+      "required_frames": 304,
+      "source_crc32": 4267795076,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0018/cv_annotation.json",
+      "video": "video_0018"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0019.json",
+      "maximum_km_hr": 36.0,
+      "minimum_km_hr": 30.0,
+      "required_frames": 304,
+      "source_crc32": 2163888810,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0019/cv_annotation.json",
+      "video": "video_0019"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0020.json",
+      "maximum_km_hr": 28.0,
+      "minimum_km_hr": 9.0,
+      "required_frames": 367,
+      "source_crc32": 1697288537,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0020/cv_annotation.json",
+      "video": "video_0020"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0021.json",
+      "maximum_km_hr": 59.0,
+      "minimum_km_hr": 59.0,
+      "required_frames": 64,
+      "source_crc32": 2571436830,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0021/cv_annotation.json",
+      "video": "video_0021"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0022.json",
+      "maximum_km_hr": 56.0,
+      "minimum_km_hr": 52.0,
+      "required_frames": 88,
+      "source_crc32": 2692229885,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0022/cv_annotation.json",
+      "video": "video_0022"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0023.json",
+      "maximum_km_hr": 32.0,
+      "minimum_km_hr": 9.0,
+      "required_frames": 258,
+      "source_crc32": 4082476477,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0023/cv_annotation.json",
+      "video": "video_0023"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0024.json",
+      "maximum_km_hr": 65.0,
+      "minimum_km_hr": 57.0,
+      "required_frames": 141,
+      "source_crc32": 1858343982,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0024/cv_annotation.json",
+      "video": "video_0024"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0025.json",
+      "maximum_km_hr": 57.0,
+      "minimum_km_hr": 54.0,
+      "required_frames": 131,
+      "source_crc32": 2298764391,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0025/cv_annotation.json",
+      "video": "video_0025"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0026.json",
+      "maximum_km_hr": 40.0,
+      "minimum_km_hr": 11.0,
+      "required_frames": 209,
+      "source_crc32": 3236648739,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0026/cv_annotation.json",
+      "video": "video_0026"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0027.json",
+      "maximum_km_hr": 32.0,
+      "minimum_km_hr": 31.0,
+      "required_frames": 70,
+      "source_crc32": 578449019,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0027/cv_annotation.json",
+      "video": "video_0027"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0028.json",
+      "maximum_km_hr": 65.0,
+      "minimum_km_hr": 61.0,
+      "required_frames": 96,
+      "source_crc32": 2826304797,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0028/cv_annotation.json",
+      "video": "video_0028"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0029.json",
+      "maximum_km_hr": 52.0,
+      "minimum_km_hr": 33.0,
+      "required_frames": 250,
+      "source_crc32": 341584172,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0029/cv_annotation.json",
+      "video": "video_0029"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0030.json",
+      "maximum_km_hr": 48.0,
+      "minimum_km_hr": 44.0,
+      "required_frames": 162,
+      "source_crc32": 1758657742,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0030/cv_annotation.json",
+      "video": "video_0030"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0031.json",
+      "maximum_km_hr": 48.0,
+      "minimum_km_hr": 28.0,
+      "required_frames": 316,
+      "source_crc32": 3389492498,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0031/cv_annotation.json",
+      "video": "video_0031"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0033.json",
+      "maximum_km_hr": 35.0,
+      "minimum_km_hr": 14.0,
+      "required_frames": 424,
+      "source_crc32": 2843014108,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0033/cv_annotation.json",
+      "video": "video_0033"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0034.json",
+      "maximum_km_hr": 19.0,
+      "minimum_km_hr": 7.0,
+      "required_frames": 234,
+      "source_crc32": 2776409757,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0034/cv_annotation.json",
+      "video": "video_0034"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0035.json",
+      "maximum_km_hr": 4.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 287,
+      "source_crc32": 1060947481,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0035/cv_annotation.json",
+      "video": "video_0035"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0036.json",
+      "maximum_km_hr": 23.0,
+      "minimum_km_hr": 15.0,
+      "required_frames": 112,
+      "source_crc32": 1994658293,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0036/cv_annotation.json",
+      "video": "video_0036"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0037.json",
+      "maximum_km_hr": 38.0,
+      "minimum_km_hr": 18.0,
+      "required_frames": 243,
+      "source_crc32": 1136882871,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0037/cv_annotation.json",
+      "video": "video_0037"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0038.json",
+      "maximum_km_hr": 33.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 305,
+      "source_crc32": 924386281,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0038/cv_annotation.json",
+      "video": "video_0038"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0039.json",
+      "maximum_km_hr": 17.0,
+      "minimum_km_hr": 7.0,
+      "required_frames": 103,
+      "source_crc32": 3464626015,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0039/cv_annotation.json",
+      "video": "video_0039"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0040.json",
+      "maximum_km_hr": 36.0,
+      "minimum_km_hr": 11.0,
+      "required_frames": 176,
+      "source_crc32": 1960716525,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0040/cv_annotation.json",
+      "video": "video_0040"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0041.json",
+      "maximum_km_hr": 70.0,
+      "minimum_km_hr": 66.0,
+      "required_frames": 235,
+      "source_crc32": 4000487637,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0041/cv_annotation.json",
+      "video": "video_0041"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0042.json",
+      "maximum_km_hr": 0.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 179,
+      "source_crc32": 702142894,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0042/cv_annotation.json",
+      "video": "video_0042"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0043.json",
+      "maximum_km_hr": 4.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 275,
+      "source_crc32": 1251189370,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0043/cv_annotation.json",
+      "video": "video_0043"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0044.json",
+      "maximum_km_hr": 53.0,
+      "minimum_km_hr": 49.0,
+      "required_frames": 122,
+      "source_crc32": 643510390,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0044/cv_annotation.json",
+      "video": "video_0044"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0045.json",
+      "maximum_km_hr": 48.0,
+      "minimum_km_hr": 32.0,
+      "required_frames": 224,
+      "source_crc32": 1996828871,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0045/cv_annotation.json",
+      "video": "video_0045"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0046.json",
+      "maximum_km_hr": 43.0,
+      "minimum_km_hr": 42.0,
+      "required_frames": 127,
+      "source_crc32": 2399138807,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0046/cv_annotation.json",
+      "video": "video_0046"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0047.json",
+      "maximum_km_hr": 48.0,
+      "minimum_km_hr": 44.0,
+      "required_frames": 135,
+      "source_crc32": 3308496861,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0047/cv_annotation.json",
+      "video": "video_0047"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0048.json",
+      "maximum_km_hr": 40.0,
+      "minimum_km_hr": 26.0,
+      "required_frames": 252,
+      "source_crc32": 2005124531,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0048/cv_annotation.json",
+      "video": "video_0048"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0049.json",
+      "maximum_km_hr": 20.0,
+      "minimum_km_hr": 16.0,
+      "required_frames": 214,
+      "source_crc32": 1250838347,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0049/cv_annotation.json",
+      "video": "video_0049"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0050.json",
+      "maximum_km_hr": 3.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 232,
+      "source_crc32": 829261083,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0050/cv_annotation.json",
+      "video": "video_0050"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0051.json",
+      "maximum_km_hr": 24.0,
+      "minimum_km_hr": 21.0,
+      "required_frames": 218,
+      "source_crc32": 859046142,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0051/cv_annotation.json",
+      "video": "video_0051"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0052.json",
+      "maximum_km_hr": 26.0,
+      "minimum_km_hr": 10.0,
+      "required_frames": 169,
+      "source_crc32": 426496279,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0052/cv_annotation.json",
+      "video": "video_0052"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0053.json",
+      "maximum_km_hr": 43.0,
+      "minimum_km_hr": 34.0,
+      "required_frames": 187,
+      "source_crc32": 3816110830,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0053/cv_annotation.json",
+      "video": "video_0053"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0054.json",
+      "maximum_km_hr": 43.0,
+      "minimum_km_hr": 41.0,
+      "required_frames": 111,
+      "source_crc32": 2475413888,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0054/cv_annotation.json",
+      "video": "video_0054"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0056.json",
+      "maximum_km_hr": 36.0,
+      "minimum_km_hr": 28.0,
+      "required_frames": 120,
+      "source_crc32": 2590067060,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0056/cv_annotation.json",
+      "video": "video_0056"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0057.json",
+      "maximum_km_hr": 60.0,
+      "minimum_km_hr": 58.0,
+      "required_frames": 84,
+      "source_crc32": 2208185775,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0057/cv_annotation.json",
+      "video": "video_0057"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0058.json",
+      "maximum_km_hr": 27.0,
+      "minimum_km_hr": 8.0,
+      "required_frames": 181,
+      "source_crc32": 3367895333,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0058/cv_annotation.json",
+      "video": "video_0058"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0059.json",
+      "maximum_km_hr": 56.0,
+      "minimum_km_hr": 51.0,
+      "required_frames": 131,
+      "source_crc32": 581556328,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0059/cv_annotation.json",
+      "video": "video_0059"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0060.json",
+      "maximum_km_hr": 31.0,
+      "minimum_km_hr": 23.0,
+      "required_frames": 174,
+      "source_crc32": 3555066030,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0060/cv_annotation.json",
+      "video": "video_0060"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0061.json",
+      "maximum_km_hr": 34.0,
+      "minimum_km_hr": 26.0,
+      "required_frames": 225,
+      "source_crc32": 3285209397,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0061/cv_annotation.json",
+      "video": "video_0061"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0062.json",
+      "maximum_km_hr": 26.0,
+      "minimum_km_hr": 15.0,
+      "required_frames": 219,
+      "source_crc32": 3685135258,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0062/cv_annotation.json",
+      "video": "video_0062"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0063.json",
+      "maximum_km_hr": 64.0,
+      "minimum_km_hr": 61.0,
+      "required_frames": 91,
+      "source_crc32": 2133278588,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0063/cv_annotation.json",
+      "video": "video_0063"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0065.json",
+      "maximum_km_hr": 30.0,
+      "minimum_km_hr": 28.0,
+      "required_frames": 185,
+      "source_crc32": 3976210122,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0065/cv_annotation.json",
+      "video": "video_0065"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0066.json",
+      "maximum_km_hr": 19.0,
+      "minimum_km_hr": 11.0,
+      "required_frames": 184,
+      "source_crc32": 3223518329,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0066/cv_annotation.json",
+      "video": "video_0066"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0067.json",
+      "maximum_km_hr": 38.0,
+      "minimum_km_hr": 18.0,
+      "required_frames": 213,
+      "source_crc32": 515730896,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0067/cv_annotation.json",
+      "video": "video_0067"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0068.json",
+      "maximum_km_hr": 30.0,
+      "minimum_km_hr": 13.0,
+      "required_frames": 120,
+      "source_crc32": 1270988900,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0068/cv_annotation.json",
+      "video": "video_0068"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0069.json",
+      "maximum_km_hr": 48.0,
+      "minimum_km_hr": 45.0,
+      "required_frames": 88,
+      "source_crc32": 690170028,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0069/cv_annotation.json",
+      "video": "video_0069"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0070.json",
+      "maximum_km_hr": 19.0,
+      "minimum_km_hr": 19.0,
+      "required_frames": 59,
+      "source_crc32": 907960571,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0070/cv_annotation.json",
+      "video": "video_0070"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0071.json",
+      "maximum_km_hr": 40.0,
+      "minimum_km_hr": 7.0,
+      "required_frames": 145,
+      "source_crc32": 3532329658,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0071/cv_annotation.json",
+      "video": "video_0071"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0072.json",
+      "maximum_km_hr": 58.0,
+      "minimum_km_hr": 58.0,
+      "required_frames": 21,
+      "source_crc32": 1949620104,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0072/cv_annotation.json",
+      "video": "video_0072"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0073.json",
+      "maximum_km_hr": 63.0,
+      "minimum_km_hr": 58.0,
+      "required_frames": 101,
+      "source_crc32": 3303017808,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0073/cv_annotation.json",
+      "video": "video_0073"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0074.json",
+      "maximum_km_hr": 65.0,
+      "minimum_km_hr": 63.0,
+      "required_frames": 168,
+      "source_crc32": 2464036299,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0074/cv_annotation.json",
+      "video": "video_0074"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0075.json",
+      "maximum_km_hr": 48.0,
+      "minimum_km_hr": 44.0,
+      "required_frames": 124,
+      "source_crc32": 2540225919,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0075/cv_annotation.json",
+      "video": "video_0075"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0076.json",
+      "maximum_km_hr": 14.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 412,
+      "source_crc32": 64887258,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0076/cv_annotation.json",
+      "video": "video_0076"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0077.json",
+      "maximum_km_hr": 51.0,
+      "minimum_km_hr": 39.0,
+      "required_frames": 190,
+      "source_crc32": 3392020403,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0077/cv_annotation.json",
+      "video": "video_0077"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0078.json",
+      "maximum_km_hr": 7.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 291,
+      "source_crc32": 1038252104,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0078/cv_annotation.json",
+      "video": "video_0078"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0079.json",
+      "maximum_km_hr": 71.0,
+      "minimum_km_hr": 58.0,
+      "required_frames": 156,
+      "source_crc32": 1956457576,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0079/cv_annotation.json",
+      "video": "video_0079"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0080.json",
+      "maximum_km_hr": 55.0,
+      "minimum_km_hr": 12.0,
+      "required_frames": 343,
+      "source_crc32": 4278228213,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0080/cv_annotation.json",
+      "video": "video_0080"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0081.json",
+      "maximum_km_hr": 28.0,
+      "minimum_km_hr": 1.0,
+      "required_frames": 450,
+      "source_crc32": 2802161663,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0081/cv_annotation.json",
+      "video": "video_0081"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0082.json",
+      "maximum_km_hr": 23.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 119,
+      "source_crc32": 3898120476,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0082/cv_annotation.json",
+      "video": "video_0082"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0083.json",
+      "maximum_km_hr": 35.0,
+      "minimum_km_hr": 35.0,
+      "required_frames": 98,
+      "source_crc32": 2344168954,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0083/cv_annotation.json",
+      "video": "video_0083"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0084.json",
+      "maximum_km_hr": 30.0,
+      "minimum_km_hr": 15.0,
+      "required_frames": 282,
+      "source_crc32": 2341611143,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0084/cv_annotation.json",
+      "video": "video_0084"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0085.json",
+      "maximum_km_hr": 57.0,
+      "minimum_km_hr": 56.0,
+      "required_frames": 150,
+      "source_crc32": 1469737527,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0085/cv_annotation.json",
+      "video": "video_0085"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0086.json",
+      "maximum_km_hr": 54.0,
+      "minimum_km_hr": 53.0,
+      "required_frames": 69,
+      "source_crc32": 1963628479,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0086/cv_annotation.json",
+      "video": "video_0086"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0087.json",
+      "maximum_km_hr": 40.0,
+      "minimum_km_hr": 15.0,
+      "required_frames": 249,
+      "source_crc32": 3585923513,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0087/cv_annotation.json",
+      "video": "video_0087"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0088.json",
+      "maximum_km_hr": 74.0,
+      "minimum_km_hr": 58.0,
+      "required_frames": 207,
+      "source_crc32": 1413189801,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0088/cv_annotation.json",
+      "video": "video_0088"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0089.json",
+      "maximum_km_hr": 20.0,
+      "minimum_km_hr": 10.0,
+      "required_frames": 450,
+      "source_crc32": 938050278,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0089/cv_annotation.json",
+      "video": "video_0089"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0090.json",
+      "maximum_km_hr": 65.0,
+      "minimum_km_hr": 62.0,
+      "required_frames": 154,
+      "source_crc32": 2360369537,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0090/cv_annotation.json",
+      "video": "video_0090"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0091.json",
+      "maximum_km_hr": 71.0,
+      "minimum_km_hr": 67.0,
+      "required_frames": 182,
+      "source_crc32": 2417778918,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0091/cv_annotation.json",
+      "video": "video_0091"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0092.json",
+      "maximum_km_hr": 43.0,
+      "minimum_km_hr": 28.0,
+      "required_frames": 186,
+      "source_crc32": 2619352891,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0092/cv_annotation.json",
+      "video": "video_0092"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0094.json",
+      "maximum_km_hr": 45.0,
+      "minimum_km_hr": 42.0,
+      "required_frames": 231,
+      "source_crc32": 3212250458,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0094/cv_annotation.json",
+      "video": "video_0094"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0095.json",
+      "maximum_km_hr": 33.0,
+      "minimum_km_hr": 21.0,
+      "required_frames": 177,
+      "source_crc32": 124536662,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0095/cv_annotation.json",
+      "video": "video_0095"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0096.json",
+      "maximum_km_hr": 46.0,
+      "minimum_km_hr": 36.0,
+      "required_frames": 183,
+      "source_crc32": 2421038929,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0096/cv_annotation.json",
+      "video": "video_0096"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0097.json",
+      "maximum_km_hr": 23.0,
+      "minimum_km_hr": 4.0,
+      "required_frames": 321,
+      "source_crc32": 2161727529,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0097/cv_annotation.json",
+      "video": "video_0097"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0098.json",
+      "maximum_km_hr": 70.0,
+      "minimum_km_hr": 57.0,
+      "required_frames": 122,
+      "source_crc32": 265901381,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0098/cv_annotation.json",
+      "video": "video_0098"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0099.json",
+      "maximum_km_hr": 19.0,
+      "minimum_km_hr": 17.0,
+      "required_frames": 177,
+      "source_crc32": 412205961,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0099/cv_annotation.json",
+      "video": "video_0099"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0100.json",
+      "maximum_km_hr": 55.0,
+      "minimum_km_hr": 47.0,
+      "required_frames": 148,
+      "source_crc32": 4050116312,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0100/cv_annotation.json",
+      "video": "video_0100"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0101.json",
+      "maximum_km_hr": 60.0,
+      "minimum_km_hr": 60.0,
+      "required_frames": 129,
+      "source_crc32": 2198630624,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0101/cv_annotation.json",
+      "video": "video_0101"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0102.json",
+      "maximum_km_hr": 33.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 340,
+      "source_crc32": 24618359,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0102/cv_annotation.json",
+      "video": "video_0102"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0104.json",
+      "maximum_km_hr": 19.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 293,
+      "source_crc32": 3708530607,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0104/cv_annotation.json",
+      "video": "video_0104"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0105.json",
+      "maximum_km_hr": 11.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 234,
+      "source_crc32": 863542361,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0105/cv_annotation.json",
+      "video": "video_0105"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0106.json",
+      "maximum_km_hr": 24.0,
+      "minimum_km_hr": 13.0,
+      "required_frames": 119,
+      "source_crc32": 865607998,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0106/cv_annotation.json",
+      "video": "video_0106"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0107.json",
+      "maximum_km_hr": 26.0,
+      "minimum_km_hr": 12.0,
+      "required_frames": 231,
+      "source_crc32": 3392006742,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0107/cv_annotation.json",
+      "video": "video_0107"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0108.json",
+      "maximum_km_hr": 60.0,
+      "minimum_km_hr": 1.0,
+      "required_frames": 442,
+      "source_crc32": 2321018324,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0108/cv_annotation.json",
+      "video": "video_0108"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0109.json",
+      "maximum_km_hr": 45.0,
+      "minimum_km_hr": 6.0,
+      "required_frames": 300,
+      "source_crc32": 1897432000,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0109/cv_annotation.json",
+      "video": "video_0109"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0110.json",
+      "maximum_km_hr": 4.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 123,
+      "source_crc32": 4096087419,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0110/cv_annotation.json",
+      "video": "video_0110"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0112.json",
+      "maximum_km_hr": 26.0,
+      "minimum_km_hr": 4.0,
+      "required_frames": 250,
+      "source_crc32": 2276208476,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0112/cv_annotation.json",
+      "video": "video_0112"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0113.json",
+      "maximum_km_hr": 11.0,
+      "minimum_km_hr": 4.0,
+      "required_frames": 450,
+      "source_crc32": 2570779686,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0113/cv_annotation.json",
+      "video": "video_0113"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0114.json",
+      "maximum_km_hr": 22.0,
+      "minimum_km_hr": 4.0,
+      "required_frames": 283,
+      "source_crc32": 1330980836,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0114/cv_annotation.json",
+      "video": "video_0114"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0115.json",
+      "maximum_km_hr": 9.0,
+      "minimum_km_hr": 4.0,
+      "required_frames": 450,
+      "source_crc32": 2115751067,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0115/cv_annotation.json",
+      "video": "video_0115"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0116.json",
+      "maximum_km_hr": 50.0,
+      "minimum_km_hr": 45.0,
+      "required_frames": 113,
+      "source_crc32": 1901474260,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0116/cv_annotation.json",
+      "video": "video_0116"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0117.json",
+      "maximum_km_hr": 9.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 187,
+      "source_crc32": 945049609,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0117/cv_annotation.json",
+      "video": "video_0117"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0118.json",
+      "maximum_km_hr": 11.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 123,
+      "source_crc32": 1762381850,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0118/cv_annotation.json",
+      "video": "video_0118"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0119.json",
+      "maximum_km_hr": 24.0,
+      "minimum_km_hr": 4.0,
+      "required_frames": 421,
+      "source_crc32": 2366495886,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0119/cv_annotation.json",
+      "video": "video_0119"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0120.json",
+      "maximum_km_hr": 55.0,
+      "minimum_km_hr": 37.0,
+      "required_frames": 260,
+      "source_crc32": 297433272,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0120/cv_annotation.json",
+      "video": "video_0120"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0121.json",
+      "maximum_km_hr": 0.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 253,
+      "source_crc32": 1897717580,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0121/cv_annotation.json",
+      "video": "video_0121"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0122.json",
+      "maximum_km_hr": 0.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 159,
+      "source_crc32": 1281392142,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0122/cv_annotation.json",
+      "video": "video_0122"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0123.json",
+      "maximum_km_hr": 24.0,
+      "minimum_km_hr": 4.0,
+      "required_frames": 330,
+      "source_crc32": 1582673788,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0123/cv_annotation.json",
+      "video": "video_0123"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0124.json",
+      "maximum_km_hr": 13.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 216,
+      "source_crc32": 1439129868,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0124/cv_annotation.json",
+      "video": "video_0124"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0125.json",
+      "maximum_km_hr": 23.0,
+      "minimum_km_hr": 2.0,
+      "required_frames": 434,
+      "source_crc32": 525652198,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0125/cv_annotation.json",
+      "video": "video_0125"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0126.json",
+      "maximum_km_hr": 28.0,
+      "minimum_km_hr": 9.0,
+      "required_frames": 217,
+      "source_crc32": 1411550806,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0126/cv_annotation.json",
+      "video": "video_0126"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0127.json",
+      "maximum_km_hr": 50.0,
+      "minimum_km_hr": 35.0,
+      "required_frames": 234,
+      "source_crc32": 1595834127,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0127/cv_annotation.json",
+      "video": "video_0127"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0128.json",
+      "maximum_km_hr": 14.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 376,
+      "source_crc32": 1411844009,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0128/cv_annotation.json",
+      "video": "video_0128"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0129.json",
+      "maximum_km_hr": 18.0,
+      "minimum_km_hr": 12.0,
+      "required_frames": 168,
+      "source_crc32": 3981254637,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0129/cv_annotation.json",
+      "video": "video_0129"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0130.json",
+      "maximum_km_hr": 13.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 311,
+      "source_crc32": 1432845796,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0130/cv_annotation.json",
+      "video": "video_0130"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0131.json",
+      "maximum_km_hr": 10.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 450,
+      "source_crc32": 2305062918,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0131/cv_annotation.json",
+      "video": "video_0131"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0132.json",
+      "maximum_km_hr": 22.0,
+      "minimum_km_hr": 16.0,
+      "required_frames": 217,
+      "source_crc32": 2185493761,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0132/cv_annotation.json",
+      "video": "video_0132"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0133.json",
+      "maximum_km_hr": 31.0,
+      "minimum_km_hr": 28.0,
+      "required_frames": 68,
+      "source_crc32": 3691312033,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0133/cv_annotation.json",
+      "video": "video_0133"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0134.json",
+      "maximum_km_hr": 18.0,
+      "minimum_km_hr": 8.0,
+      "required_frames": 144,
+      "source_crc32": 914980105,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0134/cv_annotation.json",
+      "video": "video_0134"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0135.json",
+      "maximum_km_hr": 32.0,
+      "minimum_km_hr": 29.0,
+      "required_frames": 156,
+      "source_crc32": 1473476519,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0135/cv_annotation.json",
+      "video": "video_0135"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0136.json",
+      "maximum_km_hr": 21.0,
+      "minimum_km_hr": 5.0,
+      "required_frames": 450,
+      "source_crc32": 1856006709,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0136/cv_annotation.json",
+      "video": "video_0136"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0137.json",
+      "maximum_km_hr": 20.0,
+      "minimum_km_hr": 18.0,
+      "required_frames": 39,
+      "source_crc32": 3479636369,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0137/cv_annotation.json",
+      "video": "video_0137"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0138.json",
+      "maximum_km_hr": 20.0,
+      "minimum_km_hr": 6.0,
+      "required_frames": 450,
+      "source_crc32": 1705368750,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0138/cv_annotation.json",
+      "video": "video_0138"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0139.json",
+      "maximum_km_hr": 7.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 214,
+      "source_crc32": 363840291,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0139/cv_annotation.json",
+      "video": "video_0139"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0140.json",
+      "maximum_km_hr": 22.0,
+      "minimum_km_hr": 6.0,
+      "required_frames": 192,
+      "source_crc32": 3144836435,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0140/cv_annotation.json",
+      "video": "video_0140"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0141.json",
+      "maximum_km_hr": 42.0,
+      "minimum_km_hr": 33.0,
+      "required_frames": 232,
+      "source_crc32": 682804060,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0141/cv_annotation.json",
+      "video": "video_0141"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0142.json",
+      "maximum_km_hr": 12.0,
+      "minimum_km_hr": 1.0,
+      "required_frames": 128,
+      "source_crc32": 2460143258,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0142/cv_annotation.json",
+      "video": "video_0142"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0143.json",
+      "maximum_km_hr": 6.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 425,
+      "source_crc32": 726848795,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0143/cv_annotation.json",
+      "video": "video_0143"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0144.json",
+      "maximum_km_hr": 17.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 393,
+      "source_crc32": 3979867397,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0144/cv_annotation.json",
+      "video": "video_0144"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0145.json",
+      "maximum_km_hr": 52.0,
+      "minimum_km_hr": 10.0,
+      "required_frames": 183,
+      "source_crc32": 178082010,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0145/cv_annotation.json",
+      "video": "video_0145"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/speed/video_0146.json",
+      "maximum_km_hr": 39.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 450,
+      "source_crc32": 2987638670,
+      "source_member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0146/cv_annotation.json",
+      "video": "video_0146"
+    }
+  ],
+  "required_frame_assignments": 29694,
+  "status": "complete",
+  "test_accessed": false,
+  "train_windows": 26295,
+  "transferred_bytes": 694159,
+  "unit": "km/hr",
+  "validation_windows": 14922,
+  "videos": 140
+}

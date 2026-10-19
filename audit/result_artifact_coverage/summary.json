@@ -1,0 +1,12 @@
+{
+  "appendix_groups": 13,
+  "table_rows_traced": 66,
+  "nonunique_or_missing_selectors": 8,
+  "primary_files": 25,
+  "missing_primary_files": 0,
+  "audited_artifact_paths": 289,
+  "missing_paths": 7,
+  "not_packaged_paths": 152,
+  "scope_changed_since_snapshot": false,
+  "models_trained": 0
+}

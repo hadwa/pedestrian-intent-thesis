@@ -1,0 +1,26 @@
+{
+  "manifest": {
+    "positives": {
+      "train": 999,
+      "val": 170
+    },
+    "rows": {
+      "train": 1552,
+      "val": 274
+    }
+  },
+  "parent_model": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/084_pedcmt_biu_transfer/scripts/pedcmt_model.py",
+  "parent_runner": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/084_pedcmt_biu_transfer/scripts/run_experiment.py",
+  "test_cache_accessed": false,
+  "trainval_pose": {
+    "missing_frames": 0,
+    "primary_covered_frames": 7798,
+    "primary_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/data/jaad_keypoints_vitpose_s_extended_short_horizon.jsonl",
+    "primary_sha256": "4cf675a62f158dcedf79b8037ab39b4fdc94cefe1dd8783eb6e4523d792b2b64",
+    "required_unique_frames": 7844,
+    "supplement_covered_frames": 46,
+    "supplement_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/030_final_confidence_benchmark/jaad30_repair/jaad30_missing_supplemental_keypoints.jsonl",
+    "supplement_sha256": "660eb16b1d758f971ff34b8e41f2453ba1c43c5d1410753e77c23481a660c57e",
+    "valid_joint_fraction": 1.0
+  }
+}

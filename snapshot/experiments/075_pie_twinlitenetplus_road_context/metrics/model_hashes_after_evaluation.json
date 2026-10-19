@@ -1,0 +1,20 @@
+{
+  "models": [
+    {
+      "seed": 42,
+      "sha256": "45438081588cd53c391856c399070874e387697c6f4a08b3d1de999501d62c2d",
+      "size_bytes": 380224
+    },
+    {
+      "seed": 43,
+      "sha256": "667f2d78d237f5bf0549734d08f015768b5b6b4adac49abbce5c810c743ece9b",
+      "size_bytes": 377640
+    },
+    {
+      "seed": 44,
+      "sha256": "0598f8142b3d5abe3628c0370db6d6002df8377ad7d7973acf11653634f954fb",
+      "size_bytes": 377572
+    }
+  ],
+  "unchanged": true
+}

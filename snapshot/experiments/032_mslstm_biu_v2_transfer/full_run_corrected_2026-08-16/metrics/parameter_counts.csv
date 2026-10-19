@@ -1,0 +1,7 @@
+variant,seed,total_params,trainable_params
+variant_a_mslstm_control,42,15464976,15464976
+variant_a_mslstm_control,43,15464976,15464976
+variant_a_mslstm_control,44,15464976,15464976
+variant_b_mslstm_plus_biu_v2,42,15505936,15505936
+variant_b_mslstm_plus_biu_v2,43,15505936,15505936
+variant_b_mslstm_plus_biu_v2,44,15505936,15505936

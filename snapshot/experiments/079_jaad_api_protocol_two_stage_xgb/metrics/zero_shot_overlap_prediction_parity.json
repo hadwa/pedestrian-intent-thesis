@@ -1,0 +1,7 @@
+{
+  "labels_equal": true,
+  "one_stage_probability_max_abs_difference": 0.0,
+  "overlap_windows": 663,
+  "seed_window_rows": 1989,
+  "two_stage_probability_max_abs_difference": 0.0
+}

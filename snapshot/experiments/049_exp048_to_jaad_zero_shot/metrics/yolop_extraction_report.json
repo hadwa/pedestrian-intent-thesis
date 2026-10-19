@@ -1,0 +1,45 @@
+{
+  "deterministic_cudnn": true,
+  "device": "cuda:0",
+  "elapsed_seconds": 1302.063750743866,
+  "feature_dimension": 20,
+  "historical_parity": [
+    {
+      "frame": 1464,
+      "max_abs_error": 0.0,
+      "passed_atol_1e_6": true,
+      "ped_id": "3_1_220",
+      "set_id": "set03",
+      "video_id": "video_0001"
+    },
+    {
+      "frame": 1465,
+      "max_abs_error": 0.0,
+      "passed_atol_1e_6": true,
+      "ped_id": "3_1_220",
+      "set_id": "set03",
+      "video_id": "video_0001"
+    },
+    {
+      "frame": 1466,
+      "max_abs_error": 0.0,
+      "passed_atol_1e_6": true,
+      "ped_id": "3_1_220",
+      "set_id": "set03",
+      "video_id": "video_0001"
+    }
+  ],
+  "model_parameters": 7940846,
+  "notebook_path": "/home/abdelrahman/Hadwa/MSLSTM-PID/Offline Extraction/yolop-extraction.ipynb",
+  "notebook_sha256": "2310285c26a88e9acc5aa019e1d301e9435b58bd8b69e7c2d9292951575f8b2f",
+  "pedestrian_frame_records": 52621,
+  "phase": "label_sealed_yolop_extraction",
+  "probabilities_computed": false,
+  "repository_commit": "8d8f68df318c71f01d6f813c024df646c7d1978f",
+  "target_labels_attached": false,
+  "tf32_enabled": false,
+  "unique_frames": 23670,
+  "videos": 111,
+  "weights_path": "/home/abdelrahman/Hadwa/MSLSTM-PID/YOLOP/weights/End-to-end.pth",
+  "weights_sha256": "620e7495328cfc8e04807c14cbb8f8df9916953359d190cbf494b2d049f03b0c"
+}

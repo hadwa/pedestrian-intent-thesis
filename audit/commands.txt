@@ -1,0 +1,13 @@
+Preparation command:
+python /tmp/prepare_thesis_companion_20261020.py
+
+Source inspection commands before preparation:
+pwd
+cat AGENTS.md
+ls -ld /home/abdelrahman/Hadwa/pedestrian-intent-thesis
+rg --files scripts | head -25
+ls src
+sed -n '1,110p' experiments/116_xgboost_v2_core_completion/scripts/run.py
+sed -n '1,45p' experiments/122_jaad_mslstm_no_noise/scripts/run.py
+
+Git reads and fresh repository initialization are recorded in prepare_snapshot.py.

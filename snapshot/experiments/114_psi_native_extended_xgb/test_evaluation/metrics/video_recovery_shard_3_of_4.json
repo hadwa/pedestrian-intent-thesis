@@ -1,0 +1,108 @@
+{
+  "archive_etag": "\"3868cb96ae54e00a99ad64d9e17bc701-325\"",
+  "records": [
+    {
+      "bytes": 14091440,
+      "compressed_bytes": 14090679,
+      "crc32": 1366529038,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0150.mp4",
+      "required_frames": 196,
+      "video": "video_0150"
+    },
+    {
+      "bytes": 12869546,
+      "compressed_bytes": 12868621,
+      "crc32": 2081395600,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0154.mp4",
+      "required_frames": 247,
+      "video": "video_0154"
+    },
+    {
+      "bytes": 14733943,
+      "compressed_bytes": 14733517,
+      "crc32": 2185033741,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0159.mp4",
+      "required_frames": 261,
+      "video": "video_0159"
+    },
+    {
+      "bytes": 12768939,
+      "compressed_bytes": 12767923,
+      "crc32": 2454400704,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0164.mp4",
+      "required_frames": 197,
+      "video": "video_0164"
+    },
+    {
+      "bytes": 10611885,
+      "compressed_bytes": 10610298,
+      "crc32": 3162532467,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0169.mp4",
+      "required_frames": 297,
+      "video": "video_0169"
+    },
+    {
+      "bytes": 14470968,
+      "compressed_bytes": 14470451,
+      "crc32": 4157983222,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0174.mp4",
+      "required_frames": 222,
+      "video": "video_0174"
+    },
+    {
+      "bytes": 11714428,
+      "compressed_bytes": 11712929,
+      "crc32": 224636891,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0180.mp4",
+      "required_frames": 394,
+      "video": "video_0180"
+    },
+    {
+      "bytes": 13245424,
+      "compressed_bytes": 13244591,
+      "crc32": 3603917345,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0184.mp4",
+      "required_frames": 258,
+      "video": "video_0184"
+    },
+    {
+      "bytes": 11453237,
+      "compressed_bytes": 11451718,
+      "crc32": 1641769592,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0188.mp4",
+      "required_frames": 285,
+      "video": "video_0188"
+    },
+    {
+      "bytes": 13282658,
+      "compressed_bytes": 13281866,
+      "crc32": 797275350,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0193.mp4",
+      "required_frames": 278,
+      "video": "video_0193"
+    },
+    {
+      "bytes": 10429136,
+      "compressed_bytes": 10427486,
+      "crc32": 4194226660,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0197.mp4",
+      "required_frames": 188,
+      "video": "video_0197"
+    },
+    {
+      "bytes": 13375961,
+      "compressed_bytes": 13375127,
+      "crc32": 3292197610,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0203.mp4",
+      "required_frames": 191,
+      "video": "video_0203"
+    }
+  ],
+  "shard_count": 4,
+  "shard_index": 3,
+  "status": "complete",
+  "test_authorized": true,
+  "total_expected_videos": 49,
+  "transferred_bytes": 153730553,
+  "videos": 12
+}

@@ -1,0 +1,79 @@
+{
+  "anchor_predictions": {
+    "42": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__rf__seed42.csv",
+      "sha256": "d317230de70cee367236f188bb188d89947869fa3b5aa75227aed977c5fa6bf8",
+      "size_bytes": 686217
+    },
+    "43": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__rf__seed43.csv",
+      "sha256": "0aa599ed6281f8e148acc9bdda3fc43b1fd0380c73d055ea3baf39204e89b3ad",
+      "size_bytes": 686176
+    },
+    "44": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__rf__seed44.csv",
+      "sha256": "aaf0191a7c844eae93b0040776485e80b092d9c34883b286b7f9c176f3476bb5",
+      "size_bytes": 686204
+    }
+  },
+  "parent_scripts": {
+    "feature_core.py": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/037_pie_joint_biu_temporal_ego/scripts/feature_core.py",
+      "sha256": "49c23444e0588d3bf63f6aae35d25ade6afb7def7d180cb429ff5edf73e1dfc7",
+      "size_bytes": 9330
+    },
+    "model_core.py": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/037_pie_joint_biu_temporal_ego/scripts/model_core.py",
+      "sha256": "b5a0f7c53605dc11e5751e5dd2ee7baa3825fbefbaf37a6f32ff104fdead8139",
+      "size_bytes": 11998
+    },
+    "run_experiment.py": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/037_pie_joint_biu_temporal_ego/scripts/run_experiment.py",
+      "sha256": "85c415bb6f01cfc9e8c337d6a60a1f3ad3ead8d56e06a05626b1b5e77dcfc9a3",
+      "size_bytes": 42318
+    }
+  },
+  "set03_materialized": false,
+  "sources": {
+    "confirmation_features": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/039_pie_locked_global_temperature/metrics/confirmation_features.csv",
+      "sha256": "200da7cac94587988218117f1b98a0a397f1566aecb7663712c9b169692f6750",
+      "size_bytes": 5032813
+    },
+    "exp037_prepare_completion": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/037_pie_joint_biu_temporal_ego/metrics/.prepare.complete.json",
+      "sha256": "ccba2956fd0d02c161036fe39f444394f960307b1b4b45c0a36fea9e936cf1ec",
+      "size_bytes": 527
+    },
+    "exp039_confirm_completion": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/039_pie_locked_global_temperature/metrics/.confirm.complete.json",
+      "sha256": "09643bac4f2fbe8b6b0cb7edc00aaf09debe18d59e4fd6485f8968e93c78c5d1",
+      "size_bytes": 1593
+    },
+    "feature_contract": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/037_pie_joint_biu_temporal_ego/metrics/feature_contract.json",
+      "sha256": "29fe743b5b3a65190c98b3f86f980a1e17054c0b3c7c6b1851a7813c53a5b49b",
+      "size_bytes": 30970
+    },
+    "feature_definitions": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/metrics/pie_biu_v2_feature_set_definitions.csv",
+      "sha256": "6708d290d9263ad29000786cf6d15c5ec052dc8712c1b5a16741944295d0145c",
+      "size_bytes": 11768
+    },
+    "prepared_development": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/037_pie_joint_biu_temporal_ego/metrics/prepared_development.csv",
+      "sha256": "85bf008b988e18f0b13630ca87412dbbeee9afbdec4b0a7ecd9847c5e0352892",
+      "size_bytes": 19896771
+    },
+    "split_train": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/splits_pie_wacv_pcpa_30_60_overlap06/train_sequences.csv",
+      "sha256": "ae0b7f02e13f555f07d915d208acde085929fb8eec77001642a84febcb936a6d",
+      "size_bytes": 984418
+    },
+    "split_validation": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/splits_pie_wacv_pcpa_30_60_overlap06/val_sequences.csv",
+      "sha256": "f419501dbd840bd90003d93f3dca7f0eadac0a0622f38e6a2e229929430532a4",
+      "size_bytes": 1504458
+    }
+  }
+}

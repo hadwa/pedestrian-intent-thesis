@@ -1,0 +1,31 @@
+{
+  "experiment": 79,
+  "status_at_freeze": "before feature materialization, native fitting, or test evaluation",
+  "purpose": "Diagnostic rerun of Exp077 one-stage and 8+8 two-stage XGBoost on Exp031 Protocol A flawed JAAD subsets",
+  "protocol_source": "experiments/031_jaad_api_label_protocol_sensitivity/metrics/protocol_a_window_audit.csv",
+  "cohorts": {
+    "train": 8613,
+    "validation": 1265,
+    "test": 6732
+  },
+  "observation_count": 16,
+  "nominal_tte_frames": [30, 60],
+  "threshold": 0.5,
+  "seeds": [42, 43, 44],
+  "representations": {
+    "early": "161-D joint BBox53 plus BIU-v1 features recomputed from API observations 1--8",
+    "full": "182-D no-ego portable Exp077 representation: 161-D joint features plus 21 fixed early/late contrasts"
+  },
+  "models": {
+    "one_stage": "XGBoost, 250 trees on full representation",
+    "two_stage": "XGBoost, 125 stage-1 trees plus 125 stage-2 trees; 5-fold track-grouped OOF stage-1 probability during training"
+  },
+  "settings": {
+    "pie_to_jaad_zero_shot": "reuse exact Exp077 PIE-trained models; no JAAD fitting or calibration",
+    "jaad_native": "fresh training on Protocol A train, report Protocol A validation, evaluate Protocol A test once"
+  },
+  "selection": "No architecture, hyperparameter, threshold, or model selection based on Protocol A test",
+  "pose_policy": "Exact (video,pid,frame) identity and frozen Protocol A BBox; no b-suffix aliasing or nearby-frame substitution",
+  "known_protocol_artifact": "Two train windows contain 16 ordered API observations with a raw-frame gap and are retained unchanged",
+  "interpretation": "Protocol-sensitivity diagnostic only; not the clean JAAD benchmark and not an exact replay of an unrecovered historical annotation/API snapshot"
+}

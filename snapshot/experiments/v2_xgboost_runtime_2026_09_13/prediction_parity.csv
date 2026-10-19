@@ -1,0 +1,7 @@
+model,seed,max_probability_error,worker_count_prediction_parity,rows
+core,42,2.7468872065838923e-08,True,100
+core,43,2.9577636673217e-08,True,100
+core,44,2.9796600298226394e-08,True,100
+road,42,2.853240965716708e-08,True,100
+road,43,2.936630250083283e-08,True,100
+road,44,2.959365841270767e-08,True,100

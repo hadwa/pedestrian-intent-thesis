@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "bootstrap_f1_vs_joint_positive": false,
+    "bootstrap_pr_vs_joint_positive": false,
+    "f1_gain_vs_joint": false,
+    "f1_gain_vs_v2": false,
+    "fn_tail_nonincrease": false,
+    "fp_tail_nonincrease": false,
+    "pr_auc_gain_vs_joint": false,
+    "pr_auc_gain_vs_v2": false
+  },
+  "observed": {
+    "candidate_f1": 0.7421426157485637,
+    "candidate_high_confidence_errors": 421,
+    "candidate_pr_auc": 0.7377311066530837,
+    "joint_f1": 0.786774628879892,
+    "joint_high_confidence_errors": 244,
+    "joint_pr_auc": 0.8270343193096045
+  },
+  "status": "not_promising"
+}

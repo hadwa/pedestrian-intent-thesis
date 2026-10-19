@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "pdf_pages": 103,
+  "runtime_viewer_pages": {
+    "82": "Chapter 4 Results and Discussion"
+  },
+  "verified_runtime_table_cells": 6,
+  "undefined_refs_or_citations": 0,
+  "oversized_floats": 0,
+  "decision_rule_statements": 1,
+  "combined_mentions": 0
+}

@@ -1,0 +1,12 @@
+{
+  "authenticated_phase_count": 8,
+  "compiled": true,
+  "efficiency_rows": 6,
+  "fixed_0p5_rows": 6,
+  "literature_rows": 4,
+  "per_seed_result_rows": 12,
+  "prediction_rows": 25839,
+  "status": "pass",
+  "test_count": 28,
+  "test_failures": 0
+}

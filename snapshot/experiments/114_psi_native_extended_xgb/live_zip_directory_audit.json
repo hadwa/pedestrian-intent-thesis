@@ -1,0 +1,36 @@
+{
+  "archive_bytes": 5570151609,
+  "cv_annotation": {
+    "bytes": 3864596582,
+    "compressed_bytes": 73707702,
+    "member_count": 140,
+    "missing_selected_videos": [
+      "video_0032",
+      "video_0055",
+      "video_0093"
+    ]
+  },
+  "directory_transfer_bytes": 694159,
+  "etag": "\"3868cb96ae54e00a99ad64d9e17bc701-325\"",
+  "psi1_alternate_cv_members": {
+    "video_0032": {
+      "bytes": 9750932,
+      "compressed_bytes": 172055,
+      "member": "PSI/PSI1.0/annotations/cv_annotation/video_0032/cv_annotation.json"
+    },
+    "video_0055": {
+      "bytes": 26179533,
+      "compressed_bytes": 457905,
+      "member": "PSI/PSI1.0/annotations/cv_annotation/video_0055/cv_annotation.json"
+    },
+    "video_0093": null
+  },
+  "test_members_read": false,
+  "url": "https://s3.amazonaws.com/pedestrian.datatset.files/PSI_Dataset_1_2.zip",
+  "video_members": {
+    "bytes": 4543821150,
+    "compressed_bytes": 4544559755,
+    "member_count": 143,
+    "prefix": "PSI/PSI2.0_videos_Train-Val/videos/"
+  }
+}

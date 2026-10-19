@@ -1,0 +1,9 @@
+{
+  "appendix_groups_checked": 13,
+  "unique_table_row_selectors": 66,
+  "primary_files_all_present": true,
+  "scope_unchanged_during_audit": true,
+  "weights_to_package_all_exist": true,
+  "weights_to_package": 69,
+  "models_trained": 0
+}

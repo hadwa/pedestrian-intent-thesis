@@ -1,0 +1,9 @@
+{
+  "gpu": "NVIDIA GeForce RTX 3070 Laptop GPU",
+  "test_accessed": false,
+  "cases": [
+    "pie",
+    "jaad"
+  ],
+  "smoke_backward": true
+}

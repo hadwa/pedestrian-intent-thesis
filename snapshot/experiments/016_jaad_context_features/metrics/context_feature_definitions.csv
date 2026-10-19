@@ -1,0 +1,21 @@
+column,source_annotation_dir,source_field,encoding
+attr_age_ordinal,annotations_attributes,age,"ordinal child=0, young=1, adult=2, senior=3; NaN if unknown"
+attr_gender_female,annotations_attributes,gender,1 if female else 0 (n/a -> 0)
+attr_gender_male,annotations_attributes,gender,1 if male else 0 (n/a -> 0)
+attr_group_size,annotations_attributes,group_size,integer group size as float
+attr_designated_crossing,annotations_attributes,designated,1 if D (designated crossing point) else 0 (ND)
+attr_intersection,annotations_attributes,intersection,1 if yes else 0
+attr_num_lanes,annotations_attributes,num_lanes,integer number of lanes as float
+attr_signalized_s,annotations_attributes,signalized,1 if S (signalized) else 0 (NS or n/a -> 0)
+attr_signalized_ns,annotations_attributes,signalized,1 if NS (not signalized) else 0 (S or n/a -> 0)
+attr_traffic_oneway,annotations_attributes,traffic_direction,1 if OW (one-way) else 0 (TW two-way)
+attr_motion_lateral,annotations_attributes,motion_direction,"1 if LAT else 0 (LONG or n/a -> 0); track-level annotation, see caveat"
+attr_motion_longitudinal,annotations_attributes,motion_direction,"1 if LONG else 0 (LAT or n/a -> 0); track-level annotation, see caveat"
+traffic_road_type_street,annotations_traffic,road_type,1 if road_type == street else 0 (video-level)
+traffic_road_type_parking_lot,annotations_traffic,road_type,1 if road_type == parking_lot else 0 (video-level; garage is the implicit baseline)
+traffic_ped_crossing_frac,annotations_traffic,frame/ped_crossing,fraction of OBSERVED window frames with a marked pedestrian crosswalk in scene
+traffic_ped_sign_frac,annotations_traffic,frame/ped_sign,fraction of OBSERVED window frames with a pedestrian sign in scene
+traffic_stop_sign_frac,annotations_traffic,frame/stop_sign,fraction of OBSERVED window frames with a stop sign in scene
+traffic_light_red_frac,annotations_traffic,frame/traffic_light,fraction of OBSERVED window frames with traffic_light == red (n/a -> 0)
+traffic_light_green_frac,annotations_traffic,frame/traffic_light,fraction of OBSERVED window frames with traffic_light == green (n/a -> 0)
+traffic_light_present_frac,annotations_traffic,frame/traffic_light,fraction of OBSERVED window frames with any traffic light state annotated (red or green)

@@ -1,0 +1,25 @@
+\begin{table}[!htbp]
+\centering
+\caption{Retained predictor complexity and ready-input CPU latency.}\label{tab:ch4_model_size}
+\small
+\begin{tabularx}{\textwidth}{@{}Xrrrr@{}}\toprule
+\textbf{Predictor} & \shortstack{\textbf{Trees /}\\\textbf{parameters}} & \shortstack{\textbf{Size}\\\textbf{(MiB)}} & \shortstack{\textbf{Mean}\\\textbf{(ms)}} & \shortstack{\textbf{p95}\\\textbf{(ms)}}\\[3pt]
+\midrule
+XGBoost behavioral (\mbox{135-D}) & 250 trees & 0.351--0.353 & 1.065 & 1.170\\[3pt]
+XGBoost + road context (\mbox{195-D}) & 250 trees & 0.360--0.361 & 1.174 & 1.258\\[3pt]
+MSLSTM baseline & 6,765,321 & 25.829 & 7.749 & 8.302\\[3pt]
+MSLSTM + BIU-v2 (56-D) & 6,838,666 & 26.110 & 7.780 & 8.322\\[3pt]
+MSLSTM + BIU-v2 + supporting cues (63-D) & 6,839,562 & 26.114 & 7.965 & 8.648\\[3pt]
+MSLSTM + raw pose & 9,006,091 & 34.383 & 10.443 & 11.094\\[3pt]
+Capped PedCMT + BIU-v2 (56-D) & 1,924,529 & -- & 3.424 & 3.770\\[3pt]
+Capped PedCMT + BIU-v2 + supporting cues (63-D) & 1,925,425 & -- & 3.430 & 3.789\\[3pt]
+\bottomrule
+\end{tabularx}
+\smallskip
+\begin{minipage}{\textwidth}\footnotesize
+Tree counts and neural parameter counts use different units. Sizes describe uncompressed
+files, not RAM; PedCMT inference-only sizes were not measured (--). Complete predictors
+are timed, including the frozen PedCMT parent. Section~\ref{sec:efficiency_method}
+defines the shared CPU protocol and the different sampled windows.
+\end{minipage}
+\end{table}

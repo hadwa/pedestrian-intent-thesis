@@ -1,0 +1,48 @@
+{
+  "anchor_shared_exp077": {
+    "train": {
+      "columns": 182,
+      "max_abs_difference": 9.094947017729282e-13,
+      "nan_mismatches": 0,
+      "shared_rows": 649,
+      "status": "pass",
+      "tolerance": 1e-06
+    },
+    "val": {
+      "columns": 182,
+      "max_abs_difference": 9.094947017729282e-13,
+      "nan_mismatches": 0,
+      "shared_rows": 121,
+      "status": "pass",
+      "tolerance": 1e-06
+    }
+  },
+  "pose": {
+    "duplicate_identical": 0,
+    "loaded": 41308,
+    "required": 41308,
+    "source_contributions": {
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/049_exp048_to_jaad_zero_shot/cache/jaad_keypoints_vitpose_s_exp049_extended.jsonl": 5131,
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/079_jaad_api_protocol_two_stage_xgb/cache/jaad_api_protocol_missing_pose.jsonl": 36177
+    }
+  },
+  "road_shared_exp081": {
+    "train": {
+      "columns": 60,
+      "max_abs_difference": 0.0,
+      "nan_mismatches": 0,
+      "shared_rows": 649,
+      "status": "pass",
+      "tolerance": 1e-06
+    },
+    "val": {
+      "columns": 60,
+      "max_abs_difference": 0.0,
+      "nan_mismatches": 0,
+      "shared_rows": 121,
+      "status": "pass",
+      "tolerance": 1e-06
+    }
+  },
+  "test_accessed": false
+}

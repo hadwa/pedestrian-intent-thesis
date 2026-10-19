@@ -1,0 +1,146 @@
+[
+  {
+    "case": "pie",
+    "arm": "baseline",
+    "seed": 42,
+    "max_abs_error": 1.1165809249424896e-07
+  },
+  {
+    "case": "pie",
+    "arm": "raw",
+    "seed": 42,
+    "max_abs_error": 7.26512570103921e-08
+  },
+  {
+    "case": "pie",
+    "arm": "core56",
+    "seed": 42,
+    "max_abs_error": 6.873879132562877e-08
+  },
+  {
+    "case": "pie",
+    "arm": "full63",
+    "seed": 42,
+    "max_abs_error": 3.690890004737213e-08
+  },
+  {
+    "case": "pie",
+    "arm": "baseline",
+    "seed": 43,
+    "max_abs_error": 1.8149566649583448e-07
+  },
+  {
+    "case": "pie",
+    "arm": "raw",
+    "seed": 43,
+    "max_abs_error": 6.528297846752906e-08
+  },
+  {
+    "case": "pie",
+    "arm": "core56",
+    "seed": 43,
+    "max_abs_error": 1.1102375352400884e-07
+  },
+  {
+    "case": "pie",
+    "arm": "full63",
+    "seed": 43,
+    "max_abs_error": 8.271913798374442e-08
+  },
+  {
+    "case": "pie",
+    "arm": "baseline",
+    "seed": 44,
+    "max_abs_error": 1.9177440643836086e-07
+  },
+  {
+    "case": "pie",
+    "arm": "raw",
+    "seed": 44,
+    "max_abs_error": 5.495528965226981e-08
+  },
+  {
+    "case": "pie",
+    "arm": "core56",
+    "seed": 44,
+    "max_abs_error": 6.14755771843889e-08
+  },
+  {
+    "case": "pie",
+    "arm": "full63",
+    "seed": 44,
+    "max_abs_error": 6.430505306020962e-08
+  },
+  {
+    "case": "jaad",
+    "arm": "baseline",
+    "seed": 42,
+    "max_abs_error": 1.4680099491570786e-07
+  },
+  {
+    "case": "jaad",
+    "arm": "raw",
+    "seed": 42,
+    "max_abs_error": 5.889834475691913e-08
+  },
+  {
+    "case": "jaad",
+    "arm": "core56",
+    "seed": 42,
+    "max_abs_error": 5.492065180412453e-08
+  },
+  {
+    "case": "jaad",
+    "arm": "full63",
+    "seed": 42,
+    "max_abs_error": 5.4499217583270365e-08
+  },
+  {
+    "case": "jaad",
+    "arm": "baseline",
+    "seed": 43,
+    "max_abs_error": 7.687454228744173e-08
+  },
+  {
+    "case": "jaad",
+    "arm": "raw",
+    "seed": 43,
+    "max_abs_error": 5.5183023150995325e-08
+  },
+  {
+    "case": "jaad",
+    "arm": "core56",
+    "seed": 43,
+    "max_abs_error": 5.650581591520876e-08
+  },
+  {
+    "case": "jaad",
+    "arm": "full63",
+    "seed": 43,
+    "max_abs_error": 6.51960746500535e-08
+  },
+  {
+    "case": "jaad",
+    "arm": "baseline",
+    "seed": 44,
+    "max_abs_error": 8.166732790026998e-08
+  },
+  {
+    "case": "jaad",
+    "arm": "raw",
+    "seed": 44,
+    "max_abs_error": 5.242539757865927e-08
+  },
+  {
+    "case": "jaad",
+    "arm": "core56",
+    "seed": 44,
+    "max_abs_error": 5.395969027155445e-08
+  },
+  {
+    "case": "jaad",
+    "arm": "full63",
+    "seed": 44,
+    "max_abs_error": 4.987425639146892e-08
+  }
+]

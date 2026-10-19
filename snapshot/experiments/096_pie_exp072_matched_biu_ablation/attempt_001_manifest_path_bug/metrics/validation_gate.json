@@ -1,0 +1,8 @@
+{
+  "reason": "all four prespecified arms and three seeds completed on validation",
+  "run_count": 12,
+  "selection_rule": "no arm selected; all prespecified controls advance together",
+  "status": "advance",
+  "test_previously_exposed_elsewhere": true,
+  "threshold": 0.5
+}

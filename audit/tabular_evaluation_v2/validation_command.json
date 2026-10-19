@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python",
+    "-B",
+    "-I",
+    "-c",
+    "import sys,os,runpy\nblocked=('/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean','/home/abdelrahman/Hadwa/BIU-PID-Distillation')\ndef guard(event,args):\n if event in ('open','os.listdir','os.scandir') and args and isinstance(args[0],(str,bytes)):\n  path=os.path.realpath(os.fsdecode(args[0]))\n  if any(path==r or path.startswith(r+'/') for r in blocked):raise RuntimeError('Original repository access denied: '+path)\nsys.addaudithook(guard)\nscript=sys.argv[1];sys.argv=sys.argv[1:];runpy.run_path(script,run_name='__main__')\n",
+    "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/evaluate_tabular.py",
+    "--output",
+    "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/runs/tabular_saved_replay"
+  ],
+  "cwd": "/tmp",
+  "returncode": 0,
+  "stdout": "{\n  \"classification\": \"diagnostic saved-model replay; no training or raw-input extraction\",\n  \"models\": 51,\n  \"evaluation_jobs\": 99,\n  \"max_probability_error\": 2.980194091506405e-08,\n  \"max_metric_error\": 0.0,\n  \"manifest_sha256\": \"aaaa4518ad66dc5b4c4c280a29a77c1c5a46f8710f6dc196a4705e7f761f26de\",\n  \"code_sha256\": \"9fdcc665bb498b7b03b668b8f78bb66070e2823f70573685ac5a5fbce1faa2c0\",\n  \"environment\": {\n    \"python\": \"3.10.20\",\n    \"numpy\": \"2.2.6\",\n    \"pandas\": \"2.3.3\",\n    \"joblib\": \"1.5.3\",\n    \"scikit-learn\": \"1.7.2\",\n    \"xgboost\": \"3.2.0\"\n  },\n  \"models_trained\": 0\n}\n",
+  "stderr": ""
+}

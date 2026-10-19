@@ -1,0 +1,25 @@
+arm,held_out_set,training_sets,train_rows,evaluation_rows
+joint_rf,set01,"['set02', 'set04', 'set05']",4218,563
+joint_rf,set02,"['set01', 'set04', 'set05']",4182,599
+joint_rf,set04,"['set01', 'set02', 'set05']",1248,3533
+joint_rf,set05,"['set01', 'set02', 'set04']",4695,86
+joint_temporal_ego_xgb,set01,"['set02', 'set04', 'set05']",4218,563
+joint_temporal_ego_xgb,set02,"['set01', 'set04', 'set05']",4182,599
+joint_temporal_ego_xgb,set04,"['set01', 'set02', 'set05']",1248,3533
+joint_temporal_ego_xgb,set05,"['set01', 'set02', 'set04']",4695,86
+joint_temporal_xgb,set01,"['set02', 'set04', 'set05']",4218,563
+joint_temporal_xgb,set02,"['set01', 'set04', 'set05']",4182,599
+joint_temporal_xgb,set04,"['set01', 'set02', 'set05']",1248,3533
+joint_temporal_xgb,set05,"['set01', 'set02', 'set04']",4695,86
+joint_xgb,set01,"['set02', 'set04', 'set05']",4218,563
+joint_xgb,set02,"['set01', 'set04', 'set05']",4182,599
+joint_xgb,set04,"['set01', 'set02', 'set05']",1248,3533
+joint_xgb,set05,"['set01', 'set02', 'set04']",4695,86
+v1_bbox_rf,set01,"['set02', 'set04', 'set05']",4218,563
+v1_bbox_rf,set02,"['set01', 'set04', 'set05']",4182,599
+v1_bbox_rf,set04,"['set01', 'set02', 'set05']",1248,3533
+v1_bbox_rf,set05,"['set01', 'set02', 'set04']",4695,86
+v2_bbox_xgb,set01,"['set02', 'set04', 'set05']",4218,563
+v2_bbox_xgb,set02,"['set01', 'set04', 'set05']",4182,599
+v2_bbox_xgb,set04,"['set01', 'set02', 'set05']",1248,3533
+v2_bbox_xgb,set05,"['set01', 'set02', 'set04']",4695,86

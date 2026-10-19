@@ -1,0 +1,74 @@
+[
+  {
+    "case": "mslstm_pie",
+    "core56_parameters": 6838666,
+    "only_changed_weight": "vector_projections.biu_v2.0.weight",
+    "parent_parameters": 6839562
+  },
+  {
+    "case": "mslstm_pie",
+    "parent_replay_error": 2.9779052779232984e-08,
+    "phase": "validation",
+    "seed": 42
+  },
+  {
+    "case": "mslstm_pie",
+    "parent_replay_error": 2.9788970956623473e-08,
+    "phase": "validation",
+    "seed": 43
+  },
+  {
+    "case": "mslstm_pie",
+    "parent_replay_error": 2.9668426493323352e-08,
+    "phase": "validation",
+    "seed": 44
+  },
+  {
+    "case": "pedcmt_pie",
+    "core56_parameters": 1858480,
+    "only_changed_weight": "vector_projector.network.0.weight",
+    "parent_parameters": 1859376
+  },
+  {
+    "case": "pedcmt_pie",
+    "parent_replay_error": 2.9705047643879823e-08,
+    "phase": "validation",
+    "seed": 42
+  },
+  {
+    "case": "pedcmt_pie",
+    "parent_replay_error": 2.9766845655032625e-08,
+    "phase": "validation",
+    "seed": 43
+  },
+  {
+    "case": "pedcmt_pie",
+    "parent_replay_error": 2.9291534420217147e-08,
+    "phase": "validation",
+    "seed": 44
+  },
+  {
+    "case": "pedcmt_jaad",
+    "core56_parameters": 1858480,
+    "only_changed_weight": "vector_projector.network.0.weight",
+    "parent_parameters": 1859376
+  },
+  {
+    "case": "pedcmt_jaad",
+    "parent_replay_error": 2.659072873001378e-08,
+    "phase": "validation",
+    "seed": 42
+  },
+  {
+    "case": "pedcmt_jaad",
+    "parent_replay_error": 2.969436641020451e-08,
+    "phase": "validation",
+    "seed": 43
+  },
+  {
+    "case": "pedcmt_jaad",
+    "parent_replay_error": 2.95570373731735e-08,
+    "phase": "validation",
+    "seed": 44
+  }
+]

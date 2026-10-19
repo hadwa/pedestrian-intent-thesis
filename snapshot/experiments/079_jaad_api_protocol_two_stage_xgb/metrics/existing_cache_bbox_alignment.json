@@ -1,0 +1,7 @@
+{
+  "cache": "experiments/049_exp048_to_jaad_zero_shot/cache/jaad_keypoints_vitpose_s_exp049_extended.jsonl",
+  "required_cached_records": 12997,
+  "bbox_mismatches": 0,
+  "cached_records_without_bbox": 0,
+  "status": "exact"
+}

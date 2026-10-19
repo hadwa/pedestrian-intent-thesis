@@ -1,0 +1,3 @@
+split,n_windows,fallback_count,fallback_rate
+train,333454,19423,0.058247914255039675
+val,77288,2161,0.027960356070800125

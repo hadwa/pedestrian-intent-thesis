@@ -1,0 +1,16 @@
+{
+  "anchor_name": "rf_v1_bbox",
+  "artifacts": {
+    "checkpoints/corrected_grid__rf_v1_bbox__seed42.pt": "82273778f7a62e57eb953cddcdf490d55b64b0bc737db9c617cf90999e3c9229",
+    "logs/train_corrected_grid__rf_v1_bbox__seed42.log": "07f39911184517018af7884c73b4851eaed863ce8d90890a71d83bac52d55447",
+    "metrics/context_scaler_corrected_grid.json": "4c2c0e6987f3579d1745bc8f16824523badda9cace2da55d80916ba9e9080bc6",
+    "metrics/training_history_corrected_grid__rf_v1_bbox__seed42.csv": "1c8df2c16351945461684ccd35582aeb4d52bc90855f58b74b3d0abd22fcc275"
+  },
+  "best_epoch": 2,
+  "best_validation_harmonic": 0.6990688678992019,
+  "phase": "trained",
+  "probability_binding_sha256": "52a3207206eb8499486771e6f643037c39c7edacc267223b73cb25ee5fc45fca",
+  "representation": "corrected_grid",
+  "seed": 42,
+  "set03_accessed": false
+}

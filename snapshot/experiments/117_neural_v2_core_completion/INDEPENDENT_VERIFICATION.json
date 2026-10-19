@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "models": 9,
+  "fresh_prediction_files": 18,
+  "fixed_threshold": 0.5,
+  "completion_sha256": "9603897c68abc49f98b50faf20a319b39132d907bada28ec2a77f7d5471adeab",
+  "checks": [
+    "artifact hashes",
+    "fixed-0.5 probabilities and metrics",
+    "confusion matrices",
+    "seed-grid completeness",
+    "parent-specific best-checkpoint selection",
+    "means/sample SD",
+    "paired deltas"
+  ]
+}

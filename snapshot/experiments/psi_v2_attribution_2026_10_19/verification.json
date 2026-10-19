@@ -1,0 +1,25 @@
+{
+  "no_training": true,
+  "sources_unchanged": true,
+  "windows": 20547,
+  "tracks": 96,
+  "positive": 15462,
+  "negative": 5085,
+  "observation_frames": 15,
+  "input_features": 135,
+  "biu_features": 56,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "method": "Exact XGBoost pred_contribs, training-path reference, raw log odds",
+  "reference_method": "experiments/matched_biu_cue_rankings_2026_09_12/analyze.py",
+  "mean_biu_share_pct": 31.37182147769855,
+  "max_probability_error": 2.980117796980153e-08,
+  "max_additivity_error": 5.618239811155945e-06,
+  "python": "3.10.20",
+  "xgboost": "3.2.0",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3"
+}

@@ -1,0 +1,20 @@
+annotation_source,raw_field,disposition
+annotations_attributes,age,used as context feature
+annotations_attributes,crossing,EXCLUDED (label- or future-derived: leakage risk)
+annotations_attributes,crossing_point,EXCLUDED (label- or future-derived: leakage risk)
+annotations_attributes,decision_point,EXCLUDED (label- or future-derived: leakage risk)
+annotations_attributes,designated,used as context feature
+annotations_attributes,gender,used as context feature
+annotations_attributes,group_size,used as context feature
+annotations_attributes,id,EXCLUDED (identifier)
+annotations_attributes,intersection,used as context feature
+annotations_attributes,motion_direction,used as context feature
+annotations_attributes,num_lanes,used as context feature
+annotations_attributes,old_id,EXCLUDED (identifier)
+annotations_attributes,signalized,used as context feature
+annotations_attributes,traffic_direction,used as context feature
+annotations_traffic,road_type,used as context feature (video-level)
+annotations_traffic,frame/ped_crossing,"used, aggregated over observed window frames only"
+annotations_traffic,frame/ped_sign,"used, aggregated over observed window frames only"
+annotations_traffic,frame/stop_sign,"used, aggregated over observed window frames only"
+annotations_traffic,frame/traffic_light,"used, aggregated over observed window frames only"

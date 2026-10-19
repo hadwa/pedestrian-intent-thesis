@@ -1,0 +1,16 @@
+{
+  "pages": 21,
+  "cue_rows": 352,
+  "all_cue_labels_and_rounded_numeric_cells_present": true,
+  "no_text_outside_pages": true,
+  "visually_inspected_page": 14,
+  "sources_and_outputs": {
+    "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/matched_biu_cue_rankings_2026_09_12/verify_pdf.py": "f20a91da912858e0c513969b93517107075b3b88cb36c63042bb1a9b44ae668b",
+    "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/matched_biu_cue_rankings_2026_09_12/report.py": "132e9beea409bfd90ab32b6b893ce8a238fa9cbd32ca0265b8d2535e18485be0",
+    "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/matched_biu_cue_rankings_2026_09_12/verify.py": "a389125d91f70e21db38a1b363eee6acb89c9688af62c18972dcee76160d89ff",
+    "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/matched_biu_cue_rankings_2026_09_12/review_table.csv": "113643597b7a24442abc9eba73d7bd59bf78cfb9ab57a8f9551fd6802ddd1d46",
+    "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/matched_biu_cue_rankings_2026_09_12/REPORT.md": "4e873001108de50170b4ca4d5cbeff0c56f68a99d82f38393c3c5e817730de05",
+    "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/matched_biu_cue_rankings_2026_09_12/Matched_BIU_Cue_Rankings.pdf": "bb4f6b0d856bacb2e90edbefbd68a8744c638d6a5c831874ecb8f4d943dcd00e",
+    "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/biu_cue_attribution_report_2026_09_12/cue_dictionary.csv": "bc7e7ae14d9f23d50930c9ed86cd2d7a2e59856f2956246efa078634d9af27d8"
+  }
+}

@@ -1,0 +1,164 @@
+[
+  {
+    "checkpoint_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/checkpoints/A_seed42.best.pt",
+    "checkpoint_sha256": "d0f1259622f8a090a937d15af8a97e3129b7bae54bf171cf70e76a0fa5292e7b",
+    "marker_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/.train_A_seed42.complete.json",
+    "marker_sha256": "95f7fa0ce644a5880898d89945eb6cfef622240d80a56a7e4ed4f48d80af09f9",
+    "seed": 42,
+    "total_parameters": 15436304,
+    "variant": "A"
+  },
+  {
+    "checkpoint_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/checkpoints/A_seed43.best.pt",
+    "checkpoint_sha256": "7980c7c81252444199e7c9630ac08a05d30c6fba7fb59f49671f51cca4871572",
+    "marker_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/.train_A_seed43.complete.json",
+    "marker_sha256": "6e2395095e70fea6f1f570a83addb9631c90d8bae2192e4c91cf843ccbb6862f",
+    "seed": 43,
+    "total_parameters": 15436304,
+    "variant": "A"
+  },
+  {
+    "checkpoint_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/checkpoints/A_seed44.best.pt",
+    "checkpoint_sha256": "2af8362e5f10b4dc3ac42ec95611036eefd3ad0d1881f90ddb91aa19bd46b43c",
+    "marker_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/.train_A_seed44.complete.json",
+    "marker_sha256": "1e11f3eea6a67aebc531281a7bc77d71b637c5ed976f856b14161a8c11ef0051",
+    "seed": 44,
+    "total_parameters": 15436304,
+    "variant": "A"
+  },
+  {
+    "checkpoint_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/checkpoints/B_seed42.best.pt",
+    "checkpoint_sha256": "4c3cfd19d9fc52099da2fb21cd7eca425f57632e9924e1755d4ccb38d0a8dade",
+    "marker_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/.train_B_seed42.complete.json",
+    "marker_sha256": "a11d08b27a5200508bda6b1eb002f2f6197d11e6e0784db9e0abb770baf8170f",
+    "seed": 42,
+    "total_parameters": 13218062,
+    "variant": "B"
+  },
+  {
+    "checkpoint_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/checkpoints/B_seed43.best.pt",
+    "checkpoint_sha256": "f316467924748bb69fbdf6dba0b997d69d5fef31f08510de4a810354396cd325",
+    "marker_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/.train_B_seed43.complete.json",
+    "marker_sha256": "ec8f25a18c1fa641ca44475aa5a4f88c207f6df76937845430b054c86e67e0fd",
+    "seed": 43,
+    "total_parameters": 13218062,
+    "variant": "B"
+  },
+  {
+    "checkpoint_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/checkpoints/B_seed44.best.pt",
+    "checkpoint_sha256": "1f5b6b2d47f9a5b14d0d92507d8ce8b667ecd84abd946ebd31973b29a427b0ef",
+    "marker_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/.train_B_seed44.complete.json",
+    "marker_sha256": "8d948ffb2a80c65c8bb526ce4e0f35f51597f850a79e933c0cf1e7a322c726a8",
+    "seed": 44,
+    "total_parameters": 13218062,
+    "variant": "B"
+  },
+  {
+    "checkpoint_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/checkpoints/C_seed42.best.pt",
+    "checkpoint_sha256": "1956b2c46c996f4d99889961c88cff16e96e3c7bc2b91b7df99ba0e0961c59e5",
+    "marker_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/.train_C_seed42.complete.json",
+    "marker_sha256": "5800e8f4686fa8e7933d28fb0973b2993c9b1dc6605b8a2514d8e19d06484719",
+    "seed": 42,
+    "total_parameters": 8871690,
+    "variant": "C"
+  },
+  {
+    "checkpoint_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/checkpoints/C_seed43.best.pt",
+    "checkpoint_sha256": "e67c9d560ef59364013eece327b12c968868394812b285655a9100c0c0fb6e86",
+    "marker_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/.train_C_seed43.complete.json",
+    "marker_sha256": "bf8e1edfc49b6f7e7e0f467c3ba8bf9810fdf78d36469892704b28652c35e9ed",
+    "seed": 43,
+    "total_parameters": 8871690,
+    "variant": "C"
+  },
+  {
+    "checkpoint_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/checkpoints/C_seed44.best.pt",
+    "checkpoint_sha256": "3462a1cc8ffd11a892c2071085a9924a322f041546c1dc6ec85a7eb07b88604a",
+    "marker_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/.train_C_seed44.complete.json",
+    "marker_sha256": "24ef9d9bff8d97ee1464581ccc1aed8b2cea4b9342224362aecf1673d9844a67",
+    "seed": 44,
+    "total_parameters": 8871690,
+    "variant": "C"
+  },
+  {
+    "checkpoint_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/checkpoints/D_seed42.best.pt",
+    "checkpoint_sha256": "4d31f5921946c3a965c9473633e22f234703f1ef5ecb95a5d52344512f5318cd",
+    "marker_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/.train_D_seed42.complete.json",
+    "marker_sha256": "bb3e04e98b66ab8b998aaf6a51ad8c6ed88c6776d4e70a4d56c129420bef68d8",
+    "seed": 42,
+    "total_parameters": 11112460,
+    "variant": "D"
+  },
+  {
+    "checkpoint_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/checkpoints/D_seed43.best.pt",
+    "checkpoint_sha256": "386bf2b4d7f35dd1386ada749cfbd93b20ce4cef49203f02ac8d15bb3f0c4b8f",
+    "marker_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/.train_D_seed43.complete.json",
+    "marker_sha256": "e9eeaad1b5ec38e4a2edc00d8d85964d69a272baec07734bf9479b7a1df1ef03",
+    "seed": 43,
+    "total_parameters": 11112460,
+    "variant": "D"
+  },
+  {
+    "checkpoint_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/checkpoints/D_seed44.best.pt",
+    "checkpoint_sha256": "1b04d7ae2bf701384bb07646042174ebbfca6db21bd4e94df07b39b0491a6383",
+    "marker_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/.train_D_seed44.complete.json",
+    "marker_sha256": "0394dbcd19cf2807a314836bfaea0d07547944c9376761789fa2a60e3d7f8ca0",
+    "seed": 44,
+    "total_parameters": 11112460,
+    "variant": "D"
+  },
+  {
+    "checkpoint_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/checkpoints/E_seed42.best.pt",
+    "checkpoint_sha256": "a92f1b3b5e2163a97ff670abfa6514f413087f598cba615d1af22a4fa81816cf",
+    "marker_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/.train_E_seed42.complete.json",
+    "marker_sha256": "8c8d44bad7c660bdc67f85a7c9d1196230d722bdf65ca9050d73a63acc21955b",
+    "seed": 42,
+    "total_parameters": 8945931,
+    "variant": "E"
+  },
+  {
+    "checkpoint_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/checkpoints/E_seed43.best.pt",
+    "checkpoint_sha256": "5803958efdf4376c77b7ffce17863467925249836e759c9d4dc2fbf4e8650096",
+    "marker_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/.train_E_seed43.complete.json",
+    "marker_sha256": "6bab9b874673a58c2879b91d4bb85e2cc6ef29b364c86bd9f3a534ccb74b7a72",
+    "seed": 43,
+    "total_parameters": 8945931,
+    "variant": "E"
+  },
+  {
+    "checkpoint_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/checkpoints/E_seed44.best.pt",
+    "checkpoint_sha256": "d588b4d2be3281cea5dc93f3abe6f3980a7e3a88c260d0e140149081f61fa660",
+    "marker_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/.train_E_seed44.complete.json",
+    "marker_sha256": "34804a3d647e071c54db9b4c7ee40059c22dc256f842e7a32e229d19e1f5b5bf",
+    "seed": 44,
+    "total_parameters": 8945931,
+    "variant": "E"
+  },
+  {
+    "checkpoint_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/checkpoints/F_seed42.best.pt",
+    "checkpoint_sha256": "5aa4aae709bde9472b5cf3bc9bbc5a4b8baf3f1b4644dfb478e2365517e68140",
+    "marker_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/.train_F_seed42.complete.json",
+    "marker_sha256": "fbe04c77a08b65683636a23def43684f93f11524f39e44a392afa4110ad79d39",
+    "seed": 42,
+    "total_parameters": 8947083,
+    "variant": "F"
+  },
+  {
+    "checkpoint_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/checkpoints/F_seed43.best.pt",
+    "checkpoint_sha256": "0c27bf7a4772d252e8c3cb310f7964a4704160abd28002d914dcb10e69dfcc12",
+    "marker_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/.train_F_seed43.complete.json",
+    "marker_sha256": "fa1199ae88ea062ccd61eec215b623fb3a5db740299c7bc73f26ea1e4c10ebdb",
+    "seed": 43,
+    "total_parameters": 8947083,
+    "variant": "F"
+  },
+  {
+    "checkpoint_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/checkpoints/F_seed44.best.pt",
+    "checkpoint_sha256": "24ad78353c3aefd7466442e2548c879af432e3b1ae3eb0be46f864da801026fb",
+    "marker_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/048_mslstm_practical_behavior_replacement/.train_F_seed44.complete.json",
+    "marker_sha256": "3b67efa7e934eb80bf7b66298c240d6d7e57c13d1d0a81d69460a59d6f33a8db",
+    "seed": 44,
+    "total_parameters": 8947083,
+    "variant": "F"
+  }
+]

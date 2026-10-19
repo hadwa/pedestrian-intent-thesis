@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "experiment": "Exp077",
+  "name": "JAAD two-stage early/late XGBoost transfer and native training",
+  "status": "PRE_REGISTERED_NOT_RUN",
+  "benchmark": {
+    "dataset": "JAAD behavior-pedestrian",
+    "observation_frames": 16,
+    "tte": "30_60",
+    "overlap": 0.8,
+    "threshold": 0.5
+  },
+  "row_counts": {
+    "train": 1552,
+    "validation": 274,
+    "test": 1501
+  },
+  "seeds": [42, 43, 44],
+  "portable_representation": {
+    "full_window_features": 182,
+    "early_features": 161,
+    "families": ["BBox53", "BIU-v1", "unique BIU-v2", "fixed early/late temporal contrasts"],
+    "excluded": ["ego speed because JAAD has no equivalent annotation"]
+  },
+  "arms": {
+    "one_stage": "182-D full-window representation -> 250-tree XGBoost",
+    "two_stage": "161-D frames-1--8 representation -> 125-tree XGBoost -> provisional probability; 182-D full-window representation plus provisional probability -> 125-tree XGBoost"
+  },
+  "evaluations": {
+    "zero_shot": "train both arms on the exact PIE Exp076 training cohort without ego; freeze; evaluate once on JAAD test without adaptation, calibration, or threshold selection",
+    "jaad_native": "train both arms on JAAD train; report validation; evaluate both frozen arms once on JAAD test"
+  },
+  "stacking": {
+    "training_probability_rule": "five-fold StratifiedGroupKFold out-of-fold by track_id",
+    "no_test_probability_training": true
+  },
+  "evaluation": {
+    "primary_metrics": ["fixed_0p5_f1", "pr_auc", "roc_auc"],
+    "high_confidence_fp": "probability >= 0.9",
+    "high_confidence_fn": "probability <= 0.1",
+    "threshold_selection": "none"
+  },
+  "discipline": {
+    "both_architectures_run_in_all_evaluations": true,
+    "identical_cohorts_within_each_comparison": true,
+    "same_total_tree_budget": true,
+    "no_post_result_redesign": true,
+    "jaad_test_limitation": "JAAD test has prior exposure in separate experiments; Exp077 decisions were frozen before this evaluation"
+  }
+}

@@ -1,0 +1,2 @@
+split,rows,valid_count_min,valid_count_mean,valid_count_median,valid_count_max,valid_count_nonzero_rows,low_confidence_count_min,low_confidence_count_mean,low_confidence_count_median,low_confidence_count_max,low_confidence_count_nonzero_rows
+test,271078,30.0,30.0,30.0,30.0,271078,0.0,6.224315510664827,0.0,30.0,129353

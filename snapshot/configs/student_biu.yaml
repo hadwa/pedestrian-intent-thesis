@@ -1,0 +1,22 @@
+student_name: BIU
+benchmark_config: configs/benchmark_pie.yaml
+splits_dir: data/splits
+features:
+  - biu
+feature_tables:
+  biu:
+    train: data/processed/features/biu_train.csv
+    val: data/processed/features/biu_val.csv
+    test: data/processed/features/biu_test.csv
+model:
+  type: mlp
+  hidden_dims: [128, 64]
+  dropout: 0.2
+training:
+  epochs: 50
+  batch_size: 64
+  learning_rate: 0.001
+  seed: 42
+outputs:
+  predictions: results/predictions/student_biu_predictions.csv
+  metrics: results/student_biu_metrics.json

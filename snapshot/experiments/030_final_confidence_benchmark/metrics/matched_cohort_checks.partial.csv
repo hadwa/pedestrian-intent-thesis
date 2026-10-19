@@ -1,0 +1,6 @@
+dataset,horizon,comparison,baseline_representation,candidate_representation,exact_matched_cohort,n_rows,n_train,n_val,n_test
+pie,30_60,KP-XY -> KP-XYC,kp_xy,kp_xyc,1,9745,2366,3619,3760
+pie,30_60,BIU-v2 -> BIU-v2 + global confidence,biu_v2,biu_v2_plus_global_conf,1,9745,2366,3619,3760
+pie,30_60,BIU-v2 -> BIU-v2 + BIU-specific reliability,biu_v2,biu_v2_plus_reliability,1,9745,2366,3619,3760
+pie,30_60,BBox -> BBox + BIU-v2,bbox,bbox_plus_biu_v2,1,9745,2366,3619,3760
+pie,30_60,BBox + BIU-v2 -> BBox + BIU-v2 + reliability,bbox_plus_biu_v2,bbox_plus_biu_v2_plus_reliability,1,9745,2366,3619,3760

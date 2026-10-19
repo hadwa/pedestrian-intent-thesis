@@ -1,0 +1,176 @@
+{
+  "status": "frozen_ready_for_speed_recovery",
+  "test_authorized": true,
+  "no_refit": true,
+  "threshold": 0.5,
+  "windows": 20547,
+  "videos": 49,
+  "tracks": 96,
+  "positives": 15462,
+  "unique_observed_video_frames": 13144,
+  "development_predictions_reproduced": 6,
+  "models": [
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/models/S187_seed42.joblib",
+      "bytes": 400586,
+      "sha256": "6b28504cf1f777c1425186c292db847d556f9c125c2902a74c93572eeac5092b"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/models/S187_seed43.joblib",
+      "bytes": 399022,
+      "sha256": "41403158bdd932e2fd35ebd56146583312f568e76a1d8385bc9e573c4cc74f21"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/models/S187_seed44.joblib",
+      "bytes": 398818,
+      "sha256": "d84e10c832d133f45a001d3fdd2119d799d1744fe7043ec4b15cf0c0b74c72b5"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/models/R247_seed42.joblib",
+      "bytes": 403954,
+      "sha256": "39dfd9c4ab88dec84fbdb3480a2f10a19468edb6b4d249afa6a7954a94551d65"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/models/R247_seed43.joblib",
+      "bytes": 403818,
+      "sha256": "f1a4c8cab5a3e74dcd8eb37cd51ae11a117a1888320b88da9c4f51ed9066a665"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/models/R247_seed44.joblib",
+      "bytes": 404430,
+      "sha256": "23e4aeac570d22dc28cf76d25a23113353dbe10591afa5f10785ab0522820828"
+    }
+  ],
+  "sources": [
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/DESIGN.md",
+      "bytes": 2857,
+      "sha256": "c8ea93efe56d533384931f2ac5180793eb67668aa1122df1ee8310d6af284fc9"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/archive_gate.json",
+      "bytes": 551,
+      "sha256": "5efeb347c479ec28120f3aca135eb349f10e874141cd54c1c9d1249cd5d309c3"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/APPROVED_COHORT_AMENDMENT.md",
+      "bytes": 1557,
+      "sha256": "62ff9be3ae45d8db57b2ff3f4701ce4d4ed62b0500da5d39b2e043603d508bb4"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/feature_contract.json",
+      "bytes": 14815,
+      "sha256": "f647835c31ebb23d13f38e141baf09b12b4ce8c2b3829ab63bef072d114a64c5"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/run.py",
+      "bytes": 24301,
+      "sha256": "1cf04bbe1203132c51734873df4160c89e5dc817ce5358ace3c2e5f51e55b54f"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/AMENDED_COMPLETE.json",
+      "bytes": 5235,
+      "sha256": "50556ec84f346c975c1b2cc3d19b5bc74bdc4239e439118042e31538f41e3669"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/113_psi_native_biu_xgb/test_evaluation/official_split.json",
+      "bytes": 3507,
+      "sha256": "a8d740024f37e0a99fae27d6fc075957081a109775219950b34f1d84253fef3d"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/113_psi_native_biu_xgb/test_evaluation/cache/rows.csv",
+      "bytes": 3570582,
+      "sha256": "f1367006f858016a952b977c6c47559d876c511c63ac5f543fb7f897d87926dd"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/113_psi_native_biu_xgb/test_evaluation/cache/A.npy",
+      "bytes": 8712056,
+      "sha256": "8c9b69425d01bef7b1a0ea66e10f7056179d406037c971c57a62e77f3eb91e08"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/113_psi_native_biu_xgb/test_evaluation/cache/B.npy",
+      "bytes": 20547128,
+      "sha256": "9ca7b19d6f85b2b8eb717ecc8db00af9b2edef8864f669e50799de69c491fa88"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/113_psi_native_biu_xgb/test_evaluation/cache/C.npy",
+      "bytes": 19067744,
+      "sha256": "d055f1e1e78d79689231135ce2f800d13e1d080f8ee3258d15a6766a3f3a9a3e"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/scripts/recover_sources.py",
+      "bytes": 10329,
+      "sha256": "adc763b5388c1dd9cd152fbb643284f06209e5b198c2c9c30903dedb9a621a26"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/scripts/preflight.py",
+      "bytes": 4297,
+      "sha256": "89a1950e4ed0d09508704d8424ab4c26659e4ec2087a0fee1b13df3e76059001"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/scripts/recover.py",
+      "bytes": 6937,
+      "sha256": "59786f281d7d6b510289be541324b831409ad7de4a379f2ce9f21c9bc900cef2"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/evaluate.py",
+      "bytes": 16895,
+      "sha256": "7f5af391f7892a7a2ad85187a1497ac2ce457cb5b8280bc8d52932aa3eb4df85"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/verify_results.py",
+      "bytes": 3553,
+      "sha256": "f08bcffc185895d2e4a4eb607a3a8927c4e5e12e539cda9352f66148e4960c8f"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/075_pie_twinlitenetplus_road_context/pre_registration.json",
+      "bytes": 9084,
+      "sha256": "efb5ed0da22590a20bd122c32dee4bb1967c9227c86c840187cddd1c2631e4b7"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/075_pie_twinlitenetplus_road_context/scripts/contract.py",
+      "bytes": 2432,
+      "sha256": "cd44ed5946b08b6cd1ed551794317316dfee6d0ff197faba8cbb7a535ebebac0"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/075_pie_twinlitenetplus_road_context/scripts/context.py",
+      "bytes": 7720,
+      "sha256": "8026ab35eab8054848ec182fb2909006c7f446f68144768317fbb4875dc76f0d"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/075_pie_twinlitenetplus_road_context/scripts/twinlite_adapter.py",
+      "bytes": 8174,
+      "sha256": "b2c7811cd3302faa70c925905c3a47237af3587647a128f3993341e0db4b717a"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/075_pie_twinlitenetplus_road_context/scripts/model.py",
+      "bytes": 3954,
+      "sha256": "6b0222b70674cb87c9a593585ef887499a66e60db309f1ceef9622ac05af34ec"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/075_pie_twinlitenetplus_road_context/checkpoints/large.pth",
+      "bytes": 7959943,
+      "sha256": "5605d1a8ce762c1b6f7d23f4c2e7ec9384bfd6e6887b040b43e1f8902a817e22"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/external/TwinLiteNetPlus/model/model.py",
+      "bytes": 18978,
+      "sha256": "d26dfc2ae950038ff334155438f8c5536aeac1087778a28a2feea6206fc97fd4"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/external/TwinLiteNetPlus/model/config.py",
+      "bytes": 425,
+      "sha256": "f34024ce090b63090a501bcad17d5681d968c9b1932e929b32d9f73ccd28384f"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/scripts/representations.py",
+      "bytes": 14683,
+      "sha256": "066d1cea57d38726dd1fd6cad36587733ea2f85fe1f03634c5db568969a25b03"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/data/psi_vitpose_s_all_tracks.jsonl",
+      "bytes": 87986824,
+      "sha256": "31d8f45a7f8b61803b2dde8f981ce012086ac9905455d7aaac743bc1ec2a3fc7"
+    }
+  ]
+}

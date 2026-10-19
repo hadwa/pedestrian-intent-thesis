@@ -1,0 +1,405 @@
+{
+  "all_required_frames_have_numeric_speed": true,
+  "archive_etag": "\"3868cb96ae54e00a99ad64d9e17bc701-325\"",
+  "records": [
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0147.json",
+      "maximum_km_hr": 17.0,
+      "minimum_km_hr": 14.0,
+      "required_frames": 205,
+      "source_crc32": 3422840863,
+      "video": "video_0147"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0148.json",
+      "maximum_km_hr": 0.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 133,
+      "source_crc32": 739669495,
+      "video": "video_0148"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0149.json",
+      "maximum_km_hr": 20.0,
+      "minimum_km_hr": 17.0,
+      "required_frames": 125,
+      "source_crc32": 3477393244,
+      "video": "video_0149"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0150.json",
+      "maximum_km_hr": 13.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 196,
+      "source_crc32": 258331223,
+      "video": "video_0150"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0151.json",
+      "maximum_km_hr": 0.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 231,
+      "source_crc32": 2969616540,
+      "video": "video_0151"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0152.json",
+      "maximum_km_hr": 14.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 274,
+      "source_crc32": 3918341173,
+      "video": "video_0152"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0153.json",
+      "maximum_km_hr": 33.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 450,
+      "source_crc32": 3573491649,
+      "video": "video_0153"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0154.json",
+      "maximum_km_hr": 22.0,
+      "minimum_km_hr": 8.0,
+      "required_frames": 247,
+      "source_crc32": 3484768622,
+      "video": "video_0154"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0156.json",
+      "maximum_km_hr": 10.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 222,
+      "source_crc32": 770259405,
+      "video": "video_0156"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0157.json",
+      "maximum_km_hr": 7.0,
+      "minimum_km_hr": 4.0,
+      "required_frames": 367,
+      "source_crc32": 1900099596,
+      "video": "video_0157"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0158.json",
+      "maximum_km_hr": 20.0,
+      "minimum_km_hr": 4.0,
+      "required_frames": 213,
+      "source_crc32": 2298759235,
+      "video": "video_0158"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0159.json",
+      "maximum_km_hr": 32.0,
+      "minimum_km_hr": 6.0,
+      "required_frames": 261,
+      "source_crc32": 333524839,
+      "video": "video_0159"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0160.json",
+      "maximum_km_hr": 42.0,
+      "minimum_km_hr": 15.0,
+      "required_frames": 268,
+      "source_crc32": 1078880197,
+      "video": "video_0160"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0161.json",
+      "maximum_km_hr": 32.0,
+      "minimum_km_hr": 13.0,
+      "required_frames": 251,
+      "source_crc32": 1627088518,
+      "video": "video_0161"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0163.json",
+      "maximum_km_hr": 36.0,
+      "minimum_km_hr": 16.0,
+      "required_frames": 152,
+      "source_crc32": 3266144881,
+      "video": "video_0163"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0164.json",
+      "maximum_km_hr": 19.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 197,
+      "source_crc32": 3884230625,
+      "video": "video_0164"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0165.json",
+      "maximum_km_hr": 12.0,
+      "minimum_km_hr": 9.0,
+      "required_frames": 111,
+      "source_crc32": 2332310910,
+      "video": "video_0165"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0166.json",
+      "maximum_km_hr": 60.0,
+      "minimum_km_hr": 50.0,
+      "required_frames": 209,
+      "source_crc32": 1618080095,
+      "video": "video_0166"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0168.json",
+      "maximum_km_hr": 71.0,
+      "minimum_km_hr": 51.0,
+      "required_frames": 200,
+      "source_crc32": 3709980836,
+      "video": "video_0168"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0169.json",
+      "maximum_km_hr": 19.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 297,
+      "source_crc32": 632206473,
+      "video": "video_0169"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0170.json",
+      "maximum_km_hr": 6.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 404,
+      "source_crc32": 3386710220,
+      "video": "video_0170"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0171.json",
+      "maximum_km_hr": 26.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 311,
+      "source_crc32": 1371153114,
+      "video": "video_0171"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0172.json",
+      "maximum_km_hr": 12.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 234,
+      "source_crc32": 987804982,
+      "video": "video_0172"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0174.json",
+      "maximum_km_hr": 21.0,
+      "minimum_km_hr": 7.0,
+      "required_frames": 222,
+      "source_crc32": 1084354037,
+      "video": "video_0174"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0177.json",
+      "maximum_km_hr": 5.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 450,
+      "source_crc32": 2256143903,
+      "video": "video_0177"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0178.json",
+      "maximum_km_hr": 23.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 365,
+      "source_crc32": 1467489415,
+      "video": "video_0178"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0179.json",
+      "maximum_km_hr": 22.0,
+      "minimum_km_hr": 10.0,
+      "required_frames": 293,
+      "source_crc32": 1105564210,
+      "video": "video_0179"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0180.json",
+      "maximum_km_hr": 36.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 394,
+      "source_crc32": 847894408,
+      "video": "video_0180"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0181.json",
+      "maximum_km_hr": 42.0,
+      "minimum_km_hr": 14.0,
+      "required_frames": 205,
+      "source_crc32": 1910939374,
+      "video": "video_0181"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0182.json",
+      "maximum_km_hr": 38.0,
+      "minimum_km_hr": 6.0,
+      "required_frames": 273,
+      "source_crc32": 4109215929,
+      "video": "video_0182"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0183.json",
+      "maximum_km_hr": 7.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 238,
+      "source_crc32": 581892742,
+      "video": "video_0183"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0184.json",
+      "maximum_km_hr": 33.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 258,
+      "source_crc32": 853647920,
+      "video": "video_0184"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0185.json",
+      "maximum_km_hr": 46.0,
+      "minimum_km_hr": 28.0,
+      "required_frames": 206,
+      "source_crc32": 3043029040,
+      "video": "video_0185"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0186.json",
+      "maximum_km_hr": 35.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 395,
+      "source_crc32": 1177229028,
+      "video": "video_0186"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0187.json",
+      "maximum_km_hr": 14.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 208,
+      "source_crc32": 2883413910,
+      "video": "video_0187"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0188.json",
+      "maximum_km_hr": 20.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 285,
+      "source_crc32": 4157452744,
+      "video": "video_0188"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0189.json",
+      "maximum_km_hr": 59.0,
+      "minimum_km_hr": 28.0,
+      "required_frames": 205,
+      "source_crc32": 669835750,
+      "video": "video_0189"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0190.json",
+      "maximum_km_hr": 24.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 294,
+      "source_crc32": 3591411996,
+      "video": "video_0190"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0191.json",
+      "maximum_km_hr": 12.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 450,
+      "source_crc32": 466291717,
+      "video": "video_0191"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0193.json",
+      "maximum_km_hr": 8.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 278,
+      "source_crc32": 3627942694,
+      "video": "video_0193"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0194.json",
+      "maximum_km_hr": 28.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 309,
+      "source_crc32": 3183520299,
+      "video": "video_0194"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0195.json",
+      "maximum_km_hr": 21.0,
+      "minimum_km_hr": 11.0,
+      "required_frames": 282,
+      "source_crc32": 1981106162,
+      "video": "video_0195"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0196.json",
+      "maximum_km_hr": 34.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 420,
+      "source_crc32": 483890118,
+      "video": "video_0196"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0197.json",
+      "maximum_km_hr": 65.0,
+      "minimum_km_hr": 7.0,
+      "required_frames": 188,
+      "source_crc32": 1930659438,
+      "video": "video_0197"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0198.json",
+      "maximum_km_hr": 7.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 209,
+      "source_crc32": 717413774,
+      "video": "video_0198"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0200.json",
+      "maximum_km_hr": 9.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 171,
+      "source_crc32": 2950828295,
+      "video": "video_0200"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0202.json",
+      "maximum_km_hr": 5.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 352,
+      "source_crc32": 3999569820,
+      "video": "video_0202"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0203.json",
+      "maximum_km_hr": 44.0,
+      "minimum_km_hr": 33.0,
+      "required_frames": 191,
+      "source_crc32": 4191694472,
+      "video": "video_0203"
+    },
+    {
+      "compact_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/speed/video_0204.json",
+      "maximum_km_hr": 17.0,
+      "minimum_km_hr": 0.0,
+      "required_frames": 445,
+      "source_crc32": 1721496866,
+      "video": "video_0204"
+    }
+  ],
+  "required_video_frames": 13144,
+  "status": "complete",
+  "test_authorized": true,
+  "transferred_bytes": 25197640,
+  "unit": "km/hr",
+  "videos": 49,
+  "windows": 20547
+}

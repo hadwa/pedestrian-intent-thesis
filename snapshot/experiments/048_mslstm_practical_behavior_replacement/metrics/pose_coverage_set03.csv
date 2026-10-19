@@ -1,0 +1,2 @@
+source,split,n_windows,all_zero_window_count,all_zero_window_rate,valid_window_count,valid_window_rate,mean_valid_joint_fraction,median_valid_joint_fraction,completely_invalid_window_count
+exp012,test,271078,0,0.0,271078,1.0,1.0,1.0,0

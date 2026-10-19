@@ -1,0 +1,140 @@
+{
+  "classification": "retrospective matched ablation",
+  "experiment": 98,
+  "recipe": {
+    "base_score": null,
+    "booster": null,
+    "callbacks": null,
+    "colsample_bylevel": null,
+    "colsample_bynode": null,
+    "colsample_bytree": 0.8,
+    "device": null,
+    "early_stopping_rounds": null,
+    "enable_categorical": false,
+    "eval_metric": "logloss",
+    "feature_types": null,
+    "feature_weights": null,
+    "gamma": null,
+    "grow_policy": null,
+    "importance_type": null,
+    "interaction_constraints": null,
+    "learning_rate": 0.05,
+    "max_bin": null,
+    "max_cat_threshold": null,
+    "max_cat_to_onehot": null,
+    "max_delta_step": null,
+    "max_depth": 4,
+    "max_leaves": null,
+    "min_child_weight": null,
+    "missing": "NaN (default missing sentinel)",
+    "monotone_constraints": null,
+    "multi_strategy": null,
+    "n_estimators": 250,
+    "n_jobs": 4,
+    "num_parallel_tree": null,
+    "objective": "binary:logistic",
+    "random_state": 42,
+    "reg_alpha": null,
+    "reg_lambda": 1.0,
+    "sampling_method": null,
+    "scale_pos_weight": 0.5535535535535535,
+    "subsample": 0.8,
+    "tree_method": null,
+    "validate_parameters": null,
+    "verbosity": null
+  },
+  "source_records": [
+    {
+      "bytes": 4116,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/098_jaad_matched_biu_xgb/DESIGN.md",
+      "sha256": "bf437be87d0428c41c48754bdb164b89ba913aaf63e29ac1679e5d5b36249c1f"
+    },
+    {
+      "bytes": 21724,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/098_jaad_matched_biu_xgb/scripts/run_experiment.py",
+      "sha256": "8d5311e20070143ccb37807d74e6cbed0264483fe56f3da202a2475280bba974"
+    },
+    {
+      "bytes": 4416,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/098_jaad_matched_biu_xgb/scripts/test_exp098.py",
+      "sha256": "84bf1d770438d6994dc48044f89ce3390167d604e2b323fbd0c1e361e5071e9f"
+    },
+    {
+      "bytes": 11486,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/072_pie_joint_biu_temporal_ego_confirmation/scripts/model_core.py",
+      "sha256": "f68b3ac04e37e8d6581172738a3e94dab5f05785ad6a8632279369449b8f5e87"
+    },
+    {
+      "bytes": 16384,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/076_pie_two_stage_early_late_xgb/scripts/two_stage_core.py",
+      "sha256": "5647a8538e804f318f3b5b37536aabead975078a10c3fd17188b64801060ab2b"
+    },
+    {
+      "bytes": 11768,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/metrics/pie_biu_v2_feature_set_definitions.csv",
+      "sha256": "6708d290d9263ad29000786cf6d15c5ec052dc8712c1b5a16741944295d0145c"
+    },
+    {
+      "bytes": 43883,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/src/biu_v2_extractor.py",
+      "sha256": "8302b7835dabda565d27bb844d2d3cceaa8ca68cb88f05a862e854f6522a30b7"
+    },
+    {
+      "bytes": 17755,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/src/features/biu_features.py",
+      "sha256": "253d02be87ac4fc66173a32ce6ea6311714f33291792cd233570a4ae7ed39520"
+    },
+    {
+      "bytes": 17636,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/scripts/exp089_data.py",
+      "sha256": "a52049313ca0c434986d5dded685d0ba4fe19ceb12d83a9c099e1c60b58d6ec0"
+    },
+    {
+      "bytes": 8951202,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/077_jaad_two_stage_early_late_xgb_transfer/metrics/prepared_jaad_train.csv",
+      "sha256": "28b4678d58f5a7bed50d616fd67feeddb2c18f131b65ed953f1d1fa678395662"
+    },
+    {
+      "bytes": 4467,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/trainval_source/metadata.json",
+      "sha256": "0f06effe349f9abed7850775df161a4f6c4d6e4e21cf729517c5502e36c070f6"
+    },
+    {
+      "bytes": 1841695,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/trainval_source/rows.csv",
+      "sha256": "53e1ca8f79b569b7aec5eab959d3db7ce6b0d2b10c84caa19bb060c40ac389f7"
+    },
+    {
+      "bytes": 526016,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/trainval_source/biu_v1.npy",
+      "sha256": "3d948e2afb788a034a6008879f19af9f196d5559c93356092b9aa1ca7a1da768"
+    },
+    {
+      "bytes": 460280,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/trainval_source/biu_v2.npy",
+      "sha256": "52c0f7334cbea1928841178a4a3d703ce50dd822fc6b421605b5bb4b4ebb0545"
+    },
+    {
+      "bytes": 1947,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/split_ids/default/train.txt",
+      "sha256": "52a1ca1f21efe580569339752feb272e52bfc5f853136b1f8e9fe790166b2e92"
+    },
+    {
+      "bytes": 1587874,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/077_jaad_two_stage_early_late_xgb_transfer/metrics/prepared_jaad_validation.csv",
+      "sha256": "40bcc77324dbbdcbe3633adec5158e8b27502c59bab7df03f793da302b223285"
+    },
+    {
+      "bytes": 319,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/split_ids/default/val.txt",
+      "sha256": "f8ebc99d32308e56fc9b12a1cfed719e8bf8c9538810fb976401063c94eab35c"
+    }
+  ],
+  "test_accessed": false,
+  "versions": {
+    "numpy": "2.2.6",
+    "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+    "sklearn": "1.7.2",
+    "xgboost": "3.2.0"
+  }
+}

@@ -1,0 +1,27 @@
+\begin{table}[htbp]
+\centering
+\caption{JAAD in-domain XGBoost controls; $F_1$ includes sample SD. Dimensions count all predictor inputs.}\label{tab:ch4_jaad_native}
+\begin{tabularx}{\textwidth}{@{}Xrrrr@{}}\toprule
+\textbf{Inputs} & \textbf{Dim.} & \textbf{\boldmath $F_1$} & \textbf{PR-AUC} & \textbf{ROC-AUC} \\[3pt]
+\midrule
+\thesistablegroup{5}{Clean event-aligned JAAD}
+BBox & 53 & $0.7038\pm0.0059$ & $0.6774$ & $0.7205$\\[3pt]
+BBox + BIU-v2 & 109 & $0.7051\pm0.0008$ & $0.6743$ & $0.7080$\\[3pt]
+BIU-v2 + BBox + temporal + vehicle & 145 & $0.7253\pm0.0020$ & $\mathbf{0.7304}$ & $\mathbf{0.7650}$\\[3pt]
+BIU-v2 + BBox + temporal + road & 190 & $0.7191\pm0.0018$ & $0.6790$ & $0.7462$\\[3pt]
+BIU-v2 + BBox + temporal + road + vehicle & 205 & $\mathbf{0.7282}\pm0.0088$ & $0.6806$ & $0.7527$\\[3pt]
+\midrule
+\thesistablegroup{5}{API JAAD$_{beh}$}
+BBox & 53 & $0.7764\pm0.0026$ & $0.7225$ & $0.6512$\\[3pt]
+BBox + BIU-v2 & 109 & $\mathbf{0.7782}\pm0.0044$ & $0.7460$ & $0.6885$\\[3pt]
+BIU-v2 + BBox + temporal + road & 190 & $0.7714\pm0.0014$ & $0.7697$ & $0.6854$\\[3pt]
+BIU-v2 + BBox + temporal + road + vehicle & 205 & $0.7755\pm0.0034$ & $\mathbf{0.7819}$ & $\mathbf{0.6970}$\\[3pt]
+\midrule
+\thesistablegroup{5}{API JAAD$_{all}$}
+BBox & 53 & $0.6603\pm0.0040$ & $0.7495$ & $0.9278$\\[3pt]
+BBox + BIU-v2 & 109 & $0.6772\pm0.0050$ & $0.7687$ & $0.9284$\\[3pt]
+BIU-v2 + BBox + temporal + road & 190 & $0.7250\pm0.0038$ & $0.8112$ & $0.9453$\\[3pt]
+BIU-v2 + BBox + temporal + road + vehicle & 205 & $\mathbf{0.7327}\pm0.0017$ & $\mathbf{0.8227}$ & $\mathbf{0.9487}$\\[3pt]
+\bottomrule
+\end{tabularx}
+\end{table}

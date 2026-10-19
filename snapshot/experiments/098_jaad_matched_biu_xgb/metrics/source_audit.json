@@ -1,0 +1,90 @@
+[
+  {
+    "bbox_reconstruction_passed": true,
+    "cached_pose_primary_sha": "4cf675a62f158dcedf79b8037ab39b4fdc94cefe1dd8783eb6e4523d792b2b64",
+    "cached_pose_supplement_sha": "660eb16b1d758f971ff34b8e41f2453ba1c43c5d1410753e77c23481a660c57e",
+    "no_missing_or_dropped_rows": true,
+    "no_observed_crossing": true,
+    "positives": 999,
+    "rows": 1552,
+    "sources": [
+      {
+        "bytes": 8951202,
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/077_jaad_two_stage_early_late_xgb_transfer/metrics/prepared_jaad_train.csv",
+        "sha256": "28b4678d58f5a7bed50d616fd67feeddb2c18f131b65ed953f1d1fa678395662"
+      },
+      {
+        "bytes": 4467,
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/trainval_source/metadata.json",
+        "sha256": "0f06effe349f9abed7850775df161a4f6c4d6e4e21cf729517c5502e36c070f6"
+      },
+      {
+        "bytes": 1841695,
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/trainval_source/rows.csv",
+        "sha256": "53e1ca8f79b569b7aec5eab959d3db7ce6b0d2b10c84caa19bb060c40ac389f7"
+      },
+      {
+        "bytes": 526016,
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/trainval_source/biu_v1.npy",
+        "sha256": "3d948e2afb788a034a6008879f19af9f196d5559c93356092b9aa1ca7a1da768"
+      },
+      {
+        "bytes": 460280,
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/trainval_source/biu_v2.npy",
+        "sha256": "52c0f7334cbea1928841178a4a3d703ce50dd822fc6b421605b5bb4b4ebb0545"
+      },
+      {
+        "bytes": 1947,
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/split_ids/default/train.txt",
+        "sha256": "52a1ca1f21efe580569339752feb272e52bfc5f853136b1f8e9fe790166b2e92"
+      }
+    ],
+    "split": "train",
+    "tracks": 154,
+    "videos": 98
+  },
+  {
+    "bbox_reconstruction_passed": true,
+    "cached_pose_primary_sha": "4cf675a62f158dcedf79b8037ab39b4fdc94cefe1dd8783eb6e4523d792b2b64",
+    "cached_pose_supplement_sha": "660eb16b1d758f971ff34b8e41f2453ba1c43c5d1410753e77c23481a660c57e",
+    "no_missing_or_dropped_rows": true,
+    "no_observed_crossing": true,
+    "positives": 170,
+    "rows": 274,
+    "sources": [
+      {
+        "bytes": 1587874,
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/077_jaad_two_stage_early_late_xgb_transfer/metrics/prepared_jaad_validation.csv",
+        "sha256": "40bcc77324dbbdcbe3633adec5158e8b27502c59bab7df03f793da302b223285"
+      },
+      {
+        "bytes": 4467,
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/trainval_source/metadata.json",
+        "sha256": "0f06effe349f9abed7850775df161a4f6c4d6e4e21cf729517c5502e36c070f6"
+      },
+      {
+        "bytes": 1841695,
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/trainval_source/rows.csv",
+        "sha256": "53e1ca8f79b569b7aec5eab959d3db7ce6b0d2b10c84caa19bb060c40ac389f7"
+      },
+      {
+        "bytes": 526016,
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/trainval_source/biu_v1.npy",
+        "sha256": "3d948e2afb788a034a6008879f19af9f196d5559c93356092b9aa1ca7a1da768"
+      },
+      {
+        "bytes": 460280,
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/trainval_source/biu_v2.npy",
+        "sha256": "52c0f7334cbea1928841178a4a3d703ce50dd822fc6b421605b5bb4b4ebb0545"
+      },
+      {
+        "bytes": 319,
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/split_ids/default/val.txt",
+        "sha256": "f8ebc99d32308e56fc9b12a1cfed719e8bf8c9538810fb976401063c94eab35c"
+      }
+    ],
+    "split": "validation",
+    "tracks": 28,
+    "videos": 15
+  }
+]

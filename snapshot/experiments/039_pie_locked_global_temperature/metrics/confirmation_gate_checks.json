@@ -1,0 +1,26 @@
+{
+  "checks": {
+    "bootstrap_f1_positive": false,
+    "bootstrap_pr_positive": true,
+    "brier_improved": false,
+    "combined_tail_reduction": true,
+    "confusion_invariant": true,
+    "ece_nonincrease": false,
+    "f1_gain": true,
+    "fn_tail_nonincrease": true,
+    "fp_tail_nonincrease": true,
+    "log_loss_improved": false,
+    "pr_auc_gain": true
+  },
+  "observed": {
+    "best_baseline_f1": 0.7644444444444445,
+    "best_f1_reference_arm": "soft_temp_v2_bbox_xgb",
+    "calibrated_combined_tail": 10,
+    "candidate_f1": 0.7991266375545851,
+    "candidate_pr_auc": 0.8264869740364016,
+    "combined_tail_limit": 22,
+    "raw_combined_tail": 30,
+    "v2_pr_auc": 0.7297405672708196
+  },
+  "status": "no_advance"
+}

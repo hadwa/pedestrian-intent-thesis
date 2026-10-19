@@ -1,0 +1,18 @@
+{
+  "excludes": [
+    "frame_video_decoding",
+    "vitpose_keypoint_extraction"
+  ],
+  "includes": [
+    "twinlite_masks",
+    "road_relative_20d",
+    "road_summary_60d",
+    "xgboost_predict"
+  ],
+  "model_seed": 42,
+  "not_full_camera_to_decision": true,
+  "observation_frames": 16,
+  "online_name": "online_incremental_window",
+  "sample_selection": "lexicographically_first_train_sequence",
+  "sequence_id": "set01_video_0001_1_1_10_16366_16381_16441_0"
+}

@@ -1,0 +1,25 @@
+{
+  "test_accessed": false,
+  "gpu": "NVIDIA GeForce RTX 3070 Laptop GPU",
+  "parents": [
+    {
+      "seed": 42,
+      "parent_replay_max_error": 1.3057632441970668e-07,
+      "parent_parameters": 4590087,
+      "parent_hash": "d622df28be8e051acbeaf57b581997354c106b142b813da613dc0874c3ed6107"
+    },
+    {
+      "seed": 43,
+      "parent_replay_max_error": 1.2364990231716888e-07,
+      "parent_parameters": 4590087,
+      "parent_hash": "4a0f612184dcae24ea514bb0d4cfde1110f3b2d6546843f238d8ae4e7c6fe5d4"
+    },
+    {
+      "seed": 44,
+      "parent_replay_max_error": 1.2943420413247253e-07,
+      "parent_parameters": 4590087,
+      "parent_hash": "af63893fcb0da48a2de2809abb4bec5a3589825accbeb4f3fba7e56a8433bcec"
+    }
+  ],
+  "zero_correction": true
+}

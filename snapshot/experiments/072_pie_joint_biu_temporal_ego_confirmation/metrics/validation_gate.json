@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "all_seed_f1_delta_ge_minus_0p005": true,
+    "all_seed_pr_auc_delta_ge_minus_0p005": true,
+    "mean_f1_delta_ge_0p005": true,
+    "mean_pr_auc_delta_ge_0p005": true,
+    "mean_roc_auc_delta_ge_minus_0p002": true
+  },
+  "mean_deltas": {
+    "f1": 0.018687900778151596,
+    "pr_auc": 0.07459671212180403,
+    "roc_auc": 0.026821668427839285
+  },
+  "minimum_seed_deltas": {
+    "f1": 0.016206934513001148,
+    "pr_auc": 0.07044656958862916
+  },
+  "model_manifest_pre_gate": {
+    "sha256": "293f81befe982484ae660101e5d391ab3bc145ce0c9a03baed6c299d540d5f6f",
+    "size_bytes": 963
+  },
+  "set03_materialized": false,
+  "status": "advance",
+  "threshold": 0.5
+}

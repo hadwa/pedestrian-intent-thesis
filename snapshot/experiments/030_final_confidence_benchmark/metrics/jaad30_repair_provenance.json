@@ -1,0 +1,39 @@
+{
+  "repair_scope": "JAAD 30_60 only",
+  "affected_sequence_count": 30,
+  "affected_missing_frame_count": 80,
+  "affected_sequences_csv": "experiments/030_final_confidence_benchmark/jaad30_repair/jaad30_missing_sequences.csv",
+  "affected_required_rows_csv": "experiments/030_final_confidence_benchmark/jaad30_repair/jaad30_missing_required_rows.csv",
+  "original_cache_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/jaad_keypoints_vitpose_s_extended_short_horizon.jsonl",
+  "original_cache_sha256": "4cf675a62f158dcedf79b8037ab39b4fdc94cefe1dd8783eb6e4523d792b2b64",
+  "supplemental_cache_path": "experiments/030_final_confidence_benchmark/jaad30_repair/jaad30_missing_supplemental_keypoints.jsonl",
+  "supplemental_cache_sha256": "660eb16b1d758f971ff34b8e41f2453ba1c43c5d1410753e77c23481a660c57e",
+  "extractor_commit_sha": "5ddfa03780dfef39e05b2e32c254108f9d227233",
+  "extractor_path": "src/pose/extract_jaad_vitpose_jsonl.py",
+  "extractor_sha256": "761905b0353db19a3024e885ec0e3107b89c344349d4b479cc5de7f21f446db1",
+  "config_path": "/home/abdelrahman/miniconda3/envs/cv_env/lib/python3.9/site-packages/mmpose/.mim/configs/body_2d_keypoint/topdown_heatmap/coco/td-hm_ViTPose-small_8xb64-210e_coco-256x192.py",
+  "config_sha256": "db3c5c5acdb216e6679f9dfcda977144ac7188fa3e6888958a05cd5d1ba4d3f3",
+  "checkpoint_path": "/home/abdelrahman/Hadwa/Pedestrian-keypoints-crossing-intent/classification/models/checkpoints/td-hm_ViTPose-small_8xb64-210e_coco-256x192.pth",
+  "checkpoint_sha256": "62d7a7128f13a63ec63d7319ea705c9822883ebf75130832cccdcb54313ddb13",
+  "repro_check_sample_csv": "experiments/030_final_confidence_benchmark/metrics/jaad30_repair_repro_sample.csv",
+  "repro_check_comparison_csv": "experiments/030_final_confidence_benchmark/metrics/jaad30_repair_repro_comparison.csv",
+  "repro_check_summary": {
+    "n_rows": 10,
+    "keypoints_max_abs_diff_max": 0.0025598165834708198,
+    "keypoints_mean_abs_diff_mean": 0.00019502822671012488,
+    "kp_conf_max_abs_diff_max": 8.040666580200195e-05,
+    "kp_conf_mean_abs_diff_mean": 2.2687127484994778e-05,
+    "skeleton_conf_abs_diff_max": 1.6741892870708597e-05,
+    "all_bbox_exact_match": true,
+    "all_label_exact_match": true
+  },
+  "effective_cache_rule": "original frozen cache + supplemental missing-frame repair; original cache takes precedence for existing frames",
+  "repaired_membership_assertion": {
+    "rows": 3327,
+    "train": 1552,
+    "val": 274,
+    "test": 1501,
+    "order_match": true
+  },
+  "bootstrap_status": "not completed; optional tail was interrupted after mandatory core benchmark artifacts were written"
+}

@@ -1,0 +1,2 @@
+source,accuracy,precision,recall,f1,roc_auc,threshold,protocol_parity
+Samalouty thesis historical reference only,0.9186,0.829,0.9112,0.8616,0.9505,0.6621,False

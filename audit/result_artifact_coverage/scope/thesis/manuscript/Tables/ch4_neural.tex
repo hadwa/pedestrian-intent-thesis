@@ -1,0 +1,26 @@
+% SOURCE: experiments/117_neural_v2_core_completion/metrics/summary_results.csv
+% SOURCE: experiments/122_jaad_mslstm_no_noise/test_evaluation/metrics/summary_results.csv
+\begin{table}[!htbp]
+\centering
+
+\caption{Adapted MSLSTM on PIE and clean JAAD; $F_1$ includes sample SD.}\label{tab:ch4_neural}
+\begin{tabularx}{\textwidth}{@{}Xrrrr@{}}\toprule
+\textbf{Predictor/input} & \textbf{Acc.} & \textbf{\boldmath $F_1$} & \textbf{PR-AUC} & \textbf{ROC-AUC} \\[3pt]
+\midrule
+\thesistablegroup{5}{PIE}
+BBox53 + ego + YOLOP & $0.902$ & $0.810\pm0.009$ & $0.854$ & $0.935$\\[3pt]
+Baseline + raw pose & $0.908$ & $0.823\pm0.009$ & $0.855$ & $0.937$\\[3pt]
+Baseline + BIU-v1 (72-D) & $0.906$ & $0.822\pm0.003$ & $0.847$ & $0.935$\\[3pt]
+Baseline + BIU-v2 (56-D) & $0.902$ & $0.812\pm0.006$ & $0.851$ & $0.932$\\[3pt]
+Baseline + BIU-v2 + supporting cues (63-D) & $\mathbf{0.909}$ & $\mathbf{0.829}\pm0.005$ & $0.860$ & $0.938$\\[3pt]
+\midrule
+Baseline + GT Action/Look (annotation reference) & $0.908$ & $0.827\pm0.016$ & $\mathbf{0.863}$ & $\mathbf{0.946}$\\[3pt]
+\midrule
+\thesistablegroup{5}{Clean JAAD}
+BBox53 + vehicle state + YOLOP & $0.713$ & $0.722\pm0.030$ & $0.796$ & $0.811$\\[3pt]
+Baseline + raw pose & $0.724$ & $0.746\pm0.010$ & $0.788$ & $0.809$\\[3pt]
+Baseline + BIU-v2 (56-D) & $0.712$ & $0.726\pm0.006$ & $\mathbf{0.800}$ & $0.813$\\[3pt]
+Baseline + BIU-v2 + supporting cues (63-D) & $\mathbf{0.727}$ & $\mathbf{0.750}\pm0.008$ & $0.790$ & $\mathbf{0.815}$\\[3pt]
+\bottomrule
+\end{tabularx}
+\end{table}

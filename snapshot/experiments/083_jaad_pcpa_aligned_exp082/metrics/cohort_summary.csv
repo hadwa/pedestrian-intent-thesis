@@ -1,0 +1,7 @@
+cohort,split,windows,tracks,positive_windows,negative_windows,positive_rate,behavior_tracks,non_behavior_tracks,missing_crossing_point_windows,observed_crossing_windows,unverified_endpoint_windows,nonconsecutive_raw_frame_windows,maximum_raw_frame_gap
+jaad_all,test,6732,612,1177,5555,0.17483660130718953,171,441,5951,610,6292,0,1
+jaad_all,train,8613,783,1760,6853,0.20434227330779056,194,589,7766,867,8019,2,134
+jaad_all,val,1265,115,176,1089,0.1391304347826087,22,93,1133,66,1166,0,1
+jaad_beh,test,1881,171,1177,704,0.6257309941520468,171,0,1100,610,1441,0,1
+jaad_beh,train,2134,194,1760,374,0.8247422680412371,194,0,1287,867,1540,0,1
+jaad_beh,val,242,22,176,66,0.7272727272727273,22,0,110,66,143,0,1

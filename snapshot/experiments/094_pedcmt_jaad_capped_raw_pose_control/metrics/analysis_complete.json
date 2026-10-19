@@ -1,0 +1,6 @@
+{
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260902,
+  "cluster": "track_id",
+  "ensemble": "mean_probability_across_three_seeds"
+}

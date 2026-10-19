@@ -1,0 +1,266 @@
+{
+  "authorized_sets": [
+    "set03"
+  ],
+  "shared_unlabeled_keypoint_exception": "The combined keypoint JSONL may be streamed before evaluation, but only phase-authorized set records may be retained; set03 labels, predictions, feature matrices, and metrics remain forbidden.",
+  "sources": [
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/splits_pie_wacv_pcpa_30_60_overlap06/test_sequences.csv",
+      "role": "split_test",
+      "sha256": "ecc5cc75539ab3c1d3b822bf5bdefaa62b2ad0d930ad245262a1cc84ca136033",
+      "size_bytes": 1560529
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/processed/features_wacv_pcpa_30_60_overlap06/bbox_test.csv",
+      "role": "bbox_test",
+      "sha256": "05b73860748df9a62d5f066d89cbb649f46415aef486abda2aa2ec450d3b0778",
+      "size_bytes": 3733217
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/processed/features_wacv_pcpa_30_60_overlap06/biu_test.csv",
+      "role": "biu_v1_test",
+      "sha256": "4b2d4d0d59998c01a005f1e543d5702fc26f21b621b52f22583f3631d27aa3e2",
+      "size_bytes": 5296463
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/pedestrian-intent-biu/data/data_keypoints_all.jsonl",
+      "role": "keypoints_combined_unlabeled",
+      "sha256": "1f0907ebb33bb04c3a3434d9c89e7bd597e2b9e3d47fe30f488ffa9410054d87",
+      "size_bytes": 794892224
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/metrics/pie_biu_v2_feature_set_definitions.csv",
+      "role": "feature_definitions",
+      "sha256": "6708d290d9263ad29000786cf6d15c5ec052dc8712c1b5a16741944295d0145c",
+      "size_bytes": 11768
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set03/video_0001_annt.xml",
+      "role": "bbox_xml_set03_video_0001",
+      "sha256": "af13eda26cc759c03fc8fe4263f43461b2f0d7b748cd889fbf22596933d28233",
+      "size_bytes": 8556069
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_vehicle/set03/video_0001_obd.xml",
+      "role": "obd_xml_set03_video_0001",
+      "sha256": "21af2d905d5ef95f7d64b19442ddd286966d16e80641fc4d3a4e8716f4da2983",
+      "size_bytes": 4557527
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set03/video_0002_annt.xml",
+      "role": "bbox_xml_set03_video_0002",
+      "sha256": "76723ee33c98d91b179c6bbb63c4cece73acbf72828fe52aa786d3a682f160f7",
+      "size_bytes": 8870289
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_vehicle/set03/video_0002_obd.xml",
+      "role": "obd_xml_set03_video_0002",
+      "sha256": "5346db2855634c49dbac4355077743706e432a3178a15f43218b38dc647d0439",
+      "size_bytes": 3885498
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set03/video_0003_annt.xml",
+      "role": "bbox_xml_set03_video_0003",
+      "sha256": "792da821b58758f47e5b6fcc4de2cb83edc26c4cced4cc35bea958fcbc4dd519",
+      "size_bytes": 22948567
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_vehicle/set03/video_0003_obd.xml",
+      "role": "obd_xml_set03_video_0003",
+      "sha256": "2e4dd96550e949df16067be69a4eb48482ec79b21afc406f1cbe55e4d5dda7f5",
+      "size_bytes": 5339132
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set03/video_0004_annt.xml",
+      "role": "bbox_xml_set03_video_0004",
+      "sha256": "e5e7899fce70f608f96eea401164635d2c06504fcb785b54778eefb3d5e1b837",
+      "size_bytes": 10563107
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_vehicle/set03/video_0004_obd.xml",
+      "role": "obd_xml_set03_video_0004",
+      "sha256": "79520ba19d5a2611dfc94e6ea3a558c3ccb752c155425da9e3ced7958345e9d2",
+      "size_bytes": 4141763
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set03/video_0005_annt.xml",
+      "role": "bbox_xml_set03_video_0005",
+      "sha256": "6ee56f83c817c9e39211f93c5e772f6e6ece37d82754b64641d0b5e9145c7f38",
+      "size_bytes": 8604479
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_vehicle/set03/video_0005_obd.xml",
+      "role": "obd_xml_set03_video_0005",
+      "sha256": "108d71920a0dd4921b874ae297492c9d1882797ef9eace7a7e14349e7f52335a",
+      "size_bytes": 4689620
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set03/video_0006_annt.xml",
+      "role": "bbox_xml_set03_video_0006",
+      "sha256": "e09465732a6a72618f21a016a8773e7a4a9a22dada5ac20c55a640fc91024914",
+      "size_bytes": 9595704
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_vehicle/set03/video_0006_obd.xml",
+      "role": "obd_xml_set03_video_0006",
+      "sha256": "36626fe5c114dc2cb7f06ef3029446e5de99f3699e19e05b7566545fdf1d3957",
+      "size_bytes": 4561746
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set03/video_0007_annt.xml",
+      "role": "bbox_xml_set03_video_0007",
+      "sha256": "20295dc9f54975e49976b305f83111167340e2233d9aeefa8da65bcdc64c5d32",
+      "size_bytes": 9800720
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_vehicle/set03/video_0007_obd.xml",
+      "role": "obd_xml_set03_video_0007",
+      "sha256": "3ff34634cec65ea3924ead1d25e71925934675bc28623e34e666cf3e2b6ab516",
+      "size_bytes": 4703336
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set03/video_0008_annt.xml",
+      "role": "bbox_xml_set03_video_0008",
+      "sha256": "635bdd251c4a1d81f77d202a70ec4e8e215ed64000b4c09a942adba4343234be",
+      "size_bytes": 13478773
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_vehicle/set03/video_0008_obd.xml",
+      "role": "obd_xml_set03_video_0008",
+      "sha256": "d19c3173f2c5f0de96f386e637f4b8aa5de6a12b513598ead22538eebff4a7aa",
+      "size_bytes": 4585085
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set03/video_0009_annt.xml",
+      "role": "bbox_xml_set03_video_0009",
+      "sha256": "5cb344590aa2c2bcf5521714082e0678e428b9a5fcd89ee078611edc1beda5d5",
+      "size_bytes": 12504047
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_vehicle/set03/video_0009_obd.xml",
+      "role": "obd_xml_set03_video_0009",
+      "sha256": "18922c4b8c3c829cc26afd91e272dfb4edc18bd8b95b6995597875b64105b75c",
+      "size_bytes": 4101792
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set03/video_0010_annt.xml",
+      "role": "bbox_xml_set03_video_0010",
+      "sha256": "53182c91e016131cd2bc65b4759e01eafdf9c9c670f41e291ca6f88ba01725a0",
+      "size_bytes": 35572509
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_vehicle/set03/video_0010_obd.xml",
+      "role": "obd_xml_set03_video_0010",
+      "sha256": "7d26dafdfd2d558ed660e83b1780b4aefd6cec78217e8126d0e9dd6a09f2a6f3",
+      "size_bytes": 4589854
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set03/video_0011_annt.xml",
+      "role": "bbox_xml_set03_video_0011",
+      "sha256": "ecc930a704f806458e6ad12bc2229b8e6ce5058e4664735b0d81a1dee057fe46",
+      "size_bytes": 13467967
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_vehicle/set03/video_0011_obd.xml",
+      "role": "obd_xml_set03_video_0011",
+      "sha256": "88806a5b7a88947bb3f4c795aee67f64bdbb02e72db80713435912d5899dd92b",
+      "size_bytes": 4600156
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set03/video_0012_annt.xml",
+      "role": "bbox_xml_set03_video_0012",
+      "sha256": "02244fe632ecfffe2361c9765e853ba3d463b7e5e36ddf31e4874e1d49368a74",
+      "size_bytes": 14918225
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_vehicle/set03/video_0012_obd.xml",
+      "role": "obd_xml_set03_video_0012",
+      "sha256": "9cd0504877f02110903335e6add00637952bc9e0892ce0cb60a78bfb03582af3",
+      "size_bytes": 4565571
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set03/video_0013_annt.xml",
+      "role": "bbox_xml_set03_video_0013",
+      "sha256": "95926042bfaeed055ccf3e02cc0524edf3ba54061406926632dd2fb1801800e4",
+      "size_bytes": 3218913
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_vehicle/set03/video_0013_obd.xml",
+      "role": "obd_xml_set03_video_0013",
+      "sha256": "09b88e7a2fbfaa371f09987be5dbe6e4c0097f6307694f37cc87fccd3c1dfbee",
+      "size_bytes": 5081996
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set03/video_0014_annt.xml",
+      "role": "bbox_xml_set03_video_0014",
+      "sha256": "264074af52379b5d2493793363c31893ebdc9d78d8f266ecf7f186b26f95d966",
+      "size_bytes": 2952000
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_vehicle/set03/video_0014_obd.xml",
+      "role": "obd_xml_set03_video_0014",
+      "sha256": "e3ae5314da571b8422ed87e88b8a717cf1df68f6470708b2f2cea2a53d89ee88",
+      "size_bytes": 4490157
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set03/video_0015_annt.xml",
+      "role": "bbox_xml_set03_video_0015",
+      "sha256": "9744438585ead5a1915d4a9283d60c54a8718c838796c35f415edb29c0007c6c",
+      "size_bytes": 20612359
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_vehicle/set03/video_0015_obd.xml",
+      "role": "obd_xml_set03_video_0015",
+      "sha256": "ee5b07a113b158a49f8380bedce7034fe24a2aba725f92c7a01d4503b9241e01",
+      "size_bytes": 4113738
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set03/video_0016_annt.xml",
+      "role": "bbox_xml_set03_video_0016",
+      "sha256": "0403edf954274bf28b9fd884c50cac22ab6d414298f27b0d4f2f1721328ba2de",
+      "size_bytes": 15705580
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_vehicle/set03/video_0016_obd.xml",
+      "role": "obd_xml_set03_video_0016",
+      "sha256": "2f0da9efcfb4484d77ff2124c58e40ab5f894ab03834c78e4dcd361454fec106",
+      "size_bytes": 4528991
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set03/video_0017_annt.xml",
+      "role": "bbox_xml_set03_video_0017",
+      "sha256": "dea4916e56c3c121de08067ece50e4a0f249bd13500b7686df3612c2df6561d0",
+      "size_bytes": 4982723
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_vehicle/set03/video_0017_obd.xml",
+      "role": "obd_xml_set03_video_0017",
+      "sha256": "492d6aa467abd21623498fc4f7741cc385d024a02a021fcb83fd8e40c018db87",
+      "size_bytes": 4553696
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set03/video_0018_annt.xml",
+      "role": "bbox_xml_set03_video_0018",
+      "sha256": "52c3d58e1ae2632ddd986fcac01924f3ceadfd0dcf5c5f4b7ce41f4983251aab",
+      "size_bytes": 8228810
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_vehicle/set03/video_0018_obd.xml",
+      "role": "obd_xml_set03_video_0018",
+      "sha256": "e54b8d5bab2f117f31c78d7e23897fc907bfb7fc7d6f93714edf474ee714c235",
+      "size_bytes": 4562381
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set03/video_0019_annt.xml",
+      "role": "bbox_xml_set03_video_0019",
+      "sha256": "2cb8f45e2073a48a969f63a8e45a8828cf1b705a7f64d5af3826d46d8e5e031a",
+      "size_bytes": 2800468
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_vehicle/set03/video_0019_obd.xml",
+      "role": "obd_xml_set03_video_0019",
+      "sha256": "f6dc6b83b9dc6e44555003503fdfd669e05aa412ee1495503545a5f40159ed7a",
+      "size_bytes": 2927152
+    }
+  ]
+}

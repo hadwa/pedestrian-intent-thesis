@@ -1,0 +1,61 @@
+{
+  "development_features": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/037_pie_joint_biu_temporal_ego/metrics/prepared_development.csv",
+    "sha256": "85bf008b988e18f0b13630ca87412dbbeee9afbdec4b0a7ecd9847c5e0352892",
+    "size_bytes": 19896771
+  },
+  "feature_contract": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/037_pie_joint_biu_temporal_ego/metrics/feature_contract.json",
+    "sha256": "29fe743b5b3a65190c98b3f86f980a1e17054c0b3c7c6b1851a7813c53a5b49b",
+    "size_bytes": 30970
+  },
+  "paper": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/papers/Guo_2017_Calibration.pdf",
+    "sha256": "df7c93f97204f8a3c2b10f6d5bf5265baac25f00c1ae3b473a3e1dbc102dacb2",
+    "size_bytes": 828420
+  },
+  "parents": [
+    {
+      "authenticated_outputs": [
+        "feature_contract.json",
+        "prepared_development.csv",
+        "source_provenance_prepare.json"
+      ],
+      "completion_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/037_pie_joint_biu_temporal_ego/metrics/.prepare.complete.json",
+      "experiment": "037_pie_joint_biu_temporal_ego",
+      "phase": "prepare",
+      "sha256": "ccba2956fd0d02c161036fe39f444394f960307b1b4b45c0a36fea9e936cf1ec",
+      "size_bytes": 527
+    },
+    {
+      "authenticated_outputs": [
+        "development_bootstrap.csv",
+        "development_gate_checks.json",
+        "development_inner_oof_predictions.csv",
+        "development_lock.json",
+        "development_outer_predictions.csv",
+        "development_per_set.csv",
+        "development_raw_results.csv",
+        "development_results.csv",
+        "development_temperatures.csv"
+      ],
+      "completion_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/038_pie_nested_softening_calibration/metrics/.development.complete.json",
+      "experiment": "038_pie_nested_softening_calibration",
+      "phase": "development",
+      "sha256": "3b2443702c3618c838d3c9c52d81b1ec602cda62fd28864e7fdff082d89dc680",
+      "size_bytes": 1574
+    }
+  ],
+  "set03_materialized": false,
+  "set06_materialized": false,
+  "temperature_lineage": {
+    "median_temperatures": {
+      "joint_temporal_ego_xgb": 1.8395656892513026,
+      "v1_bbox_rf": 1.0,
+      "v2_bbox_xgb": 2.0149628788881717
+    },
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/038_pie_nested_softening_calibration/metrics/development_temperatures.csv",
+    "sha256": "37d738e0ad5f6b41166935e51ab5ddcfb3f4fce04c5328c6aaa79c158a99e38a",
+    "size_bytes": 2154
+  }
+}

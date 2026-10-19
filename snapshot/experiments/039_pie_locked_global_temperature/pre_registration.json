@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "experiment": "Exp039",
+  "name": "PIE locked global-temperature confirmation",
+  "status": "PRE_REGISTERED_NOT_RUN",
+  "dataset": "PIE",
+  "benchmark": "standard anticipatory",
+  "observation_frames": 16,
+  "tte": "30_60",
+  "overlap": 0.6,
+  "threshold": 0.5,
+  "development_sets": ["set01", "set02", "set04", "set05"],
+  "confirmation_set": "set06",
+  "diagnostic_test_set": "set03",
+  "diagnostic_test_status": "TEST_INFORMED_NOT_INDEPENDENT_CONFIRMATION",
+  "raw_arms": ["joint_temporal_ego_xgb", "v2_bbox_xgb", "v1_bbox_rf"],
+  "temperatures": {
+    "joint_temporal_ego_xgb": 1.8395656892513026,
+    "v2_bbox_xgb": 2.0149628788881717,
+    "v1_bbox_rf": 1.0
+  },
+  "temperature_source": "median of Exp038 leakage-free outer-fold temperatures per arm",
+  "seeds": [42, 43, 44],
+  "bootstrap_seed": 42,
+  "bootstrap_replicates": 10000,
+  "minimum_pr_auc_gain": 0.005,
+  "minimum_f1_gain": 0.005,
+  "combined_tail_reduction_fraction": 0.25,
+  "fp_high_confidence_min": 0.9,
+  "fn_high_confidence_max": 0.1,
+  "calibration_gate": {
+    "brier": "strict_improvement_vs_raw_candidate",
+    "log_loss": "strict_improvement_vs_raw_candidate",
+    "ece": "nonincrease_vs_raw_candidate",
+    "confusion": "exactly_equal_to_raw_candidate",
+    "individual_tails": "nonincrease_vs_raw_candidate",
+    "combined_tail": "at_least_25_percent_reduction_vs_raw_candidate"
+  },
+  "discrimination_gate": {
+    "pr_auc": "candidate_gt_v2_plus_0.005",
+    "f1_fixed_0p5": "candidate_gt_best_baseline_plus_0.005",
+    "paired_track_bootstrap": "95_percent_lower_bound_gt_0_for_pr_auc_and_f1"
+  },
+  "final_training_if_advance": "refit unchanged arms on development plus set06; retain locked temperatures",
+  "source_experiments": ["Exp037", "Exp038"],
+  "papers": [
+    {
+      "title": "On Calibration of Modern Neural Networks",
+      "year": 2017,
+      "local_copy": "papers/Guo_2017_Calibration.pdf"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "approval_date": "2026-09-12",
+  "status": "approved_not_run",
+  "train_excluded_videos": [
+    "video_0032",
+    "video_0055",
+    "video_0093"
+  ],
+  "train_excluded_windows_by_video": {
+    "video_0032": 143,
+    "video_0055": 141,
+    "video_0093": 301
+  },
+  "train_excluded_windows_total": 585,
+  "train_original_windows": 26880,
+  "train_retained_windows": 26295,
+  "validation_excluded_windows": 0,
+  "validation_retained_windows": 14922,
+  "matched_arms": [
+    "S187",
+    "R247"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "test_accessed": false
+}

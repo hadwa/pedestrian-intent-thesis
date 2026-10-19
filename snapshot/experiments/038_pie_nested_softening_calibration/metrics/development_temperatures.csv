@@ -1,0 +1,13 @@
+outer_set,raw_arm,calibrated_arm,temperature,identity_log_loss,fitted_log_loss,optimizer_temperature,optimizer_success,inner_rows,outer_rows,remaining_sets_json
+set01,joint_temporal_ego_xgb,soft_temp_joint_temporal_ego_xgb,1.9324965493214654,0.4308790005061639,0.34911616265701273,1.9324965493214654,True,4218,563,"[""set02"",""set04"",""set05""]"
+set01,v2_bbox_xgb,soft_temp_v2_bbox_xgb,2.0767356473949308,0.48056115766757473,0.3743053814288959,2.0767356473949308,True,4218,563,"[""set02"",""set04"",""set05""]"
+set01,v1_bbox_rf,soft_temp_v1_bbox_rf,1.0,0.3741814142093204,0.3741814142093204,1.0000000241103628,True,4218,563,"[""set02"",""set04"",""set05""]"
+set02,joint_temporal_ego_xgb,soft_temp_joint_temporal_ego_xgb,1.9087482934748001,0.443298943313994,0.3691548261046949,1.9087482934748001,True,4182,599,"[""set01"",""set04"",""set05""]"
+set02,v2_bbox_xgb,soft_temp_v2_bbox_xgb,2.21744701983194,0.5305711731647763,0.4115848793183551,2.21744701983194,True,4182,599,"[""set01"",""set04"",""set05""]"
+set02,v1_bbox_rf,soft_temp_v1_bbox_rf,1.0,0.40701530371617656,0.40701530371617656,1.0000000241103628,True,4182,599,"[""set01"",""set04"",""set05""]"
+set04,joint_temporal_ego_xgb,soft_temp_joint_temporal_ego_xgb,1.7703830850278057,0.38080646999539697,0.3237029956421553,1.7703830850278057,True,1248,3533,"[""set01"",""set02"",""set05""]"
+set04,v2_bbox_xgb,soft_temp_v2_bbox_xgb,1.9531901103814129,0.4451970266177652,0.3629091258527201,1.9531901103814129,True,1248,3533,"[""set01"",""set02"",""set05""]"
+set04,v1_bbox_rf,soft_temp_v1_bbox_rf,1.0,0.39304723499767147,0.39304723499767147,1.0000000241103628,True,1248,3533,"[""set01"",""set02"",""set05""]"
+set05,joint_temporal_ego_xgb,soft_temp_joint_temporal_ego_xgb,1.6534494338776404,0.35693788164181345,0.31375945606969086,1.6534494338776404,True,4695,86,"[""set01"",""set02"",""set04""]"
+set05,v2_bbox_xgb,soft_temp_v2_bbox_xgb,1.8191415721079847,0.4529224631239564,0.386067364217628,1.8191415721079847,True,4695,86,"[""set01"",""set02"",""set04""]"
+set05,v1_bbox_rf,soft_temp_v1_bbox_rf,1.0,0.43544820813097407,0.43544820813097407,1.0000000241103628,True,4695,86,"[""set01"",""set02"",""set04""]"

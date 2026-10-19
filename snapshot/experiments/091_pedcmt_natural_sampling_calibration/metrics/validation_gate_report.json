@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "accuracy_within_0p005_of_parent": false,
+    "f1_within_0p005_of_parent": false,
+    "no_high_confidence_error_increase": false,
+    "retains_pr_auc_gain_over_parent": true
+  },
+  "passed": false,
+  "scope": "validation-only diagnostic; final JAAD cohort never loaded",
+  "test_cache_accessed": false
+}

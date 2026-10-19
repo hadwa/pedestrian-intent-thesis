@@ -1,0 +1,4 @@
+python /tmp/continue_thesis_companion.py
+python /home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/evidence.py summaries
+python /tmp/check_thesis_companion_phase1.py
+Additional exact subprocess commands and outcomes: command_checks.json

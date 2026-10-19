@@ -1,0 +1,50 @@
+[
+  {
+    "identical_imputer": true,
+    "identical_parameters": true,
+    "identical_predictions": true,
+    "prediction_source": {
+      "bytes": 52999,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/099_jaad_exp077_vehicle_action/predictions/validation_B_seed42.csv",
+      "sha256": "196eaa3ea004c1b56b3b07af7e3f5bfa836ae44a49b962571a12d56393c2b6f2"
+    },
+    "seed": 42,
+    "source_model": {
+      "bytes": 346605,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/099_jaad_exp077_vehicle_action/models/B_seed42.joblib",
+      "sha256": "5d1fc17ab0beb7b47e93efa49b0013307839b92ed30dc50a0c3ab709c0324f34"
+    }
+  },
+  {
+    "identical_imputer": true,
+    "identical_parameters": true,
+    "identical_predictions": true,
+    "prediction_source": {
+      "bytes": 52993,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/099_jaad_exp077_vehicle_action/predictions/validation_B_seed43.csv",
+      "sha256": "9d3ddaf2eaee1333d5e5de9335e9b5b3ef19f3d7b7f5b21b857c26d1310d73b7"
+    },
+    "seed": 43,
+    "source_model": {
+      "bytes": 346129,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/099_jaad_exp077_vehicle_action/models/B_seed43.joblib",
+      "sha256": "9eea42923fcc7936f0f7fb4a4ff4ad0c902095193911c7e3690b6da3cf3dfb12"
+    }
+  },
+  {
+    "identical_imputer": true,
+    "identical_parameters": true,
+    "identical_predictions": true,
+    "prediction_source": {
+      "bytes": 52986,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/099_jaad_exp077_vehicle_action/predictions/validation_B_seed44.csv",
+      "sha256": "51b22fb619ccc7d5a76ce4e127688f974260c5b67382ec5fc2007affb4045e3a"
+    },
+    "seed": 44,
+    "source_model": {
+      "bytes": 346946,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/099_jaad_exp077_vehicle_action/models/B_seed44.joblib",
+      "sha256": "14544d92c3a1c061dbd5b166fd63535dffa7d4866c07d21f7c627656dffe93dc"
+    }
+  }
+]

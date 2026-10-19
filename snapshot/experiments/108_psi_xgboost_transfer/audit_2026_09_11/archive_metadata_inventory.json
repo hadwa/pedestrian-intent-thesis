@@ -1,0 +1,3524 @@
+[
+  {
+    "member": "PSI/PSI2.0_Test/annotations/.DS_Store",
+    "bytes": 6148,
+    "compressed_bytes": 334,
+    "crc32": 90514495
+  },
+  {
+    "member": "PSI/PSI2.0_Test/splits/PSI2_split.json",
+    "bytes": 4286,
+    "compressed_bytes": 495,
+    "crc32": 3646704969
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/.DS_Store",
+    "bytes": 8196,
+    "compressed_bytes": 508,
+    "crc32": 3181621796
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/splits/PSI2_split.json",
+    "bytes": 4308,
+    "compressed_bytes": 496,
+    "crc32": 3604630607
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/.DS_Store",
+    "bytes": 30724,
+    "compressed_bytes": 3999,
+    "crc32": 2871460377
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/.DS_Store",
+    "bytes": 30724,
+    "compressed_bytes": 3798,
+    "crc32": 1748552716
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0199/cv_annotation.json",
+    "bytes": 102430,
+    "compressed_bytes": 2055,
+    "crc32": 2297197142
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0152/cv_annotation.json",
+    "bytes": 32128615,
+    "compressed_bytes": 527096,
+    "crc32": 3918341173
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0164/cv_annotation.json",
+    "bytes": 41872628,
+    "compressed_bytes": 730109,
+    "crc32": 3884230625
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0190/cv_annotation.json",
+    "bytes": 44715857,
+    "compressed_bytes": 717782,
+    "crc32": 3591411996
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0197/cv_annotation.json",
+    "bytes": 22207583,
+    "compressed_bytes": 345925,
+    "crc32": 1930659438
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0163/cv_annotation.json",
+    "bytes": 15870655,
+    "compressed_bytes": 263082,
+    "crc32": 3266144881
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0196/cv_annotation.json",
+    "bytes": 36344180,
+    "compressed_bytes": 684298,
+    "crc32": 483890118
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0191/cv_annotation.json",
+    "bytes": 79223491,
+    "compressed_bytes": 1325737,
+    "crc32": 466291717
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0165/cv_annotation.json",
+    "bytes": 33184582,
+    "compressed_bytes": 575849,
+    "crc32": 2332310910
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0198/cv_annotation.json",
+    "bytes": 22152069,
+    "compressed_bytes": 407385,
+    "crc32": 717413774
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0153/cv_annotation.json",
+    "bytes": 44436312,
+    "compressed_bytes": 782591,
+    "crc32": 3573491649
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0154/cv_annotation.json",
+    "bytes": 26423864,
+    "compressed_bytes": 465826,
+    "crc32": 3484768622
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0176/cv_annotation.json",
+    "bytes": 2192269,
+    "compressed_bytes": 31570,
+    "crc32": 143195265
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0182/cv_annotation.json",
+    "bytes": 7757226,
+    "compressed_bytes": 156678,
+    "crc32": 4109215929
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0149/cv_annotation.json",
+    "bytes": 25845865,
+    "compressed_bytes": 441970,
+    "crc32": 3477393244
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0185/cv_annotation.json",
+    "bytes": 14238027,
+    "compressed_bytes": 265054,
+    "crc32": 3043029040
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0171/cv_annotation.json",
+    "bytes": 15586874,
+    "compressed_bytes": 229608,
+    "crc32": 1371153114
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0147/cv_annotation.json",
+    "bytes": 15097798,
+    "compressed_bytes": 266422,
+    "crc32": 3422840863
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0178/cv_annotation.json",
+    "bytes": 103900991,
+    "compressed_bytes": 1706772,
+    "crc32": 1467489415
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0179/cv_annotation.json",
+    "bytes": 59800338,
+    "compressed_bytes": 940994,
+    "crc32": 1105564210
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0170/cv_annotation.json",
+    "bytes": 11598618,
+    "compressed_bytes": 162476,
+    "crc32": 3386710220
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0184/cv_annotation.json",
+    "bytes": 21850470,
+    "compressed_bytes": 358148,
+    "crc32": 853647920
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0183/cv_annotation.json",
+    "bytes": 23208779,
+    "compressed_bytes": 412635,
+    "crc32": 581892742
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0177/cv_annotation.json",
+    "bytes": 82448792,
+    "compressed_bytes": 1247510,
+    "crc32": 2256143903
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0148/cv_annotation.json",
+    "bytes": 3782116,
+    "compressed_bytes": 45477,
+    "crc32": 739669495
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0200/cv_annotation.json",
+    "bytes": 31049938,
+    "compressed_bytes": 476854,
+    "crc32": 2950828295
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0151/cv_annotation.json",
+    "bytes": 1852550,
+    "compressed_bytes": 23870,
+    "crc32": 2969616540
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0169/cv_annotation.json",
+    "bytes": 25728090,
+    "compressed_bytes": 536049,
+    "crc32": 632206473
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0156/cv_annotation.json",
+    "bytes": 26264229,
+    "compressed_bytes": 427920,
+    "crc32": 770259405
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0194/cv_annotation.json",
+    "bytes": 39031452,
+    "compressed_bytes": 783992,
+    "crc32": 3183520299
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0160/cv_annotation.json",
+    "bytes": 26818603,
+    "compressed_bytes": 386836,
+    "crc32": 1078880197
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0158/cv_annotation.json",
+    "bytes": 53508632,
+    "compressed_bytes": 813082,
+    "crc32": 2298759235
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0193/cv_annotation.json",
+    "bytes": 10110901,
+    "compressed_bytes": 126190,
+    "crc32": 3627942694
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0159/cv_annotation.json",
+    "bytes": 55052519,
+    "compressed_bytes": 988829,
+    "crc32": 333524839
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0166/cv_annotation.json",
+    "bytes": 28836095,
+    "compressed_bytes": 524970,
+    "crc32": 1618080095
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0161/cv_annotation.json",
+    "bytes": 7216204,
+    "compressed_bytes": 103867,
+    "crc32": 1627088518
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0195/cv_annotation.json",
+    "bytes": 11201426,
+    "compressed_bytes": 197231,
+    "crc32": 1981106162
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0168/cv_annotation.json",
+    "bytes": 29090998,
+    "compressed_bytes": 586221,
+    "crc32": 3709980836
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0157/cv_annotation.json",
+    "bytes": 40240321,
+    "compressed_bytes": 592987,
+    "crc32": 1900099596
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0150/cv_annotation.json",
+    "bytes": 14787733,
+    "compressed_bytes": 241579,
+    "crc32": 258331223
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0186/cv_annotation.json",
+    "bytes": 9653740,
+    "compressed_bytes": 116843,
+    "crc32": 1177229028
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0172/cv_annotation.json",
+    "bytes": 20086829,
+    "compressed_bytes": 403295,
+    "crc32": 987804982
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0175/cv_annotation.json",
+    "bytes": 102430,
+    "compressed_bytes": 2029,
+    "crc32": 3672981246
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0181/cv_annotation.json",
+    "bytes": 26415948,
+    "compressed_bytes": 437045,
+    "crc32": 1910939374
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0188/cv_annotation.json",
+    "bytes": 36012422,
+    "compressed_bytes": 714458,
+    "crc32": 4157452744
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0189/cv_annotation.json",
+    "bytes": 16341430,
+    "compressed_bytes": 363827,
+    "crc32": 669835750
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0180/cv_annotation.json",
+    "bytes": 10289360,
+    "compressed_bytes": 132293,
+    "crc32": 847894408
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0174/cv_annotation.json",
+    "bytes": 9793710,
+    "compressed_bytes": 147225,
+    "crc32": 1084354037
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0187/cv_annotation.json",
+    "bytes": 20868641,
+    "compressed_bytes": 421310,
+    "crc32": 2883413910
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0202/cv_annotation.json",
+    "bytes": 43761868,
+    "compressed_bytes": 795694,
+    "crc32": 3999569820
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0204/cv_annotation.json",
+    "bytes": 38293077,
+    "compressed_bytes": 618271,
+    "crc32": 1721496866
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cv_annotation/video_0203/cv_annotation.json",
+    "bytes": 28939916,
+    "compressed_bytes": 476802,
+    "crc32": 4191694472
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0152/driving_decision.json",
+    "bytes": 1009809,
+    "compressed_bytes": 10818,
+    "crc32": 657164294
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0152/pedestrian_intent.json",
+    "bytes": 1077221,
+    "compressed_bytes": 30462,
+    "crc32": 457550237
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0164/driving_decision.json",
+    "bytes": 1223799,
+    "compressed_bytes": 12898,
+    "crc32": 2037307034
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0164/pedestrian_intent.json",
+    "bytes": 614523,
+    "compressed_bytes": 20214,
+    "crc32": 487027719
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0190/driving_decision.json",
+    "bytes": 1332462,
+    "compressed_bytes": 12758,
+    "crc32": 3069817983
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0190/pedestrian_intent.json",
+    "bytes": 712233,
+    "compressed_bytes": 19203,
+    "crc32": 3413011414
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0197/driving_decision.json",
+    "bytes": 1222989,
+    "compressed_bytes": 11934,
+    "crc32": 2246758322
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0197/pedestrian_intent.json",
+    "bytes": 348476,
+    "compressed_bytes": 11006,
+    "crc32": 210001355
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0163/driving_decision.json",
+    "bytes": 1116802,
+    "compressed_bytes": 11105,
+    "crc32": 1771364349
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0163/pedestrian_intent.json",
+    "bytes": 1162744,
+    "compressed_bytes": 35189,
+    "crc32": 2882082565
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0196/driving_decision.json",
+    "bytes": 1118673,
+    "compressed_bytes": 11441,
+    "crc32": 3301756194
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0196/pedestrian_intent.json",
+    "bytes": 2039264,
+    "compressed_bytes": 60252,
+    "crc32": 889080645
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0191/driving_decision.json",
+    "bytes": 2194964,
+    "compressed_bytes": 24309,
+    "crc32": 3876007834
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0191/pedestrian_intent.json",
+    "bytes": 3391021,
+    "compressed_bytes": 73269,
+    "crc32": 981281298
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0165/driving_decision.json",
+    "bytes": 2086424,
+    "compressed_bytes": 21126,
+    "crc32": 3183274366
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0165/pedestrian_intent.json",
+    "bytes": 377069,
+    "compressed_bytes": 11782,
+    "crc32": 2947251322
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0198/driving_decision.json",
+    "bytes": 1009198,
+    "compressed_bytes": 10147,
+    "crc32": 147164675
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0198/pedestrian_intent.json",
+    "bytes": 362387,
+    "compressed_bytes": 11856,
+    "crc32": 3557541723
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0153/driving_decision.json",
+    "bytes": 1117949,
+    "compressed_bytes": 11591,
+    "crc32": 4106760505
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0153/pedestrian_intent.json",
+    "bytes": 1547650,
+    "compressed_bytes": 41758,
+    "crc32": 1238930859
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0154/driving_decision.json",
+    "bytes": 1115990,
+    "compressed_bytes": 10062,
+    "crc32": 154257496
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0154/pedestrian_intent.json",
+    "bytes": 487968,
+    "compressed_bytes": 13901,
+    "crc32": 3036271394
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0182/driving_decision.json",
+    "bytes": 1009147,
+    "compressed_bytes": 11030,
+    "crc32": 493414119
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0182/pedestrian_intent.json",
+    "bytes": 1368068,
+    "compressed_bytes": 38217,
+    "crc32": 460943332
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0149/driving_decision.json",
+    "bytes": 1009216,
+    "compressed_bytes": 10775,
+    "crc32": 1886126713
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0149/pedestrian_intent.json",
+    "bytes": 800855,
+    "compressed_bytes": 27918,
+    "crc32": 2652996381
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0185/driving_decision.json",
+    "bytes": 1115389,
+    "compressed_bytes": 10251,
+    "crc32": 1939527645
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0185/pedestrian_intent.json",
+    "bytes": 713432,
+    "compressed_bytes": 20707,
+    "crc32": 4183973000
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0171/driving_decision.json",
+    "bytes": 1221128,
+    "compressed_bytes": 12014,
+    "crc32": 3018222331
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0171/pedestrian_intent.json",
+    "bytes": 595361,
+    "compressed_bytes": 16089,
+    "crc32": 823421133
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0147/driving_decision.json",
+    "bytes": 1225220,
+    "compressed_bytes": 12657,
+    "crc32": 4011259701
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0147/pedestrian_intent.json",
+    "bytes": 381010,
+    "compressed_bytes": 12665,
+    "crc32": 802493277
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0178/driving_decision.json",
+    "bytes": 1115471,
+    "compressed_bytes": 10194,
+    "crc32": 3868599526
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0178/pedestrian_intent.json",
+    "bytes": 677021,
+    "compressed_bytes": 15592,
+    "crc32": 1201531873
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0179/driving_decision.json",
+    "bytes": 1008507,
+    "compressed_bytes": 10403,
+    "crc32": 4239877090
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0179/pedestrian_intent.json",
+    "bytes": 573091,
+    "compressed_bytes": 15839,
+    "crc32": 2726611818
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0170/driving_decision.json",
+    "bytes": 2087881,
+    "compressed_bytes": 21940,
+    "crc32": 866481943
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0170/pedestrian_intent.json",
+    "bytes": 3262518,
+    "compressed_bytes": 62426,
+    "crc32": 139845262
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0184/driving_decision.json",
+    "bytes": 1007844,
+    "compressed_bytes": 10232,
+    "crc32": 3382372306
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0184/pedestrian_intent.json",
+    "bytes": 550769,
+    "compressed_bytes": 15261,
+    "crc32": 986074678
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0183/driving_decision.json",
+    "bytes": 1875270,
+    "compressed_bytes": 21416,
+    "crc32": 1355407013
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0183/pedestrian_intent.json",
+    "bytes": 487381,
+    "compressed_bytes": 16517,
+    "crc32": 3572736423
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0177/driving_decision.json",
+    "bytes": 2088218,
+    "compressed_bytes": 23037,
+    "crc32": 2821606528
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0177/pedestrian_intent.json",
+    "bytes": 4202827,
+    "compressed_bytes": 79471,
+    "crc32": 1630439111
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0148/driving_decision.json",
+    "bytes": 1009540,
+    "compressed_bytes": 10980,
+    "crc32": 3410000979
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0148/pedestrian_intent.json",
+    "bytes": 557333,
+    "compressed_bytes": 15413,
+    "crc32": 2806096003
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0200/driving_decision.json",
+    "bytes": 1331874,
+    "compressed_bytes": 13041,
+    "crc32": 3754156268
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0200/pedestrian_intent.json",
+    "bytes": 713924,
+    "compressed_bytes": 21006,
+    "crc32": 1239056726
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0151/driving_decision.json",
+    "bytes": 1116519,
+    "compressed_bytes": 10230,
+    "crc32": 785808972
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0151/pedestrian_intent.json",
+    "bytes": 412090,
+    "compressed_bytes": 11068,
+    "crc32": 635055391
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0169/driving_decision.json",
+    "bytes": 1223826,
+    "compressed_bytes": 12878,
+    "crc32": 2223998386
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0169/pedestrian_intent.json",
+    "bytes": 2131514,
+    "compressed_bytes": 60975,
+    "crc32": 192520374
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0156/driving_decision.json",
+    "bytes": 1224238,
+    "compressed_bytes": 13036,
+    "crc32": 760242805
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0156/pedestrian_intent.json",
+    "bytes": 739809,
+    "compressed_bytes": 20544,
+    "crc32": 4098671984
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0194/driving_decision.json",
+    "bytes": 2086802,
+    "compressed_bytes": 21471,
+    "crc32": 3370242306
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0194/pedestrian_intent.json",
+    "bytes": 1053807,
+    "compressed_bytes": 25644,
+    "crc32": 550616891
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0160/driving_decision.json",
+    "bytes": 1223122,
+    "compressed_bytes": 12631,
+    "crc32": 1778195240
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0160/pedestrian_intent.json",
+    "bytes": 755202,
+    "compressed_bytes": 16081,
+    "crc32": 3475185419
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0158/driving_decision.json",
+    "bytes": 1008650,
+    "compressed_bytes": 10460,
+    "crc32": 1308502678
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0158/pedestrian_intent.json",
+    "bytes": 4663209,
+    "compressed_bytes": 87991,
+    "crc32": 3409570366
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0193/driving_decision.json",
+    "bytes": 1009257,
+    "compressed_bytes": 11073,
+    "crc32": 2509924693
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0193/pedestrian_intent.json",
+    "bytes": 522367,
+    "compressed_bytes": 15932,
+    "crc32": 1437773281
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0159/driving_decision.json",
+    "bytes": 1117232,
+    "compressed_bytes": 10650,
+    "crc32": 3372655506
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0159/pedestrian_intent.json",
+    "bytes": 4040441,
+    "compressed_bytes": 104087,
+    "crc32": 1014054419
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0192/driving_decision.json",
+    "bytes": 1008297,
+    "compressed_bytes": 10244,
+    "crc32": 3871107646
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0192/pedestrian_intent.json",
+    "bytes": 350281,
+    "compressed_bytes": 10465,
+    "crc32": 3545772153
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0166/driving_decision.json",
+    "bytes": 1225177,
+    "compressed_bytes": 12333,
+    "crc32": 1082686309
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0166/pedestrian_intent.json",
+    "bytes": 559385,
+    "compressed_bytes": 19499,
+    "crc32": 3592317916
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0161/driving_decision.json",
+    "bytes": 1008829,
+    "compressed_bytes": 10451,
+    "crc32": 292541297
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0161/pedestrian_intent.json",
+    "bytes": 524234,
+    "compressed_bytes": 15237,
+    "crc32": 2739826331
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0195/driving_decision.json",
+    "bytes": 1117834,
+    "compressed_bytes": 11471,
+    "crc32": 1357193903
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0195/pedestrian_intent.json",
+    "bytes": 452864,
+    "compressed_bytes": 13718,
+    "crc32": 464904227
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0168/driving_decision.json",
+    "bytes": 1009156,
+    "compressed_bytes": 10679,
+    "crc32": 4077464022
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0168/pedestrian_intent.json",
+    "bytes": 377341,
+    "compressed_bytes": 13212,
+    "crc32": 3883335167
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0157/driving_decision.json",
+    "bytes": 1332208,
+    "compressed_bytes": 12627,
+    "crc32": 1908577112
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0157/pedestrian_intent.json",
+    "bytes": 1881009,
+    "compressed_bytes": 48438,
+    "crc32": 1763602586
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0150/driving_decision.json",
+    "bytes": 2085275,
+    "compressed_bytes": 21053,
+    "crc32": 654119632
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0150/pedestrian_intent.json",
+    "bytes": 1218819,
+    "compressed_bytes": 28070,
+    "crc32": 306717649
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0186/driving_decision.json",
+    "bytes": 1330834,
+    "compressed_bytes": 12626,
+    "crc32": 2661181099
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0186/pedestrian_intent.json",
+    "bytes": 1339467,
+    "compressed_bytes": 34065,
+    "crc32": 675027463
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0172/driving_decision.json",
+    "bytes": 1008890,
+    "compressed_bytes": 10353,
+    "crc32": 2967756891
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0172/pedestrian_intent.json",
+    "bytes": 388622,
+    "compressed_bytes": 12436,
+    "crc32": 467587636
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0181/driving_decision.json",
+    "bytes": 1331206,
+    "compressed_bytes": 12840,
+    "crc32": 382859141
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0181/pedestrian_intent.json",
+    "bytes": 752826,
+    "compressed_bytes": 16480,
+    "crc32": 3480332053
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0188/driving_decision.json",
+    "bytes": 1117183,
+    "compressed_bytes": 10779,
+    "crc32": 2669639690
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0188/pedestrian_intent.json",
+    "bytes": 1770858,
+    "compressed_bytes": 44386,
+    "crc32": 1951722615
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0189/driving_decision.json",
+    "bytes": 1008223,
+    "compressed_bytes": 10503,
+    "crc32": 155135482
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0189/pedestrian_intent.json",
+    "bytes": 1037827,
+    "compressed_bytes": 29666,
+    "crc32": 3464102048
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0180/driving_decision.json",
+    "bytes": 1009495,
+    "compressed_bytes": 10693,
+    "crc32": 2079035324
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0180/pedestrian_intent.json",
+    "bytes": 1466068,
+    "compressed_bytes": 36247,
+    "crc32": 575638934
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0174/driving_decision.json",
+    "bytes": 1116539,
+    "compressed_bytes": 9792,
+    "crc32": 862421963
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0174/pedestrian_intent.json",
+    "bytes": 1545374,
+    "compressed_bytes": 39718,
+    "crc32": 4248633282
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0187/driving_decision.json",
+    "bytes": 2302354,
+    "compressed_bytes": 24327,
+    "crc32": 1759450063
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0187/pedestrian_intent.json",
+    "bytes": 1628645,
+    "compressed_bytes": 49165,
+    "crc32": 4218521428
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0202/driving_decision.json",
+    "bytes": 1332584,
+    "compressed_bytes": 13451,
+    "crc32": 1842950688
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0202/pedestrian_intent.json",
+    "bytes": 671671,
+    "compressed_bytes": 17818,
+    "crc32": 1150376175
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0204/driving_decision.json",
+    "bytes": 2194319,
+    "compressed_bytes": 21891,
+    "crc32": 2505786189
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0204/pedestrian_intent.json",
+    "bytes": 2405213,
+    "compressed_bytes": 49575,
+    "crc32": 1732713820
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0203/driving_decision.json",
+    "bytes": 1008405,
+    "compressed_bytes": 10767,
+    "crc32": 1527775565
+  },
+  {
+    "member": "PSI/PSI2.0_Test/annotations/cognitive_annotation_key_frame/video_0203/pedestrian_intent.json",
+    "bytes": 507277,
+    "compressed_bytes": 14392,
+    "crc32": 3565099499
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0044/cv_annotation.json",
+    "bytes": 10320306,
+    "compressed_bytes": 140290,
+    "crc32": 643510390
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0088/cv_annotation.json",
+    "bytes": 21070838,
+    "compressed_bytes": 552130,
+    "crc32": 1413189801
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0043/cv_annotation.json",
+    "bytes": 101530315,
+    "compressed_bytes": 1763405,
+    "crc32": 1251189370
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0075/cv_annotation.json",
+    "bytes": 9308013,
+    "compressed_bytes": 165515,
+    "crc32": 2540225919
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0081/cv_annotation.json",
+    "bytes": 53075643,
+    "compressed_bytes": 986804,
+    "crc32": 2802161663
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0086/cv_annotation.json",
+    "bytes": 4426976,
+    "compressed_bytes": 61329,
+    "crc32": 1963628479
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0072/cv_annotation.json",
+    "bytes": 5575843,
+    "compressed_bytes": 60989,
+    "crc32": 1949620104
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0026/cv_annotation.json",
+    "bytes": 23656261,
+    "compressed_bytes": 434045,
+    "crc32": 3236648739
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0019/cv_annotation.json",
+    "bytes": 21601943,
+    "compressed_bytes": 474120,
+    "crc32": 2163888810
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0021/cv_annotation.json",
+    "bytes": 31864889,
+    "compressed_bytes": 513373,
+    "crc32": 2571436830
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0017/cv_annotation.json",
+    "bytes": 18657218,
+    "compressed_bytes": 360463,
+    "crc32": 4251461211
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0028/cv_annotation.json",
+    "bytes": 28768266,
+    "compressed_bytes": 521418,
+    "crc32": 2826304797
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0010/cv_annotation.json",
+    "bytes": 49229173,
+    "compressed_bytes": 799775,
+    "crc32": 2003274998
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0073/cv_annotation.json",
+    "bytes": 2173028,
+    "compressed_bytes": 45224,
+    "crc32": 3303017808
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0087/cv_annotation.json",
+    "bytes": 27879660,
+    "compressed_bytes": 525422,
+    "crc32": 3585923513
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0080/cv_annotation.json",
+    "bytes": 19327153,
+    "compressed_bytes": 415959,
+    "crc32": 4278228213
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0074/cv_annotation.json",
+    "bytes": 28372631,
+    "compressed_bytes": 520816,
+    "crc32": 2464036299
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0089/cv_annotation.json",
+    "bytes": 17363747,
+    "compressed_bytes": 491161,
+    "crc32": 938050278
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0042/cv_annotation.json",
+    "bytes": 29925930,
+    "compressed_bytes": 747092,
+    "crc32": 702142894
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0045/cv_annotation.json",
+    "bytes": 15321164,
+    "compressed_bytes": 322161,
+    "crc32": 1996828871
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0011/cv_annotation.json",
+    "bytes": 8643039,
+    "compressed_bytes": 119625,
+    "crc32": 1054908457
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0016/cv_annotation.json",
+    "bytes": 24739735,
+    "compressed_bytes": 497259,
+    "crc32": 3636052515
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0029/cv_annotation.json",
+    "bytes": 21686769,
+    "compressed_bytes": 483764,
+    "crc32": 341584172
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0020/cv_annotation.json",
+    "bytes": 48813500,
+    "compressed_bytes": 1131658,
+    "crc32": 1697288537
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0027/cv_annotation.json",
+    "bytes": 2091988,
+    "compressed_bytes": 46274,
+    "crc32": 578449019
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0018/cv_annotation.json",
+    "bytes": 21349232,
+    "compressed_bytes": 552066,
+    "crc32": 4267795076
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0137/cv_annotation.json",
+    "bytes": 26431986,
+    "compressed_bytes": 359049,
+    "crc32": 3479636369
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0108/cv_annotation.json",
+    "bytes": 17640606,
+    "compressed_bytes": 513443,
+    "crc32": 2321018324
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0130/cv_annotation.json",
+    "bytes": 32772595,
+    "compressed_bytes": 607553,
+    "crc32": 1432845796
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0106/cv_annotation.json",
+    "bytes": 12966123,
+    "compressed_bytes": 272474,
+    "crc32": 865607998
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0139/cv_annotation.json",
+    "bytes": 26090825,
+    "compressed_bytes": 382272,
+    "crc32": 363840291
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0101/cv_annotation.json",
+    "bytes": 27480796,
+    "compressed_bytes": 419552,
+    "crc32": 2198630624
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0100/cv_annotation.json",
+    "bytes": 40305433,
+    "compressed_bytes": 758303,
+    "crc32": 4050116312
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0107/cv_annotation.json",
+    "bytes": 29818135,
+    "compressed_bytes": 566002,
+    "crc32": 3392006742
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0138/cv_annotation.json",
+    "bytes": 18391358,
+    "compressed_bytes": 419277,
+    "crc32": 1705368750
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0131/cv_annotation.json",
+    "bytes": 43732062,
+    "compressed_bytes": 720490,
+    "crc32": 2305062918
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0136/cv_annotation.json",
+    "bytes": 65896590,
+    "compressed_bytes": 1158018,
+    "crc32": 1856006709
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0109/cv_annotation.json",
+    "bytes": 52312465,
+    "compressed_bytes": 1153793,
+    "crc32": 1897432000
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0114/cv_annotation.json",
+    "bytes": 59909166,
+    "compressed_bytes": 1011522,
+    "crc32": 1330980836
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0113/cv_annotation.json",
+    "bytes": 86618662,
+    "compressed_bytes": 1604681,
+    "crc32": 2570779686
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0125/cv_annotation.json",
+    "bytes": 16236245,
+    "compressed_bytes": 328269,
+    "crc32": 525652198
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0122/cv_annotation.json",
+    "bytes": 22098633,
+    "compressed_bytes": 398777,
+    "crc32": 1281392142
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0140/cv_annotation.json",
+    "bytes": 13800858,
+    "compressed_bytes": 278312,
+    "crc32": 3144836435
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0123/cv_annotation.json",
+    "bytes": 26165905,
+    "compressed_bytes": 523088,
+    "crc32": 1582673788
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0124/cv_annotation.json",
+    "bytes": 15867494,
+    "compressed_bytes": 293331,
+    "crc32": 1439129868
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0112/cv_annotation.json",
+    "bytes": 52952306,
+    "compressed_bytes": 917209,
+    "crc32": 2276208476
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0115/cv_annotation.json",
+    "bytes": 33383125,
+    "compressed_bytes": 638066,
+    "crc32": 2115751067
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0141/cv_annotation.json",
+    "bytes": 17632789,
+    "compressed_bytes": 343703,
+    "crc32": 682804060
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0146/cv_annotation.json",
+    "bytes": 13863132,
+    "compressed_bytes": 199097,
+    "crc32": 2987638670
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0005/cv_annotation.json",
+    "bytes": 38208792,
+    "compressed_bytes": 801170,
+    "crc32": 679930832
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0002/cv_annotation.json",
+    "bytes": 22034699,
+    "compressed_bytes": 483247,
+    "crc32": 827282772
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0034/cv_annotation.json",
+    "bytes": 29202253,
+    "compressed_bytes": 637954,
+    "crc32": 2776409757
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0033/cv_annotation.json",
+    "bytes": 76737208,
+    "compressed_bytes": 1599597,
+    "crc32": 2843014108
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0067/cv_annotation.json",
+    "bytes": 59132989,
+    "compressed_bytes": 933817,
+    "crc32": 515730896
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0058/cv_annotation.json",
+    "bytes": 23212044,
+    "compressed_bytes": 470848,
+    "crc32": 3367895333
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0094/cv_annotation.json",
+    "bytes": 10531956,
+    "compressed_bytes": 249322,
+    "crc32": 3212250458
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0060/cv_annotation.json",
+    "bytes": 91828481,
+    "compressed_bytes": 1665595,
+    "crc32": 3555066030
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0056/cv_annotation.json",
+    "bytes": 18309113,
+    "compressed_bytes": 341924,
+    "crc32": 2590067060
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0069/cv_annotation.json",
+    "bytes": 30423696,
+    "compressed_bytes": 552240,
+    "crc32": 690170028
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0051/cv_annotation.json",
+    "bytes": 32439096,
+    "compressed_bytes": 491877,
+    "crc32": 859046142
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0035/cv_annotation.json",
+    "bytes": 23768342,
+    "compressed_bytes": 477388,
+    "crc32": 1060947481
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0003/cv_annotation.json",
+    "bytes": 51390196,
+    "compressed_bytes": 969022,
+    "crc32": 751836470
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0004/cv_annotation.json",
+    "bytes": 20440986,
+    "compressed_bytes": 340360,
+    "crc32": 1893644088
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0050/cv_annotation.json",
+    "bytes": 85160146,
+    "compressed_bytes": 1414750,
+    "crc32": 829261083
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0057/cv_annotation.json",
+    "bytes": 19950508,
+    "compressed_bytes": 393313,
+    "crc32": 2208185775
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0068/cv_annotation.json",
+    "bytes": 4640768,
+    "compressed_bytes": 82388,
+    "crc32": 1270988900
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0061/cv_annotation.json",
+    "bytes": 39602204,
+    "compressed_bytes": 753006,
+    "crc32": 3285209397
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0095/cv_annotation.json",
+    "bytes": 27233416,
+    "compressed_bytes": 735453,
+    "crc32": 124536662
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0092/cv_annotation.json",
+    "bytes": 24274010,
+    "compressed_bytes": 579173,
+    "crc32": 2619352891
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0066/cv_annotation.json",
+    "bytes": 49022498,
+    "compressed_bytes": 1006316,
+    "crc32": 3223518329
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0059/cv_annotation.json",
+    "bytes": 31088380,
+    "compressed_bytes": 553671,
+    "crc32": 581556328
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0022/cv_annotation.json",
+    "bytes": 31189201,
+    "compressed_bytes": 483445,
+    "crc32": 2692229885
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0025/cv_annotation.json",
+    "bytes": 23766338,
+    "compressed_bytes": 375119,
+    "crc32": 2298764391
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0013/cv_annotation.json",
+    "bytes": 25865977,
+    "compressed_bytes": 525620,
+    "crc32": 3715199152
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0014/cv_annotation.json",
+    "bytes": 13441749,
+    "compressed_bytes": 232266,
+    "crc32": 3643836899
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0040/cv_annotation.json",
+    "bytes": 11956214,
+    "compressed_bytes": 202046,
+    "crc32": 1960716525
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0078/cv_annotation.json",
+    "bytes": 41479209,
+    "compressed_bytes": 798896,
+    "crc32": 1038252104
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0047/cv_annotation.json",
+    "bytes": 7745430,
+    "compressed_bytes": 177047,
+    "crc32": 3308496861
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0085/cv_annotation.json",
+    "bytes": 5697520,
+    "compressed_bytes": 102737,
+    "crc32": 1469737527
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0071/cv_annotation.json",
+    "bytes": 14857823,
+    "compressed_bytes": 372888,
+    "crc32": 3532329658
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0049/cv_annotation.json",
+    "bytes": 34655728,
+    "compressed_bytes": 755421,
+    "crc32": 1250838347
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0076/cv_annotation.json",
+    "bytes": 28759268,
+    "compressed_bytes": 786382,
+    "crc32": 64887258
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0082/cv_annotation.json",
+    "bytes": 20591847,
+    "compressed_bytes": 341554,
+    "crc32": 3898120476
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0015/cv_annotation.json",
+    "bytes": 25168999,
+    "compressed_bytes": 631809,
+    "crc32": 896359149
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0012/cv_annotation.json",
+    "bytes": 11926214,
+    "compressed_bytes": 256506,
+    "crc32": 1607284180
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0024/cv_annotation.json",
+    "bytes": 22923590,
+    "compressed_bytes": 417982,
+    "crc32": 1858343982
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0023/cv_annotation.json",
+    "bytes": 26000300,
+    "compressed_bytes": 539488,
+    "crc32": 4082476477
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0048/cv_annotation.json",
+    "bytes": 11439842,
+    "compressed_bytes": 256033,
+    "crc32": 2005124531
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0083/cv_annotation.json",
+    "bytes": 1515853,
+    "compressed_bytes": 33005,
+    "crc32": 2344168954
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0077/cv_annotation.json",
+    "bytes": 11678170,
+    "compressed_bytes": 287481,
+    "crc32": 3392020403
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0070/cv_annotation.json",
+    "bytes": 27777627,
+    "compressed_bytes": 399850,
+    "crc32": 907960571
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0084/cv_annotation.json",
+    "bytes": 25261161,
+    "compressed_bytes": 620904,
+    "crc32": 2341611143
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0079/cv_annotation.json",
+    "bytes": 21976706,
+    "compressed_bytes": 433816,
+    "crc32": 1956457576
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0046/cv_annotation.json",
+    "bytes": 3780260,
+    "compressed_bytes": 65092,
+    "crc32": 2399138807
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0041/cv_annotation.json",
+    "bytes": 42153231,
+    "compressed_bytes": 776195,
+    "crc32": 4000487637
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0133/cv_annotation.json",
+    "bytes": 600363,
+    "compressed_bytes": 12647,
+    "crc32": 3691312033
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0134/cv_annotation.json",
+    "bytes": 79971344,
+    "compressed_bytes": 1291528,
+    "crc32": 914980105
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0102/cv_annotation.json",
+    "bytes": 24774268,
+    "compressed_bytes": 662580,
+    "crc32": 24618359
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0105/cv_annotation.json",
+    "bytes": 30720515,
+    "compressed_bytes": 755557,
+    "crc32": 863542361
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0104/cv_annotation.json",
+    "bytes": 70096218,
+    "compressed_bytes": 1151124,
+    "crc32": 3708530607
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0135/cv_annotation.json",
+    "bytes": 17518673,
+    "compressed_bytes": 428080,
+    "crc32": 1473476519
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0132/cv_annotation.json",
+    "bytes": 3490877,
+    "compressed_bytes": 50719,
+    "crc32": 2185493761
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0143/cv_annotation.json",
+    "bytes": 39380028,
+    "compressed_bytes": 651971,
+    "crc32": 726848795
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0144/cv_annotation.json",
+    "bytes": 23864826,
+    "compressed_bytes": 381300,
+    "crc32": 3979867397
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0110/cv_annotation.json",
+    "bytes": 49829082,
+    "compressed_bytes": 991003,
+    "crc32": 4096087419
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0128/cv_annotation.json",
+    "bytes": 48129448,
+    "compressed_bytes": 780256,
+    "crc32": 1411844009
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0117/cv_annotation.json",
+    "bytes": 27885121,
+    "compressed_bytes": 627501,
+    "crc32": 945049609
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0121/cv_annotation.json",
+    "bytes": 25819382,
+    "compressed_bytes": 469788,
+    "crc32": 1897717580
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0119/cv_annotation.json",
+    "bytes": 14903738,
+    "compressed_bytes": 247967,
+    "crc32": 2366495886
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0126/cv_annotation.json",
+    "bytes": 4167798,
+    "compressed_bytes": 63845,
+    "crc32": 1411550806
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0145/cv_annotation.json",
+    "bytes": 33828295,
+    "compressed_bytes": 687196,
+    "crc32": 178082010
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0142/cv_annotation.json",
+    "bytes": 27287322,
+    "compressed_bytes": 429879,
+    "crc32": 2460143258
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0118/cv_annotation.json",
+    "bytes": 9032221,
+    "compressed_bytes": 96805,
+    "crc32": 1762381850
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0127/cv_annotation.json",
+    "bytes": 80877645,
+    "compressed_bytes": 1302052,
+    "crc32": 1595834127
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0120/cv_annotation.json",
+    "bytes": 18480295,
+    "compressed_bytes": 399270,
+    "crc32": 297433272
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0129/cv_annotation.json",
+    "bytes": 50481875,
+    "compressed_bytes": 744595,
+    "crc32": 3981254637
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0116/cv_annotation.json",
+    "bytes": 12830796,
+    "compressed_bytes": 140621,
+    "crc32": 1901474260
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0111/cv_annotation.json",
+    "bytes": 10753207,
+    "compressed_bytes": 282632,
+    "crc32": 1827011895
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0097/cv_annotation.json",
+    "bytes": 26304587,
+    "compressed_bytes": 567081,
+    "crc32": 2161727529
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0063/cv_annotation.json",
+    "bytes": 18215992,
+    "compressed_bytes": 281402,
+    "crc32": 2133278588
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0090/cv_annotation.json",
+    "bytes": 21882214,
+    "compressed_bytes": 342369,
+    "crc32": 2360369537
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0052/cv_annotation.json",
+    "bytes": 14903871,
+    "compressed_bytes": 297741,
+    "crc32": 426496279
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0099/cv_annotation.json",
+    "bytes": 35774350,
+    "compressed_bytes": 776484,
+    "crc32": 412205961
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0001/cv_annotation.json",
+    "bytes": 16351588,
+    "compressed_bytes": 299539,
+    "crc32": 1612957479
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0039/cv_annotation.json",
+    "bytes": 19298512,
+    "compressed_bytes": 321095,
+    "crc32": 3464626015
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0006/cv_annotation.json",
+    "bytes": 9248160,
+    "compressed_bytes": 123750,
+    "crc32": 641074249
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0030/cv_annotation.json",
+    "bytes": 33709508,
+    "compressed_bytes": 655924,
+    "crc32": 1758657742
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0008/cv_annotation.json",
+    "bytes": 12036915,
+    "compressed_bytes": 251022,
+    "crc32": 1254606261
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0037/cv_annotation.json",
+    "bytes": 40069597,
+    "compressed_bytes": 947125,
+    "crc32": 1136882871
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0054/cv_annotation.json",
+    "bytes": 41807467,
+    "compressed_bytes": 609437,
+    "crc32": 2475413888
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0053/cv_annotation.json",
+    "bytes": 13923006,
+    "compressed_bytes": 232882,
+    "crc32": 3816110830
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0098/cv_annotation.json",
+    "bytes": 23254781,
+    "compressed_bytes": 410788,
+    "crc32": 265901381
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0091/cv_annotation.json",
+    "bytes": 11875007,
+    "compressed_bytes": 267349,
+    "crc32": 2417778918
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0065/cv_annotation.json",
+    "bytes": 18469914,
+    "compressed_bytes": 480062,
+    "crc32": 3976210122
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0062/cv_annotation.json",
+    "bytes": 10813839,
+    "compressed_bytes": 268429,
+    "crc32": 3685135258
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0096/cv_annotation.json",
+    "bytes": 7962109,
+    "compressed_bytes": 114996,
+    "crc32": 2421038929
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0009/cv_annotation.json",
+    "bytes": 22790291,
+    "compressed_bytes": 420723,
+    "crc32": 3655960277
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0036/cv_annotation.json",
+    "bytes": 14233270,
+    "compressed_bytes": 423759,
+    "crc32": 1994658293
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0031/cv_annotation.json",
+    "bytes": 11806620,
+    "compressed_bytes": 296308,
+    "crc32": 3389492498
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0038/cv_annotation.json",
+    "bytes": 23057534,
+    "compressed_bytes": 412814,
+    "crc32": 924386281
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cv_annotation/video_0007/cv_annotation.json",
+    "bytes": 23456733,
+    "compressed_bytes": 537908,
+    "crc32": 2547142909
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0044/driving_decision.json",
+    "bytes": 1223091,
+    "compressed_bytes": 11721,
+    "crc32": 1248918658
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0044/pedestrian_intent.json",
+    "bytes": 263843,
+    "compressed_bytes": 8858,
+    "crc32": 629602482
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0088/driving_decision.json",
+    "bytes": 1223343,
+    "compressed_bytes": 12347,
+    "crc32": 1567675221
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0088/pedestrian_intent.json",
+    "bytes": 371302,
+    "compressed_bytes": 7132,
+    "crc32": 3860188204
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0043/driving_decision.json",
+    "bytes": 1225068,
+    "compressed_bytes": 12930,
+    "crc32": 2810725360
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0043/pedestrian_intent.json",
+    "bytes": 600256,
+    "compressed_bytes": 15955,
+    "crc32": 3187753445
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0075/driving_decision.json",
+    "bytes": 1224972,
+    "compressed_bytes": 12707,
+    "crc32": 2271957952
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0075/pedestrian_intent.json",
+    "bytes": 387524,
+    "compressed_bytes": 14559,
+    "crc32": 2354165773
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0081/driving_decision.json",
+    "bytes": 1224824,
+    "compressed_bytes": 12650,
+    "crc32": 1593202064
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0081/pedestrian_intent.json",
+    "bytes": 1297131,
+    "compressed_bytes": 31864,
+    "crc32": 2096018967
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0086/driving_decision.json",
+    "bytes": 1114062,
+    "compressed_bytes": 9855,
+    "crc32": 2778281178
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0086/pedestrian_intent.json",
+    "bytes": 141568,
+    "compressed_bytes": 5699,
+    "crc32": 2240211673
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0072/driving_decision.json",
+    "bytes": 1009477,
+    "compressed_bytes": 10307,
+    "crc32": 2294646662
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0072/pedestrian_intent.json",
+    "bytes": 66200,
+    "compressed_bytes": 4167,
+    "crc32": 2701579443
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0026/driving_decision.json",
+    "bytes": 1224907,
+    "compressed_bytes": 13009,
+    "crc32": 422950916
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0026/pedestrian_intent.json",
+    "bytes": 432178,
+    "compressed_bytes": 14596,
+    "crc32": 3724463804
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0019/driving_decision.json",
+    "bytes": 1224294,
+    "compressed_bytes": 12759,
+    "crc32": 4001639763
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0019/pedestrian_intent.json",
+    "bytes": 564434,
+    "compressed_bytes": 14686,
+    "crc32": 1051942711
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0021/driving_decision.json",
+    "bytes": 1115253,
+    "compressed_bytes": 9794,
+    "crc32": 1024238879
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0021/pedestrian_intent.json",
+    "bytes": 134964,
+    "compressed_bytes": 5608,
+    "crc32": 3906595866
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0017/driving_decision.json",
+    "bytes": 1224250,
+    "compressed_bytes": 12375,
+    "crc32": 2486619361
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0017/pedestrian_intent.json",
+    "bytes": 230606,
+    "compressed_bytes": 8606,
+    "crc32": 3514996095
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0028/driving_decision.json",
+    "bytes": 1331206,
+    "compressed_bytes": 12306,
+    "crc32": 2458807073
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0028/pedestrian_intent.json",
+    "bytes": 231568,
+    "compressed_bytes": 7350,
+    "crc32": 1943719454
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0010/driving_decision.json",
+    "bytes": 1010987,
+    "compressed_bytes": 11248,
+    "crc32": 2888169486
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0010/pedestrian_intent.json",
+    "bytes": 572410,
+    "compressed_bytes": 21532,
+    "crc32": 2199226467
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0073/driving_decision.json",
+    "bytes": 1115344,
+    "compressed_bytes": 10375,
+    "crc32": 4115563692
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0073/pedestrian_intent.json",
+    "bytes": 318642,
+    "compressed_bytes": 9436,
+    "crc32": 1939881281
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0087/driving_decision.json",
+    "bytes": 1115716,
+    "compressed_bytes": 10229,
+    "crc32": 2523988531
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0087/pedestrian_intent.json",
+    "bytes": 505688,
+    "compressed_bytes": 15109,
+    "crc32": 485383519
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0080/driving_decision.json",
+    "bytes": 1332348,
+    "compressed_bytes": 13022,
+    "crc32": 2993586968
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0080/pedestrian_intent.json",
+    "bytes": 696635,
+    "compressed_bytes": 18317,
+    "crc32": 3682622776
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0074/driving_decision.json",
+    "bytes": 1977116,
+    "compressed_bytes": 19517,
+    "crc32": 3544246737
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0074/pedestrian_intent.json",
+    "bytes": 550332,
+    "compressed_bytes": 13040,
+    "crc32": 1030314136
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0089/driving_decision.json",
+    "bytes": 1223540,
+    "compressed_bytes": 11944,
+    "crc32": 2428579888
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0089/pedestrian_intent.json",
+    "bytes": 920859,
+    "compressed_bytes": 20805,
+    "crc32": 3675501226
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0042/driving_decision.json",
+    "bytes": 1115633,
+    "compressed_bytes": 10452,
+    "crc32": 3425918371
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0042/pedestrian_intent.json",
+    "bytes": 451748,
+    "compressed_bytes": 12752,
+    "crc32": 1417194626
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0045/driving_decision.json",
+    "bytes": 1224542,
+    "compressed_bytes": 12255,
+    "crc32": 1336294828
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0045/pedestrian_intent.json",
+    "bytes": 411492,
+    "compressed_bytes": 14172,
+    "crc32": 2648641580
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0011/driving_decision.json",
+    "bytes": 1117291,
+    "compressed_bytes": 10901,
+    "crc32": 2268760036
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0011/pedestrian_intent.json",
+    "bytes": 221940,
+    "compressed_bytes": 6185,
+    "crc32": 545274223
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0016/driving_decision.json",
+    "bytes": 1224630,
+    "compressed_bytes": 12523,
+    "crc32": 794158038
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0016/pedestrian_intent.json",
+    "bytes": 357900,
+    "compressed_bytes": 10989,
+    "crc32": 3829879801
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0029/driving_decision.json",
+    "bytes": 1223615,
+    "compressed_bytes": 12440,
+    "crc32": 1923438422
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0029/pedestrian_intent.json",
+    "bytes": 509779,
+    "compressed_bytes": 13534,
+    "crc32": 3133250073
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0020/driving_decision.json",
+    "bytes": 1224158,
+    "compressed_bytes": 12423,
+    "crc32": 4127384533
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0020/pedestrian_intent.json",
+    "bytes": 2374201,
+    "compressed_bytes": 55154,
+    "crc32": 3971437455
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0027/driving_decision.json",
+    "bytes": 1978654,
+    "compressed_bytes": 21201,
+    "crc32": 2530226718
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0027/pedestrian_intent.json",
+    "bytes": 236454,
+    "compressed_bytes": 9256,
+    "crc32": 669723759
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0018/driving_decision.json",
+    "bytes": 1117198,
+    "compressed_bytes": 11254,
+    "crc32": 2542995815
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0018/pedestrian_intent.json",
+    "bytes": 1258622,
+    "compressed_bytes": 32111,
+    "crc32": 2614770677
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0137/driving_decision.json",
+    "bytes": 1117180,
+    "compressed_bytes": 12068,
+    "crc32": 3333624708
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0137/pedestrian_intent.json",
+    "bytes": 94178,
+    "compressed_bytes": 5219,
+    "crc32": 751646670
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0108/driving_decision.json",
+    "bytes": 2085756,
+    "compressed_bytes": 22358,
+    "crc32": 1292040009
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0108/pedestrian_intent.json",
+    "bytes": 2974138,
+    "compressed_bytes": 69866,
+    "crc32": 1857637676
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0130/driving_decision.json",
+    "bytes": 1008608,
+    "compressed_bytes": 10289,
+    "crc32": 71850989
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0130/pedestrian_intent.json",
+    "bytes": 1313273,
+    "compressed_bytes": 30990,
+    "crc32": 1360310836
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0106/driving_decision.json",
+    "bytes": 1223071,
+    "compressed_bytes": 12190,
+    "crc32": 194583833
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0106/pedestrian_intent.json",
+    "bytes": 300429,
+    "compressed_bytes": 8763,
+    "crc32": 2435305200
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0139/driving_decision.json",
+    "bytes": 1226651,
+    "compressed_bytes": 13982,
+    "crc32": 2035081280
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0139/pedestrian_intent.json",
+    "bytes": 580753,
+    "compressed_bytes": 20327,
+    "crc32": 3648373976
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0101/driving_decision.json",
+    "bytes": 1116812,
+    "compressed_bytes": 10466,
+    "crc32": 3461575168
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0101/pedestrian_intent.json",
+    "bytes": 230222,
+    "compressed_bytes": 8575,
+    "crc32": 2211037598
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0100/driving_decision.json",
+    "bytes": 1116439,
+    "compressed_bytes": 10747,
+    "crc32": 1394655412
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0100/pedestrian_intent.json",
+    "bytes": 257528,
+    "compressed_bytes": 8514,
+    "crc32": 1606157461
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0107/driving_decision.json",
+    "bytes": 1115851,
+    "compressed_bytes": 10309,
+    "crc32": 2745740696
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0107/pedestrian_intent.json",
+    "bytes": 994738,
+    "compressed_bytes": 27954,
+    "crc32": 481296547
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0138/driving_decision.json",
+    "bytes": 1224373,
+    "compressed_bytes": 13144,
+    "crc32": 1373299101
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0138/pedestrian_intent.json",
+    "bytes": 1928877,
+    "compressed_bytes": 57391,
+    "crc32": 4273531306
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0131/driving_decision.json",
+    "bytes": 1331894,
+    "compressed_bytes": 14564,
+    "crc32": 2359994895
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0131/pedestrian_intent.json",
+    "bytes": 1423520,
+    "compressed_bytes": 38513,
+    "crc32": 60169495
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0136/driving_decision.json",
+    "bytes": 1115500,
+    "compressed_bytes": 10024,
+    "crc32": 92720303
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0136/pedestrian_intent.json",
+    "bytes": 4146344,
+    "compressed_bytes": 98618,
+    "crc32": 2432898428
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0109/driving_decision.json",
+    "bytes": 1115691,
+    "compressed_bytes": 10577,
+    "crc32": 2361596915
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0109/pedestrian_intent.json",
+    "bytes": 1261114,
+    "compressed_bytes": 25796,
+    "crc32": 1177416119
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0114/driving_decision.json",
+    "bytes": 1870526,
+    "compressed_bytes": 19568,
+    "crc32": 1448602751
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0114/pedestrian_intent.json",
+    "bytes": 2013056,
+    "compressed_bytes": 55575,
+    "crc32": 2573715837
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0113/driving_decision.json",
+    "bytes": 1226568,
+    "compressed_bytes": 12823,
+    "crc32": 3021972593
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0113/pedestrian_intent.json",
+    "bytes": 1628053,
+    "compressed_bytes": 42238,
+    "crc32": 2754722843
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0125/driving_decision.json",
+    "bytes": 1224232,
+    "compressed_bytes": 12304,
+    "crc32": 259081884
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0125/pedestrian_intent.json",
+    "bytes": 1794634,
+    "compressed_bytes": 44328,
+    "crc32": 1944147424
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0122/driving_decision.json",
+    "bytes": 1008675,
+    "compressed_bytes": 10464,
+    "crc32": 3945942286
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0122/pedestrian_intent.json",
+    "bytes": 971444,
+    "compressed_bytes": 27496,
+    "crc32": 483753989
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0140/driving_decision.json",
+    "bytes": 1117147,
+    "compressed_bytes": 11035,
+    "crc32": 760643765
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0140/pedestrian_intent.json",
+    "bytes": 781911,
+    "compressed_bytes": 21826,
+    "crc32": 1014993771
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0123/driving_decision.json",
+    "bytes": 1224596,
+    "compressed_bytes": 12683,
+    "crc32": 3762468218
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0123/pedestrian_intent.json",
+    "bytes": 747419,
+    "compressed_bytes": 19649,
+    "crc32": 1276113596
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0124/driving_decision.json",
+    "bytes": 1222683,
+    "compressed_bytes": 12155,
+    "crc32": 3612437295
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0124/pedestrian_intent.json",
+    "bytes": 430311,
+    "compressed_bytes": 13618,
+    "crc32": 2441270492
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0112/driving_decision.json",
+    "bytes": 1008771,
+    "compressed_bytes": 10541,
+    "crc32": 3916746758
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0112/pedestrian_intent.json",
+    "bytes": 796127,
+    "compressed_bytes": 26152,
+    "crc32": 175778300
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0115/driving_decision.json",
+    "bytes": 1225426,
+    "compressed_bytes": 13452,
+    "crc32": 2925848885
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0115/pedestrian_intent.json",
+    "bytes": 2514986,
+    "compressed_bytes": 70519,
+    "crc32": 2049818921
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0141/driving_decision.json",
+    "bytes": 1117506,
+    "compressed_bytes": 11008,
+    "crc32": 3971907044
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0141/pedestrian_intent.json",
+    "bytes": 476910,
+    "compressed_bytes": 14482,
+    "crc32": 3155889299
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0146/driving_decision.json",
+    "bytes": 1117408,
+    "compressed_bytes": 10553,
+    "crc32": 2817554203
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0146/pedestrian_intent.json",
+    "bytes": 835005,
+    "compressed_bytes": 20640,
+    "crc32": 1736414927
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0005/driving_decision.json",
+    "bytes": 1226593,
+    "compressed_bytes": 13406,
+    "crc32": 1150062198
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0005/pedestrian_intent.json",
+    "bytes": 3832654,
+    "compressed_bytes": 114571,
+    "crc32": 4041815905
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0002/driving_decision.json",
+    "bytes": 1114642,
+    "compressed_bytes": 10166,
+    "crc32": 2234987555
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0002/pedestrian_intent.json",
+    "bytes": 289709,
+    "compressed_bytes": 8382,
+    "crc32": 2562753795
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0034/driving_decision.json",
+    "bytes": 1116146,
+    "compressed_bytes": 10765,
+    "crc32": 498816632
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0034/pedestrian_intent.json",
+    "bytes": 507172,
+    "compressed_bytes": 14014,
+    "crc32": 2754008126
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0033/driving_decision.json",
+    "bytes": 1332388,
+    "compressed_bytes": 12704,
+    "crc32": 3312857837
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0033/pedestrian_intent.json",
+    "bytes": 1969776,
+    "compressed_bytes": 42222,
+    "crc32": 3232488495
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0067/driving_decision.json",
+    "bytes": 1008505,
+    "compressed_bytes": 10317,
+    "crc32": 493015106
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0067/pedestrian_intent.json",
+    "bytes": 549941,
+    "compressed_bytes": 15979,
+    "crc32": 3363810709
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0093/driving_decision.json",
+    "bytes": 1225042,
+    "compressed_bytes": 13121,
+    "crc32": 3969006844
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0093/pedestrian_intent.json",
+    "bytes": 571867,
+    "compressed_bytes": 9951,
+    "crc32": 2978879203
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0058/driving_decision.json",
+    "bytes": 1116391,
+    "compressed_bytes": 11215,
+    "crc32": 1837094902
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0058/pedestrian_intent.json",
+    "bytes": 630619,
+    "compressed_bytes": 20064,
+    "crc32": 2800070226
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0094/driving_decision.json",
+    "bytes": 1008465,
+    "compressed_bytes": 10325,
+    "crc32": 3434241000
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0094/pedestrian_intent.json",
+    "bytes": 376354,
+    "compressed_bytes": 11725,
+    "crc32": 1040650687
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0060/driving_decision.json",
+    "bytes": 1009157,
+    "compressed_bytes": 10613,
+    "crc32": 1697206634
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0060/pedestrian_intent.json",
+    "bytes": 910359,
+    "compressed_bytes": 25180,
+    "crc32": 410764445
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0056/driving_decision.json",
+    "bytes": 1007991,
+    "compressed_bytes": 10023,
+    "crc32": 3251679796
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0056/pedestrian_intent.json",
+    "bytes": 379107,
+    "compressed_bytes": 12338,
+    "crc32": 2308412884
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0069/driving_decision.json",
+    "bytes": 1009456,
+    "compressed_bytes": 10447,
+    "crc32": 194592109
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0069/pedestrian_intent.json",
+    "bytes": 177929,
+    "compressed_bytes": 6992,
+    "crc32": 181804779
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0051/driving_decision.json",
+    "bytes": 1116476,
+    "compressed_bytes": 10077,
+    "crc32": 2592128499
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0051/pedestrian_intent.json",
+    "bytes": 388279,
+    "compressed_bytes": 11337,
+    "crc32": 1942234233
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0032/driving_decision.json",
+    "bytes": 1224170,
+    "compressed_bytes": 12697,
+    "crc32": 2727299998
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0032/pedestrian_intent.json",
+    "bytes": 296829,
+    "compressed_bytes": 9806,
+    "crc32": 241884761
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0035/driving_decision.json",
+    "bytes": 1011480,
+    "compressed_bytes": 11603,
+    "crc32": 1108968524
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0035/pedestrian_intent.json",
+    "bytes": 935579,
+    "compressed_bytes": 27357,
+    "crc32": 498356083
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0003/driving_decision.json",
+    "bytes": 1225906,
+    "compressed_bytes": 13334,
+    "crc32": 2755991321
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0003/pedestrian_intent.json",
+    "bytes": 497263,
+    "compressed_bytes": 17661,
+    "crc32": 3356904657
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0004/driving_decision.json",
+    "bytes": 1009765,
+    "compressed_bytes": 10992,
+    "crc32": 2733133107
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0004/pedestrian_intent.json",
+    "bytes": 182208,
+    "compressed_bytes": 7468,
+    "crc32": 1393642774
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0050/driving_decision.json",
+    "bytes": 1009792,
+    "compressed_bytes": 10880,
+    "crc32": 2214363834
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0050/pedestrian_intent.json",
+    "bytes": 790081,
+    "compressed_bytes": 22383,
+    "crc32": 783935257
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0057/driving_decision.json",
+    "bytes": 1331092,
+    "compressed_bytes": 12155,
+    "crc32": 2080049170
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0057/pedestrian_intent.json",
+    "bytes": 297629,
+    "compressed_bytes": 8508,
+    "crc32": 126177672
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0068/driving_decision.json",
+    "bytes": 2087984,
+    "compressed_bytes": 22601,
+    "crc32": 2797574380
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0068/pedestrian_intent.json",
+    "bytes": 363074,
+    "compressed_bytes": 6935,
+    "crc32": 4243512239
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0061/driving_decision.json",
+    "bytes": 1009610,
+    "compressed_bytes": 10490,
+    "crc32": 703308720
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0061/pedestrian_intent.json",
+    "bytes": 364779,
+    "compressed_bytes": 10709,
+    "crc32": 2186486985
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0095/driving_decision.json",
+    "bytes": 1117034,
+    "compressed_bytes": 10580,
+    "crc32": 581390299
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0095/pedestrian_intent.json",
+    "bytes": 408227,
+    "compressed_bytes": 12306,
+    "crc32": 2990916796
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0092/driving_decision.json",
+    "bytes": 1117440,
+    "compressed_bytes": 10936,
+    "crc32": 4084720440
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0092/pedestrian_intent.json",
+    "bytes": 395427,
+    "compressed_bytes": 13190,
+    "crc32": 2547414639
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0066/driving_decision.json",
+    "bytes": 1333190,
+    "compressed_bytes": 13656,
+    "crc32": 3356159904
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0066/pedestrian_intent.json",
+    "bytes": 1039335,
+    "compressed_bytes": 29483,
+    "crc32": 1801682871
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0059/driving_decision.json",
+    "bytes": 1115784,
+    "compressed_bytes": 10167,
+    "crc32": 3144396062
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0059/pedestrian_intent.json",
+    "bytes": 237289,
+    "compressed_bytes": 7210,
+    "crc32": 325947447
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0022/driving_decision.json",
+    "bytes": 1116229,
+    "compressed_bytes": 10310,
+    "crc32": 1913069466
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0022/pedestrian_intent.json",
+    "bytes": 296622,
+    "compressed_bytes": 7774,
+    "crc32": 1137613407
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0025/driving_decision.json",
+    "bytes": 1115766,
+    "compressed_bytes": 10486,
+    "crc32": 864701935
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0025/pedestrian_intent.json",
+    "bytes": 224833,
+    "compressed_bytes": 7519,
+    "crc32": 3664889046
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0013/driving_decision.json",
+    "bytes": 1332725,
+    "compressed_bytes": 12798,
+    "crc32": 3670665585
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0013/pedestrian_intent.json",
+    "bytes": 1163732,
+    "compressed_bytes": 26151,
+    "crc32": 3790242094
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0014/driving_decision.json",
+    "bytes": 1223623,
+    "compressed_bytes": 12578,
+    "crc32": 1627985474
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0014/pedestrian_intent.json",
+    "bytes": 422418,
+    "compressed_bytes": 13432,
+    "crc32": 1745239449
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0040/driving_decision.json",
+    "bytes": 1331706,
+    "compressed_bytes": 12225,
+    "crc32": 3938426373
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0040/pedestrian_intent.json",
+    "bytes": 366321,
+    "compressed_bytes": 10834,
+    "crc32": 4194601192
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0078/driving_decision.json",
+    "bytes": 1008273,
+    "compressed_bytes": 10150,
+    "crc32": 1199057774
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0078/pedestrian_intent.json",
+    "bytes": 605748,
+    "compressed_bytes": 15955,
+    "crc32": 3409966423
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0047/driving_decision.json",
+    "bytes": 1114707,
+    "compressed_bytes": 10239,
+    "crc32": 2777012358
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0047/pedestrian_intent.json",
+    "bytes": 233145,
+    "compressed_bytes": 6235,
+    "crc32": 672545942
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0085/driving_decision.json",
+    "bytes": 1224330,
+    "compressed_bytes": 11952,
+    "crc32": 975071963
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0085/pedestrian_intent.json",
+    "bytes": 472947,
+    "compressed_bytes": 14481,
+    "crc32": 1324070508
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0071/driving_decision.json",
+    "bytes": 1117182,
+    "compressed_bytes": 11005,
+    "crc32": 3267330625
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0071/pedestrian_intent.json",
+    "bytes": 451458,
+    "compressed_bytes": 12296,
+    "crc32": 1667212391
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0049/driving_decision.json",
+    "bytes": 1117166,
+    "compressed_bytes": 11060,
+    "crc32": 3345861872
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0049/pedestrian_intent.json",
+    "bytes": 838010,
+    "compressed_bytes": 25573,
+    "crc32": 3528524964
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0076/driving_decision.json",
+    "bytes": 1333213,
+    "compressed_bytes": 13517,
+    "crc32": 1982208875
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0076/pedestrian_intent.json",
+    "bytes": 1460348,
+    "compressed_bytes": 46876,
+    "crc32": 3450299910
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0082/driving_decision.json",
+    "bytes": 2302029,
+    "compressed_bytes": 24067,
+    "crc32": 1141349324
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0082/pedestrian_intent.json",
+    "bytes": 387309,
+    "compressed_bytes": 10436,
+    "crc32": 1712819057
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0015/driving_decision.json",
+    "bytes": 1223676,
+    "compressed_bytes": 12508,
+    "crc32": 1953880215
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0015/pedestrian_intent.json",
+    "bytes": 379817,
+    "compressed_bytes": 11070,
+    "crc32": 410181658
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0012/driving_decision.json",
+    "bytes": 1224396,
+    "compressed_bytes": 12662,
+    "crc32": 2274293185
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0012/pedestrian_intent.json",
+    "bytes": 337316,
+    "compressed_bytes": 9682,
+    "crc32": 1622244114
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0024/driving_decision.json",
+    "bytes": 1438637,
+    "compressed_bytes": 14571,
+    "crc32": 2854583383
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0024/pedestrian_intent.json",
+    "bytes": 272062,
+    "compressed_bytes": 7125,
+    "crc32": 574887913
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0023/driving_decision.json",
+    "bytes": 1224409,
+    "compressed_bytes": 11707,
+    "crc32": 4153462724
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0023/pedestrian_intent.json",
+    "bytes": 586751,
+    "compressed_bytes": 17158,
+    "crc32": 1317674259
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0048/driving_decision.json",
+    "bytes": 1115820,
+    "compressed_bytes": 10280,
+    "crc32": 4242906529
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0048/pedestrian_intent.json",
+    "bytes": 2480824,
+    "compressed_bytes": 71504,
+    "crc32": 42701622
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0083/driving_decision.json",
+    "bytes": 1331586,
+    "compressed_bytes": 12536,
+    "crc32": 3596478879
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0083/pedestrian_intent.json",
+    "bytes": 211634,
+    "compressed_bytes": 7727,
+    "crc32": 1095592240
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0077/driving_decision.json",
+    "bytes": 1116855,
+    "compressed_bytes": 11416,
+    "crc32": 204316170
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0077/pedestrian_intent.json",
+    "bytes": 355492,
+    "compressed_bytes": 11806,
+    "crc32": 4257198745
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0070/driving_decision.json",
+    "bytes": 1115640,
+    "compressed_bytes": 10404,
+    "crc32": 399550435
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0070/pedestrian_intent.json",
+    "bytes": 131474,
+    "compressed_bytes": 5911,
+    "crc32": 741004581
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0084/driving_decision.json",
+    "bytes": 1008527,
+    "compressed_bytes": 10382,
+    "crc32": 3569564042
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0084/pedestrian_intent.json",
+    "bytes": 628904,
+    "compressed_bytes": 16206,
+    "crc32": 3397878563
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0079/driving_decision.json",
+    "bytes": 1117032,
+    "compressed_bytes": 10328,
+    "crc32": 2225567451
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0079/pedestrian_intent.json",
+    "bytes": 263705,
+    "compressed_bytes": 8415,
+    "crc32": 3779574487
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0046/driving_decision.json",
+    "bytes": 1223329,
+    "compressed_bytes": 12095,
+    "crc32": 3386305282
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0046/pedestrian_intent.json",
+    "bytes": 298398,
+    "compressed_bytes": 8910,
+    "crc32": 3341487572
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0041/driving_decision.json",
+    "bytes": 1008158,
+    "compressed_bytes": 10502,
+    "crc32": 1568969890
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0041/pedestrian_intent.json",
+    "bytes": 371216,
+    "compressed_bytes": 10653,
+    "crc32": 3123081618
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0133/driving_decision.json",
+    "bytes": 1224653,
+    "compressed_bytes": 12308,
+    "crc32": 7421777
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0133/pedestrian_intent.json",
+    "bytes": 154056,
+    "compressed_bytes": 6572,
+    "crc32": 128830728
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0134/driving_decision.json",
+    "bytes": 1225595,
+    "compressed_bytes": 12457,
+    "crc32": 955523805
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0134/pedestrian_intent.json",
+    "bytes": 1143547,
+    "compressed_bytes": 31650,
+    "crc32": 2408833162
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0102/driving_decision.json",
+    "bytes": 1116168,
+    "compressed_bytes": 10711,
+    "crc32": 3754705496
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0102/pedestrian_intent.json",
+    "bytes": 2635636,
+    "compressed_bytes": 53013,
+    "crc32": 1646224691
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0105/driving_decision.json",
+    "bytes": 1010792,
+    "compressed_bytes": 11330,
+    "crc32": 4230468219
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0105/pedestrian_intent.json",
+    "bytes": 476111,
+    "compressed_bytes": 16048,
+    "crc32": 2996970814
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0104/driving_decision.json",
+    "bytes": 1117068,
+    "compressed_bytes": 11165,
+    "crc32": 3312892744
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0104/pedestrian_intent.json",
+    "bytes": 600926,
+    "compressed_bytes": 15811,
+    "crc32": 2973799019
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0135/driving_decision.json",
+    "bytes": 1225846,
+    "compressed_bytes": 12702,
+    "crc32": 159704043
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0135/pedestrian_intent.json",
+    "bytes": 413928,
+    "compressed_bytes": 13874,
+    "crc32": 1618161515
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0132/driving_decision.json",
+    "bytes": 1224280,
+    "compressed_bytes": 12536,
+    "crc32": 3676940245
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0132/pedestrian_intent.json",
+    "bytes": 508540,
+    "compressed_bytes": 14699,
+    "crc32": 722326582
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0143/driving_decision.json",
+    "bytes": 1331830,
+    "compressed_bytes": 12681,
+    "crc32": 1174988845
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0143/pedestrian_intent.json",
+    "bytes": 751952,
+    "compressed_bytes": 17374,
+    "crc32": 3071671673
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0144/driving_decision.json",
+    "bytes": 1116093,
+    "compressed_bytes": 10732,
+    "crc32": 3767916714
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0144/pedestrian_intent.json",
+    "bytes": 1481142,
+    "compressed_bytes": 33880,
+    "crc32": 1095566423
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0110/driving_decision.json",
+    "bytes": 1009007,
+    "compressed_bytes": 10522,
+    "crc32": 2874689698
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0110/pedestrian_intent.json",
+    "bytes": 323224,
+    "compressed_bytes": 8465,
+    "crc32": 2696189360
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0128/driving_decision.json",
+    "bytes": 1117786,
+    "compressed_bytes": 10903,
+    "crc32": 697318300
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0128/pedestrian_intent.json",
+    "bytes": 1156664,
+    "compressed_bytes": 29014,
+    "crc32": 1752909272
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0117/driving_decision.json",
+    "bytes": 1331896,
+    "compressed_bytes": 12495,
+    "crc32": 1245156255
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0117/pedestrian_intent.json",
+    "bytes": 877027,
+    "compressed_bytes": 25827,
+    "crc32": 724749420
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0121/driving_decision.json",
+    "bytes": 1009979,
+    "compressed_bytes": 10601,
+    "crc32": 619728837
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0121/pedestrian_intent.json",
+    "bytes": 2366917,
+    "compressed_bytes": 63036,
+    "crc32": 2690788342
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0119/driving_decision.json",
+    "bytes": 1116853,
+    "compressed_bytes": 10521,
+    "crc32": 3516847617
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0119/pedestrian_intent.json",
+    "bytes": 1869288,
+    "compressed_bytes": 45357,
+    "crc32": 3223606300
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0126/driving_decision.json",
+    "bytes": 1114720,
+    "compressed_bytes": 10370,
+    "crc32": 3638167175
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0126/pedestrian_intent.json",
+    "bytes": 383386,
+    "compressed_bytes": 10969,
+    "crc32": 504016552
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0145/driving_decision.json",
+    "bytes": 1222386,
+    "compressed_bytes": 11792,
+    "crc32": 3275392323
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0145/pedestrian_intent.json",
+    "bytes": 435044,
+    "compressed_bytes": 11746,
+    "crc32": 3487694100
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0142/driving_decision.json",
+    "bytes": 1116569,
+    "compressed_bytes": 10864,
+    "crc32": 1628820241
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0142/pedestrian_intent.json",
+    "bytes": 376510,
+    "compressed_bytes": 11627,
+    "crc32": 1544396158
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0118/driving_decision.json",
+    "bytes": 2302918,
+    "compressed_bytes": 24829,
+    "crc32": 2564608515
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0118/pedestrian_intent.json",
+    "bytes": 472823,
+    "compressed_bytes": 12976,
+    "crc32": 3275075613
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0127/driving_decision.json",
+    "bytes": 1009946,
+    "compressed_bytes": 10721,
+    "crc32": 296149306
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0127/pedestrian_intent.json",
+    "bytes": 736305,
+    "compressed_bytes": 22825,
+    "crc32": 2925620781
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0120/driving_decision.json",
+    "bytes": 1225417,
+    "compressed_bytes": 13847,
+    "crc32": 2727990838
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0120/pedestrian_intent.json",
+    "bytes": 2098589,
+    "compressed_bytes": 59021,
+    "crc32": 3232106281
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0129/driving_decision.json",
+    "bytes": 1225272,
+    "compressed_bytes": 12994,
+    "crc32": 453709320
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0129/pedestrian_intent.json",
+    "bytes": 832803,
+    "compressed_bytes": 17577,
+    "crc32": 2118484477
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0116/driving_decision.json",
+    "bytes": 1222446,
+    "compressed_bytes": 11633,
+    "crc32": 4231256703
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0116/pedestrian_intent.json",
+    "bytes": 255612,
+    "compressed_bytes": 7514,
+    "crc32": 200999611
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0111/driving_decision.json",
+    "bytes": 1226725,
+    "compressed_bytes": 13679,
+    "crc32": 2355309642
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0111/pedestrian_intent.json",
+    "bytes": 796735,
+    "compressed_bytes": 19284,
+    "crc32": 806503724
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0097/driving_decision.json",
+    "bytes": 1116901,
+    "compressed_bytes": 10768,
+    "crc32": 2259970035
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0097/pedestrian_intent.json",
+    "bytes": 1877345,
+    "compressed_bytes": 42848,
+    "crc32": 2390587619
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0063/driving_decision.json",
+    "bytes": 1332150,
+    "compressed_bytes": 12380,
+    "crc32": 2450408301
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0063/pedestrian_intent.json",
+    "bytes": 179125,
+    "compressed_bytes": 7054,
+    "crc32": 1702686636
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0090/driving_decision.json",
+    "bytes": 1116382,
+    "compressed_bytes": 11268,
+    "crc32": 1294044882
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0090/pedestrian_intent.json",
+    "bytes": 259437,
+    "compressed_bytes": 8302,
+    "crc32": 2355891549
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0052/driving_decision.json",
+    "bytes": 1115010,
+    "compressed_bytes": 9961,
+    "crc32": 2823743316
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0052/pedestrian_intent.json",
+    "bytes": 343945,
+    "compressed_bytes": 8747,
+    "crc32": 4254909860
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0099/driving_decision.json",
+    "bytes": 1980944,
+    "compressed_bytes": 20839,
+    "crc32": 326146713
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0099/pedestrian_intent.json",
+    "bytes": 793056,
+    "compressed_bytes": 19021,
+    "crc32": 725906191
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0055/driving_decision.json",
+    "bytes": 1115659,
+    "compressed_bytes": 10412,
+    "crc32": 3334138432
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0055/pedestrian_intent.json",
+    "bytes": 292471,
+    "compressed_bytes": 9946,
+    "crc32": 1172680175
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0001/driving_decision.json",
+    "bytes": 1223923,
+    "compressed_bytes": 12471,
+    "crc32": 211555722
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0001/pedestrian_intent.json",
+    "bytes": 265187,
+    "compressed_bytes": 10006,
+    "crc32": 2137994710
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0039/driving_decision.json",
+    "bytes": 1115744,
+    "compressed_bytes": 10430,
+    "crc32": 3320289717
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0039/pedestrian_intent.json",
+    "bytes": 184612,
+    "compressed_bytes": 6402,
+    "crc32": 2436290462
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0006/driving_decision.json",
+    "bytes": 1331917,
+    "compressed_bytes": 12606,
+    "crc32": 1693059789
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0006/pedestrian_intent.json",
+    "bytes": 283980,
+    "compressed_bytes": 6335,
+    "crc32": 2584833644
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0030/driving_decision.json",
+    "bytes": 1977793,
+    "compressed_bytes": 20417,
+    "crc32": 1852006456
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0030/pedestrian_intent.json",
+    "bytes": 832560,
+    "compressed_bytes": 13581,
+    "crc32": 373515045
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0008/driving_decision.json",
+    "bytes": 2192847,
+    "compressed_bytes": 22454,
+    "crc32": 951357504
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0008/pedestrian_intent.json",
+    "bytes": 563852,
+    "compressed_bytes": 11065,
+    "crc32": 2196182716
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0037/driving_decision.json",
+    "bytes": 1223924,
+    "compressed_bytes": 12848,
+    "crc32": 4036848437
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0037/pedestrian_intent.json",
+    "bytes": 686121,
+    "compressed_bytes": 19651,
+    "crc32": 651966386
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0054/driving_decision.json",
+    "bytes": 1223174,
+    "compressed_bytes": 12166,
+    "crc32": 1623947376
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0054/pedestrian_intent.json",
+    "bytes": 229586,
+    "compressed_bytes": 9418,
+    "crc32": 612235763
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0053/driving_decision.json",
+    "bytes": 1116679,
+    "compressed_bytes": 10679,
+    "crc32": 3398983809
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0053/pedestrian_intent.json",
+    "bytes": 362415,
+    "compressed_bytes": 10356,
+    "crc32": 989987842
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0098/driving_decision.json",
+    "bytes": 1332600,
+    "compressed_bytes": 13288,
+    "crc32": 2196307577
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0098/pedestrian_intent.json",
+    "bytes": 218663,
+    "compressed_bytes": 6685,
+    "crc32": 2232638413
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0091/driving_decision.json",
+    "bytes": 1115193,
+    "compressed_bytes": 9856,
+    "crc32": 4137273606
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0091/pedestrian_intent.json",
+    "bytes": 325580,
+    "compressed_bytes": 8887,
+    "crc32": 3461966736
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0065/driving_decision.json",
+    "bytes": 1116207,
+    "compressed_bytes": 11214,
+    "crc32": 343575518
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0065/pedestrian_intent.json",
+    "bytes": 322705,
+    "compressed_bytes": 8476,
+    "crc32": 4176990994
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0062/driving_decision.json",
+    "bytes": 1224277,
+    "compressed_bytes": 12902,
+    "crc32": 3307462022
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0062/pedestrian_intent.json",
+    "bytes": 704267,
+    "compressed_bytes": 20497,
+    "crc32": 3510634594
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0096/driving_decision.json",
+    "bytes": 1113161,
+    "compressed_bytes": 9991,
+    "crc32": 2305080806
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0096/pedestrian_intent.json",
+    "bytes": 346612,
+    "compressed_bytes": 8599,
+    "crc32": 668442012
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0009/driving_decision.json",
+    "bytes": 1115382,
+    "compressed_bytes": 10723,
+    "crc32": 2145527335
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0009/pedestrian_intent.json",
+    "bytes": 152370,
+    "compressed_bytes": 4258,
+    "crc32": 2097017220
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0036/driving_decision.json",
+    "bytes": 1118653,
+    "compressed_bytes": 12149,
+    "crc32": 1501080066
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0036/pedestrian_intent.json",
+    "bytes": 527219,
+    "compressed_bytes": 16635,
+    "crc32": 4075320125
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0031/driving_decision.json",
+    "bytes": 1225953,
+    "compressed_bytes": 13169,
+    "crc32": 2364811880
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0031/pedestrian_intent.json",
+    "bytes": 921986,
+    "compressed_bytes": 26719,
+    "crc32": 1201761305
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0038/driving_decision.json",
+    "bytes": 1226100,
+    "compressed_bytes": 13027,
+    "crc32": 728131247
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0038/pedestrian_intent.json",
+    "bytes": 980856,
+    "compressed_bytes": 28043,
+    "crc32": 2969916450
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0007/driving_decision.json",
+    "bytes": 1439827,
+    "compressed_bytes": 14553,
+    "crc32": 68116856
+  },
+  {
+    "member": "PSI/PSI2.0_TrainVal/annotations/cognitive_annotation_key_frame/video_0007/pedestrian_intent.json",
+    "bytes": 554928,
+    "compressed_bytes": 17456,
+    "crc32": 2969185060
+  }
+]

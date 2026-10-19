@@ -1,0 +1,23 @@
+[
+  {
+    "split": "train",
+    "overlap_rows": 657,
+    "feature_values_compared": 225351,
+    "max_abs_difference": 0.0,
+    "mean_abs_difference": 0.0
+  },
+  {
+    "split": "val",
+    "overlap_rows": 121,
+    "feature_values_compared": 41503,
+    "max_abs_difference": 0.0,
+    "mean_abs_difference": 0.0
+  },
+  {
+    "split": "test",
+    "overlap_rows": 663,
+    "feature_values_compared": 227409,
+    "max_abs_difference": 0.0,
+    "mean_abs_difference": 0.0
+  }
+]

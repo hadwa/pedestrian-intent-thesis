@@ -1,0 +1,47 @@
+{
+  "authorized_sets": [
+    "set01",
+    "set02",
+    "set04",
+    "set05"
+  ],
+  "set03_materialized": false,
+  "set06_materialized": false,
+  "sources": {
+    "feature_contract": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/037_pie_joint_biu_temporal_ego/metrics/feature_contract.json",
+      "sha256": "29fe743b5b3a65190c98b3f86f980a1e17054c0b3c7c6b1851a7813c53a5b49b",
+      "size_bytes": 30970
+    },
+    "materializer": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/037_pie_joint_biu_temporal_ego/scripts/run_experiment.py",
+      "sha256": "85c415bb6f01cfc9e8c337d6a60a1f3ad3ead8d56e06a05626b1b5e77dcfc9a3",
+      "size_bytes": 42318
+    },
+    "model_core": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/037_pie_joint_biu_temporal_ego/scripts/model_core.py",
+      "sha256": "65746a6729b0c68571016dd9e83a0137af4bc0c8c9a8b5fb22e1b3e7d7a1649d",
+      "size_bytes": 11999
+    },
+    "outer_oof": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/037_pie_joint_biu_temporal_ego/metrics/development_oof_predictions.csv",
+      "sha256": "334fa84bbce16658bfbedf05b6c7b3fa2efb5ec8dc649db5b664ca1aff1cce52",
+      "size_bytes": 3535376
+    },
+    "prepared_development": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/037_pie_joint_biu_temporal_ego/metrics/prepared_development.csv",
+      "sha256": "85bf008b988e18f0b13630ca87412dbbeee9afbdec4b0a7ecd9847c5e0352892",
+      "size_bytes": 19896771
+    },
+    "raw_results": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/037_pie_joint_biu_temporal_ego/metrics/development_results.csv",
+      "sha256": "69b6c77b0600a79f352eee54ed9f4be45b855fb2c72b164c254204006bed9cd9",
+      "size_bytes": 1926
+    },
+    "verification": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/037_pie_joint_biu_temporal_ego/metrics/verification_report.json",
+      "sha256": "6dd3dadc3c8e787b416c4d7e3f9482a6f9539a94c53c8bacc586301ac86ccbe8",
+      "size_bytes": 282
+    }
+  }
+}

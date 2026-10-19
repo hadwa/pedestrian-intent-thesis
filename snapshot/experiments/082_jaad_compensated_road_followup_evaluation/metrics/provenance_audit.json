@@ -1,0 +1,81 @@
+{
+  "authenticated_models": {
+    "A42": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/models/variant_A_seed42.joblib",
+      "sha256": "32cca01bc01bd126b4c958975e579f3542d4e801005cd7ba45f9ba1403625d74",
+      "size_bytes": 354016
+    },
+    "A43": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/models/variant_A_seed43.joblib",
+      "sha256": "91d60e208e42365c23b00c26b0d32b57041b483b8664d477db2294780a30059c",
+      "size_bytes": 353201
+    },
+    "A44": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/models/variant_A_seed44.joblib",
+      "sha256": "f50ac36ec82f2cd911a83488c91a51565568145572ab68df45c9010e84428564",
+      "size_bytes": 352793
+    },
+    "D42": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/models/variant_D_seed42.joblib",
+      "sha256": "c0de0a4308e268af948632b26a2ef29c3bcacf0f61baa46b32bb0ed1cf25955b",
+      "size_bytes": 351568
+    },
+    "D43": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/models/variant_D_seed43.joblib",
+      "sha256": "50573cc5e54911c349cc052626d5a4265abf35c80ee3b0c7e2e56686dccd0b3a",
+      "size_bytes": 350205
+    },
+    "D44": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/models/variant_D_seed44.joblib",
+      "sha256": "0497531c1a3156b8208e383f0abd7b4c55f697b23d3a821b69d33190ca0ae303",
+      "size_bytes": 351092
+    }
+  },
+  "authenticated_sources": {
+    "exp081_extract": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/scripts/extract.py",
+      "sha256": "e0107d6614797d69b877b3c0221911d39f2856f555a16ac89b9244ef7bad4e43",
+      "size_bytes": 34748
+    },
+    "exp081_jaad_data": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/scripts/jaad_data.py",
+      "sha256": "b6576380b610d5fb46e38c340cda3d25937344689fe3cbda7f330b3cf87085f1",
+      "size_bytes": 8814
+    },
+    "exp081_model": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/scripts/model.py",
+      "sha256": "dd00565a645b9ac842ad080dd48900744e220dee28c7fb2e79d2f0712749077d",
+      "size_bytes": 11723
+    },
+    "exp081_model_manifest": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/metrics/model_manifest_pre_gate.json",
+      "sha256": "bb419e0af9d6f7eae1e9c768477f65f10fc37c85dbdc8f1d59408e534e3cee71",
+      "size_bytes": 3348
+    },
+    "exp081_registration": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/pre_registration.json",
+      "sha256": "196bc0cc26989cde595a90c4951183ce266ed4db7e09e67c064d9118f07f96ee",
+      "size_bytes": 9054
+    },
+    "exp081_validation_gate": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/metrics/validation_gate.json",
+      "sha256": "9de6bbfaf038e6a8b590b6e4ca6aae35a08f86363a552394422278e45571de6b",
+      "size_bytes": 658
+    },
+    "test_anchor": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/077_jaad_two_stage_early_late_xgb_transfer/metrics/prepared_jaad_test.csv",
+      "sha256": "378e9a95f43510f08268980f42943689fd7804ab3175dba49af6694a2cc6a595",
+      "size_bytes": 8659126
+    },
+    "test_split": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/jaad_splits_event_16_30_60_overlap08_default/test.csv",
+      "sha256": "04c68bccaae80bb3b648852d49c7c84609f2016d17d4a3146dfaecf88f441595",
+      "size_bytes": 1440196
+    }
+  },
+  "experiment": "082_jaad_compensated_road_followup_evaluation",
+  "parent_gate_status": "no_advance",
+  "retraining": false,
+  "selection_timing": "after_validation_before_test",
+  "status": "pass"
+}

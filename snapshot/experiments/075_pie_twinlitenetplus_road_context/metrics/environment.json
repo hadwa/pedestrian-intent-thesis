@@ -1,0 +1,9 @@
+{
+  "cuda_available": false,
+  "cuda_device_count": 0,
+  "numpy": "1.26.4",
+  "opencv": "4.11.0",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "python": "3.9.23 (main, Jun  5 2025, 13:40:20) \n[GCC 11.2.0]",
+  "torch": "2.4.0+cu118"
+}

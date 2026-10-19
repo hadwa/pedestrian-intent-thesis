@@ -1,0 +1,16 @@
+{
+  "status": "blocked_before_preparation",
+  "source_preflight": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/metrics/source_preflight.json",
+    "bytes": 3920,
+    "sha256": "562a77a02f2896433eba03708590625fb8f37ea397421cdb09a29a8b93598a73"
+  },
+  "design": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/DESIGN.md",
+    "bytes": 4019,
+    "sha256": "2b8ccc10e6d96494da8841abdbb25e80a29bb8c033359a72f9e7ba1d10df3f23"
+  },
+  "test_accessed": false,
+  "fits_run": 0,
+  "resolution": "supply and authenticate exact official frame speed for the full PSI2 cohort"
+}

@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "train_matched_source_prefix": true,
+    "val_matched_source_prefix": true
+  },
+  "fits": 6,
+  "status": "verified",
+  "test_accessed": false,
+  "train_windows": 26295,
+  "validation_windows": 14922
+}

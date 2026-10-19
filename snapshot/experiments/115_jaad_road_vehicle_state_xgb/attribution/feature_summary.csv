@@ -1,0 +1,1543 @@
+experiment,split,feature,group,mean,std
+115_clean,validation,v2__ankle_center_x_delta,Combined BIU package,0.010044137328149924,0.004897532542881126
+115_clean,validation,v2__ankle_center_x_last,Combined BIU package,0.00024323275080092316,0.0004212914824519384
+115_clean,validation,v2__ankle_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_clean,validation,v2__ankle_center_x_velocity_std,Combined BIU package,0.017051578546254477,0.007286619996526559
+115_clean,validation,arm_swing_asymmetry_delta,Combined BIU package,0.0,0.0
+115_clean,validation,arm_swing_asymmetry_first,Combined BIU package,0.0,0.0
+115_clean,validation,arm_swing_asymmetry_last,Combined BIU package,0.004139086158157025,0.005520202159352711
+115_clean,validation,arm_swing_asymmetry_max,Combined BIU package,0.048722718028411716,0.0028984694491980536
+115_clean,validation,arm_swing_asymmetry_mean,Combined BIU package,0.056906500335560696,0.0034996109221914484
+115_clean,validation,arm_swing_asymmetry_min,Combined BIU package,0.005785326844754282,0.0037235698398662147
+115_clean,validation,arm_swing_asymmetry_std,Combined BIU package,0.10271597664985678,0.02227447623615035
+115_clean,validation,bbox_area_change,BBox,0.003993931495589646,0.001366911373995906
+115_clean,validation,bbox_area_delta,BBox,0.0024187537515974987,0.0010026332837683731
+115_clean,validation,bbox_area_first,BBox,0.049718726914117696,0.009633449872197749
+115_clean,validation,bbox_area_last,BBox,0.007094209416623005,0.0017021375647819006
+115_clean,validation,bbox_area_max,BBox,0.02062043555377169,0.003974339964919653
+115_clean,validation,bbox_area_mean,BBox,0.003975936183533144,0.0018590637439807513
+115_clean,validation,bbox_area_min,BBox,0.008276136330237676,0.0007233102047532328
+115_clean,validation,bbox_area_std,BBox,0.017425087298770205,0.0013100007646068468
+115_clean,validation,bbox_aspect_ratio_delta,BBox,0.02694431073392046,0.009096462761019108
+115_clean,validation,bbox_aspect_ratio_first,BBox,0.009349932199513421,0.002724729618913212
+115_clean,validation,bbox_aspect_ratio_last,BBox,0.014617679855211835,0.0065108280753927855
+115_clean,validation,bbox_aspect_ratio_max,BBox,0.01610012627288885,0.004418594170437509
+115_clean,validation,bbox_aspect_ratio_mean,BBox,0.011983422625432054,0.007274500135046149
+115_clean,validation,bbox_aspect_ratio_min,BBox,0.07531018765136789,0.014309016105621198
+115_clean,validation,bbox_aspect_ratio_std,BBox,0.32825403440026496,0.009796334009907955
+115_clean,validation,bbox_center_x_delta,BBox,0.1706666425713157,0.010968377903927245
+115_clean,validation,bbox_center_x_first,BBox,0.32156602918666644,0.030191338558251294
+115_clean,validation,bbox_center_x_last,BBox,0.007471027626138217,0.004151119820119665
+115_clean,validation,bbox_center_x_max,BBox,0.12544696173747352,0.027258121441285716
+115_clean,validation,bbox_center_x_mean,BBox,0.012209050853735566,0.005076030488129259
+115_clean,validation,bbox_center_x_min,BBox,0.08834106478400511,0.041264914022351114
+115_clean,validation,bbox_center_x_std,BBox,0.15439879205168527,0.01229904759202792
+115_clean,validation,bbox_center_y_delta,BBox,0.018191577365818497,0.006208571501940884
+115_clean,validation,bbox_center_y_first,BBox,0.012716476440046169,0.0029608420847065044
+115_clean,validation,bbox_center_y_last,BBox,0.04141111962028174,0.007338046669760136
+115_clean,validation,bbox_center_y_max,BBox,0.01958028567853495,0.0019796981234521255
+115_clean,validation,bbox_center_y_mean,BBox,0.013625220803573949,0.005216892350358013
+115_clean,validation,bbox_center_y_min,BBox,0.02549947421729266,0.003798630530282539
+115_clean,validation,bbox_center_y_std,BBox,0.012091753487429899,0.008833194021339277
+115_clean,validation,bbox_height_change,BBox,0.015180056661037715,0.004873814075515114
+115_clean,validation,bbox_height_delta,BBox,0.005166457573811857,0.007224917748965215
+115_clean,validation,bbox_height_first,BBox,0.02938368252462678,0.0027622879311495767
+115_clean,validation,bbox_height_last,BBox,0.012813762004173944,0.002741092726366192
+115_clean,validation,bbox_height_max,BBox,0.0036429049171152732,0.0032358184652938288
+115_clean,validation,bbox_height_mean,BBox,0.00708356076292637,0.0012133488472612093
+115_clean,validation,bbox_height_min,BBox,0.00628671119085325,0.005322231573956793
+115_clean,validation,bbox_height_std,BBox,0.10496774426959693,0.015066293186782122
+115_clean,validation,bbox_scale_change_ratio,BBox,0.05982780838497107,0.005000108894498563
+115_clean,validation,bbox_valid_frame_count,BBox,0.0,0.0
+115_clean,validation,bbox_width_change,BBox,0.001619680170275706,0.0028053683469293333
+115_clean,validation,bbox_width_delta,BBox,0.00032764474438291515,0.0005674973441041266
+115_clean,validation,bbox_width_first,BBox,0.012819068303837049,0.004118988118593108
+115_clean,validation,bbox_width_last,BBox,0.006352265066381684,0.003883213906323961
+115_clean,validation,bbox_width_max,BBox,0.004545898824661671,0.0019994765303530822
+115_clean,validation,bbox_width_mean,BBox,0.00483888575474113,0.002071372138753617
+115_clean,validation,bbox_width_min,BBox,0.029309454218086783,0.014417233477051478
+115_clean,validation,bbox_width_std,BBox,0.006349423457546202,0.005000793860704065
+115_clean,validation,biu_low_confidence_frame_count,Combined BIU package,0.01747656441203017,0.008959952212178648
+115_clean,validation,biu_valid_frame_count,Combined BIU package,0.0,0.0
+115_clean,validation,body_yaw_angle_delta,Combined BIU package,0.004178707358436409,0.004073443175686683
+115_clean,validation,body_yaw_angle_first,Combined BIU package,0.0026664570142974436,0.0006841798672831582
+115_clean,validation,body_yaw_angle_last,Combined BIU package,0.006271108445428751,0.0014305189528068024
+115_clean,validation,body_yaw_angle_max,Combined BIU package,0.04116676550261097,0.011319476122538509
+115_clean,validation,body_yaw_angle_mean,Combined BIU package,0.006033249800940387,0.0037337029716951794
+115_clean,validation,body_yaw_angle_min,Combined BIU package,0.033531300540149,0.0021638705264093692
+115_clean,validation,body_yaw_angle_std,Combined BIU package,0.01507856497139423,0.0045280716176046695
+115_clean,validation,center_x_displacement,BBox,0.04321566388354276,0.01143285030513172
+115_clean,validation,center_x_velocity_mean,BBox,0.007035326129015322,0.008502300294338676
+115_clean,validation,center_x_velocity_std,BBox,0.18181617189481414,0.007535438135245062
+115_clean,validation,center_y_displacement,BBox,0.004188993260149114,0.004261525845375581
+115_clean,validation,center_y_velocity_mean,BBox,0.0012439427494554082,0.002154572043763689
+115_clean,validation,center_y_velocity_std,BBox,0.0319813451270285,0.008765992744699575
+115_clean,validation,face_yaw_angle_delta,Combined BIU package,0.0,0.0
+115_clean,validation,face_yaw_angle_first,Combined BIU package,0.005492833625433746,0.002629440824889117
+115_clean,validation,face_yaw_angle_last,Combined BIU package,0.031407718234264956,0.01825427231534296
+115_clean,validation,face_yaw_angle_max,Combined BIU package,0.0893151708300749,0.010923316244238045
+115_clean,validation,face_yaw_angle_mean,Combined BIU package,0.042310119584602714,0.014022024299026697
+115_clean,validation,face_yaw_angle_min,Combined BIU package,0.07350727643547444,0.0060133210692858464
+115_clean,validation,face_yaw_angle_std,Combined BIU package,0.0069790386125063554,0.0028365175569773507
+115_clean,validation,gaze_to_car_angle_delta,Combined BIU package,0.0026966383737492675,0.0007387897629946088
+115_clean,validation,gaze_to_car_angle_first,Combined BIU package,0.001697250749587836,0.0015715809053875867
+115_clean,validation,gaze_to_car_angle_last,Combined BIU package,0.02085490695713117,0.01130509657255878
+115_clean,validation,gaze_to_car_angle_max,Combined BIU package,0.036478416363277005,0.015234826599314043
+115_clean,validation,gaze_to_car_angle_mean,Combined BIU package,0.028252031530268885,0.005815838955271602
+115_clean,validation,gaze_to_car_angle_min,Combined BIU package,0.05103229356271389,0.006211523548928372
+115_clean,validation,gaze_to_car_angle_std,Combined BIU package,0.033906498013960465,0.008939556528720137
+115_clean,validation,head_yaw_angle_delta,Combined BIU package,0.06869659789355241,0.003566074783745826
+115_clean,validation,head_yaw_angle_first,Combined BIU package,0.0013922702162350933,0.0012277098707921066
+115_clean,validation,head_yaw_angle_last,Combined BIU package,0.012383195677040817,0.01120148194736138
+115_clean,validation,head_yaw_angle_max,Combined BIU package,0.018940373075094386,0.0045435425502717095
+115_clean,validation,head_yaw_angle_mean,Combined BIU package,0.005735384719240947,0.0030064993347825274
+115_clean,validation,head_yaw_angle_min,Combined BIU package,0.037440315776089896,0.0038418891042328674
+115_clean,validation,head_yaw_angle_std,Combined BIU package,0.012153467177393578,0.004828183556654991
+115_clean,validation,v2__hip_center_x_delta,Combined BIU package,0.0450568133082106,0.010340109537189605
+115_clean,validation,v2__hip_center_x_last,Combined BIU package,0.0007751159880643398,0.001342540273086388
+115_clean,validation,v2__hip_center_x_velocity_mean,Combined BIU package,0.00408923349820798,0.007082760182908836
+115_clean,validation,v2__hip_center_x_velocity_std,Combined BIU package,0.00352877795292912,0.0018313294400028862
+115_clean,validation,v2__knee_center_x_delta,Combined BIU package,0.027416280270814716,0.021937013980457797
+115_clean,validation,v2__knee_center_x_last,Combined BIU package,0.010533150203623458,0.011916365628699304
+115_clean,validation,v2__knee_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_clean,validation,v2__knee_center_x_velocity_std,Combined BIU package,0.015001383114100824,0.0030842530803626227
+115_clean,validation,v2__lead_ankle_forward_delta,Combined BIU package,0.049827577614501906,0.02594672464633491
+115_clean,validation,v2__lead_ankle_forward_last,Combined BIU package,0.00847706824530895,0.010611799000534678
+115_clean,validation,v2__lead_ankle_forward_velocity_mean,Combined BIU package,0.0,0.0
+115_clean,validation,v2__lead_ankle_forward_velocity_std,Combined BIU package,0.06518827981694823,0.003518153582392664
+115_clean,validation,lead_foot_elevation_delta,Combined BIU package,0.0006278689541834704,0.0010875009291409063
+115_clean,validation,lead_foot_elevation_first,Combined BIU package,0.001783080419040865,0.001279992198848017
+115_clean,validation,lead_foot_elevation_last,Combined BIU package,0.013010763923366782,0.008047202741817796
+115_clean,validation,lead_foot_elevation_max,Combined BIU package,0.04115817044298516,0.004023893015984569
+115_clean,validation,lead_foot_elevation_mean,Combined BIU package,0.10845624323064175,0.001768457853169397
+115_clean,validation,lead_foot_elevation_min,Combined BIU package,0.06625871167650192,0.02152170910910393
+115_clean,validation,lead_foot_elevation_std,Combined BIU package,0.13098504507479114,0.04121022130618481
+115_clean,validation,lead_foot_lifted_delta,Combined BIU package,0.0,0.0
+115_clean,validation,lead_foot_lifted_first,Combined BIU package,0.0,0.0
+115_clean,validation,lead_foot_lifted_last,Combined BIU package,0.0,0.0
+115_clean,validation,lead_foot_lifted_max,Combined BIU package,0.0,0.0
+115_clean,validation,lead_foot_lifted_mean,Combined BIU package,0.016950213728209738,0.0032876018092774188
+115_clean,validation,lead_foot_lifted_min,Combined BIU package,0.0,0.0
+115_clean,validation,lead_foot_lifted_std,Combined BIU package,0.0061505851518519105,0.005764217341741716
+115_clean,validation,v2__leg_center_x_delta,Combined BIU package,0.006703345217926704,0.004343734230340296
+115_clean,validation,v2__leg_center_x_last,Combined BIU package,0.003966136560055887,0.0007486163495824321
+115_clean,validation,v2__leg_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_clean,validation,v2__leg_center_x_velocity_std,Combined BIU package,0.01384983288856119,0.007584893688432986
+115_clean,validation,v2__lower_body_motion_magnitude_mean,Combined BIU package,0.005789190047695879,0.0028045461581996793
+115_clean,validation,v2__lower_body_motion_magnitude_std,Combined BIU package,0.01167298873182309,0.005311685264319439
+115_clean,validation,norm_shoulder_width_delta,Combined BIU package,0.012266732640581438,0.0019297144283566185
+115_clean,validation,norm_shoulder_width_first,Combined BIU package,0.02112256534980529,0.006873484244305388
+115_clean,validation,norm_shoulder_width_last,Combined BIU package,0.19257995223234478,0.010495006879652307
+115_clean,validation,norm_shoulder_width_max,Combined BIU package,0.024844616388113503,0.008515280287956596
+115_clean,validation,norm_shoulder_width_mean,Combined BIU package,0.04912046789644295,0.01208029693816519
+115_clean,validation,norm_shoulder_width_min,Combined BIU package,0.06602418233276235,0.015511264853273936
+115_clean,validation,norm_shoulder_width_std,Combined BIU package,0.018289203162292596,0.003997792499976785
+115_clean,validation,v2__shoulder_center_x_delta,Combined BIU package,0.02767685016488584,0.005832897002811718
+115_clean,validation,v2__shoulder_center_x_last,Combined BIU package,0.00430652558752007,0.004589029977549948
+115_clean,validation,v2__shoulder_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_clean,validation,v2__shoulder_center_x_velocity_std,Combined BIU package,0.009806457481238257,0.00426262552527073
+115_clean,validation,stride_length_delta,Combined BIU package,0.0009858853742413006,0.0008573446374262969
+115_clean,validation,stride_length_first,Combined BIU package,0.0031669495674445,0.0029510258073792766
+115_clean,validation,stride_length_last,Combined BIU package,0.008871929229032067,0.003240953111471332
+115_clean,validation,stride_length_max,Combined BIU package,0.035945385364589556,0.005472917753582438
+115_clean,validation,stride_length_mean,Combined BIU package,0.029979738291483846,0.013103462566332963
+115_clean,validation,stride_length_min,Combined BIU package,0.007940316876499072,0.002924735434819687
+115_clean,validation,stride_length_std,Combined BIU package,0.022171637558303498,0.007890911585312401
+115_clean,validation,v2__stride_opening_delta,Combined BIU package,0.02228636162340247,0.0053355967687243365
+115_clean,validation,v2__stride_opening_last,Combined BIU package,0.005324825603422004,0.0029938771512211197
+115_clean,validation,v2__stride_opening_velocity_mean,Combined BIU package,0.0015497146022206947,0.0026841844282776356
+115_clean,validation,v2__stride_opening_velocity_std,Combined BIU package,0.04822886729450928,0.006176733465146324
+115_clean,validation,v2__torso_center_x_delta,Combined BIU package,0.03807700080998183,0.009824867645170699
+115_clean,validation,v2__torso_center_x_last,Combined BIU package,0.014608875950322535,0.014710358561906826
+115_clean,validation,v2__torso_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_clean,validation,v2__torso_center_x_velocity_std,Combined BIU package,0.010322523227560847,0.0033028591964771523
+115_clean,validation,torso_lean_angle_delta,Combined BIU package,0.005702548492654541,0.002634182752561791
+115_clean,validation,torso_lean_angle_first,Combined BIU package,0.0026353704053376074,0.0002576833560414409
+115_clean,validation,torso_lean_angle_last,Combined BIU package,0.002937517012327846,0.0022741231466458403
+115_clean,validation,torso_lean_angle_max,Combined BIU package,0.010705256937799631,0.0061640318340613785
+115_clean,validation,torso_lean_angle_mean,Combined BIU package,0.03134773673340701,0.003006104391261617
+115_clean,validation,torso_lean_angle_min,Combined BIU package,0.04291395645420387,0.02358018512736283
+115_clean,validation,torso_lean_angle_std,Combined BIU package,0.07291241473582892,0.016184370069504503
+115_clean,validation,v2__torso_motion_magnitude_mean,Combined BIU package,0.00980479480581723,0.004240651077142421
+115_clean,validation,v2__torso_motion_magnitude_std,Combined BIU package,0.03281139473174755,0.006771989041873041
+115_clean,validation,temporal__lower_body_motion_magnitude_mean_early,Explicit temporal,0.002407723573486008,0.003358687218363416
+115_clean,validation,temporal__lower_body_motion_magnitude_mean_late,Explicit temporal,0.0022295660356928112,0.0020384319549400886
+115_clean,validation,temporal__lower_body_motion_magnitude_mean_late_minus_early,Explicit temporal,0.08146257108754938,0.007889465695570641
+115_clean,validation,temporal__lead_ankle_forward_delta_early,Explicit temporal,0.004016099614657716,0.003775122161772547
+115_clean,validation,temporal__lead_ankle_forward_delta_late,Explicit temporal,0.015806298464530435,0.004623744980806144
+115_clean,validation,temporal__lead_ankle_forward_delta_late_minus_early,Explicit temporal,0.20981229042493876,0.00987202228183148
+115_clean,validation,temporal__torso_motion_magnitude_mean_early,Explicit temporal,0.0043743426700229154,0.004482146548976133
+115_clean,validation,temporal__torso_motion_magnitude_mean_late,Explicit temporal,0.01113116588027708,0.006500241149366005
+115_clean,validation,temporal__torso_motion_magnitude_mean_late_minus_early,Explicit temporal,0.005634066031794257,0.005697160445189123
+115_clean,validation,temporal__torso_center_x_delta_early,Explicit temporal,0.013788851669356748,0.011534509029063863
+115_clean,validation,temporal__torso_center_x_delta_late,Explicit temporal,0.4791548584784447,0.020399006606376925
+115_clean,validation,temporal__torso_center_x_delta_late_minus_early,Explicit temporal,0.41690936880475116,0.03258055653016158
+115_clean,validation,temporal__bbox_center_dx_norm_early,Explicit temporal,0.014191066853403524,0.006782424360512707
+115_clean,validation,temporal__bbox_center_dx_norm_late,Explicit temporal,0.23297620606988242,0.012591627797717655
+115_clean,validation,temporal__bbox_center_dx_norm_late_minus_early,Explicit temporal,0.003743643257506373,0.00030428593175559266
+115_clean,validation,temporal__bbox_scale_log_delta_early,Explicit temporal,0.0040192963660115695,0.006228543515196751
+115_clean,validation,temporal__bbox_scale_log_delta_late,Explicit temporal,0.008654680479820103,0.0026711358774187508
+115_clean,validation,temporal__bbox_scale_log_delta_late_minus_early,Explicit temporal,0.001809810637779661,0.0021612729660344587
+115_clean,validation,temporal__pose_confidence_mean_early,Explicit temporal,0.08776351650372383,0.015842990681452396
+115_clean,validation,temporal__pose_confidence_mean_late,Explicit temporal,0.21263101842827128,0.002695080718870576
+115_clean,validation,temporal__pose_confidence_mean_late_minus_early,Explicit temporal,0.0022382685186544213,0.001678814029874118
+115_clean,validation,road_compensated__road_foot_inside__early_mean,Road context,0.0,0.0
+115_clean,validation,road_compensated__road_foot_inside__late_mean,Road context,0.0,0.0
+115_clean,validation,road_compensated__road_foot_inside__late_minus_early,Road context,0.0,0.0
+115_clean,validation,road_compensated__road_signed_boundary_distance_h__early_mean,Road context,0.02309144833626525,0.004709733362067741
+115_clean,validation,road_compensated__road_signed_boundary_distance_h__late_mean,Road context,0.01822180155792994,0.006096924766001737
+115_clean,validation,road_compensated__road_signed_boundary_distance_h__late_minus_early,Road context,0.013204426836993416,0.004101133747389926
+115_clean,validation,road_compensated__road_nearest_boundary_dx_h__early_mean,Road context,0.23846774030088191,0.01595867224057461
+115_clean,validation,road_compensated__road_nearest_boundary_dx_h__late_mean,Road context,0.18867112948347353,0.03467063679011688
+115_clean,validation,road_compensated__road_nearest_boundary_dx_h__late_minus_early,Road context,0.007857875889699698,0.0050479934041172516
+115_clean,validation,road_compensated__road_nearest_boundary_dy_h__early_mean,Road context,0.03927111389031044,0.012329664504108146
+115_clean,validation,road_compensated__road_nearest_boundary_dy_h__late_mean,Road context,0.026366352972375124,0.010332295508278385
+115_clean,validation,road_compensated__road_nearest_boundary_dy_h__late_minus_early,Road context,0.0015520002558961094,0.0026881432965719606
+115_clean,validation,road_compensated__road_boundary_tangent_x__early_mean,Road context,0.03225651069871691,0.003662133388342611
+115_clean,validation,road_compensated__road_boundary_tangent_x__late_mean,Road context,0.13514374029412504,0.017776511467455063
+115_clean,validation,road_compensated__road_boundary_tangent_x__late_minus_early,Road context,0.015332514850265253,0.006964473546928236
+115_clean,validation,road_compensated__road_boundary_tangent_y__early_mean,Road context,0.030088213594163565,0.009592041301332305
+115_clean,validation,road_compensated__road_boundary_tangent_y__late_mean,Road context,0.013342634486821945,0.003089452153436181
+115_clean,validation,road_compensated__road_boundary_tangent_y__late_minus_early,Road context,0.006007633885692175,0.005027533972722698
+115_clean,validation,road_compensated__road_boundary_valid__early_mean,Road context,0.004107643505292117,0.005645734743235106
+115_clean,validation,road_compensated__road_boundary_valid__late_mean,Road context,0.0060708554598407636,0.006529673454255926
+115_clean,validation,road_compensated__road_boundary_valid__late_minus_early,Road context,0.0,0.0
+115_clean,validation,road_compensated__lane_nearest_distance_h__early_mean,Road context,0.02129387004026767,0.006430713316535411
+115_clean,validation,road_compensated__lane_nearest_distance_h__late_mean,Road context,0.012138045893502229,0.002909446227163187
+115_clean,validation,road_compensated__lane_nearest_distance_h__late_minus_early,Road context,0.1780223839325998,0.017301246507406248
+115_clean,validation,road_compensated__lane_nearest_dx_h__early_mean,Road context,0.09384360699347898,0.0046629649206174776
+115_clean,validation,road_compensated__lane_nearest_dx_h__late_mean,Road context,0.056964314236518654,0.012090150069436346
+115_clean,validation,road_compensated__lane_nearest_dx_h__late_minus_early,Road context,0.004240392343809039,0.002095032443635125
+115_clean,validation,road_compensated__lane_nearest_dy_h__early_mean,Road context,0.09794426452789973,0.03988209333315867
+115_clean,validation,road_compensated__lane_nearest_dy_h__late_mean,Road context,0.6172908992300359,0.0581834425887029
+115_clean,validation,road_compensated__lane_nearest_dy_h__late_minus_early,Road context,0.003409130258607189,0.0021136110471474405
+115_clean,validation,road_compensated__lane_tangent_x__early_mean,Road context,0.5835280155855369,0.04050295231055005
+115_clean,validation,road_compensated__lane_tangent_x__late_mean,Road context,0.403555860357708,0.051023248325350025
+115_clean,validation,road_compensated__lane_tangent_x__late_minus_early,Road context,0.01473050890221326,0.0056074159802721275
+115_clean,validation,road_compensated__lane_tangent_y__early_mean,Road context,0.02249429543367236,0.002572949020599304
+115_clean,validation,road_compensated__lane_tangent_y__late_mean,Road context,0.02032233224351779,0.004430451467416416
+115_clean,validation,road_compensated__lane_tangent_y__late_minus_early,Road context,0.011385172747776314,0.007842667415428287
+115_clean,validation,road_compensated__lane_geometry_valid__early_mean,Road context,0.020864671964930265,0.006040352614456986
+115_clean,validation,road_compensated__lane_geometry_valid__late_mean,Road context,0.011699171766294326,0.020263559905697094
+115_clean,validation,road_compensated__lane_geometry_valid__late_minus_early,Road context,0.0,0.0
+115_clean,validation,road_compensated__foot_velocity_x_h__early_mean,Road context,0.06293486378315967,0.01397855322212704
+115_clean,validation,road_compensated__foot_velocity_x_h__late_mean,Road context,0.02351469308067931,0.005028726053619309
+115_clean,validation,road_compensated__foot_velocity_x_h__late_minus_early,Road context,0.0025103324940688727,0.0014982199895313274
+115_clean,validation,road_compensated__foot_velocity_y_h__early_mean,Road context,0.0014714585100998817,0.0010352431368412817
+115_clean,validation,road_compensated__foot_velocity_y_h__late_mean,Road context,0.016304067423688406,0.005093892594270936
+115_clean,validation,road_compensated__foot_velocity_y_h__late_minus_early,Road context,0.0028186728592215385,0.00024798032414785306
+115_clean,validation,road_compensated__foot_speed_h__early_mean,Road context,0.01649940071087625,0.0058152255443478474
+115_clean,validation,road_compensated__foot_speed_h__late_mean,Road context,0.021136539134224128,0.007443551575618108
+115_clean,validation,road_compensated__foot_speed_h__late_minus_early,Road context,0.0280799244234433,0.01941590264252193
+115_clean,validation,road_compensated__motion_parallel_to_road__early_mean,Road context,0.03130437463135039,0.007919001004409768
+115_clean,validation,road_compensated__motion_parallel_to_road__late_mean,Road context,0.028923289425268322,0.002838628394955088
+115_clean,validation,road_compensated__motion_parallel_to_road__late_minus_early,Road context,0.0007010927625153997,0.001128333724649149
+115_clean,validation,road_compensated__motion_toward_drivable_area__early_mean,Road context,0.011445557255535262,0.0018235909225265893
+115_clean,validation,road_compensated__motion_toward_drivable_area__late_mean,Road context,0.005813157728687949,0.0027814900534176815
+115_clean,validation,road_compensated__motion_toward_drivable_area__late_minus_early,Road context,0.002718282067143288,0.0012585398381658199
+115_clean,validation,road_compensated__motion_parallel_to_lane__early_mean,Road context,0.03774705869239164,0.006867954063010064
+115_clean,validation,road_compensated__motion_parallel_to_lane__late_mean,Road context,0.04440665377333416,0.010377103828314086
+115_clean,validation,road_compensated__motion_parallel_to_lane__late_minus_early,Road context,0.0009688074342082787,0.0010651435269703204
+115_clean,validation,road_compensated__road_signed_distance_change_h__early_mean,Road context,0.0040156202847670555,0.0012721585306580518
+115_clean,validation,road_compensated__road_signed_distance_change_h__late_mean,Road context,0.006317873008678375,0.005597012270606703
+115_clean,validation,road_compensated__road_signed_distance_change_h__late_minus_early,Road context,0.0012418735172449998,0.0015992297716901295
+115_clean,validation,vehicle_fraction__stopped,Vehicle state,0.020072035903310508,0.010553323811311386
+115_clean,validation,vehicle_fraction__moving_slow,Vehicle state,0.0,0.0
+115_clean,validation,vehicle_fraction__moving_fast,Vehicle state,0.002524660948670748,0.0022044480530331923
+115_clean,validation,vehicle_fraction__decelerating,Vehicle state,0.006214954995396128,0.002150063328992301
+115_clean,validation,vehicle_fraction__accelerating,Vehicle state,0.05065135010131499,0.010278124628023334
+115_clean,validation,vehicle_first__stopped,Vehicle state,0.005404791067617236,0.004829990835000442
+115_clean,validation,vehicle_first__moving_slow,Vehicle state,0.0,0.0
+115_clean,validation,vehicle_first__moving_fast,Vehicle state,0.0,0.0
+115_clean,validation,vehicle_first__decelerating,Vehicle state,0.0007914974535274412,0.0013709138035709145
+115_clean,validation,vehicle_first__accelerating,Vehicle state,0.00025844650517329416,0.00044764247799875814
+115_clean,validation,vehicle_last__stopped,Vehicle state,0.0032197485776751817,0.0013023330746165466
+115_clean,validation,vehicle_last__moving_slow,Vehicle state,0.0,0.0
+115_clean,validation,vehicle_last__moving_fast,Vehicle state,0.0,0.0
+115_clean,validation,vehicle_last__decelerating,Vehicle state,0.004481117821886565,0.001742206103998479
+115_clean,validation,vehicle_last__accelerating,Vehicle state,0.030230861654847296,0.011589564095218495
+115_clean,test,v2__ankle_center_x_delta,Combined BIU package,0.008195623484594851,0.002709652193761411
+115_clean,test,v2__ankle_center_x_last,Combined BIU package,0.00029082677982776096,0.0005037267588633294
+115_clean,test,v2__ankle_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_clean,test,v2__ankle_center_x_velocity_std,Combined BIU package,0.019870877906666872,0.008081667218065308
+115_clean,test,arm_swing_asymmetry_delta,Combined BIU package,0.0,0.0
+115_clean,test,arm_swing_asymmetry_first,Combined BIU package,0.0,0.0
+115_clean,test,arm_swing_asymmetry_last,Combined BIU package,0.004316422229616655,0.005193188565921097
+115_clean,test,arm_swing_asymmetry_max,Combined BIU package,0.039950855826458916,0.0020295851330335156
+115_clean,test,arm_swing_asymmetry_mean,Combined BIU package,0.05645986416424387,0.0037322325887142083
+115_clean,test,arm_swing_asymmetry_min,Combined BIU package,0.006035719618014909,0.0035114636657890535
+115_clean,test,arm_swing_asymmetry_std,Combined BIU package,0.10088076102678163,0.021002539788810427
+115_clean,test,bbox_area_change,BBox,0.0035076443479354416,0.0013905787412316938
+115_clean,test,bbox_area_delta,BBox,0.0026443255087042748,0.0014945031033174697
+115_clean,test,bbox_area_first,BBox,0.05235243659235794,0.009083690557505417
+115_clean,test,bbox_area_last,BBox,0.00563408362008897,0.0015906537792352991
+115_clean,test,bbox_area_max,BBox,0.022055820028045587,0.005316638585007399
+115_clean,test,bbox_area_mean,BBox,0.004316009548100801,0.0021357274408112265
+115_clean,test,bbox_area_min,BBox,0.007416767553775235,7.675664315059274e-05
+115_clean,test,bbox_area_std,BBox,0.023504237520940007,0.0012516126340737803
+115_clean,test,bbox_aspect_ratio_delta,BBox,0.0290432732163515,0.009574632757386282
+115_clean,test,bbox_aspect_ratio_first,BBox,0.010030015700555625,0.0018380826602898035
+115_clean,test,bbox_aspect_ratio_last,BBox,0.012323581935480991,0.0048356958313610235
+115_clean,test,bbox_aspect_ratio_max,BBox,0.017087038872172416,0.003943278493069106
+115_clean,test,bbox_aspect_ratio_mean,BBox,0.013959343788743648,0.008038950226806901
+115_clean,test,bbox_aspect_ratio_min,BBox,0.07540019143807308,0.010628137892256612
+115_clean,test,bbox_aspect_ratio_std,BBox,0.32612127503941707,0.02409562653941888
+115_clean,test,bbox_center_x_delta,BBox,0.2046245634222832,0.010430936490574923
+115_clean,test,bbox_center_x_first,BBox,0.38078092328237495,0.028578321702450286
+115_clean,test,bbox_center_x_last,BBox,0.0093936768263281,0.005564191572765691
+115_clean,test,bbox_center_x_max,BBox,0.10683003209705866,0.026051718048005566
+115_clean,test,bbox_center_x_mean,BBox,0.01739252277241154,0.008909222411529175
+115_clean,test,bbox_center_x_min,BBox,0.1043548580230026,0.0516483295457804
+115_clean,test,bbox_center_x_std,BBox,0.14819474713379435,0.011926875874303751
+115_clean,test,bbox_center_y_delta,BBox,0.01942745577312074,0.005593271199822328
+115_clean,test,bbox_center_y_first,BBox,0.023530627125156484,0.005367272847179758
+115_clean,test,bbox_center_y_last,BBox,0.09043956820849641,0.006501176609011595
+115_clean,test,bbox_center_y_max,BBox,0.030262846785536285,0.0020336512653974523
+115_clean,test,bbox_center_y_mean,BBox,0.019233216953350823,0.005183479807704931
+115_clean,test,bbox_center_y_min,BBox,0.03476781660585734,0.0057959099179837005
+115_clean,test,bbox_center_y_std,BBox,0.01215167290571636,0.008273286117961316
+115_clean,test,bbox_height_change,BBox,0.017784015190869928,0.003483038521222704
+115_clean,test,bbox_height_delta,BBox,0.005943180804202189,0.008423296455201875
+115_clean,test,bbox_height_first,BBox,0.0328291523221809,0.0035355953087563264
+115_clean,test,bbox_height_last,BBox,0.014370410444969119,0.002096915148802027
+115_clean,test,bbox_height_max,BBox,0.0034633205567651836,0.0032881695307412123
+115_clean,test,bbox_height_mean,BBox,0.007959844980951645,0.0013010535687306207
+115_clean,test,bbox_height_min,BBox,0.00711359937788843,0.005970461239347177
+115_clean,test,bbox_height_std,BBox,0.12257515923253999,0.014318792292701147
+115_clean,test,bbox_scale_change_ratio,BBox,0.05932787963158006,0.005160925067589723
+115_clean,test,bbox_valid_frame_count,BBox,0.0,0.0
+115_clean,test,bbox_width_change,BBox,0.00149761821382623,0.002593950836687581
+115_clean,test,bbox_width_delta,BBox,0.0003521086867416185,0.0006098701352228371
+115_clean,test,bbox_width_first,BBox,0.013995549647625003,0.0039047237090903838
+115_clean,test,bbox_width_last,BBox,0.005882348364759704,0.0025019333340172696
+115_clean,test,bbox_width_max,BBox,0.005195494614160564,0.002226602731169276
+115_clean,test,bbox_width_mean,BBox,0.0046578933842371184,0.0021160389905665405
+115_clean,test,bbox_width_min,BBox,0.035581816562120304,0.020451445128758745
+115_clean,test,bbox_width_std,BBox,0.007505691729875151,0.005166861180123187
+115_clean,test,biu_low_confidence_frame_count,Combined BIU package,0.024426725534517454,0.011228626163128256
+115_clean,test,biu_valid_frame_count,Combined BIU package,0.0,0.0
+115_clean,test,body_yaw_angle_delta,Combined BIU package,0.0039318849364119385,0.004329686972792149
+115_clean,test,body_yaw_angle_first,Combined BIU package,0.002426798184014081,0.0003085164804382929
+115_clean,test,body_yaw_angle_last,Combined BIU package,0.006638855856158761,0.0016237415584984748
+115_clean,test,body_yaw_angle_max,Combined BIU package,0.03597123709913124,0.00829277312560877
+115_clean,test,body_yaw_angle_mean,Combined BIU package,0.006923427034592699,0.004260783408308274
+115_clean,test,body_yaw_angle_min,Combined BIU package,0.029747313473785435,0.0024112579618020893
+115_clean,test,body_yaw_angle_std,Combined BIU package,0.017282176689953074,0.004738469741231818
+115_clean,test,center_x_displacement,BBox,0.05691604597634956,0.009507205190575544
+115_clean,test,center_x_velocity_mean,BBox,0.007642552097007535,0.010983720081840185
+115_clean,test,center_x_velocity_std,BBox,0.15446650660642805,0.006637132869002275
+115_clean,test,center_y_displacement,BBox,0.004529105359796014,0.004251028606708545
+115_clean,test,center_y_velocity_mean,BBox,0.0011386074467644662,0.0019721259476723307
+115_clean,test,center_y_velocity_std,BBox,0.027917631571427237,0.007324451781051985
+115_clean,test,face_yaw_angle_delta,Combined BIU package,0.0,0.0
+115_clean,test,face_yaw_angle_first,Combined BIU package,0.006815990781547876,0.003357178136918849
+115_clean,test,face_yaw_angle_last,Combined BIU package,0.03455655813707747,0.02117086612512086
+115_clean,test,face_yaw_angle_max,Combined BIU package,0.11171899896380626,0.010067163115402865
+115_clean,test,face_yaw_angle_mean,Combined BIU package,0.051509668824090526,0.013807416895047499
+115_clean,test,face_yaw_angle_min,Combined BIU package,0.07442870763849298,0.00531994324802
+115_clean,test,face_yaw_angle_std,Combined BIU package,0.005181160725440351,0.0019130671367662588
+115_clean,test,gaze_to_car_angle_delta,Combined BIU package,0.0025002346282640077,0.0004167109943838891
+115_clean,test,gaze_to_car_angle_first,Combined BIU package,0.0014794239941846876,0.0012856920902771238
+115_clean,test,gaze_to_car_angle_last,Combined BIU package,0.021269870074151504,0.011207503043965962
+115_clean,test,gaze_to_car_angle_max,Combined BIU package,0.03230909129817001,0.015174266507964928
+115_clean,test,gaze_to_car_angle_mean,Combined BIU package,0.027995470710349104,0.0023976497804819035
+115_clean,test,gaze_to_car_angle_min,Combined BIU package,0.03283940258091494,0.003485885597483035
+115_clean,test,gaze_to_car_angle_std,Combined BIU package,0.032109362372437535,0.006033906705492933
+115_clean,test,head_yaw_angle_delta,Combined BIU package,0.0717270731659008,0.004041901767190423
+115_clean,test,head_yaw_angle_first,Combined BIU package,0.001331100226764104,0.0011624262622700835
+115_clean,test,head_yaw_angle_last,Combined BIU package,0.013884206638318205,0.012370392504742382
+115_clean,test,head_yaw_angle_max,Combined BIU package,0.02196466550649796,0.006983002831431626
+115_clean,test,head_yaw_angle_mean,Combined BIU package,0.0060749374483842315,0.002741272260105451
+115_clean,test,head_yaw_angle_min,Combined BIU package,0.031186605530972782,0.0028791695939292265
+115_clean,test,head_yaw_angle_std,Combined BIU package,0.013630903247097939,0.0056741221268926416
+115_clean,test,v2__hip_center_x_delta,Combined BIU package,0.04179344793287254,0.007266945916961259
+115_clean,test,v2__hip_center_x_last,Combined BIU package,0.0008965488908452119,0.0015528682304134305
+115_clean,test,v2__hip_center_x_velocity_mean,Combined BIU package,0.0037862627442883565,0.006557999443912601
+115_clean,test,v2__hip_center_x_velocity_std,Combined BIU package,0.004584688796922546,0.0030092500594833095
+115_clean,test,v2__knee_center_x_delta,Combined BIU package,0.02676175660819813,0.020562687431602104
+115_clean,test,v2__knee_center_x_last,Combined BIU package,0.010254738160275426,0.012073290146824189
+115_clean,test,v2__knee_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_clean,test,v2__knee_center_x_velocity_std,Combined BIU package,0.016110411012983588,0.003631622583955772
+115_clean,test,v2__lead_ankle_forward_delta,Combined BIU package,0.047475854709771136,0.025790538734291726
+115_clean,test,v2__lead_ankle_forward_last,Combined BIU package,0.008370941334155656,0.010379727747958638
+115_clean,test,v2__lead_ankle_forward_velocity_mean,Combined BIU package,0.0,0.0
+115_clean,test,v2__lead_ankle_forward_velocity_std,Combined BIU package,0.06388998426780691,0.0015842733732383664
+115_clean,test,lead_foot_elevation_delta,Combined BIU package,0.0005727881700021378,0.0009920982124181023
+115_clean,test,lead_foot_elevation_first,Combined BIU package,0.002171965546289999,0.0015512102730174454
+115_clean,test,lead_foot_elevation_last,Combined BIU package,0.012378754279582032,0.0074716688997346304
+115_clean,test,lead_foot_elevation_max,Combined BIU package,0.04224452058349922,0.0049114759214498645
+115_clean,test,lead_foot_elevation_mean,Combined BIU package,0.0968090234183283,0.002219790438605998
+115_clean,test,lead_foot_elevation_min,Combined BIU package,0.06327163451282715,0.014965818857979095
+115_clean,test,lead_foot_elevation_std,Combined BIU package,0.11396757963946154,0.03786133582329847
+115_clean,test,lead_foot_lifted_delta,Combined BIU package,0.0,0.0
+115_clean,test,lead_foot_lifted_first,Combined BIU package,0.0,0.0
+115_clean,test,lead_foot_lifted_last,Combined BIU package,0.0,0.0
+115_clean,test,lead_foot_lifted_max,Combined BIU package,0.0,0.0
+115_clean,test,lead_foot_lifted_mean,Combined BIU package,0.015353988751761,0.0031576928653910315
+115_clean,test,lead_foot_lifted_min,Combined BIU package,0.0,0.0
+115_clean,test,lead_foot_lifted_std,Combined BIU package,0.004705241623028179,0.00466796580068182
+115_clean,test,v2__leg_center_x_delta,Combined BIU package,0.006010689340703385,0.0041374173117565225
+115_clean,test,v2__leg_center_x_last,Combined BIU package,0.003452130031202472,0.0006039249655349114
+115_clean,test,v2__leg_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_clean,test,v2__leg_center_x_velocity_std,Combined BIU package,0.015169153439771203,0.009578240609031717
+115_clean,test,v2__lower_body_motion_magnitude_mean,Combined BIU package,0.006581844480236375,0.0030152366820968774
+115_clean,test,v2__lower_body_motion_magnitude_std,Combined BIU package,0.017513241014044584,0.008061127285647948
+115_clean,test,norm_shoulder_width_delta,Combined BIU package,0.01135110400263249,0.002192804725432671
+115_clean,test,norm_shoulder_width_first,Combined BIU package,0.019848028908488545,0.007329670779947372
+115_clean,test,norm_shoulder_width_last,Combined BIU package,0.19906889794653107,0.007404057887520178
+115_clean,test,norm_shoulder_width_max,Combined BIU package,0.026184668962297913,0.007740936822230255
+115_clean,test,norm_shoulder_width_mean,Combined BIU package,0.04750271338284679,0.012025054226615702
+115_clean,test,norm_shoulder_width_min,Combined BIU package,0.06930534835227907,0.01797168965070984
+115_clean,test,norm_shoulder_width_std,Combined BIU package,0.018969054999356427,0.0033999930754735484
+115_clean,test,v2__shoulder_center_x_delta,Combined BIU package,0.02507842169631878,0.0034057257993379197
+115_clean,test,v2__shoulder_center_x_last,Combined BIU package,0.004451822171018956,0.004799326982397833
+115_clean,test,v2__shoulder_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_clean,test,v2__shoulder_center_x_velocity_std,Combined BIU package,0.011543125447474545,0.005160069730642962
+115_clean,test,stride_length_delta,Combined BIU package,0.0007297343649595896,0.0006402692910534813
+115_clean,test,stride_length_first,Combined BIU package,0.0031402549263954,0.0028497421285331743
+115_clean,test,stride_length_last,Combined BIU package,0.00988979665502532,0.003523283707685375
+115_clean,test,stride_length_max,Combined BIU package,0.03568206904380788,0.00451510658160038
+115_clean,test,stride_length_mean,Combined BIU package,0.0315243357323216,0.014144628485026588
+115_clean,test,stride_length_min,Combined BIU package,0.007220356079352457,0.001453818872215798
+115_clean,test,stride_length_std,Combined BIU package,0.024159596002097203,0.009787411675112061
+115_clean,test,v2__stride_opening_delta,Combined BIU package,0.02159980808666719,0.005187706795001746
+115_clean,test,v2__stride_opening_last,Combined BIU package,0.005633204458035279,0.003320395584127245
+115_clean,test,v2__stride_opening_velocity_mean,Combined BIU package,0.0016162455194502947,0.0027994193571934623
+115_clean,test,v2__stride_opening_velocity_std,Combined BIU package,0.04882643405126658,0.005850944958788416
+115_clean,test,v2__torso_center_x_delta,Combined BIU package,0.035744656975696586,0.003910349081736123
+115_clean,test,v2__torso_center_x_last,Combined BIU package,0.013801585841524681,0.013106160301382983
+115_clean,test,v2__torso_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_clean,test,v2__torso_center_x_velocity_std,Combined BIU package,0.010561839888455993,0.0038903095454861807
+115_clean,test,torso_lean_angle_delta,Combined BIU package,0.0044567894004525765,0.0019160131876136393
+115_clean,test,torso_lean_angle_first,Combined BIU package,0.003003924285336111,0.00043720092742364136
+115_clean,test,torso_lean_angle_last,Combined BIU package,0.0029060953532912496,0.0019343755095098513
+115_clean,test,torso_lean_angle_max,Combined BIU package,0.010206093515205912,0.005830451273285337
+115_clean,test,torso_lean_angle_mean,Combined BIU package,0.026813316010645533,0.0034427757520244864
+115_clean,test,torso_lean_angle_min,Combined BIU package,0.04302639336167111,0.022574199485679187
+115_clean,test,torso_lean_angle_std,Combined BIU package,0.07232187446644754,0.01605555969981564
+115_clean,test,v2__torso_motion_magnitude_mean,Combined BIU package,0.00943047018728835,0.0034639538611348844
+115_clean,test,v2__torso_motion_magnitude_std,Combined BIU package,0.03663825409053933,0.008409608584401729
+115_clean,test,temporal__lower_body_motion_magnitude_mean_early,Explicit temporal,0.002311830268244671,0.0031242710622808745
+115_clean,test,temporal__lower_body_motion_magnitude_mean_late,Explicit temporal,0.002852033315881908,0.0028826345206560506
+115_clean,test,temporal__lower_body_motion_magnitude_mean_late_minus_early,Explicit temporal,0.07317870849236614,0.00648085918206257
+115_clean,test,temporal__lead_ankle_forward_delta_early,Explicit temporal,0.004191256242023422,0.004248679332304075
+115_clean,test,temporal__lead_ankle_forward_delta_late,Explicit temporal,0.013192440417093972,0.003344387321925411
+115_clean,test,temporal__lead_ankle_forward_delta_late_minus_early,Explicit temporal,0.18037480803924963,0.0062186646321145235
+115_clean,test,temporal__torso_motion_magnitude_mean_early,Explicit temporal,0.003427187856660079,0.0031723443583109258
+115_clean,test,temporal__torso_motion_magnitude_mean_late,Explicit temporal,0.010285234361103741,0.004944622598478815
+115_clean,test,temporal__torso_motion_magnitude_mean_late_minus_early,Explicit temporal,0.005246014463693643,0.005685308653227962
+115_clean,test,temporal__torso_center_x_delta_early,Explicit temporal,0.01282855960172691,0.010649208389691559
+115_clean,test,temporal__torso_center_x_delta_late,Explicit temporal,0.38345719709364806,0.019109315735554015
+115_clean,test,temporal__torso_center_x_delta_late_minus_early,Explicit temporal,0.40770642330831564,0.03210384243344871
+115_clean,test,temporal__bbox_center_dx_norm_early,Explicit temporal,0.011508990463441065,0.005683593552940559
+115_clean,test,temporal__bbox_center_dx_norm_late,Explicit temporal,0.27844018900355705,0.02080631261170673
+115_clean,test,temporal__bbox_center_dx_norm_late_minus_early,Explicit temporal,0.0035302107214531925,0.0005605070934770866
+115_clean,test,temporal__bbox_scale_log_delta_early,Explicit temporal,0.004289824334249337,0.0068333297112678935
+115_clean,test,temporal__bbox_scale_log_delta_late,Explicit temporal,0.008637315174036028,0.0018576454506785526
+115_clean,test,temporal__bbox_scale_log_delta_late_minus_early,Explicit temporal,0.001571065933506325,0.0017766281453803563
+115_clean,test,temporal__pose_confidence_mean_early,Explicit temporal,0.08570565360334127,0.013360343132916447
+115_clean,test,temporal__pose_confidence_mean_late,Explicit temporal,0.19591751775822264,0.005167447094175464
+115_clean,test,temporal__pose_confidence_mean_late_minus_early,Explicit temporal,0.0017500536296491812,0.001043723412411319
+115_clean,test,road_compensated__road_foot_inside__early_mean,Road context,0.0,0.0
+115_clean,test,road_compensated__road_foot_inside__late_mean,Road context,0.0,0.0
+115_clean,test,road_compensated__road_foot_inside__late_minus_early,Road context,0.0,0.0
+115_clean,test,road_compensated__road_signed_boundary_distance_h__early_mean,Road context,0.02415927001545026,0.006604583754753452
+115_clean,test,road_compensated__road_signed_boundary_distance_h__late_mean,Road context,0.0207759393557089,0.004621239212522579
+115_clean,test,road_compensated__road_signed_boundary_distance_h__late_minus_early,Road context,0.01154319745340173,0.0035517314808433164
+115_clean,test,road_compensated__road_nearest_boundary_dx_h__early_mean,Road context,0.22928520566980845,0.017651718813910047
+115_clean,test,road_compensated__road_nearest_boundary_dx_h__late_mean,Road context,0.13171069126966253,0.030570821982761193
+115_clean,test,road_compensated__road_nearest_boundary_dx_h__late_minus_early,Road context,0.006145789126378292,0.0038435272067341526
+115_clean,test,road_compensated__road_nearest_boundary_dy_h__early_mean,Road context,0.03878617672209965,0.015011493232455328
+115_clean,test,road_compensated__road_nearest_boundary_dy_h__late_mean,Road context,0.028620576248882187,0.008841431890705327
+115_clean,test,road_compensated__road_nearest_boundary_dy_h__late_minus_early,Road context,0.0017459956252480133,0.003024153132722548
+115_clean,test,road_compensated__road_boundary_tangent_x__early_mean,Road context,0.04015334166190385,0.006282260242779423
+115_clean,test,road_compensated__road_boundary_tangent_x__late_mean,Road context,0.1332040146346667,0.014151156515070882
+115_clean,test,road_compensated__road_boundary_tangent_x__late_minus_early,Road context,0.013538520113494087,0.005744541134115348
+115_clean,test,road_compensated__road_boundary_tangent_y__early_mean,Road context,0.03186130330085261,0.011925101061191531
+115_clean,test,road_compensated__road_boundary_tangent_y__late_mean,Road context,0.013137732979687655,0.0038286641550828566
+115_clean,test,road_compensated__road_boundary_tangent_y__late_minus_early,Road context,0.005360216703184728,0.004971495471067671
+115_clean,test,road_compensated__road_boundary_valid__early_mean,Road context,0.005144635747116933,0.0070993513284098
+115_clean,test,road_compensated__road_boundary_valid__late_mean,Road context,0.00612326630114245,0.007373253008576914
+115_clean,test,road_compensated__road_boundary_valid__late_minus_early,Road context,0.0,0.0
+115_clean,test,road_compensated__lane_nearest_distance_h__early_mean,Road context,0.023044513052517576,0.0071918606846170735
+115_clean,test,road_compensated__lane_nearest_distance_h__late_mean,Road context,0.012868578313926805,0.0034852862038619605
+115_clean,test,road_compensated__lane_nearest_distance_h__late_minus_early,Road context,0.17279991182865126,0.015639693531136693
+115_clean,test,road_compensated__lane_nearest_dx_h__early_mean,Road context,0.09644483848073011,0.004325043053334327
+115_clean,test,road_compensated__lane_nearest_dx_h__late_mean,Road context,0.05317618348596954,0.010659792556481364
+115_clean,test,road_compensated__lane_nearest_dx_h__late_minus_early,Road context,0.003794420037901845,0.001780787950943189
+115_clean,test,road_compensated__lane_nearest_dy_h__early_mean,Road context,0.09297959412531458,0.036196129326741544
+115_clean,test,road_compensated__lane_nearest_dy_h__late_mean,Road context,0.6524793907198865,0.0473342432582375
+115_clean,test,road_compensated__lane_nearest_dy_h__late_minus_early,Road context,0.003622066695863588,0.0024704630771679075
+115_clean,test,road_compensated__lane_tangent_x__early_mean,Road context,0.6010678126510572,0.03262743941789587
+115_clean,test,road_compensated__lane_tangent_x__late_mean,Road context,0.4384207236161218,0.059079994691324765
+115_clean,test,road_compensated__lane_tangent_x__late_minus_early,Road context,0.013815354096272317,0.005347169677956485
+115_clean,test,road_compensated__lane_tangent_y__early_mean,Road context,0.022135626477880255,0.002657739856283904
+115_clean,test,road_compensated__lane_tangent_y__late_mean,Road context,0.018587314581964165,0.005420600968408808
+115_clean,test,road_compensated__lane_tangent_y__late_minus_early,Road context,0.012148216991643862,0.008341986632964236
+115_clean,test,road_compensated__lane_geometry_valid__early_mean,Road context,0.025233516554291707,0.007264869327621296
+115_clean,test,road_compensated__lane_geometry_valid__late_mean,Road context,0.014239544903341611,0.02466361524924613
+115_clean,test,road_compensated__lane_geometry_valid__late_minus_early,Road context,0.0,0.0
+115_clean,test,road_compensated__foot_velocity_x_h__early_mean,Road context,0.07049368241069293,0.01476723259484677
+115_clean,test,road_compensated__foot_velocity_x_h__late_mean,Road context,0.022528131392062296,0.006510411131501141
+115_clean,test,road_compensated__foot_velocity_x_h__late_minus_early,Road context,0.003066880088135864,0.0014829997732589196
+115_clean,test,road_compensated__foot_velocity_y_h__early_mean,Road context,0.001498390904095379,0.0011267249293191312
+115_clean,test,road_compensated__foot_velocity_y_h__late_mean,Road context,0.015559822105635689,0.0047424785153881805
+115_clean,test,road_compensated__foot_velocity_y_h__late_minus_early,Road context,0.0032289374683824473,0.0007929610268280632
+115_clean,test,road_compensated__foot_speed_h__early_mean,Road context,0.016146748841280735,0.004318924681941469
+115_clean,test,road_compensated__foot_speed_h__late_mean,Road context,0.024221527576270732,0.008481450731467829
+115_clean,test,road_compensated__foot_speed_h__late_minus_early,Road context,0.026686801015164754,0.018451348032457064
+115_clean,test,road_compensated__motion_parallel_to_road__early_mean,Road context,0.027666542857494775,0.0065090851307712414
+115_clean,test,road_compensated__motion_parallel_to_road__late_mean,Road context,0.03142147237821638,0.002265896397290096
+115_clean,test,road_compensated__motion_parallel_to_road__late_minus_early,Road context,0.0007152994814089039,0.001071043331842562
+115_clean,test,road_compensated__motion_toward_drivable_area__early_mean,Road context,0.01106090758049049,0.002841863597733378
+115_clean,test,road_compensated__motion_toward_drivable_area__late_mean,Road context,0.005687843972013351,0.002572179207595097
+115_clean,test,road_compensated__motion_toward_drivable_area__late_minus_early,Road context,0.0023410262676692595,0.0013682030908639625
+115_clean,test,road_compensated__motion_parallel_to_lane__early_mean,Road context,0.029480525844918337,0.003516852912961007
+115_clean,test,road_compensated__motion_parallel_to_lane__late_mean,Road context,0.037897431614024674,0.008212077126329799
+115_clean,test,road_compensated__motion_parallel_to_lane__late_minus_early,Road context,0.0012234396239887001,0.0011740912227674429
+115_clean,test,road_compensated__road_signed_distance_change_h__early_mean,Road context,0.00342977402969157,0.0010156481615138152
+115_clean,test,road_compensated__road_signed_distance_change_h__late_mean,Road context,0.0060316973601285085,0.00548076886130453
+115_clean,test,road_compensated__road_signed_distance_change_h__late_minus_early,Road context,0.0013225427275736985,0.001380505680348463
+115_clean,test,vehicle_fraction__stopped,Vehicle state,0.030090440700545017,0.015223476472243027
+115_clean,test,vehicle_fraction__moving_slow,Vehicle state,0.0,0.0
+115_clean,test,vehicle_fraction__moving_fast,Vehicle state,0.002282319406325433,0.0019765474131372977
+115_clean,test,vehicle_fraction__decelerating,Vehicle state,0.006578102230981435,0.0021244675455411284
+115_clean,test,vehicle_fraction__accelerating,Vehicle state,0.05693333621073557,0.013938157614868498
+115_clean,test,vehicle_first__stopped,Vehicle state,0.007621796217825831,0.006744807132357357
+115_clean,test,vehicle_first__moving_slow,Vehicle state,0.0,0.0
+115_clean,test,vehicle_first__moving_fast,Vehicle state,0.0,0.0
+115_clean,test,vehicle_first__decelerating,Vehicle state,0.0007753776602613319,0.0013429935026265064
+115_clean,test,vehicle_first__accelerating,Vehicle state,0.0004092763762237365,0.0007088874779571865
+115_clean,test,vehicle_last__stopped,Vehicle state,0.005121365751334439,0.0025426717896166184
+115_clean,test,vehicle_last__moving_slow,Vehicle state,0.0,0.0
+115_clean,test,vehicle_last__moving_fast,Vehicle state,0.0,0.0
+115_clean,test,vehicle_last__decelerating,Vehicle state,0.003776270344651956,0.0012400610658703172
+115_clean,test,vehicle_last__accelerating,Vehicle state,0.03358028798937829,0.012986885707030053
+115_beh,validation,v2__ankle_center_x_delta,Combined BIU package,0.0025164878980648516,0.000997121532052053
+115_beh,validation,v2__ankle_center_x_last,Combined BIU package,0.0,0.0
+115_beh,validation,v2__ankle_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_beh,validation,v2__ankle_center_x_velocity_std,Combined BIU package,0.04068494771017767,0.012027685032763736
+115_beh,validation,arm_swing_asymmetry_delta,Combined BIU package,0.0,0.0
+115_beh,validation,arm_swing_asymmetry_first,Combined BIU package,0.002731865681143421,0.001740902205391722
+115_beh,validation,arm_swing_asymmetry_last,Combined BIU package,0.029037990689742027,0.011528621061476878
+115_beh,validation,arm_swing_asymmetry_max,Combined BIU package,0.03729612013068853,0.01246283838570855
+115_beh,validation,arm_swing_asymmetry_mean,Combined BIU package,0.13008386651586393,0.005927689001868583
+115_beh,validation,arm_swing_asymmetry_min,Combined BIU package,0.0037693115677325355,0.0009204660500962069
+115_beh,validation,arm_swing_asymmetry_std,Combined BIU package,0.05830838475284967,0.006632348078248179
+115_beh,validation,bbox_area_change,BBox,0.010470225019367623,0.003328907359686623
+115_beh,validation,bbox_area_delta,BBox,0.002629911648744548,0.003188829837895443
+115_beh,validation,bbox_area_first,BBox,0.004790741840432611,0.0014940466117395028
+115_beh,validation,bbox_area_last,BBox,0.007098774558777302,0.0035912577521383087
+115_beh,validation,bbox_area_max,BBox,0.007548400006557175,0.004686009104592546
+115_beh,validation,bbox_area_mean,BBox,0.007158911798438622,0.006525673049116582
+115_beh,validation,bbox_area_min,BBox,0.014946019068359045,0.007647500554564417
+115_beh,validation,bbox_area_std,BBox,0.025390790006692313,0.005070255387090197
+115_beh,validation,bbox_aspect_ratio_delta,BBox,0.0,0.0
+115_beh,validation,bbox_aspect_ratio_first,BBox,0.014651706089142494,0.0035005258136763255
+115_beh,validation,bbox_aspect_ratio_last,BBox,0.02925331927688418,0.0048475237030459
+115_beh,validation,bbox_aspect_ratio_max,BBox,0.007483400786410986,0.003469560872098682
+115_beh,validation,bbox_aspect_ratio_mean,BBox,0.022446018098641867,0.016773584952971845
+115_beh,validation,bbox_aspect_ratio_min,BBox,0.17900912647395964,0.027527335577100513
+115_beh,validation,bbox_aspect_ratio_std,BBox,0.06338640476457362,0.021192187689845505
+115_beh,validation,bbox_center_x_delta,BBox,0.06799790511544686,0.008105169256621289
+115_beh,validation,bbox_center_x_first,BBox,0.1406403888666684,0.020479333271192036
+115_beh,validation,bbox_center_x_last,BBox,0.02358250600493002,0.007261593331491891
+115_beh,validation,bbox_center_x_max,BBox,0.07018904135300785,0.012469278163845769
+115_beh,validation,bbox_center_x_mean,BBox,0.01879005022829632,0.005950427628902102
+115_beh,validation,bbox_center_x_min,BBox,0.01894515319153302,0.0027767719199613657
+115_beh,validation,bbox_center_x_std,BBox,0.03227382070547196,0.010896563421489206
+115_beh,validation,bbox_center_y_delta,BBox,0.02414013499768641,0.010520786588143483
+115_beh,validation,bbox_center_y_first,BBox,0.034107372050956736,0.01055519651409986
+115_beh,validation,bbox_center_y_last,BBox,0.09251317810959929,0.023795332277305053
+115_beh,validation,bbox_center_y_max,BBox,0.027997256861326158,0.006493050351723856
+115_beh,validation,bbox_center_y_mean,BBox,0.019021309729323647,0.006360722954796929
+115_beh,validation,bbox_center_y_min,BBox,0.05613022431257866,0.017581600365367885
+115_beh,validation,bbox_center_y_std,BBox,0.02616737342573325,0.007664393546375663
+115_beh,validation,bbox_height_change,BBox,0.04182819089629064,0.01792693324952524
+115_beh,validation,bbox_height_delta,BBox,0.007257534070347741,0.004613720240206989
+115_beh,validation,bbox_height_first,BBox,0.03834217090541933,0.010953249599999637
+115_beh,validation,bbox_height_last,BBox,0.029202493056449678,0.010391198076311026
+115_beh,validation,bbox_height_max,BBox,0.02530154250751406,0.012153645189112718
+115_beh,validation,bbox_height_mean,BBox,0.01650802349822773,0.009440921062269582
+115_beh,validation,bbox_height_min,BBox,0.0698029206181843,0.016465212884540198
+115_beh,validation,bbox_height_std,BBox,0.008491452309346602,0.006069178140100869
+115_beh,validation,bbox_scale_change_ratio,BBox,0.013830220675145305,0.003895723119656527
+115_beh,validation,bbox_valid_frame_count,BBox,0.0,0.0
+115_beh,validation,bbox_width_change,BBox,0.004704958218863085,0.0023949172579996484
+115_beh,validation,bbox_width_delta,BBox,0.0006844867379632303,0.0008075051121032281
+115_beh,validation,bbox_width_first,BBox,0.0026723284433248194,0.002531188715150902
+115_beh,validation,bbox_width_last,BBox,0.0038408180288252093,0.004529746101861454
+115_beh,validation,bbox_width_max,BBox,0.0027095259393510192,0.0011458702840212416
+115_beh,validation,bbox_width_mean,BBox,0.003816815795900926,0.0035119475386732176
+115_beh,validation,bbox_width_min,BBox,0.011821402277308067,0.010651473865685821
+115_beh,validation,bbox_width_std,BBox,0.016098196428562913,0.005032957960765704
+115_beh,validation,biu_low_confidence_frame_count,Combined BIU package,0.0,0.0
+115_beh,validation,biu_valid_frame_count,Combined BIU package,0.0,0.0
+115_beh,validation,body_yaw_angle_delta,Combined BIU package,0.00012783441126869974,0.0002214156952730434
+115_beh,validation,body_yaw_angle_first,Combined BIU package,0.0035993673011420688,0.0034314671943111025
+115_beh,validation,body_yaw_angle_last,Combined BIU package,0.009833061565246085,0.004329396871376267
+115_beh,validation,body_yaw_angle_max,Combined BIU package,0.021865198876164834,0.01228925973637413
+115_beh,validation,body_yaw_angle_mean,Combined BIU package,0.013139987337392097,0.0021383537412100477
+115_beh,validation,body_yaw_angle_min,Combined BIU package,0.06038183328687898,0.0022765249317750675
+115_beh,validation,body_yaw_angle_std,Combined BIU package,0.02622351346145571,0.012725200725426851
+115_beh,validation,center_x_displacement,BBox,0.02033208031022919,0.005016654946410486
+115_beh,validation,center_x_velocity_mean,BBox,0.0035234812037607515,0.00038540165381041754
+115_beh,validation,center_x_velocity_std,BBox,0.1162081791989803,0.023560822575637064
+115_beh,validation,center_y_displacement,BBox,0.0030522088779357183,0.005286580851897458
+115_beh,validation,center_y_velocity_mean,BBox,0.0,0.0
+115_beh,validation,center_y_velocity_std,BBox,0.034224404765969045,0.002163719203798213
+115_beh,validation,face_yaw_angle_delta,Combined BIU package,0.0010224149079599543,0.001770874567002498
+115_beh,validation,face_yaw_angle_first,Combined BIU package,0.009582310523574828,0.0046963277740127065
+115_beh,validation,face_yaw_angle_last,Combined BIU package,0.005705170383254841,0.0016167596149344668
+115_beh,validation,face_yaw_angle_max,Combined BIU package,0.05740555583806606,0.00609439153637062
+115_beh,validation,face_yaw_angle_mean,Combined BIU package,0.04277484888185557,0.0062956163644254
+115_beh,validation,face_yaw_angle_min,Combined BIU package,0.021393469638000664,0.014261846536221161
+115_beh,validation,face_yaw_angle_std,Combined BIU package,0.018037942790403223,0.0036538426900106793
+115_beh,validation,gaze_to_car_angle_delta,Combined BIU package,0.004118494315083478,0.003580220371242734
+115_beh,validation,gaze_to_car_angle_first,Combined BIU package,0.032125598564920387,0.007744849930406064
+115_beh,validation,gaze_to_car_angle_last,Combined BIU package,0.017269109520492255,0.009893789340358587
+115_beh,validation,gaze_to_car_angle_max,Combined BIU package,0.2100789594725698,0.004239949921558944
+115_beh,validation,gaze_to_car_angle_mean,Combined BIU package,0.05160042001258392,0.011218600475060504
+115_beh,validation,gaze_to_car_angle_min,Combined BIU package,0.02950085051328562,0.009187362206693984
+115_beh,validation,gaze_to_car_angle_std,Combined BIU package,0.13013768623860109,0.021824588005183
+115_beh,validation,head_yaw_angle_delta,Combined BIU package,0.10903065558138096,0.005161805239795054
+115_beh,validation,head_yaw_angle_first,Combined BIU package,0.04509590931439428,0.010007819411314288
+115_beh,validation,head_yaw_angle_last,Combined BIU package,0.0035973541160289214,0.0025964121414066704
+115_beh,validation,head_yaw_angle_max,Combined BIU package,0.05331305532200523,0.007149007362686136
+115_beh,validation,head_yaw_angle_mean,Combined BIU package,0.04643742972231257,0.006729525031940486
+115_beh,validation,head_yaw_angle_min,Combined BIU package,0.034698500543301695,0.005189917279917549
+115_beh,validation,head_yaw_angle_std,Combined BIU package,0.009830413862871078,0.005468011021289577
+115_beh,validation,v2__hip_center_x_delta,Combined BIU package,0.029127130661571535,0.017344275162175113
+115_beh,validation,v2__hip_center_x_last,Combined BIU package,0.004735358123546953,0.006403381139413698
+115_beh,validation,v2__hip_center_x_velocity_mean,Combined BIU package,0.0025968988366779733,0.0026215033272973297
+115_beh,validation,v2__hip_center_x_velocity_std,Combined BIU package,0.001571442176593973,0.001838579623540358
+115_beh,validation,v2__knee_center_x_delta,Combined BIU package,0.005367423618595903,0.0029823334466954755
+115_beh,validation,v2__knee_center_x_last,Combined BIU package,0.013976047999872095,0.0067480302404264465
+115_beh,validation,v2__knee_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_beh,validation,v2__knee_center_x_velocity_std,Combined BIU package,0.022630452383989492,0.010065586270137572
+115_beh,validation,v2__lead_ankle_forward_delta,Combined BIU package,0.010362585500532442,0.002442810722421355
+115_beh,validation,v2__lead_ankle_forward_last,Combined BIU package,0.0019521408775848908,0.0022263794816266428
+115_beh,validation,v2__lead_ankle_forward_velocity_mean,Combined BIU package,0.0006019014472057838,0.001042523887709654
+115_beh,validation,v2__lead_ankle_forward_velocity_std,Combined BIU package,0.24202170366608633,0.018691879483676743
+115_beh,validation,lead_foot_elevation_delta,Combined BIU package,0.0,0.0
+115_beh,validation,lead_foot_elevation_first,Combined BIU package,0.0007750613227026081,0.0013424455899024544
+115_beh,validation,lead_foot_elevation_last,Combined BIU package,0.009771962565374393,0.004309798655050174
+115_beh,validation,lead_foot_elevation_max,Combined BIU package,0.06062771785148347,0.0037066168317001374
+115_beh,validation,lead_foot_elevation_mean,Combined BIU package,0.10874635588311009,0.02158453603662941
+115_beh,validation,lead_foot_elevation_min,Combined BIU package,0.034607337322406805,0.010747946803154024
+115_beh,validation,lead_foot_elevation_std,Combined BIU package,0.173004958570804,0.015060979796696397
+115_beh,validation,lead_foot_lifted_delta,Combined BIU package,0.0,0.0
+115_beh,validation,lead_foot_lifted_first,Combined BIU package,0.0,0.0
+115_beh,validation,lead_foot_lifted_last,Combined BIU package,0.0,0.0
+115_beh,validation,lead_foot_lifted_max,Combined BIU package,0.0,0.0
+115_beh,validation,lead_foot_lifted_mean,Combined BIU package,0.005393134755203976,0.0036206069726941546
+115_beh,validation,lead_foot_lifted_min,Combined BIU package,0.0,0.0
+115_beh,validation,lead_foot_lifted_std,Combined BIU package,0.000696042153074152,0.0012055803733340652
+115_beh,validation,v2__leg_center_x_delta,Combined BIU package,0.011499450895447828,0.006582802589911909
+115_beh,validation,v2__leg_center_x_last,Combined BIU package,0.00856843145664258,0.007621072682813674
+115_beh,validation,v2__leg_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_beh,validation,v2__leg_center_x_velocity_std,Combined BIU package,0.021761144120945305,0.009580451126633825
+115_beh,validation,v2__lower_body_motion_magnitude_mean,Combined BIU package,0.013274892486627702,0.00863203726938289
+115_beh,validation,v2__lower_body_motion_magnitude_std,Combined BIU package,0.007880284273599278,0.005366721145668886
+115_beh,validation,norm_shoulder_width_delta,Combined BIU package,0.03321481852124499,0.014901384543067615
+115_beh,validation,norm_shoulder_width_first,Combined BIU package,0.002792391168228133,0.004836563377977738
+115_beh,validation,norm_shoulder_width_last,Combined BIU package,0.22575086170740774,0.014916470080236855
+115_beh,validation,norm_shoulder_width_max,Combined BIU package,0.018776268600460562,0.010123117103005834
+115_beh,validation,norm_shoulder_width_mean,Combined BIU package,0.0181577822117176,0.006493868712700321
+115_beh,validation,norm_shoulder_width_min,Combined BIU package,0.06842446371947593,0.015841756793031396
+115_beh,validation,norm_shoulder_width_std,Combined BIU package,0.02447255552773936,0.00500360824722565
+115_beh,validation,v2__shoulder_center_x_delta,Combined BIU package,0.012435647742266347,0.015576886902334061
+115_beh,validation,v2__shoulder_center_x_last,Combined BIU package,0.0,0.0
+115_beh,validation,v2__shoulder_center_x_velocity_mean,Combined BIU package,0.004325288077386624,0.00749161870740554
+115_beh,validation,v2__shoulder_center_x_velocity_std,Combined BIU package,0.02540536399064175,0.0023472434952352722
+115_beh,validation,stride_length_delta,Combined BIU package,0.0013478057584151262,0.0012816433653441304
+115_beh,validation,stride_length_first,Combined BIU package,0.0029831271061061863,0.0021371988333727253
+115_beh,validation,stride_length_last,Combined BIU package,0.0037684022090891654,0.0010986896433435873
+115_beh,validation,stride_length_max,Combined BIU package,0.03555035375572738,0.006391718639109253
+115_beh,validation,stride_length_mean,Combined BIU package,0.15450753503416206,0.027909063611666333
+115_beh,validation,stride_length_min,Combined BIU package,0.01180652539969291,0.002265997585804846
+115_beh,validation,stride_length_std,Combined BIU package,0.09161917852207674,0.014293603812161219
+115_beh,validation,v2__stride_opening_delta,Combined BIU package,0.005251760170576945,0.002359083675739496
+115_beh,validation,v2__stride_opening_last,Combined BIU package,0.0015551517058093967,0.00143131187379032
+115_beh,validation,v2__stride_opening_velocity_mean,Combined BIU package,0.0,0.0
+115_beh,validation,v2__stride_opening_velocity_std,Combined BIU package,0.0015285608025791108,0.0007134361942357891
+115_beh,validation,v2__torso_center_x_delta,Combined BIU package,0.011528106210782185,0.002217351549385331
+115_beh,validation,v2__torso_center_x_last,Combined BIU package,0.004733013672902975,0.008197820154386136
+115_beh,validation,v2__torso_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_beh,validation,v2__torso_center_x_velocity_std,Combined BIU package,0.014270479259060019,0.0008142744203664908
+115_beh,validation,torso_lean_angle_delta,Combined BIU package,0.0007259867195913584,0.0012574458839524924
+115_beh,validation,torso_lean_angle_first,Combined BIU package,0.020690896323517723,0.001139305657113934
+115_beh,validation,torso_lean_angle_last,Combined BIU package,0.010375339743670348,0.008050344098994596
+115_beh,validation,torso_lean_angle_max,Combined BIU package,0.03792493194841957,0.006773386342053601
+115_beh,validation,torso_lean_angle_mean,Combined BIU package,0.03188584461524702,0.0013038207481728863
+115_beh,validation,torso_lean_angle_min,Combined BIU package,0.06279413547278985,0.007117248565953683
+115_beh,validation,torso_lean_angle_std,Combined BIU package,0.05099985423336221,0.018455570743579175
+115_beh,validation,v2__torso_motion_magnitude_mean,Combined BIU package,0.020441157172883657,0.003502402027922575
+115_beh,validation,v2__torso_motion_magnitude_std,Combined BIU package,0.13830767663663315,0.00470786514331055
+115_beh,validation,temporal__lower_body_motion_magnitude_mean_early,Explicit temporal,0.003477249151565899,0.0016882956846258573
+115_beh,validation,temporal__lower_body_motion_magnitude_mean_late,Explicit temporal,0.013808052751784707,0.0070175756284995465
+115_beh,validation,temporal__lower_body_motion_magnitude_mean_late_minus_early,Explicit temporal,0.012786488521288691,0.00714114450478401
+115_beh,validation,temporal__lead_ankle_forward_delta_early,Explicit temporal,0.014583759439179736,0.004508034347158376
+115_beh,validation,temporal__lead_ankle_forward_delta_late,Explicit temporal,0.008439679478247683,0.0031615545825101304
+115_beh,validation,temporal__lead_ankle_forward_delta_late_minus_early,Explicit temporal,0.039115755192771266,0.004051561587715302
+115_beh,validation,temporal__torso_motion_magnitude_mean_early,Explicit temporal,0.0028314921510573885,0.001960586721915874
+115_beh,validation,temporal__torso_motion_magnitude_mean_late,Explicit temporal,0.019045694374393404,0.00599351734927894
+115_beh,validation,temporal__torso_motion_magnitude_mean_late_minus_early,Explicit temporal,0.0014022803931438028,0.00121558089134351
+115_beh,validation,temporal__torso_center_x_delta_early,Explicit temporal,0.01690112212422681,0.0059439826870942335
+115_beh,validation,temporal__torso_center_x_delta_late,Explicit temporal,0.19912727905011454,0.01983343623778054
+115_beh,validation,temporal__torso_center_x_delta_late_minus_early,Explicit temporal,0.14227299420773976,0.027921994309412078
+115_beh,validation,temporal__bbox_center_dx_norm_early,Explicit temporal,0.16306579690032122,0.015186021293749059
+115_beh,validation,temporal__bbox_center_dx_norm_late,Explicit temporal,0.19977764254429484,0.01229948878127416
+115_beh,validation,temporal__bbox_center_dx_norm_late_minus_early,Explicit temporal,0.016933888011257944,0.002287238660229439
+115_beh,validation,temporal__bbox_scale_log_delta_early,Explicit temporal,0.005130063195760329,0.0035548350582444823
+115_beh,validation,temporal__bbox_scale_log_delta_late,Explicit temporal,0.014081011007468731,0.00814507387302514
+115_beh,validation,temporal__bbox_scale_log_delta_late_minus_early,Explicit temporal,0.0,0.0
+115_beh,validation,temporal__pose_confidence_mean_early,Explicit temporal,0.008732288786095948,0.0034371266594821546
+115_beh,validation,temporal__pose_confidence_mean_late,Explicit temporal,0.029328704288966324,0.007175519674504722
+115_beh,validation,temporal__pose_confidence_mean_late_minus_early,Explicit temporal,0.0021302385876095053,0.0022294812176634187
+115_beh,validation,road_compensated__road_foot_inside__early_mean,Road context,0.0,0.0
+115_beh,validation,road_compensated__road_foot_inside__late_mean,Road context,0.0,0.0
+115_beh,validation,road_compensated__road_foot_inside__late_minus_early,Road context,0.0,0.0
+115_beh,validation,road_compensated__road_signed_boundary_distance_h__early_mean,Road context,0.03537960628467065,0.00798149534239027
+115_beh,validation,road_compensated__road_signed_boundary_distance_h__late_mean,Road context,0.04643457307311586,0.011045395425118903
+115_beh,validation,road_compensated__road_signed_boundary_distance_h__late_minus_early,Road context,0.0059925642987160325,0.003347122080628985
+115_beh,validation,road_compensated__road_nearest_boundary_dx_h__early_mean,Road context,0.019349667133818593,0.004804859259130254
+115_beh,validation,road_compensated__road_nearest_boundary_dx_h__late_mean,Road context,0.003450944559312215,0.0007731876363025348
+115_beh,validation,road_compensated__road_nearest_boundary_dx_h__late_minus_early,Road context,0.014261694115582731,0.00351641296688961
+115_beh,validation,road_compensated__road_nearest_boundary_dy_h__early_mean,Road context,0.01845340286668572,0.007279688983034504
+115_beh,validation,road_compensated__road_nearest_boundary_dy_h__late_mean,Road context,0.03628632782707658,0.012252706281741235
+115_beh,validation,road_compensated__road_nearest_boundary_dy_h__late_minus_early,Road context,0.006961181591304671,0.0020965950933841387
+115_beh,validation,road_compensated__road_boundary_tangent_x__early_mean,Road context,0.013371337121387829,0.008339730840460705
+115_beh,validation,road_compensated__road_boundary_tangent_x__late_mean,Road context,0.20409153233738953,0.019345005411279186
+115_beh,validation,road_compensated__road_boundary_tangent_x__late_minus_early,Road context,0.004779013281021993,0.000893509359898191
+115_beh,validation,road_compensated__road_boundary_tangent_y__early_mean,Road context,0.06125908487536701,0.009031811619774018
+115_beh,validation,road_compensated__road_boundary_tangent_y__late_mean,Road context,0.08554270629451632,0.015294490759400417
+115_beh,validation,road_compensated__road_boundary_tangent_y__late_minus_early,Road context,0.005430733748152339,0.0027768455004676166
+115_beh,validation,road_compensated__road_boundary_valid__early_mean,Road context,0.003946695482462886,0.004374902963445152
+115_beh,validation,road_compensated__road_boundary_valid__late_mean,Road context,0.037605159784815996,0.006342437576140827
+115_beh,validation,road_compensated__road_boundary_valid__late_minus_early,Road context,0.0,0.0
+115_beh,validation,road_compensated__lane_nearest_distance_h__early_mean,Road context,0.0863808481732753,0.016847608899878647
+115_beh,validation,road_compensated__lane_nearest_distance_h__late_mean,Road context,0.014384201590065426,0.005525734445494063
+115_beh,validation,road_compensated__lane_nearest_distance_h__late_minus_early,Road context,0.003270014019451456,0.0011839409640184068
+115_beh,validation,road_compensated__lane_nearest_dx_h__early_mean,Road context,0.058413930565372786,0.013987086637066428
+115_beh,validation,road_compensated__lane_nearest_dx_h__late_mean,Road context,0.04376915089323278,0.0021992575115423684
+115_beh,validation,road_compensated__lane_nearest_dx_h__late_minus_early,Road context,0.00129815296998912,0.002248466900017592
+115_beh,validation,road_compensated__lane_nearest_dy_h__early_mean,Road context,0.02921538732493086,0.006490880077535103
+115_beh,validation,road_compensated__lane_nearest_dy_h__late_mean,Road context,0.10365078159049601,0.00879485969230608
+115_beh,validation,road_compensated__lane_nearest_dy_h__late_minus_early,Road context,0.012091980397403971,0.007534699435514501
+115_beh,validation,road_compensated__lane_tangent_x__early_mean,Road context,0.36732833013490107,0.03411188204419841
+115_beh,validation,road_compensated__lane_tangent_x__late_mean,Road context,0.47173806939648655,0.02893277465772089
+115_beh,validation,road_compensated__lane_tangent_x__late_minus_early,Road context,0.0019801368284224886,0.0007674737669293297
+115_beh,validation,road_compensated__lane_tangent_y__early_mean,Road context,0.22173742840538627,0.007691678617751132
+115_beh,validation,road_compensated__lane_tangent_y__late_mean,Road context,0.1278564583277811,0.004646279621956779
+115_beh,validation,road_compensated__lane_tangent_y__late_minus_early,Road context,0.03213966434155065,0.004574142295531086
+115_beh,validation,road_compensated__lane_geometry_valid__early_mean,Road context,0.008075405743576654,0.011324969408392713
+115_beh,validation,road_compensated__lane_geometry_valid__late_mean,Road context,0.004685133230402141,0.006566641242016946
+115_beh,validation,road_compensated__lane_geometry_valid__late_minus_early,Road context,0.0,0.0
+115_beh,validation,road_compensated__foot_velocity_x_h__early_mean,Road context,0.25060807173711197,0.012973949685115477
+115_beh,validation,road_compensated__foot_velocity_x_h__late_mean,Road context,0.1561017447212498,0.009567963751388603
+115_beh,validation,road_compensated__foot_velocity_x_h__late_minus_early,Road context,0.0035524871728681903,0.0032901529811482206
+115_beh,validation,road_compensated__foot_velocity_y_h__early_mean,Road context,0.005592121124269503,0.0024301627976373225
+115_beh,validation,road_compensated__foot_velocity_y_h__late_mean,Road context,0.0968999086677792,0.005140753826951832
+115_beh,validation,road_compensated__foot_velocity_y_h__late_minus_early,Road context,0.002845375055332409,0.00014511559401178138
+115_beh,validation,road_compensated__foot_speed_h__early_mean,Road context,0.1848172022832478,0.009528624381689206
+115_beh,validation,road_compensated__foot_speed_h__late_mean,Road context,0.0703208191966838,0.012504123854025887
+115_beh,validation,road_compensated__foot_speed_h__late_minus_early,Road context,0.0005226780351933821,0.0009053049129552114
+115_beh,validation,road_compensated__motion_parallel_to_road__early_mean,Road context,0.007767610003839481,0.0035198892038730005
+115_beh,validation,road_compensated__motion_parallel_to_road__late_mean,Road context,0.1395010498221502,0.016963618062514896
+115_beh,validation,road_compensated__motion_parallel_to_road__late_minus_early,Road context,0.004856949884649084,0.00491178895944957
+115_beh,validation,road_compensated__motion_toward_drivable_area__early_mean,Road context,0.008766852168991044,0.005707372161031047
+115_beh,validation,road_compensated__motion_toward_drivable_area__late_mean,Road context,0.11449499233316672,0.005944993474057544
+115_beh,validation,road_compensated__motion_toward_drivable_area__late_minus_early,Road context,0.0011526022749659848,0.0011853165893618157
+115_beh,validation,road_compensated__motion_parallel_to_lane__early_mean,Road context,0.00959674116282098,0.004437963059086936
+115_beh,validation,road_compensated__motion_parallel_to_lane__late_mean,Road context,0.03111670321586719,0.004386983362618311
+115_beh,validation,road_compensated__motion_parallel_to_lane__late_minus_early,Road context,0.0007992192697387378,0.0007510503052473845
+115_beh,validation,road_compensated__road_signed_distance_change_h__early_mean,Road context,0.024213496663289518,0.0029951446049177014
+115_beh,validation,road_compensated__road_signed_distance_change_h__late_mean,Road context,0.0070429568425251915,0.0012326649420490335
+115_beh,validation,road_compensated__road_signed_distance_change_h__late_minus_early,Road context,0.0015010250014408182,0.00139902593841195
+115_beh,validation,vehicle_fraction__stopped,Vehicle state,0.005951397477414397,0.0018720537020013599
+115_beh,validation,vehicle_fraction__moving_slow,Vehicle state,0.0,0.0
+115_beh,validation,vehicle_fraction__moving_fast,Vehicle state,0.0,0.0
+115_beh,validation,vehicle_fraction__decelerating,Vehicle state,0.009400599025357925,0.006031900572109204
+115_beh,validation,vehicle_fraction__accelerating,Vehicle state,0.0035260629252666614,0.0031021775666528416
+115_beh,validation,vehicle_first__stopped,Vehicle state,0.00047954902811022087,0.0008306032814071782
+115_beh,validation,vehicle_first__moving_slow,Vehicle state,0.0,0.0
+115_beh,validation,vehicle_first__moving_fast,Vehicle state,0.0,0.0
+115_beh,validation,vehicle_first__decelerating,Vehicle state,0.003896078715721766,0.002382604837443789
+115_beh,validation,vehicle_first__accelerating,Vehicle state,0.0012517948275935175,0.0021681722420438952
+115_beh,validation,vehicle_last__stopped,Vehicle state,0.0011534669017034375,0.0019978632785994095
+115_beh,validation,vehicle_last__moving_slow,Vehicle state,0.0,0.0
+115_beh,validation,vehicle_last__moving_fast,Vehicle state,0.0,0.0
+115_beh,validation,vehicle_last__decelerating,Vehicle state,0.005276756123806409,0.005116395100093699
+115_beh,validation,vehicle_last__accelerating,Vehicle state,0.004008030682688671,0.0037665378511463807
+115_beh,test,v2__ankle_center_x_delta,Combined BIU package,0.002719031651618422,0.001017157563830294
+115_beh,test,v2__ankle_center_x_last,Combined BIU package,0.0,0.0
+115_beh,test,v2__ankle_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_beh,test,v2__ankle_center_x_velocity_std,Combined BIU package,0.04543925909632126,0.01237229081028828
+115_beh,test,arm_swing_asymmetry_delta,Combined BIU package,0.0,0.0
+115_beh,test,arm_swing_asymmetry_first,Combined BIU package,0.002926425383831093,0.0020055693399065383
+115_beh,test,arm_swing_asymmetry_last,Combined BIU package,0.030156178453672036,0.011232903123003735
+115_beh,test,arm_swing_asymmetry_max,Combined BIU package,0.03736806597684259,0.012293309590956657
+115_beh,test,arm_swing_asymmetry_mean,Combined BIU package,0.13228635302308356,0.00932166576064786
+115_beh,test,arm_swing_asymmetry_min,Combined BIU package,0.0034820374455349994,0.0011479869988728496
+115_beh,test,arm_swing_asymmetry_std,Combined BIU package,0.04970293319840632,0.005494037376467922
+115_beh,test,bbox_area_change,BBox,0.010993093669873291,0.0037741759131526
+115_beh,test,bbox_area_delta,BBox,0.003404586075708744,0.003973193877957532
+115_beh,test,bbox_area_first,BBox,0.003694573512075198,0.0005239915358328726
+115_beh,test,bbox_area_last,BBox,0.0061143398645814055,0.0027981238595807143
+115_beh,test,bbox_area_max,BBox,0.006436470101192038,0.0030525274283911288
+115_beh,test,bbox_area_mean,BBox,0.006853916644106432,0.008158539595405098
+115_beh,test,bbox_area_min,BBox,0.016843224254283057,0.007673132614415912
+115_beh,test,bbox_area_std,BBox,0.027906417354446905,0.004962779291530711
+115_beh,test,bbox_aspect_ratio_delta,BBox,0.0,0.0
+115_beh,test,bbox_aspect_ratio_first,BBox,0.013763908965133681,0.00385187827086289
+115_beh,test,bbox_aspect_ratio_last,BBox,0.025324275249322115,0.004486342906083157
+115_beh,test,bbox_aspect_ratio_max,BBox,0.007740210131325746,0.002472169226040379
+115_beh,test,bbox_aspect_ratio_mean,BBox,0.024094228591859387,0.012430030537465176
+115_beh,test,bbox_aspect_ratio_min,BBox,0.12831109417007863,0.01765050807971444
+115_beh,test,bbox_aspect_ratio_std,BBox,0.061205842238703595,0.021504186777850678
+115_beh,test,bbox_center_x_delta,BBox,0.05870070943036232,0.005998248991483572
+115_beh,test,bbox_center_x_first,BBox,0.15339555610617417,0.026096253825466355
+115_beh,test,bbox_center_x_last,BBox,0.02257496346831378,0.006304139413247551
+115_beh,test,bbox_center_x_max,BBox,0.0648776171302133,0.010070568089103702
+115_beh,test,bbox_center_x_mean,BBox,0.0228176662368947,0.007795405673531938
+115_beh,test,bbox_center_x_min,BBox,0.01947877700413354,0.003727575677308952
+115_beh,test,bbox_center_x_std,BBox,0.02783566612824601,0.006379331881302841
+115_beh,test,bbox_center_y_delta,BBox,0.023431668760243097,0.008894860736798358
+115_beh,test,bbox_center_y_first,BBox,0.03059341008725837,0.008898095184198795
+115_beh,test,bbox_center_y_last,BBox,0.09883937855144187,0.025249464626180697
+115_beh,test,bbox_center_y_max,BBox,0.027608233874306564,0.00972097066584538
+115_beh,test,bbox_center_y_mean,BBox,0.0198093862272799,0.008293675728764747
+115_beh,test,bbox_center_y_min,BBox,0.05342789642274026,0.01474190130050228
+115_beh,test,bbox_center_y_std,BBox,0.02260904991190571,0.005960179074780872
+115_beh,test,bbox_height_change,BBox,0.04786434926894783,0.021376593529877225
+115_beh,test,bbox_height_delta,BBox,0.007234172395241287,0.004947059225361066
+115_beh,test,bbox_height_first,BBox,0.04391629498829643,0.008620198909954874
+115_beh,test,bbox_height_last,BBox,0.0269050898508027,0.008346027251863165
+115_beh,test,bbox_height_max,BBox,0.023745400778269792,0.010546496509537632
+115_beh,test,bbox_height_mean,BBox,0.017514548559401887,0.009974890606502569
+115_beh,test,bbox_height_min,BBox,0.07069809304410583,0.017414904890399017
+115_beh,test,bbox_height_std,BBox,0.010579874907422945,0.0076246005648798075
+115_beh,test,bbox_scale_change_ratio,BBox,0.015473640305636659,0.004861036576276945
+115_beh,test,bbox_valid_frame_count,BBox,0.0,0.0
+115_beh,test,bbox_width_change,BBox,0.005941710962745837,0.0035325541845062656
+115_beh,test,bbox_width_delta,BBox,0.0008744046879750243,0.0010087424095017229
+115_beh,test,bbox_width_first,BBox,0.0026637802355027086,0.002365336292420005
+115_beh,test,bbox_width_last,BBox,0.0040799124595752795,0.005090242235513655
+115_beh,test,bbox_width_max,BBox,0.0027169189690664244,0.0010110196297068328
+115_beh,test,bbox_width_mean,BBox,0.002939775643149668,0.002424378158902025
+115_beh,test,bbox_width_min,BBox,0.009242622371105387,0.006570837649747443
+115_beh,test,bbox_width_std,BBox,0.018200392093089077,0.00493772854945484
+115_beh,test,biu_low_confidence_frame_count,Combined BIU package,0.0,0.0
+115_beh,test,biu_valid_frame_count,Combined BIU package,0.0,0.0
+115_beh,test,body_yaw_angle_delta,Combined BIU package,0.0002009736181681546,0.00034809651764819134
+115_beh,test,body_yaw_angle_first,Combined BIU package,0.0038639160707138608,0.0036845373230085473
+115_beh,test,body_yaw_angle_last,Combined BIU package,0.009437934656206376,0.0030919750380881575
+115_beh,test,body_yaw_angle_max,Combined BIU package,0.022974783280004824,0.01357034273151371
+115_beh,test,body_yaw_angle_mean,Combined BIU package,0.012389989202289974,0.002334238611146247
+115_beh,test,body_yaw_angle_min,Combined BIU package,0.08264555284497548,0.008528845138524121
+115_beh,test,body_yaw_angle_std,Combined BIU package,0.02649692922965131,0.01467969297348502
+115_beh,test,center_x_displacement,BBox,0.014074601745373222,0.002333583486252012
+115_beh,test,center_x_velocity_mean,BBox,0.0032974727233721136,0.0005954336333107848
+115_beh,test,center_x_velocity_std,BBox,0.1317626837073757,0.027982733036519134
+115_beh,test,center_y_displacement,BBox,0.0031897729751559074,0.00552484885758017
+115_beh,test,center_y_velocity_mean,BBox,0.0,0.0
+115_beh,test,center_y_velocity_std,BBox,0.0316370915436447,0.0031158665412928358
+115_beh,test,face_yaw_angle_delta,Combined BIU package,0.0007164651894823593,0.001240954110037909
+115_beh,test,face_yaw_angle_first,Combined BIU package,0.010946215610408533,0.0049712201096943
+115_beh,test,face_yaw_angle_last,Combined BIU package,0.006203493389348286,0.0016274650267902799
+115_beh,test,face_yaw_angle_max,Combined BIU package,0.06946915933831714,0.006199729913986164
+115_beh,test,face_yaw_angle_mean,Combined BIU package,0.05935873314983565,0.01227300305280806
+115_beh,test,face_yaw_angle_min,Combined BIU package,0.015574665183446147,0.009128352424221666
+115_beh,test,face_yaw_angle_std,Combined BIU package,0.015023559830831465,0.001982347354121857
+115_beh,test,gaze_to_car_angle_delta,Combined BIU package,0.0042055737493024705,0.0037430882507941696
+115_beh,test,gaze_to_car_angle_first,Combined BIU package,0.024237019378505743,0.0051969484239535865
+115_beh,test,gaze_to_car_angle_last,Combined BIU package,0.015229998636252148,0.009147984539219688
+115_beh,test,gaze_to_car_angle_max,Combined BIU package,0.20565458463671848,0.006461309775681375
+115_beh,test,gaze_to_car_angle_mean,Combined BIU package,0.04245150924741383,0.008851646974298058
+115_beh,test,gaze_to_car_angle_min,Combined BIU package,0.026144742369428164,0.009797194111118943
+115_beh,test,gaze_to_car_angle_std,Combined BIU package,0.13638391537041736,0.020741100577311416
+115_beh,test,head_yaw_angle_delta,Combined BIU package,0.1152292781047408,0.001007116371861843
+115_beh,test,head_yaw_angle_first,Combined BIU package,0.05677249030930561,0.013397036436594434
+115_beh,test,head_yaw_angle_last,Combined BIU package,0.002874671298692792,0.0017978127165393428
+115_beh,test,head_yaw_angle_max,Combined BIU package,0.06820924542018268,0.008980522094811158
+115_beh,test,head_yaw_angle_mean,Combined BIU package,0.05582482130129949,0.0035137961577546544
+115_beh,test,head_yaw_angle_min,Combined BIU package,0.050764629581891006,0.009337043636890316
+115_beh,test,head_yaw_angle_std,Combined BIU package,0.010243127697233085,0.006594707276177038
+115_beh,test,v2__hip_center_x_delta,Combined BIU package,0.025060721367726146,0.012831066524631464
+115_beh,test,v2__hip_center_x_last,Combined BIU package,0.004043299397340613,0.00521203321501778
+115_beh,test,v2__hip_center_x_velocity_mean,Combined BIU package,0.0023932967206316165,0.002769325346908351
+115_beh,test,v2__hip_center_x_velocity_std,Combined BIU package,0.0016881559461746933,0.0019548387895105845
+115_beh,test,v2__knee_center_x_delta,Combined BIU package,0.005405454605981349,0.0033431109327405426
+115_beh,test,v2__knee_center_x_last,Combined BIU package,0.01308173919525694,0.006194114291310936
+115_beh,test,v2__knee_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_beh,test,v2__knee_center_x_velocity_std,Combined BIU package,0.02916667497361471,0.011586210718389004
+115_beh,test,v2__lead_ankle_forward_delta,Combined BIU package,0.01252271863381249,0.0017087113660601112
+115_beh,test,v2__lead_ankle_forward_last,Combined BIU package,0.0020293647598803814,0.0019971625734142573
+115_beh,test,v2__lead_ankle_forward_velocity_mean,Combined BIU package,0.0008848369304519347,0.00153258251995604
+115_beh,test,v2__lead_ankle_forward_velocity_std,Combined BIU package,0.24884377405348698,0.018783498607119236
+115_beh,test,lead_foot_elevation_delta,Combined BIU package,0.0,0.0
+115_beh,test,lead_foot_elevation_first,Combined BIU package,0.0008370180326152838,0.001449757759341015
+115_beh,test,lead_foot_elevation_last,Combined BIU package,0.010477932736750998,0.004959996868155656
+115_beh,test,lead_foot_elevation_max,Combined BIU package,0.0761817804871487,0.011684315310862486
+115_beh,test,lead_foot_elevation_mean,Combined BIU package,0.10736871475850444,0.021212005306549334
+115_beh,test,lead_foot_elevation_min,Combined BIU package,0.035924531160584375,0.012098052614636564
+115_beh,test,lead_foot_elevation_std,Combined BIU package,0.17560431729780926,0.01989715993843024
+115_beh,test,lead_foot_lifted_delta,Combined BIU package,0.0,0.0
+115_beh,test,lead_foot_lifted_first,Combined BIU package,0.0,0.0
+115_beh,test,lead_foot_lifted_last,Combined BIU package,0.0,0.0
+115_beh,test,lead_foot_lifted_max,Combined BIU package,0.0,0.0
+115_beh,test,lead_foot_lifted_mean,Combined BIU package,0.00570706921263342,0.004325422106288322
+115_beh,test,lead_foot_lifted_min,Combined BIU package,0.0,0.0
+115_beh,test,lead_foot_lifted_std,Combined BIU package,0.000597375788754052,0.0010346852173335507
+115_beh,test,v2__leg_center_x_delta,Combined BIU package,0.011166066464482973,0.005000391369792706
+115_beh,test,v2__leg_center_x_last,Combined BIU package,0.0073182430371370455,0.006399729566219676
+115_beh,test,v2__leg_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_beh,test,v2__leg_center_x_velocity_std,Combined BIU package,0.031960998470400286,0.012118371197671458
+115_beh,test,v2__lower_body_motion_magnitude_mean,Combined BIU package,0.01484615952017154,0.010681862886001321
+115_beh,test,v2__lower_body_motion_magnitude_std,Combined BIU package,0.0073411369035850625,0.004481337341697874
+115_beh,test,norm_shoulder_width_delta,Combined BIU package,0.0334692735686054,0.013056796494479663
+115_beh,test,norm_shoulder_width_first,Combined BIU package,0.003219976924895684,0.005577163633118721
+115_beh,test,norm_shoulder_width_last,Combined BIU package,0.2308936042962062,0.013841504940924607
+115_beh,test,norm_shoulder_width_max,Combined BIU package,0.01544128155354186,0.006536149142724252
+115_beh,test,norm_shoulder_width_mean,Combined BIU package,0.018684039528237155,0.009454965851551514
+115_beh,test,norm_shoulder_width_min,Combined BIU package,0.061950352940722514,0.016871401641232305
+115_beh,test,norm_shoulder_width_std,Combined BIU package,0.022382795607245997,0.004262941682254855
+115_beh,test,v2__shoulder_center_x_delta,Combined BIU package,0.012382146679139542,0.014699735912108576
+115_beh,test,v2__shoulder_center_x_last,Combined BIU package,0.0,0.0
+115_beh,test,v2__shoulder_center_x_velocity_mean,Combined BIU package,0.003683060522465359,0.0063792479522611755
+115_beh,test,v2__shoulder_center_x_velocity_std,Combined BIU package,0.030127776102799125,0.002386485830105476
+115_beh,test,stride_length_delta,Combined BIU package,0.0011941354680307895,0.0010761832441269627
+115_beh,test,stride_length_first,Combined BIU package,0.0028985013987560156,0.0021345960766022166
+115_beh,test,stride_length_last,Combined BIU package,0.0035110160030173572,0.0008514010987894569
+115_beh,test,stride_length_max,Combined BIU package,0.03695093385220675,0.006466440407906155
+115_beh,test,stride_length_mean,Combined BIU package,0.16422329433469887,0.03379972186413211
+115_beh,test,stride_length_min,Combined BIU package,0.011965582851251107,0.0015456683693565725
+115_beh,test,stride_length_std,Combined BIU package,0.09968631145108726,0.01855563357540577
+115_beh,test,v2__stride_opening_delta,Combined BIU package,0.004928500079601218,0.002390807097319195
+115_beh,test,v2__stride_opening_last,Combined BIU package,0.0014833586762999483,0.0013147251593695094
+115_beh,test,v2__stride_opening_velocity_mean,Combined BIU package,0.0,0.0
+115_beh,test,v2__stride_opening_velocity_std,Combined BIU package,0.0015185200539949819,0.0006460292390934329
+115_beh,test,v2__torso_center_x_delta,Combined BIU package,0.01119169049571418,0.002251021662682007
+115_beh,test,v2__torso_center_x_last,Combined BIU package,0.0043721356013959435,0.007572760999198482
+115_beh,test,v2__torso_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_beh,test,v2__torso_center_x_velocity_std,Combined BIU package,0.01617499497856629,0.0013393564231324877
+115_beh,test,torso_lean_angle_delta,Combined BIU package,0.0007984476595171834,0.0013829519134682174
+115_beh,test,torso_lean_angle_first,Combined BIU package,0.020889772556706238,0.0009939459295406703
+115_beh,test,torso_lean_angle_last,Combined BIU package,0.0106778359039277,0.008002233817732666
+115_beh,test,torso_lean_angle_max,Combined BIU package,0.03362367475440736,0.008249368644580849
+115_beh,test,torso_lean_angle_mean,Combined BIU package,0.03025460085877711,0.0007921241360661476
+115_beh,test,torso_lean_angle_min,Combined BIU package,0.07133196618829601,0.010599901405393375
+115_beh,test,torso_lean_angle_std,Combined BIU package,0.04890139102269028,0.018761538610428154
+115_beh,test,v2__torso_motion_magnitude_mean,Combined BIU package,0.02063517946179381,0.004496140158307347
+115_beh,test,v2__torso_motion_magnitude_std,Combined BIU package,0.1327583058010319,0.0054437721340393425
+115_beh,test,temporal__lower_body_motion_magnitude_mean_early,Explicit temporal,0.0041547896734811995,0.002195614436243708
+115_beh,test,temporal__lower_body_motion_magnitude_mean_late,Explicit temporal,0.0169720655173718,0.007854112544122653
+115_beh,test,temporal__lower_body_motion_magnitude_mean_late_minus_early,Explicit temporal,0.013499799919673316,0.0075856364143093435
+115_beh,test,temporal__lead_ankle_forward_delta_early,Explicit temporal,0.016812705212405066,0.0042010312442282895
+115_beh,test,temporal__lead_ankle_forward_delta_late,Explicit temporal,0.008062525144251714,0.002260930199866082
+115_beh,test,temporal__lead_ankle_forward_delta_late_minus_early,Explicit temporal,0.038971458591766116,0.0058922837447166285
+115_beh,test,temporal__torso_motion_magnitude_mean_early,Explicit temporal,0.0028672269012002647,0.0022742087611847908
+115_beh,test,temporal__torso_motion_magnitude_mean_late,Explicit temporal,0.01848666769865489,0.005944976354907445
+115_beh,test,temporal__torso_motion_magnitude_mean_late_minus_early,Explicit temporal,0.0012125959611834008,0.0012151207544834012
+115_beh,test,temporal__torso_center_x_delta_early,Explicit temporal,0.021592196820960616,0.006685866168670978
+115_beh,test,temporal__torso_center_x_delta_late,Explicit temporal,0.18830831621080535,0.015322361651027414
+115_beh,test,temporal__torso_center_x_delta_late_minus_early,Explicit temporal,0.13809686537001084,0.023100859885769605
+115_beh,test,temporal__bbox_center_dx_norm_early,Explicit temporal,0.12595948175865776,0.0066894062587606025
+115_beh,test,temporal__bbox_center_dx_norm_late,Explicit temporal,0.15127792978642893,0.013426838909590733
+115_beh,test,temporal__bbox_center_dx_norm_late_minus_early,Explicit temporal,0.017928682847019307,0.002372891061877753
+115_beh,test,temporal__bbox_scale_log_delta_early,Explicit temporal,0.005459665302256934,0.003774366724724039
+115_beh,test,temporal__bbox_scale_log_delta_late,Explicit temporal,0.015771569021387134,0.01029224956498008
+115_beh,test,temporal__bbox_scale_log_delta_late_minus_early,Explicit temporal,0.0,0.0
+115_beh,test,temporal__pose_confidence_mean_early,Explicit temporal,0.007588700185773817,0.0030040468940200353
+115_beh,test,temporal__pose_confidence_mean_late,Explicit temporal,0.03138922668294362,0.0065040955346076955
+115_beh,test,temporal__pose_confidence_mean_late_minus_early,Explicit temporal,0.0022236354423663097,0.002284175395534283
+115_beh,test,road_compensated__road_foot_inside__early_mean,Road context,0.0,0.0
+115_beh,test,road_compensated__road_foot_inside__late_mean,Road context,0.0,0.0
+115_beh,test,road_compensated__road_foot_inside__late_minus_early,Road context,0.0,0.0
+115_beh,test,road_compensated__road_signed_boundary_distance_h__early_mean,Road context,0.035567138412365834,0.005951966042391753
+115_beh,test,road_compensated__road_signed_boundary_distance_h__late_mean,Road context,0.04962950826047752,0.009943467907499353
+115_beh,test,road_compensated__road_signed_boundary_distance_h__late_minus_early,Road context,0.0056691871061915755,0.0035801589957055193
+115_beh,test,road_compensated__road_nearest_boundary_dx_h__early_mean,Road context,0.014964089915552462,0.003494371528624269
+115_beh,test,road_compensated__road_nearest_boundary_dx_h__late_mean,Road context,0.0030809395528793647,0.0005932255209086982
+115_beh,test,road_compensated__road_nearest_boundary_dx_h__late_minus_early,Road context,0.01459456335699523,0.004248046856046137
+115_beh,test,road_compensated__road_nearest_boundary_dy_h__early_mean,Road context,0.014926370458814642,0.00679048376967608
+115_beh,test,road_compensated__road_nearest_boundary_dy_h__late_mean,Road context,0.03730214821359297,0.009545790130507971
+115_beh,test,road_compensated__road_nearest_boundary_dy_h__late_minus_early,Road context,0.00677587560176212,0.002090440376948407
+115_beh,test,road_compensated__road_boundary_tangent_x__early_mean,Road context,0.01477672606939326,0.008368337928131924
+115_beh,test,road_compensated__road_boundary_tangent_x__late_mean,Road context,0.20357098776890079,0.027040141162974412
+115_beh,test,road_compensated__road_boundary_tangent_x__late_minus_early,Road context,0.005224529429838202,0.0007248486288444269
+115_beh,test,road_compensated__road_boundary_tangent_y__early_mean,Road context,0.05338581388818466,0.0031037538815823695
+115_beh,test,road_compensated__road_boundary_tangent_y__late_mean,Road context,0.08622272580338619,0.012103044596444653
+115_beh,test,road_compensated__road_boundary_tangent_y__late_minus_early,Road context,0.005646458316602862,0.0027530130271787166
+115_beh,test,road_compensated__road_boundary_valid__early_mean,Road context,0.003710135165680363,0.004039557154518154
+115_beh,test,road_compensated__road_boundary_valid__late_mean,Road context,0.03970964298182189,0.00804774280942722
+115_beh,test,road_compensated__road_boundary_valid__late_minus_early,Road context,0.0,0.0
+115_beh,test,road_compensated__lane_nearest_distance_h__early_mean,Road context,0.08740881785763015,0.01698353289446444
+115_beh,test,road_compensated__lane_nearest_distance_h__late_mean,Road context,0.014760395255904127,0.0057906715582520495
+115_beh,test,road_compensated__lane_nearest_distance_h__late_minus_early,Road context,0.0035544663397879157,0.0011658629957577318
+115_beh,test,road_compensated__lane_nearest_dx_h__early_mean,Road context,0.06091345311653098,0.015436985406813462
+115_beh,test,road_compensated__lane_nearest_dx_h__late_mean,Road context,0.042113852484428005,0.005325806841716566
+115_beh,test,road_compensated__lane_nearest_dx_h__late_minus_early,Road context,0.0015764265129459526,0.002730450814821026
+115_beh,test,road_compensated__lane_nearest_dy_h__early_mean,Road context,0.03253845297373734,0.006283089047128489
+115_beh,test,road_compensated__lane_nearest_dy_h__late_mean,Road context,0.12556979485591815,0.007049577799781395
+115_beh,test,road_compensated__lane_nearest_dy_h__late_minus_early,Road context,0.01202291674124651,0.006824891117530018
+115_beh,test,road_compensated__lane_tangent_x__early_mean,Road context,0.39749284392523054,0.027403188457762587
+115_beh,test,road_compensated__lane_tangent_x__late_mean,Road context,0.4996951765683401,0.033904299794429285
+115_beh,test,road_compensated__lane_tangent_x__late_minus_early,Road context,0.0022726149698695246,0.0007577996174248023
+115_beh,test,road_compensated__lane_tangent_y__early_mean,Road context,0.21959221236597223,0.010533935510427226
+115_beh,test,road_compensated__lane_tangent_y__late_mean,Road context,0.1170015008136157,0.004004960726912541
+115_beh,test,road_compensated__lane_tangent_y__late_minus_early,Road context,0.034929900054454364,0.004800747983708718
+115_beh,test,road_compensated__lane_geometry_valid__early_mean,Road context,0.007522276406535021,0.009681684054798299
+115_beh,test,road_compensated__lane_geometry_valid__late_mean,Road context,0.005213687827908493,0.007605040133183747
+115_beh,test,road_compensated__lane_geometry_valid__late_minus_early,Road context,0.0,0.0
+115_beh,test,road_compensated__foot_velocity_x_h__early_mean,Road context,0.2194713182647845,0.012776243675790524
+115_beh,test,road_compensated__foot_velocity_x_h__late_mean,Road context,0.1349474157391312,0.008756158893961846
+115_beh,test,road_compensated__foot_velocity_x_h__late_minus_early,Road context,0.0033686114272440883,0.0034313370760884155
+115_beh,test,road_compensated__foot_velocity_y_h__early_mean,Road context,0.005565919208572599,0.002424496308884658
+115_beh,test,road_compensated__foot_velocity_y_h__late_mean,Road context,0.09530666194324407,0.00794552646838374
+115_beh,test,road_compensated__foot_velocity_y_h__late_minus_early,Road context,0.0030307549372644745,0.0003568112999759455
+115_beh,test,road_compensated__foot_speed_h__early_mean,Road context,0.19533919461922933,0.008730751602572685
+115_beh,test,road_compensated__foot_speed_h__late_mean,Road context,0.06835202772759334,0.01034856691719705
+115_beh,test,road_compensated__foot_speed_h__late_minus_early,Road context,0.0008468843156304497,0.0014668466628051365
+115_beh,test,road_compensated__motion_parallel_to_road__early_mean,Road context,0.00860540017629472,0.004002610050284606
+115_beh,test,road_compensated__motion_parallel_to_road__late_mean,Road context,0.14564339438126103,0.015535024352727057
+115_beh,test,road_compensated__motion_parallel_to_road__late_minus_early,Road context,0.004946094447576551,0.004880389471919442
+115_beh,test,road_compensated__motion_toward_drivable_area__early_mean,Road context,0.008536187378391255,0.005762278312191299
+115_beh,test,road_compensated__motion_toward_drivable_area__late_mean,Road context,0.1179764001095227,0.006979865285099088
+115_beh,test,road_compensated__motion_toward_drivable_area__late_minus_early,Road context,0.001236411745754245,0.0012158314362251605
+115_beh,test,road_compensated__motion_parallel_to_lane__early_mean,Road context,0.011308011546825153,0.005871175684904055
+115_beh,test,road_compensated__motion_parallel_to_lane__late_mean,Road context,0.032327032590035894,0.005543998502569525
+115_beh,test,road_compensated__motion_parallel_to_lane__late_minus_early,Road context,0.000739200262504517,0.0006404342090335912
+115_beh,test,road_compensated__road_signed_distance_change_h__early_mean,Road context,0.025817980135678528,0.0032199423164559937
+115_beh,test,road_compensated__road_signed_distance_change_h__late_mean,Road context,0.007341042153261903,0.0013789140048670976
+115_beh,test,road_compensated__road_signed_distance_change_h__late_minus_early,Road context,0.0014876752142252605,0.0013264934419311744
+115_beh,test,vehicle_fraction__stopped,Vehicle state,0.010216961207179227,0.002955531655570536
+115_beh,test,vehicle_fraction__moving_slow,Vehicle state,0.0,0.0
+115_beh,test,vehicle_fraction__moving_fast,Vehicle state,0.0,0.0
+115_beh,test,vehicle_fraction__decelerating,Vehicle state,0.011915398194046052,0.007188379281502239
+115_beh,test,vehicle_fraction__accelerating,Vehicle state,0.0038967631259373956,0.003390516863847567
+115_beh,test,vehicle_first__stopped,Vehicle state,0.0007002023820056138,0.001212786101214475
+115_beh,test,vehicle_first__moving_slow,Vehicle state,0.0,0.0
+115_beh,test,vehicle_first__moving_fast,Vehicle state,0.0,0.0
+115_beh,test,vehicle_first__decelerating,Vehicle state,0.004473716952721567,0.0024702221877310852
+115_beh,test,vehicle_first__accelerating,Vehicle state,0.0004954502309023348,0.0008581449725445758
+115_beh,test,vehicle_last__stopped,Vehicle state,0.0022798196009140583,0.003948763380874551
+115_beh,test,vehicle_last__moving_slow,Vehicle state,0.0,0.0
+115_beh,test,vehicle_last__moving_fast,Vehicle state,0.0,0.0
+115_beh,test,vehicle_last__decelerating,Vehicle state,0.005989216065640628,0.005689189957868829
+115_beh,test,vehicle_last__accelerating,Vehicle state,0.0034792556282142438,0.003388405070208764
+115_all,validation,v2__ankle_center_x_delta,Combined BIU package,0.005221505158625933,0.0032079450054358256
+115_all,validation,v2__ankle_center_x_last,Combined BIU package,0.0016478946639265687,0.0022792204877233064
+115_all,validation,v2__ankle_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_all,validation,v2__ankle_center_x_velocity_std,Combined BIU package,0.038513111533302315,0.004382432805321876
+115_all,validation,arm_swing_asymmetry_delta,Combined BIU package,0.0003015475386654135,0.0005222956578658367
+115_all,validation,arm_swing_asymmetry_first,Combined BIU package,0.0,0.0
+115_all,validation,arm_swing_asymmetry_last,Combined BIU package,0.01092473582819927,0.006286981785366991
+115_all,validation,arm_swing_asymmetry_max,Combined BIU package,0.015693401031572896,0.001417034844934083
+115_all,validation,arm_swing_asymmetry_mean,Combined BIU package,0.021859185458240695,0.004174322055550878
+115_all,validation,arm_swing_asymmetry_min,Combined BIU package,0.06830965140788436,0.010954936081344766
+115_all,validation,arm_swing_asymmetry_std,Combined BIU package,0.005133796038752733,0.0013075341696118848
+115_all,validation,bbox_area_change,BBox,0.011784873673607909,0.0035657554283890563
+115_all,validation,bbox_area_delta,BBox,0.0011521902380102254,0.0006816977665896667
+115_all,validation,bbox_area_first,BBox,0.020880521409916326,0.01151033328601773
+115_all,validation,bbox_area_last,BBox,0.08359368360324974,0.0070672610969389075
+115_all,validation,bbox_area_max,BBox,0.0759638969081838,0.008992849081525157
+115_all,validation,bbox_area_mean,BBox,0.014103419341365359,0.007930577782976627
+115_all,validation,bbox_area_min,BBox,0.00822581153622048,0.005205879231048875
+115_all,validation,bbox_area_std,BBox,0.6844136044879693,0.0594256153479202
+115_all,validation,bbox_aspect_ratio_delta,BBox,0.0015537647015655322,0.0011597748746821849
+115_all,validation,bbox_aspect_ratio_first,BBox,0.04336500055903148,0.006565459286324263
+115_all,validation,bbox_aspect_ratio_last,BBox,0.017435352675456,0.003952377425385577
+115_all,validation,bbox_aspect_ratio_max,BBox,0.05004390975903985,0.007254598320381703
+115_all,validation,bbox_aspect_ratio_mean,BBox,0.02372876415758873,0.013237671380438111
+115_all,validation,bbox_aspect_ratio_min,BBox,0.5226941238370956,0.016149928559941778
+115_all,validation,bbox_aspect_ratio_std,BBox,0.03935877868355087,0.0035820387341094734
+115_all,validation,bbox_center_x_delta,BBox,0.03363822523605497,0.0038425634027989624
+115_all,validation,bbox_center_x_first,BBox,0.030942070520075273,0.008859771532244907
+115_all,validation,bbox_center_x_last,BBox,0.21335526727264495,0.020139937913879805
+115_all,validation,bbox_center_x_max,BBox,0.18251599080799877,0.01693520548437795
+115_all,validation,bbox_center_x_mean,BBox,0.03531957459445075,0.00916997407409642
+115_all,validation,bbox_center_x_min,BBox,0.12641789152600455,0.011423867303752997
+115_all,validation,bbox_center_x_std,BBox,0.12183859868595386,0.019931032957296087
+115_all,validation,bbox_center_y_delta,BBox,0.031779245792208095,0.013790600445158594
+115_all,validation,bbox_center_y_first,BBox,0.028050763508296824,0.006496209234640555
+115_all,validation,bbox_center_y_last,BBox,0.023335945721316437,0.0052737716710170275
+115_all,validation,bbox_center_y_max,BBox,0.027003701136898272,0.003680578532648827
+115_all,validation,bbox_center_y_mean,BBox,0.045486606053725176,0.014742114809714681
+115_all,validation,bbox_center_y_min,BBox,0.04047117844070865,0.02317147129576346
+115_all,validation,bbox_center_y_std,BBox,0.11576573203240519,0.010750902338486083
+115_all,validation,bbox_height_change,BBox,0.09445410819788008,0.009609136646399969
+115_all,validation,bbox_height_delta,BBox,0.014992810770624155,0.008139090206252484
+115_all,validation,bbox_height_first,BBox,0.024321150380131214,0.005924177116625566
+115_all,validation,bbox_height_last,BBox,0.12814439321381602,0.03699544842086752
+115_all,validation,bbox_height_max,BBox,0.05210812869489412,0.02617139841580643
+115_all,validation,bbox_height_mean,BBox,0.023673100053734294,0.0042597201269797
+115_all,validation,bbox_height_min,BBox,0.03879696737331607,0.0122622078361525
+115_all,validation,bbox_height_std,BBox,0.42664093819496096,0.0308405945843631
+115_all,validation,bbox_scale_change_ratio,BBox,0.02477016002152972,0.005068979747388121
+115_all,validation,bbox_valid_frame_count,BBox,0.0,0.0
+115_all,validation,bbox_width_change,BBox,0.0001401418589436074,0.00015638111749204445
+115_all,validation,bbox_width_delta,BBox,0.0003084617653709489,0.00034693238181516156
+115_all,validation,bbox_width_first,BBox,0.010102116340545543,0.004169716217811135
+115_all,validation,bbox_width_last,BBox,0.00551133447432782,0.004980675666998181
+115_all,validation,bbox_width_max,BBox,0.05195915552467532,0.0025116180532094995
+115_all,validation,bbox_width_mean,BBox,0.005306227130335155,0.0013665075290610214
+115_all,validation,bbox_width_min,BBox,0.007703745645728288,0.0038826158155691637
+115_all,validation,bbox_width_std,BBox,0.34838109561929304,0.035887171411563626
+115_all,validation,biu_low_confidence_frame_count,Combined BIU package,0.0064072488494227664,0.0023237160169730887
+115_all,validation,biu_valid_frame_count,Combined BIU package,0.0,0.0
+115_all,validation,body_yaw_angle_delta,Combined BIU package,0.0019497225205111456,0.0017418588191415458
+115_all,validation,body_yaw_angle_first,Combined BIU package,0.04364564126493637,0.002229005843963798
+115_all,validation,body_yaw_angle_last,Combined BIU package,0.021678913195324695,0.012429684215443423
+115_all,validation,body_yaw_angle_max,Combined BIU package,0.038523307709241235,0.010532735899005616
+115_all,validation,body_yaw_angle_mean,Combined BIU package,0.04627780689672617,0.005050226853360417
+115_all,validation,body_yaw_angle_min,Combined BIU package,0.06934736698573855,0.01210891019557462
+115_all,validation,body_yaw_angle_std,Combined BIU package,0.012381363547811552,0.005884044224417362
+115_all,validation,center_x_displacement,BBox,0.009047648659140381,0.0028770717018198185
+115_all,validation,center_x_velocity_mean,BBox,0.00026721699878719745,0.00046283341854549704
+115_all,validation,center_x_velocity_std,BBox,0.012343867725181321,0.007271293768028192
+115_all,validation,center_y_displacement,BBox,0.010216708375287962,0.008656447556181215
+115_all,validation,center_y_velocity_mean,BBox,0.0018538043436094904,0.00321088331042351
+115_all,validation,center_y_velocity_std,BBox,0.19323826075241043,0.012174280825630256
+115_all,validation,face_yaw_angle_delta,Combined BIU package,0.0024773852876817,0.004290957188188344
+115_all,validation,face_yaw_angle_first,Combined BIU package,0.0037918435509093607,0.0027617073523648478
+115_all,validation,face_yaw_angle_last,Combined BIU package,0.016462262437800197,0.005821203264761675
+115_all,validation,face_yaw_angle_max,Combined BIU package,0.01706231528910675,0.0016176450202556002
+115_all,validation,face_yaw_angle_mean,Combined BIU package,0.01397919826803432,0.007297500210982272
+115_all,validation,face_yaw_angle_min,Combined BIU package,0.025827523314279635,0.0070506924484765665
+115_all,validation,face_yaw_angle_std,Combined BIU package,0.02309818137020775,0.007688815187285305
+115_all,validation,gaze_to_car_angle_delta,Combined BIU package,4.812095732214858e-05,8.334794299081494e-05
+115_all,validation,gaze_to_car_angle_first,Combined BIU package,0.0015041992656195755,0.001601271185170003
+115_all,validation,gaze_to_car_angle_last,Combined BIU package,0.04817094985612396,0.010340156430076602
+115_all,validation,gaze_to_car_angle_max,Combined BIU package,0.058764745505695846,0.006529307971118744
+115_all,validation,gaze_to_car_angle_mean,Combined BIU package,0.12049655151972638,0.0055072180872493435
+115_all,validation,gaze_to_car_angle_min,Combined BIU package,0.03346177758745237,0.0134873355170514
+115_all,validation,gaze_to_car_angle_std,Combined BIU package,0.06244984835742731,0.018083259753425857
+115_all,validation,head_yaw_angle_delta,Combined BIU package,0.015882350037218596,0.011567933999954382
+115_all,validation,head_yaw_angle_first,Combined BIU package,0.009750952570441784,0.0039552522325327485
+115_all,validation,head_yaw_angle_last,Combined BIU package,0.010753398895079732,0.003041795332692617
+115_all,validation,head_yaw_angle_max,Combined BIU package,0.025105568643890037,0.008795065757173367
+115_all,validation,head_yaw_angle_mean,Combined BIU package,0.040300359007732496,0.009725448172668618
+115_all,validation,head_yaw_angle_min,Combined BIU package,0.01513711315185833,0.002160771754353562
+115_all,validation,head_yaw_angle_std,Combined BIU package,0.0031610084369562987,0.0024965104437623216
+115_all,validation,v2__hip_center_x_delta,Combined BIU package,0.049100523893917725,0.004207916340812607
+115_all,validation,v2__hip_center_x_last,Combined BIU package,0.005776457042807261,0.004122165124257995
+115_all,validation,v2__hip_center_x_velocity_mean,Combined BIU package,0.003132057798370594,0.0054248832390201875
+115_all,validation,v2__hip_center_x_velocity_std,Combined BIU package,0.0045787186391911755,0.0020170877437429152
+115_all,validation,v2__knee_center_x_delta,Combined BIU package,0.027444861073601237,0.013012739906742498
+115_all,validation,v2__knee_center_x_last,Combined BIU package,0.007778315178487678,0.0031000425980877416
+115_all,validation,v2__knee_center_x_velocity_mean,Combined BIU package,0.004812973211930478,0.004631892036552055
+115_all,validation,v2__knee_center_x_velocity_std,Combined BIU package,0.01567022073872839,0.003409434433360914
+115_all,validation,v2__lead_ankle_forward_delta,Combined BIU package,0.0027801426832065076,0.001978247741228719
+115_all,validation,v2__lead_ankle_forward_last,Combined BIU package,0.0010209665074644447,0.0016858467520458069
+115_all,validation,v2__lead_ankle_forward_velocity_mean,Combined BIU package,0.00012278381123541725,0.00021266779940668903
+115_all,validation,v2__lead_ankle_forward_velocity_std,Combined BIU package,0.2288013387788627,0.0074806834579856695
+115_all,validation,lead_foot_elevation_delta,Combined BIU package,0.0003192409307938112,0.0005529415119904608
+115_all,validation,lead_foot_elevation_first,Combined BIU package,0.014360925126931235,0.0033745364306008853
+115_all,validation,lead_foot_elevation_last,Combined BIU package,0.0076444774061933465,0.013240623264839222
+115_all,validation,lead_foot_elevation_max,Combined BIU package,0.05342243763124518,0.004194913370272308
+115_all,validation,lead_foot_elevation_mean,Combined BIU package,0.03918807103047982,0.001276008001027713
+115_all,validation,lead_foot_elevation_min,Combined BIU package,0.10565482240692653,0.012532212659492592
+115_all,validation,lead_foot_elevation_std,Combined BIU package,0.01603137099919399,0.008722789892307042
+115_all,validation,lead_foot_lifted_delta,Combined BIU package,0.0,0.0
+115_all,validation,lead_foot_lifted_first,Combined BIU package,0.0,0.0
+115_all,validation,lead_foot_lifted_last,Combined BIU package,0.0,0.0
+115_all,validation,lead_foot_lifted_max,Combined BIU package,0.0,0.0
+115_all,validation,lead_foot_lifted_mean,Combined BIU package,0.13710850472715777,0.004583298541357091
+115_all,validation,lead_foot_lifted_min,Combined BIU package,0.00022024685545021986,0.00038147874384705907
+115_all,validation,lead_foot_lifted_std,Combined BIU package,0.0,0.0
+115_all,validation,v2__leg_center_x_delta,Combined BIU package,0.01660133259362027,0.006118288585331108
+115_all,validation,v2__leg_center_x_last,Combined BIU package,0.0030901109635319475,0.0027273459268425124
+115_all,validation,v2__leg_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_all,validation,v2__leg_center_x_velocity_std,Combined BIU package,0.003456831389538843,0.003310032433242288
+115_all,validation,v2__lower_body_motion_magnitude_mean,Combined BIU package,0.021026767384781157,0.0009617174233075869
+115_all,validation,v2__lower_body_motion_magnitude_std,Combined BIU package,0.008817814940163971,0.002475308695573276
+115_all,validation,norm_shoulder_width_delta,Combined BIU package,0.0007386440165802268,0.001279368965423701
+115_all,validation,norm_shoulder_width_first,Combined BIU package,0.0009644699895044921,0.0015474785806581298
+115_all,validation,norm_shoulder_width_last,Combined BIU package,0.041686261877832385,0.003945106709631988
+115_all,validation,norm_shoulder_width_max,Combined BIU package,0.031064013503792506,0.0071004831510851
+115_all,validation,norm_shoulder_width_mean,Combined BIU package,0.02933578714183857,0.00438755173811985
+115_all,validation,norm_shoulder_width_min,Combined BIU package,0.05871420569884455,0.00416025235623706
+115_all,validation,norm_shoulder_width_std,Combined BIU package,0.0037417648262104263,0.0008395894941059972
+115_all,validation,v2__shoulder_center_x_delta,Combined BIU package,0.015913961352277375,0.004673952655759045
+115_all,validation,v2__shoulder_center_x_last,Combined BIU package,0.007208527520366291,0.0067079851453558026
+115_all,validation,v2__shoulder_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_all,validation,v2__shoulder_center_x_velocity_std,Combined BIU package,0.008959451376117535,0.001745740285517307
+115_all,validation,stride_length_delta,Combined BIU package,0.0010896282051984412,0.0008203431718023924
+115_all,validation,stride_length_first,Combined BIU package,0.001428141772075006,0.001375694352746609
+115_all,validation,stride_length_last,Combined BIU package,0.0002650772237568009,0.00024596717862507966
+115_all,validation,stride_length_max,Combined BIU package,0.007757628166933675,0.0025675192475482327
+115_all,validation,stride_length_mean,Combined BIU package,0.038827740100631274,0.007157477925029336
+115_all,validation,stride_length_min,Combined BIU package,0.011924607071418765,0.0014372922409349538
+115_all,validation,stride_length_std,Combined BIU package,0.09086852194309221,0.008142116065360328
+115_all,validation,v2__stride_opening_delta,Combined BIU package,0.01289771085009758,0.0035749793601031503
+115_all,validation,v2__stride_opening_last,Combined BIU package,0.002704111259952982,0.0018159520425630013
+115_all,validation,v2__stride_opening_velocity_mean,Combined BIU package,0.0,0.0
+115_all,validation,v2__stride_opening_velocity_std,Combined BIU package,0.02069186368729086,0.013298839182958246
+115_all,validation,v2__torso_center_x_delta,Combined BIU package,0.010406795956808457,0.009901598884413835
+115_all,validation,v2__torso_center_x_last,Combined BIU package,0.0053896764231194175,0.004955723002397333
+115_all,validation,v2__torso_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_all,validation,v2__torso_center_x_velocity_std,Combined BIU package,0.004166950033443099,0.0012057772373285237
+115_all,validation,torso_lean_angle_delta,Combined BIU package,6.0404854762516375e-05,0.00010462427747249723
+115_all,validation,torso_lean_angle_first,Combined BIU package,0.0014961521813590896,0.0019726582051443763
+115_all,validation,torso_lean_angle_last,Combined BIU package,0.004939100035593636,0.001974631181249462
+115_all,validation,torso_lean_angle_max,Combined BIU package,0.023381309296356942,0.0023990670896563613
+115_all,validation,torso_lean_angle_mean,Combined BIU package,0.009803326189262137,0.006152347456092948
+115_all,validation,torso_lean_angle_min,Combined BIU package,0.022576781381390947,0.003514567107326076
+115_all,validation,torso_lean_angle_std,Combined BIU package,0.016839233844251737,0.003695684679108927
+115_all,validation,v2__torso_motion_magnitude_mean,Combined BIU package,0.008421024355463125,0.00296893616169163
+115_all,validation,v2__torso_motion_magnitude_std,Combined BIU package,0.1062989998877089,0.01666500290288718
+115_all,validation,temporal__lower_body_motion_magnitude_mean_early,Explicit temporal,0.004993871988322799,0.00219938479292271
+115_all,validation,temporal__lower_body_motion_magnitude_mean_late,Explicit temporal,0.004016504150192816,0.003048029743280466
+115_all,validation,temporal__lower_body_motion_magnitude_mean_late_minus_early,Explicit temporal,7.518264304847906e-05,0.00013022015760728078
+115_all,validation,temporal__lead_ankle_forward_delta_early,Explicit temporal,0.0024591998506390475,0.00169699108333646
+115_all,validation,temporal__lead_ankle_forward_delta_late,Explicit temporal,0.007114105666747558,0.0038467725734183163
+115_all,validation,temporal__lead_ankle_forward_delta_late_minus_early,Explicit temporal,0.0018993054747756949,0.0013625092755021344
+115_all,validation,temporal__torso_motion_magnitude_mean_early,Explicit temporal,0.0017506924497573458,0.0019686133543763704
+115_all,validation,temporal__torso_motion_magnitude_mean_late,Explicit temporal,0.008495806010559494,0.0068636652199330515
+115_all,validation,temporal__torso_motion_magnitude_mean_late_minus_early,Explicit temporal,0.0008425632410148055,0.0007494436937801473
+115_all,validation,temporal__torso_center_x_delta_early,Explicit temporal,0.012804307019176503,0.0006454388431365586
+115_all,validation,temporal__torso_center_x_delta_late,Explicit temporal,0.054601933263878466,0.005573659790053711
+115_all,validation,temporal__torso_center_x_delta_late_minus_early,Explicit temporal,0.0028601559807339915,0.002035190400020774
+115_all,validation,temporal__bbox_center_dx_norm_early,Explicit temporal,0.07524836840280129,0.011907927610851214
+115_all,validation,temporal__bbox_center_dx_norm_late,Explicit temporal,0.08826621262049421,0.022221227020670555
+115_all,validation,temporal__bbox_center_dx_norm_late_minus_early,Explicit temporal,0.002560246947835898,0.0017299718980994775
+115_all,validation,temporal__bbox_scale_log_delta_early,Explicit temporal,0.0007756587710819447,0.0007974767652213405
+115_all,validation,temporal__bbox_scale_log_delta_late,Explicit temporal,0.002001340504522817,0.0017558168436856108
+115_all,validation,temporal__bbox_scale_log_delta_late_minus_early,Explicit temporal,0.0007098843338350598,0.0005240059220161988
+115_all,validation,temporal__pose_confidence_mean_early,Explicit temporal,0.024538406587883154,0.007069534045371384
+115_all,validation,temporal__pose_confidence_mean_late,Explicit temporal,0.008643000761439045,0.0019076504391036264
+115_all,validation,temporal__pose_confidence_mean_late_minus_early,Explicit temporal,0.0007673575837356537,0.000686675238067829
+115_all,validation,road_compensated__road_foot_inside__early_mean,Road context,0.005300890181555041,0.003927724439479904
+115_all,validation,road_compensated__road_foot_inside__late_mean,Road context,0.01632773612462701,0.0025439675259304726
+115_all,validation,road_compensated__road_foot_inside__late_minus_early,Road context,0.000701162698474677,0.0006752633156061204
+115_all,validation,road_compensated__road_signed_boundary_distance_h__early_mean,Road context,0.02262276156029123,0.011134994422738508
+115_all,validation,road_compensated__road_signed_boundary_distance_h__late_mean,Road context,0.09000075004964347,0.03212740537130753
+115_all,validation,road_compensated__road_signed_boundary_distance_h__late_minus_early,Road context,0.004082018334636871,0.0049829190196665225
+115_all,validation,road_compensated__road_nearest_boundary_dx_h__early_mean,Road context,0.04908372399873285,0.007592909217888887
+115_all,validation,road_compensated__road_nearest_boundary_dx_h__late_mean,Road context,0.10009939054885207,0.018239803493411696
+115_all,validation,road_compensated__road_nearest_boundary_dx_h__late_minus_early,Road context,0.05160211819813498,0.010640756362179019
+115_all,validation,road_compensated__road_nearest_boundary_dy_h__early_mean,Road context,0.1134560903843574,0.004282783635502114
+115_all,validation,road_compensated__road_nearest_boundary_dy_h__late_mean,Road context,0.30568553878332083,0.03376561357945586
+115_all,validation,road_compensated__road_nearest_boundary_dy_h__late_minus_early,Road context,0.0026285965444795586,0.0022767276867516804
+115_all,validation,road_compensated__road_boundary_tangent_x__early_mean,Road context,0.04345878699738965,0.00209025521856479
+115_all,validation,road_compensated__road_boundary_tangent_x__late_mean,Road context,0.04355323430845098,0.0045854490730759725
+115_all,validation,road_compensated__road_boundary_tangent_x__late_minus_early,Road context,0.0008735511312345582,0.0008506893977798023
+115_all,validation,road_compensated__road_boundary_tangent_y__early_mean,Road context,0.03534510165422818,0.00914848605938708
+115_all,validation,road_compensated__road_boundary_tangent_y__late_mean,Road context,0.037033356879096986,0.005854089600739503
+115_all,validation,road_compensated__road_boundary_tangent_y__late_minus_early,Road context,0.0020478509641925027,0.0024156019742316843
+115_all,validation,road_compensated__road_boundary_valid__early_mean,Road context,0.04301812609839247,0.007319443538607011
+115_all,validation,road_compensated__road_boundary_valid__late_mean,Road context,0.12002487615418371,0.02044601332885121
+115_all,validation,road_compensated__road_boundary_valid__late_minus_early,Road context,0.00013802303753612864,0.00023906291362756107
+115_all,validation,road_compensated__lane_nearest_distance_h__early_mean,Road context,0.015242178258636404,0.0024692549026915337
+115_all,validation,road_compensated__lane_nearest_distance_h__late_mean,Road context,0.011896366373169862,0.005375935113902208
+115_all,validation,road_compensated__lane_nearest_distance_h__late_minus_early,Road context,0.021224784351040502,0.00725630933145098
+115_all,validation,road_compensated__lane_nearest_dx_h__early_mean,Road context,0.021647909381697583,0.006311089632397045
+115_all,validation,road_compensated__lane_nearest_dx_h__late_mean,Road context,0.039255341511570674,0.0065838378705134195
+115_all,validation,road_compensated__lane_nearest_dx_h__late_minus_early,Road context,0.009489470714061999,0.0016979285847008299
+115_all,validation,road_compensated__lane_nearest_dy_h__early_mean,Road context,0.12330121814190242,0.01878139086512666
+115_all,validation,road_compensated__lane_nearest_dy_h__late_mean,Road context,0.10331577173140782,0.023688099952787776
+115_all,validation,road_compensated__lane_nearest_dy_h__late_minus_early,Road context,0.03795014552029533,0.006463568800628992
+115_all,validation,road_compensated__lane_tangent_x__early_mean,Road context,0.05433866920434178,0.014257162583699759
+115_all,validation,road_compensated__lane_tangent_x__late_mean,Road context,0.05665571183751231,0.018903826354446887
+115_all,validation,road_compensated__lane_tangent_x__late_minus_early,Road context,0.0042682079409727056,0.0017132445516174104
+115_all,validation,road_compensated__lane_tangent_y__early_mean,Road context,0.06640703775278846,0.013028060409039807
+115_all,validation,road_compensated__lane_tangent_y__late_mean,Road context,0.07062075575581664,0.00934474531217036
+115_all,validation,road_compensated__lane_tangent_y__late_minus_early,Road context,0.019906158863514056,0.003471368315727659
+115_all,validation,road_compensated__lane_geometry_valid__early_mean,Road context,0.016303725362840023,0.00459611637977606
+115_all,validation,road_compensated__lane_geometry_valid__late_mean,Road context,0.02287535731519182,0.013031580575388111
+115_all,validation,road_compensated__lane_geometry_valid__late_minus_early,Road context,0.007469364654276092,0.003700887532153171
+115_all,validation,road_compensated__foot_velocity_x_h__early_mean,Road context,0.029600197198496745,0.006284701977270837
+115_all,validation,road_compensated__foot_velocity_x_h__late_mean,Road context,0.04247215310850089,0.009477996205476001
+115_all,validation,road_compensated__foot_velocity_x_h__late_minus_early,Road context,0.0029374310869799635,0.0020085242989927006
+115_all,validation,road_compensated__foot_velocity_y_h__early_mean,Road context,0.007641624214948778,0.002542773447571887
+115_all,validation,road_compensated__foot_velocity_y_h__late_mean,Road context,0.01646569797250228,0.00427788969338119
+115_all,validation,road_compensated__foot_velocity_y_h__late_minus_early,Road context,0.012813008942151115,0.004629565971136546
+115_all,validation,road_compensated__foot_speed_h__early_mean,Road context,0.0932401071929763,0.004451721141310898
+115_all,validation,road_compensated__foot_speed_h__late_mean,Road context,0.023261242661284376,0.001982406717322205
+115_all,validation,road_compensated__foot_speed_h__late_minus_early,Road context,0.0012208186725483673,0.0007587606982466799
+115_all,validation,road_compensated__motion_parallel_to_road__early_mean,Road context,0.01609596623627672,0.001463969298459839
+115_all,validation,road_compensated__motion_parallel_to_road__late_mean,Road context,0.012241109531032935,0.002919433163664638
+115_all,validation,road_compensated__motion_parallel_to_road__late_minus_early,Road context,0.00155557382742786,0.00025138312867982096
+115_all,validation,road_compensated__motion_toward_drivable_area__early_mean,Road context,0.01594412311055263,0.0023952555152527127
+115_all,validation,road_compensated__motion_toward_drivable_area__late_mean,Road context,0.03864464149712211,0.006947585431241229
+115_all,validation,road_compensated__motion_toward_drivable_area__late_minus_early,Road context,0.0012698559750220278,0.001690855436484036
+115_all,validation,road_compensated__motion_parallel_to_lane__early_mean,Road context,0.009454698079333025,0.0036626409941957986
+115_all,validation,road_compensated__motion_parallel_to_lane__late_mean,Road context,0.01990628657037437,0.00298262772096674
+115_all,validation,road_compensated__motion_parallel_to_lane__late_minus_early,Road context,0.0002988932669829646,0.0001327181213223252
+115_all,validation,road_compensated__road_signed_distance_change_h__early_mean,Road context,0.011228728318763793,0.010597525029174253
+115_all,validation,road_compensated__road_signed_distance_change_h__late_mean,Road context,0.022330153634761277,0.005134492967545309
+115_all,validation,road_compensated__road_signed_distance_change_h__late_minus_early,Road context,0.002751855478175377,0.0017069118922769975
+115_all,validation,vehicle_fraction__stopped,Vehicle state,0.0025172012077235863,0.004359920384650991
+115_all,validation,vehicle_fraction__moving_slow,Vehicle state,0.0004998312773546805,0.0008657331675903579
+115_all,validation,vehicle_fraction__moving_fast,Vehicle state,0.00040020866483883697,0.00037922259217497195
+115_all,validation,vehicle_fraction__decelerating,Vehicle state,0.04192133519920607,0.0028708939121556997
+115_all,validation,vehicle_fraction__accelerating,Vehicle state,0.051941170869027026,0.01047856289490814
+115_all,validation,vehicle_first__stopped,Vehicle state,0.0006868986113638676,0.0011897432945307273
+115_all,validation,vehicle_first__moving_slow,Vehicle state,0.0,0.0
+115_all,validation,vehicle_first__moving_fast,Vehicle state,0.00020904428748845223,0.0003620753269620342
+115_all,validation,vehicle_first__decelerating,Vehicle state,0.0011295171285274977,0.0009352072816247198
+115_all,validation,vehicle_first__accelerating,Vehicle state,0.0050134586678731675,0.005115224680905504
+115_all,validation,vehicle_last__stopped,Vehicle state,0.0,0.0
+115_all,validation,vehicle_last__moving_slow,Vehicle state,0.0,0.0
+115_all,validation,vehicle_last__moving_fast,Vehicle state,0.0,0.0
+115_all,validation,vehicle_last__decelerating,Vehicle state,0.04794732399508161,0.010512069193164046
+115_all,validation,vehicle_last__accelerating,Vehicle state,0.016570848834483697,0.004851805801083867
+115_all,test,v2__ankle_center_x_delta,Combined BIU package,0.004612364010916936,0.003496556318399371
+115_all,test,v2__ankle_center_x_last,Combined BIU package,0.0015194871410703335,0.0020478028473202205
+115_all,test,v2__ankle_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_all,test,v2__ankle_center_x_velocity_std,Combined BIU package,0.03394665082913568,0.0034851189402315586
+115_all,test,arm_swing_asymmetry_delta,Combined BIU package,0.00031398407196591755,0.000543836365412332
+115_all,test,arm_swing_asymmetry_first,Combined BIU package,0.0,0.0
+115_all,test,arm_swing_asymmetry_last,Combined BIU package,0.011307296885298823,0.006637078990263072
+115_all,test,arm_swing_asymmetry_max,Combined BIU package,0.016981787062921323,0.001482423942988087
+115_all,test,arm_swing_asymmetry_mean,Combined BIU package,0.02180180264402415,0.002887986529622657
+115_all,test,arm_swing_asymmetry_min,Combined BIU package,0.0698934283240805,0.010290515702543673
+115_all,test,arm_swing_asymmetry_std,Combined BIU package,0.0052506490797644715,0.0011211309870907597
+115_all,test,bbox_area_change,BBox,0.011795395513263529,0.0032415701575539578
+115_all,test,bbox_area_delta,BBox,0.001300085773227381,0.0008432322444319475
+115_all,test,bbox_area_first,BBox,0.02376935619876039,0.013674436065684848
+115_all,test,bbox_area_last,BBox,0.08671815323584892,0.00660660642399538
+115_all,test,bbox_area_max,BBox,0.07468574377303484,0.005347295458548354
+115_all,test,bbox_area_mean,BBox,0.01597236851749308,0.008297378290082386
+115_all,test,bbox_area_min,BBox,0.00858497986742849,0.006601672311895839
+115_all,test,bbox_area_std,BBox,0.6584615045737223,0.058767609288934645
+115_all,test,bbox_aspect_ratio_delta,BBox,0.00137096535427646,0.0009320600913318486
+115_all,test,bbox_aspect_ratio_first,BBox,0.04224323552454232,0.006829415525022664
+115_all,test,bbox_aspect_ratio_last,BBox,0.018333230191832972,0.004712136445374763
+115_all,test,bbox_aspect_ratio_max,BBox,0.05370828461953155,0.008212216839112312
+115_all,test,bbox_aspect_ratio_mean,BBox,0.025006278674162552,0.013481970967684227
+115_all,test,bbox_aspect_ratio_min,BBox,0.5001258180201088,0.013640657445490157
+115_all,test,bbox_aspect_ratio_std,BBox,0.03671529388577897,0.0045918420426256535
+115_all,test,bbox_center_x_delta,BBox,0.0440873079763533,0.0033838153986836157
+115_all,test,bbox_center_x_first,BBox,0.04033710012355693,0.012155779574897703
+115_all,test,bbox_center_x_last,BBox,0.2220100134247669,0.011785431662661048
+115_all,test,bbox_center_x_max,BBox,0.18602199584443666,0.013604947809117479
+115_all,test,bbox_center_x_mean,BBox,0.0426222838513658,0.007987887550176952
+115_all,test,bbox_center_x_min,BBox,0.15662163130470766,0.011475193788124931
+115_all,test,bbox_center_x_std,BBox,0.11890178545177943,0.019517911946426637
+115_all,test,bbox_center_y_delta,BBox,0.03465004038659707,0.014753417036283096
+115_all,test,bbox_center_y_first,BBox,0.03481135139340718,0.009381154832283703
+115_all,test,bbox_center_y_last,BBox,0.030797997074355987,0.0058127319575624085
+115_all,test,bbox_center_y_max,BBox,0.031995119020268206,0.007612902199644778
+115_all,test,bbox_center_y_mean,BBox,0.042410297336081836,0.014374781546991353
+115_all,test,bbox_center_y_min,BBox,0.038784091853785056,0.01809472785463933
+115_all,test,bbox_center_y_std,BBox,0.11468867270902001,0.009950994094775529
+115_all,test,bbox_height_change,BBox,0.09120500163987018,0.00888262526665107
+115_all,test,bbox_height_delta,BBox,0.014392162082283706,0.007485817935051052
+115_all,test,bbox_height_first,BBox,0.029791888144899126,0.007762046001019941
+115_all,test,bbox_height_last,BBox,0.13445519549231033,0.0352016417034688
+115_all,test,bbox_height_max,BBox,0.049357424973014236,0.027313107028610582
+115_all,test,bbox_height_mean,BBox,0.023362980991485035,0.007337225952685221
+115_all,test,bbox_height_min,BBox,0.04248212013734379,0.012516409813234623
+115_all,test,bbox_height_std,BBox,0.3778324756370508,0.026897841861412097
+115_all,test,bbox_scale_change_ratio,BBox,0.024220091315038484,0.004402139387589946
+115_all,test,bbox_valid_frame_count,BBox,0.0,0.0
+115_all,test,bbox_width_change,BBox,0.00023755556859834104,0.0002356052775446793
+115_all,test,bbox_width_delta,BBox,0.0002892185594171062,0.00029345134276136526
+115_all,test,bbox_width_first,BBox,0.011516957347472065,0.005123483939658287
+115_all,test,bbox_width_last,BBox,0.004829422009490781,0.004183452772009696
+115_all,test,bbox_width_max,BBox,0.06234873081764225,0.0038557554751107886
+115_all,test,bbox_width_mean,BBox,0.004499650731405303,0.0014552834877912943
+115_all,test,bbox_width_min,BBox,0.0077577833119399685,0.0040605547507876795
+115_all,test,bbox_width_std,BBox,0.3289375551816424,0.033279785732829796
+115_all,test,biu_low_confidence_frame_count,Combined BIU package,0.005497930683160083,0.001936398114693109
+115_all,test,biu_valid_frame_count,Combined BIU package,0.0,0.0
+115_all,test,body_yaw_angle_delta,Combined BIU package,0.0017751694726450542,0.0016778022208196466
+115_all,test,body_yaw_angle_first,Combined BIU package,0.04526119360924515,0.001976581773688542
+115_all,test,body_yaw_angle_last,Combined BIU package,0.021875073032050163,0.012695833810506853
+115_all,test,body_yaw_angle_max,Combined BIU package,0.03655070462253961,0.008617844636615468
+115_all,test,body_yaw_angle_mean,Combined BIU package,0.04600807910472055,0.003886440388045953
+115_all,test,body_yaw_angle_min,Combined BIU package,0.06607910197365015,0.010664572020633619
+115_all,test,body_yaw_angle_std,Combined BIU package,0.011764405246575018,0.005803865651400752
+115_all,test,center_x_displacement,BBox,0.01121778900002468,0.003518866207661473
+115_all,test,center_x_velocity_mean,BBox,0.0002893868597144502,0.0005012327440682349
+115_all,test,center_x_velocity_std,BBox,0.015350887298101924,0.007952087773809045
+115_all,test,center_y_displacement,BBox,0.010470329802397843,0.008799995508899146
+115_all,test,center_y_velocity_mean,BBox,0.0019362036081107146,0.0033536030230459373
+115_all,test,center_y_velocity_std,BBox,0.18112028764050472,0.012498712858641106
+115_all,test,face_yaw_angle_delta,Combined BIU package,0.0026597577901769903,0.004606835628413668
+115_all,test,face_yaw_angle_first,Combined BIU package,0.0039657190311707426,0.0028402239603885306
+115_all,test,face_yaw_angle_last,Combined BIU package,0.01696171286158475,0.005453720959713125
+115_all,test,face_yaw_angle_max,Combined BIU package,0.015159336170902973,0.0016025903418219207
+115_all,test,face_yaw_angle_mean,Combined BIU package,0.015339839680439352,0.007350496482670641
+115_all,test,face_yaw_angle_min,Combined BIU package,0.029216066872967576,0.005861526517734931
+115_all,test,face_yaw_angle_std,Combined BIU package,0.01797283539950132,0.005494616971260977
+115_all,test,gaze_to_car_angle_delta,Combined BIU package,4.4465003134915445e-05,7.701564458838296e-05
+115_all,test,gaze_to_car_angle_first,Combined BIU package,0.0017576553915404523,0.0019440591358432558
+115_all,test,gaze_to_car_angle_last,Combined BIU package,0.046474711534420225,0.010052311941321574
+115_all,test,gaze_to_car_angle_max,Combined BIU package,0.05686612321418211,0.006305420969026749
+115_all,test,gaze_to_car_angle_mean,Combined BIU package,0.11613896708675253,0.006417456453418058
+115_all,test,gaze_to_car_angle_min,Combined BIU package,0.038101830004129957,0.016140889435382902
+115_all,test,gaze_to_car_angle_std,Combined BIU package,0.06284381853803564,0.01765954404023441
+115_all,test,head_yaw_angle_delta,Combined BIU package,0.016460126791300104,0.011719159781644862
+115_all,test,head_yaw_angle_first,Combined BIU package,0.0113754919966491,0.004607612863531246
+115_all,test,head_yaw_angle_last,Combined BIU package,0.011406134184639047,0.003495554017143969
+115_all,test,head_yaw_angle_max,Combined BIU package,0.02630413461838048,0.010101443128748742
+115_all,test,head_yaw_angle_mean,Combined BIU package,0.042992972364224134,0.010311467253425608
+115_all,test,head_yaw_angle_min,Combined BIU package,0.01679606830960417,0.0013966353745001956
+115_all,test,head_yaw_angle_std,Combined BIU package,0.00328849474880636,0.0024425695147406957
+115_all,test,v2__hip_center_x_delta,Combined BIU package,0.049525437058415195,0.0025356200505528325
+115_all,test,v2__hip_center_x_last,Combined BIU package,0.005904490509679672,0.004549447225847416
+115_all,test,v2__hip_center_x_velocity_mean,Combined BIU package,0.0029491388080383663,0.005108058254095569
+115_all,test,v2__hip_center_x_velocity_std,Combined BIU package,0.0039528827367895395,0.0018466886900835818
+115_all,test,v2__knee_center_x_delta,Combined BIU package,0.02796015146024061,0.013443302396130901
+115_all,test,v2__knee_center_x_last,Combined BIU package,0.008274293522681333,0.0025371289008326073
+115_all,test,v2__knee_center_x_velocity_mean,Combined BIU package,0.0046536307913619636,0.004387578046427242
+115_all,test,v2__knee_center_x_velocity_std,Combined BIU package,0.015444159436249221,0.003642725161279617
+115_all,test,v2__lead_ankle_forward_delta,Combined BIU package,0.0033568378298288186,0.002314873194519977
+115_all,test,v2__lead_ankle_forward_last,Combined BIU package,0.0011528301040659669,0.001813557856498477
+115_all,test,v2__lead_ankle_forward_velocity_mean,Combined BIU package,9.580913792693623e-05,0.00016594629471882786
+115_all,test,v2__lead_ankle_forward_velocity_std,Combined BIU package,0.24553036478752358,0.005796315107084252
+115_all,test,lead_foot_elevation_delta,Combined BIU package,0.0002255744951556492,0.000390706486501284
+115_all,test,lead_foot_elevation_first,Combined BIU package,0.011970977807731648,0.0030312988151398575
+115_all,test,lead_foot_elevation_last,Combined BIU package,0.007259870781885388,0.012574465050610282
+115_all,test,lead_foot_elevation_max,Combined BIU package,0.05768739819432208,0.004693512882341639
+115_all,test,lead_foot_elevation_mean,Combined BIU package,0.04203058629265869,0.00237343275912768
+115_all,test,lead_foot_elevation_min,Combined BIU package,0.09393439659190893,0.009108622877231347
+115_all,test,lead_foot_elevation_std,Combined BIU package,0.014566500915933131,0.007580168806855772
+115_all,test,lead_foot_lifted_delta,Combined BIU package,0.0,0.0
+115_all,test,lead_foot_lifted_first,Combined BIU package,0.0,0.0
+115_all,test,lead_foot_lifted_last,Combined BIU package,0.0,0.0
+115_all,test,lead_foot_lifted_max,Combined BIU package,0.0,0.0
+115_all,test,lead_foot_lifted_mean,Combined BIU package,0.12113001319075432,0.004990224367437266
+115_all,test,lead_foot_lifted_min,Combined BIU package,0.00016101866369678557,0.00027889250648967896
+115_all,test,lead_foot_lifted_std,Combined BIU package,0.0,0.0
+115_all,test,v2__leg_center_x_delta,Combined BIU package,0.01762625729168493,0.006949594521050401
+115_all,test,v2__leg_center_x_last,Combined BIU package,0.0034159509055304454,0.0030398666534604034
+115_all,test,v2__leg_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_all,test,v2__leg_center_x_velocity_std,Combined BIU package,0.0030960795644049428,0.003067917255552373
+115_all,test,v2__lower_body_motion_magnitude_mean,Combined BIU package,0.018234531712277697,0.0012901775886717934
+115_all,test,v2__lower_body_motion_magnitude_std,Combined BIU package,0.009467834517789334,0.002400425559780258
+115_all,test,norm_shoulder_width_delta,Combined BIU package,0.0008988427697810194,0.0015568413452766612
+115_all,test,norm_shoulder_width_first,Combined BIU package,0.0009512665854875994,0.0014465694336082558
+115_all,test,norm_shoulder_width_last,Combined BIU package,0.04828864925975501,0.0041999739304518615
+115_all,test,norm_shoulder_width_max,Combined BIU package,0.03495247960122211,0.008150393466618094
+115_all,test,norm_shoulder_width_mean,Combined BIU package,0.03747917888217022,0.007913819091203067
+115_all,test,norm_shoulder_width_min,Combined BIU package,0.05503613589821301,0.0029896015451342703
+115_all,test,norm_shoulder_width_std,Combined BIU package,0.0035510485046963726,0.0009683694443899138
+115_all,test,v2__shoulder_center_x_delta,Combined BIU package,0.016379350808789852,0.004632962084971415
+115_all,test,v2__shoulder_center_x_last,Combined BIU package,0.007319711171034361,0.00649166430471831
+115_all,test,v2__shoulder_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_all,test,v2__shoulder_center_x_velocity_std,Combined BIU package,0.00909967871650707,0.0016541509225182576
+115_all,test,stride_length_delta,Combined BIU package,0.0009886032811916342,0.0008168946012254563
+115_all,test,stride_length_first,Combined BIU package,0.0016918833751424804,0.001944173824124971
+115_all,test,stride_length_last,Combined BIU package,0.0003171695065428913,0.0003179987826813718
+115_all,test,stride_length_max,Combined BIU package,0.008580435831900926,0.003008338936401169
+115_all,test,stride_length_mean,Combined BIU package,0.04314907590275749,0.005817310116688502
+115_all,test,stride_length_min,Combined BIU package,0.011839301020914616,0.0008970154762382648
+115_all,test,stride_length_std,Combined BIU package,0.08756693373713698,0.006981649956838522
+115_all,test,v2__stride_opening_delta,Combined BIU package,0.014516269788169077,0.004081872369565228
+115_all,test,v2__stride_opening_last,Combined BIU package,0.0029400692406943763,0.0021618661729138062
+115_all,test,v2__stride_opening_velocity_mean,Combined BIU package,0.0,0.0
+115_all,test,v2__stride_opening_velocity_std,Combined BIU package,0.022903780605160174,0.014020931973139689
+115_all,test,v2__torso_center_x_delta,Combined BIU package,0.010949337664079765,0.010254998416904975
+115_all,test,v2__torso_center_x_last,Combined BIU package,0.005468204211297526,0.00492757234711793
+115_all,test,v2__torso_center_x_velocity_mean,Combined BIU package,0.0,0.0
+115_all,test,v2__torso_center_x_velocity_std,Combined BIU package,0.004187219556020881,0.0011822473810194148
+115_all,test,torso_lean_angle_delta,Combined BIU package,7.454404302546955e-05,0.00012911406992171368
+115_all,test,torso_lean_angle_first,Combined BIU package,0.0016810891767910475,0.002113070986554071
+115_all,test,torso_lean_angle_last,Combined BIU package,0.004675953373991711,0.001497608383213358
+115_all,test,torso_lean_angle_max,Combined BIU package,0.017769514778130883,0.002123502038720792
+115_all,test,torso_lean_angle_mean,Combined BIU package,0.00987297556563372,0.006044110895781655
+115_all,test,torso_lean_angle_min,Combined BIU package,0.022952562956848943,0.003125795133229813
+115_all,test,torso_lean_angle_std,Combined BIU package,0.018503225308357466,0.005388283225574977
+115_all,test,v2__torso_motion_magnitude_mean,Combined BIU package,0.007830098113246111,0.0023323951221453504
+115_all,test,v2__torso_motion_magnitude_std,Combined BIU package,0.09580678657566422,0.012904501694027154
+115_all,test,temporal__lower_body_motion_magnitude_mean_early,Explicit temporal,0.004663787274487754,0.002310994073662685
+115_all,test,temporal__lower_body_motion_magnitude_mean_late,Explicit temporal,0.004015827257915286,0.0031788624791528794
+115_all,test,temporal__lower_body_motion_magnitude_mean_late_minus_early,Explicit temporal,6.602254834966747e-05,0.00011435440818679679
+115_all,test,temporal__lead_ankle_forward_delta_early,Explicit temporal,0.002194521987995838,0.0014846250993847594
+115_all,test,temporal__lead_ankle_forward_delta_late,Explicit temporal,0.007579734441509427,0.00476546289548589
+115_all,test,temporal__lead_ankle_forward_delta_late_minus_early,Explicit temporal,0.002223437770697745,0.001579897671896542
+115_all,test,temporal__torso_motion_magnitude_mean_early,Explicit temporal,0.0015066010132620186,0.0017856347201938582
+115_all,test,temporal__torso_motion_magnitude_mean_late,Explicit temporal,0.008075541025988483,0.006382673043320593
+115_all,test,temporal__torso_motion_magnitude_mean_late_minus_early,Explicit temporal,0.0007576088042890762,0.0006573936483931237
+115_all,test,temporal__torso_center_x_delta_early,Explicit temporal,0.013836170046748877,0.0014036882228455354
+115_all,test,temporal__torso_center_x_delta_late,Explicit temporal,0.056143662801058015,0.004847990681169108
+115_all,test,temporal__torso_center_x_delta_late_minus_early,Explicit temporal,0.00320348804214208,0.002379673483335915
+115_all,test,temporal__bbox_center_dx_norm_early,Explicit temporal,0.06964037211266448,0.010245172858079776
+115_all,test,temporal__bbox_center_dx_norm_late,Explicit temporal,0.08780525778065579,0.023944246050322925
+115_all,test,temporal__bbox_center_dx_norm_late_minus_early,Explicit temporal,0.0025622364478719126,0.0015383245034449983
+115_all,test,temporal__bbox_scale_log_delta_early,Explicit temporal,0.0006167502082652167,0.000496823553439891
+115_all,test,temporal__bbox_scale_log_delta_late,Explicit temporal,0.001741162868951337,0.0015116158859390058
+115_all,test,temporal__bbox_scale_log_delta_late_minus_early,Explicit temporal,0.0006748587127022113,0.0005389744496233251
+115_all,test,temporal__pose_confidence_mean_early,Explicit temporal,0.02577224268330253,0.00702854772781784
+115_all,test,temporal__pose_confidence_mean_late,Explicit temporal,0.008726696963478267,0.0022616326447347907
+115_all,test,temporal__pose_confidence_mean_late_minus_early,Explicit temporal,0.00043536034517026984,0.00038376638384433594
+115_all,test,road_compensated__road_foot_inside__early_mean,Road context,0.005814258909814486,0.004325853424673181
+115_all,test,road_compensated__road_foot_inside__late_mean,Road context,0.02070092449107058,0.0036749430948897826
+115_all,test,road_compensated__road_foot_inside__late_minus_early,Road context,0.0007642158228287013,0.0007055749215480866
+115_all,test,road_compensated__road_signed_boundary_distance_h__early_mean,Road context,0.019561474615957048,0.010721607161339259
+115_all,test,road_compensated__road_signed_boundary_distance_h__late_mean,Road context,0.07497972034245969,0.027476433019298294
+115_all,test,road_compensated__road_signed_boundary_distance_h__late_minus_early,Road context,0.0038621271988001347,0.0046367928030190105
+115_all,test,road_compensated__road_nearest_boundary_dx_h__early_mean,Road context,0.04555369408586513,0.006188942791365039
+115_all,test,road_compensated__road_nearest_boundary_dx_h__late_mean,Road context,0.08884709234139136,0.017945687399860324
+115_all,test,road_compensated__road_nearest_boundary_dx_h__late_minus_early,Road context,0.04649425476172662,0.010058104108336081
+115_all,test,road_compensated__road_nearest_boundary_dy_h__early_mean,Road context,0.10978924363515351,0.007687499767613053
+115_all,test,road_compensated__road_nearest_boundary_dy_h__late_mean,Road context,0.2784152647811549,0.027374706362539837
+115_all,test,road_compensated__road_nearest_boundary_dy_h__late_minus_early,Road context,0.002473166007712622,0.002146693964575308
+115_all,test,road_compensated__road_boundary_tangent_x__early_mean,Road context,0.03959598643737039,0.00258268699104476
+115_all,test,road_compensated__road_boundary_tangent_x__late_mean,Road context,0.0416910527743801,0.0030201176198287735
+115_all,test,road_compensated__road_boundary_tangent_x__late_minus_early,Road context,0.0007425007755005064,0.0008086864955498043
+115_all,test,road_compensated__road_boundary_tangent_y__early_mean,Road context,0.03416196277072863,0.008119919318330107
+115_all,test,road_compensated__road_boundary_tangent_y__late_mean,Road context,0.0347991021333291,0.005949276935992497
+115_all,test,road_compensated__road_boundary_tangent_y__late_minus_early,Road context,0.002026546919616657,0.0023727904604493007
+115_all,test,road_compensated__road_boundary_valid__early_mean,Road context,0.04211328037410047,0.007599163241984532
+115_all,test,road_compensated__road_boundary_valid__late_mean,Road context,0.11814832741548002,0.021705486760736727
+115_all,test,road_compensated__road_boundary_valid__late_minus_early,Road context,0.000139710815256309,0.00024198623039079623
+115_all,test,road_compensated__lane_nearest_distance_h__early_mean,Road context,0.01415865255244469,0.0023353354863838048
+115_all,test,road_compensated__lane_nearest_distance_h__late_mean,Road context,0.010686250518300272,0.0047273420175008365
+115_all,test,road_compensated__lane_nearest_distance_h__late_minus_early,Road context,0.021154811098708287,0.008332416425134246
+115_all,test,road_compensated__lane_nearest_dx_h__early_mean,Road context,0.023880380064800383,0.004967262829991085
+115_all,test,road_compensated__lane_nearest_dx_h__late_mean,Road context,0.03895198696656999,0.005860006890405881
+115_all,test,road_compensated__lane_nearest_dx_h__late_minus_early,Road context,0.009547973132649169,0.001795005216206069
+115_all,test,road_compensated__lane_nearest_dy_h__early_mean,Road context,0.11826693838914142,0.016618256614730077
+115_all,test,road_compensated__lane_nearest_dy_h__late_mean,Road context,0.08969417972065209,0.0200657401987338
+115_all,test,road_compensated__lane_nearest_dy_h__late_minus_early,Road context,0.03815953316206298,0.006138174628958341
+115_all,test,road_compensated__lane_tangent_x__early_mean,Road context,0.05270900699796464,0.012118862564922315
+115_all,test,road_compensated__lane_tangent_x__late_mean,Road context,0.0535030874404381,0.016792167963514994
+115_all,test,road_compensated__lane_tangent_x__late_minus_early,Road context,0.0048619876686935145,0.0016671692373218343
+115_all,test,road_compensated__lane_tangent_y__early_mean,Road context,0.06319410939785365,0.01172432447457385
+115_all,test,road_compensated__lane_tangent_y__late_mean,Road context,0.07142171293447651,0.01095521561810099
+115_all,test,road_compensated__lane_tangent_y__late_minus_early,Road context,0.02270057134099217,0.005277165474098303
+115_all,test,road_compensated__lane_geometry_valid__early_mean,Road context,0.014357993740805255,0.0036868486299831333
+115_all,test,road_compensated__lane_geometry_valid__late_mean,Road context,0.02196366228624154,0.013247449518708966
+115_all,test,road_compensated__lane_geometry_valid__late_minus_early,Road context,0.007855516898930423,0.0035633975194955033
+115_all,test,road_compensated__foot_velocity_x_h__early_mean,Road context,0.028088205768099197,0.0050300747936651066
+115_all,test,road_compensated__foot_velocity_x_h__late_mean,Road context,0.041898224526493784,0.010250213444589493
+115_all,test,road_compensated__foot_velocity_x_h__late_minus_early,Road context,0.0032001193388511554,0.002361758121005657
+115_all,test,road_compensated__foot_velocity_y_h__early_mean,Road context,0.006267569710352648,0.0018230400724590686
+115_all,test,road_compensated__foot_velocity_y_h__late_mean,Road context,0.018650071015026044,0.0037613534656081643
+115_all,test,road_compensated__foot_velocity_y_h__late_minus_early,Road context,0.013128520088924794,0.0039060874224042534
+115_all,test,road_compensated__foot_speed_h__early_mean,Road context,0.08178155536306737,0.004840033885383956
+115_all,test,road_compensated__foot_speed_h__late_mean,Road context,0.021211875191676537,0.0018491074206341222
+115_all,test,road_compensated__foot_speed_h__late_minus_early,Road context,0.0011483934383933983,0.000678801510429204
+115_all,test,road_compensated__motion_parallel_to_road__early_mean,Road context,0.015238778350879013,0.0011297251664158603
+115_all,test,road_compensated__motion_parallel_to_road__late_mean,Road context,0.012113549612989653,0.0032046635479626245
+115_all,test,road_compensated__motion_parallel_to_road__late_minus_early,Road context,0.0016721723529182278,0.0005536535749161337
+115_all,test,road_compensated__motion_toward_drivable_area__early_mean,Road context,0.015781603812367404,0.0019768190406902787
+115_all,test,road_compensated__motion_toward_drivable_area__late_mean,Road context,0.03577032322929682,0.005706969463013086
+115_all,test,road_compensated__motion_toward_drivable_area__late_minus_early,Road context,0.0011536432180821563,0.0014394457761561113
+115_all,test,road_compensated__motion_parallel_to_lane__early_mean,Road context,0.009593123162301482,0.004108313710644755
+115_all,test,road_compensated__motion_parallel_to_lane__late_mean,Road context,0.01925022962796286,0.002692661794961436
+115_all,test,road_compensated__motion_parallel_to_lane__late_minus_early,Road context,0.0002739982309660402,5.0419897314374666e-05
+115_all,test,road_compensated__road_signed_distance_change_h__early_mean,Road context,0.011143292957838993,0.010199224008757835
+115_all,test,road_compensated__road_signed_distance_change_h__late_mean,Road context,0.021787531298995747,0.0059289665708608325
+115_all,test,road_compensated__road_signed_distance_change_h__late_minus_early,Road context,0.0025671648149707092,0.0015304951459313221
+115_all,test,vehicle_fraction__stopped,Vehicle state,0.0024173379764601596,0.004186952194294735
+115_all,test,vehicle_fraction__moving_slow,Vehicle state,0.0003937538703698521,0.0006820017091574733
+115_all,test,vehicle_fraction__moving_fast,Vehicle state,0.0003421743083895804,0.0003310368641909494
+115_all,test,vehicle_fraction__decelerating,Vehicle state,0.03969946927249177,0.0033069945652005107
+115_all,test,vehicle_fraction__accelerating,Vehicle state,0.052936511994363965,0.009542057830409496
+115_all,test,vehicle_first__stopped,Vehicle state,0.0006996718343382542,0.001211867165698771
+115_all,test,vehicle_first__moving_slow,Vehicle state,0.0,0.0
+115_all,test,vehicle_first__moving_fast,Vehicle state,0.00023697541249363807,0.00041045345458357366
+115_all,test,vehicle_first__decelerating,Vehicle state,0.001196759660825084,0.0008897820536462994
+115_all,test,vehicle_first__accelerating,Vehicle state,0.005249965556264888,0.005474822584960372
+115_all,test,vehicle_last__stopped,Vehicle state,0.0,0.0
+115_all,test,vehicle_last__moving_slow,Vehicle state,0.0,0.0
+115_all,test,vehicle_last__moving_fast,Vehicle state,0.0,0.0
+115_all,test,vehicle_last__decelerating,Vehicle state,0.046082089303953126,0.012076231376310167
+115_all,test,vehicle_last__accelerating,Vehicle state,0.016483395514486434,0.004695850967273333

@@ -1,0 +1,6 @@
+metric,paper_reference,fresh_variant_a_mean,absolute_delta,wild_inconsistency
+accuracy,0.916,0.0,-0.916,False
+roc_auc,0.97,,,False
+f1,0.899,0.0,-0.899,True
+precision,0.929,0.0,-0.929,False
+recall,0.871,0.0,-0.871,False

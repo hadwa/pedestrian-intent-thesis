@@ -1,0 +1,503 @@
+{
+  "experiment": "Exp116",
+  "model": "PIE BIU-v2 XGBoost road-context extension",
+  "input_dimensions": 195,
+  "seed": 42,
+  "video": "video_0010",
+  "set_id": "set03",
+  "observation_frames": [
+    839,
+    854
+  ],
+  "future_frame": 914,
+  "frame_indexing": "PIE annotation frame f maps to decoded offset f-1",
+  "fps": 30.0,
+  "crop_xyxy": [
+    0,
+    450,
+    1920,
+    1080
+  ],
+  "selection": "Qualitative successful-example selection requested by the user. Screened latest retained positive windows for visible unoccluded pedestrians at observation start/end and 60 frames later, prioritizing large boxes and a clear crossing across the ego-vehicle road. Then checked saved predictions to select a correctly predicted crossing, as explicitly requested. Chosen track 3_10_630 in video_0010 has an unobstructed view of a pedestrian moving from the left into the road ahead. Seed 42 is fixed. This intentionally selected success case is not representative sampling and does not estimate performance.",
+  "people": [
+    {
+      "tag": "A",
+      "pid": "3_10_630",
+      "color": "#00a0b5",
+      "row_index": 1861,
+      "row": {
+        "sequence_id": "set03_video_0010_3_10_630_839_854_884_1",
+        "split": "test",
+        "set_id": "set03",
+        "video_id": "video_0010",
+        "ped_id": "3_10_630",
+        "track_id": "set03_video_0010_3_10_630",
+        "start_frame": "839",
+        "end_frame": "854",
+        "event_frame": "884",
+        "last_observed_frame": "854",
+        "time_to_event_frames": "30",
+        "label": "1",
+        "observation_length": "16",
+        "frame_step": "1",
+        "sample_stride_between_windows": "6",
+        "frame_sampling": "consecutive",
+        "event_frame_definition": "first_0_to_1_crossing_transition",
+        "track_type": "eventually_crossing",
+        "has_observed_crossing": "0",
+        "has_observed_irrelevant_cross": "0",
+        "first_crossing_onset_frame": "884",
+        "official_crossing_point": "884",
+        "official_crossing_point_abs_diff": "0",
+        "source_annotation_path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set03/video_0010_annt.xml",
+        "source_attributes_path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations_attributes/set03/video_0010_attributes.xml",
+        "parser_mode": "pie_raw_annotations"
+      },
+      "prediction": {
+        "sequence_id": "set03_video_0010_3_10_630_839_854_884_1",
+        "video_id": "video_0010",
+        "track_id": "set03_video_0010_3_10_630",
+        "label": "1",
+        "start_frame": "839",
+        "end_frame": "854",
+        "probability": "0.97999007",
+        "prediction": "1",
+        "threshold": "0.5",
+        "seed": "42",
+        "case": "pie_road"
+      },
+      "replayed_probability": 0.9799900650978088,
+      "replay_abs_error": 4.902191208522311e-09,
+      "first_annotation": {
+        "id": "3_10_630",
+        "occlusion": "none",
+        "look": "looking",
+        "action": "walking",
+        "cross": "not-crossing",
+        "gesture": "__undefined__",
+        "frame": "839",
+        "xtl": "479.20",
+        "ytl": "654.11",
+        "xbr": "558.80",
+        "ybr": "919.80",
+        "outside": "0",
+        "occluded": "0",
+        "keyframe": "1",
+        "bbox": [
+          479.2,
+          654.11,
+          558.8,
+          919.8
+        ]
+      },
+      "observation_annotation": {
+        "id": "3_10_630",
+        "occlusion": "none",
+        "look": "looking",
+        "action": "walking",
+        "cross": "not-crossing",
+        "gesture": "__undefined__",
+        "frame": "854",
+        "xtl": "455.77",
+        "ytl": "648.62",
+        "xbr": "560.14",
+        "ybr": "941.38",
+        "outside": "0",
+        "occluded": "0",
+        "keyframe": "0",
+        "bbox": [
+          455.77,
+          648.62,
+          560.14,
+          941.38
+        ]
+      },
+      "future_annotation": {
+        "id": "3_10_630",
+        "occlusion": "none",
+        "look": "not-looking",
+        "action": "walking",
+        "cross": "crossing",
+        "gesture": "__undefined__",
+        "frame": "914",
+        "xtl": "824.07",
+        "ytl": "702.90",
+        "xbr": "960.74",
+        "ybr": "982.40",
+        "outside": "0",
+        "occluded": "0",
+        "keyframe": "0",
+        "bbox": [
+          824.07,
+          702.9,
+          960.74,
+          982.4
+        ]
+      },
+      "keypoints": [
+        [
+          531.5471790584604,
+          687.6791766787331
+        ],
+        [
+          535.9380602853855,
+          682.5398673057556
+        ],
+        [
+          526.6432497944729,
+          681.3110484600066
+        ],
+        [
+          537.0633532206555,
+          683.366901836698
+        ],
+        [
+          512.1324286503486,
+          680.261835717398
+        ],
+        [
+          521.9466693702657,
+          709.1950815503559
+        ],
+        [
+          504.2705372015974,
+          710.2644862689668
+        ],
+        [
+          525.6604813410372,
+          761.4163398969741
+        ],
+        [
+          492.6310786918884,
+          757.3026499536302
+        ],
+        [
+          530.3062715466478,
+          797.2133175516885
+        ],
+        [
+          512.1872508994568,
+          793.9498399795048
+        ],
+        [
+          518.971654592372,
+          800.0012062284682
+        ],
+        [
+          510.352977748323,
+          801.0288310066102
+        ],
+        [
+          495.3448134373604,
+          856.6046828708951
+        ],
+        [
+          528.2973958808818,
+          855.6766164446634
+        ],
+        [
+          462.6081451139044,
+          906.2915906361171
+        ],
+        [
+          524.9203364252537,
+          918.745137250991
+        ]
+      ],
+      "keypoint_confidences": [
+        0.978515625,
+        0.99462890625,
+        0.9755859375,
+        0.7998046875,
+        0.9814453125,
+        0.8681640625,
+        0.95166015625,
+        0.79296875,
+        0.9580078125,
+        0.8037109375,
+        0.89306640625,
+        0.712890625,
+        0.8203125,
+        0.7548828125,
+        0.900390625,
+        0.5751953125,
+        0.8603515625
+      ],
+      "first_keypoints": [
+        [
+          538.0158910689202,
+          682.6916058459357
+        ],
+        [
+          542.3164124665109,
+          677.814977851406
+        ],
+        [
+          533.2730399737967,
+          676.8258690908219
+        ],
+        [
+          544.3922153268722,
+          679.6378733781027
+        ],
+        [
+          521.2081914443919,
+          676.6601051548548
+        ],
+        [
+          529.8426321079122,
+          701.1614245780308
+        ],
+        [
+          515.2373419723613,
+          703.9845344256219
+        ],
+        [
+          531.1252457035349,
+          743.57618874126
+        ],
+        [
+          507.6594323611006,
+          747.7534278618342
+        ],
+        [
+          535.341342465421,
+          776.3195734003612
+        ],
+        [
+          522.0520233605771,
+          783.4793768983417
+        ],
+        [
+          524.6291177120615,
+          780.1684117012932
+        ],
+        [
+          515.2783817258287,
+          782.3600832195887
+        ],
+        [
+          524.7273503042281,
+          831.4840838703276
+        ],
+        [
+          522.2954922034386,
+          832.5719159843808
+        ],
+        [
+          511.29515018577274,
+          883.2721520868937
+        ],
+        [
+          503.8033634069118,
+          882.8320923743171
+        ]
+      ],
+      "first_keypoint_confidences": [
+        0.9970703125,
+        1.01171875,
+        0.97412109375,
+        0.8466796875,
+        0.9599609375,
+        0.837890625,
+        0.93701171875,
+        0.6162109375,
+        0.91650390625,
+        0.6826171875,
+        0.912109375,
+        0.7177734375,
+        0.7783203125,
+        0.685546875,
+        0.7783203125,
+        0.48095703125,
+        0.71142578125
+      ]
+    }
+  ],
+  "context_people": [
+    {
+      "tag": "B",
+      "pid": "3_10_632",
+      "color": "#de7015",
+      "observation_annotation": {
+        "id": "3_10_632",
+        "occlusion": "none",
+        "look": "not-looking",
+        "action": "walking",
+        "cross": "crossing",
+        "gesture": "__undefined__",
+        "frame": "854",
+        "xtl": "1551.43",
+        "ytl": "699.02",
+        "xbr": "1649.92",
+        "ybr": "930.88",
+        "outside": "0",
+        "occluded": "0",
+        "keyframe": "0",
+        "bbox": [
+          1551.43,
+          699.02,
+          1649.92,
+          930.88
+        ]
+      },
+      "future_annotation": {
+        "id": "3_10_632",
+        "occlusion": "none",
+        "look": "not-looking",
+        "action": "walking",
+        "cross": "crossing",
+        "gesture": "__undefined__",
+        "frame": "914",
+        "xtl": "1226.24",
+        "ytl": "700.53",
+        "xbr": "1363.00",
+        "ybr": "967.58",
+        "outside": "0",
+        "occluded": "0",
+        "keyframe": "0",
+        "bbox": [
+          1226.24,
+          700.53,
+          1363.0,
+          967.58
+        ]
+      },
+      "keypoints": [
+        [
+          1581.5739414128852,
+          724.3511263052623
+        ],
+        [
+          1583.9857373009338,
+          719.1051938314287
+        ],
+        [
+          1580.8975027421689,
+          719.464367307557
+        ],
+        [
+          1594.6928009142268,
+          718.7517589179297
+        ],
+        [
+          1588.9611248680887,
+          719.6740793057851
+        ],
+        [
+          1615.6982580217912,
+          742.7877153290643
+        ],
+        [
+          1590.78345945059,
+          743.9898038069408
+        ],
+        [
+          1623.4556245529907,
+          780.5161410233331
+        ],
+        [
+          1587.1873864625363,
+          779.7084690442161
+        ],
+        [
+          1623.9966308213295,
+          815.3696433604711
+        ],
+        [
+          1579.573312053021,
+          760.6860464822679
+        ],
+        [
+          1604.4772252217253,
+          815.9902855804988
+        ],
+        [
+          1585.7132259777254,
+          814.8745387788803
+        ],
+        [
+          1600.6518971887042,
+          866.1386279711647
+        ],
+        [
+          1588.7005720856343,
+          867.4268036630419
+        ],
+        [
+          1619.1659908794343,
+          906.9081321019975
+        ],
+        [
+          1588.650935003098,
+          913.3928658152385
+        ]
+      ],
+      "keypoint_confidences": [
+        0.9619140625,
+        0.9560546875,
+        0.91796875,
+        0.9228515625,
+        0.666015625,
+        0.923828125,
+        0.8994140625,
+        0.904296875,
+        0.7236328125,
+        0.884765625,
+        0.64599609375,
+        0.8154296875,
+        0.79736328125,
+        0.732421875,
+        0.78173828125,
+        0.39697265625,
+        0.685546875
+      ],
+      "role": "Already crossing at observation end; annotation-only context, no matching saved anticipatory score."
+    }
+  ],
+  "sources": {
+    "rows": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/cache/pie_road/test/rows.csv",
+      "bytes": 1560529,
+      "sha256": "10a8ff19839fe2d16e2cce7d62267ffea40c8d488d4b1f5602eb9028abf03f80"
+    },
+    "predictions": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/predictions/pie_road_test_seed42.csv",
+      "bytes": 461861,
+      "sha256": "8caf349b2f5223c254ae5162464b1a9ac64c10994f1b46eed82118b33a755bd0"
+    },
+    "features": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/cache/pie_road/test/features.npy",
+      "bytes": 5865728,
+      "sha256": "7bd719d9be4fdef9a231603a79415e66cc96c55e0694238c0a053daec8ae8928"
+    },
+    "columns": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/cache/pie_road/test/columns.json",
+      "bytes": 7007,
+      "sha256": "d97e930ebf8a8fa02eac35059281aff1a3149bd07a2ffa1bfef6ad276a6ae565"
+    },
+    "model": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/models/pie_road_seed42.joblib",
+      "bytes": 377860,
+      "sha256": "24c597207897dfb0dd642fe4133e032e16a8987f25d6e8ad3b86ebd382cc489f"
+    },
+    "annotation": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set03/video_0010_annt.xml",
+      "bytes": 35572509,
+      "sha256": "53182c91e016131cd2bc65b4759e01eafdf9c9c670f41e291ca6f88ba01725a0"
+    },
+    "poses": {
+      "path": "/home/abdelrahman/Hadwa/pedestrian-intent-biu/data/data_keypoints_all.jsonl",
+      "bytes": 794892224,
+      "sha256": "1f0907ebb33bb04c3a3434d9c89e7bd597e2b9e3d47fe30f488ffa9410054d87"
+    },
+    "video": {
+      "path": "/home/abdelrahman/Hadwa/PIE_Dataset/set03/video_0010.mp4",
+      "bytes": 1505141424,
+      "sha256": "d6398024b172f0e283de529dd4b3034b78a22e36cd288c19781331452233d38e"
+    }
+  },
+  "pose_records_verified": 17,
+  "source_hashes_unchanged": true,
+  "scope": "Qualitative illustration; saved probabilities replayed, no training or perception rerun. Same wide camera viewport in both panels; observed poses are cached estimates, and future skeletons are not inferred."
+}

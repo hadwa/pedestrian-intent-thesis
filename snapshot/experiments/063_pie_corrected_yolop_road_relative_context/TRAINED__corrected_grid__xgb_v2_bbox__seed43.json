@@ -1,0 +1,16 @@
+{
+  "anchor_name": "xgb_v2_bbox",
+  "artifacts": {
+    "checkpoints/corrected_grid__xgb_v2_bbox__seed43.pt": "e6716539e07f0f20c3b0c231074f9e5b1739396bc5d1a14634c4849891ce30d0",
+    "logs/train_corrected_grid__xgb_v2_bbox__seed43.log": "c9098fb330d2a3780875cc27eb40ebf8708fb59e98de9f0390329c51cc6e06b4",
+    "metrics/context_scaler_corrected_grid.json": "4c2c0e6987f3579d1745bc8f16824523badda9cace2da55d80916ba9e9080bc6",
+    "metrics/training_history_corrected_grid__xgb_v2_bbox__seed43.csv": "b3a2e402fb72fa10fb48cd7de395c5f857505cbc41c28493349cd53c9b5a7b56"
+  },
+  "best_epoch": 15,
+  "best_validation_harmonic": 0.6989129417362292,
+  "phase": "trained",
+  "probability_binding_sha256": "2ff553973edf4382b53264bddf00fa1400daa0b7d61c94ebd66cade96587963c",
+  "representation": "corrected_grid",
+  "seed": 43,
+  "set03_accessed": false
+}

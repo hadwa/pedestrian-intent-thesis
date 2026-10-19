@@ -1,0 +1,41 @@
+[
+  {
+    "command": [
+      "/home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python",
+      "-B",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/evaluate_tabular.py",
+      "--output",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/runs/tabular_saved_replay"
+    ],
+    "cwd": "/tmp",
+    "returncode": 1,
+    "expected_failure": "FileExistsError",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/evaluate_tabular.py\", line 61, in <module>\n    if __name__=='__main__':main()\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/evaluate_tabular.py\", line 33, in main\n    out=local(a.output);require(out.is_relative_to(ROOT/'runs'),'Outputs must be under runs/');out.mkdir(parents=True,exist_ok=False);(out/'predictions').mkdir()\n  File \"/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/pathlib.py\", line 1175, in mkdir\n    self._accessor.mkdir(self, mode)\nFileExistsError: [Errno 17] File exists: '/home/abdelrahman/Hadwa/pedestrian-intent-thesis/runs/tabular_saved_replay'\n"
+  },
+  {
+    "command": [
+      "/home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python",
+      "-B",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/evaluate_mslstm.py",
+      "--output",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/runs/mslstm_saved_replay"
+    ],
+    "cwd": "/tmp",
+    "returncode": 1,
+    "expected_failure": "FileExistsError",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/evaluate_mslstm.py\", line 50, in <module>\n    if __name__=='__main__':main()\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/evaluate_mslstm.py\", line 21, in main\n    out=local(a.output);require(out.is_relative_to(ROOT/'runs'),'Output must be under runs');out.mkdir(parents=True,exist_ok=False);(out/'predictions').mkdir();cache={};records=[]\n  File \"/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/pathlib.py\", line 1175, in mkdir\n    self._accessor.mkdir(self, mode)\nFileExistsError: [Errno 17] File exists: '/home/abdelrahman/Hadwa/pedestrian-intent-thesis/runs/mslstm_saved_replay'\n"
+  },
+  {
+    "command": [
+      "/home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python",
+      "-B",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/evaluate_pedcmt.py",
+      "--output",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/runs/pedcmt_saved_replay_v2"
+    ],
+    "cwd": "/tmp",
+    "returncode": 1,
+    "expected_failure": "FileExistsError",
+    "stderr": "Traceback (most recent call last):\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/evaluate_pedcmt.py\", line 59, in <module>\n    if __name__=='__main__':main()\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/evaluate_pedcmt.py\", line 21, in main\n    out=local(a.output);require(out.is_relative_to(ROOT/'runs'),'Output must be under runs');out.mkdir(parents=True,exist_ok=False);(out/'predictions').mkdir();data={};parents={};results=[]\n  File \"/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/pathlib.py\", line 1175, in mkdir\n    self._accessor.mkdir(self, mode)\nFileExistsError: [Errno 17] File exists: '/home/abdelrahman/Hadwa/pedestrian-intent-thesis/runs/pedcmt_saved_replay_v2'\n"
+  }
+]

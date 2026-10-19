@@ -1,0 +1,93 @@
+{
+  "cohorts": [
+    "jaad_beh",
+    "jaad_all"
+  ],
+  "experiment": "083_jaad_pcpa_aligned_exp082",
+  "fixed_threshold": 0.5,
+  "jaad_overlap": 0.8,
+  "observation_semantics": {
+    "approved_nonconsecutive_windows": {
+      "cohort": "jaad_all",
+      "count": 2,
+      "split": "train",
+      "track_id": "video_0098:0_98_544"
+    },
+    "raw_frame_continuity": "audited_not_required",
+    "sequence": "16_consecutive_official_track_observations"
+  },
+  "observation_frames": 16,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "sources": {
+    "exp077_runner": {
+      "path": "experiments/077_jaad_two_stage_early_late_xgb_transfer/scripts/run_experiment.py",
+      "sha256": "637fb8d7c0e8f46bfc622089626e99be1ae6627d330bafe6400f5b229beb3ab5",
+      "size_bytes": 16122
+    },
+    "exp081_extract": {
+      "path": "experiments/081_jaad_ego_compensated_road_motion/scripts/extract.py",
+      "sha256": "e0107d6614797d69b877b3c0221911d39f2856f555a16ac89b9244ef7bad4e43",
+      "size_bytes": 34748
+    },
+    "exp081_model": {
+      "path": "experiments/081_jaad_ego_compensated_road_motion/scripts/model.py",
+      "sha256": "dd00565a645b9ac842ad080dd48900744e220dee28c7fb2e79d2f0712749077d",
+      "size_bytes": 11723
+    },
+    "exp081_motion": {
+      "path": "experiments/081_jaad_ego_compensated_road_motion/scripts/motion.py",
+      "sha256": "0c879c84f5ff5b48aaedc007d7c236ca87dd7e8c0d53e065bca8cc825acb3a61",
+      "size_bytes": 12971
+    },
+    "exp081_road_context": {
+      "path": "experiments/081_jaad_ego_compensated_road_motion/scripts/road_context.py",
+      "sha256": "6edc68728c468203c8f148848d2c6a5cecf7a73531e228587bc98456dc35e3ff",
+      "size_bytes": 9190
+    },
+    "jaad_api": {
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/jaad_data.py",
+      "sha256": "2523a3631fa0e3d3f9bb6d2e9a20b28905f30bda6aed106376b9a25b6e1a7d8c",
+      "size_bytes": 59688
+    },
+    "jaad_readme": {
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/README.md",
+      "sha256": "9dcfdefc026e679f9f7b2b59530d8a521033ab065eaa2dc9eeb75a2f7400fc8e",
+      "size_bytes": 8656
+    },
+    "pcpa_paper": {
+      "path": "papers/Kotseruba_2021_PCPA_Benchmark.pdf",
+      "sha256": "3346fa5d35cc3726b5afe740c85d6e108679b0f943edb0cca67c94242f289f73",
+      "size_bytes": 1485847
+    },
+    "twinlite_checkpoint": {
+      "path": "experiments/075_pie_twinlitenetplus_road_context/checkpoints/large.pth",
+      "sha256": "5605d1a8ce762c1b6f7d23f4c2e7ec9384bfd6e6887b040b43e1f8902a817e22",
+      "size_bytes": 7959943
+    }
+  },
+  "tte_frames": [
+    30,
+    60
+  ],
+  "variant": {
+    "anchor_dim": 182,
+    "name": "D",
+    "road_dim": 60,
+    "total_dim": 242
+  },
+  "xgboost": {
+    "colsample_bytree": 0.8,
+    "eval_metric": "logloss",
+    "learning_rate": 0.05,
+    "max_depth": 4,
+    "n_estimators": 250,
+    "n_jobs": 4,
+    "objective": "binary:logistic",
+    "reg_lambda": 1.0,
+    "subsample": 0.8
+  }
+}

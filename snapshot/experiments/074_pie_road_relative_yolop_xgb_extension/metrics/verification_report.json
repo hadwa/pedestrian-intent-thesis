@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "prepare": "pass",
+    "report": "pass",
+    "set03_absent": "pass",
+    "validate": "pass"
+  },
+  "result": "no_advance",
+  "status": "pass"
+}

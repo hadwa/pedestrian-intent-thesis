@@ -1,0 +1,23 @@
+\begin{figure}[tbp]
+\centering\begingroup\setstretch{1.0}
+\begin{tikzpicture}[x=1cm,y=1cm,>=Latex,
+ every node/.style={font=\small,align=center},
+ b/.style={draw=black!55,fill=black!3,text width=2.55cm,minimum height=0.95cm},
+ f/.style={draw=blue!55!black,fill=blue!5,text width=3.05cm,minimum height=0.95cm},
+ w/.style={draw=blue!55!black,fill=blue!5,text width=6.9cm,minimum height=0.95cm}]
+
+\fill[blue!5] (0.7,-3.5) rectangle (9.7,0.5);
+\node[font=\Large\bfseries,text=blue!55!black] at (5.2,-0.1) {9.55 ms / observation};
+\node[font=\small] at (5.2,-0.7) {Measured behavioral pipeline on CPU};
+\node[b,text width=1.7cm] (box) at (-0.8,-1.7) {Boxes + ego speed};
+\node[b,text width=1.7cm] (pose) at (-0.8,-3) {Keypoints};
+\node[text width=2.1cm] (biu) at (2.5,-2.9) {\textbf{Feature}\\construction};
+\node[text width=2.1cm] (fusion) at (5.3,-2.9) {\textbf{Input}\\packing};
+\node[text width=2.1cm] (rf) at (8.2,-2.9) {\textbf{XGBoost}\\prediction};
+\draw[->] (pose) -- (biu); \draw[->] (biu) -- (fusion); \draw[->] (fusion) -- (rf);
+\draw[->] (box.east) -- (2.5,-1.7) -- (biu.north);
+\node[font=\footnotesize] at (4,-4) {Intel Core i7-11800H CPU; one observation per prediction};
+
+\end{tikzpicture}\endgroup
+\caption{Measured BIU-v2 XGBoost behavioral pipeline from available boxes, keypoints and ego speed.}\label{fig:ch4_runtime}
+\end{figure}

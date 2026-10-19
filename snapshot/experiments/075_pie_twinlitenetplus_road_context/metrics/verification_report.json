@@ -1,0 +1,21 @@
+{
+  "checkpoint": {
+    "sha256": "5605d1a8ce762c1b6f7d23f4c2e7ec9384bfd6e6887b040b43e1f8902a817e22",
+    "size_bytes": 7959943
+  },
+  "phases": [
+    "audit",
+    "extract-development",
+    "prepare",
+    "validate",
+    "latency",
+    "report",
+    "extract-test",
+    "evaluate"
+  ],
+  "set03_evaluated": true,
+  "source_commit": "90f1b8695ae311d5123b05f8534b2e11e42499d2",
+  "status": "verified",
+  "terminal_marker": "EXPERIMENT_COMPLETE",
+  "validation_gate": "advance"
+}

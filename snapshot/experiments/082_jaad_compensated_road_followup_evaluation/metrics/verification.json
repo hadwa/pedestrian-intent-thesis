@@ -1,0 +1,12 @@
+{
+  "authenticated_model_count": 6,
+  "authenticated_phases": [
+    "audit",
+    "extract-test",
+    "evaluate",
+    "report"
+  ],
+  "retraining": false,
+  "status": "pass",
+  "test_accessed": true
+}

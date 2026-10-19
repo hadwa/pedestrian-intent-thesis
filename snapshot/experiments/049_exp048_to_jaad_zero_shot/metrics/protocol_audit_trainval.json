@@ -1,0 +1,40 @@
+{
+  "official_test_split_labels_parsed": false,
+  "protocol": "30_contiguous_observation_frames_next_raw_frame_target",
+  "reports": {
+    "train": {
+      "behavior_tracks_with_windows": 315,
+      "continuity_failures": 0,
+      "duplicate_sequence_ids": 0,
+      "excluded_target_labels": 0,
+      "exclusion_reasons": {},
+      "negative_target_labels": 19799,
+      "official_split_videos": 177,
+      "positive_target_labels": 32147,
+      "rows": 51946,
+      "target_labels_attached": true,
+      "temporal_contract_failures": 0,
+      "valid_target_labels": 51946,
+      "videos_with_windows": 163
+    },
+    "val": {
+      "behavior_tracks_with_windows": 47,
+      "continuity_failures": 0,
+      "duplicate_sequence_ids": 0,
+      "excluded_target_labels": 0,
+      "exclusion_reasons": {},
+      "negative_target_labels": 3325,
+      "official_split_videos": 29,
+      "positive_target_labels": 4802,
+      "rows": 8127,
+      "target_labels_attached": true,
+      "temporal_contract_failures": 0,
+      "valid_target_labels": 8127,
+      "videos_with_windows": 27
+    }
+  },
+  "splits_parsed": [
+    "train",
+    "val"
+  ]
+}

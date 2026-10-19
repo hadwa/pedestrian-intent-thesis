@@ -1,0 +1,2625 @@
+{
+  "active_files": [
+    "Thesis.tex",
+    "Forfrontmatter/Titlepage.tex",
+    "Forfrontmatter/Declaration.tex",
+    "Forfrontmatter/Acknowlagements.tex",
+    "00_c_acknowledgments.tex",
+    "Forfrontmatter/Abstract.tex",
+    "00_d_abstract.tex",
+    "Chapters/Chapter1.tex",
+    "01_introduction.tex",
+    "Chapters/Chapter2.tex",
+    "02_lit_review.tex",
+    "Figures/dataset_samples.tex",
+    "Chapters/Chapter3.tex",
+    "03_methodology.tex",
+    "Figures/anticipation_timeline.tex",
+    "Figures/biu_geometry_examples.tex",
+    "Figures/biu_direction_method.tex",
+    "Figures/pipeline_overview.tex",
+    "Figures/xgboost_multimodal_branches.tex",
+    "Figures/early_late_summaries.tex",
+    "Figures/road_geometry_method.tex",
+    "Figures/mslstm_original_simplified.tex",
+    "Figures/mslstm_adaptation_branches.tex",
+    "Figures/pedcmt_initial_insertion.tex",
+    "Figures/pedcmt_first_trials.tex",
+    "Figures/pedcmt_adaptation_branches.tex",
+    "Chapters/Chapter4.tex",
+    "04_results_and_discussion.tex",
+    "Tables/ch4_pose_fusion.tex",
+    "Tables/ch4_initial_classifiers.tex",
+    "Figures/ch4_cm_initial.tex",
+    "Tables/ch4_versions.tex",
+    "Tables/ch4_architecture.tex",
+    "Tables/ch4_jaad_native.tex",
+    "Tables/ch4_psi.tex",
+    "Figures/ch4_cm_psi.tex",
+    "Tables/ch4_neural.tex",
+    "Figures/ch4_cm_mslstm.tex",
+    "Tables/ch4_pedcmt_capped.tex",
+    "Figures/ch4_cm_pedcmt_capped.tex",
+    "Tables/ch4_literature_pie.tex",
+    "Tables/ch4_literature_jaad.tex",
+    "Tables/ch4_literature_psi.tex",
+    "Tables/ch4_runtime.tex",
+    "Figures/ch4_runtime.tex",
+    "Tables/ch4_model_size.tex",
+    "Chapters/Chapter5.tex",
+    "05_conclusion.tex",
+    "Backmatter/ExperimentMap.tex",
+    "Backmatter/References.tex"
+  ],
+  "labels": {
+    "chap:ack": [
+      {
+        "file": "00_c_acknowledgments.tex",
+        "line": 3
+      }
+    ],
+    "chap:abstract": [
+      {
+        "file": "00_d_abstract.tex",
+        "line": 3
+      }
+    ],
+    "chap:intro": [
+      {
+        "file": "01_introduction.tex",
+        "line": 1
+      }
+    ],
+    "chap:lit_rev": [
+      {
+        "file": "02_lit_review.tex",
+        "line": 2
+      }
+    ],
+    "sec:background_overlap": [
+      {
+        "file": "02_lit_review.tex",
+        "line": 40
+      }
+    ],
+    "sec:background_jaad": [
+      {
+        "file": "02_lit_review.tex",
+        "line": 56
+      }
+    ],
+    "sec:background_psi": [
+      {
+        "file": "02_lit_review.tex",
+        "line": 107
+      }
+    ],
+    "fig:dataset_samples": [
+      {
+        "file": "Figures/dataset_samples.tex",
+        "line": 21
+      }
+    ],
+    "tab:dataset_roles": [
+      {
+        "file": "02_lit_review.tex",
+        "line": 138
+      }
+    ],
+    "tab:published_landscape": [
+      {
+        "file": "02_lit_review.tex",
+        "line": 320
+      }
+    ],
+    "chap:methodology": [
+      {
+        "file": "03_methodology.tex",
+        "line": 2
+      }
+    ],
+    "sec:method_problem": [
+      {
+        "file": "03_methodology.tex",
+        "line": 16
+      }
+    ],
+    "fig:anticipation_timeline": [
+      {
+        "file": "Figures/anticipation_timeline.tex",
+        "line": 23
+      }
+    ],
+    "sec:biu_method": [
+      {
+        "file": "03_methodology.tex",
+        "line": 65
+      }
+    ],
+    "sec:pose_pipeline": [
+      {
+        "file": "03_methodology.tex",
+        "line": 87
+      }
+    ],
+    "sec:biu_v1_method": [
+      {
+        "file": "03_methodology.tex",
+        "line": 122
+      }
+    ],
+    "fig:driver_view_biu_cues": [
+      {
+        "file": "03_methodology.tex",
+        "line": 179
+      }
+    ],
+    "sec:biu_v1_cues": [
+      {
+        "file": "03_methodology.tex",
+        "line": 182
+      }
+    ],
+    "eq:v1_torso": [
+      {
+        "file": "03_methodology.tex",
+        "line": 200
+      }
+    ],
+    "eq:v1_width": [
+      {
+        "file": "03_methodology.tex",
+        "line": 207
+      }
+    ],
+    "eq:v1_stride": [
+      {
+        "file": "03_methodology.tex",
+        "line": 218
+      }
+    ],
+    "eq:v1_elevation": [
+      {
+        "file": "03_methodology.tex",
+        "line": 224
+      }
+    ],
+    "eq:v1_lift": [
+      {
+        "file": "03_methodology.tex",
+        "line": 230
+      }
+    ],
+    "eq:v1_wrist": [
+      {
+        "file": "03_methodology.tex",
+        "line": 236
+      }
+    ],
+    "eq:v1_head": [
+      {
+        "file": "03_methodology.tex",
+        "line": 248
+      }
+    ],
+    "eq:v1_body": [
+      {
+        "file": "03_methodology.tex",
+        "line": 253
+      }
+    ],
+    "eq:v1_face": [
+      {
+        "file": "03_methodology.tex",
+        "line": 259
+      }
+    ],
+    "eq:v1_headproxy": [
+      {
+        "file": "03_methodology.tex",
+        "line": 266
+      }
+    ],
+    "fig:biu_geometry_examples": [
+      {
+        "file": "Figures/biu_geometry_examples.tex",
+        "line": 106
+      }
+    ],
+    "tab:biu_v1_summaries": [
+      {
+        "file": "03_methodology.tex",
+        "line": 290
+      }
+    ],
+    "sec:biu_v2_method": [
+      {
+        "file": "03_methodology.tex",
+        "line": 335
+      }
+    ],
+    "fig:biu_direction_method": [
+      {
+        "file": "Figures/biu_direction_method.tex",
+        "line": 34
+      }
+    ],
+    "tab:biu_v2_summaries": [
+      {
+        "file": "03_methodology.tex",
+        "line": 522
+      }
+    ],
+    "tab:biu_representation_comparison": [
+      {
+        "file": "03_methodology.tex",
+        "line": 555
+      }
+    ],
+    "sec:lightweight_architecture": [
+      {
+        "file": "03_methodology.tex",
+        "line": 580
+      }
+    ],
+    "fig:biu_pipeline": [
+      {
+        "file": "Figures/pipeline_overview.tex",
+        "line": 20
+      }
+    ],
+    "fig:xgboost_multimodal_branches": [
+      {
+        "file": "Figures/xgboost_multimodal_branches.tex",
+        "line": 43
+      }
+    ],
+    "tab:xgb_input_blocks": [
+      {
+        "file": "03_methodology.tex",
+        "line": 630
+      }
+    ],
+    "sec:xgb_temporal_rationale": [
+      {
+        "file": "03_methodology.tex",
+        "line": 689
+      }
+    ],
+    "sec:bbox_feature_count": [
+      {
+        "file": "03_methodology.tex",
+        "line": 730
+      }
+    ],
+    "fig:early_late_summaries": [
+      {
+        "file": "Figures/early_late_summaries.tex",
+        "line": 38
+      }
+    ],
+    "fig:road_geometry_method": [
+      {
+        "file": "Figures/road_geometry_method.tex",
+        "line": 29
+      }
+    ],
+    "sec:neural_integration_method": [
+      {
+        "file": "03_methodology.tex",
+        "line": 869
+      }
+    ],
+    "sec:neural_auxiliary_ablation": [
+      {
+        "file": "03_methodology.tex",
+        "line": 882
+      }
+    ],
+    "sec:mslstm_method": [
+      {
+        "file": "03_methodology.tex",
+        "line": 911
+      }
+    ],
+    "fig:mslstm_original": [
+      {
+        "file": "Figures/mslstm_original_simplified.tex",
+        "line": 33
+      }
+    ],
+    "fig:mslstm_adaptation_branches": [
+      {
+        "file": "Figures/mslstm_adaptation_branches.tex",
+        "line": 39
+      }
+    ],
+    "sec:pedcmt_method": [
+      {
+        "file": "03_methodology.tex",
+        "line": 1002
+      }
+    ],
+    "fig:pedcmt_initial_insertion": [
+      {
+        "file": "Figures/pedcmt_initial_insertion.tex",
+        "line": 27
+      }
+    ],
+    "fig:pedcmt_first_trials": [
+      {
+        "file": "Figures/pedcmt_first_trials.tex",
+        "line": 37
+      }
+    ],
+    "sec:pedcmt_capped": [
+      {
+        "file": "03_methodology.tex",
+        "line": 1060
+      }
+    ],
+    "eq:pedcmt_capped": [
+      {
+        "file": "03_methodology.tex",
+        "line": 1077
+      }
+    ],
+    "fig:pedcmt_adaptation_branches": [
+      {
+        "file": "Figures/pedcmt_adaptation_branches.tex",
+        "line": 41
+      }
+    ],
+    "sec:method_datasets": [
+      {
+        "file": "03_methodology.tex",
+        "line": 1108
+      }
+    ],
+    "sec:method_jaad_clean": [
+      {
+        "file": "03_methodology.tex",
+        "line": 1130
+      }
+    ],
+    "sec:method_psi": [
+      {
+        "file": "03_methodology.tex",
+        "line": 1166
+      }
+    ],
+    "sec:xgb_dataset_inputs": [
+      {
+        "file": "03_methodology.tex",
+        "line": 1194
+      }
+    ],
+    "sec:training_method": [
+      {
+        "file": "03_methodology.tex",
+        "line": 1244
+      }
+    ],
+    "sec:representation_controls": [
+      {
+        "file": "03_methodology.tex",
+        "line": 1246
+      }
+    ],
+    "sec:ordered_history_method": [
+      {
+        "file": "03_methodology.tex",
+        "line": 1257
+      }
+    ],
+    "sec:mslstm_training": [
+      {
+        "file": "03_methodology.tex",
+        "line": 1302
+      }
+    ],
+    "sec:pedcmt_training": [
+      {
+        "file": "03_methodology.tex",
+        "line": 1325
+      }
+    ],
+    "sec:decision_rule": [
+      {
+        "file": "03_methodology.tex",
+        "line": 1405
+      }
+    ],
+    "sec:metrics_method": [
+      {
+        "file": "03_methodology.tex",
+        "line": 1412
+      }
+    ],
+    "sec:cue_attribution_method": [
+      {
+        "file": "03_methodology.tex",
+        "line": 1469
+      }
+    ],
+    "sec:efficiency_method": [
+      {
+        "file": "03_methodology.tex",
+        "line": 1543
+      }
+    ],
+    "chap:results_discussion": [
+      {
+        "file": "04_results_and_discussion.tex",
+        "line": 2
+      }
+    ],
+    "sec:ch4_scope": [
+      {
+        "file": "04_results_and_discussion.tex",
+        "line": 10
+      }
+    ],
+    "sec:ch4_initial": [
+      {
+        "file": "04_results_and_discussion.tex",
+        "line": 34
+      }
+    ],
+    "tab:ch4_pose_fusion": [
+      {
+        "file": "Tables/ch4_pose_fusion.tex",
+        "line": 4
+      }
+    ],
+    "tab:ch4_initial": [
+      {
+        "file": "Tables/ch4_initial_classifiers.tex",
+        "line": 5
+      }
+    ],
+    "fig:cm_initial": [
+      {
+        "file": "Figures/ch4_cm_initial.tex",
+        "line": 4
+      }
+    ],
+    "sec:ch4_architecture": [
+      {
+        "file": "04_results_and_discussion.tex",
+        "line": 109
+      }
+    ],
+    "sec:ch4_versions": [
+      {
+        "file": "04_results_and_discussion.tex",
+        "line": 111
+      }
+    ],
+    "tab:matched_xgb_arms": [
+      {
+        "file": "04_results_and_discussion.tex",
+        "line": 123
+      }
+    ],
+    "tab:ch4_versions": [
+      {
+        "file": "Tables/ch4_versions.tex",
+        "line": 5
+      }
+    ],
+    "sec:ch4_restoration": [
+      {
+        "file": "04_results_and_discussion.tex",
+        "line": 160
+      }
+    ],
+    "tab:ch4_restoration": [
+      {
+        "file": "04_results_and_discussion.tex",
+        "line": 180
+      }
+    ],
+    "sec:ch4_xgb_pie": [
+      {
+        "file": "04_results_and_discussion.tex",
+        "line": 212
+      }
+    ],
+    "tab:ch4_architecture": [
+      {
+        "file": "Tables/ch4_architecture.tex",
+        "line": 3
+      }
+    ],
+    "sec:ch4_jaad": [
+      {
+        "file": "04_results_and_discussion.tex",
+        "line": 234
+      }
+    ],
+    "tab:ch4_jaad_native": [
+      {
+        "file": "Tables/ch4_jaad_native.tex",
+        "line": 3
+      }
+    ],
+    "sec:ch4_psi": [
+      {
+        "file": "04_results_and_discussion.tex",
+        "line": 283
+      }
+    ],
+    "tab:ch4_psi": [
+      {
+        "file": "Tables/ch4_psi.tex",
+        "line": 4
+      }
+    ],
+    "fig:cm_psi": [
+      {
+        "file": "Figures/ch4_cm_psi.tex",
+        "line": 4
+      }
+    ],
+    "sec:ch4_ordered_history": [
+      {
+        "file": "04_results_and_discussion.tex",
+        "line": 327
+      }
+    ],
+    "sec:ch4_neural": [
+      {
+        "file": "04_results_and_discussion.tex",
+        "line": 350
+      }
+    ],
+    "tab:ch4_neural": [
+      {
+        "file": "Tables/ch4_neural.tex",
+        "line": 6
+      }
+    ],
+    "fig:cm_mslstm": [
+      {
+        "file": "Figures/ch4_cm_mslstm.tex",
+        "line": 4
+      }
+    ],
+    "tab:ch4_pedcmt_capped": [
+      {
+        "file": "Tables/ch4_pedcmt_capped.tex",
+        "line": 4
+      }
+    ],
+    "fig:cm_pedcmt": [
+      {
+        "file": "Figures/ch4_cm_pedcmt_capped.tex",
+        "line": 5
+      }
+    ],
+    "sec:ch4_literature": [
+      {
+        "file": "04_results_and_discussion.tex",
+        "line": 457
+      }
+    ],
+    "tab:ch4_literature_pie": [
+      {
+        "file": "Tables/ch4_literature_pie.tex",
+        "line": 3
+      }
+    ],
+    "tab:ch4_literature_jaad": [
+      {
+        "file": "Tables/ch4_literature_jaad.tex",
+        "line": 4
+      }
+    ],
+    "tab:ch4_literature_psi": [
+      {
+        "file": "Tables/ch4_literature_psi.tex",
+        "line": 3
+      }
+    ],
+    "sec:ch4_inspectability": [
+      {
+        "file": "04_results_and_discussion.tex",
+        "line": 577
+      }
+    ],
+    "fig:ch4_v2_input_share": [
+      {
+        "file": "04_results_and_discussion.tex",
+        "line": 599
+      }
+    ],
+    "fig:ch4_v2_cue_direction": [
+      {
+        "file": "04_results_and_discussion.tex",
+        "line": 617
+      }
+    ],
+    "sec:ch4_cost": [
+      {
+        "file": "04_results_and_discussion.tex",
+        "line": 661
+      }
+    ],
+    "tab:ch4_runtime": [
+      {
+        "file": "Tables/ch4_runtime.tex",
+        "line": 3
+      }
+    ],
+    "fig:ch4_runtime": [
+      {
+        "file": "Figures/ch4_runtime.tex",
+        "line": 22
+      }
+    ],
+    "tab:ch4_model_size": [
+      {
+        "file": "Tables/ch4_model_size.tex",
+        "line": 3
+      }
+    ],
+    "sec:ch4_limits": [
+      {
+        "file": "04_results_and_discussion.tex",
+        "line": 713
+      }
+    ],
+    "chap:concl": [
+      {
+        "file": "05_conclusion.tex",
+        "line": 1
+      }
+    ],
+    "app:experiment_map": [
+      {
+        "file": "Backmatter/ExperimentMap.tex",
+        "line": 1
+      }
+    ],
+    "tab:experiment_map": [
+      {
+        "file": "Backmatter/ExperimentMap.tex",
+        "line": 9
+      }
+    ]
+  },
+  "references": [
+    {
+      "file": "01_introduction.tex",
+      "line": 54,
+      "target": "chap:lit_rev",
+      "context": "\\cite{Kotseruba2021Benchmark}. Chapter~\\ref{chap:lit_rev} explains this temporal convention;",
+      "number": "2",
+      "page": "7",
+      "destination": "[{\"file\": \"02_lit_review.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "01_introduction.tex",
+      "line": 55,
+      "target": "chap:methodology",
+      "context": "Chapter~\\ref{chap:methodology} specifies the exact sample construction and evaluation rules.",
+      "number": "3",
+      "page": "32",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "01_introduction.tex",
+      "line": 65,
+      "target": "chap:methodology",
+      "context": "Chapter~\\ref{chap:methodology}; the thesis does not depend on reproducing published headline scores.",
+      "number": "3",
+      "page": "32",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "01_introduction.tex",
+      "line": 70,
+      "target": "chap:lit_rev",
+      "context": "Coding System (FACS) \\cite{Ekman1976FacialMovement}. Chapter~\\ref{chap:lit_rev} develops that limited",
+      "number": "2",
+      "page": "7",
+      "destination": "[{\"file\": \"02_lit_review.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "01_introduction.tex",
+      "line": 129,
+      "target": "chap:methodology",
+      "context": "controls and measurement procedures defined in Chapter~\\ref{chap:methodology}.",
+      "number": "3",
+      "page": "32",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "01_introduction.tex",
+      "line": 164,
+      "target": "chap:results_discussion",
+      "context": "Chapter~\\ref{chap:results_discussion}, where each number can be tied to a frozen artifact and a",
+      "number": "4",
+      "page": "70",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "01_introduction.tex",
+      "line": 177,
+      "target": "sec:ch4_limits",
+      "context": "Section~\\ref{sec:ch4_limits}.",
+      "number": "4.8",
+      "page": "96",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 713}]"
+    },
+    {
+      "file": "01_introduction.tex",
+      "line": 181,
+      "target": "chap:lit_rev",
+      "context": "Chapter~\\ref{chap:lit_rev} reviews the task, temporal formulation, datasets, input modalities,",
+      "number": "2",
+      "page": "7",
+      "destination": "[{\"file\": \"02_lit_review.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "01_introduction.tex",
+      "line": 186,
+      "target": "chap:methodology",
+      "context": "Chapter~\\ref{chap:methodology} defines the prediction task, develops the BIU representations,",
+      "number": "3",
+      "page": "32",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "01_introduction.tex",
+      "line": 190,
+      "target": "chap:results_discussion",
+      "context": "Chapter~\\ref{chap:results_discussion} follows the BIU development comparisons with the",
+      "number": "4",
+      "page": "70",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "01_introduction.tex",
+      "line": 195,
+      "target": "chap:concl",
+      "context": "Chapter~\\ref{chap:concl} answers the research questions, summarizes the defended",
+      "number": "5",
+      "page": "97",
+      "destination": "[{\"file\": \"05_conclusion.tex\", \"line\": 1}]"
+    },
+    {
+      "file": "02_lit_review.tex",
+      "line": 6,
+      "target": "chap:intro",
+      "context": "Chapter~\\ref{chap:intro} defined the anticipatory crossing task and distinguished it from",
+      "number": "1",
+      "page": "1",
+      "destination": "[{\"file\": \"01_introduction.tex\", \"line\": 1}]"
+    },
+    {
+      "file": "02_lit_review.tex",
+      "line": 130,
+      "target": "fig:dataset_samples",
+      "context": "Figure~\\ref{fig:dataset_samples}.",
+      "number": "2.1",
+      "page": "12",
+      "destination": "[{\"file\": \"Figures/dataset_samples.tex\", \"line\": 21}]"
+    },
+    {
+      "file": "02_lit_review.tex",
+      "line": 131,
+      "target": "tab:dataset_roles",
+      "context": "Table~\\ref{tab:dataset_roles} summarizes their other main characteristics.",
+      "number": "2.1",
+      "page": "13",
+      "destination": "[{\"file\": \"02_lit_review.tex\", \"line\": 138}]"
+    },
+    {
+      "file": "02_lit_review.tex",
+      "line": 242,
+      "target": "chap:methodology",
+      "context": "preprocessing and training settings are given in Chapter~\\ref{chap:methodology}.",
+      "number": "3",
+      "page": "32",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "02_lit_review.tex",
+      "line": 251,
+      "target": "chap:methodology",
+      "context": "Recent work also combines neural perception with a non-neural crossing predictor. PCAP-SL uses frozen vision-transformer features from pedestrian crops, OpenPose coordinates, and ego-speed where available, with a sequence of XGBoost classifiers carrying prediction information across observation steps \\cite{Benkabou2026PCAPSL}. Here XGBoost is a learned ensemble of decision trees; a fixed feature-extraction procedure does not make the crossing decision a hand-written rule. PCAP-SL is relevant to the architecture studied in this thesis because it separates upstream neural feature extraction from downstream tree-based prediction. Its crop embeddings and sequential learning procedure differ from the proposed pose-derived architecture defined in Chapter~\\ref{chap:methodology}. Efficiency comparisons must specify whether they include upstream perception or only the crossing predictor.",
+      "number": "3",
+      "page": "32",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "02_lit_review.tex",
+      "line": 271,
+      "target": "chap:methodology",
+      "context": "Chapter~\\ref{chap:methodology}.",
+      "number": "3",
+      "page": "32",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "02_lit_review.tex",
+      "line": 311,
+      "target": "chap:methodology",
+      "context": "For the present thesis, vision--language approaches are therefore relevant as an adjacent interpretability direction rather than as a direct experimental baseline. Discriminative variants such as ClipCross learn language-aligned semantic features, whereas generative variants can expose decisions through natural-language responses. The narrower question pursued here is whether part of the evidence supplied to a classifier can itself consist of named, fixed, and inspectable geometric measurements. The conceptual foundations of that representation are discussed below; its equations are defined in Chapter~\\ref{chap:methodology}.",
+      "number": "3",
+      "page": "32",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "02_lit_review.tex",
+      "line": 315,
+      "target": "tab:published_landscape",
+      "context": "Table~\\ref{tab:published_landscape} summarizes representative comparison families without importing their performance numbers. Rows are grouped by method family and ordered by publication year within each group; works from the same year are listed alphabetically by method name. Related works may share a row. The families emphasize the design aspect relevant to this review and can overlap; the input and protocol columns retain the distinctions needed for comparison. Numerical comparisons are deferred until the exact paper row, subset, temporal sampling, and input assumptions can be matched in Chapter~\\ref{chap:results_discussion}.",
+      "number": "2.2",
+      "page": "24",
+      "destination": "[{\"file\": \"02_lit_review.tex\", \"line\": 320}]"
+    },
+    {
+      "file": "02_lit_review.tex",
+      "line": 315,
+      "target": "chap:results_discussion",
+      "context": "Table~\\ref{tab:published_landscape} summarizes representative comparison families without importing their performance numbers. Rows are grouped by method family and ordered by publication year within each group; works from the same year are listed alphabetically by method name. Related works may share a row. The families emphasize the design aspect relevant to this review and can overlap; the input and protocol columns retain the distinctions needed for comparison. Numerical comparisons are deferred until the exact paper row, subset, temporal sampling, and input assumptions can be matched in Chapter~\\ref{chap:results_discussion}.",
+      "number": "4",
+      "page": "70",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "02_lit_review.tex",
+      "line": 413,
+      "target": "chap:methodology",
+      "context": "Chapter~\\ref{chap:methodology} develops the BIU definitions, normalization and temporal",
+      "number": "3",
+      "page": "32",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "02_lit_review.tex",
+      "line": 423,
+      "target": "chap:methodology",
+      "context": "Threshold-dependent measures such as precision, recall, F1-score, and accuracy describe performance at a selected operating point. The area under the receiver operating characteristic curve (ROC-AUC) and the area under the precision--recall curve (PR-AUC) instead summarize ranking behavior across thresholds; PR-AUC is particularly sensitive to class prevalence. The formal definitions and the exact evaluation measures adopted in this thesis are specified in Chapter~\\ref{chap:methodology}.",
+      "number": "3",
+      "page": "32",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "02_lit_review.tex",
+      "line": 434,
+      "target": "sec:background_overlap",
+      "context": "The dependence introduced by overlapping windows (Section~\\ref{sec:background_overlap})",
+      "number": "2.2.3",
+      "page": "9",
+      "destination": "[{\"file\": \"02_lit_review.tex\", \"line\": 40}]"
+    },
+    {
+      "file": "02_lit_review.tex",
+      "line": 437,
+      "target": "sec:metrics_method",
+      "context": "Section~\\ref{sec:metrics_method}.",
+      "number": "3.7",
+      "page": "64",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1412}]"
+    },
+    {
+      "file": "02_lit_review.tex",
+      "line": 454,
+      "target": "chap:methodology",
+      "context": "Chapter~\\ref{chap:methodology}. Matched raw-pose and BIU controls, including adapted PedCMT",
+      "number": "3",
+      "page": "32",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 44,
+      "target": "chap:lit_rev",
+      "context": "Following the benchmark introduced in Chapter~\\ref{chap:lit_rev}, each observation",
+      "number": "2",
+      "page": "7",
+      "destination": "[{\"file\": \"02_lit_review.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 52,
+      "target": "fig:anticipation_timeline",
+      "context": "Figure~\\ref{fig:anticipation_timeline} illustrates this interval, equivalent to one to two",
+      "number": "3.1",
+      "page": "33",
+      "destination": "[{\"file\": \"Figures/anticipation_timeline.tex\", \"line\": 23}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 57,
+      "target": "sec:method_psi",
+      "context": "observation window are defined in Section~\\ref{sec:method_psi}.",
+      "number": "3.5.3",
+      "page": "59",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1166}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 79,
+      "target": "chap:lit_rev",
+      "context": "analogy introduced in Chapter~\\ref{chap:lit_rev} provides the idea of organizing",
+      "number": "2",
+      "page": "7",
+      "destination": "[{\"file\": \"02_lit_review.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 116,
+      "target": "chap:results_discussion",
+      "context": "are available; nevertheless, Chapter~\\ref{chap:results_discussion} distinguishes this decision-stage",
+      "number": "4",
+      "page": "70",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 129,
+      "target": "fig:driver_view_biu_cues",
+      "context": "Figure~\\ref{fig:driver_view_biu_cues} illustrates the visible relationships behind",
+      "number": "3.2",
+      "page": "35",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 179}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 272,
+      "target": "fig:biu_geometry_examples",
+      "context": "Figure~\\ref{fig:biu_geometry_examples} illustrates selected distances, angles and body",
+      "number": "3.3",
+      "page": "38",
+      "destination": "[{\"file\": \"Figures/biu_geometry_examples.tex\", \"line\": 106}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 283,
+      "target": "tab:biu_v1_summaries",
+      "context": "Table~\\ref{tab:biu_v1_summaries} shows how the frame-level cues become a 72-feature",
+      "number": "3.1",
+      "page": "37",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 290}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 351,
+      "target": "chap:results_discussion",
+      "context": "Chapter~\\ref{chap:results_discussion}.",
+      "number": "4",
+      "page": "70",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 389,
+      "target": "tab:ch4_restoration",
+      "context": "show that each omitted cue is uninformative. Table~\\ref{tab:ch4_restoration} reports",
+      "number": "4.5",
+      "page": "76",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 180}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 492,
+      "target": "sec:biu_v1_cues",
+      "context": "Section~\\ref{sec:biu_v1_cues}, applied to the direction-aligned image coordinates.",
+      "number": "3.2.2.1",
+      "page": "35",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 182}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 498,
+      "target": "fig:biu_direction_method",
+      "context": "Figure~\\ref{fig:biu_direction_method} illustrates the direction transform and the separate",
+      "number": "3.4",
+      "page": "42",
+      "destination": "[{\"file\": \"Figures/biu_direction_method.tex\", \"line\": 34}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 515,
+      "target": "tab:biu_v2_summaries",
+      "context": "Table~\\ref{tab:biu_v2_summaries} shows the selected summaries for each v2 measurement",
+      "number": "3.2",
+      "page": "43",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 522}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 517,
+      "target": "sec:neural_auxiliary_ablation",
+      "context": "separately in the neural ablation (Section~\\ref{sec:neural_auxiliary_ablation}).",
+      "number": "3.4.1",
+      "page": "52",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 882}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 547,
+      "target": "tab:biu_representation_comparison",
+      "context": "Table~\\ref{tab:biu_representation_comparison} compares the measurement content of the",
+      "number": "3.3",
+      "page": "44",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 555}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 548,
+      "target": "tab:biu_v1_summaries",
+      "context": "two versions. Their summary rules are given in Tables~\\ref{tab:biu_v1_summaries}",
+      "number": "3.1",
+      "page": "37",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 290}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 549,
+      "target": "tab:biu_v2_summaries",
+      "context": "and~\\ref{tab:biu_v2_summaries}. Tables~\\ref{tab:ch4_initial} and~\\ref{tab:ch4_versions}",
+      "number": "3.2",
+      "page": "43",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 522}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 549,
+      "target": "tab:ch4_initial",
+      "context": "and~\\ref{tab:biu_v2_summaries}. Tables~\\ref{tab:ch4_initial} and~\\ref{tab:ch4_versions}",
+      "number": "4.2",
+      "page": "73",
+      "destination": "[{\"file\": \"Tables/ch4_initial_classifiers.tex\", \"line\": 5}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 549,
+      "target": "tab:ch4_versions",
+      "context": "and~\\ref{tab:biu_v2_summaries}. Tables~\\ref{tab:ch4_initial} and~\\ref{tab:ch4_versions}",
+      "number": "4.4",
+      "page": "75",
+      "destination": "[{\"file\": \"Tables/ch4_versions.tex\", \"line\": 5}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 597,
+      "target": "sec:ch4_initial",
+      "context": "Section~\\ref{sec:ch4_initial} presents the simple-input comparisons, and",
+      "number": "4.2",
+      "page": "71",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 34}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 598,
+      "target": "sec:ch4_architecture",
+      "context": "Section~\\ref{sec:ch4_architecture} evaluates the proposed architecture.",
+      "number": "4.3",
+      "page": "74",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 109}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 600,
+      "target": "fig:biu_pipeline",
+      "context": "Figure~\\ref{fig:biu_pipeline} summarizes how the defined BIUs join motion and context",
+      "number": "3.5",
+      "page": "45",
+      "destination": "[{\"file\": \"Figures/pipeline_overview.tex\", \"line\": 20}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 607,
+      "target": "sec:representation_controls",
+      "context": "The comparison methods follow in Section~\\ref{sec:representation_controls}, and dataset-specific",
+      "number": "3.6.1",
+      "page": "61",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1246}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 608,
+      "target": "sec:xgb_dataset_inputs",
+      "context": "input adjustments in Section~\\ref{sec:xgb_dataset_inputs}.",
+      "number": "3.5.4",
+      "page": "60",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1194}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 618,
+      "target": "fig:xgboost_multimodal_branches",
+      "context": "Figure~\\ref{fig:xgboost_multimodal_branches} shows this arrangement in a vehicle. Its",
+      "number": "3.6",
+      "page": "46",
+      "destination": "[{\"file\": \"Figures/xgboost_multimodal_branches.tex\", \"line\": 43}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 621,
+      "target": "tab:xgb_input_blocks",
+      "context": "remain neural. Table~\\ref{tab:xgb_input_blocks} explains the purpose of each feature block.",
+      "number": "3.4",
+      "page": "46",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 630}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 623,
+      "target": "sec:xgb_dataset_inputs",
+      "context": "Section~\\ref{sec:xgb_dataset_inputs}.",
+      "number": "3.5.4",
+      "page": "60",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1194}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 682,
+      "target": "tab:ch4_architecture",
+      "context": "Table~\\ref{tab:ch4_architecture} reports the performance of the multimodal architecture",
+      "number": "4.6",
+      "page": "77",
+      "destination": "[{\"file\": \"Tables/ch4_architecture.tex\", \"line\": 3}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 705,
+      "target": "chap:results_discussion",
+      "context": "the thesis evaluates its effectiveness through the comparisons in Chapter~\\ref{chap:results_discussion}.",
+      "number": "4",
+      "page": "70",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 719,
+      "target": "sec:training_method",
+      "context": "algorithmic derivation~\\cite{Chen2016XGBoost}; Section~\\ref{sec:training_method} gives",
+      "number": "3.6",
+      "page": "61",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1244}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 768,
+      "target": "fig:early_late_summaries",
+      "context": "within the observation. Figure~\\ref{fig:early_late_summaries} illustrates this distinction",
+      "number": "3.7",
+      "page": "49",
+      "destination": "[{\"file\": \"Figures/early_late_summaries.tex\", \"line\": 38}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 813,
+      "target": "sec:ordered_history_method",
+      "context": "through explicit features. Section~\\ref{sec:ordered_history_method}",
+      "number": "3.6.2",
+      "page": "61",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1257}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 829,
+      "target": "fig:road_geometry_method",
+      "context": "how their movement relates to the road. Figure~\\ref{fig:road_geometry_method} separates",
+      "number": "3.8",
+      "page": "51",
+      "destination": "[{\"file\": \"Figures/road_geometry_method.tex\", \"line\": 29}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 880,
+      "target": "chap:results_discussion",
+      "context": "are reported in Chapter~\\ref{chap:results_discussion}.",
+      "number": "4",
+      "page": "70",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 906,
+      "target": "tab:ch4_neural",
+      "context": "The earlier BIU-v1 MSLSTM comparison is also reported in Table~\\ref{tab:ch4_neural}.",
+      "number": "4.9",
+      "page": "83",
+      "destination": "[{\"file\": \"Tables/ch4_neural.tex\", \"line\": 6}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 924,
+      "target": "fig:mslstm_original",
+      "context": "stream descriptions, and a classification head predicts crossing. Figure~\\ref{fig:mslstm_original}",
+      "number": "3.9",
+      "page": "53",
+      "destination": "[{\"file\": \"Figures/mslstm_original_simplified.tex\", \"line\": 33}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 942,
+      "target": "sec:neural_auxiliary_ablation",
+      "context": "as defined in Section~\\ref{sec:neural_auxiliary_ablation}. The raw-pose and BIU controls",
+      "number": "3.4.1",
+      "page": "52",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 882}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 980,
+      "target": "sec:bbox_feature_count",
+      "context": "Section~\\ref{sec:bbox_feature_count}, followed by a $53\\rightarrow128\\rightarrow512$",
+      "number": "3.3.3.1",
+      "page": "48",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 730}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 988,
+      "target": "fig:mslstm_adaptation_branches",
+      "context": "comparisons. Supporting trials also examine training-only scaling of the 63-feature input. Figure~\\ref{fig:mslstm_adaptation_branches}",
+      "number": "3.10",
+      "page": "55",
+      "destination": "[{\"file\": \"Figures/mslstm_adaptation_branches.tex\", \"line\": 39}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 997,
+      "target": "sec:xgb_dataset_inputs",
+      "context": "Dataset-specific input changes are described in Section~\\ref{sec:xgb_dataset_inputs},",
+      "number": "3.5.4",
+      "page": "60",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1194}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 998,
+      "target": "sec:mslstm_training",
+      "context": "and training settings in Section~\\ref{sec:mslstm_training}. The prediction results",
+      "number": "3.6.4",
+      "page": "62",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1302}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 999,
+      "target": "tab:ch4_neural",
+      "context": "appear in Table~\\ref{tab:ch4_neural}.",
+      "number": "4.9",
+      "page": "83",
+      "destination": "[{\"file\": \"Tables/ch4_neural.tex\", \"line\": 6}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1009,
+      "target": "fig:pedcmt_initial_insertion",
+      "context": "to the crossing predictor. Figure~\\ref{fig:pedcmt_initial_insertion} summarizes the",
+      "number": "3.11",
+      "page": "56",
+      "destination": "[{\"file\": \"Figures/pedcmt_initial_insertion.tex\", \"line\": 27}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1015,
+      "target": "sec:xgb_dataset_inputs",
+      "context": "benchmark. Dataset-specific inputs are described in Section~\\ref{sec:xgb_dataset_inputs}.",
+      "number": "3.5.4",
+      "page": "60",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1194}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1039,
+      "target": "fig:pedcmt_first_trials",
+      "context": "Figure~\\ref{fig:pedcmt_first_trials} shows these two alternative additions.",
+      "number": "3.12",
+      "page": "56",
+      "destination": "[{\"file\": \"Figures/pedcmt_first_trials.tex\", \"line\": 37}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1083,
+      "target": "fig:pedcmt_adaptation_branches",
+      "context": "Figure~\\ref{fig:pedcmt_adaptation_branches} shows both the unchanged prediction path",
+      "number": "3.13",
+      "page": "58",
+      "destination": "[{\"file\": \"Figures/pedcmt_adaptation_branches.tex\", \"line\": 41}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1098,
+      "target": "sec:pedcmt_training",
+      "context": "PIE. Training and selection details appear in Section~\\ref{sec:pedcmt_training};",
+      "number": "3.6.5",
+      "page": "63",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1325}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1099,
+      "target": "tab:ch4_pedcmt_capped",
+      "context": "Table~\\ref{tab:ch4_pedcmt_capped} reports the results.",
+      "number": "4.10",
+      "page": "85",
+      "destination": "[{\"file\": \"Tables/ch4_pedcmt_capped.tex\", \"line\": 4}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1115,
+      "target": "sec:method_problem",
+      "context": "the event-aligned task in Section~\\ref{sec:method_problem}, with overlap 0.6 implemented",
+      "number": "3.1",
+      "page": "32",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 16}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1133,
+      "target": "sec:background_jaad",
+      "context": "Section~\\ref{sec:background_jaad}, we use a stricter subset called \\emph{clean JAAD}.",
+      "number": "2.3.1",
+      "page": "10",
+      "destination": "[{\"file\": \"02_lit_review.tex\", \"line\": 56}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1156,
+      "target": "chap:results_discussion",
+      "context": "Chapter~\\ref{chap:results_discussion} reports clean JAAD separately from the",
+      "number": "4",
+      "page": "70",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1168,
+      "target": "sec:background_psi",
+      "context": "The PSI study uses the observer ratings described in Section~\\ref{sec:background_psi}. Each sample",
+      "number": "2.3.3",
+      "page": "11",
+      "destination": "[{\"file\": \"02_lit_review.tex\", \"line\": 107}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1196,
+      "target": "sec:lightweight_architecture",
+      "context": "The architectures in Sections~\\ref{sec:lightweight_architecture} and",
+      "number": "3.3",
+      "page": "44",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 580}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1197,
+      "target": "sec:neural_integration_method",
+      "context": "\\ref{sec:neural_integration_method} use PIE as their main example. The following",
+      "number": "3.4",
+      "page": "52",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 869}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1207,
+      "target": "tab:ch4_jaad_native",
+      "context": "uses only the observed frames of its declared JAAD cohort. Table~\\ref{tab:ch4_jaad_native}",
+      "number": "4.7",
+      "page": "78",
+      "destination": "[{\"file\": \"Tables/ch4_jaad_native.tex\", \"line\": 3}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1219,
+      "target": "tab:ch4_neural",
+      "context": "pose use recurrent encoders. Table~\\ref{tab:ch4_neural} reports these comparisons.",
+      "number": "4.9",
+      "page": "83",
+      "destination": "[{\"file\": \"Tables/ch4_neural.tex\", \"line\": 6}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1228,
+      "target": "tab:ch4_pedcmt_capped",
+      "context": "Table~\\ref{tab:ch4_pedcmt_capped}.",
+      "number": "4.10",
+      "page": "85",
+      "destination": "[{\"file\": \"Tables/ch4_pedcmt_capped.tex\", \"line\": 4}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1236,
+      "target": "sec:method_psi",
+      "context": "Section~\\ref{sec:method_psi} and the same XGBoost recipe. The 109-to-135 comparison adds",
+      "number": "3.5.3",
+      "page": "59",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1166}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1238,
+      "target": "tab:ch4_psi",
+      "context": "Table~\\ref{tab:ch4_psi} reports this matched sequence.",
+      "number": "4.8",
+      "page": "79",
+      "destination": "[{\"file\": \"Tables/ch4_psi.tex\", \"line\": 4}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1253,
+      "target": "tab:matched_xgb_arms",
+      "context": "are listed in Table~\\ref{tab:matched_xgb_arms}; this comparison has no raw-pose arm.",
+      "number": "4.3",
+      "page": "74",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 123}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1269,
+      "target": "sec:ch4_ordered_history",
+      "context": "augmentation rather than ordering alone. Section~\\ref{sec:ch4_ordered_history} reports",
+      "number": "4.3.5",
+      "page": "82",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 327}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1290,
+      "target": "chap:results_discussion",
+      "context": "matched controls instead evaluate every declared arm under the common recipe. Chapter~\\ref{chap:results_discussion}",
+      "number": "4",
+      "page": "70",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1308,
+      "target": "chap:results_discussion",
+      "context": "are identified as retrospective comparisons in Chapter~\\ref{chap:results_discussion}.",
+      "number": "4",
+      "page": "70",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1315,
+      "target": "chap:results_discussion",
+      "context": "with the clean-JAAD results in Chapter~\\ref{chap:results_discussion}.",
+      "number": "4",
+      "page": "70",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1346,
+      "target": "sec:pedcmt_capped",
+      "context": "Section~\\ref{sec:pedcmt_capped}.",
+      "number": "3.4.3.3",
+      "page": "57",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1060}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1419,
+      "target": "chap:results_discussion",
+      "context": "The following procedures support the results in Chapter~\\ref{chap:results_discussion}.",
+      "number": "4",
+      "page": "70",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1457,
+      "target": "sec:ch4_versions",
+      "context": "mean and sample standard deviation of individual-seed scores. These intervals accompany the version comparison in Section~\\ref{sec:ch4_versions};",
+      "number": "4.3.1",
+      "page": "74",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 111}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1533,
+      "target": "sec:ch4_inspectability",
+      "context": "Section~\\ref{sec:ch4_inspectability} applies these calculations to the retained",
+      "number": "4.6",
+      "page": "91",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 577}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1534,
+      "target": "fig:ch4_v2_input_share",
+      "context": "BIU-v2 models on PIE, clean JAAD and PSI. Figure~\\ref{fig:ch4_v2_input_share}",
+      "number": "4.5",
+      "page": "92",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 599}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1535,
+      "target": "fig:ch4_v2_cue_direction",
+      "context": "shows the BIU block's attribution share, while Figure~\\ref{fig:ch4_v2_cue_direction}",
+      "number": "4.6",
+      "page": "93",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 617}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1569,
+      "target": "tab:ch4_runtime",
+      "context": "reported in Table~\\ref{tab:ch4_runtime}, with the timed behavioral pipeline illustrated in",
+      "number": "4.14",
+      "page": "94",
+      "destination": "[{\"file\": \"Tables/ch4_runtime.tex\", \"line\": 3}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1570,
+      "target": "fig:ch4_runtime",
+      "context": "Figure~\\ref{fig:ch4_runtime}. Table~\\ref{tab:ch4_model_size} separately reports",
+      "number": "4.7",
+      "page": "94",
+      "destination": "[{\"file\": \"Figures/ch4_runtime.tex\", \"line\": 22}]"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 1570,
+      "target": "tab:ch4_model_size",
+      "context": "Figure~\\ref{fig:ch4_runtime}. Table~\\ref{tab:ch4_model_size} separately reports",
+      "number": "4.15",
+      "page": "96",
+      "destination": "[{\"file\": \"Tables/ch4_model_size.tex\", \"line\": 3}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 12,
+      "target": "sec:method_datasets",
+      "context": "The dataset populations and splits follow Section~\\ref{sec:method_datasets}; metric",
+      "number": "3.5",
+      "page": "58",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1108}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 13,
+      "target": "sec:metrics_method",
+      "context": "and uncertainty calculations follow Section~\\ref{sec:metrics_method}. Tables report",
+      "number": "3.7",
+      "page": "64",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1412}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 17,
+      "target": "app:experiment_map",
+      "context": "is descriptive and does not indicate statistical significance or model selection. Appendix~\\ref{app:experiment_map} links the descriptive model names to",
+      "number": "A",
+      "page": "100",
+      "destination": "[{\"file\": \"Backmatter/ExperimentMap.tex\", \"line\": 1}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 40,
+      "target": "tab:ch4_pose_fusion",
+      "context": "Table~\\ref{tab:ch4_pose_fusion} compares BBox alone, BBox+BIU-v1, BBox+raw keypoints",
+      "number": "4.1",
+      "page": "72",
+      "destination": "[{\"file\": \"Tables/ch4_pose_fusion.tex\", \"line\": 4}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 77,
+      "target": "sec:biu_v2_method",
+      "context": "(Section~\\ref{sec:biu_v2_method}). Table~\\ref{tab:ch4_initial} compares BBox alone,",
+      "number": "3.2.3",
+      "page": "39",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 335}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 77,
+      "target": "tab:ch4_initial",
+      "context": "(Section~\\ref{sec:biu_v2_method}). Table~\\ref{tab:ch4_initial} compares BBox alone,",
+      "number": "4.2",
+      "page": "73",
+      "destination": "[{\"file\": \"Tables/ch4_initial_classifiers.tex\", \"line\": 5}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 104,
+      "target": "fig:cm_initial",
+      "context": "Figure~\\ref{fig:cm_initial} shows the XGBoost error trade-offs for these same three",
+      "number": "4.1",
+      "page": "74",
+      "destination": "[{\"file\": \"Figures/ch4_cm_initial.tex\", \"line\": 4}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 105,
+      "target": "tab:ch4_initial",
+      "context": "input packages, complementing the classifier-wide metrics in Table~\\ref{tab:ch4_initial}.",
+      "number": "4.2",
+      "page": "73",
+      "destination": "[{\"file\": \"Tables/ch4_initial_classifiers.tex\", \"line\": 5}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 114,
+      "target": "sec:lightweight_architecture",
+      "context": "inputs defined in Section~\\ref{sec:lightweight_architecture}. It holds the PIE samples,",
+      "number": "3.3",
+      "page": "44",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 580}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 115,
+      "target": "tab:matched_xgb_arms",
+      "context": "seeds and XGBoost recipe fixed while changing the representation package. Table~\\ref{tab:matched_xgb_arms}",
+      "number": "4.3",
+      "page": "74",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 123}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 140,
+      "target": "tab:ch4_versions",
+      "context": "Table~\\ref{tab:ch4_versions} reports their performance. The no-BIU baseline is the",
+      "number": "4.4",
+      "page": "75",
+      "destination": "[{\"file\": \"Tables/ch4_versions.tex\", \"line\": 5}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 141,
+      "target": "sec:ch4_xgb_pie",
+      "context": "same baseline used in the PIE architecture results in Section~\\ref{sec:ch4_xgb_pie}. False-positive and false-negative rates",
+      "number": "4.3.2",
+      "page": "76",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 212}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 169,
+      "target": "tab:ch4_restoration",
+      "context": "predictions for each seed, and Table~\\ref{tab:ch4_restoration} averages the three",
+      "number": "4.5",
+      "page": "76",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 180}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 170,
+      "target": "sec:decision_rule",
+      "context": "seed-specific metrics using the decision rule in Section~\\ref{sec:decision_rule}. The API-style behavior and all-pedestrian",
+      "number": "3.6.6",
+      "page": "64",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1405}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 214,
+      "target": "tab:ch4_architecture",
+      "context": "Table~\\ref{tab:ch4_architecture} starts with the no-BIU XGBoost baseline, then adds",
+      "number": "4.6",
+      "page": "77",
+      "destination": "[{\"file\": \"Tables/ch4_architecture.tex\", \"line\": 3}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 219,
+      "target": "sec:lightweight_architecture",
+      "context": "Section~\\ref{sec:lightweight_architecture} describes these branches.",
+      "number": "3.3",
+      "page": "44",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 580}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 237,
+      "target": "sec:method_datasets",
+      "context": "API JAAD$_{all}$, using the populations defined in Section~\\ref{sec:method_datasets}.",
+      "number": "3.5",
+      "page": "58",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1108}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 242,
+      "target": "tab:ch4_jaad_native",
+      "context": "Table~\\ref{tab:ch4_jaad_native} brings together the completed BBox controls and the",
+      "number": "4.7",
+      "page": "78",
+      "destination": "[{\"file\": \"Tables/ch4_jaad_native.tex\", \"line\": 3}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 269,
+      "target": "sec:ch4_neural",
+      "context": "The capped PedCMT evidence in Section~\\ref{sec:ch4_neural} supplies a separate",
+      "number": "4.4",
+      "page": "82",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 350}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 286,
+      "target": "sec:method_psi",
+      "context": "not reference skeletons as classifier inputs. Section~\\ref{sec:method_psi} specifies the",
+      "number": "3.5.3",
+      "page": "59",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1166}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 313,
+      "target": "fig:cm_psi",
+      "context": "Figure~\\ref{fig:cm_psi} shows all four matched PSI arms on their shared test population.",
+      "number": "4.2",
+      "page": "81",
+      "destination": "[{\"file\": \"Figures/ch4_cm_psi.tex\", \"line\": 4}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 329,
+      "target": "sec:ordered_history_method",
+      "context": "The development comparison in Section~\\ref{sec:ordered_history_method} appends ordered",
+      "number": "3.6.2",
+      "page": "61",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1257}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 343,
+      "target": "sec:ch4_xgb_pie",
+      "context": "Section~\\ref{sec:ch4_xgb_pie}.",
+      "number": "4.3.2",
+      "page": "76",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 212}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 353,
+      "target": "sec:mslstm_method",
+      "context": "a capped BIU correction. Sections~\\ref{sec:mslstm_method} and~\\ref{sec:pedcmt_method}",
+      "number": "3.4.2",
+      "page": "53",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 911}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 353,
+      "target": "sec:pedcmt_method",
+      "context": "a capped BIU correction. Sections~\\ref{sec:mslstm_method} and~\\ref{sec:pedcmt_method}",
+      "number": "3.4.3",
+      "page": "55",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1002}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 357,
+      "target": "chap:methodology",
+      "context": "the design rationale in Chapter~\\ref{chap:methodology}; the following results concern the",
+      "number": "3",
+      "page": "32",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 2}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 362,
+      "target": "tab:ch4_neural",
+      "context": "Table~\\ref{tab:ch4_neural} groups the adapted MSLSTM comparisons on PIE and clean",
+      "number": "4.9",
+      "page": "83",
+      "destination": "[{\"file\": \"Tables/ch4_neural.tex\", \"line\": 6}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 363,
+      "target": "sec:mslstm_method",
+      "context": "JAAD. The PIE baseline follows Section~\\ref{sec:mslstm_method}, with the clean-JAAD",
+      "number": "3.4.2",
+      "page": "53",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 911}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 364,
+      "target": "sec:xgb_dataset_inputs",
+      "context": "adjustments in Section~\\ref{sec:xgb_dataset_inputs}; the two",
+      "number": "3.5.4",
+      "page": "60",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1194}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 397,
+      "target": "tab:ch4_neural",
+      "context": "The clean-JAAD block in Table~\\ref{tab:ch4_neural} presents the completed adaptation",
+      "number": "4.9",
+      "page": "83",
+      "destination": "[{\"file\": \"Tables/ch4_neural.tex\", \"line\": 6}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 406,
+      "target": "sec:mslstm_training",
+      "context": "Section~\\ref{sec:mslstm_training}. The negative initial result remains evidence that",
+      "number": "3.6.4",
+      "page": "62",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1302}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 413,
+      "target": "fig:cm_mslstm",
+      "context": "Figure~\\ref{fig:cm_mslstm} shows the PIE practical-input variants in Table~\\ref{tab:ch4_neural}.",
+      "number": "4.3",
+      "page": "84",
+      "destination": "[{\"file\": \"Figures/ch4_cm_mslstm.tex\", \"line\": 4}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 413,
+      "target": "tab:ch4_neural",
+      "context": "Figure~\\ref{fig:cm_mslstm} shows the PIE practical-input variants in Table~\\ref{tab:ch4_neural}.",
+      "number": "4.9",
+      "page": "83",
+      "destination": "[{\"file\": \"Tables/ch4_neural.tex\", \"line\": 6}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 420,
+      "target": "tab:ch4_pedcmt_capped",
+      "context": "Table~\\ref{tab:ch4_pedcmt_capped} evaluates the frozen-baseline correction defined in",
+      "number": "4.10",
+      "page": "85",
+      "destination": "[{\"file\": \"Tables/ch4_pedcmt_capped.tex\", \"line\": 4}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 421,
+      "target": "sec:pedcmt_capped",
+      "context": "Section~\\ref{sec:pedcmt_capped}. It compares raw pose, BIU-v2 (56-D), and BIU-v2 plus",
+      "number": "3.4.3.3",
+      "page": "57",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1060}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 443,
+      "target": "fig:cm_pedcmt",
+      "context": "separately. Figure~\\ref{fig:cm_pedcmt} shows their classification outcomes.",
+      "number": "4.4",
+      "page": "87",
+      "destination": "[{\"file\": \"Figures/ch4_cm_pedcmt_capped.tex\", \"line\": 5}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 461,
+      "target": "sec:ch4_neural",
+      "context": "Section~\\ref{sec:ch4_neural}; they are not matched reruns. Bold marks the highest",
+      "number": "4.4",
+      "page": "82",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 350}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 468,
+      "target": "tab:ch4_literature_pie",
+      "context": "Table~\\ref{tab:ch4_literature_pie} compares the behavioral model and road-context extension of the proposed XGBoost architecture",
+      "number": "4.11",
+      "page": "89",
+      "destination": "[{\"file\": \"Tables/ch4_literature_pie.tex\", \"line\": 3}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 495,
+      "target": "sec:ch4_cost",
+      "context": "boundaries in Section~\\ref{sec:ch4_cost}.",
+      "number": "4.7",
+      "page": "94",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 661}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 505,
+      "target": "tab:ch4_literature_jaad",
+      "context": "Table~\\ref{tab:ch4_literature_jaad} presents JAAD$_{beh}$ and JAAD$_{all}$ separately.",
+      "number": "4.12",
+      "page": "90",
+      "destination": "[{\"file\": \"Tables/ch4_literature_jaad.tex\", \"line\": 4}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 508,
+      "target": "sec:ch4_jaad",
+      "context": "its internal comparisons remain in Section~\\ref{sec:ch4_jaad}.",
+      "number": "4.3.3",
+      "page": "77",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 234}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 541,
+      "target": "tab:ch4_literature_psi",
+      "context": "Table~\\ref{tab:ch4_literature_psi} uses the completed 56-D BIU-v2 models from",
+      "number": "4.13",
+      "page": "91",
+      "destination": "[{\"file\": \"Tables/ch4_literature_psi.tex\", \"line\": 3}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 542,
+      "target": "sec:ch4_psi",
+      "context": "Section~\\ref{sec:ch4_psi}, including the newer 109-, 135- and 195-input configurations.",
+      "number": "4.3.4",
+      "page": "79",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 283}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 582,
+      "target": "sec:cue_attribution_method",
+      "context": "correct predictions caused by BIUs. Section~\\ref{sec:cue_attribution_method} defines",
+      "number": "3.7.1",
+      "page": "66",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1469}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 588,
+      "target": "fig:ch4_v2_input_share",
+      "context": "Figure~\\ref{fig:ch4_v2_input_share} reports the 56-feature BIU-v2 block's share of",
+      "number": "4.5",
+      "page": "92",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 599}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 609,
+      "target": "fig:ch4_v2_cue_direction",
+      "context": "Figure~\\ref{fig:ch4_v2_cue_direction} shows every v2 cue's toward-label frequency",
+      "number": "4.6",
+      "page": "93",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 617}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 635,
+      "target": "tab:ch4_psi",
+      "context": "The PSI column explains the retained behavioral model in Table~\\ref{tab:ch4_psi},",
+      "number": "4.8",
+      "page": "79",
+      "destination": "[{\"file\": \"Tables/ch4_psi.tex\", \"line\": 4}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 663,
+      "target": "tab:ch4_runtime",
+      "context": "Table~\\ref{tab:ch4_runtime} reports the measured BIU-v2 pipeline cost on an Intel Core",
+      "number": "4.14",
+      "page": "94",
+      "destination": "[{\"file\": \"Tables/ch4_runtime.tex\", \"line\": 3}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 667,
+      "target": "fig:ch4_runtime",
+      "context": "(Figure~\\ref{fig:ch4_runtime}). The corresponding 95th percentile is 10.59\\,ms.",
+      "number": "4.7",
+      "page": "94",
+      "destination": "[{\"file\": \"Figures/ch4_runtime.tex\", \"line\": 22}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 683,
+      "target": "tab:ch4_model_size",
+      "context": "Table~\\ref{tab:ch4_model_size} compares the retained predictors under the separate",
+      "number": "4.15",
+      "page": "96",
+      "destination": "[{\"file\": \"Tables/ch4_model_size.tex\", \"line\": 3}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 684,
+      "target": "sec:efficiency_method",
+      "context": "ready-input CPU audit defined in Section~\\ref{sec:efficiency_method}. Both XGBoost",
+      "number": "3.8",
+      "page": "67",
+      "destination": "[{\"file\": \"03_methodology.tex\", \"line\": 1543}]"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 705,
+      "target": "sec:ch4_literature",
+      "context": "Published performance comparisons remain separate in Section~\\ref{sec:ch4_literature}.",
+      "number": "4.5",
+      "page": "88",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 457}]"
+    },
+    {
+      "file": "05_conclusion.tex",
+      "line": 33,
+      "target": "sec:ch4_literature",
+      "context": "Section~\\ref{sec:ch4_literature}. Within our",
+      "number": "4.5",
+      "page": "88",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 457}]"
+    },
+    {
+      "file": "05_conclusion.tex",
+      "line": 45,
+      "target": "sec:ch4_cost",
+      "context": "(Section~\\ref{sec:ch4_cost}). These measurements quantify the efficiency of the",
+      "number": "4.7",
+      "page": "94",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 661}]"
+    },
+    {
+      "file": "05_conclusion.tex",
+      "line": 63,
+      "target": "sec:ch4_limits",
+      "context": "within the evaluation scope discussed in Section~\\ref{sec:ch4_limits}.",
+      "number": "4.8",
+      "page": "96",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 713}]"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 18,
+      "target": "tab:ch4_initial",
+      "context": "Table~\\ref{tab:ch4_initial}; Figure~\\ref{fig:cm_initial}: classifier/version controls & Exp012\\\\[3pt]",
+      "number": "4.2",
+      "page": "73",
+      "destination": "[{\"file\": \"Tables/ch4_initial_classifiers.tex\", \"line\": 5}]"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 18,
+      "target": "fig:cm_initial",
+      "context": "Table~\\ref{tab:ch4_initial}; Figure~\\ref{fig:cm_initial}: classifier/version controls & Exp012\\\\[3pt]",
+      "number": "4.1",
+      "page": "74",
+      "destination": "[{\"file\": \"Figures/ch4_cm_initial.tex\", \"line\": 4}]"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 19,
+      "target": "tab:ch4_pose_fusion",
+      "context": "Table~\\ref{tab:ch4_pose_fusion}: raw-pose and BIU fusion & PIE classifier report\\\\[3pt]",
+      "number": "4.1",
+      "page": "72",
+      "destination": "[{\"file\": \"Tables/ch4_pose_fusion.tex\", \"line\": 4}]"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 20,
+      "target": "tab:ch4_versions",
+      "context": "Tables~\\ref{tab:ch4_versions} and~\\ref{tab:ch4_architecture}: XGBoost versions and architecture & Exp096; Exp116\\\\[3pt]",
+      "number": "4.4",
+      "page": "75",
+      "destination": "[{\"file\": \"Tables/ch4_versions.tex\", \"line\": 5}]"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 20,
+      "target": "tab:ch4_architecture",
+      "context": "Tables~\\ref{tab:ch4_versions} and~\\ref{tab:ch4_architecture}: XGBoost versions and architecture & Exp096; Exp116\\\\[3pt]",
+      "number": "4.6",
+      "page": "77",
+      "destination": "[{\"file\": \"Tables/ch4_architecture.tex\", \"line\": 3}]"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 21,
+      "target": "tab:ch4_restoration",
+      "context": "Table~\\ref{tab:ch4_restoration}: training-only removed-cue restoration & Exp105\\\\[3pt]",
+      "number": "4.5",
+      "page": "76",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 180}]"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 22,
+      "target": "tab:ch4_pedcmt_capped",
+      "context": "Table~\\ref{tab:ch4_pedcmt_capped}; Figure~\\ref{fig:cm_pedcmt}: capped PedCMT & Exp119 (parents/raw control reused)\\\\[3pt]",
+      "number": "4.10",
+      "page": "85",
+      "destination": "[{\"file\": \"Tables/ch4_pedcmt_capped.tex\", \"line\": 4}]"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 22,
+      "target": "fig:cm_pedcmt",
+      "context": "Table~\\ref{tab:ch4_pedcmt_capped}; Figure~\\ref{fig:cm_pedcmt}: capped PedCMT & Exp119 (parents/raw control reused)\\\\[3pt]",
+      "number": "4.4",
+      "page": "87",
+      "destination": "[{\"file\": \"Figures/ch4_cm_pedcmt_capped.tex\", \"line\": 5}]"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 23,
+      "target": "tab:ch4_neural",
+      "context": "Table~\\ref{tab:ch4_neural}; Figure~\\ref{fig:cm_mslstm}: MSLSTM controls & Exp053; Exp095; Exp117\\\\[3pt]",
+      "number": "4.9",
+      "page": "83",
+      "destination": "[{\"file\": \"Tables/ch4_neural.tex\", \"line\": 6}]"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 23,
+      "target": "fig:cm_mslstm",
+      "context": "Table~\\ref{tab:ch4_neural}; Figure~\\ref{fig:cm_mslstm}: MSLSTM controls & Exp053; Exp095; Exp117\\\\[3pt]",
+      "number": "4.3",
+      "page": "84",
+      "destination": "[{\"file\": \"Figures/ch4_cm_mslstm.tex\", \"line\": 4}]"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 24,
+      "target": "tab:ch4_neural",
+      "context": "Table~\\ref{tab:ch4_neural} (clean-JAAD block): MSLSTM & Exp122 test evaluation; Exp120/121 development\\\\[3pt]",
+      "number": "4.9",
+      "page": "83",
+      "destination": "[{\"file\": \"Tables/ch4_neural.tex\", \"line\": 6}]"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 25,
+      "target": "sec:ch4_neural",
+      "context": "Section~\\ref{sec:ch4_neural}: auxiliary-block XGBoost contrast & Exp100; Exp101\\\\[3pt]",
+      "number": "4.4",
+      "page": "82",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 350}]"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 26,
+      "target": "tab:ch4_jaad_native",
+      "context": "Table~\\ref{tab:ch4_jaad_native}: JAAD XGBoost & Exp098; Exp100; Exp102; Exp116\\\\[3pt]",
+      "number": "4.7",
+      "page": "78",
+      "destination": "[{\"file\": \"Tables/ch4_jaad_native.tex\", \"line\": 3}]"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 27,
+      "target": "tab:ch4_psi",
+      "context": "Table~\\ref{tab:ch4_psi}; Figure~\\ref{fig:cm_psi}: PSI XGBoost & Exp124 (extended arms reused from Exp116)\\\\[3pt]",
+      "number": "4.8",
+      "page": "79",
+      "destination": "[{\"file\": \"Tables/ch4_psi.tex\", \"line\": 4}]"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 27,
+      "target": "fig:cm_psi",
+      "context": "Table~\\ref{tab:ch4_psi}; Figure~\\ref{fig:cm_psi}: PSI XGBoost & Exp124 (extended arms reused from Exp116)\\\\[3pt]",
+      "number": "4.2",
+      "page": "81",
+      "destination": "[{\"file\": \"Figures/ch4_cm_psi.tex\", \"line\": 4}]"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 28,
+      "target": "tab:ch4_literature_pie",
+      "context": "Tables~\\ref{tab:ch4_literature_pie}--\\ref{tab:ch4_literature_psi}: our literature-comparison rows & Exp096; Exp102; Exp116; Exp124\\\\[3pt]",
+      "number": "4.11",
+      "page": "89",
+      "destination": "[{\"file\": \"Tables/ch4_literature_pie.tex\", \"line\": 3}]"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 28,
+      "target": "tab:ch4_literature_psi",
+      "context": "Tables~\\ref{tab:ch4_literature_pie}--\\ref{tab:ch4_literature_psi}: our literature-comparison rows & Exp096; Exp102; Exp116; Exp124\\\\[3pt]",
+      "number": "4.13",
+      "page": "91",
+      "destination": "[{\"file\": \"Tables/ch4_literature_psi.tex\", \"line\": 3}]"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 29,
+      "target": "fig:ch4_v2_input_share",
+      "context": "Figures~\\ref{fig:ch4_v2_input_share}--\\ref{fig:ch4_v2_cue_direction}: BIU-v2 attribution & Exp096; Exp100; matched cue report; Exp116/124 PSI v2 cue report\\\\[3pt]",
+      "number": "4.5",
+      "page": "92",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 599}]"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 29,
+      "target": "fig:ch4_v2_cue_direction",
+      "context": "Figures~\\ref{fig:ch4_v2_input_share}--\\ref{fig:ch4_v2_cue_direction}: BIU-v2 attribution & Exp096; Exp100; matched cue report; Exp116/124 PSI v2 cue report\\\\[3pt]",
+      "number": "4.6",
+      "page": "93",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 617}]"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 30,
+      "target": "tab:ch4_runtime",
+      "context": "Table~\\ref{tab:ch4_runtime}; Figure~\\ref{fig:ch4_runtime}: measured latency & V2 runtime report\\\\[3pt]",
+      "number": "4.14",
+      "page": "94",
+      "destination": "[{\"file\": \"Tables/ch4_runtime.tex\", \"line\": 3}]"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 30,
+      "target": "fig:ch4_runtime",
+      "context": "Table~\\ref{tab:ch4_runtime}; Figure~\\ref{fig:ch4_runtime}: measured latency & V2 runtime report\\\\[3pt]",
+      "number": "4.7",
+      "page": "94",
+      "destination": "[{\"file\": \"Figures/ch4_runtime.tex\", \"line\": 22}]"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 31,
+      "target": "tab:ch4_model_size",
+      "context": "Table~\\ref{tab:ch4_model_size}: retained predictor complexity and latency & Exp053/095/117; Exp119; Exp096/116; retained-predictor audit\\\\[3pt]",
+      "number": "4.15",
+      "page": "96",
+      "destination": "[{\"file\": \"Tables/ch4_model_size.tex\", \"line\": 3}]"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 32,
+      "target": "sec:ch4_ordered_history",
+      "context": "Section~\\ref{sec:ch4_ordered_history}: ordered-history trial & Exp118\\\\[3pt]",
+      "number": "4.3.5",
+      "page": "82",
+      "destination": "[{\"file\": \"04_results_and_discussion.tex\", \"line\": 327}]"
+    }
+  ],
+  "captions": [
+    {
+      "file": "Figures/dataset_samples.tex",
+      "line": 20,
+      "first_line": "\\caption{Example forward-facing camera views from PIE, JAAD and PSI.}"
+    },
+    {
+      "file": "02_lit_review.tex",
+      "line": 137,
+      "first_line": "\\caption{Overview of JAAD, PIE and PSI.}"
+    },
+    {
+      "file": "02_lit_review.tex",
+      "line": 320,
+      "first_line": "\\caption{Representative published-work landscape, grouped by method family and ordered by publication year within each group. ``Conditional'' means that dataset name alone is insufficient to establish comparability.}\\label{tab:published_landscape}\\\\[3pt]"
+    },
+    {
+      "file": "02_lit_review.tex",
+      "line": 325,
+      "first_line": "\\caption[]{Representative published-work landscape (continued).}\\\\[3pt]"
+    },
+    {
+      "file": "Figures/anticipation_timeline.tex",
+      "line": 22,
+      "first_line": "\\caption{Observation window and time-to-event for a crossing sample (schematic).}"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 178,
+      "first_line": "\\caption{Observable body relationships motivating BIU measurements. No single cue establishes intention.}"
+    },
+    {
+      "file": "Figures/biu_geometry_examples.tex",
+      "line": 105,
+      "first_line": "\\caption{Keypoints, reference lines and selected BIU measurements (schematic).}"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 289,
+      "first_line": "\\caption{Temporal summaries and feature count for BIU-v1.}"
+    },
+    {
+      "file": "Figures/biu_direction_method.tex",
+      "line": 33,
+      "first_line": "\\caption{Direction canonicalization: mirror leftward motion before computing BIU-v2 measurements.}"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 521,
+      "first_line": "\\caption{Temporal summaries and feature count for BIU-v2.}"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 554,
+      "first_line": "\\caption{What is retained, changed, omitted and added in BIU-v2.}"
+    },
+    {
+      "file": "Figures/pipeline_overview.tex",
+      "line": 20,
+      "first_line": "\\caption{From observed pose, motion and context to a crossing prediction.}\\label{fig:biu_pipeline}"
+    },
+    {
+      "file": "Figures/xgboost_multimodal_branches.tex",
+      "line": 42,
+      "first_line": "\\caption{Reusing vehicle perception and motion outputs for BIU-v2 crossing prediction; road context is optional.}"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 629,
+      "first_line": "\\caption{Inputs to the proposed multimodal XGBoost architecture.}"
+    },
+    {
+      "file": "Figures/early_late_summaries.tex",
+      "line": 37,
+      "first_line": "\\caption{Same whole-window mean, different early/late behavior.}"
+    },
+    {
+      "file": "Figures/road_geometry_method.tex",
+      "line": 28,
+      "first_line": "\\caption{Road context describes position, distance and movement relative to the drivable area.}"
+    },
+    {
+      "file": "Figures/mslstm_original_simplified.tex",
+      "line": 32,
+      "first_line": "\\caption{Simplified MSLSTM-PID architecture, based on \\cite{Elsamalouty2025MSLSTM}.}"
+    },
+    {
+      "file": "Figures/mslstm_adaptation_branches.tex",
+      "line": 38,
+      "first_line": "\\caption{Adapted PIE MSLSTM with BBox53 and BIU integration.}"
+    },
+    {
+      "file": "Figures/pedcmt_initial_insertion.tex",
+      "line": 26,
+      "first_line": "\\caption{Simplified PedCMT prediction architecture, based on \\cite{Chen2024PedCMT}.}"
+    },
+    {
+      "file": "Figures/pedcmt_first_trials.tex",
+      "line": 36,
+      "first_line": "\\caption{Initial PedCMT trials: adding either raw pose or BIUs through attention.}"
+    },
+    {
+      "file": "Figures/pedcmt_adaptation_branches.tex",
+      "line": 40,
+      "first_line": "\\caption{PedCMT with the added BIU correction scaled by 0.10.}"
+    },
+    {
+      "file": "Tables/ch4_pose_fusion.tex",
+      "line": 4,
+      "first_line": "\\caption{Earlier PIE representation controls across four classifiers (individual runs).}\\label{tab:ch4_pose_fusion}"
+    },
+    {
+      "file": "Tables/ch4_initial_classifiers.tex",
+      "line": 5,
+      "first_line": "\\caption{PIE classifier and BIU-version controls; $F_1$ includes sample SD.}\\label{tab:ch4_initial}"
+    },
+    {
+      "file": "Figures/ch4_cm_initial.tex",
+      "line": 4,
+      "first_line": "\\caption{Initial PIE XGBoost controls: mean confusion counts and within-class percentages.}\\label{fig:cm_initial}"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 122,
+      "first_line": "\\caption{Inputs to the matched XGBoost version comparison.}"
+    },
+    {
+      "file": "Tables/ch4_versions.tex",
+      "line": 5,
+      "first_line": "\\caption{Matched PIE BIU-version packages and their error trade-offs; $F_1$ includes sample SD.}\\label{tab:ch4_versions}"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 178,
+      "first_line": "\\caption{Training-only restoration diagnostic: mean pooled out-of-fold scores before"
+    },
+    {
+      "file": "Tables/ch4_architecture.tex",
+      "line": 3,
+      "first_line": "\\caption{PIE XGBoost: baseline, behavioral package and road extension (mean $\\pm$ SD).}\\label{tab:ch4_architecture}"
+    },
+    {
+      "file": "Tables/ch4_jaad_native.tex",
+      "line": 3,
+      "first_line": "\\caption{JAAD in-domain XGBoost controls; $F_1$ includes sample SD. Dimensions count all predictor inputs.}\\label{tab:ch4_jaad_native}"
+    },
+    {
+      "file": "Tables/ch4_psi.tex",
+      "line": 4,
+      "first_line": "\\caption{Matched PSI input ablation; $F_1$ is positive-class and includes sample SD.}\\label{tab:ch4_psi}"
+    },
+    {
+      "file": "Figures/ch4_cm_psi.tex",
+      "line": 4,
+      "first_line": "\\caption{PSI perceived-intention models: mean confusion counts and within-class percentages.}\\label{fig:cm_psi}"
+    },
+    {
+      "file": "Tables/ch4_neural.tex",
+      "line": 6,
+      "first_line": "\\caption{Adapted MSLSTM on PIE and clean JAAD; $F_1$ includes sample SD.}\\label{tab:ch4_neural}"
+    },
+    {
+      "file": "Figures/ch4_cm_mslstm.tex",
+      "line": 4,
+      "first_line": "\\caption{Adapted MSLSTM on PIE: mean confusion counts and within-class percentages.}\\label{fig:cm_mslstm}"
+    },
+    {
+      "file": "Tables/ch4_pedcmt_capped.tex",
+      "line": 4,
+      "first_line": "\\caption{Capped PedCMT with matched pose inputs; $F_1$ includes sample SD.}\\label{tab:ch4_pedcmt_capped}"
+    },
+    {
+      "file": "Figures/ch4_cm_pedcmt_capped.tex",
+      "line": 4,
+      "first_line": "\\caption{Capped PedCMT on PIE and clean JAAD, with matched raw-pose, 56-D and 63-D corrections.}"
+    },
+    {
+      "file": "Tables/ch4_literature_pie.tex",
+      "line": 3,
+      "first_line": "\\caption{Reported PIE results and our BIU-v2 XGBoost models (ours: three-run means).}\\label{tab:ch4_literature_pie}"
+    },
+    {
+      "file": "Tables/ch4_literature_jaad.tex",
+      "line": 4,
+      "first_line": "\\caption{Published JAAD results by cohort; our scores are three-run means.}\\label{tab:ch4_literature_jaad}"
+    },
+    {
+      "file": "Tables/ch4_literature_psi.tex",
+      "line": 3,
+      "first_line": "\\caption{PSI reference results on complete respective test cohorts; BA: balanced accuracy.}\\label{tab:ch4_literature_psi}"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 598,
+      "first_line": "\\caption{BIU-v2 share of absolute feature attribution on test data; three-seed means.}"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 616,
+      "first_line": "\\caption{Percentage of test windows in which each BIU-v2 cue supports the label; three-seed means.}"
+    },
+    {
+      "file": "Tables/ch4_runtime.tex",
+      "line": 3,
+      "first_line": "\\caption{Measured CPU milliseconds per observation window.}\\label{tab:ch4_runtime}"
+    },
+    {
+      "file": "Figures/ch4_runtime.tex",
+      "line": 22,
+      "first_line": "\\caption{Measured BIU-v2 XGBoost behavioral pipeline from available boxes, keypoints and ego speed.}\\label{fig:ch4_runtime}"
+    },
+    {
+      "file": "Tables/ch4_model_size.tex",
+      "line": 3,
+      "first_line": "\\caption{Retained predictor complexity and ready-input CPU latency.}\\label{tab:ch4_model_size}"
+    },
+    {
+      "file": "Backmatter/ExperimentMap.tex",
+      "line": 9,
+      "first_line": "\\caption{Thesis results and their supporting experiments.}\\label{tab:experiment_map}\\\\[3pt]"
+    }
+  ],
+  "graphics": [
+    {
+      "file": "Forfrontmatter/Titlepage.tex",
+      "line": 11,
+      "path": "Figures/gucLogo.jpg"
+    },
+    {
+      "file": "Figures/dataset_samples.tex",
+      "line": 6,
+      "path": "Figures/dataset_sample_pie.png"
+    },
+    {
+      "file": "Figures/dataset_samples.tex",
+      "line": 11,
+      "path": "Figures/dataset_sample_jaad.png"
+    },
+    {
+      "file": "Figures/dataset_samples.tex",
+      "line": 17,
+      "path": "Figures/dataset_sample_psi.png"
+    },
+    {
+      "file": "03_methodology.tex",
+      "line": 137,
+      "path": "Figures/conceptual_driver_view_biu_cues.png"
+    },
+    {
+      "file": "Figures/ch4_cm_initial.tex",
+      "line": 3,
+      "path": "Figures/ch4_cm_initial.pdf"
+    },
+    {
+      "file": "Figures/ch4_cm_psi.tex",
+      "line": 3,
+      "path": "Figures/ch4_cm_psi.pdf"
+    },
+    {
+      "file": "Figures/ch4_cm_mslstm.tex",
+      "line": 3,
+      "path": "Figures/ch4_cm_mslstm.pdf"
+    },
+    {
+      "file": "Figures/ch4_cm_pedcmt_capped.tex",
+      "line": 3,
+      "path": "Figures/ch4_cm_pedcmt_capped.pdf"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 597,
+      "path": "Figures/ch4_v2_input_share.pdf"
+    },
+    {
+      "file": "04_results_and_discussion.tex",
+      "line": 615,
+      "path": "Figures/ch4_v2_cue_direction.pdf"
+    }
+  ],
+  "unique_citations": [
+    "Abdelrahman2025VRUCIPI",
+    "AlShami2026GATEPose",
+    "Azarmi2025PIPNet",
+    "Benkabou2026PCAPSL",
+    "Breiman2001RandomForests",
+    "Cadena2019PedGraph",
+    "Cadena2022PedGraphPlus",
+    "Cao2021OpenPose",
+    "Che2026TwinLiteNetPlus",
+    "Chen2016XGBoost",
+    "Chen2024PedCMT",
+    "Damirchi2023ContextAwareTrajectory",
+    "Du2026SafeCrossNet",
+    "Ekman1976FacialMovement",
+    "Elsamalouty2025MSLSTM",
+    "Fang2017Onboard",
+    "Fang2018Pose",
+    "Gazzeh2025ContextPed",
+    "Gesnouin2021TrouSPINet",
+    "Grinsztajn2022Tabular",
+    "Ham2023CIPF",
+    "Ham2025LLaMAPed",
+    "Hastie2009StatisticalLearning",
+    "Huang2021MIFWLSTM",
+    "Jing2025PSI",
+    "Ke2017LightGBM",
+    "Keller2014WillCross",
+    "Kotseruba2021Benchmark",
+    "Landry2025TrajFusionNet",
+    "Lin2014COCO",
+    "Lin2023DangerousBehavior",
+    "Ling2024PedASTGCN",
+    "Ling2026VLMPedCoT",
+    "Lorenzo2021CAPformer",
+    "Lorenzo2021IntFormer",
+    "Lundberg2017SHAP",
+    "Munir2024PTINet",
+    "PaulEkmanGroupFACS",
+    "PedVLM2025",
+    "Qu2025EfficientPIE",
+    "Quan2021HolisticLSTM",
+    "Quintero2019PathPoseIntent",
+    "Rasouli2017JAAD",
+    "Rasouli2019PIE",
+    "Rasouli2019SFGRU",
+    "SHAPTreeExplainerDocs",
+    "Schneemann2016Context",
+    "Sidharta2024TemporalAngular",
+    "Song2022SceneGraph",
+    "Uziel2025ClipCross",
+    "Xie2025GTransPDM",
+    "Xu2022ViTPose",
+    "Yang2022FeatureFusion",
+    "Yang2024FasterPCPNet",
+    "Yao2021IntentAction",
+    "Younes2026ContextTransfer",
+    "Zhou2023PIT"
+  ],
+  "checks": {
+    "missing_input_files": [],
+    "missing_graphics": [],
+    "undefined_references": [],
+    "duplicate_labels": {},
+    "undefined_citations": [],
+    "duplicate_bibliography_keys": [],
+    "stale_pattern_matches": {}
+  }
+}

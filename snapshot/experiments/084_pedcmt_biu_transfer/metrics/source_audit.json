@@ -1,0 +1,37 @@
+{
+  "dimensions": {
+    "bbox": 4,
+    "biu_v1": 72,
+    "biu_v2": 63,
+    "ego": 1,
+    "pose": 34,
+    "union": 135
+  },
+  "population": {
+    "total": 5985,
+    "train": 2366,
+    "train_positive": 679,
+    "validation": 3619,
+    "validation_positive": 751
+  },
+  "prepared_at_unix": 1788105094.731988,
+  "sequence_id_sha256": "8a3bcb85bb81f5fbe67b8164863a949c406535470c65f8b3f01c3397985d0707",
+  "source_directory": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/050_mslstm_practical_behavior_replacement_pie_16f_tte30_60/cache/trainval_base",
+  "source_sha256": {
+    "bbox.npy": "f48d478615552184f5a126ae73594559264fa3394751cb3d6250fb1bcacc8c3e",
+    "biu_v1.npy": "0a23a2b90aa34b628dd3a09df8fc58d24e67a1a79f776bb8e49957ac2671e0f7",
+    "biu_v2.npy": "46b0bed782aeac9c93c77248ae80b110889bbf912f157a00f71bee4ce9fec4e6",
+    "ego_speed.npy": "84612b16ed96858ac61efada1d2787bd0ee80056fb0c37af15d5b34cc4cd277c",
+    "metadata.json": "bc5a2b567c956857a01e36818afcf970b2268042cc9c4d087f6d03eb809b3632",
+    "pose.npy": "14dc5bf6f8364f38b606d9467d62fb1805423b964259e2974fde37b3ad9b0521",
+    "rows.csv": "a01ad1f3244157c1b649aada0470ad54d877bbd1e8075c275ee313c35dcc3bf1"
+  },
+  "test_cache_accessed": false,
+  "trainable_parameters": {
+    "A": 1834416,
+    "B": 2368944,
+    "C": 1860528,
+    "D": 1859376,
+    "E": 1868592
+  }
+}

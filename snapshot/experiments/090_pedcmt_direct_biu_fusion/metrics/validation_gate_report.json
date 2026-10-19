@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "accuracy_noninferiority": false,
+    "f1_noninferiority": false,
+    "high_confidence_error_limit": true,
+    "pr_auc_margin": true,
+    "pr_auc_seed_consistency": true,
+    "signed_corrections": true
+  },
+  "mean_metrics": {
+    "A": {
+      "accuracy": 0.7725060827250608,
+      "f1": 0.825006546216287,
+      "high_conf_fn": 0.0,
+      "high_conf_fp": 0.0,
+      "pr_auc": 0.8119581472907788,
+      "roc_auc": 0.7845871040723983
+    },
+    "B": {
+      "accuracy": 0.6167883211678832,
+      "f1": 0.6607310886367054,
+      "high_conf_fn": 0.0,
+      "high_conf_fp": 0.6666666666666666,
+      "pr_auc": 0.7835046122340955,
+      "roc_auc": 0.6933069381598793
+    },
+    "C": {
+      "accuracy": 0.7250608272506082,
+      "f1": 0.7648290946177606,
+      "high_conf_fn": 0.0,
+      "high_conf_fp": 1.3333333333333333,
+      "pr_auc": 0.8874010565784669,
+      "roc_auc": 0.8180429864253393
+    }
+  },
+  "passed": false
+}

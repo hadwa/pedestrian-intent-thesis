@@ -1,0 +1,5 @@
+arm,seed,trainable_parameters,checkpoint_size_bytes,training_seconds,timing_scope,device,batch_size,warmups,repetitions,latency_mean_ms,latency_median_ms,latency_p95_ms,per_sample_mean_ms
+P10,42,600577,2426875,9.4847827560734,correction_branch_from_cached_parent_anchor_and_representation,cuda,1,100,1000,1.5957812807755545,1.4755700249224901,2.10462572867982,1.5957812807755545
+P10,42,600577,2426875,9.4847827560734,correction_branch_from_cached_parent_anchor_and_representation,cuda,256,20,200,3.0491595494095236,2.921646519098431,3.3250468841288234,0.011910779489880952
+U10,42,100225,407341,1.8915903569431975,correction_branch_from_cached_parent_anchor_and_representation,cuda,1,100,1000,0.3936775401234627,0.34621352097019553,0.9895843162667005,0.3936775401234627
+U10,42,100225,407341,1.8915903569431975,correction_branch_from_cached_parent_anchor_and_representation,cuda,256,20,200,0.623220371780917,0.37445651832967997,1.081754342885688,0.0024344545772692072

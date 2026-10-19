@@ -1,0 +1,20 @@
+{
+  "early_feature_count": 166,
+  "full_feature_count": 187,
+  "keypoints": {
+    "duplicate_identical_frames": 0,
+    "loaded_frames": 29100,
+    "missing_frames": 0,
+    "required_frames": 29100,
+    "source_new_frames": {
+      "/home/abdelrahman/Hadwa/pedestrian-intent-biu/data/data_keypoints_all.jsonl": 29100
+    }
+  },
+  "raw_reconstruction_max_abs_difference": 5.820766091346741e-11,
+  "views": {
+    "early_feature_count": 166,
+    "missing_windows": 0,
+    "portable_feature_count": 182,
+    "rows": 3760
+  }
+}

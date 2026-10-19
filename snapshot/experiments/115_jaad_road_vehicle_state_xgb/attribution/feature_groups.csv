@@ -1,0 +1,258 @@
+index,feature,group
+0,v2__ankle_center_x_delta,Combined BIU package
+1,v2__ankle_center_x_last,Combined BIU package
+2,v2__ankle_center_x_velocity_mean,Combined BIU package
+3,v2__ankle_center_x_velocity_std,Combined BIU package
+4,arm_swing_asymmetry_delta,Combined BIU package
+5,arm_swing_asymmetry_first,Combined BIU package
+6,arm_swing_asymmetry_last,Combined BIU package
+7,arm_swing_asymmetry_max,Combined BIU package
+8,arm_swing_asymmetry_mean,Combined BIU package
+9,arm_swing_asymmetry_min,Combined BIU package
+10,arm_swing_asymmetry_std,Combined BIU package
+11,bbox_area_change,BBox
+12,bbox_area_delta,BBox
+13,bbox_area_first,BBox
+14,bbox_area_last,BBox
+15,bbox_area_max,BBox
+16,bbox_area_mean,BBox
+17,bbox_area_min,BBox
+18,bbox_area_std,BBox
+19,bbox_aspect_ratio_delta,BBox
+20,bbox_aspect_ratio_first,BBox
+21,bbox_aspect_ratio_last,BBox
+22,bbox_aspect_ratio_max,BBox
+23,bbox_aspect_ratio_mean,BBox
+24,bbox_aspect_ratio_min,BBox
+25,bbox_aspect_ratio_std,BBox
+26,bbox_center_x_delta,BBox
+27,bbox_center_x_first,BBox
+28,bbox_center_x_last,BBox
+29,bbox_center_x_max,BBox
+30,bbox_center_x_mean,BBox
+31,bbox_center_x_min,BBox
+32,bbox_center_x_std,BBox
+33,bbox_center_y_delta,BBox
+34,bbox_center_y_first,BBox
+35,bbox_center_y_last,BBox
+36,bbox_center_y_max,BBox
+37,bbox_center_y_mean,BBox
+38,bbox_center_y_min,BBox
+39,bbox_center_y_std,BBox
+40,bbox_height_change,BBox
+41,bbox_height_delta,BBox
+42,bbox_height_first,BBox
+43,bbox_height_last,BBox
+44,bbox_height_max,BBox
+45,bbox_height_mean,BBox
+46,bbox_height_min,BBox
+47,bbox_height_std,BBox
+48,bbox_scale_change_ratio,BBox
+49,bbox_valid_frame_count,BBox
+50,bbox_width_change,BBox
+51,bbox_width_delta,BBox
+52,bbox_width_first,BBox
+53,bbox_width_last,BBox
+54,bbox_width_max,BBox
+55,bbox_width_mean,BBox
+56,bbox_width_min,BBox
+57,bbox_width_std,BBox
+58,biu_low_confidence_frame_count,Combined BIU package
+59,biu_valid_frame_count,Combined BIU package
+60,body_yaw_angle_delta,Combined BIU package
+61,body_yaw_angle_first,Combined BIU package
+62,body_yaw_angle_last,Combined BIU package
+63,body_yaw_angle_max,Combined BIU package
+64,body_yaw_angle_mean,Combined BIU package
+65,body_yaw_angle_min,Combined BIU package
+66,body_yaw_angle_std,Combined BIU package
+67,center_x_displacement,BBox
+68,center_x_velocity_mean,BBox
+69,center_x_velocity_std,BBox
+70,center_y_displacement,BBox
+71,center_y_velocity_mean,BBox
+72,center_y_velocity_std,BBox
+73,face_yaw_angle_delta,Combined BIU package
+74,face_yaw_angle_first,Combined BIU package
+75,face_yaw_angle_last,Combined BIU package
+76,face_yaw_angle_max,Combined BIU package
+77,face_yaw_angle_mean,Combined BIU package
+78,face_yaw_angle_min,Combined BIU package
+79,face_yaw_angle_std,Combined BIU package
+80,gaze_to_car_angle_delta,Combined BIU package
+81,gaze_to_car_angle_first,Combined BIU package
+82,gaze_to_car_angle_last,Combined BIU package
+83,gaze_to_car_angle_max,Combined BIU package
+84,gaze_to_car_angle_mean,Combined BIU package
+85,gaze_to_car_angle_min,Combined BIU package
+86,gaze_to_car_angle_std,Combined BIU package
+87,head_yaw_angle_delta,Combined BIU package
+88,head_yaw_angle_first,Combined BIU package
+89,head_yaw_angle_last,Combined BIU package
+90,head_yaw_angle_max,Combined BIU package
+91,head_yaw_angle_mean,Combined BIU package
+92,head_yaw_angle_min,Combined BIU package
+93,head_yaw_angle_std,Combined BIU package
+94,v2__hip_center_x_delta,Combined BIU package
+95,v2__hip_center_x_last,Combined BIU package
+96,v2__hip_center_x_velocity_mean,Combined BIU package
+97,v2__hip_center_x_velocity_std,Combined BIU package
+98,v2__knee_center_x_delta,Combined BIU package
+99,v2__knee_center_x_last,Combined BIU package
+100,v2__knee_center_x_velocity_mean,Combined BIU package
+101,v2__knee_center_x_velocity_std,Combined BIU package
+102,v2__lead_ankle_forward_delta,Combined BIU package
+103,v2__lead_ankle_forward_last,Combined BIU package
+104,v2__lead_ankle_forward_velocity_mean,Combined BIU package
+105,v2__lead_ankle_forward_velocity_std,Combined BIU package
+106,lead_foot_elevation_delta,Combined BIU package
+107,lead_foot_elevation_first,Combined BIU package
+108,lead_foot_elevation_last,Combined BIU package
+109,lead_foot_elevation_max,Combined BIU package
+110,lead_foot_elevation_mean,Combined BIU package
+111,lead_foot_elevation_min,Combined BIU package
+112,lead_foot_elevation_std,Combined BIU package
+113,lead_foot_lifted_delta,Combined BIU package
+114,lead_foot_lifted_first,Combined BIU package
+115,lead_foot_lifted_last,Combined BIU package
+116,lead_foot_lifted_max,Combined BIU package
+117,lead_foot_lifted_mean,Combined BIU package
+118,lead_foot_lifted_min,Combined BIU package
+119,lead_foot_lifted_std,Combined BIU package
+120,v2__leg_center_x_delta,Combined BIU package
+121,v2__leg_center_x_last,Combined BIU package
+122,v2__leg_center_x_velocity_mean,Combined BIU package
+123,v2__leg_center_x_velocity_std,Combined BIU package
+124,v2__lower_body_motion_magnitude_mean,Combined BIU package
+125,v2__lower_body_motion_magnitude_std,Combined BIU package
+126,norm_shoulder_width_delta,Combined BIU package
+127,norm_shoulder_width_first,Combined BIU package
+128,norm_shoulder_width_last,Combined BIU package
+129,norm_shoulder_width_max,Combined BIU package
+130,norm_shoulder_width_mean,Combined BIU package
+131,norm_shoulder_width_min,Combined BIU package
+132,norm_shoulder_width_std,Combined BIU package
+133,v2__shoulder_center_x_delta,Combined BIU package
+134,v2__shoulder_center_x_last,Combined BIU package
+135,v2__shoulder_center_x_velocity_mean,Combined BIU package
+136,v2__shoulder_center_x_velocity_std,Combined BIU package
+137,stride_length_delta,Combined BIU package
+138,stride_length_first,Combined BIU package
+139,stride_length_last,Combined BIU package
+140,stride_length_max,Combined BIU package
+141,stride_length_mean,Combined BIU package
+142,stride_length_min,Combined BIU package
+143,stride_length_std,Combined BIU package
+144,v2__stride_opening_delta,Combined BIU package
+145,v2__stride_opening_last,Combined BIU package
+146,v2__stride_opening_velocity_mean,Combined BIU package
+147,v2__stride_opening_velocity_std,Combined BIU package
+148,v2__torso_center_x_delta,Combined BIU package
+149,v2__torso_center_x_last,Combined BIU package
+150,v2__torso_center_x_velocity_mean,Combined BIU package
+151,v2__torso_center_x_velocity_std,Combined BIU package
+152,torso_lean_angle_delta,Combined BIU package
+153,torso_lean_angle_first,Combined BIU package
+154,torso_lean_angle_last,Combined BIU package
+155,torso_lean_angle_max,Combined BIU package
+156,torso_lean_angle_mean,Combined BIU package
+157,torso_lean_angle_min,Combined BIU package
+158,torso_lean_angle_std,Combined BIU package
+159,v2__torso_motion_magnitude_mean,Combined BIU package
+160,v2__torso_motion_magnitude_std,Combined BIU package
+161,temporal__lower_body_motion_magnitude_mean_early,Explicit temporal
+162,temporal__lower_body_motion_magnitude_mean_late,Explicit temporal
+163,temporal__lower_body_motion_magnitude_mean_late_minus_early,Explicit temporal
+164,temporal__lead_ankle_forward_delta_early,Explicit temporal
+165,temporal__lead_ankle_forward_delta_late,Explicit temporal
+166,temporal__lead_ankle_forward_delta_late_minus_early,Explicit temporal
+167,temporal__torso_motion_magnitude_mean_early,Explicit temporal
+168,temporal__torso_motion_magnitude_mean_late,Explicit temporal
+169,temporal__torso_motion_magnitude_mean_late_minus_early,Explicit temporal
+170,temporal__torso_center_x_delta_early,Explicit temporal
+171,temporal__torso_center_x_delta_late,Explicit temporal
+172,temporal__torso_center_x_delta_late_minus_early,Explicit temporal
+173,temporal__bbox_center_dx_norm_early,Explicit temporal
+174,temporal__bbox_center_dx_norm_late,Explicit temporal
+175,temporal__bbox_center_dx_norm_late_minus_early,Explicit temporal
+176,temporal__bbox_scale_log_delta_early,Explicit temporal
+177,temporal__bbox_scale_log_delta_late,Explicit temporal
+178,temporal__bbox_scale_log_delta_late_minus_early,Explicit temporal
+179,temporal__pose_confidence_mean_early,Explicit temporal
+180,temporal__pose_confidence_mean_late,Explicit temporal
+181,temporal__pose_confidence_mean_late_minus_early,Explicit temporal
+182,road_compensated__road_foot_inside__early_mean,Road context
+183,road_compensated__road_foot_inside__late_mean,Road context
+184,road_compensated__road_foot_inside__late_minus_early,Road context
+185,road_compensated__road_signed_boundary_distance_h__early_mean,Road context
+186,road_compensated__road_signed_boundary_distance_h__late_mean,Road context
+187,road_compensated__road_signed_boundary_distance_h__late_minus_early,Road context
+188,road_compensated__road_nearest_boundary_dx_h__early_mean,Road context
+189,road_compensated__road_nearest_boundary_dx_h__late_mean,Road context
+190,road_compensated__road_nearest_boundary_dx_h__late_minus_early,Road context
+191,road_compensated__road_nearest_boundary_dy_h__early_mean,Road context
+192,road_compensated__road_nearest_boundary_dy_h__late_mean,Road context
+193,road_compensated__road_nearest_boundary_dy_h__late_minus_early,Road context
+194,road_compensated__road_boundary_tangent_x__early_mean,Road context
+195,road_compensated__road_boundary_tangent_x__late_mean,Road context
+196,road_compensated__road_boundary_tangent_x__late_minus_early,Road context
+197,road_compensated__road_boundary_tangent_y__early_mean,Road context
+198,road_compensated__road_boundary_tangent_y__late_mean,Road context
+199,road_compensated__road_boundary_tangent_y__late_minus_early,Road context
+200,road_compensated__road_boundary_valid__early_mean,Road context
+201,road_compensated__road_boundary_valid__late_mean,Road context
+202,road_compensated__road_boundary_valid__late_minus_early,Road context
+203,road_compensated__lane_nearest_distance_h__early_mean,Road context
+204,road_compensated__lane_nearest_distance_h__late_mean,Road context
+205,road_compensated__lane_nearest_distance_h__late_minus_early,Road context
+206,road_compensated__lane_nearest_dx_h__early_mean,Road context
+207,road_compensated__lane_nearest_dx_h__late_mean,Road context
+208,road_compensated__lane_nearest_dx_h__late_minus_early,Road context
+209,road_compensated__lane_nearest_dy_h__early_mean,Road context
+210,road_compensated__lane_nearest_dy_h__late_mean,Road context
+211,road_compensated__lane_nearest_dy_h__late_minus_early,Road context
+212,road_compensated__lane_tangent_x__early_mean,Road context
+213,road_compensated__lane_tangent_x__late_mean,Road context
+214,road_compensated__lane_tangent_x__late_minus_early,Road context
+215,road_compensated__lane_tangent_y__early_mean,Road context
+216,road_compensated__lane_tangent_y__late_mean,Road context
+217,road_compensated__lane_tangent_y__late_minus_early,Road context
+218,road_compensated__lane_geometry_valid__early_mean,Road context
+219,road_compensated__lane_geometry_valid__late_mean,Road context
+220,road_compensated__lane_geometry_valid__late_minus_early,Road context
+221,road_compensated__foot_velocity_x_h__early_mean,Road context
+222,road_compensated__foot_velocity_x_h__late_mean,Road context
+223,road_compensated__foot_velocity_x_h__late_minus_early,Road context
+224,road_compensated__foot_velocity_y_h__early_mean,Road context
+225,road_compensated__foot_velocity_y_h__late_mean,Road context
+226,road_compensated__foot_velocity_y_h__late_minus_early,Road context
+227,road_compensated__foot_speed_h__early_mean,Road context
+228,road_compensated__foot_speed_h__late_mean,Road context
+229,road_compensated__foot_speed_h__late_minus_early,Road context
+230,road_compensated__motion_parallel_to_road__early_mean,Road context
+231,road_compensated__motion_parallel_to_road__late_mean,Road context
+232,road_compensated__motion_parallel_to_road__late_minus_early,Road context
+233,road_compensated__motion_toward_drivable_area__early_mean,Road context
+234,road_compensated__motion_toward_drivable_area__late_mean,Road context
+235,road_compensated__motion_toward_drivable_area__late_minus_early,Road context
+236,road_compensated__motion_parallel_to_lane__early_mean,Road context
+237,road_compensated__motion_parallel_to_lane__late_mean,Road context
+238,road_compensated__motion_parallel_to_lane__late_minus_early,Road context
+239,road_compensated__road_signed_distance_change_h__early_mean,Road context
+240,road_compensated__road_signed_distance_change_h__late_mean,Road context
+241,road_compensated__road_signed_distance_change_h__late_minus_early,Road context
+242,vehicle_fraction__stopped,Vehicle state
+243,vehicle_fraction__moving_slow,Vehicle state
+244,vehicle_fraction__moving_fast,Vehicle state
+245,vehicle_fraction__decelerating,Vehicle state
+246,vehicle_fraction__accelerating,Vehicle state
+247,vehicle_first__stopped,Vehicle state
+248,vehicle_first__moving_slow,Vehicle state
+249,vehicle_first__moving_fast,Vehicle state
+250,vehicle_first__decelerating,Vehicle state
+251,vehicle_first__accelerating,Vehicle state
+252,vehicle_last__stopped,Vehicle state
+253,vehicle_last__moving_slow,Vehicle state
+254,vehicle_last__moving_fast,Vehicle state
+255,vehicle_last__decelerating,Vehicle state
+256,vehicle_last__accelerating,Vehicle state

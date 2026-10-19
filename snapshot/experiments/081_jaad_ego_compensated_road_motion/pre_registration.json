@@ -1,0 +1,256 @@
+{
+  "benchmark": {
+    "dataset": "JAAD clean",
+    "fixed_threshold": 0.5,
+    "observation_frames": 16,
+    "test_access": "sealed_until_authenticated_validation_advance",
+    "test_history": "historically_exposed_elsewhere_but_gated_in_exp081",
+    "train_windows": 1552,
+    "tte_frames": [
+      30,
+      60
+    ],
+    "validation_windows": 274
+  },
+  "environment": {
+    "numpy": "2.2.6",
+    "opencv_python_headless": "4.11.0.86",
+    "pandas": "2.3.3",
+    "python": "3.10.20",
+    "scikit_learn": "1.7.2",
+    "torch": "2.11.0+cu128",
+    "xgboost": "3.2.0"
+  },
+  "experiment": "081_jaad_ego_compensated_road_motion",
+  "extraction": {
+    "audit_sample_windows_per_split": 128,
+    "batch_size": 8,
+    "full_resolution_masks_persisted": false,
+    "minimum_median_displacement_reduction_fraction": 0.5,
+    "minimum_valid_transition_fraction": 0.95
+  },
+  "threshold": 0.5,
+  "dimensions": {
+    "A": 182,
+    "B": 197,
+    "C": 242,
+    "D": 242
+  },
+  "motion_estimator": {
+    "bbox_mask_expansion_fraction": 0.1,
+    "feature_detector": {
+      "maxCorners": 500,
+      "minDistance": 7,
+      "qualityLevel": 0.01
+    },
+    "forward_backward_max_error_px": 1.0,
+    "lk": {
+      "maxLevel": 3,
+      "winSize": [
+        21,
+        21
+      ]
+    },
+    "minimum_correspondences": 6,
+    "model": "estimateAffinePartial2D",
+    "reference_frame": "first_observation_frame",
+    "robust_fit": {
+      "confidence": 0.99,
+      "maxIters": 2000,
+      "method": "RANSAC",
+      "refineIters": 10,
+      "reprojection_threshold_px": 3.0
+    }
+  },
+  "latency": {
+    "cached_xgboost": {"repetitions": 500, "warmups": 20},
+    "compensated_road": {"repetitions": 100, "warmups": 10},
+    "incremental_pipeline": {"repetitions": 30, "warmups": 3},
+    "raw_road": {"repetitions": 100, "warmups": 10},
+    "sparse_motion": {"repetitions": 30, "warmups": 3},
+    "twinlite_masks": {"repetitions": 30, "warmups": 3}
+  },
+  "pie_proxy_audit": {
+    "allowed_sets": ["set01", "set02", "set04", "set05", "set06"],
+    "sample_rule": "lexicographically_first_by_sequence_id",
+    "windows_per_split": 32
+  },
+  "road_features": {
+    "channels": [
+      "road_foot_inside",
+      "road_signed_boundary_distance_h",
+      "road_nearest_boundary_dx_h",
+      "road_nearest_boundary_dy_h",
+      "road_boundary_tangent_x",
+      "road_boundary_tangent_y",
+      "road_boundary_valid",
+      "lane_nearest_distance_h",
+      "lane_nearest_dx_h",
+      "lane_nearest_dy_h",
+      "lane_tangent_x",
+      "lane_tangent_y",
+      "lane_geometry_valid",
+      "foot_velocity_x_h",
+      "foot_velocity_y_h",
+      "foot_speed_h",
+      "motion_parallel_to_road",
+      "motion_toward_drivable_area",
+      "motion_parallel_to_lane",
+      "road_signed_distance_change_h"
+    ],
+    "compensated_variant_rule": "retain_channels_0_12_recompute_13_18_from_stabilized_foot_motion_retain_19",
+    "dimension": 20,
+    "source": "Exp063/Exp075 frozen road-relative representation"
+  },
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "sources": {
+    "exp063_contracts": {
+      "path": "experiments/063_pie_corrected_yolop_road_relative_context/scripts/contracts.py",
+      "sha256": "c3ec52090c6d6f42a09174932abeb4d437c8414f745e86bc26feb793cf8b4998",
+      "size_bytes": 3867
+    },
+    "exp012_feature_definitions": {
+      "path": "experiments/012_pie_biu_v2_30_60_benchmark/metrics/pie_biu_v2_feature_set_definitions.csv",
+      "sha256": "6708d290d9263ad29000786cf6d15c5ec052dc8712c1b5a16741944295d0145c",
+      "size_bytes": 11768
+    },
+    "exp063_representations": {
+      "path": "experiments/063_pie_corrected_yolop_road_relative_context/scripts/representations.py",
+      "sha256": "066d1cea57d38726dd1fd6cad36587733ea2f85fe1f03634c5db568969a25b03",
+      "size_bytes": 14683
+    },
+    "exp075_context": {
+      "path": "experiments/075_pie_twinlitenetplus_road_context/scripts/context.py",
+      "sha256": "8026ab35eab8054848ec182fb2909006c7f446f68144768317fbb4875dc76f0d",
+      "size_bytes": 7720
+    },
+    "exp075_twinlite_adapter": {
+      "path": "experiments/075_pie_twinlitenetplus_road_context/scripts/twinlite_adapter.py",
+      "sha256": "b2c7811cd3302faa70c925905c3a47237af3587647a128f3993341e0db4b717a",
+      "size_bytes": 8174
+    },
+    "exp076_two_stage_core": {
+      "path": "experiments/076_pie_two_stage_early_late_xgb/scripts/two_stage_core.py",
+      "sha256": "5647a8538e804f318f3b5b37536aabead975078a10c3fd17188b64801060ab2b",
+      "size_bytes": 16384
+    },
+    "exp076_prepared_train": {
+      "path": "experiments/076_pie_two_stage_early_late_xgb/metrics/prepared_train.csv",
+      "sha256": "2b3ce208c557cbc2abd2988f5dcdc073db8c7d2a4bca9a503eb5551583270510",
+      "size_bytes": 15032696
+    },
+    "exp076_prepared_validation": {
+      "path": "experiments/076_pie_two_stage_early_late_xgb/metrics/prepared_validation.csv",
+      "sha256": "a1cd8225376933933fe654a7a8e98488e9afd4b83200bbd3857555f713b610e1",
+      "size_bytes": 23006754
+    },
+    "exp077_prepared_train": {
+      "path": "experiments/077_jaad_two_stage_early_late_xgb_transfer/metrics/prepared_jaad_train.csv",
+      "sha256": "28b4678d58f5a7bed50d616fd67feeddb2c18f131b65ed953f1d1fa678395662",
+      "size_bytes": 8951202
+    },
+    "exp077_prepared_validation": {
+      "path": "experiments/077_jaad_two_stage_early_late_xgb_transfer/metrics/prepared_jaad_validation.csv",
+      "sha256": "40bcc77324dbbdcbe3633adec5158e8b27502c59bab7df03f793da302b223285",
+      "size_bytes": 1587874
+    },
+    "exp077_runner": {
+      "path": "experiments/077_jaad_two_stage_early_late_xgb_transfer/scripts/run_experiment.py",
+      "sha256": "637fb8d7c0e8f46bfc622089626e99be1ae6627d330bafe6400f5b229beb3ab5",
+      "size_bytes": 16122
+    },
+    "exp077_validation_results": {
+      "path": "experiments/077_jaad_two_stage_early_late_xgb_transfer/metrics/validation_per_seed_results.csv",
+      "sha256": "eb59a15dd4780dde47dabe36d26da0d787df85532948e6982b593457695b3f92",
+      "size_bytes": 1714
+    },
+    "jaad_annotation_example": {
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0001.xml",
+      "sha256": "d5dcca025db241722606e501b05ab3c3f32253849d9418ba9b816a1d9f6a675e",
+      "size_bytes": 442767
+    },
+    "jaad_train_split": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/jaad_splits_event_16_30_60_overlap08_default/train.csv",
+      "sha256": "ea3ff9a4982b11a65e5579f751a4d353dc62a830fc797ff916f087b64efac866",
+      "size_bytes": 1485359
+    },
+    "jaad_validation_split": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/jaad_splits_event_16_30_60_overlap08_default/val.csv",
+      "sha256": "d2e645d62eb1a4fc176b08bdaa2742e4c4f854484535cfa1eda08b56bdd75ec3",
+      "size_bytes": 261626
+    },
+    "twinlite_checkpoint": {
+      "path": "experiments/075_pie_twinlitenetplus_road_context/checkpoints/large.pth",
+      "sha256": "5605d1a8ce762c1b6f7d23f4c2e7ec9384bfd6e6887b040b43e1f8902a817e22",
+      "size_bytes": 7959943
+    },
+    "twinlite_config": {
+      "path": "external/TwinLiteNetPlus/model/config.py",
+      "sha256": "f34024ce090b63090a501bcad17d5681d968c9b1932e929b32d9f73ccd28384f",
+      "size_bytes": 425
+    },
+    "twinlite_model": {
+      "path": "external/TwinLiteNetPlus/model/model.py",
+      "sha256": "d26dfc2ae950038ff334155438f8c5536aeac1087778a28a2feea6206fc97fd4",
+      "size_bytes": 18978
+    },
+    "twinlite_paper": {
+      "path": "papers/Che_2025_TwinLiteNetPlus.pdf",
+      "sha256": "be71abe6d7aeaac128ac8beda408e39436f7c92bf2761abe6e874505df5c13ff",
+      "size_bytes": 14342482
+    }
+  },
+  "status": "frozen_before_model_development",
+  "twinlite": {
+    "checkpoint_sha256": "5605d1a8ce762c1b6f7d23f4c2e7ec9384bfd6e6887b040b43e1f8902a817e22",
+    "variant": "TwinLiteNet+ Large"
+  },
+  "validation_advance_gate": {
+    "combined_high_confidence_error_delta_D_minus_A_max": 0,
+    "high_confidence_definition": {
+      "false_negative_probability_max": 0.1,
+      "false_positive_probability_min": 0.9
+    },
+    "mean_f1_delta_D_minus_A_min": -0.005,
+    "mean_pr_auc_delta_C_to_D_min_exclusive": 0.0,
+    "mean_roc_auc_delta_D_minus_A_min": -0.005,
+    "per_seed_pr_auc_delta_D_minus_A": "positive_all_three_seeds"
+  },
+  "variants": {
+    "A": {
+      "dimension": 182,
+      "features": "exact Exp077 portable anchor"
+    },
+    "B": {
+      "dimension": 197,
+      "features": "A plus 15-D visual ego-motion proxy"
+    },
+    "C": {
+      "dimension": 242,
+      "features": "A plus 60-D uncompensated road-relative features"
+    },
+    "D": {
+      "dimension": 242,
+      "features": "A plus 60-D ego-compensated road-relative features"
+    }
+  },
+  "visual_motion_features": {
+    "dimension": 15,
+    "interpretation": "image-space camera-motion proxy, not physical ego speed"
+  },
+  "xgboost": {
+    "colsample_bytree": 0.8,
+    "eval_metric": "logloss",
+    "learning_rate": 0.05,
+    "max_depth": 4,
+    "n_estimators": 250,
+    "n_jobs": 4,
+    "objective": "binary:logistic",
+    "reg_lambda": 1.0,
+    "subsample": 0.8
+  }
+}

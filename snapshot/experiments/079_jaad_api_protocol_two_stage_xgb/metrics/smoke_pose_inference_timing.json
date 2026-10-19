@@ -1,0 +1,39 @@
+{
+  "all_source_frames": 25,
+  "checkpoint_path": "/home/abdelrahman/Hadwa/Pedestrian-keypoints-crossing-intent/classification/models/checkpoints/td-hm_ViTPose-small_8xb64-210e_coco-256x192.pth",
+  "config_path": "/home/abdelrahman/miniconda3/envs/cv_env/lib/python3.9/site-packages/mmpose/.mim/configs/body_2d_keypoint/topdown_heatmap/coco/td-hm_ViTPose-small_8xb64-210e_coco-256x192.py",
+  "decode_ms": {
+    "max": 18.626570992637426,
+    "mean": 16.158283098775428,
+    "median": 16.11822000995744,
+    "min": 15.06761001655832,
+    "p95": 16.70182255038526
+  },
+  "device": "cuda:0",
+  "end_to_end_records_per_second": 10.98007759315236,
+  "estimated_sequential_16_frame_inference_ms_from_mean": 318.72026715427637,
+  "estimated_sequential_16_frame_inference_ms_from_median": 312.07775976508856,
+  "inference_ms": {
+    "max": 28.27706199605018,
+    "mean": 19.920016697142273,
+    "median": 19.504859985318035,
+    "min": 14.732225012267008,
+    "p95": 24.207908951211724
+  },
+  "model_load_seconds": 1.0116243280062918,
+  "output_records": 25,
+  "requests_remaining_at_start": 25,
+  "run_id": "2026-08-27T20:45:30.585999_1f3e9558",
+  "source_frames_processed": 25,
+  "steady_state_pedestrian_records": 20,
+  "steady_state_source_frames": 20,
+  "timing_definition": "CUDA-synchronized inference_topdown wall time per unique source image; 16-frame values are sequential estimates, not a batched-video benchmark",
+  "total_elapsed_seconds": 2.2768509409797844,
+  "write_ms": {
+    "max": 0.26508598239161074,
+    "mean": 0.17699279851512983,
+    "median": 0.1689804921625182,
+    "min": 0.1250019995495677,
+    "p95": 0.2574840997112915
+  }
+}

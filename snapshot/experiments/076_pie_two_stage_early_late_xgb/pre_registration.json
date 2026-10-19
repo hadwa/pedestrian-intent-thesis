@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "experiment": "Exp076",
+  "name": "PIE two-stage early/late XGBoost",
+  "status": "PRE_REGISTERED_NOT_RUN",
+  "benchmark": {
+    "dataset": "PIE",
+    "observation_frames": 16,
+    "tte": "30_60",
+    "overlap": 0.6,
+    "threshold": 0.5
+  },
+  "sets": {
+    "train": ["set01", "set02", "set06"],
+    "validation": ["set04", "set05"],
+    "test": ["set03"]
+  },
+  "row_counts": {
+    "train": 2366,
+    "validation": 3619,
+    "test": 3760
+  },
+  "seeds": [42, 43, 44],
+  "models": {
+    "one_stage": {
+      "input": "Exp072 exact 187-D full-window representation",
+      "n_estimators": 250
+    },
+    "two_stage": {
+      "stage1_input": "166-D frames-1--8 joint representation: BBox53 + BIU-v1 + unique BIU-v2 + early ego",
+      "stage1_estimators": 125,
+      "stage2_input": "Exp072 exact 187-D full-window representation + leakage-safe stage1 probability",
+      "stage2_estimators": 125,
+      "training_probability_rule": "five-fold StratifiedGroupKFold out-of-fold by track_id"
+    }
+  },
+  "shared_xgboost": {
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_lambda": 1.0,
+    "objective": "binary:logistic",
+    "eval_metric": "logloss",
+    "class_weight": "training negative_count / positive_count"
+  },
+  "evaluation": {
+    "primary_metrics": ["fixed_0p5_f1", "pr_auc", "roc_auc"],
+    "secondary_metrics": ["accuracy", "precision", "recall", "fpr", "fnr", "brier", "log_loss"],
+    "high_confidence_fp": "probability >= 0.9",
+    "high_confidence_fn": "probability <= 0.1",
+    "selection": "none; both frozen models are evaluated once"
+  },
+  "discipline": {
+    "same_train_rows": true,
+    "same_validation_rows": true,
+    "same_test_rows": true,
+    "same_total_tree_budget": true,
+    "no_test_threshold_selection": true,
+    "no_architecture_change_after_results": true,
+    "set03_limitation": "set03 has prior exposure in separate experiments; Exp076 is a frozen paired ablation, not a pristine untouched confirmation"
+  }
+}

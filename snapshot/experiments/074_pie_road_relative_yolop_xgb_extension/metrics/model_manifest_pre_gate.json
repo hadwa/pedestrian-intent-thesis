@@ -1,0 +1,23 @@
+{
+  "fit_rule": "train_only_same_saved_model_for_validation_and_test",
+  "models": {
+    "42": {
+      "feature_count": 247,
+      "fit_rows": 2366,
+      "sha256": "0e59195bcf884dfc59a14b63a915022f33e06505fa398bfe2a40c117991b54bb",
+      "size_bytes": 376688
+    },
+    "43": {
+      "feature_count": 247,
+      "fit_rows": 2366,
+      "sha256": "32a845256a034f38ae24c997daf64ec2c40657d258683396a3d77e9f15a2a890",
+      "size_bytes": 379952
+    },
+    "44": {
+      "feature_count": 247,
+      "fit_rows": 2366,
+      "sha256": "0d4ef7b0138486df9aa884d131d39a60770734d6b56c1c673b0c4962e1c6963e",
+      "size_bytes": 376824
+    }
+  }
+}

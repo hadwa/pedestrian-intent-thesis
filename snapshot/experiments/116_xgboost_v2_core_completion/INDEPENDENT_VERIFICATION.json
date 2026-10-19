@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "models": 33,
+  "saved_prediction_files": 66,
+  "matched_parent_replays": 66,
+  "completion_sha256": "a497c7aa06d9afdd720a9aeeccf9439f51c56fb3b9cad0e08bc49fe69ba13fe0",
+  "checks": [
+    "artifact hashes",
+    "prediction/label alignment across seeds",
+    "fixed-0.5 decisions",
+    "confusion matrices",
+    "F1/AP/ROC/accuracy",
+    "paired deltas",
+    "means and sample standard deviations"
+  ]
+}

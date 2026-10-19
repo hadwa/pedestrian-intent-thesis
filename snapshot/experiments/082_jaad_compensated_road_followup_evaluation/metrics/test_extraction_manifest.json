@@ -1,0 +1,4984 @@
+{
+  "batch_size": 8,
+  "checkpoint_sha256": "5605d1a8ce762c1b6f7d23f4c2e7ec9384bfd6e6887b040b43e1f8902a817e22",
+  "experiment": "081_jaad_ego_compensated_road_motion",
+  "full_resolution_masks_persisted": false,
+  "parts": [
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          66,
+          15
+        ],
+        "road_compensated_60d": [
+          66,
+          60
+        ],
+        "road_raw_60d": [
+          66,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0005:0_5_12b:130:145:205:0",
+      "last_sequence_id": "video_0005:0_5_19b:134:149:179:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0005.npz",
+      "rows": 66,
+      "sha256": "1d2c279fd101c70f8224c223d289e4b2a853848842fe4e4e9d3de79f6127b7d8",
+      "size_bytes": 21720,
+      "split": "test",
+      "video_id": "video_0005"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0017:0_17_74b:194:209:269:0",
+      "last_sequence_id": "video_0017:0_17_74b:224:239:269:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0017.npz",
+      "rows": 11,
+      "sha256": "956ad92c552b1fe6a8a42c427a32a6509b286ae3ca158b03c2e0b51a50e886dd",
+      "size_bytes": 6218,
+      "split": "test",
+      "video_id": "video_0017"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0048:0_48_217b:108:123:183:0",
+      "last_sequence_id": "video_0048:0_48_217b:138:153:183:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0048.npz",
+      "rows": 11,
+      "sha256": "520673670083ca25760b8d8fe656c0723a42131d37e34313fd77448ed35b9a71",
+      "size_bytes": 3769,
+      "split": "test",
+      "video_id": "video_0048"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          22,
+          15
+        ],
+        "road_compensated_60d": [
+          22,
+          60
+        ],
+        "road_raw_60d": [
+          22,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0055:0_55_253b:121:136:196:0",
+      "last_sequence_id": "video_0055:0_55_254b:131:146:176:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0055.npz",
+      "rows": 22,
+      "sha256": "8a951b9c6befa36257e87516ee418f5294c15cf74ad9ff60c21f2667d3ee2a2e",
+      "size_bytes": 11117,
+      "split": "test",
+      "video_id": "video_0055"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          30,
+          15
+        ],
+        "road_compensated_60d": [
+          30,
+          60
+        ],
+        "road_raw_60d": [
+          30,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0059:0_59_260b:18:33:93:0",
+      "last_sequence_id": "video_0059:0_59_265b:7:22:79:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0059.npz",
+      "rows": 30,
+      "sha256": "dadd6c996c19572751adb68eb5c88077ba50da631d618d4317099efdcb6581b4",
+      "size_bytes": 10766,
+      "split": "test",
+      "video_id": "video_0059"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          22,
+          15
+        ],
+        "road_compensated_60d": [
+          22,
+          60
+        ],
+        "road_raw_60d": [
+          22,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0071:0_71_365b:101:116:158:1",
+      "last_sequence_id": "video_0071:0_71_370b:284:299:329:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0071.npz",
+      "rows": 22,
+      "sha256": "d031f837e941dbd27466151da3b4bfcb73a656b644c3680d125576f999dc41df",
+      "size_bytes": 9730,
+      "split": "test",
+      "video_id": "video_0071"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0087:0_87_477b:20:35:95:1",
+      "last_sequence_id": "video_0087:0_87_477b:50:65:95:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0087.npz",
+      "rows": 11,
+      "sha256": "838e5bf487bbca65b156b746aad5c73a439acf7b9b8de53a6297a72816edabfe",
+      "size_bytes": 6146,
+      "split": "test",
+      "video_id": "video_0087"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0090:0_90_497b:25:40:100:1",
+      "last_sequence_id": "video_0090:0_90_497b:55:70:100:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0090.npz",
+      "rows": 11,
+      "sha256": "e4d375ae6babd14ccefe4a877faf4a459f3bffbe7d4a9b62fbef567da7c1abe9",
+      "size_bytes": 6097,
+      "split": "test",
+      "video_id": "video_0090"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          1,
+          15
+        ],
+        "road_compensated_60d": [
+          1,
+          60
+        ],
+        "road_raw_60d": [
+          1,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0093:0_93_511b:65:80:110:1",
+      "last_sequence_id": "video_0093:0_93_511b:65:80:110:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0093.npz",
+      "rows": 1,
+      "sha256": "dc36ffec0fa038ebae280eaa5275cec15a7bec7bb61433ba53ccb2e496d3c239",
+      "size_bytes": 1225,
+      "split": "test",
+      "video_id": "video_0093"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0096:0_96_528b:12:27:78:1",
+      "last_sequence_id": "video_0096:0_96_528b:9:24:78:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0096.npz",
+      "rows": 11,
+      "sha256": "691e25bb45d0ddb5b836467a110619773b0542129fb20abf9f46d086dc43481c",
+      "size_bytes": 6069,
+      "split": "test",
+      "video_id": "video_0096"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          7,
+          15
+        ],
+        "road_compensated_60d": [
+          7,
+          60
+        ],
+        "road_raw_60d": [
+          7,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0101:0_101_559b:145:160:209:1",
+      "last_sequence_id": "video_0101:0_101_559b:163:178:209:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0101.npz",
+      "rows": 7,
+      "sha256": "c71b2484a7d590c611b873e43e2186a6d607d0d59b25dfaaa1a27041c1f4989e",
+      "size_bytes": 3195,
+      "split": "test",
+      "video_id": "video_0101"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          33,
+          15
+        ],
+        "road_compensated_60d": [
+          33,
+          60
+        ],
+        "road_raw_60d": [
+          33,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0103:0_103_570b:43:58:118:1",
+      "last_sequence_id": "video_0103:0_103_573b:48:63:93:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0103.npz",
+      "rows": 33,
+      "sha256": "86526d6a376dafa7ddb770584a0d8430efc7da19a4dc75f1d50350503a54ed3e",
+      "size_bytes": 16003,
+      "split": "test",
+      "video_id": "video_0103"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          33,
+          15
+        ],
+        "road_compensated_60d": [
+          33,
+          60
+        ],
+        "road_raw_60d": [
+          33,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0105:0_105_578b:17:32:92:1",
+      "last_sequence_id": "video_0105:0_105_581b:7:22:79:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0105.npz",
+      "rows": 33,
+      "sha256": "6430398a045c039e7665bb6005552b7ff207845e45ad817e99aa316a845abc6a",
+      "size_bytes": 15967,
+      "split": "test",
+      "video_id": "video_0105"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          22,
+          15
+        ],
+        "road_compensated_60d": [
+          22,
+          60
+        ],
+        "road_raw_60d": [
+          22,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0106:0_106_584b:100:115:154:0",
+      "last_sequence_id": "video_0106:0_106_585b:131:146:176:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0106.npz",
+      "rows": 22,
+      "sha256": "0b0074bd327762ca55edce84555e47788bd116cbcaa3b0760d37e24f5d6cfe2a",
+      "size_bytes": 5761,
+      "split": "test",
+      "video_id": "video_0106"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          9,
+          15
+        ],
+        "road_compensated_60d": [
+          9,
+          60
+        ],
+        "road_raw_60d": [
+          9,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0115:0_115_670b:100:115:158:0",
+      "last_sequence_id": "video_0115:0_115_670b:97:112:158:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0115.npz",
+      "rows": 9,
+      "sha256": "8e11989dd88cfb2c549f36f6ab602de9c61668584e5b02879f9ac5980c1554e4",
+      "size_bytes": 5188,
+      "split": "test",
+      "video_id": "video_0115"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0116:0_116_671b:191:206:266:0",
+      "last_sequence_id": "video_0116:0_116_671b:221:236:266:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0116.npz",
+      "rows": 11,
+      "sha256": "448a127b5015782f3c504cc7f3aac1d697cdbf745056599cde0cee2e50b9eefc",
+      "size_bytes": 6099,
+      "split": "test",
+      "video_id": "video_0116"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          22,
+          15
+        ],
+        "road_compensated_60d": [
+          22,
+          60
+        ],
+        "road_raw_60d": [
+          22,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0117:0_117_674b:524:539:599:0",
+      "last_sequence_id": "video_0117:0_117_679b:554:569:599:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0117.npz",
+      "rows": 22,
+      "sha256": "c017eda7b60c8499deaa62117123663c186dcf507568c9c0c239a35c88b6fa8e",
+      "size_bytes": 4723,
+      "split": "test",
+      "video_id": "video_0117"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          10,
+          15
+        ],
+        "road_compensated_60d": [
+          10,
+          60
+        ],
+        "road_raw_60d": [
+          10,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0118:0_118_685b:0:15:74:1",
+      "last_sequence_id": "video_0118:0_118_685b:9:24:74:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0118.npz",
+      "rows": 10,
+      "sha256": "570bf4139f2fa02b49d160e03d981fb7f03d9a8d612c4d60d7d505c91dcb963f",
+      "size_bytes": 5696,
+      "split": "test",
+      "video_id": "video_0118"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          25,
+          15
+        ],
+        "road_compensated_60d": [
+          25,
+          60
+        ],
+        "road_raw_60d": [
+          25,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0124:0_124_727b:374:389:449:0",
+      "last_sequence_id": "video_0124:0_124_743b:257:272:302:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0124.npz",
+      "rows": 25,
+      "sha256": "43484db8e1855ef09d3e70c412df9a0cb8a906cbb9970e0f7f2115344eb0d19b",
+      "size_bytes": 12520,
+      "split": "test",
+      "video_id": "video_0124"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0125:0_125_744b:26:41:101:0",
+      "last_sequence_id": "video_0125:0_125_744b:56:71:101:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0125.npz",
+      "rows": 11,
+      "sha256": "5b8aff107e00d17240b9a85e15f00eda8c7d3d34e9ae0bd2d864aa472116cb4e",
+      "size_bytes": 6110,
+      "split": "test",
+      "video_id": "video_0125"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          47,
+          15
+        ],
+        "road_compensated_60d": [
+          47,
+          60
+        ],
+        "road_raw_60d": [
+          47,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0128:0_128_754b:284:299:359:0",
+      "last_sequence_id": "video_0128:0_128_760b:99:114:165:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0128.npz",
+      "rows": 47,
+      "sha256": "32318e034e1c376486af22baba7e37d96634f56189de742d97f13a1d4914cdd3",
+      "size_bytes": 16143,
+      "split": "test",
+      "video_id": "video_0128"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          88,
+          15
+        ],
+        "road_compensated_60d": [
+          88,
+          60
+        ],
+        "road_raw_60d": [
+          88,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0135:0_135_801b:102:117:168:1",
+      "last_sequence_id": "video_0135:0_135_829b:429:444:474:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0135.npz",
+      "rows": 88,
+      "sha256": "3e0d520dcec03297663c62a4fe768e139606586a8dba4f66f6cf844a7ea4eb2d",
+      "size_bytes": 37263,
+      "split": "test",
+      "video_id": "video_0135"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          22,
+          15
+        ],
+        "road_compensated_60d": [
+          22,
+          60
+        ],
+        "road_raw_60d": [
+          22,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0148:0_148_952b:10:25:79:0",
+      "last_sequence_id": "video_0148:0_148_953b:8:23:77:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0148.npz",
+      "rows": 22,
+      "sha256": "fd9d84a93ecd971631b79e1c9ada6cc034c01c9554d0e35311aca8dfe30d402a",
+      "size_bytes": 8959,
+      "split": "test",
+      "video_id": "video_0148"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0150:0_150_970b:102:117:171:1",
+      "last_sequence_id": "video_0150:0_150_970b:99:114:171:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0150.npz",
+      "rows": 11,
+      "sha256": "b18bddb12d6556785779c2307dc2f40bfc6d306f0598732d0cd0f49ce27edee6",
+      "size_bytes": 5614,
+      "split": "test",
+      "video_id": "video_0150"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          22,
+          15
+        ],
+        "road_compensated_60d": [
+          22,
+          60
+        ],
+        "road_raw_60d": [
+          22,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0151:0_151_987b:10:25:76:1",
+      "last_sequence_id": "video_0151:0_151_988b:58:73:103:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0151.npz",
+      "rows": 22,
+      "sha256": "a18ece26c0b3536ba45841455105b552a244e3e8598852daa989934090c927c3",
+      "size_bytes": 10742,
+      "split": "test",
+      "video_id": "video_0151"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0152:0_152_1010b:43:58:118:0",
+      "last_sequence_id": "video_0152:0_152_1010b:73:88:118:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0152.npz",
+      "rows": 11,
+      "sha256": "27561a94027eafdf053e90617442c275253ace78ed0404e0b7dbabc80b15e397",
+      "size_bytes": 6064,
+      "split": "test",
+      "video_id": "video_0152"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          5,
+          15
+        ],
+        "road_compensated_60d": [
+          5,
+          60
+        ],
+        "road_raw_60d": [
+          5,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0155:0_155_1050b:0:15:58:1",
+      "last_sequence_id": "video_0155:0_155_1050b:9:24:58:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0155.npz",
+      "rows": 5,
+      "sha256": "8cdd47439f64862402b8b23b461594a1c39582f63f81c20b292a10f01c89c565",
+      "size_bytes": 3311,
+      "split": "test",
+      "video_id": "video_0155"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0163:0_163_1103b:34:49:109:1",
+      "last_sequence_id": "video_0163:0_163_1103b:64:79:109:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0163.npz",
+      "rows": 11,
+      "sha256": "147ced282ee71ce0116a4d94ceaf661857a456da0d85acc3696889ef39ed36c1",
+      "size_bytes": 5822,
+      "split": "test",
+      "video_id": "video_0163"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          33,
+          15
+        ],
+        "road_compensated_60d": [
+          33,
+          60
+        ],
+        "road_raw_60d": [
+          33,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0165:0_165_1137b:39:54:114:1",
+      "last_sequence_id": "video_0165:0_165_1143b:40:55:85:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0165.npz",
+      "rows": 33,
+      "sha256": "400d3f0954ba40301a15b289b1c91795715be7b2fe0d7775af71b7ec103f0e38",
+      "size_bytes": 16120,
+      "split": "test",
+      "video_id": "video_0165"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0173:0_173_1211b:12:27:84:1",
+      "last_sequence_id": "video_0173:0_173_1211b:9:24:84:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0173.npz",
+      "rows": 11,
+      "sha256": "b9870e6ddb646df543cd707b5b4bd57b660f743e82c440365249e6d456c710b7",
+      "size_bytes": 6111,
+      "split": "test",
+      "video_id": "video_0173"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0177:0_177_1263b:14:29:89:1",
+      "last_sequence_id": "video_0177:0_177_1263b:44:59:89:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0177.npz",
+      "rows": 11,
+      "sha256": "644e44490a03f35d93155e25ae9a72131254611c4973adf1f6433be65a30c3d1",
+      "size_bytes": 6122,
+      "split": "test",
+      "video_id": "video_0177"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0179:0_179_1286b:60:75:135:1",
+      "last_sequence_id": "video_0179:0_179_1286b:90:105:135:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0179.npz",
+      "rows": 11,
+      "sha256": "0ed049f11304509f4f0956795b76e9004319c86d2fc2c3888f7e921ceb42ec09",
+      "size_bytes": 5737,
+      "split": "test",
+      "video_id": "video_0179"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          22,
+          15
+        ],
+        "road_compensated_60d": [
+          22,
+          60
+        ],
+        "road_raw_60d": [
+          22,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0183:0_183_1294b:100:115:163:1",
+      "last_sequence_id": "video_0183:0_183_1295b:94:109:139:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0183.npz",
+      "rows": 22,
+      "sha256": "32c117bae6eb5fc3731945f30d666cc71f0b7da5b621a3b67da4a616cabbe529",
+      "size_bytes": 7628,
+      "split": "test",
+      "video_id": "video_0183"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          2,
+          15
+        ],
+        "road_compensated_60d": [
+          2,
+          60
+        ],
+        "road_raw_60d": [
+          2,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0187:0_187_1344b:0:15:48:1",
+      "last_sequence_id": "video_0187:0_187_1344b:3:18:48:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0187.npz",
+      "rows": 2,
+      "sha256": "45961c444f0635cb67d84c4af28f4ed521fb0a801509a64401b79f1476209434",
+      "size_bytes": 1896,
+      "split": "test",
+      "video_id": "video_0187"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          33,
+          15
+        ],
+        "road_compensated_60d": [
+          33,
+          60
+        ],
+        "road_raw_60d": [
+          33,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0203:0_203_1474b:44:59:119:0",
+      "last_sequence_id": "video_0203:0_203_1479b:74:89:119:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0203.npz",
+      "rows": 33,
+      "sha256": "c7a6066cffa557ab00704561e22f49743c146bb0b2751d9dc877e424dd0c3e94",
+      "size_bytes": 15614,
+      "split": "test",
+      "video_id": "video_0203"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0206:0_206_1491b:102:117:156:0",
+      "last_sequence_id": "video_0206:0_206_1491b:99:114:156:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0206.npz",
+      "rows": 11,
+      "sha256": "3266c525aa7fc083015a9f190cad003e1cb5f1d65941b3cac3ec34e97c67a973",
+      "size_bytes": 4575,
+      "split": "test",
+      "video_id": "video_0206"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0211:0_211_1517b:61:76:136:0",
+      "last_sequence_id": "video_0211:0_211_1517b:91:106:136:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0211.npz",
+      "rows": 11,
+      "sha256": "e17d3ade475507bc866da9d3d4540a73ca0ce6711ca553ee0e6061aed8fece52",
+      "size_bytes": 5943,
+      "split": "test",
+      "video_id": "video_0211"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          7,
+          15
+        ],
+        "road_compensated_60d": [
+          7,
+          60
+        ],
+        "road_raw_60d": [
+          7,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0213:0_213_1554b:0:15:65:1",
+      "last_sequence_id": "video_0213:0_213_1554b:9:24:65:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0213.npz",
+      "rows": 7,
+      "sha256": "64500ca20c9fda63b28bb0965acb1e1bd303c0830f6cd48815e90a9a38683ee9",
+      "size_bytes": 3990,
+      "split": "test",
+      "video_id": "video_0213"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          33,
+          15
+        ],
+        "road_compensated_60d": [
+          33,
+          60
+        ],
+        "road_raw_60d": [
+          33,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0221:0_221_1623b:193:208:268:0",
+      "last_sequence_id": "video_0221:0_221_1639b:213:228:258:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0221.npz",
+      "rows": 33,
+      "sha256": "a472d77a2d03cc383642df02ba3670da870e82efb18252709fa314d76d62ea1d",
+      "size_bytes": 15250,
+      "split": "test",
+      "video_id": "video_0221"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          4,
+          15
+        ],
+        "road_compensated_60d": [
+          4,
+          60
+        ],
+        "road_raw_60d": [
+          4,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0222:0_222_1645b:0:15:55:1",
+      "last_sequence_id": "video_0222:0_222_1645b:9:24:55:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0222.npz",
+      "rows": 4,
+      "sha256": "c96e2926334c9305e4305e7b8928f19eeabc5121e11b4f57e8bd09e7b39cd5e8",
+      "size_bytes": 2355,
+      "split": "test",
+      "video_id": "video_0222"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          55,
+          15
+        ],
+        "road_compensated_60d": [
+          55,
+          60
+        ],
+        "road_raw_60d": [
+          55,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0223:0_223_1650b:12:27:87:1",
+      "last_sequence_id": "video_0223:0_223_1672b:358:373:403:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0223.npz",
+      "rows": 55,
+      "sha256": "8583bd110a9904fda4ba54bba71c13e83c5c5074abfe4f0b1aa6c1d999459502",
+      "size_bytes": 25096,
+      "split": "test",
+      "video_id": "video_0223"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          14,
+          15
+        ],
+        "road_compensated_60d": [
+          14,
+          60
+        ],
+        "road_raw_60d": [
+          14,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0224:0_224_1680b:0:15:51:1",
+      "last_sequence_id": "video_0224:0_224_1683b:92:107:137:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0224.npz",
+      "rows": 14,
+      "sha256": "bd07b039dc648ba990699d7e3459ba514a2c730ed952f2abdb9f098cc8023a50",
+      "size_bytes": 7516,
+      "split": "test",
+      "video_id": "video_0224"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          14,
+          15
+        ],
+        "road_compensated_60d": [
+          14,
+          60
+        ],
+        "road_raw_60d": [
+          14,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0234:0_234_1800b:0:15:65:1",
+      "last_sequence_id": "video_0234:0_234_1804b:82:97:128:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0234.npz",
+      "rows": 14,
+      "sha256": "7697db84842c5147e3d2f0cbfa8781d81c8989d26a5f28dee7b30a83afb25d88",
+      "size_bytes": 7332,
+      "split": "test",
+      "video_id": "video_0234"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0239:0_239_1856b:36:51:111:0",
+      "last_sequence_id": "video_0239:0_239_1856b:66:81:111:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0239.npz",
+      "rows": 11,
+      "sha256": "85dc5bc9e0bb6f0f0ec5c421778260abc4c8011bfaffde1c89f9605192560dd9",
+      "size_bytes": 6178,
+      "split": "test",
+      "video_id": "video_0239"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          22,
+          15
+        ],
+        "road_compensated_60d": [
+          22,
+          60
+        ],
+        "road_raw_60d": [
+          22,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0244:0_244_1876b:27:42:102:1",
+      "last_sequence_id": "video_0244:0_244_1878b:49:64:94:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0244.npz",
+      "rows": 22,
+      "sha256": "fcbe687cf216d8ec18b52f1f6998be61660d19e6b16dcbae7e51a391ebd00ec3",
+      "size_bytes": 11080,
+      "split": "test",
+      "video_id": "video_0244"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          32,
+          15
+        ],
+        "road_compensated_60d": [
+          32,
+          60
+        ],
+        "road_raw_60d": [
+          32,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0245:0_245_1887b:19:34:94:0",
+      "last_sequence_id": "video_0245:0_245_1893b:59:74:104:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0245.npz",
+      "rows": 32,
+      "sha256": "c3ac6e46d56cba4b59634c150f09f2b6f47fd7c18ec6eb20d00b71617e6ddf6f",
+      "size_bytes": 14280,
+      "split": "test",
+      "video_id": "video_0245"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0251:0_251_1947b:114:129:189:0",
+      "last_sequence_id": "video_0251:0_251_1947b:144:159:189:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0251.npz",
+      "rows": 11,
+      "sha256": "08c1600ab5eff51a0064258d3bfe9129ae56f6dd145f33886f6a43bbd0b48616",
+      "size_bytes": 6083,
+      "split": "test",
+      "video_id": "video_0251"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          22,
+          15
+        ],
+        "road_compensated_60d": [
+          22,
+          60
+        ],
+        "road_raw_60d": [
+          22,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0253:0_253_1973b:104:119:179:0",
+      "last_sequence_id": "video_0253:0_253_1974b:98:113:170:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0253.npz",
+      "rows": 22,
+      "sha256": "a932ffaf35591ac7f9087c7d0817c3e17102b4093c71a00e15795429b18ebc65",
+      "size_bytes": 9644,
+      "split": "test",
+      "video_id": "video_0253"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          14,
+          15
+        ],
+        "road_compensated_60d": [
+          14,
+          60
+        ],
+        "road_raw_60d": [
+          14,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0267:0_267_2092b:0:15:73:1",
+      "last_sequence_id": "video_0267:0_267_2098b:0:15:47:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0267.npz",
+      "rows": 14,
+      "sha256": "cab27573e22ef45ad12aad49b75b4013333dc91c56845ef8c1142def73d577fa",
+      "size_bytes": 7237,
+      "split": "test",
+      "video_id": "video_0267"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          19,
+          15
+        ],
+        "road_compensated_60d": [
+          19,
+          60
+        ],
+        "road_raw_60d": [
+          19,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0270:0_270_2139b:13:28:88:0",
+      "last_sequence_id": "video_0270:0_270_2142b:44:59:89:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0270.npz",
+      "rows": 19,
+      "sha256": "5fa7fdbbeda1daff8187e11907b4a295ec0492ef753cbad9826119e35df8b5a8",
+      "size_bytes": 9800,
+      "split": "test",
+      "video_id": "video_0270"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0271:0_271_2149b:12:27:81:1",
+      "last_sequence_id": "video_0271:0_271_2149b:9:24:81:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0271.npz",
+      "rows": 11,
+      "sha256": "0db176a65b89051e8c53082dd0e5ab7ee91cd08711e7c619f402bcb40a7e0097",
+      "size_bytes": 6122,
+      "split": "test",
+      "video_id": "video_0271"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          33,
+          15
+        ],
+        "road_compensated_60d": [
+          33,
+          60
+        ],
+        "road_raw_60d": [
+          33,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0277:0_277_2180b:104:119:179:1",
+      "last_sequence_id": "video_0277:0_277_2185b:192:207:237:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0277.npz",
+      "rows": 33,
+      "sha256": "72c26ee3c37600b0cbe5f0bcbf407f0c8412f1e09b9a014ba8c0a66dd823c13d",
+      "size_bytes": 15950,
+      "split": "test",
+      "video_id": "video_0277"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          4,
+          15
+        ],
+        "road_compensated_60d": [
+          4,
+          60
+        ],
+        "road_raw_60d": [
+          4,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0287:0_287_2233b:18:33:74:1",
+      "last_sequence_id": "video_0287:0_287_2233b:27:42:74:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0287.npz",
+      "rows": 4,
+      "sha256": "175e71a7dabfd4707c4e9d84315ab92dd7d608d1f62496a056aba430e3738579",
+      "size_bytes": 2903,
+      "split": "test",
+      "video_id": "video_0287"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0288:0_288_2236b:44:59:119:0",
+      "last_sequence_id": "video_0288:0_288_2236b:74:89:119:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0288.npz",
+      "rows": 11,
+      "sha256": "527a341aa7ffef0d9a3f4f3b2aba4635a9209c42b4f3e13b8a15a99beacbb6ab",
+      "size_bytes": 6184,
+      "split": "test",
+      "video_id": "video_0288"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0294:0_294_2286b:53:68:128:1",
+      "last_sequence_id": "video_0294:0_294_2286b:83:98:128:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0294.npz",
+      "rows": 11,
+      "sha256": "be73d5e933f2ed185469ffdd09a35d6bca0dc860f0d91822d0b732acb3eff1dd",
+      "size_bytes": 4716,
+      "split": "test",
+      "video_id": "video_0294"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          22,
+          15
+        ],
+        "road_compensated_60d": [
+          22,
+          60
+        ],
+        "road_raw_60d": [
+          22,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0299:0_299_2323b:21:36:90:1",
+      "last_sequence_id": "video_0299:0_299_2328b:44:59:89:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0299.npz",
+      "rows": 22,
+      "sha256": "0163a3de68bb0de573fb80c7adc531d5f41d674900f9da263b88c730bf4872fb",
+      "size_bytes": 10929,
+      "split": "test",
+      "video_id": "video_0299"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0300:0_300_2330b:101:116:149:0",
+      "last_sequence_id": "video_0300:0_300_2330b:98:113:149:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0300.npz",
+      "rows": 11,
+      "sha256": "62a19116483c9a0b0179a44ebdcf6cc76425b6bb72c2fe08601eeceb23ae2c71",
+      "size_bytes": 3884,
+      "split": "test",
+      "video_id": "video_0300"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0304:0_304_2359b:27:42:102:0",
+      "last_sequence_id": "video_0304:0_304_2359b:57:72:102:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0304.npz",
+      "rows": 11,
+      "sha256": "b00fbf58fdfa24bb9689c88b33c564d0bd25bb90b05d2823cd89bf9d2db3d5ec",
+      "size_bytes": 3232,
+      "split": "test",
+      "video_id": "video_0304"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          55,
+          15
+        ],
+        "road_compensated_60d": [
+          55,
+          60
+        ],
+        "road_raw_60d": [
+          55,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0305:0_305_2363b:101:116:149:0",
+      "last_sequence_id": "video_0305:0_305_2375b:40:55:85:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0305.npz",
+      "rows": 55,
+      "sha256": "cf5d22837d8b28a4212c10003eb8cbfd314cce07198a98ed8c7f456fc9f5ea09",
+      "size_bytes": 24651,
+      "split": "test",
+      "video_id": "video_0305"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          22,
+          15
+        ],
+        "road_compensated_60d": [
+          22,
+          60
+        ],
+        "road_raw_60d": [
+          22,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0307:0_307_2390b:10:25:79:1",
+      "last_sequence_id": "video_0307:0_307_2395b:9:24:75:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0307.npz",
+      "rows": 22,
+      "sha256": "2c2462ef746490fd2d25f8840bf1bd72859a4ceccc46823241e810bc2e3d4ca6",
+      "size_bytes": 11288,
+      "split": "test",
+      "video_id": "video_0307"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0308:0_308_2398b:129:144:204:0",
+      "last_sequence_id": "video_0308:0_308_2398b:159:174:204:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0308.npz",
+      "rows": 11,
+      "sha256": "de6300f112f36b1a1868eeb84bfd3c746ec82c4b493c07139eda18b52eddec1b",
+      "size_bytes": 4524,
+      "split": "test",
+      "video_id": "video_0308"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          55,
+          15
+        ],
+        "road_compensated_60d": [
+          55,
+          60
+        ],
+        "road_raw_60d": [
+          55,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0309:0_309_2400b:14:29:89:0",
+      "last_sequence_id": "video_0309:0_309_2406b:7:22:76:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0309.npz",
+      "rows": 55,
+      "sha256": "288384a2d5c84ee6299185a734a473e7b575e3905295f3a2cac0658357b0e2d4",
+      "size_bytes": 25174,
+      "split": "test",
+      "video_id": "video_0309"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          50,
+          15
+        ],
+        "road_compensated_60d": [
+          50,
+          60
+        ],
+        "road_raw_60d": [
+          50,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0313:0_313_2452b:339:354:414:1",
+      "last_sequence_id": "video_0313:0_313_2469b:9:24:62:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0313.npz",
+      "rows": 50,
+      "sha256": "c33aa67e0e0c130b5fd6a724a495a2271bc9aeeb02d59d25dc093b6a2bd3a399",
+      "size_bytes": 23657,
+      "split": "test",
+      "video_id": "video_0313"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          33,
+          15
+        ],
+        "road_compensated_60d": [
+          33,
+          60
+        ],
+        "road_raw_60d": [
+          33,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0314:0_314_2470b:44:59:119:0",
+      "last_sequence_id": "video_0314:0_314_2475b:74:89:119:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0314.npz",
+      "rows": 33,
+      "sha256": "eb05d659ef76405348fdf312baa5a164309be0c76b1009b8c121ee7510fc4c6a",
+      "size_bytes": 14154,
+      "split": "test",
+      "video_id": "video_0314"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          9,
+          15
+        ],
+        "road_compensated_60d": [
+          9,
+          60
+        ],
+        "road_raw_60d": [
+          9,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0327:0_327_2573b:85:100:132:0",
+      "last_sequence_id": "video_0327:0_327_2587b:91:106:137:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0327.npz",
+      "rows": 9,
+      "sha256": "4537531a7dad055ad433132d7060eb4cf1886e37b0ed5ac598ade9f45e8041bb",
+      "size_bytes": 4919,
+      "split": "test",
+      "video_id": "video_0327"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0329:0_329_2591b:254:269:329:0",
+      "last_sequence_id": "video_0329:0_329_2591b:284:299:329:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0329.npz",
+      "rows": 11,
+      "sha256": "f6d27e112928f7fc352dda012eed7a9bdc87e7cfd17d7321c40ab9123a72cfc4",
+      "size_bytes": 4661,
+      "split": "test",
+      "video_id": "video_0329"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          33,
+          15
+        ],
+        "road_compensated_60d": [
+          33,
+          60
+        ],
+        "road_raw_60d": [
+          33,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0332:0_332_2607b:100:115:148:1",
+      "last_sequence_id": "video_0332:0_332_2609b:60:75:105:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0332.npz",
+      "rows": 33,
+      "sha256": "864e06ed9a680841db44bc239de3ad5e9410ae50145e4de0a69ef90688e04b85",
+      "size_bytes": 11162,
+      "split": "test",
+      "video_id": "video_0332"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0333:0_333_2610b:20:35:95:1",
+      "last_sequence_id": "video_0333:0_333_2610b:50:65:95:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0333.npz",
+      "rows": 11,
+      "sha256": "38b1d1385eb686ffc7ec24742d58963bef74b388a6a1d9832ecbd6523fe6125f",
+      "size_bytes": 5934,
+      "split": "test",
+      "video_id": "video_0333"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          22,
+          15
+        ],
+        "road_compensated_60d": [
+          22,
+          60
+        ],
+        "road_raw_60d": [
+          22,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0334:0_334_2612b:35:50:110:1",
+      "last_sequence_id": "video_0334:0_334_2614b:254:269:299:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0334.npz",
+      "rows": 22,
+      "sha256": "1d3045b8ec3f97f48d8295ce9152ef3e2b76fe3a0232c96f3b937d6538e52e9d",
+      "size_bytes": 8208,
+      "split": "test",
+      "video_id": "video_0334"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          22,
+          15
+        ],
+        "road_compensated_60d": [
+          22,
+          60
+        ],
+        "road_raw_60d": [
+          22,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0336:0_336_2627b:100:115:160:0",
+      "last_sequence_id": "video_0336:0_336_2630b:50:65:95:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0336.npz",
+      "rows": 22,
+      "sha256": "4dd69e53358ed84a464ed67fd17884d7e574fd483e06074c5d9fd76d8ec9424b",
+      "size_bytes": 8858,
+      "split": "test",
+      "video_id": "video_0336"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          10,
+          15
+        ],
+        "road_compensated_60d": [
+          10,
+          60
+        ],
+        "road_raw_60d": [
+          10,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0338:0_338_2640b:0:15:73:1",
+      "last_sequence_id": "video_0338:0_338_2640b:9:24:73:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0338.npz",
+      "rows": 10,
+      "sha256": "f14ae12bc7a80639fabc568f221357c79f5d66a64e8a3476fc24abf89e599fda",
+      "size_bytes": 5662,
+      "split": "test",
+      "video_id": "video_0338"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          11,
+          15
+        ],
+        "road_compensated_60d": [
+          11,
+          60
+        ],
+        "road_raw_60d": [
+          11,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0339:0_339_2648b:17:32:92:1",
+      "last_sequence_id": "video_0339:0_339_2648b:47:62:92:1",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0339.npz",
+      "rows": 11,
+      "sha256": "4fde028b016d524f593f68af5baa5f02dda7d94d33bdf9a0fcadf1816fc7024b",
+      "size_bytes": 4727,
+      "split": "test",
+      "video_id": "video_0339"
+    },
+    {
+      "feature_shapes": {
+        "proxy_15d": [
+          33,
+          15
+        ],
+        "road_compensated_60d": [
+          33,
+          60
+        ],
+        "road_raw_60d": [
+          33,
+          60
+        ]
+      },
+      "first_sequence_id": "video_0344:0_344_2689b:14:29:89:0",
+      "last_sequence_id": "video_0344:0_344_2696b:44:59:89:0",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0344.npz",
+      "rows": 33,
+      "sha256": "4f919d443503a622f0104351ff3c495445ecd25a255df99995df1195757b4656",
+      "size_bytes": 8781,
+      "split": "test",
+      "video_id": "video_0344"
+    }
+  ],
+  "splits": [
+    "test"
+  ],
+  "target_labels_passed_to_perception": false,
+  "test_accessed": true,
+  "test_split": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/jaad_splits_event_16_30_60_overlap08_default/test.csv",
+    "sha256": "04c68bccaae80bb3b648852d49c7c84609f2016d17d4a3146dfaecf88f441595",
+    "size_bytes": 1440196
+  },
+  "videos": [
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 127,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            66,
+            15
+          ],
+          "road_compensated_60d": [
+            66,
+            60
+          ],
+          "road_raw_60d": [
+            66,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0005:0_5_12b:130:145:205:0",
+        "last_sequence_id": "video_0005:0_5_19b:134:149:179:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0005.npz",
+        "rows": 66,
+        "sha256": "1d2c279fd101c70f8224c223d289e4b2a853848842fe4e4e9d3de79f6127b7d8",
+        "size_bytes": 21720,
+        "split": "test",
+        "video_id": "video_0005"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0005.xml",
+        "sha256": "c5725c37eefcbe0d89e7baf7d98397faf255600706b91f290dc970b4ca1151b2",
+        "size_bytes": 578775
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0005.mp4",
+        "sha256": "7f95654850d2400203916245fb89990ee1f134f5951c969361404024aed81d5e",
+        "size_bytes": 5228577
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 128,
+      "video_id": "video_0005",
+      "windows": 66
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0017:0_17_74b:194:209:269:0",
+        "last_sequence_id": "video_0017:0_17_74b:224:239:269:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0017.npz",
+        "rows": 11,
+        "sha256": "956ad92c552b1fe6a8a42c427a32a6509b286ae3ca158b03c2e0b51a50e886dd",
+        "size_bytes": 6218,
+        "split": "test",
+        "video_id": "video_0017"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0017.xml",
+        "sha256": "ee5dc244a85745dc09cf538c534ca75d10fd8f307404f0861641cb5e2265b9f0",
+        "size_bytes": 161740
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0017.mp4",
+        "sha256": "6fc29e7235d5a77892dddcb594f63ee91dd24044e2e75b11ef3a0ffb4387ff7a",
+        "size_bytes": 5153665
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0017",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0048:0_48_217b:108:123:183:0",
+        "last_sequence_id": "video_0048:0_48_217b:138:153:183:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0048.npz",
+        "rows": 11,
+        "sha256": "520673670083ca25760b8d8fe656c0723a42131d37e34313fd77448ed35b9a71",
+        "size_bytes": 3769,
+        "split": "test",
+        "video_id": "video_0048"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0048.xml",
+        "sha256": "729bf2a0c78eb018a8fc090d7d6424ade3a37f36c1bd84c29816ae75e18b2a41",
+        "size_bytes": 100018
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0048.mp4",
+        "sha256": "efd9e82e9ff3d391a136b063bde60352841324ede2e277f079ea8e194bf13324",
+        "size_bytes": 2318938
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0048",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            22,
+            15
+          ],
+          "road_compensated_60d": [
+            22,
+            60
+          ],
+          "road_raw_60d": [
+            22,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0055:0_55_253b:121:136:196:0",
+        "last_sequence_id": "video_0055:0_55_254b:131:146:176:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0055.npz",
+        "rows": 22,
+        "sha256": "8a951b9c6befa36257e87516ee418f5294c15cf74ad9ff60c21f2667d3ee2a2e",
+        "size_bytes": 11117,
+        "split": "test",
+        "video_id": "video_0055"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0055.xml",
+        "sha256": "956a444ab3feb40262055fd52046f7fda4ff819ecbcb38c505b6b99f95687a47",
+        "size_bytes": 144794
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0055.mp4",
+        "sha256": "f276fa5f6f1979ec2073610406f6630deb403288f263482bb16e496ab1f0189e",
+        "size_bytes": 3429816
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 66,
+      "video_id": "video_0055",
+      "windows": 22
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            30,
+            15
+          ],
+          "road_compensated_60d": [
+            30,
+            60
+          ],
+          "road_raw_60d": [
+            30,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0059:0_59_260b:18:33:93:0",
+        "last_sequence_id": "video_0059:0_59_265b:7:22:79:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0059.npz",
+        "rows": 30,
+        "sha256": "dadd6c996c19572751adb68eb5c88077ba50da631d618d4317099efdcb6581b4",
+        "size_bytes": 10766,
+        "split": "test",
+        "video_id": "video_0059"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0059.xml",
+        "sha256": "8de83839b808b44243754af9878cf0b076deed8a391043d284e2aed73f0d9be8",
+        "size_bytes": 215852
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0059.mp4",
+        "sha256": "6f00bd29c9a0c1feaab3f5ea7ce7543c8687070e7294d3a7e9358ab85f0a3d66",
+        "size_bytes": 2565408
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 60,
+      "video_id": "video_0059",
+      "windows": 30
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 1,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            22,
+            15
+          ],
+          "road_compensated_60d": [
+            22,
+            60
+          ],
+          "road_raw_60d": [
+            22,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0071:0_71_365b:101:116:158:1",
+        "last_sequence_id": "video_0071:0_71_370b:284:299:329:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0071.npz",
+        "rows": 22,
+        "sha256": "d031f837e941dbd27466151da3b4bfcb73a656b644c3680d125576f999dc41df",
+        "size_bytes": 9730,
+        "split": "test",
+        "video_id": "video_0071"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0071.xml",
+        "sha256": "38a58f579e724190b6dfa8ee6b3e7dd610b765c6d7e9f69b5c9f91f618b41954",
+        "size_bytes": 556706
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0071.mp4",
+        "sha256": "d6d78c398741861891699d5b9361047d1b6f6146889f7d5ac9ee6fcfb7b77456",
+        "size_bytes": 11128857
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 92,
+      "video_id": "video_0071",
+      "windows": 22
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0087:0_87_477b:20:35:95:1",
+        "last_sequence_id": "video_0087:0_87_477b:50:65:95:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0087.npz",
+        "rows": 11,
+        "sha256": "838e5bf487bbca65b156b746aad5c73a439acf7b9b8de53a6297a72816edabfe",
+        "size_bytes": 6146,
+        "split": "test",
+        "video_id": "video_0087"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0087.xml",
+        "sha256": "606b3f0fa3ded2507ce4d47afb4867b83d18bc791ad9648eb316716f159213e6",
+        "size_bytes": 1054085
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0087.mp4",
+        "sha256": "7f9438cbacb24a13852155bf124f626e2481689eb3a00e1e51e6cc9da70e8d68",
+        "size_bytes": 12412000
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0087",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0090:0_90_497b:25:40:100:1",
+        "last_sequence_id": "video_0090:0_90_497b:55:70:100:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0090.npz",
+        "rows": 11,
+        "sha256": "e4d375ae6babd14ccefe4a877faf4a459f3bffbe7d4a9b62fbef567da7c1abe9",
+        "size_bytes": 6097,
+        "split": "test",
+        "video_id": "video_0090"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0090.xml",
+        "sha256": "9d9d28a9798fcd3d79242330a30dd814707dd19b5775fe7d94bc104b2bc94b17",
+        "size_bytes": 387967
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0090.mp4",
+        "sha256": "cb7143938790ab7b62cef04225afccb305add40e863acb72fd863c4d8c2cccfb",
+        "size_bytes": 11173798
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0090",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 12,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            1,
+            15
+          ],
+          "road_compensated_60d": [
+            1,
+            60
+          ],
+          "road_raw_60d": [
+            1,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0093:0_93_511b:65:80:110:1",
+        "last_sequence_id": "video_0093:0_93_511b:65:80:110:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0093.npz",
+        "rows": 1,
+        "sha256": "dc36ffec0fa038ebae280eaa5275cec15a7bec7bb61433ba53ccb2e496d3c239",
+        "size_bytes": 1225,
+        "split": "test",
+        "video_id": "video_0093"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0093.xml",
+        "sha256": "7e5319b1d07d019769a63f5bb96f741aa5c2b2138fc4da6aa00685ef28044d90",
+        "size_bytes": 178965
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0093.mp4",
+        "sha256": "fd5307c886c1aeaba831df54bb8fb868ecb07f122926757605aedf6382fe6863",
+        "size_bytes": 8678549
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 16,
+      "video_id": "video_0093",
+      "windows": 1
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0096:0_96_528b:12:27:78:1",
+        "last_sequence_id": "video_0096:0_96_528b:9:24:78:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0096.npz",
+        "rows": 11,
+        "sha256": "691e25bb45d0ddb5b836467a110619773b0542129fb20abf9f46d086dc43481c",
+        "size_bytes": 6069,
+        "split": "test",
+        "video_id": "video_0096"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0096.xml",
+        "sha256": "9d404a91c1876747a2a610413dc854203247a6e3440130cfcff5872bb4395d86",
+        "size_bytes": 415191
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0096.mp4",
+        "sha256": "39679671ae5c3c615d62ca496a45c907246f879cf9edaabb58431c8468c9ce56",
+        "size_bytes": 13427741
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0096",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 34,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            7,
+            15
+          ],
+          "road_compensated_60d": [
+            7,
+            60
+          ],
+          "road_raw_60d": [
+            7,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0101:0_101_559b:145:160:209:1",
+        "last_sequence_id": "video_0101:0_101_559b:163:178:209:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0101.npz",
+        "rows": 7,
+        "sha256": "c71b2484a7d590c611b873e43e2186a6d607d0d59b25dfaaa1a27041c1f4989e",
+        "size_bytes": 3195,
+        "split": "test",
+        "video_id": "video_0101"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0101.xml",
+        "sha256": "d866a34bfcc483cfab0968a79c3a9fffb297bbfe425d3911561dcdcb812cd787",
+        "size_bytes": 161643
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0101.mp4",
+        "sha256": "ddbefebd77bde16dc42564cbbfddfde733a1cf727900ee90f619dbc30e8bf033",
+        "size_bytes": 11734100
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 34,
+      "video_id": "video_0101",
+      "windows": 7
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            33,
+            15
+          ],
+          "road_compensated_60d": [
+            33,
+            60
+          ],
+          "road_raw_60d": [
+            33,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0103:0_103_570b:43:58:118:1",
+        "last_sequence_id": "video_0103:0_103_573b:48:63:93:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0103.npz",
+        "rows": 33,
+        "sha256": "86526d6a376dafa7ddb770584a0d8430efc7da19a4dc75f1d50350503a54ed3e",
+        "size_bytes": 16003,
+        "split": "test",
+        "video_id": "video_0103"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0103.xml",
+        "sha256": "c4efff102ffaeb5b7f03c918d3f39a872df38787978c5c279616e2b3e176cf87",
+        "size_bytes": 638147
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0103.mp4",
+        "sha256": "5128002d2220876400e23fddc62131b781a44c550d7eb6d4369f55c9515cee11",
+        "size_bytes": 12169594
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 71,
+      "video_id": "video_0103",
+      "windows": 33
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            33,
+            15
+          ],
+          "road_compensated_60d": [
+            33,
+            60
+          ],
+          "road_raw_60d": [
+            33,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0105:0_105_578b:17:32:92:1",
+        "last_sequence_id": "video_0105:0_105_581b:7:22:79:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0105.npz",
+        "rows": 33,
+        "sha256": "6430398a045c039e7665bb6005552b7ff207845e45ad817e99aa316a845abc6a",
+        "size_bytes": 15967,
+        "split": "test",
+        "video_id": "video_0105"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0105.xml",
+        "sha256": "c85331ecfdd31906d290c7347e1463bbe5edcbe717eaebc5a9d6192be88c3717",
+        "size_bytes": 644399
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0105.mp4",
+        "sha256": "8f81fcfbfb196e287cc72372826b75faa9c6aeebcdb28721d6023ac673bd5ef6",
+        "size_bytes": 17468586
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 76,
+      "video_id": "video_0105",
+      "windows": 33
+    },
+    {
+      "drivable_all_zero_frames": 7,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 52,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            22,
+            15
+          ],
+          "road_compensated_60d": [
+            22,
+            60
+          ],
+          "road_raw_60d": [
+            22,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0106:0_106_584b:100:115:154:0",
+        "last_sequence_id": "video_0106:0_106_585b:131:146:176:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0106.npz",
+        "rows": 22,
+        "sha256": "0b0074bd327762ca55edce84555e47788bd116cbcaa3b0760d37e24f5d6cfe2a",
+        "size_bytes": 5761,
+        "split": "test",
+        "video_id": "video_0106"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0106.xml",
+        "sha256": "e11f7c15037b2f13e8827594b07b7044ba74394a2da20a27acfacb7c585c51f9",
+        "size_bytes": 210387
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0106.mp4",
+        "sha256": "69a4a57190876e6cce761da8cd5bc15482068734105ee55b53c5236e9e85f2c6",
+        "size_bytes": 6427924
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 68,
+      "video_id": "video_0106",
+      "windows": 22
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            9,
+            15
+          ],
+          "road_compensated_60d": [
+            9,
+            60
+          ],
+          "road_raw_60d": [
+            9,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0115:0_115_670b:100:115:158:0",
+        "last_sequence_id": "video_0115:0_115_670b:97:112:158:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0115.npz",
+        "rows": 9,
+        "sha256": "8e11989dd88cfb2c549f36f6ab602de9c61668584e5b02879f9ac5980c1554e4",
+        "size_bytes": 5188,
+        "split": "test",
+        "video_id": "video_0115"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0115.xml",
+        "sha256": "eaf5375365a1fe01c9ff727a9265b851a73f5107471bcd25074131cd6f590a41",
+        "size_bytes": 487943
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0115.mp4",
+        "sha256": "b26a0af4179994fe5aab520180242eb0f41e8d785f50fdf1e398070680742a4d",
+        "size_bytes": 25066123
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 40,
+      "video_id": "video_0115",
+      "windows": 9
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0116:0_116_671b:191:206:266:0",
+        "last_sequence_id": "video_0116:0_116_671b:221:236:266:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0116.npz",
+        "rows": 11,
+        "sha256": "448a127b5015782f3c504cc7f3aac1d697cdbf745056599cde0cee2e50b9eefc",
+        "size_bytes": 6099,
+        "split": "test",
+        "video_id": "video_0116"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0116.xml",
+        "sha256": "6f136b6f87295948ac7d4be8ce794277e8387788565950df5a407722032eb6ff",
+        "size_bytes": 271101
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0116.mp4",
+        "sha256": "398ee9a1e6554f66808541394f044fe057bff7ccbecec35b3e5348220cc9f354",
+        "size_bytes": 16908333
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0116",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 16,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            22,
+            15
+          ],
+          "road_compensated_60d": [
+            22,
+            60
+          ],
+          "road_raw_60d": [
+            22,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0117:0_117_674b:524:539:599:0",
+        "last_sequence_id": "video_0117:0_117_679b:554:569:599:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0117.npz",
+        "rows": 22,
+        "sha256": "c017eda7b60c8499deaa62117123663c186dcf507568c9c0c239a35c88b6fa8e",
+        "size_bytes": 4723,
+        "split": "test",
+        "video_id": "video_0117"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0117.xml",
+        "sha256": "7a5749478880cbf8bef85b6fe9e0102c2ac1f324fe4c9f2932881e26af4441bf",
+        "size_bytes": 687202
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0117.mp4",
+        "sha256": "254921059d51348e7478ee259d5e5da7da54cc504da490d7eedf7bc3cf8764bd",
+        "size_bytes": 26748382
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0117",
+      "windows": 22
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            10,
+            15
+          ],
+          "road_compensated_60d": [
+            10,
+            60
+          ],
+          "road_raw_60d": [
+            10,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0118:0_118_685b:0:15:74:1",
+        "last_sequence_id": "video_0118:0_118_685b:9:24:74:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0118.npz",
+        "rows": 10,
+        "sha256": "570bf4139f2fa02b49d160e03d981fb7f03d9a8d612c4d60d7d505c91dcb963f",
+        "size_bytes": 5696,
+        "split": "test",
+        "video_id": "video_0118"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0118.xml",
+        "sha256": "36eb99753d8b01801a328a8462244bffec5e6f8c6664b047ee3183d5a5187042",
+        "size_bytes": 390823
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0118.mp4",
+        "sha256": "f3b4f47ea97185dbc704a2193ab289f0ef1dcfed7ebf347acd9e2bd0810ecdf4",
+        "size_bytes": 12110919
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 43,
+      "video_id": "video_0118",
+      "windows": 10
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            25,
+            15
+          ],
+          "road_compensated_60d": [
+            25,
+            60
+          ],
+          "road_raw_60d": [
+            25,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0124:0_124_727b:374:389:449:0",
+        "last_sequence_id": "video_0124:0_124_743b:257:272:302:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0124.npz",
+        "rows": 25,
+        "sha256": "43484db8e1855ef09d3e70c412df9a0cb8a906cbb9970e0f7f2115344eb0d19b",
+        "size_bytes": 12520,
+        "split": "test",
+        "video_id": "video_0124"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0124.xml",
+        "sha256": "bc857bd4edb712324b2388d619cc5d2bed6bb7601a62335277fb5fe6a277e87a",
+        "size_bytes": 1148973
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0124.mp4",
+        "sha256": "b1399b559d6a64a5c49819a11016992562be7d165d1150983ba3ad5302ed44dd",
+        "size_bytes": 15257189
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 111,
+      "video_id": "video_0124",
+      "windows": 25
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0125:0_125_744b:26:41:101:0",
+        "last_sequence_id": "video_0125:0_125_744b:56:71:101:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0125.npz",
+        "rows": 11,
+        "sha256": "5b8aff107e00d17240b9a85e15f00eda8c7d3d34e9ae0bd2d864aa472116cb4e",
+        "size_bytes": 6110,
+        "split": "test",
+        "video_id": "video_0125"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0125.xml",
+        "sha256": "20a363934ce73ce6f37436e9ed9b3baac04feb49bc1f52a4589896efbeaa8628",
+        "size_bytes": 302895
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0125.mp4",
+        "sha256": "0c6de138b2e15c3373a382a508cc88ed86fec287921b9cfeaa0c2fecfaf2db41",
+        "size_bytes": 11949555
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0125",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 137,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            47,
+            15
+          ],
+          "road_compensated_60d": [
+            47,
+            60
+          ],
+          "road_raw_60d": [
+            47,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0128:0_128_754b:284:299:359:0",
+        "last_sequence_id": "video_0128:0_128_760b:99:114:165:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0128.npz",
+        "rows": 47,
+        "sha256": "32318e034e1c376486af22baba7e37d96634f56189de742d97f13a1d4914cdd3",
+        "size_bytes": 16143,
+        "split": "test",
+        "video_id": "video_0128"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0128.xml",
+        "sha256": "fa6c6a99d2861cf4e8b1d808fea9150852b1c29dc0110de61524140b6b0d5e1f",
+        "size_bytes": 622932
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0128.mp4",
+        "sha256": "750fe919bee8336bf9330b2ba022454751d98e24c09fef0abaaedf3c01a5b7ec",
+        "size_bytes": 19137734
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 141,
+      "video_id": "video_0128",
+      "windows": 47
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            88,
+            15
+          ],
+          "road_compensated_60d": [
+            88,
+            60
+          ],
+          "road_raw_60d": [
+            88,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0135:0_135_801b:102:117:168:1",
+        "last_sequence_id": "video_0135:0_135_829b:429:444:474:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0135.npz",
+        "rows": 88,
+        "sha256": "3e0d520dcec03297663c62a4fe768e139606586a8dba4f66f6cf844a7ea4eb2d",
+        "size_bytes": 37263,
+        "split": "test",
+        "video_id": "video_0135"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0135.xml",
+        "sha256": "c81af03affc1fedf48391b3aa46fdd18f9d1b7f3b8fd3ccc8b8808e0696bc7ad",
+        "size_bytes": 3511606
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0135.mp4",
+        "sha256": "7a2c9bd0db0265a863d3980d747bd214e67707869fa97394bb6508d990f22864",
+        "size_bytes": 18870546
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 188,
+      "video_id": "video_0135",
+      "windows": 88
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            22,
+            15
+          ],
+          "road_compensated_60d": [
+            22,
+            60
+          ],
+          "road_raw_60d": [
+            22,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0148:0_148_952b:10:25:79:0",
+        "last_sequence_id": "video_0148:0_148_953b:8:23:77:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0148.npz",
+        "rows": 22,
+        "sha256": "fd9d84a93ecd971631b79e1c9ada6cc034c01c9554d0e35311aca8dfe30d402a",
+        "size_bytes": 8959,
+        "split": "test",
+        "video_id": "video_0148"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0148.xml",
+        "sha256": "74a271e21970f4411ba5183bc174ae6e7f7d351bdf7f78bc871536b2db0f88ac",
+        "size_bytes": 90045
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0148.mp4",
+        "sha256": "bfbecfa86af2a9bc7418851991490d87de4de949da273e07cdd162f18f5f0803",
+        "size_bytes": 3143290
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 48,
+      "video_id": "video_0148",
+      "windows": 22
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0150:0_150_970b:102:117:171:1",
+        "last_sequence_id": "video_0150:0_150_970b:99:114:171:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0150.npz",
+        "rows": 11,
+        "sha256": "b18bddb12d6556785779c2307dc2f40bfc6d306f0598732d0cd0f49ce27edee6",
+        "size_bytes": 5614,
+        "split": "test",
+        "video_id": "video_0150"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0150.xml",
+        "sha256": "9acb475c8a7863ac12797423ed86eeaf49dc38c79c7660a0b3fb09142330d5b1",
+        "size_bytes": 635313
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0150.mp4",
+        "sha256": "8243a0d2c1c32fac850444bb4fa445ca47727edc820a7578945b9b6f16fef8d5",
+        "size_bytes": 14021396
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0150",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            22,
+            15
+          ],
+          "road_compensated_60d": [
+            22,
+            60
+          ],
+          "road_raw_60d": [
+            22,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0151:0_151_987b:10:25:76:1",
+        "last_sequence_id": "video_0151:0_151_988b:58:73:103:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0151.npz",
+        "rows": 22,
+        "sha256": "a18ece26c0b3536ba45841455105b552a244e3e8598852daa989934090c927c3",
+        "size_bytes": 10742,
+        "split": "test",
+        "video_id": "video_0151"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0151.xml",
+        "sha256": "d77feea194f5fb11dcb5649670c1cb3d3b337f27c28f46fc7c1eb362a530aace",
+        "size_bytes": 1026579
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0151.mp4",
+        "sha256": "1917a771d12d210cd2f285a974fd8310e3e0236f51fcc55f80f190e0ca1470f1",
+        "size_bytes": 13890168
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 73,
+      "video_id": "video_0151",
+      "windows": 22
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0152:0_152_1010b:43:58:118:0",
+        "last_sequence_id": "video_0152:0_152_1010b:73:88:118:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0152.npz",
+        "rows": 11,
+        "sha256": "27561a94027eafdf053e90617442c275253ace78ed0404e0b7dbabc80b15e397",
+        "size_bytes": 6064,
+        "split": "test",
+        "video_id": "video_0152"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0152.xml",
+        "sha256": "a0935745869af06a6f77bdf0539773943610d07969082ade43ed5d47d882c315",
+        "size_bytes": 1368707
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0152.mp4",
+        "sha256": "670ed4ad730bccd3c965ea27c602d8cbad442667ebef6f7a5ab7a1617f180b76",
+        "size_bytes": 18564253
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0152",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            5,
+            15
+          ],
+          "road_compensated_60d": [
+            5,
+            60
+          ],
+          "road_raw_60d": [
+            5,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0155:0_155_1050b:0:15:58:1",
+        "last_sequence_id": "video_0155:0_155_1050b:9:24:58:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0155.npz",
+        "rows": 5,
+        "sha256": "8cdd47439f64862402b8b23b461594a1c39582f63f81c20b292a10f01c89c565",
+        "size_bytes": 3311,
+        "split": "test",
+        "video_id": "video_0155"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0155.xml",
+        "sha256": "8688b5da856481a8c7fb7072c61f020612dbdb5c80de368f9ec332cacae097df",
+        "size_bytes": 214883
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0155.mp4",
+        "sha256": "80d7c31e3f19d1ce1f4c0dac059d84258fa80d941f463b323894276f4c5e2385",
+        "size_bytes": 9867699
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 28,
+      "video_id": "video_0155",
+      "windows": 5
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0163:0_163_1103b:34:49:109:1",
+        "last_sequence_id": "video_0163:0_163_1103b:64:79:109:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0163.npz",
+        "rows": 11,
+        "sha256": "147ced282ee71ce0116a4d94ceaf661857a456da0d85acc3696889ef39ed36c1",
+        "size_bytes": 5822,
+        "split": "test",
+        "video_id": "video_0163"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0163.xml",
+        "sha256": "1c512f412ad5d8bbe75580030ead75b2d3767adab059ceb6200c6d973c6c73b5",
+        "size_bytes": 783525
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0163.mp4",
+        "sha256": "3f8b837963cfc9630aacb2646f3537ce74c574c58ecf58905377d8ca1f29edb0",
+        "size_bytes": 8431064
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0163",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            33,
+            15
+          ],
+          "road_compensated_60d": [
+            33,
+            60
+          ],
+          "road_raw_60d": [
+            33,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0165:0_165_1137b:39:54:114:1",
+        "last_sequence_id": "video_0165:0_165_1143b:40:55:85:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0165.npz",
+        "rows": 33,
+        "sha256": "400d3f0954ba40301a15b289b1c91795715be7b2fe0d7775af71b7ec103f0e38",
+        "size_bytes": 16120,
+        "split": "test",
+        "video_id": "video_0165"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0165.xml",
+        "sha256": "99d91339757b536418a75ef1b984038a1cd3ccb62f8444b4f6fb609be1c132ff",
+        "size_bytes": 773096
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0165.mp4",
+        "sha256": "5b90b848a63db0b932050ffb568dea5744e670b3a18af1c6de3cc74ae433c64c",
+        "size_bytes": 10370838
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 85,
+      "video_id": "video_0165",
+      "windows": 33
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0173:0_173_1211b:12:27:84:1",
+        "last_sequence_id": "video_0173:0_173_1211b:9:24:84:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0173.npz",
+        "rows": 11,
+        "sha256": "b9870e6ddb646df543cd707b5b4bd57b660f743e82c440365249e6d456c710b7",
+        "size_bytes": 6111,
+        "split": "test",
+        "video_id": "video_0173"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0173.xml",
+        "sha256": "608d4480263026d3460f973e5a1ba8fae81d288287816c064f015de059c2e323",
+        "size_bytes": 189306
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0173.mp4",
+        "sha256": "7c936d4ebe7e0291c14f3d0b4f02b3ca2def677232bddf407db20534d77c54e6",
+        "size_bytes": 9651695
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0173",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0177:0_177_1263b:14:29:89:1",
+        "last_sequence_id": "video_0177:0_177_1263b:44:59:89:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0177.npz",
+        "rows": 11,
+        "sha256": "644e44490a03f35d93155e25ae9a72131254611c4973adf1f6433be65a30c3d1",
+        "size_bytes": 6122,
+        "split": "test",
+        "video_id": "video_0177"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0177.xml",
+        "sha256": "021b6abad2f10a8e757763634d89ad3481a40981a95fc1f073bdfeedf9a9883c",
+        "size_bytes": 745394
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0177.mp4",
+        "sha256": "c0a268b7326fc6c9ca0fb7b6040e47a4dc1762634720cf94c4bb65753eb37a78",
+        "size_bytes": 17047368
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0177",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 1,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0179:0_179_1286b:60:75:135:1",
+        "last_sequence_id": "video_0179:0_179_1286b:90:105:135:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0179.npz",
+        "rows": 11,
+        "sha256": "0ed049f11304509f4f0956795b76e9004319c86d2fc2c3888f7e921ceb42ec09",
+        "size_bytes": 5737,
+        "split": "test",
+        "video_id": "video_0179"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0179.xml",
+        "sha256": "372fc1128e4f9f66fa1d08d4f88b4373fd83ad30c8e2e3f5b15eaeee2a6ea5cc",
+        "size_bytes": 453177
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0179.mp4",
+        "sha256": "bdf688513d9b4a883347eaa557a186d936d181e231c1f5287b437e0923b82b4a",
+        "size_bytes": 13266134
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0179",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 56,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            22,
+            15
+          ],
+          "road_compensated_60d": [
+            22,
+            60
+          ],
+          "road_raw_60d": [
+            22,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0183:0_183_1294b:100:115:163:1",
+        "last_sequence_id": "video_0183:0_183_1295b:94:109:139:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0183.npz",
+        "rows": 22,
+        "sha256": "32c117bae6eb5fc3731945f30d666cc71f0b7da5b621a3b67da4a616cabbe529",
+        "size_bytes": 7628,
+        "split": "test",
+        "video_id": "video_0183"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0183.xml",
+        "sha256": "85844212bb9d47c8071da173ac4014fbf1564988c2c4b56c8583abf8700717b8",
+        "size_bytes": 398811
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0183.mp4",
+        "sha256": "a32e9c699db50904e487ba4d626d4bf37ac1db356f8b3283bb613a08fb2f4f42",
+        "size_bytes": 10661685
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 70,
+      "video_id": "video_0183",
+      "windows": 22
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            2,
+            15
+          ],
+          "road_compensated_60d": [
+            2,
+            60
+          ],
+          "road_raw_60d": [
+            2,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0187:0_187_1344b:0:15:48:1",
+        "last_sequence_id": "video_0187:0_187_1344b:3:18:48:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0187.npz",
+        "rows": 2,
+        "sha256": "45961c444f0635cb67d84c4af28f4ed521fb0a801509a64401b79f1476209434",
+        "size_bytes": 1896,
+        "split": "test",
+        "video_id": "video_0187"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0187.xml",
+        "sha256": "18dd24e7230312796a06e0bce587c5d22fc560c15ab9555ea6e5a831a0becb7b",
+        "size_bytes": 440284
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0187.mp4",
+        "sha256": "f71ebceda7cf22d3140c3abe45a1c9c224724483c3c183e98219f5ad98fcb9a7",
+        "size_bytes": 7967042
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 19,
+      "video_id": "video_0187",
+      "windows": 2
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            33,
+            15
+          ],
+          "road_compensated_60d": [
+            33,
+            60
+          ],
+          "road_raw_60d": [
+            33,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0203:0_203_1474b:44:59:119:0",
+        "last_sequence_id": "video_0203:0_203_1479b:74:89:119:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0203.npz",
+        "rows": 33,
+        "sha256": "c7a6066cffa557ab00704561e22f49743c146bb0b2751d9dc877e424dd0c3e94",
+        "size_bytes": 15614,
+        "split": "test",
+        "video_id": "video_0203"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0203.xml",
+        "sha256": "a93eb7072c6d4285dfaf0ce840769f1f2943c9ba4c8a424679fd8b5d4bcbb7dc",
+        "size_bytes": 247819
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0203.mp4",
+        "sha256": "2a14f82dd975e329f9ce665bfab51eeb4a56b71bc8a7274a675f2c5adc7e44a9",
+        "size_bytes": 6544482
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 66,
+      "video_id": "video_0203",
+      "windows": 33
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 17,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0206:0_206_1491b:102:117:156:0",
+        "last_sequence_id": "video_0206:0_206_1491b:99:114:156:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0206.npz",
+        "rows": 11,
+        "sha256": "3266c525aa7fc083015a9f190cad003e1cb5f1d65941b3cac3ec34e97c67a973",
+        "size_bytes": 4575,
+        "split": "test",
+        "video_id": "video_0206"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0206.xml",
+        "sha256": "2ce7b336a6a843c2ccc03a7e38f1958bcaec5cd58962ad99281fb893a4813f2b",
+        "size_bytes": 322607
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0206.mp4",
+        "sha256": "2bc60780642db5af88fc5279e3327193067229f9171c36213385a7b01565b188",
+        "size_bytes": 10496265
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0206",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0211:0_211_1517b:61:76:136:0",
+        "last_sequence_id": "video_0211:0_211_1517b:91:106:136:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0211.npz",
+        "rows": 11,
+        "sha256": "e17d3ade475507bc866da9d3d4540a73ca0ce6711ca553ee0e6061aed8fece52",
+        "size_bytes": 5943,
+        "split": "test",
+        "video_id": "video_0211"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0211.xml",
+        "sha256": "1ef3772c0c9192bbe343cef98472786a0d656466e24b91c2c80ba71dd201ca3c",
+        "size_bytes": 462289
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0211.mp4",
+        "sha256": "51d74e593e4fa3c029d70e596bd81cac468f182f19b269f7d79cefd7a8413950",
+        "size_bytes": 8951900
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0211",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            7,
+            15
+          ],
+          "road_compensated_60d": [
+            7,
+            60
+          ],
+          "road_raw_60d": [
+            7,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0213:0_213_1554b:0:15:65:1",
+        "last_sequence_id": "video_0213:0_213_1554b:9:24:65:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0213.npz",
+        "rows": 7,
+        "sha256": "64500ca20c9fda63b28bb0965acb1e1bd303c0830f6cd48815e90a9a38683ee9",
+        "size_bytes": 3990,
+        "split": "test",
+        "video_id": "video_0213"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0213.xml",
+        "sha256": "0b8dcf40116565f0bec68eda43d9a2dafcd99545cefb1bd3a6926b0d43b6d119",
+        "size_bytes": 448071
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0213.mp4",
+        "sha256": "a69f213ccb94c42e7ae5f8acedfb94a34e99fb1b0c16244d9e6d568901eb2e2c",
+        "size_bytes": 9772919
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 34,
+      "video_id": "video_0213",
+      "windows": 7
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 3,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            33,
+            15
+          ],
+          "road_compensated_60d": [
+            33,
+            60
+          ],
+          "road_raw_60d": [
+            33,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0221:0_221_1623b:193:208:268:0",
+        "last_sequence_id": "video_0221:0_221_1639b:213:228:258:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0221.npz",
+        "rows": 33,
+        "sha256": "a472d77a2d03cc383642df02ba3670da870e82efb18252709fa314d76d62ea1d",
+        "size_bytes": 15250,
+        "split": "test",
+        "video_id": "video_0221"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0221.xml",
+        "sha256": "1f13158db211b658f853a0abb8c836c71618b8a45d96a57d5db88e09d7a65143",
+        "size_bytes": 1223153
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0221.mp4",
+        "sha256": "b13e1c7d020bfc2036a25b300c3a3768ea5ddfec2b76cf59ad248a29bc569e0f",
+        "size_bytes": 14135559
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 56,
+      "video_id": "video_0221",
+      "windows": 33
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 20,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            4,
+            15
+          ],
+          "road_compensated_60d": [
+            4,
+            60
+          ],
+          "road_raw_60d": [
+            4,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0222:0_222_1645b:0:15:55:1",
+        "last_sequence_id": "video_0222:0_222_1645b:9:24:55:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0222.npz",
+        "rows": 4,
+        "sha256": "c96e2926334c9305e4305e7b8928f19eeabc5121e11b4f57e8bd09e7b39cd5e8",
+        "size_bytes": 2355,
+        "split": "test",
+        "video_id": "video_0222"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0222.xml",
+        "sha256": "22faf0ea2213d6e5ab17b6f4af8470fc6af0c62df46dc6ac3cfc5b6b9b8ceb91",
+        "size_bytes": 163432
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0222.mp4",
+        "sha256": "dc8a50ae4f2f34a8ecd64ab5619eaf6461b0db2b64c6037fd10ac13662e706b5",
+        "size_bytes": 10989139
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 25,
+      "video_id": "video_0222",
+      "windows": 4
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 15,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            55,
+            15
+          ],
+          "road_compensated_60d": [
+            55,
+            60
+          ],
+          "road_raw_60d": [
+            55,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0223:0_223_1650b:12:27:87:1",
+        "last_sequence_id": "video_0223:0_223_1672b:358:373:403:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0223.npz",
+        "rows": 55,
+        "sha256": "8583bd110a9904fda4ba54bba71c13e83c5c5074abfe4f0b1aa6c1d999459502",
+        "size_bytes": 25096,
+        "split": "test",
+        "video_id": "video_0223"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0223.xml",
+        "sha256": "e0679abdc9d0e5ae8771cdfb2883b462d7bd4e47ff232d98216f69bab739f486",
+        "size_bytes": 2212282
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0223.mp4",
+        "sha256": "d62d2be7abcbca94362ee88765881fa377687b57a45e03b869980df5206e75ba",
+        "size_bytes": 12478017
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 158,
+      "video_id": "video_0223",
+      "windows": 55
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            14,
+            15
+          ],
+          "road_compensated_60d": [
+            14,
+            60
+          ],
+          "road_raw_60d": [
+            14,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0224:0_224_1680b:0:15:51:1",
+        "last_sequence_id": "video_0224:0_224_1683b:92:107:137:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0224.npz",
+        "rows": 14,
+        "sha256": "bd07b039dc648ba990699d7e3459ba514a2c730ed952f2abdb9f098cc8023a50",
+        "size_bytes": 7516,
+        "split": "test",
+        "video_id": "video_0224"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0224.xml",
+        "sha256": "8e33cdc39382525469c747590ce731e2aedf2bdacf55331440fb2bafcf94a160",
+        "size_bytes": 428396
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0224.mp4",
+        "sha256": "87dc7aadf335a3b9d0ad51b946f54adcdcd26edea08c9033359f01e4ec3fc5c9",
+        "size_bytes": 6586155
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 68,
+      "video_id": "video_0224",
+      "windows": 14
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            14,
+            15
+          ],
+          "road_compensated_60d": [
+            14,
+            60
+          ],
+          "road_raw_60d": [
+            14,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0234:0_234_1800b:0:15:65:1",
+        "last_sequence_id": "video_0234:0_234_1804b:82:97:128:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0234.npz",
+        "rows": 14,
+        "sha256": "7697db84842c5147e3d2f0cbfa8781d81c8989d26a5f28dee7b30a83afb25d88",
+        "size_bytes": 7332,
+        "split": "test",
+        "video_id": "video_0234"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0234.xml",
+        "sha256": "30eb74e4db832f6340947bb240f172352e517477035462d1ea6a6a2cfb2e6b25",
+        "size_bytes": 526312
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0234.mp4",
+        "sha256": "b73468ddfe632ab8316375d2e495cf880d292d02ba6587b7ad3500bb0947b30e",
+        "size_bytes": 11196070
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 68,
+      "video_id": "video_0234",
+      "windows": 14
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0239:0_239_1856b:36:51:111:0",
+        "last_sequence_id": "video_0239:0_239_1856b:66:81:111:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0239.npz",
+        "rows": 11,
+        "sha256": "85dc5bc9e0bb6f0f0ec5c421778260abc4c8011bfaffde1c89f9605192560dd9",
+        "size_bytes": 6178,
+        "split": "test",
+        "video_id": "video_0239"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0239.xml",
+        "sha256": "b2472b025de241a57807de36f06b372cdba917182deb18677c4d6f291c20ce92",
+        "size_bytes": 49595
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0239.mp4",
+        "sha256": "ef578d2338c5ad3dc94c67bc2b35695780c3547f876b8afb2df55ae4424e7b04",
+        "size_bytes": 6361609
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0239",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            22,
+            15
+          ],
+          "road_compensated_60d": [
+            22,
+            60
+          ],
+          "road_raw_60d": [
+            22,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0244:0_244_1876b:27:42:102:1",
+        "last_sequence_id": "video_0244:0_244_1878b:49:64:94:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0244.npz",
+        "rows": 22,
+        "sha256": "fcbe687cf216d8ec18b52f1f6998be61660d19e6b16dcbae7e51a391ebd00ec3",
+        "size_bytes": 11080,
+        "split": "test",
+        "video_id": "video_0244"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0244.xml",
+        "sha256": "c4677aab97bbde9e8feabd37b441a2e5b6e314d92da287d810504bad073ab16e",
+        "size_bytes": 467318
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0244.mp4",
+        "sha256": "e6648de875e6556d1054096d966e7310e29c640ba73431aafdef6884f0278279",
+        "size_bytes": 9742722
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 54,
+      "video_id": "video_0244",
+      "windows": 22
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            32,
+            15
+          ],
+          "road_compensated_60d": [
+            32,
+            60
+          ],
+          "road_raw_60d": [
+            32,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0245:0_245_1887b:19:34:94:0",
+        "last_sequence_id": "video_0245:0_245_1893b:59:74:104:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0245.npz",
+        "rows": 32,
+        "sha256": "c3ac6e46d56cba4b59634c150f09f2b6f47fd7c18ec6eb20d00b71617e6ddf6f",
+        "size_bytes": 14280,
+        "split": "test",
+        "video_id": "video_0245"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0245.xml",
+        "sha256": "2d54a7da1bcea6168510ecb49007e4de337b59e7ba48fc8e58a947903b82668a",
+        "size_bytes": 265982
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0245.mp4",
+        "sha256": "b57042c365710c07296b7bef31fe7b25111bddbb14af7f4258bd70e7a854f77c",
+        "size_bytes": 6403671
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 56,
+      "video_id": "video_0245",
+      "windows": 32
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0251:0_251_1947b:114:129:189:0",
+        "last_sequence_id": "video_0251:0_251_1947b:144:159:189:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0251.npz",
+        "rows": 11,
+        "sha256": "08c1600ab5eff51a0064258d3bfe9129ae56f6dd145f33886f6a43bbd0b48616",
+        "size_bytes": 6083,
+        "split": "test",
+        "video_id": "video_0251"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0251.xml",
+        "sha256": "6c60c0042816ebc8c7a032d2458104034ec0505681c3fc1516fc7f16bcddfbe8",
+        "size_bytes": 749280
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0251.mp4",
+        "sha256": "3c3cf5e089d855a398569feaa3d41a1f5c5acfd336f5f178aca9649596118fb2",
+        "size_bytes": 10162415
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0251",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 3,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            22,
+            15
+          ],
+          "road_compensated_60d": [
+            22,
+            60
+          ],
+          "road_raw_60d": [
+            22,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0253:0_253_1973b:104:119:179:0",
+        "last_sequence_id": "video_0253:0_253_1974b:98:113:170:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0253.npz",
+        "rows": 22,
+        "sha256": "a932ffaf35591ac7f9087c7d0817c3e17102b4093c71a00e15795429b18ebc65",
+        "size_bytes": 9644,
+        "split": "test",
+        "video_id": "video_0253"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0253.xml",
+        "sha256": "9994312fb116fd694c70e2b01b23cd99f4aa02d3c135b9a6c1350b09ee23c3e9",
+        "size_bytes": 190800
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0253.mp4",
+        "sha256": "e4a77b64fcf33ee45580cc09cf75e7388f623ba5a542ac763276cf90dfadab8c",
+        "size_bytes": 6535813
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 55,
+      "video_id": "video_0253",
+      "windows": 22
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            14,
+            15
+          ],
+          "road_compensated_60d": [
+            14,
+            60
+          ],
+          "road_raw_60d": [
+            14,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0267:0_267_2092b:0:15:73:1",
+        "last_sequence_id": "video_0267:0_267_2098b:0:15:47:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0267.npz",
+        "rows": 14,
+        "sha256": "cab27573e22ef45ad12aad49b75b4013333dc91c56845ef8c1142def73d577fa",
+        "size_bytes": 7237,
+        "split": "test",
+        "video_id": "video_0267"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0267.xml",
+        "sha256": "cddfe7d5dd445c2b0868d4b1d890a9010f4bcee0fb24c4c3da9cf514d6e6dabe",
+        "size_bytes": 748341
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0267.mp4",
+        "sha256": "7edf32d4a122b1180b4dcdb84b26c7ca59809e61be39c06312839eaef4d27abf",
+        "size_bytes": 12024685
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 43,
+      "video_id": "video_0267",
+      "windows": 14
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            19,
+            15
+          ],
+          "road_compensated_60d": [
+            19,
+            60
+          ],
+          "road_raw_60d": [
+            19,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0270:0_270_2139b:13:28:88:0",
+        "last_sequence_id": "video_0270:0_270_2142b:44:59:89:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0270.npz",
+        "rows": 19,
+        "sha256": "5fa7fdbbeda1daff8187e11907b4a295ec0492ef753cbad9826119e35df8b5a8",
+        "size_bytes": 9800,
+        "split": "test",
+        "video_id": "video_0270"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0270.xml",
+        "sha256": "dad788624ac9ec32a7a452a1c85ddbec10304e0cef3c0647431e3f4876816d21",
+        "size_bytes": 325625
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0270.mp4",
+        "sha256": "ffef035f7ee5e94fd9b06517d84310c52a1976eddaa28b0265c4b7f64fd38cba",
+        "size_bytes": 9298716
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 47,
+      "video_id": "video_0270",
+      "windows": 19
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0271:0_271_2149b:12:27:81:1",
+        "last_sequence_id": "video_0271:0_271_2149b:9:24:81:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0271.npz",
+        "rows": 11,
+        "sha256": "0db176a65b89051e8c53082dd0e5ab7ee91cd08711e7c619f402bcb40a7e0097",
+        "size_bytes": 6122,
+        "split": "test",
+        "video_id": "video_0271"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0271.xml",
+        "sha256": "4b8adb73625e4376959c03d760ccf5da8f26500f95823fddaf490e144fdd4fa4",
+        "size_bytes": 298230
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0271.mp4",
+        "sha256": "a11f4bfecb2f67db704e0578c176c61ffe3a7d66e5d2dc1966bfa4c316f880fc",
+        "size_bytes": 14724322
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0271",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            33,
+            15
+          ],
+          "road_compensated_60d": [
+            33,
+            60
+          ],
+          "road_raw_60d": [
+            33,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0277:0_277_2180b:104:119:179:1",
+        "last_sequence_id": "video_0277:0_277_2185b:192:207:237:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0277.npz",
+        "rows": 33,
+        "sha256": "72c26ee3c37600b0cbe5f0bcbf407f0c8412f1e09b9a014ba8c0a66dd823c13d",
+        "size_bytes": 15950,
+        "split": "test",
+        "video_id": "video_0277"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0277.xml",
+        "sha256": "7165f0ac4cb3403448c8324528e4314522bc2c207bb828691ea7f584a1b2d1ab",
+        "size_bytes": 778170
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0277.mp4",
+        "sha256": "6d6c1c0842f2689f16bc9dc2e0a421def58d9583ec434b268bd139108db76610",
+        "size_bytes": 13693666
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 116,
+      "video_id": "video_0277",
+      "windows": 33
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            4,
+            15
+          ],
+          "road_compensated_60d": [
+            4,
+            60
+          ],
+          "road_raw_60d": [
+            4,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0287:0_287_2233b:18:33:74:1",
+        "last_sequence_id": "video_0287:0_287_2233b:27:42:74:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0287.npz",
+        "rows": 4,
+        "sha256": "175e71a7dabfd4707c4e9d84315ab92dd7d608d1f62496a056aba430e3738579",
+        "size_bytes": 2903,
+        "split": "test",
+        "video_id": "video_0287"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0287.xml",
+        "sha256": "d84b132b70e01d5b3dc888783c5a395412d62ac875e07465a18f5fe1de29dbef",
+        "size_bytes": 112831
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0287.mp4",
+        "sha256": "e7e85a8ff87084439113c29c9cb4562e438a322568ee786d5f4b4f470cbd23d9",
+        "size_bytes": 9655155
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 25,
+      "video_id": "video_0287",
+      "windows": 4
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0288:0_288_2236b:44:59:119:0",
+        "last_sequence_id": "video_0288:0_288_2236b:74:89:119:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0288.npz",
+        "rows": 11,
+        "sha256": "527a341aa7ffef0d9a3f4f3b2aba4635a9209c42b4f3e13b8a15a99beacbb6ab",
+        "size_bytes": 6184,
+        "split": "test",
+        "video_id": "video_0288"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0288.xml",
+        "sha256": "66ea070ea098eea78c2e58be1032f81d68a5eb4897d4b6c2d73dda0a7913847c",
+        "size_bytes": 66931
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0288.mp4",
+        "sha256": "58f41e9598576dfcadefea0632ea4a6e61ea630116543d6575574a70e4b0cac2",
+        "size_bytes": 7030451
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0288",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 2,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 46,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0294:0_294_2286b:53:68:128:1",
+        "last_sequence_id": "video_0294:0_294_2286b:83:98:128:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0294.npz",
+        "rows": 11,
+        "sha256": "be73d5e933f2ed185469ffdd09a35d6bca0dc860f0d91822d0b732acb3eff1dd",
+        "size_bytes": 4716,
+        "split": "test",
+        "video_id": "video_0294"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0294.xml",
+        "sha256": "3accc323da5fa88edcdaf62c8d8d0469447e4cdca6c1318bdc0270ae935e992b",
+        "size_bytes": 116385
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0294.mp4",
+        "sha256": "2f6220fb9a4770a37248b7292b514ef2a4bafc0c2188d573c2a20c8646ccbd88",
+        "size_bytes": 5991288
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0294",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            22,
+            15
+          ],
+          "road_compensated_60d": [
+            22,
+            60
+          ],
+          "road_raw_60d": [
+            22,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0299:0_299_2323b:21:36:90:1",
+        "last_sequence_id": "video_0299:0_299_2328b:44:59:89:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0299.npz",
+        "rows": 22,
+        "sha256": "0163a3de68bb0de573fb80c7adc531d5f41d674900f9da263b88c730bf4872fb",
+        "size_bytes": 10929,
+        "split": "test",
+        "video_id": "video_0299"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0299.xml",
+        "sha256": "541909cb07f31c3c2f293f7afe9ac4374aadadab775bbecc5784b86ccab9a2cc",
+        "size_bytes": 372130
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0299.mp4",
+        "sha256": "5a43ac96230115e68d2dcdb0671e197d2888704437c679c0dbbb184415a7ad38",
+        "size_bytes": 11531068
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 47,
+      "video_id": "video_0299",
+      "windows": 22
+    },
+    {
+      "drivable_all_zero_frames": 9,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 46,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0300:0_300_2330b:101:116:149:0",
+        "last_sequence_id": "video_0300:0_300_2330b:98:113:149:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0300.npz",
+        "rows": 11,
+        "sha256": "62a19116483c9a0b0179a44ebdcf6cc76425b6bb72c2fe08601eeceb23ae2c71",
+        "size_bytes": 3884,
+        "split": "test",
+        "video_id": "video_0300"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0300.xml",
+        "sha256": "a03e57aec9303a261d4ac8c4f21e7f326cfa6acbc760d0078b3bbff3600d6362",
+        "size_bytes": 82177
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0300.mp4",
+        "sha256": "981c885599499d39be0b1864d012cdf961f4ba742e8a9133cb9eea040bbeacb5",
+        "size_bytes": 6637995
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0300",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0304:0_304_2359b:27:42:102:0",
+        "last_sequence_id": "video_0304:0_304_2359b:57:72:102:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0304.npz",
+        "rows": 11,
+        "sha256": "b00fbf58fdfa24bb9689c88b33c564d0bd25bb90b05d2823cd89bf9d2db3d5ec",
+        "size_bytes": 3232,
+        "split": "test",
+        "video_id": "video_0304"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0304.xml",
+        "sha256": "5abc51efd465b217a046fbb59d3c32e1b6f82f608aad6dea881df93855850aa2",
+        "size_bytes": 87075
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0304.mp4",
+        "sha256": "a6ae736a5f56cb24cf5fe21ef7a926d15d67569158d46dc956d235a57dec1c7b",
+        "size_bytes": 3739788
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0304",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            55,
+            15
+          ],
+          "road_compensated_60d": [
+            55,
+            60
+          ],
+          "road_raw_60d": [
+            55,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0305:0_305_2363b:101:116:149:0",
+        "last_sequence_id": "video_0305:0_305_2375b:40:55:85:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0305.npz",
+        "rows": 55,
+        "sha256": "cf5d22837d8b28a4212c10003eb8cbfd314cce07198a98ed8c7f456fc9f5ea09",
+        "size_bytes": 24651,
+        "split": "test",
+        "video_id": "video_0305"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0305.xml",
+        "sha256": "c7f727d0b503c01bfc92dddcb4dd0184796bbdf32788fd454063eea05efa3155",
+        "size_bytes": 816585
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0305.mp4",
+        "sha256": "a11698b595459bad21c3d14ef808f86fb4d225c878b2e0ba329b78d7bf6ad89e",
+        "size_bytes": 7447395
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 94,
+      "video_id": "video_0305",
+      "windows": 55
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            22,
+            15
+          ],
+          "road_compensated_60d": [
+            22,
+            60
+          ],
+          "road_raw_60d": [
+            22,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0307:0_307_2390b:10:25:79:1",
+        "last_sequence_id": "video_0307:0_307_2395b:9:24:75:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0307.npz",
+        "rows": 22,
+        "sha256": "2c2462ef746490fd2d25f8840bf1bd72859a4ceccc46823241e810bc2e3d4ca6",
+        "size_bytes": 11288,
+        "split": "test",
+        "video_id": "video_0307"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0307.xml",
+        "sha256": "dd19e90d591923b5f7ceacff85b6db28af2f79689d823659cd539262db76d9d9",
+        "size_bytes": 394746
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0307.mp4",
+        "sha256": "03c283a0a11a6559e3d217533fed7bfe172f84e22e8326e87dabcc214d97d75a",
+        "size_bytes": 16107132
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 50,
+      "video_id": "video_0307",
+      "windows": 22
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 46,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0308:0_308_2398b:129:144:204:0",
+        "last_sequence_id": "video_0308:0_308_2398b:159:174:204:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0308.npz",
+        "rows": 11,
+        "sha256": "de6300f112f36b1a1868eeb84bfd3c746ec82c4b493c07139eda18b52eddec1b",
+        "size_bytes": 4524,
+        "split": "test",
+        "video_id": "video_0308"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0308.xml",
+        "sha256": "b64f258fb2bfd274789179316fc49315743082f682c90bb75a332bca92915e1f",
+        "size_bytes": 211160
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0308.mp4",
+        "sha256": "3900f5970357b4fd3c3e341c7c447c62addab69a6ba0dc7adf61541ede4d9480",
+        "size_bytes": 12949383
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0308",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            55,
+            15
+          ],
+          "road_compensated_60d": [
+            55,
+            60
+          ],
+          "road_raw_60d": [
+            55,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0309:0_309_2400b:14:29:89:0",
+        "last_sequence_id": "video_0309:0_309_2406b:7:22:76:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0309.npz",
+        "rows": 55,
+        "sha256": "288384a2d5c84ee6299185a734a473e7b575e3905295f3a2cac0658357b0e2d4",
+        "size_bytes": 25174,
+        "split": "test",
+        "video_id": "video_0309"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0309.xml",
+        "sha256": "b87e0b14dae894e36fb81073329c77683d8a5a140403d010b3ed23a3bc0cb208",
+        "size_bytes": 279754
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0309.mp4",
+        "sha256": "5383c484fbc55f0eb0c75baa2b6cbd8fbe0c860c929f3cfe8a80affcc47aab7d",
+        "size_bytes": 5394430
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 60,
+      "video_id": "video_0309",
+      "windows": 55
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            50,
+            15
+          ],
+          "road_compensated_60d": [
+            50,
+            60
+          ],
+          "road_raw_60d": [
+            50,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0313:0_313_2452b:339:354:414:1",
+        "last_sequence_id": "video_0313:0_313_2469b:9:24:62:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0313.npz",
+        "rows": 50,
+        "sha256": "c33aa67e0e0c130b5fd6a724a495a2271bc9aeeb02d59d25dc093b6a2bd3a399",
+        "size_bytes": 23657,
+        "split": "test",
+        "video_id": "video_0313"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0313.xml",
+        "sha256": "29ee8670ebb334f143b9112e9525f970486a48ef4dc5f6ea9b04d0ac3abec2df",
+        "size_bytes": 2224526
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0313.mp4",
+        "sha256": "ba9fd33cd7c0c3475fb0660da9271cedf375ecc815ef78a6c6fb1fa918095dbc",
+        "size_bytes": 21124410
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 129,
+      "video_id": "video_0313",
+      "windows": 50
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            33,
+            15
+          ],
+          "road_compensated_60d": [
+            33,
+            60
+          ],
+          "road_raw_60d": [
+            33,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0314:0_314_2470b:44:59:119:0",
+        "last_sequence_id": "video_0314:0_314_2475b:74:89:119:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0314.npz",
+        "rows": 33,
+        "sha256": "eb05d659ef76405348fdf312baa5a164309be0c76b1009b8c121ee7510fc4c6a",
+        "size_bytes": 14154,
+        "split": "test",
+        "video_id": "video_0314"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0314.xml",
+        "sha256": "31cdbad8f54b6681f6d6144d186826c8762d0da8df1be7bb619b768bc87f19a2",
+        "size_bytes": 358106
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0314.mp4",
+        "sha256": "b710e0743a80b06b0cfc5b1fa4522fb6b3f3794e64c9d2aa0ff153f24d37d6e9",
+        "size_bytes": 5063126
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0314",
+      "windows": 33
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            9,
+            15
+          ],
+          "road_compensated_60d": [
+            9,
+            60
+          ],
+          "road_raw_60d": [
+            9,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0327:0_327_2573b:85:100:132:0",
+        "last_sequence_id": "video_0327:0_327_2587b:91:106:137:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0327.npz",
+        "rows": 9,
+        "sha256": "4537531a7dad055ad433132d7060eb4cf1886e37b0ed5ac598ade9f45e8041bb",
+        "size_bytes": 4919,
+        "split": "test",
+        "video_id": "video_0327"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0327.xml",
+        "sha256": "12d0c4927f4fc2d39e163dc4132c200f807813608f89e468ab7d829a1dbb32d3",
+        "size_bytes": 369463
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0327.mp4",
+        "sha256": "aa667170b04c680c95dec323bb6a8d844d7febb091d4f20f3158bc98ada9d6ba",
+        "size_bytes": 8098655
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 28,
+      "video_id": "video_0327",
+      "windows": 9
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 1,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0329:0_329_2591b:254:269:329:0",
+        "last_sequence_id": "video_0329:0_329_2591b:284:299:329:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0329.npz",
+        "rows": 11,
+        "sha256": "f6d27e112928f7fc352dda012eed7a9bdc87e7cfd17d7321c40ab9123a72cfc4",
+        "size_bytes": 4661,
+        "split": "test",
+        "video_id": "video_0329"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0329.xml",
+        "sha256": "c8cae4e6bba8a403eecee70dd3344411f865f140948fa85c0a5c669754c9263d",
+        "size_bytes": 335256
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0329.mp4",
+        "sha256": "057ea90320ee56d483fe052e2357c6ea99b678186f433cba9c74fa4a71e8d6b9",
+        "size_bytes": 8312467
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0329",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 89,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            33,
+            15
+          ],
+          "road_compensated_60d": [
+            33,
+            60
+          ],
+          "road_raw_60d": [
+            33,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0332:0_332_2607b:100:115:148:1",
+        "last_sequence_id": "video_0332:0_332_2609b:60:75:105:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0332.npz",
+        "rows": 33,
+        "sha256": "864e06ed9a680841db44bc239de3ad5e9410ae50145e4de0a69ef90688e04b85",
+        "size_bytes": 11162,
+        "split": "test",
+        "video_id": "video_0332"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0332.xml",
+        "sha256": "0239ea4cb1b070c93c80059fbe6bfcd6109061a7c7efac6e8fb8494b03dac515",
+        "size_bytes": 554259
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0332.mp4",
+        "sha256": "232e9627cb55edd607410140b2f54802f36d88bedbb3ded4b8e4ea8ddb3a5c30",
+        "size_bytes": 16924473
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 89,
+      "video_id": "video_0332",
+      "windows": 33
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0333:0_333_2610b:20:35:95:1",
+        "last_sequence_id": "video_0333:0_333_2610b:50:65:95:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0333.npz",
+        "rows": 11,
+        "sha256": "38b1d1385eb686ffc7ec24742d58963bef74b388a6a1d9832ecbd6523fe6125f",
+        "size_bytes": 5934,
+        "split": "test",
+        "video_id": "video_0333"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0333.xml",
+        "sha256": "b7c19ac49fab602b6fad99c1384c5237bd0daa4a9291275750a94584e273386c",
+        "size_bytes": 114073
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0333.mp4",
+        "sha256": "6f0f9b7666c3ec3eb53f1b9cf879ebe9a5d61baba58b68737fae90645a55d58d",
+        "size_bytes": 6806916
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0333",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 12,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 92,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            22,
+            15
+          ],
+          "road_compensated_60d": [
+            22,
+            60
+          ],
+          "road_raw_60d": [
+            22,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0334:0_334_2612b:35:50:110:1",
+        "last_sequence_id": "video_0334:0_334_2614b:254:269:299:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0334.npz",
+        "rows": 22,
+        "sha256": "1d3045b8ec3f97f48d8295ce9152ef3e2b76fe3a0232c96f3b937d6538e52e9d",
+        "size_bytes": 8208,
+        "split": "test",
+        "video_id": "video_0334"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0334.xml",
+        "sha256": "e194e714c80bec6599bd346a7a1d52d2ca382d5ce77ef6dfa2f9f1f89214dc62",
+        "size_bytes": 716585
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0334.mp4",
+        "sha256": "b49bc7f35a39cc1a246a94bc41210a54afcd7197f55062a676a2da84af70289c",
+        "size_bytes": 10765238
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 92,
+      "video_id": "video_0334",
+      "windows": 22
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            22,
+            15
+          ],
+          "road_compensated_60d": [
+            22,
+            60
+          ],
+          "road_raw_60d": [
+            22,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0336:0_336_2627b:100:115:160:0",
+        "last_sequence_id": "video_0336:0_336_2630b:50:65:95:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0336.npz",
+        "rows": 22,
+        "sha256": "4dd69e53358ed84a464ed67fd17884d7e574fd483e06074c5d9fd76d8ec9424b",
+        "size_bytes": 8858,
+        "split": "test",
+        "video_id": "video_0336"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0336.xml",
+        "sha256": "3cc4bf1a116e2b4b8d5f1622d5a438f0e7f40831e59f36c1db41fb632b853161",
+        "size_bytes": 260032
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0336.mp4",
+        "sha256": "98f34b819f99c5460d62afec28b838ad9712bb11aedc5fc3d6a1ab7dd651f17f",
+        "size_bytes": 9402796
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 92,
+      "video_id": "video_0336",
+      "windows": 22
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            10,
+            15
+          ],
+          "road_compensated_60d": [
+            10,
+            60
+          ],
+          "road_raw_60d": [
+            10,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0338:0_338_2640b:0:15:73:1",
+        "last_sequence_id": "video_0338:0_338_2640b:9:24:73:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0338.npz",
+        "rows": 10,
+        "sha256": "f14ae12bc7a80639fabc568f221357c79f5d66a64e8a3476fc24abf89e599fda",
+        "size_bytes": 5662,
+        "split": "test",
+        "video_id": "video_0338"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0338.xml",
+        "sha256": "bf678e303032e89caabb4461c8a18bb2586cd35734a7a13291860555e9ed434f",
+        "size_bytes": 499092
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0338.mp4",
+        "sha256": "6898715d3fab03fd72305eb8bf6a4ab6fd1acbd6179f3ba3da977a31197cec02",
+        "size_bytes": 7906663
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 43,
+      "video_id": "video_0338",
+      "windows": 10
+    },
+    {
+      "drivable_all_zero_frames": 0,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 0,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            11,
+            15
+          ],
+          "road_compensated_60d": [
+            11,
+            60
+          ],
+          "road_raw_60d": [
+            11,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0339:0_339_2648b:17:32:92:1",
+        "last_sequence_id": "video_0339:0_339_2648b:47:62:92:1",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0339.npz",
+        "rows": 11,
+        "sha256": "4fde028b016d524f593f68af5baa5f02dda7d94d33bdf9a0fcadf1816fc7024b",
+        "size_bytes": 4727,
+        "split": "test",
+        "video_id": "video_0339"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0339.xml",
+        "sha256": "6c2b935af14c9cabba4725b5032b0b0ec3b3074b55da92693558926240b6a519",
+        "size_bytes": 173818
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0339.mp4",
+        "sha256": "de6d6843ae6e6c34dcdc61bc88e22457a6afe51bf1efb7940f09e3c23e1d9775",
+        "size_bytes": 7764005
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 46,
+      "video_id": "video_0339",
+      "windows": 11
+    },
+    {
+      "drivable_all_zero_frames": 21,
+      "full_resolution_masks_persisted": false,
+      "lane_all_zero_frames": 48,
+      "part": {
+        "feature_shapes": {
+          "proxy_15d": [
+            33,
+            15
+          ],
+          "road_compensated_60d": [
+            33,
+            60
+          ],
+          "road_raw_60d": [
+            33,
+            60
+          ]
+        },
+        "first_sequence_id": "video_0344:0_344_2689b:14:29:89:0",
+        "last_sequence_id": "video_0344:0_344_2696b:44:59:89:0",
+        "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/082_jaad_compensated_road_followup_evaluation/cache/test_parts/video_0344.npz",
+        "rows": 33,
+        "sha256": "4f919d443503a622f0104351ff3c495445ecd25a255df99995df1195757b4656",
+        "size_bytes": 8781,
+        "split": "test",
+        "video_id": "video_0344"
+      },
+      "source_annotation": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations/video_0344.xml",
+        "sha256": "240a184fdf26ec15e0255cec5d92e4ff675cebd1853faaff90f44de89e92a2ee",
+        "size_bytes": 300985
+      },
+      "source_video": {
+        "path": "/home/abdelrahman/Hadwa/datasets/JAAD/JAAD_clips/video_0344.mp4",
+        "sha256": "2366cb2487d41172ae53136221b9cd3a68559490c67ae9cec8c889214d248dd0",
+        "size_bytes": 5249753
+      },
+      "split": "test",
+      "target_columns_seen": false,
+      "unique_frames": 48,
+      "video_id": "video_0344",
+      "windows": 33
+    }
+  ]
+}

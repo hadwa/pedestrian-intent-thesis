@@ -1,0 +1,50 @@
+[
+  {
+    "identical_imputer": true,
+    "identical_parameters": true,
+    "identical_predictions": true,
+    "prediction_source": {
+      "bytes": 53262,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/100_jaad_exp099_biu_pathways/predictions/validation_v2_seed42.csv",
+      "sha256": "b838c2c7fe5894b129473db019d543507cac5d4af7f7447272274535e154dd3e"
+    },
+    "seed": 42,
+    "source_model": {
+      "bytes": 346325,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/100_jaad_exp099_biu_pathways/models/v2_seed42.joblib",
+      "sha256": "d803a63231acb5b68137052ae17bd33b55c9a5661205103a80847f5006c1a79b"
+    }
+  },
+  {
+    "identical_imputer": true,
+    "identical_parameters": true,
+    "identical_predictions": true,
+    "prediction_source": {
+      "bytes": 53264,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/100_jaad_exp099_biu_pathways/predictions/validation_v2_seed43.csv",
+      "sha256": "9573ebf1eb5576555f0eb9654559028f1e7f4b96446e5015e748bb97dea0558a"
+    },
+    "seed": 43,
+    "source_model": {
+      "bytes": 349998,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/100_jaad_exp099_biu_pathways/models/v2_seed43.joblib",
+      "sha256": "06c5817132999475961ebff7fbfc20a03aec46e8ba189537bb8e5ce8689f9cf7"
+    }
+  },
+  {
+    "identical_imputer": true,
+    "identical_parameters": true,
+    "identical_predictions": true,
+    "prediction_source": {
+      "bytes": 53253,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/100_jaad_exp099_biu_pathways/predictions/validation_v2_seed44.csv",
+      "sha256": "e02c6db645f9dcd5cfdfac0e33ae156be9a439125a6341f1637e0130f0e4ec90"
+    },
+    "seed": 44,
+    "source_model": {
+      "bytes": 347210,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/100_jaad_exp099_biu_pathways/models/v2_seed44.joblib",
+      "sha256": "cc7d1d4ec5ebea0cf6a2f94e830b587ba02e2f4f759ae5a44a31f0980b03a08c"
+    }
+  }
+]

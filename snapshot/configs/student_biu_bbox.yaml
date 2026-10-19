@@ -1,0 +1,21 @@
+student_name: BIU_BBOX
+benchmark_config: configs/benchmark_pie.yaml
+splits_dir: data/splits
+features:
+  - biu
+  - bbox_motion
+feature_tables:
+  biu: data/processed/features/biu_features.csv
+  bbox_motion: data/processed/features/bbox_motion_features.csv
+model:
+  type: mlp
+  hidden_dims: [128, 64]
+  dropout: 0.2
+training:
+  epochs: 50
+  batch_size: 64
+  learning_rate: 0.001
+  seed: 42
+outputs:
+  predictions: results/predictions/student_biu_bbox_predictions.csv
+  metrics: results/student_biu_bbox_metrics.json

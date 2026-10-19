@@ -1,0 +1,6 @@
+{
+  "samples": 32,
+  "selection": "uniform indices in development cache",
+  "max_absolute_error": 0.000644683837890625,
+  "allclose_at_1e_4": false
+}

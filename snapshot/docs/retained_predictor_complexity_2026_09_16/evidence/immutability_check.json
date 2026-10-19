@@ -1,0 +1,12 @@
+{
+  "checked_at_utc": "2026-09-16T19:54:54.746061+00:00",
+  "repository": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean",
+  "head_unchanged": true,
+  "tracked_files_checked": 6286,
+  "changed_tracked_files": [],
+  "source_files_checked": 85,
+  "changed_source_files": [],
+  "git_status_unchanged": true,
+  "all_audit_outputs_directory": "/tmp/biu_complexity_audit_2026_09_16",
+  "note": "Pre-existing changes are preserved. No training, original model overwrite, repository writes, commit or push performed by this audit."
+}

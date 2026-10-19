@@ -1,0 +1,10 @@
+{
+  "features": 187,
+  "first_frames": 7,
+  "last_frames": 8,
+  "pose_complete_windows": 20547,
+  "status": "complete",
+  "target_used": false,
+  "test_authorized": true,
+  "windows": 20547
+}

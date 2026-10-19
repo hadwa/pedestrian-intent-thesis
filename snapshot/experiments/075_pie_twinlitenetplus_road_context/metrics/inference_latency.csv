@@ -1,0 +1,7 @@
+component,batch_size,observation_frames,warmups,repetitions,included_stages,excluded_stages,last_probability,mean_ms,median_ms,p95_ms,per_16_frame_window_mean_ms,seed,device,precision,per_frame_mean_ms,per_sample_mean_ms
+online_incremental_window,1,16,10,100,"[""twinlite_masks"",""road_relative_20d"",""road_summary_60d"",""xgboost_predict""]","[""frame_video_decoding"",""vitpose_keypoint_extraction""]",0.00322206923738122,354.13400563000005,344.8305445,406.05407844999996,354.13400563000005,42,cuda:0,float16,,
+twinlitenet_masks,1,16,10,100,,,,256.66647018,248.269262,300.96388425,256.66647018,42,cuda:0,float16,16.04165438625,
+road_relative_20d,1,16,20,500,,,,63.631773518,63.023557,66.89722665,63.631773518,42,cuda:0,cpu_float32,,
+road_summary_60d,1,16,20,500,,,,0.012399428,0.0121035,0.012757649999999999,0.012399428,42,cuda:0,cpu_float32,,
+cached_247d_predictor,1,16,100,1000,,,,1.4742568079999998,1.4271794999999998,1.7237380999999998,1.4742568079999998,42,cuda:0,cpu_float32,,1.4742568079999998
+cached_247d_predictor,256,16,20,200,,,,1.822566845,1.785789,2.1584577,0.00711940173828125,42,cuda:0,cpu_float32,,0.00711940173828125

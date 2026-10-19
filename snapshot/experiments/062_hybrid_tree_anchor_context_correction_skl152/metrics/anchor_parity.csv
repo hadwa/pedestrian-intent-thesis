@@ -1,0 +1,7 @@
+anchor_name,seed,passed,id_match,label_match,class_match,max_probability_error,max_metric_error,failed_checks
+rf_v1_bbox,42,True,True,True,True,2.220446049250313e-16,0.0,()
+rf_v1_bbox,43,True,True,True,True,2.220446049250313e-16,0.0,()
+rf_v1_bbox,44,True,True,True,True,2.220446049250313e-16,0.0,()
+xgb_v2_bbox,42,True,True,True,True,2.9702758808092256e-08,0.0,()
+xgb_v2_bbox,43,True,True,True,True,2.975769042290466e-08,0.0,()
+xgb_v2_bbox,44,True,True,True,True,2.9779052779232984e-08,0.0,()

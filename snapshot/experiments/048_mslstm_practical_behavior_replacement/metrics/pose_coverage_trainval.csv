@@ -1,0 +1,3 @@
+source,split,n_windows,all_zero_window_count,all_zero_window_rate,valid_window_count,valid_window_rate,mean_valid_joint_fraction,median_valid_joint_fraction,completely_invalid_window_count
+historical_exp012_vitpose_s_lineage,train,333454,0,0.0,333454,1.0,1.0,1.0,0
+historical_exp012_vitpose_s_lineage,val,77288,0,0.0,77288,1.0,1.0,1.0,0

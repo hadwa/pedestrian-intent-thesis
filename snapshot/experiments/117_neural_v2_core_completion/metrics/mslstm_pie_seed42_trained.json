@@ -1,0 +1,5 @@
+{
+  "checkpoint": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/117_neural_v2_core_completion/mslstm_pie/checkpoints/I_seed42.best.pt",
+  "seconds": 33.41946002401528,
+  "sha256": "e6d8dde9d8fb7326cb70c99c410317c1cb853887a90013f07aac388c1369d440"
+}

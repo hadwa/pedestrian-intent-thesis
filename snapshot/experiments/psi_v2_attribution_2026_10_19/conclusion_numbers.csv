@@ -1,0 +1,18 @@
+source,selector,column,actual,displayed,passed
+experiments/096_pie_exp072_matched_biu_ablation/metrics/test_summary_results.csv,"{""arm"": ""base""}",pr_auc_mean,0.9194027530397267,0.919,True
+experiments/096_pie_exp072_matched_biu_ablation/metrics/test_summary_results.csv,"{""arm"": ""base""}",f1_mean,0.8771071183348017,0.877,True
+experiments/096_pie_exp072_matched_biu_ablation/metrics/test_summary_results.csv,"{""arm"": ""v2""}",pr_auc_mean,0.9394754090936551,0.939,True
+experiments/096_pie_exp072_matched_biu_ablation/metrics/test_summary_results.csv,"{""arm"": ""v2""}",f1_mean,0.8770134574894938,0.877,True
+experiments/116_xgboost_v2_core_completion/metrics/summary_results.csv,"{""case"": ""pie_road"", ""split"": ""test"", ""arm"": ""core56""}",f1_mean,0.8828930174847471,0.883,True
+experiments/116_xgboost_v2_core_completion/metrics/summary_results.csv,"{""case"": ""pie_road"", ""split"": ""test"", ""arm"": ""core56""}",accuracy_mean,0.9350177304964539,0.935,True
+experiments/117_neural_v2_core_completion/metrics/summary_results.csv,"{""case"": ""mslstm_pie"", ""split"": ""test"", ""arm"": ""G""}",f1_mean,0.8099272592839947,0.810,True
+experiments/117_neural_v2_core_completion/metrics/summary_results.csv,"{""case"": ""mslstm_pie"", ""split"": ""test"", ""arm"": ""I""}",f1_mean,0.8289213567157248,0.829,True
+experiments/119_pedcmt_v2_capped_completion/metrics/summary_results.csv,"{""case"": ""jaad"", ""split"": ""test"", ""arm"": ""baseline""}",f1_mean,0.6734079076458612,0.673,True
+experiments/119_pedcmt_v2_capped_completion/metrics/summary_results.csv,"{""case"": ""jaad"", ""split"": ""test"", ""arm"": ""full63""}",f1_mean,0.6981363829079353,0.698,True
+docs/retained_predictor_complexity_2026_09_16/evidence/latency_summary.csv,"{""kind"": ""xgb_road""}",mean_ms,1.1741374705555558,1.174,True
+docs/retained_predictor_complexity_2026_09_16/evidence/serialized_sizes.csv,"{""kind"": ""xgb_road"", ""seed"": ""42""}",inference_MiB,0.3603553771972656,0.36,True
+docs/retained_predictor_complexity_2026_09_16/evidence/serialized_sizes.csv,"{""kind"": ""xgb_road"", ""seed"": ""43""}",inference_MiB,0.3607444763183594,0.36,True
+docs/retained_predictor_complexity_2026_09_16/evidence/serialized_sizes.csv,"{""kind"": ""xgb_road"", ""seed"": ""44""}",inference_MiB,0.36016082763671875,0.36,True
+experiments/v2_xgboost_runtime_2026_09_13/headline.csv,"{""model"": ""road""}",actual_single_including_bbox_ms,9.642027214,9.64,True
+thesis/manuscript/Tables/ch4_literature_pie.tex,PCAP-SL: selected ViT-16-s,F1,0.863,0.863,True
+thesis/manuscript/Tables/ch4_literature_pie.tex,TrajFusionNet,F1,0.860,0.860,True

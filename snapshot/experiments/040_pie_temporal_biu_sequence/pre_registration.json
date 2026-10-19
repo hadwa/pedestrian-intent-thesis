@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "experiment": "Exp040",
+  "name": "PIE temporal BIU sequence model",
+  "status": "PRE_REGISTERED_NOT_RUN",
+  "dataset": "PIE",
+  "benchmark": "standard anticipatory",
+  "observation_frames": 16,
+  "tte": "30_60",
+  "overlap": 0.6,
+  "threshold": 0.5,
+  "authorized_sets": ["set01", "set02", "set04", "set05", "set06"],
+  "forbidden_set": "set03",
+  "input": "per-frame direction-canonical BIU-v2 cues plus BBox motion and OBD speed",
+  "architecture": {
+    "type": "residual_temporal_conv1d",
+    "hidden_channels": 32,
+    "kernel_size": 3,
+    "dilations": [1, 2],
+    "dropout": 0.1,
+    "pooling": "mean_and_last"
+  },
+  "optimizer": {
+    "type": "Adam",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "epochs": 80,
+    "batch_size": 128
+  },
+  "seeds": [42, 43, 44],
+  "bootstrap_seed": 42,
+  "bootstrap_replicates": 10000,
+  "minimum_pr_auc_gain": 0.005,
+  "minimum_f1_gain": 0.005,
+  "high_confidence_cutoffs": {"fp_min": 0.9, "fn_max": 0.1},
+  "source_experiments": ["Exp037", "Exp039"],
+  "research_paper": {
+    "title": "An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling",
+    "authors": ["Shaojie Bai", "J. Zico Kolter", "Vladlen Koltun"],
+    "year": 2018,
+    "local_copy": "papers/Bai_2018_TCN.pdf"
+  }
+}

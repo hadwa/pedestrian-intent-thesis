@@ -1,0 +1,16 @@
+{
+  "biu_extraction_latency": {
+    "component": "biu_v2_extraction_from_cached_exp012_points",
+    "pose_estimator_runtime_included": false,
+    "sample_count": 100,
+    "seconds_per_sample": 0.004250175330089406,
+    "seconds_total": 0.4250175330089405
+  },
+  "common_valid_rows": 125048,
+  "device": "cuda",
+  "noninferiority_tolerance": 0.005,
+  "outcome_category": "neutral",
+  "set03_rows": 271078,
+  "vitpose_s_estimator_runtime": "unavailable_historical_cache",
+  "yolo_pose_estimator_runtime": "unavailable_historical_cache"
+}

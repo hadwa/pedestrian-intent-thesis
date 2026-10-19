@@ -1,0 +1,7 @@
+cohort,seed,test_windows,predict_full_cohort_median_ms,predict_full_cohort_p95_ms,predict_median_ms_per_window,model_size_bytes,scope
+jaad_beh,42,1881,2.774129,3.810435,0.001474816,333346,cached_242d_xgboost_only
+jaad_beh,43,1881,3.094395,4.025966,0.001645080,334709,cached_242d_xgboost_only
+jaad_beh,44,1881,2.872281,3.899272,0.001526997,335185,cached_242d_xgboost_only
+jaad_all,42,6732,9.891638,12.944475,0.001469346,404476,cached_242d_xgboost_only
+jaad_all,43,6732,9.418929,12.825162,0.001399128,405496,cached_242d_xgboost_only
+jaad_all,44,6732,9.683658,12.359727,0.001438452,406652,cached_242d_xgboost_only

@@ -1,0 +1,6 @@
+{
+  "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/src/features/bbox_features.py",
+  "destination": "vendor/research_archive/bbox_features.py",
+  "sha256": "675bc142fbef80df5937b03a4e0f17fab3e80f35df599464c8df839095d76557",
+  "note": "Preserved dependency; not wired into historical runners yet. Distribution/license review pending."
+}

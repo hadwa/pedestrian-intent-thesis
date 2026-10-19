@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "test_authorized": true,
+  "no_refit": true,
+  "windows": 20547,
+  "videos": 49,
+  "tracks": 96,
+  "positives": 15462,
+  "source_prefix_exact": true,
+  "saved_probability_files_reproduced": 6,
+  "saved_metric_rows_reproduced": 6,
+  "models": [
+    {
+      "arm": "S187",
+      "seed": 42,
+      "model_sha256": "6b28504cf1f777c1425186c292db847d556f9c125c2902a74c93572eeac5092b"
+    },
+    {
+      "arm": "S187",
+      "seed": 43,
+      "model_sha256": "41403158bdd932e2fd35ebd56146583312f568e76a1d8385bc9e573c4cc74f21"
+    },
+    {
+      "arm": "S187",
+      "seed": 44,
+      "model_sha256": "d84e10c832d133f45a001d3fdd2119d799d1744fe7043ec4b15cf0c0b74c72b5"
+    },
+    {
+      "arm": "R247",
+      "seed": 42,
+      "model_sha256": "39dfd9c4ab88dec84fbdb3480a2f10a19468edb6b4d249afa6a7954a94551d65"
+    },
+    {
+      "arm": "R247",
+      "seed": 43,
+      "model_sha256": "f1a4c8cab5a3e74dcd8eb37cd51ae11a117a1888320b88da9c4f51ed9066a665"
+    },
+    {
+      "arm": "R247",
+      "seed": 44,
+      "model_sha256": "23e4aeac570d22dc28cf76d25a23113353dbe10591afa5f10785ab0522820828"
+    }
+  ]
+}

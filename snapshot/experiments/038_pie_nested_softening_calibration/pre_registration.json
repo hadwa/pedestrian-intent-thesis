@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "experiment": "Exp038",
+  "name": "PIE nested softening calibration",
+  "status": "PRE_REGISTERED_NOT_RUN",
+  "dataset": "PIE",
+  "benchmark": "standard anticipatory",
+  "observation_frames": 16,
+  "tte": "30_60",
+  "overlap": 0.6,
+  "threshold": 0.5,
+  "development_sets": ["set01", "set02", "set04", "set05"],
+  "confirmation_set": "set06",
+  "diagnostic_test_set": "set03",
+  "diagnostic_test_status": "TEST_INFORMED_NOT_INDEPENDENT_CONFIRMATION",
+  "raw_arms": ["joint_temporal_ego_xgb", "v2_bbox_xgb", "v1_bbox_rf"],
+  "calibrated_arms": ["soft_temp_joint_temporal_ego_xgb", "soft_temp_v2_bbox_xgb", "soft_temp_v1_bbox_rf"],
+  "seeds": [42, 43, 44],
+  "temperature_bounds": [1.0, 100.0],
+  "probability_clip_epsilon": 1e-12,
+  "optimizer_absolute_tolerance": 1e-12,
+  "objective_tie_tolerance": 1e-12,
+  "combined_tail_reduction_fraction": 0.25,
+  "pr_auc_noninferiority_margin": 0.002,
+  "minimum_baseline_gain": 0.005,
+  "maximum_per_set_regression": 0.01,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 42,
+  "high_confidence_fp_min": 0.9,
+  "high_confidence_fn_max": 0.1,
+  "ece_bins": 10,
+  "development_expected_rows": 4781,
+  "development_expected_tracks": 824,
+  "development_combined_tail_limit": 181,
+  "feature_counts": {
+    "joint_temporal_ego_xgb": 187,
+    "v2_bbox_xgb": 109,
+    "v1_bbox_rf": 125
+  },
+  "phase_contract": {
+    "prepare": "authenticate Exp037 development artifacts without later-cohort access",
+    "develop": "nested leave-one-set-out calibration on set01/set02/set04/set05",
+    "confirm": "conditional locked set06 confirmation",
+    "evaluate": "conditional authenticated set03 test-informed diagnostic"
+  },
+  "paper": {
+    "title": "On Calibration of Modern Neural Networks",
+    "year": 2017,
+    "official_page": "https://proceedings.mlr.press/v70/guo17a.html",
+    "official_pdf": "https://proceedings.mlr.press/v70/guo17a/guo17a.pdf",
+    "local_copy": "papers/Guo_2017_Calibration.pdf"
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "all_finite": true,
+  "context_nonzero_fraction": {
+    "road__foot_speed_h__early_mean": 0.9874686716791979,
+    "road__foot_speed_h__late_mean": 0.989640768588137,
+    "road__foot_speed_h__late_minus_early": 0.9914786967418546,
+    "road__foot_velocity_x_h__early_mean": 0.9874686716791979,
+    "road__foot_velocity_x_h__late_mean": 0.9894736842105263,
+    "road__foot_velocity_x_h__late_minus_early": 0.9914786967418546,
+    "road__foot_velocity_y_h__early_mean": 0.977610693400167,
+    "road__foot_velocity_y_h__late_mean": 0.9781119465329992,
+    "road__foot_velocity_y_h__late_minus_early": 0.9832915622389307,
+    "road__lane_geometry_valid__early_mean": 0.9259816207184628,
+    "road__lane_geometry_valid__late_mean": 0.9296574770258981,
+    "road__lane_geometry_valid__late_minus_early": 0.20133667502088554,
+    "road__lane_nearest_distance_h__early_mean": 0.9259816207184628,
+    "road__lane_nearest_distance_h__late_mean": 0.9296574770258981,
+    "road__lane_nearest_distance_h__late_minus_early": 0.9490392648287385,
+    "road__lane_nearest_dx_h__early_mean": 0.9259816207184628,
+    "road__lane_nearest_dx_h__late_mean": 0.9296574770258981,
+    "road__lane_nearest_dx_h__late_minus_early": 0.9485380116959065,
+    "road__lane_nearest_dy_h__early_mean": 0.9259816207184628,
+    "road__lane_nearest_dy_h__late_mean": 0.9294903926482874,
+    "road__lane_nearest_dy_h__late_minus_early": 0.9490392648287385,
+    "road__lane_tangent_x__early_mean": 0.9259816207184628,
+    "road__lane_tangent_x__late_mean": 0.9296574770258981,
+    "road__lane_tangent_x__late_minus_early": 0.9490392648287385,
+    "road__lane_tangent_y__early_mean": 0.9258145363408521,
+    "road__lane_tangent_y__late_mean": 0.9294903926482874,
+    "road__lane_tangent_y__late_minus_early": 0.9488721804511279,
+    "road__motion_parallel_to_lane__early_mean": 0.9102756892230577,
+    "road__motion_parallel_to_lane__late_mean": 0.9196324143692565,
+    "road__motion_parallel_to_lane__late_minus_early": 0.9383458646616541,
+    "road__motion_parallel_to_road__early_mean": 0.9226399331662489,
+    "road__motion_parallel_to_road__late_mean": 0.9239766081871345,
+    "road__motion_parallel_to_road__late_minus_early": 0.9477025898078529,
+    "road__motion_toward_drivable_area__early_mean": 0.9226399331662489,
+    "road__motion_toward_drivable_area__late_mean": 0.9239766081871345,
+    "road__motion_toward_drivable_area__late_minus_early": 0.9477025898078529,
+    "road__road_boundary_tangent_x__early_mean": 0.9381787802840434,
+    "road__road_boundary_tangent_x__late_mean": 0.9346700083542189,
+    "road__road_boundary_tangent_x__late_minus_early": 0.9588972431077695,
+    "road__road_boundary_tangent_y__early_mean": 0.9383458646616541,
+    "road__road_boundary_tangent_y__late_mean": 0.9346700083542189,
+    "road__road_boundary_tangent_y__late_minus_early": 0.9590643274853801,
+    "road__road_boundary_valid__early_mean": 0.9383458646616541,
+    "road__road_boundary_valid__late_mean": 0.9350041771094403,
+    "road__road_boundary_valid__late_minus_early": 0.3039264828738513,
+    "road__road_foot_inside__early_mean": 0.13099415204678364,
+    "road__road_foot_inside__late_mean": 0.13951545530492898,
+    "road__road_foot_inside__late_minus_early": 0.11545530492898914,
+    "road__road_nearest_boundary_dx_h__early_mean": 0.9383458646616541,
+    "road__road_nearest_boundary_dx_h__late_mean": 0.9350041771094403,
+    "road__road_nearest_boundary_dx_h__late_minus_early": 0.9590643274853801,
+    "road__road_nearest_boundary_dy_h__early_mean": 0.9383458646616541,
+    "road__road_nearest_boundary_dy_h__late_mean": 0.9350041771094403,
+    "road__road_nearest_boundary_dy_h__late_minus_early": 0.9590643274853801,
+    "road__road_signed_boundary_distance_h__early_mean": 0.9383458646616541,
+    "road__road_signed_boundary_distance_h__late_mean": 0.9350041771094403,
+    "road__road_signed_boundary_distance_h__late_minus_early": 0.9590643274853801,
+    "road__road_signed_distance_change_h__early_mean": 0.8935672514619883,
+    "road__road_signed_distance_change_h__late_mean": 0.8939014202172096,
+    "road__road_signed_distance_change_h__late_minus_early": 0.9251461988304094
+  },
+  "lane_geometry_valid_frame_fraction": 0.8671261668205261,
+  "part_records": [
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set01_video_0001.npz",
+      "rows": 102,
+      "sha256": "158a8e789b35da55a9de570d5d799adae0b30a3b06ace9bed65176df755b6a14",
+      "size_bytes": 70703
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set01_video_0002.npz",
+      "rows": 190,
+      "sha256": "32688c323b040ed1626281e1a4146dc0b2ae107e32a448ec02a3302cd7690277",
+      "size_bytes": 109876
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set01_video_0003.npz",
+      "rows": 223,
+      "sha256": "81c02815f334f6283d162bffe30d957073ac1dc289c080f714511ad01c9a9843",
+      "size_bytes": 150369
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set01_video_0004.npz",
+      "rows": 48,
+      "sha256": "c389bf18492c738f32d7f08acc6890c256867586c710482056e5dad52bc4b3d5",
+      "size_bytes": 33266
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set02_video_0001.npz",
+      "rows": 194,
+      "sha256": "b9c7632750ae2ee489dd0166af3de334697a151c51ef6a2f05a5f05c8b03de78",
+      "size_bytes": 129737
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set02_video_0002.npz",
+      "rows": 266,
+      "sha256": "eccd886623aa3b7e32ae31abde228ac9e96a552dba1db7b0d0a1870a069aea6c",
+      "size_bytes": 176625
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set02_video_0003.npz",
+      "rows": 139,
+      "sha256": "04efdd13289b6f111a1066dcc072bd0d800176e1ff8c360fbc08bead832898fd",
+      "size_bytes": 88601
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set04_video_0001.npz",
+      "rows": 205,
+      "sha256": "ac280d45878fdb7c837f3a6ccae3848f76df55c0a8def4b98de78db9898f13da",
+      "size_bytes": 156223
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set04_video_0002.npz",
+      "rows": 299,
+      "sha256": "c4db599c4c5522456c8e68ea791ba5e56c927931d7d438b31c6931048eb5956a",
+      "size_bytes": 224095
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set04_video_0003.npz",
+      "rows": 242,
+      "sha256": "38868cfde38e67c9c661a8617787bddf86d3f5f760102ed437bfa44a2e3e4523",
+      "size_bytes": 166760
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set04_video_0004.npz",
+      "rows": 213,
+      "sha256": "222a9ddbc701d1dc6f1c1730a2a7ffa2d48da421bf49c223a10babd14a091520",
+      "size_bytes": 165591
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set04_video_0005.npz",
+      "rows": 139,
+      "sha256": "865e335f47ef5fa6854450afbfe0fa536442bf805571d78946ad6e4fee878cac",
+      "size_bytes": 96321
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set04_video_0006.npz",
+      "rows": 237,
+      "sha256": "e7badd6e8b9349b881a0cc3be8c27b5d2a58c58d17eff3950220d6689a90b528",
+      "size_bytes": 183324
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set04_video_0007.npz",
+      "rows": 390,
+      "sha256": "2b9d45fb24e5ab061992e023ecda9bf648dbf977ef056b5554921849d14a5c89",
+      "size_bytes": 261532
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set04_video_0008.npz",
+      "rows": 216,
+      "sha256": "eec81efd95915b8e2596c184f30c547a50802677b0d8fd64ca19c1b268dcfaa7",
+      "size_bytes": 156738
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set04_video_0009.npz",
+      "rows": 271,
+      "sha256": "a228c09ccad7531bb529c05ff84f52b5e26ce8bb7c6a2fc02b9c9d53c83b9684",
+      "size_bytes": 205672
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set04_video_0010.npz",
+      "rows": 248,
+      "sha256": "6824205ead202997e19ac8880ed115fa4ae02d26eef140c74e9cd949e6eecfe2",
+      "size_bytes": 199732
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set04_video_0011.npz",
+      "rows": 70,
+      "sha256": "78f8ca1dbb62e576c6b5024d585ebf8ff9a5b3881b33108991e6672c79c313de",
+      "size_bytes": 52166
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set04_video_0012.npz",
+      "rows": 489,
+      "sha256": "e76c17cc3c618437c2f952741b7d28188df8bf65c9b0c6c053e0752141e9f8f2",
+      "size_bytes": 339410
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set04_video_0013.npz",
+      "rows": 130,
+      "sha256": "190e3bb27fecf840fb11bb6c0453b833431b30a9d096ce8338099aefa41cd927",
+      "size_bytes": 99070
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set04_video_0014.npz",
+      "rows": 84,
+      "sha256": "7d0f34fa3a86d7dd432353832a3b8590b1eedcb794a691ce1574e83987827036",
+      "size_bytes": 65951
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set04_video_0015.npz",
+      "rows": 192,
+      "sha256": "91220372acc8868e105be8977e22c001746e98f78d69d08121c2429cadbdf7ed",
+      "size_bytes": 131461
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set04_video_0016.npz",
+      "rows": 108,
+      "sha256": "a1b91bafaf50e67fcad3065b5d8aa86d1fafb187a98a184231d4c8df92a69b02",
+      "size_bytes": 77910
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set05_video_0001.npz",
+      "rows": 73,
+      "sha256": "272c089dce742ded7e682fff9f6ea37d864c3df83073d49becdf7f61d6f9a937",
+      "size_bytes": 50514
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set05_video_0002.npz",
+      "rows": 13,
+      "sha256": "a9467a95b34a32321787429dd3feb421f241c7bff6859ac18fca0ba84c21903d",
+      "size_bytes": 10298
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set06_video_0001.npz",
+      "rows": 39,
+      "sha256": "fbf5ac0bc887e2efd8d1bbb9f5861aa64b6621ff6dc91e3c3bebe170f6cf7a05",
+      "size_bytes": 23449
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set06_video_0002.npz",
+      "rows": 208,
+      "sha256": "ce39ec283b04527089142c0f9cc7306a07fd60414f8dd77dd9dad78a2bbda73b",
+      "size_bytes": 134110
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set06_video_0003.npz",
+      "rows": 76,
+      "sha256": "29e1710803d37b59f78d697c129c89d240053a4a0feab398ffd0c05f84e1bc18",
+      "size_bytes": 57932
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set06_video_0004.npz",
+      "rows": 175,
+      "sha256": "cb1669ffa90e97dc5388500d7f7f3808ab3d9ffb684aa7d1536b2aa34e2775c3",
+      "size_bytes": 134156
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set06_video_0005.npz",
+      "rows": 114,
+      "sha256": "b52852ad8a1b51a062fd54b351c2c99b6c87e0981ea0280c56300e827f20ef29",
+      "size_bytes": 84705
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set06_video_0006.npz",
+      "rows": 90,
+      "sha256": "d70cd9b47fee50f47e4bf6d89eed5005b057ebdee61856fe46dad0fb954a6be0",
+      "size_bytes": 72096
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set06_video_0007.npz",
+      "rows": 126,
+      "sha256": "6058f035bbca1f688b0e19f87e5b4d2668f1f68e0e8440f980c7d045ea63f03a",
+      "size_bytes": 92742
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set06_video_0008.npz",
+      "rows": 108,
+      "sha256": "85a0cacf1b8b3e5f9fe4d8634fab279757620427c88639bb4b2bc69df0dfe805",
+      "size_bytes": 77693
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/cache/trainval_parts/set06_video_0009.npz",
+      "rows": 268,
+      "sha256": "e5a91fd4f725527b0f5a0385dfcf65264ca486ddd9ecc7a6e5d853d5830b1bdd",
+      "size_bytes": 202424
+    }
+  ],
+  "parts": 34,
+  "road_geometry_valid_frame_fraction": 0.8354009985923767,
+  "rows": 5985,
+  "set03_accessed": false,
+  "upstream_yolop": {
+    "device": "cuda:0",
+    "elapsed_seconds": 840.3142259120941,
+    "inference_batch_size": 8,
+    "unique_frames": 31131
+  }
+}

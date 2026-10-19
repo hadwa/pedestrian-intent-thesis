@@ -1,0 +1,59 @@
+{
+  "parent_reproduction_tolerance": 1e-06,
+  "source_predictions": [
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/predictions/test_A_seed42.csv",
+      "sha256": "12f40eb9517e596686be63f2c76f13ee7b78fb07ec26262c2134aa9765c8c765",
+      "size_bytes": 115127
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/092_pedcmt_capped_biu_correction/predictions/test_N10_seed42.csv",
+      "sha256": "543235376e5fa501eff3dc4ebe90cf05e6db3a24d288beb92ea585c802e1b0de",
+      "size_bytes": 216063
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/predictions/test_A_seed43.csv",
+      "sha256": "d901eda4a5367ea4b4dd735a7d3f769de79871d3a619e9ad22f498da9ca5fe36",
+      "size_bytes": 115010
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/092_pedcmt_capped_biu_correction/predictions/test_N10_seed43.csv",
+      "sha256": "788cc123aaf8b291ed7a420a7ccb62a8c7979fa1ca903771d6f753d91bd9b2f7",
+      "size_bytes": 215922
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/predictions/test_A_seed44.csv",
+      "sha256": "e2c5e7b15f67c4886450515f614cb6ef958eefd430a2061050b236e579463846",
+      "size_bytes": 115028
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/092_pedcmt_capped_biu_correction/predictions/test_N10_seed44.csv",
+      "sha256": "d79984b7099ad5acfedacff76bb0186bd228964ef9e49ced5dcfbd0122004aba",
+      "size_bytes": 215703
+    }
+  ],
+  "test_access_started_after_training_and_validation_markers": true,
+  "test_sources": [
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/test_source/rows.csv",
+      "sha256": "69261a0003bcbd245a6aae87179d24b64e1929064bda60d8f94805584cd8df70",
+      "size_bytes": 1518554
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/test_source/bbox.npy",
+      "sha256": "38092e5fd31f89f5a0c26056b2671d42aaf1698cc5a5b5fb997a3de29411bde2",
+      "size_bytes": 384384
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/test_source/ego_speed.npy",
+      "sha256": "27f041212471f1c0f561cfefe09ccb4e1843e7f8d5549f46b6cfe855bf2275b9",
+      "size_bytes": 96192
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/test_source/pose.npy",
+      "sha256": "3f2f91d12507dc1f245bf9f53e809a91bdfd4f89d72cb66cc416be2872a2e013",
+      "size_bytes": 3266304
+    }
+  ],
+  "test_windows": 1501
+}

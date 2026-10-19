@@ -1,0 +1,16 @@
+{
+  "appendix_groups": 13,
+  "table_rows_traced": 66,
+  "nonunique_or_missing_selectors": 0,
+  "primary_files": 25,
+  "missing_primary_files": 0,
+  "audited_artifact_paths": 287,
+  "missing_paths": 0,
+  "not_packaged_paths": 153,
+  "scope_changed_since_snapshot": false,
+  "selected_unique_weight_files": 117,
+  "selected_weights_packaged": 48,
+  "recorded_dependency_references": 985,
+  "missing_recorded_dependency_references": 0,
+  "models_trained": 0
+}

@@ -1,0 +1,23 @@
+{
+  "existing_cache_unique_key_contributions": {
+    "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/049_exp048_to_jaad_zero_shot/cache/jaad_keypoints_vitpose_s_exp049_extended.jsonl": 65637
+  },
+  "existing_pose_caches": [
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/049_exp048_to_jaad_zero_shot/cache/jaad_keypoints_vitpose_s_exp049_extended.jsonl",
+      "sha256": "9eae258cd7fed3b1278aa86f6ab5c508fb759a24c7912d5c57677506ae86e4db",
+      "size_bytes": 80354810
+    }
+  ],
+  "identity_policy": "exact (set,video,pid,frame_idx); no b-suffix aliasing",
+  "missing_manifest": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/079_jaad_api_protocol_two_stage_xgb/cache/required_missing_pose_rows.csv",
+    "sha256": "e4900dd2a39f8ebbd71e56cda75cb0b0595ac93fd07ab250d7438f46d42ee7c6",
+    "size_bytes": 3475287
+  },
+  "window_manifest": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/031_jaad_api_label_protocol_sensitivity/metrics/protocol_a_window_audit.csv",
+    "sha256": "56e3cb42efe80ae41968c6fa97de45475b09cc1459d1d6bd4bb39e109f568bcb",
+    "size_bytes": 20976495
+  }
+}

@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+\caption{PSI results under each study's evaluation protocol; BA: balanced accuracy.}\label{tab:ch4_literature_psi}
+\begin{tabularx}{\textwidth}{@{}Xrrrr@{}}\toprule
+\textbf{Method} & \textbf{Acc.} & \textbf{\boldmath $F_1^{+}$} & \textbf{\boldmath Macro-$F_1$} & \textbf{BA} \\[3pt]
+\midrule
+
+eP2P~\cite{Jing2025PSI} & 0.6030 & -- & 0.5701 & 0.6226\\[3pt]
+eP2P + disagreement + reasoning~\cite{Jing2025PSI} & 0.6309 & -- & 0.5855 & 0.6253\\[3pt]
+\midrule
+Ours: BBox + BIU-v2 (109-D) & 0.6538 & 0.7600 & 0.5696 & 0.5777\\[3pt]
+Ours: XGBoost behavioral (135-D) & 0.7043 & 0.8040 & 0.6010 & 0.6005\\[3pt]
+Ours: XGBoost + road context (195-D) & \textbf{0.7324} & \textbf{0.8247} & \textbf{0.6297} & \textbf{0.6261}\\[3pt]
+\bottomrule
+\end{tabularx}
+\end{table}

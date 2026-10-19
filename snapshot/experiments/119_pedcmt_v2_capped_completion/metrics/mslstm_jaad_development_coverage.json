@@ -1,0 +1,27 @@
+{
+  "test_accessed": false,
+  "coverage": [
+    {
+      "split": "train",
+      "windows": 1552,
+      "required_unique_track_frames": 6658,
+      "cached_track_frames": 0,
+      "missing_track_frames": 6658,
+      "unique_images": 5354,
+      "available_png_images": 5354,
+      "exact_source_rows": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/trainval_source/rows.csv",
+      "cache_source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/049_exp048_to_jaad_zero_shot/cache/yolop/yolop_parts"
+    },
+    {
+      "split": "val",
+      "windows": 274,
+      "required_unique_track_frames": 1186,
+      "cached_track_frames": 0,
+      "missing_track_frames": 1186,
+      "unique_images": 826,
+      "available_png_images": 826,
+      "exact_source_rows": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/trainval_source/rows.csv",
+      "cache_source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/049_exp048_to_jaad_zero_shot/cache/yolop/yolop_parts"
+    }
+  ]
+}

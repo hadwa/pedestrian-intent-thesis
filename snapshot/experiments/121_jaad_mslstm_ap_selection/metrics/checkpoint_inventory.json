@@ -1,0 +1,17 @@
+{
+  "files": [
+    "checkpoints/A_seed42.best.pt",
+    "checkpoints/A_seed43.best.pt",
+    "checkpoints/A_seed44.best.pt",
+    "checkpoints/B_seed42.best.pt",
+    "checkpoints/B_seed43.best.pt",
+    "checkpoints/B_seed44.best.pt",
+    "checkpoints/C_seed42.best.pt",
+    "checkpoints/C_seed43.best.pt",
+    "checkpoints/C_seed44.best.pt",
+    "checkpoints/D_seed42.best.pt",
+    "checkpoints/D_seed43.best.pt",
+    "checkpoints/D_seed44.best.pt"
+  ],
+  "reason_for_retrain": "Only best-F1 checkpoints retained; no epoch archive in Exp120"
+}

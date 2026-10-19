@@ -1,0 +1,14 @@
+{
+  "classification": "retrospective matched control",
+  "experiment": 96,
+  "protocol": "PIE 16 observed frames, TTE30--60, overlap0.6, fixed threshold0.5",
+  "recomputed": "four matched XGBoost arms across three seeds",
+  "reused": "authenticated Exp072 prepared feature matrices",
+  "source_hashes": {
+    "prepared_train.csv": "e0d1b9a35c74de95c4f6c56f13c4db8123b1272f8609b56208d571342f4689ea",
+    "prepared_validation.csv": "7b72d2476d38aa9b7efe40680e00bbe5c7aef3aeaedf731708225dacce275356"
+  },
+  "test_accessed_by_exp096_prepare": false,
+  "train_rows": 2366,
+  "validation_rows": 3619
+}

@@ -1,0 +1,380 @@
+[
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/full63_seed42.best.pt",
+    "relative_source": "experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/full63_seed42.best.pt",
+    "destination": "data/saved_weights/experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/full63_seed42.best.pt",
+    "bytes": 370705,
+    "sha256": "69b1532841358c11f108185af5fd4bfa67a4aa9add3fc5d40a8fcb0d5c5da9a3",
+    "role": "Exp119 capped correction branch; requires frozen parent",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/core56_seed42.best.pt",
+    "relative_source": "experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/core56_seed42.best.pt",
+    "destination": "data/saved_weights/experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/core56_seed42.best.pt",
+    "bytes": 367121,
+    "sha256": "f0cc801e2186dc2709b0a8fcf054fa94fb1307ed1495152237a8c10a8349bc33",
+    "role": "Exp119 capped correction branch; requires frozen parent",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/full63_seed44.best.pt",
+    "relative_source": "experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/full63_seed44.best.pt",
+    "destination": "data/saved_weights/experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/full63_seed44.best.pt",
+    "bytes": 370705,
+    "sha256": "3e3a2ebe964fd8e4b4dcea6c293e9623ea364840070d556c948e06910b4ebd63",
+    "role": "Exp119 capped correction branch; requires frozen parent",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/core56_seed43.best.pt",
+    "relative_source": "experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/core56_seed43.best.pt",
+    "destination": "data/saved_weights/experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/core56_seed43.best.pt",
+    "bytes": 367121,
+    "sha256": "e9caba0846a71fa3097d0a33f5ba4571bad7c0a48330905e063a73187d4e5296",
+    "role": "Exp119 capped correction branch; requires frozen parent",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/core56_seed44.best.pt",
+    "relative_source": "experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/core56_seed44.best.pt",
+    "destination": "data/saved_weights/experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/core56_seed44.best.pt",
+    "bytes": 367121,
+    "sha256": "06be3ee86912b260db0834ccb81c2e9fd558e578d8660d8853342eea12bfae8a",
+    "role": "Exp119 capped correction branch; requires frozen parent",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/full63_seed43.best.pt",
+    "relative_source": "experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/full63_seed43.best.pt",
+    "destination": "data/saved_weights/experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/full63_seed43.best.pt",
+    "bytes": 370705,
+    "sha256": "50b982474c2fb42f96bcbdf4f3b42dfd756f3728d46520f9b84734ed7c818704",
+    "role": "Exp119 capped correction branch; requires frozen parent",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/full63_seed42.best.pt",
+    "relative_source": "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/full63_seed42.best.pt",
+    "destination": "data/saved_weights/experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/full63_seed42.best.pt",
+    "bytes": 370705,
+    "sha256": "cd1e4366132824bdaa903aa0eb1759494062f840067adf48d0391b08f38197da",
+    "role": "Exp119 capped correction branch; requires frozen parent",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/core56_seed42.best.pt",
+    "relative_source": "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/core56_seed42.best.pt",
+    "destination": "data/saved_weights/experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/core56_seed42.best.pt",
+    "bytes": 367121,
+    "sha256": "5f9ba2ae7647b76a5052edd56e97017e1af1ad65dd67d463cc328c65c5447c19",
+    "role": "Exp119 capped correction branch; requires frozen parent",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/raw_seed42.best.pt",
+    "relative_source": "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/raw_seed42.best.pt",
+    "destination": "data/saved_weights/experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/raw_seed42.best.pt",
+    "bytes": 2427005,
+    "sha256": "0c35856b06b38962a9444becceda4d227dfc4dbc6951e4d63ea2b3eb075c6c91",
+    "role": "Exp119 capped correction branch; requires frozen parent",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/full63_seed44.best.pt",
+    "relative_source": "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/full63_seed44.best.pt",
+    "destination": "data/saved_weights/experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/full63_seed44.best.pt",
+    "bytes": 370705,
+    "sha256": "6b655ea471ad027c54bd0a9ce322c877ef88aaafb2aca966574ecec1a5c7dfc7",
+    "role": "Exp119 capped correction branch; requires frozen parent",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/core56_seed43.best.pt",
+    "relative_source": "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/core56_seed43.best.pt",
+    "destination": "data/saved_weights/experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/core56_seed43.best.pt",
+    "bytes": 367121,
+    "sha256": "084bb7ef81bf925847dc7286a4acb3ce6fa67993b9b7766c5e508963608cf9d9",
+    "role": "Exp119 capped correction branch; requires frozen parent",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/core56_seed44.best.pt",
+    "relative_source": "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/core56_seed44.best.pt",
+    "destination": "data/saved_weights/experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/core56_seed44.best.pt",
+    "bytes": 367121,
+    "sha256": "44c168ba685436c608a2030cabe31e4f7b042271d2366ca8df86f5f743fb1440",
+    "role": "Exp119 capped correction branch; requires frozen parent",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/raw_seed43.best.pt",
+    "relative_source": "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/raw_seed43.best.pt",
+    "destination": "data/saved_weights/experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/raw_seed43.best.pt",
+    "bytes": 2427005,
+    "sha256": "e8f52ebc2188cb39ca84b73cfd470f5326f261980a59e8a7de6ad11c484adaf5",
+    "role": "Exp119 capped correction branch; requires frozen parent",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/full63_seed43.best.pt",
+    "relative_source": "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/full63_seed43.best.pt",
+    "destination": "data/saved_weights/experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/full63_seed43.best.pt",
+    "bytes": 370705,
+    "sha256": "dcc445cb38edafea94f53d5a05a54c90e6728e4761db9679a1e268d074aed13b",
+    "role": "Exp119 capped correction branch; requires frozen parent",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/raw_seed44.best.pt",
+    "relative_source": "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/raw_seed44.best.pt",
+    "destination": "data/saved_weights/experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/raw_seed44.best.pt",
+    "bytes": 2427005,
+    "sha256": "c0332162847aabf3c7f7f33c1fb40b94066176ce88f11b6595fe189ddd4b878a",
+    "role": "Exp119 capped correction branch; requires frozen parent",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/122_jaad_mslstm_no_noise/checkpoints/A_seed43_ap.pt",
+    "relative_source": "experiments/122_jaad_mslstm_no_noise/checkpoints/A_seed43_ap.pt",
+    "destination": "data/saved_weights/experiments/122_jaad_mslstm_no_noise/checkpoints/A_seed43_ap.pt",
+    "bytes": 18376108,
+    "sha256": "4a0f612184dcae24ea514bb0d4cfde1110f3b2d6546843f238d8ae4e7c6fe5d4",
+    "role": "Exp122 primary validation-AP-selected checkpoint",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/122_jaad_mslstm_no_noise/checkpoints/D_seed42_ap.pt",
+    "relative_source": "experiments/122_jaad_mslstm_no_noise/checkpoints/D_seed42_ap.pt",
+    "destination": "data/saved_weights/experiments/122_jaad_mslstm_no_noise/checkpoints/D_seed42_ap.pt",
+    "bytes": 18674352,
+    "sha256": "635db31af55e026d2200d568909ec00c37993578735b7ea56375e2f4a049b52e",
+    "role": "Exp122 primary validation-AP-selected checkpoint",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/122_jaad_mslstm_no_noise/checkpoints/C_seed43_ap.pt",
+    "relative_source": "experiments/122_jaad_mslstm_no_noise/checkpoints/C_seed43_ap.pt",
+    "destination": "data/saved_weights/experiments/122_jaad_mslstm_no_noise/checkpoints/C_seed43_ap.pt",
+    "bytes": 18670768,
+    "sha256": "1d75912da17216cfffef71f53ffa8379d1234fdfbbb8b521ef47308e57af27a4",
+    "role": "Exp122 primary validation-AP-selected checkpoint",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/122_jaad_mslstm_no_noise/checkpoints/B_seed42_ap.pt",
+    "relative_source": "experiments/122_jaad_mslstm_no_noise/checkpoints/B_seed42_ap.pt",
+    "destination": "data/saved_weights/experiments/122_jaad_mslstm_no_noise/checkpoints/B_seed42_ap.pt",
+    "bytes": 27345344,
+    "sha256": "d3225752d3b538e502873a83e46eae25c2a2f39644d2c9f8454daa36f678a409",
+    "role": "Exp122 primary validation-AP-selected checkpoint",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/122_jaad_mslstm_no_noise/checkpoints/B_seed44_ap.pt",
+    "relative_source": "experiments/122_jaad_mslstm_no_noise/checkpoints/B_seed44_ap.pt",
+    "destination": "data/saved_weights/experiments/122_jaad_mslstm_no_noise/checkpoints/B_seed44_ap.pt",
+    "bytes": 27345344,
+    "sha256": "f3b5f1b7f75b391357255e53b782fc322c47451568891704989eb4b3031884e8",
+    "role": "Exp122 primary validation-AP-selected checkpoint",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/122_jaad_mslstm_no_noise/checkpoints/D_seed43_ap.pt",
+    "relative_source": "experiments/122_jaad_mslstm_no_noise/checkpoints/D_seed43_ap.pt",
+    "destination": "data/saved_weights/experiments/122_jaad_mslstm_no_noise/checkpoints/D_seed43_ap.pt",
+    "bytes": 18674352,
+    "sha256": "d65a2ab797041a8166f381fdd1d0a558b6dd67f1761f29db51a203f64820c5ce",
+    "role": "Exp122 primary validation-AP-selected checkpoint",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/122_jaad_mslstm_no_noise/checkpoints/B_seed43_ap.pt",
+    "relative_source": "experiments/122_jaad_mslstm_no_noise/checkpoints/B_seed43_ap.pt",
+    "destination": "data/saved_weights/experiments/122_jaad_mslstm_no_noise/checkpoints/B_seed43_ap.pt",
+    "bytes": 27345344,
+    "sha256": "4ef07f873b46e9a72265daf99308b6ef798adbd674c2443b8fe95bbab9a34f4f",
+    "role": "Exp122 primary validation-AP-selected checkpoint",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/122_jaad_mslstm_no_noise/checkpoints/C_seed44_ap.pt",
+    "relative_source": "experiments/122_jaad_mslstm_no_noise/checkpoints/C_seed44_ap.pt",
+    "destination": "data/saved_weights/experiments/122_jaad_mslstm_no_noise/checkpoints/C_seed44_ap.pt",
+    "bytes": 18670768,
+    "sha256": "cf9f71727f730d2beb0b3ebd9883542b58f482f7f6858b3573a507e3cb8d753f",
+    "role": "Exp122 primary validation-AP-selected checkpoint",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/122_jaad_mslstm_no_noise/checkpoints/D_seed44_ap.pt",
+    "relative_source": "experiments/122_jaad_mslstm_no_noise/checkpoints/D_seed44_ap.pt",
+    "destination": "data/saved_weights/experiments/122_jaad_mslstm_no_noise/checkpoints/D_seed44_ap.pt",
+    "bytes": 18674352,
+    "sha256": "53561a4c8e00229212d611cf6c1c598dba63fe76afef445c2fe55ba716aa59bb",
+    "role": "Exp122 primary validation-AP-selected checkpoint",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/122_jaad_mslstm_no_noise/checkpoints/C_seed42_ap.pt",
+    "relative_source": "experiments/122_jaad_mslstm_no_noise/checkpoints/C_seed42_ap.pt",
+    "destination": "data/saved_weights/experiments/122_jaad_mslstm_no_noise/checkpoints/C_seed42_ap.pt",
+    "bytes": 18670768,
+    "sha256": "f538ba72ab5c55029484174c093947fcfbd6f20e190a3d65f640611209f2127f",
+    "role": "Exp122 primary validation-AP-selected checkpoint",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/122_jaad_mslstm_no_noise/checkpoints/A_seed44_ap.pt",
+    "relative_source": "experiments/122_jaad_mslstm_no_noise/checkpoints/A_seed44_ap.pt",
+    "destination": "data/saved_weights/experiments/122_jaad_mslstm_no_noise/checkpoints/A_seed44_ap.pt",
+    "bytes": 18376108,
+    "sha256": "af63893fcb0da48a2de2809abb4bec5a3589825accbeb4f3fba7e56a8433bcec",
+    "role": "Exp122 primary validation-AP-selected checkpoint",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/122_jaad_mslstm_no_noise/checkpoints/A_seed42_ap.pt",
+    "relative_source": "experiments/122_jaad_mslstm_no_noise/checkpoints/A_seed42_ap.pt",
+    "destination": "data/saved_weights/experiments/122_jaad_mslstm_no_noise/checkpoints/A_seed42_ap.pt",
+    "bytes": 18376108,
+    "sha256": "d622df28be8e051acbeaf57b581997354c106b142b813da613dc0874c3ed6107",
+    "role": "Exp122 primary validation-AP-selected checkpoint",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/084_pedcmt_biu_transfer/checkpoints/A_seed42.best.pt",
+    "relative_source": "experiments/084_pedcmt_biu_transfer/checkpoints/A_seed42.best.pt",
+    "destination": "data/saved_weights/experiments/084_pedcmt_biu_transfer/checkpoints/A_seed42.best.pt",
+    "bytes": 7407136,
+    "sha256": "2afa77b4bb55b7f6cc28e85af547771406ab7e6b7ac9fa9f63d04168298c9efb",
+    "role": "Frozen PedCMT parent; PIE Exp084 or clean-JAAD Exp089",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/084_pedcmt_biu_transfer/checkpoints/A_seed43.best.pt",
+    "relative_source": "experiments/084_pedcmt_biu_transfer/checkpoints/A_seed43.best.pt",
+    "destination": "data/saved_weights/experiments/084_pedcmt_biu_transfer/checkpoints/A_seed43.best.pt",
+    "bytes": 7407136,
+    "sha256": "63c16d30ddd7403049762c79c82120e21aa89897b700dbaa9db6010a697e4bbb",
+    "role": "Frozen PedCMT parent; PIE Exp084 or clean-JAAD Exp089",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/084_pedcmt_biu_transfer/checkpoints/A_seed44.best.pt",
+    "relative_source": "experiments/084_pedcmt_biu_transfer/checkpoints/A_seed44.best.pt",
+    "destination": "data/saved_weights/experiments/084_pedcmt_biu_transfer/checkpoints/A_seed44.best.pt",
+    "bytes": 7407136,
+    "sha256": "f822c331fe334690ad7856252bb617218434545dd3ec0c63eeabdbb25e81d2b0",
+    "role": "Frozen PedCMT parent; PIE Exp084 or clean-JAAD Exp089",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/084_pedcmt_biu_transfer/cache/trainval/training_stats.npz",
+    "relative_source": "experiments/084_pedcmt_biu_transfer/cache/trainval/training_stats.npz",
+    "destination": "data/saved_weights/experiments/084_pedcmt_biu_transfer/cache/trainval/training_stats.npz",
+    "bytes": 4434,
+    "sha256": "5655b09f676ab452b47b8bc4e040065ee574925dac2857ec9f5c6da6945bd732",
+    "role": "Parent training-only pose/BIU normalization statistics",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/checkpoints/A_seed42.best.pt",
+    "relative_source": "experiments/089_pedcmt_standardized_jaad_biu_transfer/checkpoints/A_seed42.best.pt",
+    "destination": "data/saved_weights/experiments/089_pedcmt_standardized_jaad_biu_transfer/checkpoints/A_seed42.best.pt",
+    "bytes": 7407136,
+    "sha256": "b5338a27d66686afad84a811d5d4f55adf55ff9432c036a41a59aed54db37d7b",
+    "role": "Frozen PedCMT parent; PIE Exp084 or clean-JAAD Exp089",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/checkpoints/A_seed43.best.pt",
+    "relative_source": "experiments/089_pedcmt_standardized_jaad_biu_transfer/checkpoints/A_seed43.best.pt",
+    "destination": "data/saved_weights/experiments/089_pedcmt_standardized_jaad_biu_transfer/checkpoints/A_seed43.best.pt",
+    "bytes": 7407136,
+    "sha256": "d3b1642136c7deb6354da535f11b152198ec4c036ec7d875223fc70f7ef9043c",
+    "role": "Frozen PedCMT parent; PIE Exp084 or clean-JAAD Exp089",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/checkpoints/A_seed44.best.pt",
+    "relative_source": "experiments/089_pedcmt_standardized_jaad_biu_transfer/checkpoints/A_seed44.best.pt",
+    "destination": "data/saved_weights/experiments/089_pedcmt_standardized_jaad_biu_transfer/checkpoints/A_seed44.best.pt",
+    "bytes": 7407136,
+    "sha256": "c84b8ba274a413f08e338d024ada6644b14f689b572439c76bdc336fe431a77b",
+    "role": "Frozen PedCMT parent; PIE Exp084 or clean-JAAD Exp089",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/trainval/training_stats.npz",
+    "relative_source": "experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/trainval/training_stats.npz",
+    "destination": "data/saved_weights/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/trainval/training_stats.npz",
+    "bytes": 4434,
+    "sha256": "0de21da8feb81dcde0b0186699bc8b74b674913f679a803312c250ed0c92f559",
+    "role": "Parent training-only pose/BIU normalization statistics",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/094_pedcmt_jaad_capped_raw_pose_control/checkpoints/P_seed42.best.pt",
+    "relative_source": "experiments/094_pedcmt_jaad_capped_raw_pose_control/checkpoints/P_seed42.best.pt",
+    "destination": "data/saved_weights/experiments/094_pedcmt_jaad_capped_raw_pose_control/checkpoints/P_seed42.best.pt",
+    "bytes": 2426875,
+    "sha256": "af9f37c82d6727d1a8196209d7a2a126b6df9625b272ba5516b376ad579f8cd3",
+    "role": "Exp094 clean-JAAD raw correction branch; requires Exp089 parent",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/094_pedcmt_jaad_capped_raw_pose_control/checkpoints/P_seed43.best.pt",
+    "relative_source": "experiments/094_pedcmt_jaad_capped_raw_pose_control/checkpoints/P_seed43.best.pt",
+    "destination": "data/saved_weights/experiments/094_pedcmt_jaad_capped_raw_pose_control/checkpoints/P_seed43.best.pt",
+    "bytes": 2426875,
+    "sha256": "31920013735b3ab175b5b7ae5f0bdc92f6c66eb33e55069d0d810cd74909309e",
+    "role": "Exp094 clean-JAAD raw correction branch; requires Exp089 parent",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/094_pedcmt_jaad_capped_raw_pose_control/checkpoints/P_seed44.best.pt",
+    "relative_source": "experiments/094_pedcmt_jaad_capped_raw_pose_control/checkpoints/P_seed44.best.pt",
+    "destination": "data/saved_weights/experiments/094_pedcmt_jaad_capped_raw_pose_control/checkpoints/P_seed44.best.pt",
+    "bytes": 2426875,
+    "sha256": "41ae31f025d37cb23a35d02daec468ef2db8460a25bf75f17ec4a658690cd210",
+    "role": "Exp094 clean-JAAD raw correction branch; requires Exp089 parent",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/122_jaad_mslstm_no_noise/metrics/bbox53_scaler.json",
+    "relative_source": "experiments/122_jaad_mslstm_no_noise/metrics/bbox53_scaler.json",
+    "destination": "data/saved_weights/experiments/122_jaad_mslstm_no_noise/metrics/bbox53_scaler.json",
+    "bytes": 3765,
+    "sha256": "04ffce0f6b14490ad9486c55a4b941214d5504e4a18dc250bd3fb61214c8702f",
+    "role": "Exp122 input preprocessing metadata",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/122_jaad_mslstm_no_noise/metrics/feature_contract.json",
+    "relative_source": "experiments/122_jaad_mslstm_no_noise/metrics/feature_contract.json",
+    "destination": "data/saved_weights/experiments/122_jaad_mslstm_no_noise/metrics/feature_contract.json",
+    "bytes": 4017,
+    "sha256": "e0d1db0f089058be4e568d7f95c7f9a86e30a920a2f9cc641d6c10fcf157bfd5",
+    "role": "Exp122 input preprocessing metadata",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/119_pedcmt_v2_capped_completion/pie/metrics/feature_contract.json",
+    "relative_source": "experiments/119_pedcmt_v2_capped_completion/pie/metrics/feature_contract.json",
+    "destination": "data/saved_weights/experiments/119_pedcmt_v2_capped_completion/pie/metrics/feature_contract.json",
+    "bytes": 3670,
+    "sha256": "bf46a13fca8eabf011576b9b8fba26bca492cdffac43982e5626d03ca12d3841",
+    "role": "Exp119 named BIU input schema",
+    "copied": true
+  },
+  {
+    "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/119_pedcmt_v2_capped_completion/jaad/metrics/feature_contract.json",
+    "relative_source": "experiments/119_pedcmt_v2_capped_completion/jaad/metrics/feature_contract.json",
+    "destination": "data/saved_weights/experiments/119_pedcmt_v2_capped_completion/jaad/metrics/feature_contract.json",
+    "bytes": 3670,
+    "sha256": "bf46a13fca8eabf011576b9b8fba26bca492cdffac43982e5626d03ca12d3841",
+    "role": "Exp119 named BIU input schema",
+    "copied": true
+  }
+]

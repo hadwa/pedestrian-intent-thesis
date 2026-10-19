@@ -1,0 +1,98 @@
+[
+  {
+    "cohort": "jaad_clean",
+    "split": "validation",
+    "seed": 42,
+    "arm": "R242",
+    "max_probability_error": 2.9531860401554866e-08,
+    "ids_labels_match": true
+  },
+  {
+    "cohort": "jaad_clean",
+    "split": "validation",
+    "seed": 42,
+    "arm": "V197",
+    "max_probability_error": 1.1102230246251565e-16,
+    "ids_labels_match": true
+  },
+  {
+    "cohort": "jaad_clean",
+    "split": "validation",
+    "seed": 43,
+    "arm": "R242",
+    "max_probability_error": 2.97248839986608e-08,
+    "ids_labels_match": true
+  },
+  {
+    "cohort": "jaad_clean",
+    "split": "validation",
+    "seed": 43,
+    "arm": "V197",
+    "max_probability_error": 1.1102230246251565e-16,
+    "ids_labels_match": true
+  },
+  {
+    "cohort": "jaad_clean",
+    "split": "validation",
+    "seed": 44,
+    "arm": "R242",
+    "max_probability_error": 2.9351806651867207e-08,
+    "ids_labels_match": true
+  },
+  {
+    "cohort": "jaad_clean",
+    "split": "validation",
+    "seed": 44,
+    "arm": "V197",
+    "max_probability_error": 1.1102230246251565e-16,
+    "ids_labels_match": true
+  },
+  {
+    "cohort": "jaad_beh",
+    "split": "validation",
+    "seed": 42,
+    "arm": "R242",
+    "max_probability_error": 2.955398559212341e-08,
+    "ids_labels_match": true
+  },
+  {
+    "cohort": "jaad_beh",
+    "split": "validation",
+    "seed": 43,
+    "arm": "R242",
+    "max_probability_error": 2.952041622261703e-08,
+    "ids_labels_match": true
+  },
+  {
+    "cohort": "jaad_beh",
+    "split": "validation",
+    "seed": 44,
+    "arm": "R242",
+    "max_probability_error": 2.9710388149695177e-08,
+    "ids_labels_match": true
+  },
+  {
+    "cohort": "jaad_all",
+    "split": "validation",
+    "seed": 42,
+    "arm": "R242",
+    "max_probability_error": 2.972030643810797e-08,
+    "ids_labels_match": true
+  },
+  {
+    "cohort": "jaad_all",
+    "split": "validation",
+    "seed": 43,
+    "arm": "R242",
+    "max_probability_error": 2.9598999029545325e-08,
+    "ids_labels_match": true
+  },
+  {
+    "cohort": "jaad_all",
+    "split": "validation",
+    "seed": 44,
+    "arm": "R242",
+    "max_probability_error": 2.978134150399825e-08,
+    "ids_labels_match": true
+  }
+]

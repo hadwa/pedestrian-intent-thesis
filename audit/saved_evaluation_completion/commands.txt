@@ -1,0 +1,16 @@
+/home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python -B /tmp/tabular_eval/prepare.py
+/home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python -B /tmp/tabular_eval/prepare_v2.py
+python /tmp/tabular_eval/validate.py
+/home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python -B /tmp/mslstm_eval/prepare.py
+python /tmp/mslstm_eval/validate.py
+/home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python -B /tmp/pedcmt_eval/prepare.py
+python /tmp/pedcmt_eval/validate.py
+python /tmp/pedcmt_eval/validate_v2.py
+python /tmp/finish_saved_evaluators.py
+
+Exact isolated subprocess command arrays, cwd, stdout and stderr:
+../tabular_evaluation_v2/validation_command.json
+../mslstm_evaluation/validation_command.json
+../pedcmt_evaluation/validation_command_v2.json
+
+Every exported input path/hash is recorded in each route's source_hashes.json and the data bundle manifests. No training command was run. tools/evaluate_tabular.py, tools/evaluate_mslstm.py and tools/evaluate_pedcmt.py have no training entry point.

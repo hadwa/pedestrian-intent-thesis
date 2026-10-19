@@ -1,0 +1,37 @@
+{
+  "differences": {
+    "42": {
+      "accuracy": 0.0,
+      "brier": 0.0,
+      "f1": 0.0,
+      "log_loss": 0.0,
+      "pr_auc": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "roc_auc": 0.0
+    },
+    "43": {
+      "accuracy": 0.0,
+      "brier": 2.7755575615628914e-17,
+      "f1": 0.0,
+      "log_loss": 0.0,
+      "pr_auc": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "roc_auc": 0.0
+    },
+    "44": {
+      "accuracy": 0.0,
+      "brier": 2.7755575615628914e-17,
+      "f1": 0.0,
+      "log_loss": 0.0,
+      "pr_auc": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "roc_auc": 0.0
+    }
+  },
+  "maximum_absolute_metric_difference": 2.7755575615628914e-17,
+  "status": "pass",
+  "tolerance": 1e-12
+}

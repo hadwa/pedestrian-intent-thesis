@@ -1,0 +1,9 @@
+{
+  "all_seed_positive": {
+    "f1": false,
+    "pr_auc": false,
+    "roc_auc": false
+  },
+  "promising": false,
+  "test_authorized": false
+}

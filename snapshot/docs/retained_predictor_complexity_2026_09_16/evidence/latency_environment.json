@@ -1,0 +1,107 @@
+{
+  "cpu_affinity": [
+    2
+  ],
+  "cpu": "11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz",
+  "threads": 1,
+  "device": "CPU",
+  "batch": 1,
+  "warmup_per_block": 60,
+  "repetitions_per_block": 200,
+  "blocks": 3,
+  "windows": 32,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "torch_inference_mode": true,
+  "torch_compile": false,
+  "torch_mkldnn": true,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/site-packages/numpy.libs/libscipy_openblas64_-56d6093b.so",
+      "version": "0.3.29",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libgomp",
+      "filepath": "/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/site-packages/torch/lib/libgomp.so.1",
+      "version": null
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/site-packages/scipy.libs/libscipy_openblas-68440149.so",
+      "version": "0.3.28",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libgomp",
+      "filepath": "/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/site-packages/scikit_learn.libs/libgomp-a34b3233.so.1.0.0",
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libgomp",
+      "filepath": "/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/site-packages/xgboost.libs/libgomp-e985bcbb.so.1.0.0",
+      "version": null
+    }
+  ],
+  "loadavg_after": [
+    0.96484375,
+    0.5048828125,
+    0.20263671875
+  ],
+  "window_selection": "32 evenly spaced cached rows; PIE sequence IDs shared by all predictor families",
+  "upstream_excluded": true,
+  "mslstm_input_shapes": {
+    "bbox": [
+      16,
+      4
+    ],
+    "ego_speed": [
+      16,
+      1
+    ],
+    "ego_acc": [
+      16,
+      2
+    ],
+    "yolop": [
+      16,
+      20
+    ],
+    "pose": [
+      16,
+      34
+    ],
+    "biu_v1": [
+      72
+    ],
+    "biu_v2": [
+      63
+    ],
+    "bbox53": [
+      53
+    ]
+  },
+  "xgb_input_dtype": "float64 pandas DataFrame",
+  "neural_input_dtype": "float32 CPU tensors"
+}

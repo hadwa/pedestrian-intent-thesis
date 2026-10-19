@@ -1,0 +1,10 @@
+seed,transition,count
+42,A_correct_to_D_wrong,83
+42,A_wrong_to_D_correct,146
+42,unchanged_correctness,1272
+43,A_correct_to_D_wrong,79
+43,A_wrong_to_D_correct,154
+43,unchanged_correctness,1268
+44,A_correct_to_D_wrong,86
+44,A_wrong_to_D_correct,149
+44,unchanged_correctness,1266

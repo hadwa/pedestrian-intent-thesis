@@ -1,0 +1,21 @@
+{
+  "splits": {
+    "train": {
+      "audit_sample_windows": 128,
+      "displacement_reduction_pass": true,
+      "median_displacement_reduction_fraction": 0.706085683614601,
+      "valid_transition_fraction": 1.0,
+      "valid_transition_pass": true,
+      "windows": 1552
+    },
+    "validation": {
+      "audit_sample_windows": 128,
+      "displacement_reduction_pass": true,
+      "median_displacement_reduction_fraction": 0.7412282008677121,
+      "valid_transition_fraction": 1.0,
+      "valid_transition_pass": true,
+      "windows": 274
+    }
+  },
+  "status": "pass"
+}

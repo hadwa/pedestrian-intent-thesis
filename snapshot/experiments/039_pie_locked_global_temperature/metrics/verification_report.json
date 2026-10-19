@@ -1,0 +1,7 @@
+{
+  "confirmation_rows_per_arm": 1204,
+  "confirmation_status": "no_advance",
+  "forbidden_set03_outputs": [],
+  "global_temperature_invariants": "PASS",
+  "status": "PASS"
+}

@@ -1,0 +1,19 @@
+{
+  "experiments/psi_v2_attribution_2026_10_19/analyze.py": "0459e8883ece79eec3e825cadfa7c03d7542708820010cdeac44a41b46e0cc80",
+  "experiments/psi_v2_attribution_2026_10_19/DESIGN.md": "149351edb6d54678bc705cd34816acf97e7a67cb5047ab2d7c99c335071b7d56",
+  "experiments/116_xgboost_v2_core_completion/DESIGN.md": "14bc00bbb89aeeb7ce771e2ecb1ce4353cf9d53a631c91737140fdc79f5c48ae",
+  "experiments/124_psi_matched_lightweight_ablation/DESIGN.md": "180d73a8ad2cba1a2281d2cc1b7a9d61facba852fac48bffbdb8cdf80defa88d",
+  "experiments/116_xgboost_v2_core_completion/cache/psi_ego/test/rows.csv": "9350de99f7ba36707efb4014e4bf5bad9336db616202f6ee2423c0454762d06e",
+  "experiments/116_xgboost_v2_core_completion/cache/psi_ego/test/columns.json": "23159e8353ba745ba9e0fb9179bf44999a9d435f53b7ade13b32aa6f494947fa",
+  "experiments/116_xgboost_v2_core_completion/cache/psi_ego/test/features.npy": "3692e0d8f55b40870d80f72670842f515983471f2e5c87a96289b1122ff424a6",
+  "experiments/012_pie_biu_v2_30_60_benchmark/metrics/pie_biu_v2_feature_set_definitions.csv": "6708d290d9263ad29000786cf6d15c5ec052dc8712c1b5a16741944295d0145c",
+  "experiments/116_xgboost_v2_core_completion/models/psi_ego_seed42.joblib": "3b3c3a7d6ff199c86d3bd860104e1c265a1060e8eee9e35b5c079159e6eac8f5",
+  "experiments/116_xgboost_v2_core_completion/predictions/psi_ego_test_seed42.csv": "398e77bb4fa65fa90f2f1fd3f7f2eabaa13ad07794a7e4e8ef7a87660d0c2481",
+  "experiments/124_psi_matched_lightweight_ablation/predictions/test_C_seed42.csv": "e6f6d2c723cfc1b43095c1eb4bc1ef39be866984dee9d2005ed9565b766faded",
+  "experiments/116_xgboost_v2_core_completion/models/psi_ego_seed43.joblib": "1dff87254918cef641516919653eb8857fedf110e93d316775189b7223821852",
+  "experiments/116_xgboost_v2_core_completion/predictions/psi_ego_test_seed43.csv": "e65611e81520f8670f7f8c0f64af59d32fe4fdbb5da620f02a36cae5e76d2067",
+  "experiments/124_psi_matched_lightweight_ablation/predictions/test_C_seed43.csv": "82988a6db8aafdaf92d3d3734c3754d4925b10f7aabc4c3d9cbc940762bd1fb7",
+  "experiments/116_xgboost_v2_core_completion/models/psi_ego_seed44.joblib": "9b67c95e75578539ac0931d250429f17c77dfb06e8f2951cb9bb981d719b4afe",
+  "experiments/116_xgboost_v2_core_completion/predictions/psi_ego_test_seed44.csv": "cd607d23c6f0e9d566c584cfee9aa32c34b0b4a6ecc28a6443a25b296ea6f5af",
+  "experiments/124_psi_matched_lightweight_ablation/predictions/test_C_seed44.csv": "fdc7a91d80189c9f6d5c2483ea8840a34de156d128ee8c61a9f4101ac485bc43"
+}

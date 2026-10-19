@@ -1,0 +1,56 @@
+[
+  {
+    "cohort": "jaad_clean",
+    "split": "test",
+    "n": 1501,
+    "positive": 720,
+    "negative": 781,
+    "tracks": 151,
+    "videos": 73,
+    "vehicle_annotation_coverage": 1.0,
+    "no_dropped_rows": true,
+    "category_observation_counts": {
+      "stopped": 1975,
+      "moving_slow": 295,
+      "moving_fast": 405,
+      "decelerating": 14781,
+      "accelerating": 6560
+    }
+  },
+  {
+    "cohort": "jaad_beh",
+    "split": "test",
+    "n": 1881,
+    "positive": 1177,
+    "negative": 704,
+    "tracks": 171,
+    "videos": 81,
+    "vehicle_annotation_coverage": 1.0,
+    "no_dropped_rows": true,
+    "category_observation_counts": {
+      "stopped": 3190,
+      "moving_slow": 123,
+      "moving_fast": 106,
+      "decelerating": 18061,
+      "accelerating": 8616
+    }
+  },
+  {
+    "cohort": "jaad_all",
+    "split": "test",
+    "n": 6732,
+    "positive": 1177,
+    "negative": 5555,
+    "tracks": 612,
+    "videos": 112,
+    "vehicle_annotation_coverage": 1.0,
+    "no_dropped_rows": true,
+    "category_observation_counts": {
+      "stopped": 15946,
+      "moving_slow": 507,
+      "moving_fast": 250,
+      "decelerating": 50082,
+      "accelerating": 40927
+    }
+  }
+]

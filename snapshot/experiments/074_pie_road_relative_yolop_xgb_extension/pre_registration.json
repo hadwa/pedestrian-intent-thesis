@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "experiment": "Exp074",
+  "name": "PIE Exp072 plus road-relative YOLOP context",
+  "status": "PRE_REGISTERED_NOT_RUN",
+  "benchmark": {
+    "dataset": "PIE",
+    "observation_frames": 16,
+    "tte": "30_60",
+    "overlap": 0.6,
+    "threshold": 0.5
+  },
+  "sets": {
+    "train": ["set01", "set02", "set06"],
+    "validation": ["set04", "set05"],
+    "test": ["set03"]
+  },
+  "rows": {"train": 2366, "validation": 3619, "test": 3760},
+  "seeds": [42, 43, 44],
+  "feature_count": {"base": 187, "context": 60, "total": 247},
+  "fit_rule": "train_only_same_saved_model_for_validation_and_test",
+  "reference": "Exp072_XGBoost",
+  "model": {
+    "kind": "xgboost",
+    "n_estimators": 250,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_lambda": 1.0,
+    "objective": "binary:logistic",
+    "eval_metric": "logloss",
+    "n_jobs": 4
+  },
+  "context": {
+    "source_channels": 20,
+    "observation_shape": [16, 20],
+    "summaries": ["early_mean_frames_1_8", "late_mean_frames_9_16", "late_minus_early"],
+    "ordering": "channel_major"
+  },
+  "gate": {
+    "per_seed_min_f1_delta": -0.01,
+    "per_seed_min_pr_auc_delta": -0.01,
+    "mean_min_roc_auc_delta": -0.002,
+    "performance": {"material_delta": 0.005, "other_metric_noninferiority": -0.005, "combined_hc_may_increase": false},
+    "confidence": {"f1_noninferiority": -0.005, "pr_auc_noninferiority": -0.005, "combined_hc_ratio_max": 0.85, "fp_may_increase": false, "fn_may_increase": false, "corrections_must_exceed_harms": true}
+  },
+  "latency": {
+    "batch1": {"warmups": 100, "repetitions": 1000},
+    "batch256": {"warmups": 20, "repetitions": 200},
+    "summarizer": {"warmups": 100, "repetitions": 5000}
+  },
+  "bootstrap": {"replicates": 10000, "seed": 42, "cluster": "track_id"},
+  "sources": {
+    "exp072_prepare_completion": {"path": "experiments/072_pie_joint_biu_temporal_ego_confirmation/metrics/.prepare.complete.json", "sha256": "f828a7cb3a75e2bd1f7758e284e191a1700444278e0676bd188b177a79d6fc67"},
+    "exp072_validate_completion": {"path": "experiments/072_pie_joint_biu_temporal_ego_confirmation/metrics/.validate.complete.json", "sha256": "55e030ceec4447460061bdc82ac15e5a46b4f601649f1b54cb760241213c620b"},
+    "exp072_evaluate_completion": {"path": "experiments/072_pie_joint_biu_temporal_ego_confirmation/metrics/.evaluate.complete.json", "sha256": "7337cc8c6a95205ff41246383808940639adaa61620dfe7fd04093a501f1affd"},
+    "prepared_train": {"path": "experiments/072_pie_joint_biu_temporal_ego_confirmation/metrics/prepared_train.csv", "sha256": "e0d1b9a35c74de95c4f6c56f13c4db8123b1272f8609b56208d571342f4689ea"},
+    "prepared_validation": {"path": "experiments/072_pie_joint_biu_temporal_ego_confirmation/metrics/prepared_validation.csv", "sha256": "7b72d2476d38aa9b7efe40680e00bbe5c7aef3aeaedf731708225dacce275356"},
+    "prepared_test": {"path": "experiments/072_pie_joint_biu_temporal_ego_confirmation/metrics/prepared_test.csv", "sha256": "72e4e0ded1350d6eb6a095d72d43cbf6b1aae716305f06b49f531f27da8bc7a6"},
+    "exp072_model_core": {"path": "experiments/072_pie_joint_biu_temporal_ego_confirmation/scripts/model_core.py", "sha256": "f68b3ac04e37e8d6581172738a3e94dab5f05785ad6a8632279369449b8f5e87"},
+    "exp063_manifest": {"path": "experiments/063_pie_corrected_yolop_road_relative_context/metrics/extraction_manifest.json", "sha256": "23aa9f72e4f3930427c21fcf21d1d408fa494b6daa8a8b93f40e3a4b4d96ff52"},
+    "exp063_representations": {"path": "experiments/063_pie_corrected_yolop_road_relative_context/scripts/representations.py", "sha256": "066d1cea57d38726dd1fd6cad36587733ea2f85fe1f03634c5db568969a25b03"},
+    "exp063_contracts": {"path": "experiments/063_pie_corrected_yolop_road_relative_context/scripts/contracts.py", "sha256": "c3ec52090c6d6f42a09174932abeb4d437c8414f745e86bc26feb793cf8b4998"},
+    "exp063_extract": {"path": "experiments/063_pie_corrected_yolop_road_relative_context/scripts/extract_trainval.py", "sha256": "a07c8333d1ff3dc7c84e42a211349ad133758c901b5309eee6b9e2f74eef8d90"},
+    "exp063_yolop": {"path": "experiments/063_pie_corrected_yolop_road_relative_context/scripts/yolop_inference.py", "sha256": "ec8851ac671dc8240757069e2e68f49615ba94e512cb74510747ea8bbffa41fd"},
+    "exp063_complete": {"path": "experiments/063_pie_corrected_yolop_road_relative_context/EXPERIMENT_COMPLETE", "sha256": "c819e9a324ca35c798fbbb9f8e2d6907bad325f2b809697225dc824a39554a9a"},
+    "exp071_extraction_complete": {"path": "experiments/071_mslstm_attention_selected_set03_evaluation/EXTRACTION_COMPLETE.json", "sha256": "59debb4e045c31ef5b0730c15f4445eec20870380833b4c958bb5d34e6dbd941"}
+  }
+}

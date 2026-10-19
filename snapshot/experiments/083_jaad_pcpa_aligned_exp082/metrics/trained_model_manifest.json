@@ -1,0 +1,60 @@
+{
+  "experiment": "083_jaad_pcpa_aligned_exp082",
+  "models": [
+    {
+      "cohort": "jaad_beh",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/083_jaad_pcpa_aligned_exp082/models/jaad_beh_seed42.joblib",
+      "seed": 42,
+      "sha256": "69d7348e0dd432242f1dd898723f66708451f29c688bf085a093b99a51a15e1e",
+      "size_bytes": 333346,
+      "training_row_digest": "4f5d45e6a1b5238c030ee8442dc2acf1a2384004b3a3241d18507ad07a976bdd",
+      "training_rows": 2134
+    },
+    {
+      "cohort": "jaad_beh",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/083_jaad_pcpa_aligned_exp082/models/jaad_beh_seed43.joblib",
+      "seed": 43,
+      "sha256": "f3e13ebe366420fea229dcc5d23ae4454da407214052d5db22351d54abae23e1",
+      "size_bytes": 334709,
+      "training_row_digest": "4f5d45e6a1b5238c030ee8442dc2acf1a2384004b3a3241d18507ad07a976bdd",
+      "training_rows": 2134
+    },
+    {
+      "cohort": "jaad_beh",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/083_jaad_pcpa_aligned_exp082/models/jaad_beh_seed44.joblib",
+      "seed": 44,
+      "sha256": "0bfe8ba04aa531e24b8ed37b5f7b8a5c84c6d486e4b732c79eeeecadcd874e37",
+      "size_bytes": 335185,
+      "training_row_digest": "4f5d45e6a1b5238c030ee8442dc2acf1a2384004b3a3241d18507ad07a976bdd",
+      "training_rows": 2134
+    },
+    {
+      "cohort": "jaad_all",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/083_jaad_pcpa_aligned_exp082/models/jaad_all_seed42.joblib",
+      "seed": 42,
+      "sha256": "cf03f708e44cc5daeeddde71e343c7246adbc42d4e3bcc07de5740891e9e9b03",
+      "size_bytes": 404476,
+      "training_row_digest": "b2ba157f954a464454583ee856776c867a1a7bd628a03a88a2d9eb4c0ce6949b",
+      "training_rows": 8613
+    },
+    {
+      "cohort": "jaad_all",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/083_jaad_pcpa_aligned_exp082/models/jaad_all_seed43.joblib",
+      "seed": 43,
+      "sha256": "b806fb08d0cf646c61e904fbbe4ca503e47dc4fd263c1d87d5548323931f6807",
+      "size_bytes": 405496,
+      "training_row_digest": "b2ba157f954a464454583ee856776c867a1a7bd628a03a88a2d9eb4c0ce6949b",
+      "training_rows": 8613
+    },
+    {
+      "cohort": "jaad_all",
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/083_jaad_pcpa_aligned_exp082/models/jaad_all_seed44.joblib",
+      "seed": 44,
+      "sha256": "bfe0e382c380e0b2bd46322215e1ff152758ee18e94a3db634d5b118a32becd0",
+      "size_bytes": 406652,
+      "training_row_digest": "b2ba157f954a464454583ee856776c867a1a7bd628a03a88a2d9eb4c0ce6949b",
+      "training_rows": 8613
+    }
+  ],
+  "test_accessed": false
+}

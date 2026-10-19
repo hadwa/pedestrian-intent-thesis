@@ -1,0 +1,16 @@
+{
+  "confirmation_set": "set06",
+  "development_sets": [
+    "set01",
+    "set02",
+    "set04",
+    "set05"
+  ],
+  "diagnostic_test_set": "set03",
+  "phase": "confirmation",
+  "preregistration_sha256": "92273bb1036131bc47aa471d35d9fe746e8e9aa0d7259293294ac90426ea446c",
+  "schema_version": 1,
+  "selected_procedure": null,
+  "status": "no_advance",
+  "threshold": 0.5
+}

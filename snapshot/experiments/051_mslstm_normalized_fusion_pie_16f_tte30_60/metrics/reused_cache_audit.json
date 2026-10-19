@@ -1,0 +1,9 @@
+{
+  "fusion_change": "LayerNorm(512, elementwise_affine=False) before weighted sum",
+  "source_complete_sha256": "123c49bc1dd43b1392f163fe6c176cf93eed142a5ce1edc6e0ed06fe7797fd78",
+  "source_experiment": 50,
+  "source_prepare_marker": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/050_mslstm_practical_behavior_replacement_pie_16f_tte30_60/.prepare.complete.json",
+  "source_prepare_sha256": "19822d68088ebafb8bac55319c90001c0c7c661b5a52e632bedeacf6a530f609",
+  "test_cache_not_accessed_by_exp051_prepare": true,
+  "trainval_metadata_sha256": "bc5a2b567c956857a01e36818afcf970b2268042cc9c4d087f6d03eb809b3632"
+}

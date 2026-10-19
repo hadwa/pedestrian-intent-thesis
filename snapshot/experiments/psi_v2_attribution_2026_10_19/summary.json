@@ -1,0 +1,17 @@
+{
+  "active_tex_files": 50,
+  "labels": 106,
+  "reference_uses": 176,
+  "caption_commands": 44,
+  "graphics": 11,
+  "unique_citations": 57,
+  "checks": {
+    "missing_input_files": [],
+    "missing_graphics": [],
+    "undefined_references": [],
+    "duplicate_labels": {},
+    "undefined_citations": [],
+    "duplicate_bibliography_keys": [],
+    "stale_pattern_matches": {}
+  }
+}

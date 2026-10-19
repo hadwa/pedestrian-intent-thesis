@@ -1,0 +1,11 @@
+{
+  "artifacts": {
+    "exp062_historical_validation_per_seed": "8c45765de6a710354e1eb2474b80c1327e5fe2a8c29762382b8a073235fc793b",
+    "metrics/context_scaler_corrected_grid.json": "4c2c0e6987f3579d1745bc8f16824523badda9cace2da55d80916ba9e9080bc6",
+    "metrics/context_scaler_road_relative.json": "dcc223aed02291e43b611c7c2c8315f5918cb74650cb66f8438772197e97ce2d",
+    "metrics/extraction_manifest.json": "23aa9f72e4f3930427c21fcf21d1d408fa494b6daa8a8b93f40e3a4b4d96ff52"
+  },
+  "fresh_runs": 12,
+  "phase": "prepared",
+  "set03_accessed": false
+}

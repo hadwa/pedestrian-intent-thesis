@@ -1,0 +1,31 @@
+dataset: PIE
+split:
+  train: [set01, set02, set04]
+  val: [set05, set06]
+  test: [set03]
+observation_length: 16
+observation_unit: raw_consecutive_frames
+frame_sampling:
+  type: consecutive
+  step: 1
+  skip_frames: false
+observation_span_frames: 16
+fps_assumption: 30
+observation_span_seconds_approx: 0.53
+time_to_event_frames: [30, 60]
+time_to_event_seconds_approx: [1.0, 2.0]
+overlap: 0.6
+label_type: binary_crossing
+metrics:
+  - f1
+  - precision
+  - recall
+  - accuracy
+  - roc_auc
+  - pr_auc
+threshold_selection: validation_f1
+normalization: train_only
+notes:
+  - "All models must use the same generated sequence_id files."
+  - "Teacher and student may use different feature groups, but must share the same samples, labels, windows, and splits."
+  - "Main benchmark uses 16 consecutive raw frames, frame step 1, no skipping."

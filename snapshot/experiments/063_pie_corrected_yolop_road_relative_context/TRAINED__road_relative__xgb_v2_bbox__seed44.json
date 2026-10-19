@@ -1,0 +1,16 @@
+{
+  "anchor_name": "xgb_v2_bbox",
+  "artifacts": {
+    "checkpoints/road_relative__xgb_v2_bbox__seed44.pt": "9c30d97da527293b57b26c3d070381d8ecaf4c8287087b33702c9effc756bc27",
+    "logs/train_road_relative__xgb_v2_bbox__seed44.log": "e3831c6181557cf921e56caaaf9867d40fc172a4bd1df5aa59fb0b5f01522d6b",
+    "metrics/context_scaler_road_relative.json": "dcc223aed02291e43b611c7c2c8315f5918cb74650cb66f8438772197e97ce2d",
+    "metrics/training_history_road_relative__xgb_v2_bbox__seed44.csv": "bc5f89686880a7c7644294932f1815ea5493a1b36e572a463a263e378ac74ce2"
+  },
+  "best_epoch": 1,
+  "best_validation_harmonic": 0.6927130853757788,
+  "phase": "trained",
+  "probability_binding_sha256": "c1d6de1effe2eff4bb5c3eefc8d2c7ab77692c6e49d51958d3f881ff88f2c667",
+  "representation": "road_relative",
+  "seed": 44,
+  "set03_accessed": false
+}

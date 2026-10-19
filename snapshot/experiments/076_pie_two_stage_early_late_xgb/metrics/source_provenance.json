@@ -1,0 +1,32 @@
+{
+  "definitions": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/metrics/pie_biu_v2_feature_set_definitions.csv",
+    "sha256": "6708d290d9263ad29000786cf6d15c5ec052dc8712c1b5a16741944295d0145c",
+    "size_bytes": 11768
+  },
+  "exp037_feature_contract_pinned_by_exp072": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/037_pie_joint_biu_temporal_ego/metrics/feature_contract.json",
+    "sha256": "29fe743b5b3a65190c98b3f86f980a1e17054c0b3c7c6b1851a7813c53a5b49b",
+    "size_bytes": 30970
+  },
+  "exp072_train": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/072_pie_joint_biu_temporal_ego_confirmation/metrics/prepared_train.csv",
+    "sha256": "e0d1b9a35c74de95c4f6c56f13c4db8123b1272f8609b56208d571342f4689ea",
+    "size_bytes": 9524457
+  },
+  "exp072_validation": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/072_pie_joint_biu_temporal_ego_confirmation/metrics/prepared_validation.csv",
+    "sha256": "7b72d2476d38aa9b7efe40680e00bbe5c7aef3aeaedf731708225dacce275356",
+    "size_bytes": 14563019
+  },
+  "keypoints": {
+    "path": "/home/abdelrahman/Hadwa/pedestrian-intent-biu/data/data_keypoints_all.jsonl",
+    "sha256": "1f0907ebb33bb04c3a3434d9c89e7bd597e2b9e3d47fe30f488ffa9410054d87",
+    "size_bytes": 794892224
+  },
+  "pre_registration": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/076_pie_two_stage_early_late_xgb/pre_registration.json",
+    "sha256": "bb36b7cfce8e2c85a80967b8f524e24759b248368d245bd3e87da0864743f581",
+    "size_bytes": 2037
+  }
+}

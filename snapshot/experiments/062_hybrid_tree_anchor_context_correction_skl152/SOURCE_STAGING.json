@@ -1,0 +1,253 @@
+{
+  "config_sha256": "f47f787f1ee2d84bbdece8c33bc9c46f78d0a4cb813efc6b48dca646f2c21f18",
+  "derived_artifacts": {
+    "ego.npy": {
+      "path": "staged_sources/ego.npy",
+      "sha256": "410c4757e4012e223721f5686bffe5f8e4c4f53dd9fd9030e763fcfbe58dd302"
+    },
+    "rows.csv": {
+      "path": "staged_sources/rows.csv",
+      "sha256": "a01ad1f3244157c1b649aada0470ad54d877bbd1e8075c275ee313c35dcc3bf1"
+    },
+    "stage-sources.log": {
+      "path": "logs/stage-sources.log",
+      "sha256": "b8fc20244bd41d9d85b95554c8c7f397baad8a72bbfe50435f7a6f9d678ad112"
+    },
+    "summary_v1.npy": {
+      "path": "staged_sources/summary_v1.npy",
+      "sha256": "ddd43c98c8a7ce0a81e97f1348249a1ffebf398a92aa03958cba55e5f24bc3b0"
+    },
+    "summary_v2_core.npy": {
+      "path": "staged_sources/summary_v2_core.npy",
+      "sha256": "3ca8c2fc8e996fe606dab7d329641f3041fcaaf026b1e48a733f8457f7208144"
+    },
+    "validation_reference_rf_v1_bbox_seed42.csv": {
+      "path": "staged_sources/validation_reference_rf_v1_bbox_seed42.csv",
+      "sha256": "eed44e337b52b812c6eb02cf249b1912a07961bacd4a776461d5c64d9449db14"
+    },
+    "validation_reference_rf_v1_bbox_seed43.csv": {
+      "path": "staged_sources/validation_reference_rf_v1_bbox_seed43.csv",
+      "sha256": "f1a30d904368ffb1469a61e80e192c3b25d0e8358d063335bd2268584a1d4b93"
+    },
+    "validation_reference_rf_v1_bbox_seed44.csv": {
+      "path": "staged_sources/validation_reference_rf_v1_bbox_seed44.csv",
+      "sha256": "f90d6724041cfa6fa20f552bad8615c7f2046179913f2c4218fae46144dd6b83"
+    },
+    "validation_reference_xgb_v2_bbox_seed42.csv": {
+      "path": "staged_sources/validation_reference_xgb_v2_bbox_seed42.csv",
+      "sha256": "72647ba353b2eeb53817f11f305e0e613889f505f73bdf950a3c21c2fa1a192f"
+    },
+    "validation_reference_xgb_v2_bbox_seed43.csv": {
+      "path": "staged_sources/validation_reference_xgb_v2_bbox_seed43.csv",
+      "sha256": "f8beb3230954a67506f0849247f4be06ed244a40fa05d7e0b6af5943d14a6589"
+    },
+    "validation_reference_xgb_v2_bbox_seed44.csv": {
+      "path": "staged_sources/validation_reference_xgb_v2_bbox_seed44.csv",
+      "sha256": "0f5213fc32480fdda3cf0ad36d035c145ba080cd8a99cac0774c7eccc23a6e6f"
+    },
+    "yolop.npy": {
+      "path": "staged_sources/yolop.npy",
+      "sha256": "b353bf9d8fb7d5eedacf726fec643f67138994f5e9a864806f46e382075b65f5"
+    }
+  },
+  "extraction_rules": {
+    "anchor_matrices": "Task 2 Exp012 reconstruction; exact needed train/validation keys; SPLITS=(train,val); ordered authenticated rows",
+    "contexts": "authenticated Exp055 trainval cache; train/validation rows only",
+    "historical_predictions": "read exactly first 3619 rows; require split=val; exact ordered IDs/labels"
+  },
+  "ordered_labels_sha256": "0aa0479f9e5670a04860f84c3c01f28e4393bf2c5e69673d424cd02b6cec9bff",
+  "ordered_sequence_ids_sha256": "9dfc515f52ea5a3dcd0f2b39e960ba5e594b0f5909fa23fb7c0344f79884e409",
+  "original_sources": {
+    "exp012_builder": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/scripts/experiments/pie_biu_v2_30_60_benchmark.py",
+      "sha256": "0474ded484054e65b5f571016e1cd467ce7ed1b0690f829b3ce3aea8f6c3b747"
+    },
+    "exp012_feature_definition": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/metrics/pie_biu_v2_feature_set_definitions.csv",
+      "sha256": "6708d290d9263ad29000786cf6d15c5ec052dc8712c1b5a16741944295d0145c"
+    },
+    "exp012_feature_dictionary": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/008_biu_v2_design_spec/metrics/biu_v2_feature_dictionary.csv",
+      "sha256": "50130f024fd9ebd825d286876d78218178a8b68bff3110cc86e5cb4da94c58fd"
+    },
+    "exp012_keypoints_mixed_container": {
+      "path": "/home/abdelrahman/Hadwa/pedestrian-intent-biu/data/data_keypoints_all.jsonl",
+      "sha256": "1f0907ebb33bb04c3a3434d9c89e7bd597e2b9e3d47fe30f488ffa9410054d87"
+    },
+    "historical_prediction_rf_v1_bbox_seed42": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__rf__seed42.csv",
+      "sha256": "d317230de70cee367236f188bb188d89947869fa3b5aa75227aed977c5fa6bf8"
+    },
+    "historical_prediction_rf_v1_bbox_seed43": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__rf__seed43.csv",
+      "sha256": "0aa599ed6281f8e148acc9bdda3fc43b1fd0380c73d055ea3baf39204e89b3ad"
+    },
+    "historical_prediction_rf_v1_bbox_seed44": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__rf__seed44.csv",
+      "sha256": "aaf0191a7c844eae93b0040776485e80b092d9c34883b286b7f9c176f3476bb5"
+    },
+    "historical_prediction_xgb_v2_bbox_seed42": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v2_core_plus_bbox__xgb__seed42.csv",
+      "sha256": "ea02edfa1ffb2915bd629b9f9d79523cdb3aff5b267b0833fe421c8ad4226deb"
+    },
+    "historical_prediction_xgb_v2_bbox_seed43": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v2_core_plus_bbox__xgb__seed43.csv",
+      "sha256": "1a7b165934f7df6826b09d46bc90cbfd8a38c0c8800bb20e45f5bd3d7a139e37"
+    },
+    "historical_prediction_xgb_v2_bbox_seed44": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v2_core_plus_bbox__xgb__seed44.csv",
+      "sha256": "8063852f2c211f7ab80b95725ccfddbb6e42a1e45a48959baec3651ccad8cd0c"
+    },
+    "pie_annotation_0000": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set01/video_0001_annt.xml",
+      "sha256": "d884fd83882c39a8cd7ca739831c03f3e708505911135cb81e8a0db48ac58b33"
+    },
+    "pie_annotation_0001": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set01/video_0002_annt.xml",
+      "sha256": "ee7ce962f98be5063d8e6ac7de5b38c500e95ee1d5fc32fc824a2f6c9dd734f7"
+    },
+    "pie_annotation_0002": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set01/video_0003_annt.xml",
+      "sha256": "c47fa6702c8a2c3d34d8059f02265a78f7e2477eed6bec754af3caf1b60feed1"
+    },
+    "pie_annotation_0003": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set01/video_0004_annt.xml",
+      "sha256": "3947c5ae5fbc1fa147218d1e3d429d3003f1bdb4bce6bd138f2001e547297360"
+    },
+    "pie_annotation_0004": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set02/video_0001_annt.xml",
+      "sha256": "b0e6a1124c73f02923bd5ebb654a49d94d467bfe51618c398cadcb4f1d7aec56"
+    },
+    "pie_annotation_0005": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set02/video_0002_annt.xml",
+      "sha256": "1302c20699c2d31f9b5a34527b0d87b308f04ac9f006826d651c98ded1b8b525"
+    },
+    "pie_annotation_0006": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set02/video_0003_annt.xml",
+      "sha256": "341cd52682d2ab51c944491cfb5e726a7f25a96d9e608058edba9aee197ff4ae"
+    },
+    "pie_annotation_0007": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set04/video_0001_annt.xml",
+      "sha256": "6f08008037a7a041dd6822dc1862a3417e8217d11eb5f48275ae6a0303d13e37"
+    },
+    "pie_annotation_0008": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set04/video_0002_annt.xml",
+      "sha256": "fa351753a5d5c94cc32192c977c4ecfce0ae7c40d5b07bbb89fdee02fda65f86"
+    },
+    "pie_annotation_0009": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set04/video_0003_annt.xml",
+      "sha256": "07c5cc3df182a82e47878c2c41c0bc732bef98741b06faa9907621645a9ed3b7"
+    },
+    "pie_annotation_0010": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set04/video_0004_annt.xml",
+      "sha256": "a87b14b4d88ec3d87190498ee69ae8af666897d961f583c443c4d17126214770"
+    },
+    "pie_annotation_0011": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set04/video_0005_annt.xml",
+      "sha256": "a2d6e7705699aff46c19f01197b401ebedeeff36ae580cb652252e50b7b41db6"
+    },
+    "pie_annotation_0012": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set04/video_0006_annt.xml",
+      "sha256": "e799b71d108d4e4d2ea80b6e124ce50c1287d86458917c17a075649f125bc90f"
+    },
+    "pie_annotation_0013": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set04/video_0007_annt.xml",
+      "sha256": "872b383267fc3ca7bea27ede12bbfc575009ceb7dc224d7054f4cef3941fd567"
+    },
+    "pie_annotation_0014": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set04/video_0008_annt.xml",
+      "sha256": "73672eb8ad461e7e5027ea87d9dca2c49fab3bef3d85e185850c5482217a8ae7"
+    },
+    "pie_annotation_0015": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set04/video_0009_annt.xml",
+      "sha256": "f8da480214ca45d1259b9e057a902b1e8feb0fba9659d50a467148b8ece040ee"
+    },
+    "pie_annotation_0016": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set04/video_0010_annt.xml",
+      "sha256": "45a17a2eb8cb932389e96cd2300ba5fdc9187e95fe1dca4a313688efbeaf93e1"
+    },
+    "pie_annotation_0017": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set04/video_0011_annt.xml",
+      "sha256": "dbf345e3b3c83ba289d4cd18fc5b0163792f5a2f2b13d0efaa7ee79d80db862b"
+    },
+    "pie_annotation_0018": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set04/video_0012_annt.xml",
+      "sha256": "8aefa62c2e6112edfa6df97d197fef0ffcc3683270e0d8138874b623305577b7"
+    },
+    "pie_annotation_0019": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set04/video_0013_annt.xml",
+      "sha256": "af57369f9af060c5777742c50afe0888d327e8cc6246ba608daea07071d25778"
+    },
+    "pie_annotation_0020": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set04/video_0014_annt.xml",
+      "sha256": "0f83a8253106c6112adb4c0e7fb97cbd7c450639ec5e0fbe825b30bc57022294"
+    },
+    "pie_annotation_0021": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set04/video_0015_annt.xml",
+      "sha256": "d9b55073b2e485aa032357d44d19e41b64e12f3b513622b4d1a6934dff6fb364"
+    },
+    "pie_annotation_0022": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set04/video_0016_annt.xml",
+      "sha256": "f2168e944361e23e0668415aae13ae328c81097d9903db92fc65aa8059c44901"
+    },
+    "pie_annotation_0023": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set05/video_0001_annt.xml",
+      "sha256": "8df72f13d131dafcd52810f166e9fd6bb62461f4e61b46b535ed00c6408419e8"
+    },
+    "pie_annotation_0024": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set05/video_0002_annt.xml",
+      "sha256": "3a513812700e1af19f41c4f72b0b8c40896c2c4b0b401d72d3a93a9184641d38"
+    },
+    "pie_annotation_0025": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set06/video_0001_annt.xml",
+      "sha256": "f216bb6f1331cec998e5bcb490ffa0565a0dbcad6f3366f3476f345421256650"
+    },
+    "pie_annotation_0026": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set06/video_0002_annt.xml",
+      "sha256": "5501215244af789d5796687ad0988a74f1250b3ef04823319c14ef7beb2eef83"
+    },
+    "pie_annotation_0027": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set06/video_0003_annt.xml",
+      "sha256": "df32af4ac9553b0792a63cc4c5ce8f0f63d08b1dc458e6b17ad49cf4b90d0e20"
+    },
+    "pie_annotation_0028": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set06/video_0004_annt.xml",
+      "sha256": "ff9ca7b801876c32be9eab705cb64cb49dce4e4739786af6360e88a8acb51056"
+    },
+    "pie_annotation_0029": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set06/video_0005_annt.xml",
+      "sha256": "c9607a72ba5ca75f3d9c9e2833087c9731ca912cbb084afd713fad746a66a2b7"
+    },
+    "pie_annotation_0030": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set06/video_0006_annt.xml",
+      "sha256": "a962d05be883f531b0e0004a34a0edd3257dffbf0737093dd17f3a517e5ab06f"
+    },
+    "pie_annotation_0031": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set06/video_0007_annt.xml",
+      "sha256": "9ab417d94bc30ca54503276c0192c4a9f4f1d9d289328563a87e78b25a6667e4"
+    },
+    "pie_annotation_0032": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set06/video_0008_annt.xml",
+      "sha256": "c9d6ba80ea6bea7ff056c94b3314044cd86279e99ffaec6924ef020ebea2dd4b"
+    },
+    "pie_annotation_0033": {
+      "path": "/home/abdelrahman/Hadwa/MSLSTM-PID/PIE/annotations/annotations/set06/video_0009_annt.xml",
+      "sha256": "6f287e4da9420a58de76f00a868e3a0aaa2ede9eaa01c2656c5d4f11a705b1fe"
+    },
+    "trainval_ego": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/055_compact_residual_biu_lstm/cache/trainval/ego.npy",
+      "sha256": "410c4757e4012e223721f5686bffe5f8e4c4f53dd9fd9030e763fcfbe58dd302"
+    },
+    "trainval_rows": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/055_compact_residual_biu_lstm/cache/trainval/rows.csv",
+      "sha256": "a01ad1f3244157c1b649aada0470ad54d877bbd1e8075c275ee313c35dcc3bf1"
+    },
+    "trainval_yolop": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/055_compact_residual_biu_lstm/cache/trainval/yolop.npy",
+      "sha256": "b353bf9d8fb7d5eedacf726fec643f67138994f5e9a864806f46e382075b65f5"
+    }
+  },
+  "schema": "exp062-source-staging-v1",
+  "train_rows": 2366,
+  "validation_rows": 3619
+}

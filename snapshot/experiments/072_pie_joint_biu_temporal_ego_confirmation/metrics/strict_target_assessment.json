@@ -1,0 +1,19 @@
+{
+  "all_targets_beaten": true,
+  "basis": "candidate_three_seed_metric_mean",
+  "checks": {
+    "f1": true,
+    "pr_auc": true,
+    "roc_auc": true
+  },
+  "means": {
+    "f1": 0.8758366146829247,
+    "pr_auc": 0.936170656474752,
+    "roc_auc": 0.9730715448769462
+  },
+  "targets": {
+    "f1": 0.8685,
+    "pr_auc": 0.9119,
+    "roc_auc": 0.9652
+  }
+}

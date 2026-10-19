@@ -1,0 +1,20 @@
+{
+  "archive_etag": "\"3868cb96ae54e00a99ad64d9e17bc701-325\"",
+  "cv_annotation": {
+    "bytes": 1444922362,
+    "compressed_bytes": 24496964,
+    "member_count": 49,
+    "missing_videos": []
+  },
+  "directory_transfer_bytes": 694159,
+  "rgb": {
+    "bytes": 621041659,
+    "compressed_bytes": 620988665,
+    "member_count": 49,
+    "missing_videos": [],
+    "prefix": "PSI/PSI2.0_Test/videos/"
+  },
+  "split_videos": 49,
+  "test_release_video_0192_excluded": true,
+  "url": "https://s3.amazonaws.com/pedestrian.datatset.files/PSI_Dataset_1_2.zip"
+}

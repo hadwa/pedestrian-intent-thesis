@@ -1,0 +1,406 @@
+seed,index,feature,block,cue,mean_abs_shap,all_input_pct
+42,0,bbox_center_x_mean,BBox,,0.028006463967198626,0.46819669205728676
+42,1,bbox_center_x_std,BBox,,0.03190231683307222,0.5333254218633854
+42,2,bbox_center_x_first,BBox,,0.06861323670169854,1.1470384298675946
+42,3,bbox_center_x_last,BBox,,0.09492849365247903,1.5869624513157523
+42,4,bbox_center_x_delta,BBox,,0.1875957232694431,3.136122331677307
+42,5,bbox_center_x_min,BBox,,0.06865142122347746,1.1476767777434858
+42,6,bbox_center_x_max,BBox,,0.051234926204157503,0.856517373799159
+42,7,bbox_center_y_mean,BBox,,0.049504304128512394,0.8275857838645156
+42,8,bbox_center_y_std,BBox,,0.03833599071543001,0.640880050431391
+42,9,bbox_center_y_first,BBox,,0.14171816303857562,2.369166461600017
+42,10,bbox_center_y_last,BBox,,0.0801432748742397,1.339791279281236
+42,11,bbox_center_y_delta,BBox,,0.07102137410526466,1.187296349171138
+42,12,bbox_center_y_min,BBox,,0.08001503371909939,1.3376474140402468
+42,13,bbox_center_y_max,BBox,,0.09209598509795994,1.539610128044845
+42,14,bbox_width_mean,BBox,,0.03973613475816883,0.6642868900089187
+42,15,bbox_width_std,BBox,,0.05393837514125033,0.9017121492258283
+42,16,bbox_width_first,BBox,,0.008276039914350868,0.13835429262942148
+42,17,bbox_width_last,BBox,,0.06193269855065912,1.0353568599577885
+42,18,bbox_width_delta,BBox,,0.0018633416096544952,0.03115032225541604
+42,19,bbox_width_min,BBox,,0.07435339342499625,1.242999219237007
+42,20,bbox_width_max,BBox,,0.024947061258834228,0.41705127686296034
+42,21,bbox_height_mean,BBox,,0.014536798059713344,0.24301821081854186
+42,22,bbox_height_std,BBox,,0.12070695491151162,2.017912617032558
+42,23,bbox_height_first,BBox,,0.01825876599622229,0.30524002781970755
+42,24,bbox_height_last,BBox,,0.012418607388807415,0.20760746184193837
+42,25,bbox_height_delta,BBox,,0.16099276123297568,2.691388614525884
+42,26,bbox_height_min,BBox,,0.02004753413594936,0.3351436717377174
+42,27,bbox_height_max,BBox,,0.030663318827025127,0.512612533275371
+42,28,bbox_area_mean,BBox,,0.007924151261485806,0.13247161127997026
+42,29,bbox_area_std,BBox,,0.007527746654719108,0.12584473664767795
+42,30,bbox_area_first,BBox,,0.012348819030926309,0.206440778381209
+42,31,bbox_area_last,BBox,,0.01549488853982259,0.25903504157604484
+42,32,bbox_area_delta,BBox,,0.005435476502541982,0.09086731267559657
+42,33,bbox_area_min,BBox,,0.025039155133074923,0.41859085170285204
+42,34,bbox_area_max,BBox,,0.0777334233240979,1.2995047038161232
+42,35,bbox_aspect_ratio_mean,BBox,,0.08231248647107701,1.3760549680925418
+42,36,bbox_aspect_ratio_std,BBox,,0.14033211221050382,2.3459952246496285
+42,37,bbox_aspect_ratio_first,BBox,,0.10826167758060638,1.8098593017375668
+42,38,bbox_aspect_ratio_last,BBox,,0.031770959264594174,0.5311294581347926
+42,39,bbox_aspect_ratio_delta,BBox,,0.006082265672990272,0.10167997900923428
+42,40,bbox_aspect_ratio_min,BBox,,0.11036652437512913,1.845046975113154
+42,41,bbox_aspect_ratio_max,BBox,,0.34982840401385296,5.848239240012459
+42,42,center_x_velocity_mean,BBox,,0.03287094695359418,0.5495184485441755
+42,43,center_y_velocity_mean,BBox,,0.014301267507298739,0.23908074032429816
+42,44,center_x_velocity_std,BBox,,0.02268613996268034,0.3792544356372736
+42,45,center_y_velocity_std,BBox,,0.012863280176610554,0.21504125743074104
+42,46,center_x_displacement,BBox,,0.0019056656705481413,0.03185787267406385
+42,47,center_y_displacement,BBox,,0.0,0.0
+42,48,bbox_area_change,BBox,,0.0,0.0
+42,49,bbox_width_change,BBox,,0.0,0.0
+42,50,bbox_height_change,BBox,,0.04116638188105052,0.6881969763569111
+42,51,bbox_scale_change_ratio,BBox,,0.07010721442888221,1.1720139294770378
+42,52,bbox_valid_frame_count,BBox,,0.0,0.0
+42,53,v2__ankle_center_x_delta,BIU-v2,ankle_center_x,0.02086791673177131,0.3488583776725712
+42,54,v2__ankle_center_x_last,BIU-v2,ankle_center_x,0.004135864935678448,0.06914111984819991
+42,55,v2__ankle_center_x_velocity_mean,BIU-v2,ankle_center_x,0.0,0.0
+42,56,v2__ankle_center_x_velocity_std,BIU-v2,ankle_center_x,0.08104033363234951,1.354787815210225
+42,57,v2__body_yaw_angle_delta,BIU-v2,body_yaw_angle,0.0,0.0
+42,58,v2__body_yaw_angle_last,BIU-v2,body_yaw_angle,0.0026130382148482727,0.04368333859797912
+42,59,v2__body_yaw_angle_mean,BIU-v2,body_yaw_angle,0.06800278280372406,1.1368331966750047
+42,60,v2__body_yaw_angle_std,BIU-v2,body_yaw_angle,0.04775780655512937,0.7983887960726362
+42,61,v2__head_yaw_angle_delta,BIU-v2,head_yaw_angle,0.0007079501800761468,0.011835122521758572
+42,62,v2__head_yaw_angle_last,BIU-v2,head_yaw_angle,0.1651734865032863,2.7612796848249506
+42,63,v2__head_yaw_angle_mean,BIU-v2,head_yaw_angle,0.5091831338784885,8.512244145226052
+42,64,v2__head_yaw_angle_std,BIU-v2,head_yaw_angle,0.04363935467064701,0.7295387780564341
+42,65,v2__hip_center_x_delta,BIU-v2,hip_center_x,0.024516050753138743,0.40984587980730525
+42,66,v2__hip_center_x_last,BIU-v2,hip_center_x,0.009464438984115439,0.15822129597405626
+42,67,v2__hip_center_x_velocity_mean,BIU-v2,hip_center_x,0.00045194022855544157,0.0075552886742537625
+42,68,v2__hip_center_x_velocity_std,BIU-v2,hip_center_x,0.00670656500441633,0.11211667255860895
+42,69,v2__knee_center_x_delta,BIU-v2,knee_center_x,0.007468135772925091,0.1248481946458292
+42,70,v2__knee_center_x_last,BIU-v2,knee_center_x,0.0,0.0
+42,71,v2__knee_center_x_velocity_mean,BIU-v2,knee_center_x,0.0,0.0
+42,72,v2__knee_center_x_velocity_std,BIU-v2,knee_center_x,0.0475622030591859,0.7951188041928032
+42,73,v2__lead_ankle_forward_delta,BIU-v2,lead_ankle_forward,0.0065067256001767534,0.10877586708894124
+42,74,v2__lead_ankle_forward_last,BIU-v2,lead_ankle_forward,0.001881727540478498,0.031457688155026725
+42,75,v2__lead_ankle_forward_velocity_mean,BIU-v2,lead_ankle_forward,0.0,0.0
+42,76,v2__lead_ankle_forward_velocity_std,BIU-v2,lead_ankle_forward,0.017260925747490167,0.288558682248729
+42,77,v2__lead_foot_elevation_delta,BIU-v2,lead_foot_elevation,0.0,0.0
+42,78,v2__lead_foot_elevation_last,BIU-v2,lead_foot_elevation,0.0,0.0
+42,79,v2__lead_foot_elevation_mean,BIU-v2,lead_foot_elevation,0.009048118710736616,0.15126148215890842
+42,80,v2__lead_foot_elevation_std,BIU-v2,lead_foot_elevation,0.022114130402190863,0.36969189377693806
+42,81,v2__leg_center_x_delta,BIU-v2,leg_center_x,0.01615370575703208,0.27004878619332806
+42,82,v2__leg_center_x_last,BIU-v2,leg_center_x,0.0,0.0
+42,83,v2__leg_center_x_velocity_mean,BIU-v2,leg_center_x,0.0,0.0
+42,84,v2__leg_center_x_velocity_std,BIU-v2,leg_center_x,0.10675295029733531,1.7846372271453794
+42,85,v2__lower_body_motion_magnitude_mean,BIU-v2,lower_body_motion_magnitude,0.01958566780272817,0.327422443894029
+42,86,v2__lower_body_motion_magnitude_std,BIU-v2,lower_body_motion_magnitude,0.027941045487169837,0.46710306181589795
+42,87,v2__shoulder_center_x_delta,BIU-v2,shoulder_center_x,0.0006412118031951772,0.010719426969276873
+42,88,v2__shoulder_center_x_last,BIU-v2,shoulder_center_x,0.0024329792416335474,0.040673211516848766
+42,89,v2__shoulder_center_x_velocity_mean,BIU-v2,shoulder_center_x,0.0,0.0
+42,90,v2__shoulder_center_x_velocity_std,BIU-v2,shoulder_center_x,0.011786850617161773,0.19704609890030791
+42,91,v2__stride_length_delta,BIU-v2,stride_length,0.0005948723727304103,0.009944749806146498
+42,92,v2__stride_length_last,BIU-v2,stride_length,0.001638517953803153,0.027391843780978583
+42,93,v2__stride_length_mean,BIU-v2,stride_length,0.17671543119098443,2.9542315808235857
+42,94,v2__stride_length_std,BIU-v2,stride_length,0.20377475756348498,3.4065945464497136
+42,95,v2__stride_opening_delta,BIU-v2,stride_opening,0.03135399404726635,0.5241588625007103
+42,96,v2__stride_opening_last,BIU-v2,stride_opening,0.0,0.0
+42,97,v2__stride_opening_velocity_mean,BIU-v2,stride_opening,0.0002604556813522586,0.004354155118599639
+42,98,v2__stride_opening_velocity_std,BIU-v2,stride_opening,0.09114006581665454,1.5236295941971894
+42,99,v2__torso_center_x_delta,BIU-v2,torso_center_x,0.0045543199066135675,0.07613662036537383
+42,100,v2__torso_center_x_last,BIU-v2,torso_center_x,0.0,0.0
+42,101,v2__torso_center_x_velocity_mean,BIU-v2,torso_center_x,0.0,0.0
+42,102,v2__torso_center_x_velocity_std,BIU-v2,torso_center_x,0.002691488022841604,0.0449948194274771
+42,103,v2__torso_lean_angle_delta,BIU-v2,torso_lean_angle,0.0009016348608465076,0.015073036702751308
+42,104,v2__torso_lean_angle_last,BIU-v2,torso_lean_angle,0.004001167830006349,0.06688932756984484
+42,105,v2__torso_lean_angle_mean,BIU-v2,torso_lean_angle,0.02309695819201692,0.3861222693001556
+42,106,v2__torso_lean_angle_std,BIU-v2,torso_lean_angle,0.03127670257449152,0.5228667460835935
+42,107,v2__torso_motion_magnitude_mean,BIU-v2,torso_motion_magnitude,0.012613158005258739,0.21085985226033963
+42,108,v2__torso_motion_magnitude_std,BIU-v2,torso_motion_magnitude,0.013730029899554885,0.22953110354624467
+42,109,temporal__lower_body_motion_magnitude_mean_early,Early/late motion,,0.0035470666246493654,0.059297912871567486
+42,110,temporal__lower_body_motion_magnitude_mean_late,Early/late motion,,0.002812180064647755,0.04701248273539994
+42,111,temporal__lower_body_motion_magnitude_mean_late_minus_early,Early/late motion,,0.0,0.0
+42,112,temporal__lead_ankle_forward_delta_early,Early/late motion,,0.0022909692800249567,0.03829916692692137
+42,113,temporal__lead_ankle_forward_delta_late,Early/late motion,,0.0,0.0
+42,114,temporal__lead_ankle_forward_delta_late_minus_early,Early/late motion,,0.0,0.0
+42,115,temporal__torso_motion_magnitude_mean_early,Early/late motion,,0.0021202964370753614,0.035445952019584163
+42,116,temporal__torso_motion_magnitude_mean_late,Early/late motion,,0.0009479995306804622,0.015848135803802055
+42,117,temporal__torso_motion_magnitude_mean_late_minus_early,Early/late motion,,0.0033447604608045074,0.055915869468805265
+42,118,temporal__torso_center_x_delta_early,Early/late motion,,0.00459332549795396,0.07678869443151438
+42,119,temporal__torso_center_x_delta_late,Early/late motion,,0.02848969691690733,0.4762751152674315
+42,120,temporal__torso_center_x_delta_late_minus_early,Early/late motion,,0.01724382605775769,0.288272819021678
+42,121,temporal__bbox_center_dx_norm_early,Early/late motion,,0.15580956350838238,2.6047387599860294
+42,122,temporal__bbox_center_dx_norm_late,Early/late motion,,0.08322436845236188,1.391299310530211
+42,123,temporal__bbox_center_dx_norm_late_minus_early,Early/late motion,,0.008449945018861515,0.14126154271137126
+42,124,temporal__bbox_scale_log_delta_early,Early/late motion,,0.023820244624120593,0.3982137748653521
+42,125,temporal__bbox_scale_log_delta_late,Early/late motion,,3.998722573899596e-05,0.000668484491204356
+42,126,temporal__bbox_scale_log_delta_late_minus_early,Early/late motion,,0.0018604389090299627,0.031101796499646568
+42,127,temporal__pose_confidence_mean_early,Pose quality,,0.03767328351713881,0.6298012752455663
+42,128,temporal__pose_confidence_mean_late,Pose quality,,0.0527046039528524,0.8810866397063102
+42,129,temporal__pose_confidence_mean_late_minus_early,Pose quality,,0.0008369731808234399,0.013992058228456066
+42,130,obd_speed_mean,Ego speed,,0.182867327549017,3.0570756074055754
+42,131,obd_speed_std,Ego speed,,0.003816868276137109,0.06380830878895648
+42,132,obd_speed_first,Ego speed,,0.3524544408143401,5.892139881830318
+42,133,obd_speed_last,Ego speed,,0.19439677500494604,3.2498185815431357
+42,134,obd_speed_delta,Ego speed,,0.03589012476596256,0.5999914060063961
+43,0,bbox_center_x_mean,BBox,,0.02494229676424906,0.41857734179249273
+43,1,bbox_center_x_std,BBox,,0.04728120021878476,0.7934649840549033
+43,2,bbox_center_x_first,BBox,,0.0716356076376505,1.2021764677917182
+43,3,bbox_center_x_last,BBox,,0.09394587579951688,1.5765835574891318
+43,4,bbox_center_x_delta,BBox,,0.19746687302710567,3.3138551587692997
+43,5,bbox_center_x_min,BBox,,0.05881188732326262,0.986970995263596
+43,6,bbox_center_x_max,BBox,,0.0660222366383488,1.1079738394776084
+43,7,bbox_center_y_mean,BBox,,0.04054839973985832,0.6804762824158586
+43,8,bbox_center_y_std,BBox,,0.04374149164866726,0.7340622025867751
+43,9,bbox_center_y_first,BBox,,0.1271266837730986,2.1334181798730794
+43,10,bbox_center_y_last,BBox,,0.08459126832228824,1.4195961409596731
+43,11,bbox_center_y_delta,BBox,,0.07452723871187632,1.250703323996432
+43,12,bbox_center_y_min,BBox,,0.10489817728395295,1.7603832005290716
+43,13,bbox_center_y_max,BBox,,0.08977573202712875,1.5066009207000177
+43,14,bbox_width_mean,BBox,,0.025137362202428924,0.42185089648397356
+43,15,bbox_width_std,BBox,,0.05996786856931933,1.006370474056982
+43,16,bbox_width_first,BBox,,0.012361145054852453,0.20744261394515298
+43,17,bbox_width_last,BBox,,0.04766727446312728,0.7999440157358619
+43,18,bbox_width_delta,BBox,,0.002384632505356609,0.040018493271832135
+43,19,bbox_width_min,BBox,,0.10043050215515364,1.6854074436017585
+43,20,bbox_width_max,BBox,,0.0166334217116247,0.2791392272641423
+43,21,bbox_height_mean,BBox,,0.006630210197766931,0.11126704915501852
+43,22,bbox_height_std,BBox,,0.14120104305283226,2.3696116607872972
+43,23,bbox_height_first,BBox,,0.00866764984655003,0.1454590115196334
+43,24,bbox_height_last,BBox,,0.023630798177053734,0.3965679976819021
+43,25,bbox_height_delta,BBox,,0.16824864034217096,2.823519794519106
+43,26,bbox_height_min,BBox,,0.02288141313407967,0.38399194655750274
+43,27,bbox_height_max,BBox,,0.0203633331795442,0.3417339611060113
+43,28,bbox_area_mean,BBox,,0.01466561872170978,0.24611589535228245
+43,29,bbox_area_std,BBox,,0.0056844110261458315,0.09539480984728367
+43,30,bbox_area_first,BBox,,0.005061233300657959,0.0849367482555825
+43,31,bbox_area_last,BBox,,0.0031003689134223088,0.05202985878255227
+43,32,bbox_area_delta,BBox,,0.012548117345468648,0.21058035082378548
+43,33,bbox_area_min,BBox,,0.02573878574497684,0.43194388311269355
+43,34,bbox_area_max,BBox,,0.050487569473377535,0.8472737223630905
+43,35,bbox_aspect_ratio_mean,BBox,,0.10709035155704372,1.797171892791424
+43,36,bbox_aspect_ratio_std,BBox,,0.11498388446037375,1.9296398066831113
+43,37,bbox_aspect_ratio_first,BBox,,0.1094701344851794,1.8371090012909899
+43,38,bbox_aspect_ratio_last,BBox,,0.020778072615363928,0.34869404710862717
+43,39,bbox_aspect_ratio_delta,BBox,,0.009454027432543756,0.15865586514949845
+43,40,bbox_aspect_ratio_min,BBox,,0.11439079123294724,1.9196866179724728
+43,41,bbox_aspect_ratio_max,BBox,,0.352586188551424,5.9170408784543636
+43,42,center_x_velocity_mean,BBox,,0.04476991893817138,0.7513210927818639
+43,43,center_y_velocity_mean,BBox,,0.01366195417086298,0.22927256918566516
+43,44,center_x_velocity_std,BBox,,0.029137651531066268,0.4889830651614761
+43,45,center_y_velocity_std,BBox,,0.01178361619152795,0.19775062372052749
+43,46,center_x_displacement,BBox,,0.004301480666269274,0.07218670999214218
+43,47,center_y_displacement,BBox,,0.0,0.0
+43,48,bbox_area_change,BBox,,0.0008022304031614123,0.013462892885699873
+43,49,bbox_width_change,BBox,,0.0,0.0
+43,50,bbox_height_change,BBox,,0.03506416680367971,0.5884408269045267
+43,51,bbox_scale_change_ratio,BBox,,0.06423098124981746,1.077913299099562
+43,52,bbox_valid_frame_count,BBox,,0.0,0.0
+43,53,v2__ankle_center_x_delta,BIU-v2,ankle_center_x,0.016502474680008244,0.2769416966627024
+43,54,v2__ankle_center_x_last,BIU-v2,ankle_center_x,0.0,0.0
+43,55,v2__ankle_center_x_velocity_mean,BIU-v2,ankle_center_x,0.01307066038881686,0.21934957845844189
+43,56,v2__ankle_center_x_velocity_std,BIU-v2,ankle_center_x,0.06617098199864725,1.1104700585750789
+43,57,v2__body_yaw_angle_delta,BIU-v2,body_yaw_angle,5.118720117541374e-05,0.0008590148214623455
+43,58,v2__body_yaw_angle_last,BIU-v2,body_yaw_angle,0.004715187646893752,0.07912946950894026
+43,59,v2__body_yaw_angle_mean,BIU-v2,body_yaw_angle,0.06969279940814287,1.1695725936575
+43,60,v2__body_yaw_angle_std,BIU-v2,body_yaw_angle,0.0497557351883424,0.8349922050450186
+43,61,v2__head_yaw_angle_delta,BIU-v2,head_yaw_angle,0.0005800706238719817,0.009734645613721896
+43,62,v2__head_yaw_angle_last,BIU-v2,head_yaw_angle,0.15212825532968982,2.5529902610533837
+43,63,v2__head_yaw_angle_mean,BIU-v2,head_yaw_angle,0.5267196856604952,8.83931932882626
+43,64,v2__head_yaw_angle_std,BIU-v2,head_yaw_angle,0.04119289599735078,0.6912921079513432
+43,65,v2__hip_center_x_delta,BIU-v2,hip_center_x,0.03511933380758771,0.5893666300921291
+43,66,v2__hip_center_x_last,BIU-v2,hip_center_x,0.002013965098103428,0.033798016485606916
+43,67,v2__hip_center_x_velocity_mean,BIU-v2,hip_center_x,0.0,0.0
+43,68,v2__hip_center_x_velocity_std,BIU-v2,hip_center_x,0.013116361355281455,0.2201165242309546
+43,69,v2__knee_center_x_delta,BIU-v2,knee_center_x,0.008916985736792817,0.14964332361958738
+43,70,v2__knee_center_x_last,BIU-v2,knee_center_x,5.731870125010175e-05,0.0009619126029586377
+43,71,v2__knee_center_x_velocity_mean,BIU-v2,knee_center_x,0.0,0.0
+43,72,v2__knee_center_x_velocity_std,BIU-v2,knee_center_x,0.05468291933843872,0.917679363471646
+43,73,v2__lead_ankle_forward_delta,BIU-v2,lead_ankle_forward,0.00398675764819272,0.06690508233962311
+43,74,v2__lead_ankle_forward_last,BIU-v2,lead_ankle_forward,0.0,0.0
+43,75,v2__lead_ankle_forward_velocity_mean,BIU-v2,lead_ankle_forward,0.00011015111321501395,0.0018485370694134068
+43,76,v2__lead_ankle_forward_velocity_std,BIU-v2,lead_ankle_forward,0.014597108165790263,0.24496616296586396
+43,77,v2__lead_foot_elevation_delta,BIU-v2,lead_foot_elevation,0.0,0.0
+43,78,v2__lead_foot_elevation_last,BIU-v2,lead_foot_elevation,0.0,0.0
+43,79,v2__lead_foot_elevation_mean,BIU-v2,lead_foot_elevation,0.010846415352940198,0.18202268016145454
+43,80,v2__lead_foot_elevation_std,BIU-v2,lead_foot_elevation,0.022519515095167104,0.37791863580509977
+43,81,v2__leg_center_x_delta,BIU-v2,leg_center_x,0.0009692861808326575,0.016266394263685854
+43,82,v2__leg_center_x_last,BIU-v2,leg_center_x,0.006033332770104002,0.10125035464574637
+43,83,v2__leg_center_x_velocity_mean,BIU-v2,leg_center_x,0.0,0.0
+43,84,v2__leg_center_x_velocity_std,BIU-v2,leg_center_x,0.11534481815689708,1.9356969340071124
+43,85,v2__lower_body_motion_magnitude_mean,BIU-v2,lower_body_motion_magnitude,0.016417000287627867,0.27550728008542924
+43,86,v2__lower_body_motion_magnitude_std,BIU-v2,lower_body_motion_magnitude,0.029180493313327005,0.48970202859559164
+43,87,v2__shoulder_center_x_delta,BIU-v2,shoulder_center_x,0.003072981932042699,0.051570255163288586
+43,88,v2__shoulder_center_x_last,BIU-v2,shoulder_center_x,0.0,0.0
+43,89,v2__shoulder_center_x_velocity_mean,BIU-v2,shoulder_center_x,0.0,0.0
+43,90,v2__shoulder_center_x_velocity_std,BIU-v2,shoulder_center_x,0.00815704032076631,0.13689005012780106
+43,91,v2__stride_length_delta,BIU-v2,stride_length,0.0007480546929304226,0.012553725418383408
+43,92,v2__stride_length_last,BIU-v2,stride_length,0.012002797858343007,0.201428892820292
+43,93,v2__stride_length_mean,BIU-v2,stride_length,0.18224759553581418,3.058447857007172
+43,94,v2__stride_length_std,BIU-v2,stride_length,0.18244584148183768,3.061774786435203
+43,95,v2__stride_opening_delta,BIU-v2,stride_opening,0.01942777441696727,0.3260335745846133
+43,96,v2__stride_opening_last,BIU-v2,stride_opening,0.006380061076812561,0.10706908955689161
+43,97,v2__stride_opening_velocity_mean,BIU-v2,stride_opening,0.0,0.0
+43,98,v2__stride_opening_velocity_std,BIU-v2,stride_opening,0.09473596471012632,1.5898426939314763
+43,99,v2__torso_center_x_delta,BIU-v2,torso_center_x,0.000646711688459965,0.010853004517599678
+43,100,v2__torso_center_x_last,BIU-v2,torso_center_x,0.0,0.0
+43,101,v2__torso_center_x_velocity_mean,BIU-v2,torso_center_x,0.0,0.0
+43,102,v2__torso_center_x_velocity_std,BIU-v2,torso_center_x,0.0036481114574394274,0.06122198011076812
+43,103,v2__torso_lean_angle_delta,BIU-v2,torso_lean_angle,0.0,0.0
+43,104,v2__torso_lean_angle_last,BIU-v2,torso_lean_angle,0.0036742835538069447,0.06166119573835036
+43,105,v2__torso_lean_angle_mean,BIU-v2,torso_lean_angle,0.022952788669543478,0.3851897585387265
+43,106,v2__torso_lean_angle_std,BIU-v2,torso_lean_angle,0.020803613395804554,0.349122668100719
+43,107,v2__torso_motion_magnitude_mean,BIU-v2,torso_motion_magnitude,0.010911006733171606,0.18310664161438395
+43,108,v2__torso_motion_magnitude_std,BIU-v2,torso_motion_magnitude,0.010787140783170201,0.18102794450881082
+43,109,temporal__lower_body_motion_magnitude_mean_early,Early/late motion,,0.0020275227666071522,0.034025538950632137
+43,110,temporal__lower_body_motion_magnitude_mean_late,Early/late motion,,0.0037853940491523585,0.06352583299395359
+43,111,temporal__lower_body_motion_magnitude_mean_late_minus_early,Early/late motion,,3.095530797377132e-05,0.0005194866634976972
+43,112,temporal__lead_ankle_forward_delta_early,Early/late motion,,0.0,0.0
+43,113,temporal__lead_ankle_forward_delta_late,Early/late motion,,0.004909099621631222,0.08238366697497651
+43,114,temporal__lead_ankle_forward_delta_late_minus_early,Early/late motion,,0.000421669810299234,0.007076390357209832
+43,115,temporal__torso_motion_magnitude_mean_early,Early/late motion,,0.004015353170463555,0.06738496748462108
+43,116,temporal__torso_motion_magnitude_mean_late,Early/late motion,,0.003964063873058512,0.06652423930176267
+43,117,temporal__torso_motion_magnitude_mean_late_minus_early,Early/late motion,,0.00239777618215517,0.04023906819914225
+43,118,temporal__torso_center_x_delta_early,Early/late motion,,0.0042363327960206615,0.07109340961929148
+43,119,temporal__torso_center_x_delta_late,Early/late motion,,0.029604043934415604,0.4968099823965399
+43,120,temporal__torso_center_x_delta_late_minus_early,Early/late motion,,0.014902855696449002,0.2500971655295971
+43,121,temporal__bbox_center_dx_norm_early,Early/late motion,,0.14902370324433167,2.5008902009976404
+43,122,temporal__bbox_center_dx_norm_late,Early/late motion,,0.061756422513036376,1.0363856792519837
+43,123,temporal__bbox_center_dx_norm_late_minus_early,Early/late motion,,0.0051753754670128835,0.08685226249354003
+43,124,temporal__bbox_scale_log_delta_early,Early/late motion,,0.01918044999597225,0.3218830186162131
+43,125,temporal__bbox_scale_log_delta_late,Early/late motion,,0.0018713497423433125,0.031404670071798535
+43,126,temporal__bbox_scale_log_delta_late_minus_early,Early/late motion,,0.00028190100412650305,0.00473081424983433
+43,127,temporal__pose_confidence_mean_early,Pose quality,,0.03657328927748018,0.6137666611487946
+43,128,temporal__pose_confidence_mean_late,Pose quality,,0.0496435350118009,0.8331092809466771
+43,129,temporal__pose_confidence_mean_late_minus_early,Pose quality,,0.0007157408429957572,0.012011439936954891
+43,130,obd_speed_mean,Ego speed,,0.17283834214178925,2.9005433820845505
+43,131,obd_speed_std,Ego speed,,0.0012795780284382873,0.021473658774178346
+43,132,obd_speed_first,Ego speed,,0.3344514712822326,5.612707166910334
+43,133,obd_speed_last,Ego speed,,0.2300657537954325,3.8609239787095264
+43,134,obd_speed_delta,Ego speed,,0.03722904609334364,0.6247714594414631
+44,0,bbox_center_x_mean,BBox,,0.02577074088472371,0.42736849101839824
+44,1,bbox_center_x_std,BBox,,0.04629906321913448,0.7677994541187619
+44,2,bbox_center_x_first,BBox,,0.07859604015740142,1.3033956312059745
+44,3,bbox_center_x_last,BBox,,0.07015570027746866,1.163425448187003
+44,4,bbox_center_x_delta,BBox,,0.22311064374286912,3.6999502487355693
+44,5,bbox_center_x_min,BBox,,0.07452255885312427,1.2358431473256009
+44,6,bbox_center_x_max,BBox,,0.060506882295289194,1.0034144962473324
+44,7,bbox_center_y_mean,BBox,,0.03826061304787016,0.6344939998756427
+44,8,bbox_center_y_std,BBox,,0.035367815592873254,0.5865213595587035
+44,9,bbox_center_y_first,BBox,,0.14668477065507565,2.4325435334069008
+44,10,bbox_center_y_last,BBox,,0.07400534175861591,1.2272658894889825
+44,11,bbox_center_y_delta,BBox,,0.07280635818743696,1.207382572906713
+44,12,bbox_center_y_min,BBox,,0.09149089060731566,1.5172370882032182
+44,13,bbox_center_y_max,BBox,,0.09452873583536447,1.5676151249413184
+44,14,bbox_width_mean,BBox,,0.025957282068957054,0.43046199247321454
+44,15,bbox_width_std,BBox,,0.05488016858563185,0.9101040183590452
+44,16,bbox_width_first,BBox,,0.013239232181610031,0.21955250355455797
+44,17,bbox_width_last,BBox,,0.04818188749783072,0.7990232274064053
+44,18,bbox_width_delta,BBox,,0.0028692602560264594,0.04758231171708269
+44,19,bbox_width_min,BBox,,0.09192775464764905,1.524481813006926
+44,20,bbox_width_max,BBox,,0.023993120311816683,0.3978893609753474
+44,21,bbox_height_mean,BBox,,0.00995833932352443,0.16514389201230134
+44,22,bbox_height_std,BBox,,0.1326654562704221,2.2000545545109356
+44,23,bbox_height_first,BBox,,0.013590677887796847,0.22538069537099845
+44,24,bbox_height_last,BBox,,0.01960130958450027,0.3250578684013708
+44,25,bbox_height_delta,BBox,,0.17220248085979234,2.855715895940686
+44,26,bbox_height_min,BBox,,0.03133230100314297,0.5195984958191479
+44,27,bbox_height_max,BBox,,0.021457117980184886,0.3558336244120623
+44,28,bbox_area_mean,BBox,,0.013545024567596669,0.22462360458143968
+44,29,bbox_area_std,BBox,,0.004473227574516017,0.0741816669941383
+44,30,bbox_area_first,BBox,,0.010233359609714462,0.16970468462723756
+44,31,bbox_area_last,BBox,,0.02180712123960144,0.3616378954455366
+44,32,bbox_area_delta,BBox,,0.009032173356460333,0.1497848399172408
+44,33,bbox_area_min,BBox,,0.018957657112234755,0.31438387237452653
+44,34,bbox_area_max,BBox,,0.041584507048475945,0.6896157198796671
+44,35,bbox_aspect_ratio_mean,BBox,,0.12422432092465781,2.0600711799025726
+44,36,bbox_aspect_ratio_std,BBox,,0.1118544988756375,1.854936519362424
+44,37,bbox_aspect_ratio_first,BBox,,0.1041414724303314,1.727027722022824
+44,38,bbox_aspect_ratio_last,BBox,,0.03173673225208507,0.5263053721698984
+44,39,bbox_aspect_ratio_delta,BBox,,0.0007564672887923517,0.012544857951973165
+44,40,bbox_aspect_ratio_min,BBox,,0.11134719655092712,1.8465236828835891
+44,41,bbox_aspect_ratio_max,BBox,,0.3644115194792552,6.043210084110882
+44,42,center_x_velocity_mean,BBox,,0.05193545674532762,0.8612704570227925
+44,43,center_y_velocity_mean,BBox,,0.014254946156471772,0.2363965729852617
+44,44,center_x_velocity_std,BBox,,0.023270826703607975,0.3859112214723666
+44,45,center_y_velocity_std,BBox,,0.019027425653391963,0.31554087737831304
+44,46,center_x_displacement,BBox,,0.001224169081225469,0.020300979911091005
+44,47,center_y_displacement,BBox,,0.007934886256892261,0.13158800444192306
+44,48,bbox_area_change,BBox,,0.0,0.0
+44,49,bbox_width_change,BBox,,0.0,0.0
+44,50,bbox_height_change,BBox,,0.019081176339379044,0.316432250647877
+44,51,bbox_scale_change_ratio,BBox,,0.06119782008576571,1.0148726472653566
+44,52,bbox_valid_frame_count,BBox,,0.0,0.0
+44,53,v2__ankle_center_x_delta,BIU-v2,ankle_center_x,0.028430847484502073,0.4714823078690909
+44,54,v2__ankle_center_x_last,BIU-v2,ankle_center_x,0.005944119534878045,0.09857417011862707
+44,55,v2__ankle_center_x_velocity_mean,BIU-v2,ankle_center_x,0.005348641210848871,0.08869906897532359
+44,56,v2__ankle_center_x_velocity_std,BIU-v2,ankle_center_x,0.09318449395772757,1.5453229205619727
+44,57,v2__body_yaw_angle_delta,BIU-v2,body_yaw_angle,0.0013349617631389019,0.022138307813188405
+44,58,v2__body_yaw_angle_last,BIU-v2,body_yaw_angle,0.0046812144315898745,0.07763081227315526
+44,59,v2__body_yaw_angle_mean,BIU-v2,body_yaw_angle,0.06691033753151072,1.1096060494451712
+44,60,v2__body_yaw_angle_std,BIU-v2,body_yaw_angle,0.04879596349305557,0.8092067426038839
+44,61,v2__head_yaw_angle_delta,BIU-v2,head_yaw_angle,0.0007432640800057214,0.012325902841563909
+44,62,v2__head_yaw_angle_last,BIU-v2,head_yaw_angle,0.17616863143610836,2.9214884631530125
+44,63,v2__head_yaw_angle_mean,BIU-v2,head_yaw_angle,0.49910423049559716,8.276883571253562
+44,64,v2__head_yaw_angle_std,BIU-v2,head_yaw_angle,0.034961885310122336,0.5797896240151295
+44,65,v2__hip_center_x_delta,BIU-v2,hip_center_x,0.020677896003538317,0.3429114146154002
+44,66,v2__hip_center_x_last,BIU-v2,hip_center_x,0.0,0.0
+44,67,v2__hip_center_x_velocity_mean,BIU-v2,hip_center_x,0.0,0.0
+44,68,v2__hip_center_x_velocity_std,BIU-v2,hip_center_x,0.006789836380221094,0.1125990960468276
+44,69,v2__knee_center_x_delta,BIU-v2,knee_center_x,0.011631830871239496,0.19289620075182168
+44,70,v2__knee_center_x_last,BIU-v2,knee_center_x,0.00020760816588830293,0.0034428652624176404
+44,71,v2__knee_center_x_velocity_mean,BIU-v2,knee_center_x,0.0,0.0
+44,72,v2__knee_center_x_velocity_std,BIU-v2,knee_center_x,0.03987853238911134,0.6613247282023398
+44,73,v2__lead_ankle_forward_delta,BIU-v2,lead_ankle_forward,0.007114691596781729,0.11798632508777732
+44,74,v2__lead_ankle_forward_last,BIU-v2,lead_ankle_forward,0.005397813346129588,0.08951451395414955
+44,75,v2__lead_ankle_forward_velocity_mean,BIU-v2,lead_ankle_forward,0.0,0.0
+44,76,v2__lead_ankle_forward_velocity_std,BIU-v2,lead_ankle_forward,0.024183362215159876,0.4010442332207334
+44,77,v2__lead_foot_elevation_delta,BIU-v2,lead_foot_elevation,0.0,0.0
+44,78,v2__lead_foot_elevation_last,BIU-v2,lead_foot_elevation,0.0,0.0
+44,79,v2__lead_foot_elevation_mean,BIU-v2,lead_foot_elevation,0.007526282185561704,0.12481192818669876
+44,80,v2__lead_foot_elevation_std,BIU-v2,lead_foot_elevation,0.020473465290236463,0.3395212425651501
+44,81,v2__leg_center_x_delta,BIU-v2,leg_center_x,0.003710573166441988,0.06153420509131293
+44,82,v2__leg_center_x_last,BIU-v2,leg_center_x,0.007639475037634252,0.12668905925563864
+44,83,v2__leg_center_x_velocity_mean,BIU-v2,leg_center_x,0.0,0.0
+44,84,v2__leg_center_x_velocity_std,BIU-v2,leg_center_x,0.09657408720849783,1.6015341625758386
+44,85,v2__lower_body_motion_magnitude_mean,BIU-v2,lower_body_motion_magnitude,0.020690041398008913,0.3431128274863355
+44,86,v2__lower_body_motion_magnitude_std,BIU-v2,lower_body_motion_magnitude,0.02595903766392103,0.43049110634207655
+44,87,v2__shoulder_center_x_delta,BIU-v2,shoulder_center_x,0.0053975015595630685,0.08950934344876713
+44,88,v2__shoulder_center_x_last,BIU-v2,shoulder_center_x,0.0,0.0
+44,89,v2__shoulder_center_x_velocity_mean,BIU-v2,shoulder_center_x,0.0,0.0
+44,90,v2__shoulder_center_x_velocity_std,BIU-v2,shoulder_center_x,0.015623873863107495,0.2590981542442228
+44,91,v2__stride_length_delta,BIU-v2,stride_length,0.00032935425471407835,0.005461838737088131
+44,92,v2__stride_length_last,BIU-v2,stride_length,0.010472517117162593,0.1736707476725734
+44,93,v2__stride_length_mean,BIU-v2,stride_length,0.17157767708458657,2.845354476849683
+44,94,v2__stride_length_std,BIU-v2,stride_length,0.21335397527435537,3.5381507607267784
+44,95,v2__stride_opening_delta,BIU-v2,stride_opening,0.03241054970565258,0.5374796084730427
+44,96,v2__stride_opening_last,BIU-v2,stride_opening,0.0,0.0
+44,97,v2__stride_opening_velocity_mean,BIU-v2,stride_opening,0.0,0.0
+44,98,v2__stride_opening_velocity_std,BIU-v2,stride_opening,0.0760918716158136,1.2618678095705274
+44,99,v2__torso_center_x_delta,BIU-v2,torso_center_x,0.006971161050572067,0.11560608956319328
+44,100,v2__torso_center_x_last,BIU-v2,torso_center_x,0.0036990678614628823,0.06134340712979443
+44,101,v2__torso_center_x_velocity_mean,BIU-v2,torso_center_x,0.0,0.0
+44,102,v2__torso_center_x_velocity_std,BIU-v2,torso_center_x,0.004688589296072536,0.0777531131693351
+44,103,v2__torso_lean_angle_delta,BIU-v2,torso_lean_angle,0.002975229011285099,0.04933964214202317
+44,104,v2__torso_lean_angle_last,BIU-v2,torso_lean_angle,0.0023917540100750556,0.03966359782767797
+44,105,v2__torso_lean_angle_mean,BIU-v2,torso_lean_angle,0.024897661949836055,0.4128898065051381
+44,106,v2__torso_lean_angle_std,BIU-v2,torso_lean_angle,0.035659680586799886,0.591361495998454
+44,107,v2__torso_motion_magnitude_mean,BIU-v2,torso_motion_magnitude,0.011056296137799206,0.18335183368611363
+44,108,v2__torso_motion_magnitude_std,BIU-v2,torso_motion_magnitude,0.01932251173415519,0.32043443063781857
+44,109,temporal__lower_body_motion_magnitude_mean_early,Early/late motion,,0.0027529493071808252,0.04565347176174627
+44,110,temporal__lower_body_motion_magnitude_mean_late,Early/late motion,,0.006257224638489283,0.10376654143069183
+44,111,temporal__lower_body_motion_magnitude_mean_late_minus_early,Early/late motion,,0.0006977722724480516,0.011571490493211697
+44,112,temporal__lead_ankle_forward_delta_early,Early/late motion,,0.003713587377959304,0.06158419119895058
+44,113,temporal__lead_ankle_forward_delta_late,Early/late motion,,0.004519084823126571,0.07494213962581825
+44,114,temporal__lead_ankle_forward_delta_late_minus_early,Early/late motion,,0.0005745007887976996,0.009527220668416752
+44,115,temporal__torso_motion_magnitude_mean_early,Early/late motion,,0.0034916024749787806,0.05790290964635508
+44,116,temporal__torso_motion_magnitude_mean_late,Early/late motion,,0.004932816304572472,0.08180324616921428
+44,117,temporal__torso_motion_magnitude_mean_late_minus_early,Early/late motion,,0.0011744303796453507,0.01947613929301975
+44,118,temporal__torso_center_x_delta_early,Early/late motion,,0.006290212221174845,0.10431359025236658
+44,119,temporal__torso_center_x_delta_late,Early/late motion,,0.02499914394598642,0.41457273086320434
+44,120,temporal__torso_center_x_delta_late_minus_early,Early/late motion,,0.021529304613627023,0.3570307297938541
+44,121,temporal__bbox_center_dx_norm_early,Early/late motion,,0.13465542118440815,2.2330550920691676
+44,122,temporal__bbox_center_dx_norm_late,Early/late motion,,0.06559383775712677,1.0877739055995106
+44,123,temporal__bbox_center_dx_norm_late_minus_early,Early/late motion,,0.004881106931115253,0.08094572495921996
+44,124,temporal__bbox_scale_log_delta_early,Early/late motion,,0.01445458686181539,0.23970731004828214
+44,125,temporal__bbox_scale_log_delta_late,Early/late motion,,0.0008189145035011109,0.013580449906343571
+44,126,temporal__bbox_scale_log_delta_late_minus_early,Early/late motion,,0.0014438804312697925,0.023944558050659273
+44,127,temporal__pose_confidence_mean_early,Pose quality,,0.029056720816578077,0.48186146393194723
+44,128,temporal__pose_confidence_mean_late,Pose quality,,0.0409306155353294,0.6787719249529628
+44,129,temporal__pose_confidence_mean_late_minus_early,Pose quality,,0.00043401125237227416,0.007197415659915847
+44,130,obd_speed_mean,Ego speed,,0.16488834046395986,2.7344220162635
+44,131,obd_speed_std,Ego speed,,0.0026829148871095406,0.04449205756107982
+44,132,obd_speed_first,Ego speed,,0.32608019888683104,5.407543507290136
+44,133,obd_speed_last,Ego speed,,0.26744710741583044,4.435202978246247
+44,134,obd_speed_delta,Ego speed,,0.03482127015335809,0.5774577357846179

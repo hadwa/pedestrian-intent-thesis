@@ -1,0 +1,14 @@
+{
+  "authorized_sets": [
+    "set01",
+    "set02",
+    "set04",
+    "set05",
+    "set06"
+  ],
+  "prepare_completion": {
+    "sha256": "11e0e7f43069455db9cd7cc90b47fae38bb2d3bb9ba5b3448591dd4a14f557bc",
+    "size_bytes": 665
+  },
+  "set03_materialized": false
+}

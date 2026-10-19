@@ -1,0 +1,21 @@
+{
+  "checkpoint": {
+    "container": "OrderedDict",
+    "missing_keys": [],
+    "parameters": 1943911,
+    "state_entries": 408,
+    "trainable_parameters": 1943911,
+    "unexpected_keys": []
+  },
+  "checkpoint_artifact": {
+    "sha256": "5605d1a8ce762c1b6f7d23f4c2e7ec9384bfd6e6887b040b43e1f8902a817e22",
+    "size_bytes": 7959943
+  },
+  "paper_artifact": {
+    "sha256": "be71abe6d7aeaac128ac8beda408e39436f7c92bf2761abe6e874505df5c13ff",
+    "size_bytes": 14342482
+  },
+  "primary_cache_published": false,
+  "source_commit": "90f1b8695ae311d5123b05f8534b2e11e42499d2",
+  "strict_load": true
+}

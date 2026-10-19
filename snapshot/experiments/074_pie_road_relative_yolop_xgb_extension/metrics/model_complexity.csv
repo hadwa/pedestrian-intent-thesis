@@ -1,0 +1,7 @@
+model,seed,model_size_bytes,feature_count
+Exp072_XGBoost,42,374687,187
+Exp074_Road_XGBoost,42,376688,247
+Exp072_XGBoost,43,373260,187
+Exp074_Road_XGBoost,43,379952,247
+Exp072_XGBoost,44,371016,187
+Exp074_Road_XGBoost,44,376824,247

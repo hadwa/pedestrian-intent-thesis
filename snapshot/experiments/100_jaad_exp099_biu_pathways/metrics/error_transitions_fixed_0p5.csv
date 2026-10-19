@@ -1,0 +1,10 @@
+comparison,seed,FP_corrected,FN_corrected,FP_introduced,FN_introduced
+v2_minus_v1,42,26,19,32,14
+v2_minus_v1,43,25,26,30,12
+v2_minus_v1,44,29,19,32,10
+combined_minus_v1,42,20,17,41,13
+combined_minus_v1,43,17,25,42,13
+combined_minus_v1,44,20,23,30,12
+combined_minus_v2,42,21,4,36,5
+combined_minus_v2,43,20,7,40,9
+combined_minus_v2,44,25,8,32,6

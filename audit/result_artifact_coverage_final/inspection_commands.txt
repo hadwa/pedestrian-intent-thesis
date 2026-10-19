@@ -1,0 +1,21 @@
+Read-only inspection was performed from /home/abdelrahman/Hadwa/BIU-PID-Distillation-clean.
+Core audit commands (exact):
+python /tmp/audit_thesis_coverage.py
+python /tmp/audit_thesis_coverage_final.py
+python /tmp/finalize_coverage_audit.py
+
+The first command produced audit/result_artifact_coverage (preliminary; superseded). The second produced audit/result_artifact_coverage_final. The third checked unique selectors, unchanged scope hashes, and generated the weights-to-package list.
+
+Primary scope reads:
+pwd
+cat /home/abdelrahman/Hadwa/pedestrian-intent-thesis/AGENTS.md
+sed -n '1,125p' thesis/14_RESULT_SOURCE_MAP.md
+cat thesis/manuscript/Backmatter/ExperimentMap.tex
+
+Targeted source checks:
+rg -n 'models|joblib|reus|arm ==|arm in|baseline' experiments/102_jaad_api_matched_biu/scripts/run_experiment.py
+rg -n 'joblib|dump|save|predictions' scripts/experiments/pie_biu_v2_30_60_benchmark.py
+head -4 experiments/116_xgboost_v2_core_completion/metrics/summary_results.csv
+rg --files experiments/118_pie_ordered_history_xgb -g '*.py'
+
+Every evidence path actually audited is listed in artifact_catalog.json; exact CSV filters and source line numbers are in table_row_selectors.json. Filesystem scans and SHA-256 operations are fully specified by audit.py. No experiment runner was executed.

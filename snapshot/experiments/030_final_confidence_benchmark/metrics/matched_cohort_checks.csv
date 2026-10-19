@@ -1,0 +1,21 @@
+dataset,horizon,comparison,baseline,candidate,matched_rows,matched_train_rows,matched_val_rows,matched_test_rows,sequence_id_sha256
+pie,30_60,KP-XY -> KP-XYC,kp_xy,kp_xyc,9745,2366,3619,3760,e51322f723bc7e2319e31d99163ba15e5367b34f1da5fd035ff0c35c97db1e25
+pie,30_60,BIU-v2 -> BIU-v2 + global confidence,biu_v2,biu_v2_plus_global_conf,9745,2366,3619,3760,e51322f723bc7e2319e31d99163ba15e5367b34f1da5fd035ff0c35c97db1e25
+pie,30_60,BIU-v2 -> BIU-v2 + BIU-specific reliability,biu_v2,biu_v2_plus_reliability,9745,2366,3619,3760,e51322f723bc7e2319e31d99163ba15e5367b34f1da5fd035ff0c35c97db1e25
+pie,30_60,BBox -> BBox + BIU-v2,bbox,bbox_plus_biu_v2,9745,2366,3619,3760,e51322f723bc7e2319e31d99163ba15e5367b34f1da5fd035ff0c35c97db1e25
+pie,30_60,BBox + BIU-v2 -> BBox + BIU-v2 + reliability,bbox_plus_biu_v2,bbox_plus_biu_v2_plus_reliability,9745,2366,3619,3760,e51322f723bc7e2319e31d99163ba15e5367b34f1da5fd035ff0c35c97db1e25
+jaad,30_60,KP-XY -> KP-XYC,kp_xy,kp_xyc,3327,1552,274,1501,b53e2e7104ac8ce2f6e246c2ab60f39e1a5f7dea76f3bbd7f6b94fb28500249e
+jaad,30_60,BIU-v2 -> BIU-v2 + global confidence,biu_v2,biu_v2_plus_global_conf,3327,1552,274,1501,b53e2e7104ac8ce2f6e246c2ab60f39e1a5f7dea76f3bbd7f6b94fb28500249e
+jaad,30_60,BIU-v2 -> BIU-v2 + BIU-specific reliability,biu_v2,biu_v2_plus_reliability,3327,1552,274,1501,b53e2e7104ac8ce2f6e246c2ab60f39e1a5f7dea76f3bbd7f6b94fb28500249e
+jaad,30_60,BBox -> BBox + BIU-v2,bbox,bbox_plus_biu_v2,3327,1552,274,1501,b53e2e7104ac8ce2f6e246c2ab60f39e1a5f7dea76f3bbd7f6b94fb28500249e
+jaad,30_60,BBox + BIU-v2 -> BBox + BIU-v2 + reliability,bbox_plus_biu_v2,bbox_plus_biu_v2_plus_reliability,3327,1552,274,1501,b53e2e7104ac8ce2f6e246c2ab60f39e1a5f7dea76f3bbd7f6b94fb28500249e
+jaad,15_30,KP-XY -> KP-XYC,kp_xy,kp_xyc,275,126,23,126,ec1c44a87a34057cff3ac018fcb62f544db06f38a45aa6faf5abbf922dc04d61
+jaad,15_30,BIU-v2 -> BIU-v2 + global confidence,biu_v2,biu_v2_plus_global_conf,275,126,23,126,ec1c44a87a34057cff3ac018fcb62f544db06f38a45aa6faf5abbf922dc04d61
+jaad,15_30,BIU-v2 -> BIU-v2 + BIU-specific reliability,biu_v2,biu_v2_plus_reliability,275,126,23,126,ec1c44a87a34057cff3ac018fcb62f544db06f38a45aa6faf5abbf922dc04d61
+jaad,15_30,BBox -> BBox + BIU-v2,bbox,bbox_plus_biu_v2,275,126,23,126,ec1c44a87a34057cff3ac018fcb62f544db06f38a45aa6faf5abbf922dc04d61
+jaad,15_30,BBox + BIU-v2 -> BBox + BIU-v2 + reliability,bbox_plus_biu_v2,bbox_plus_biu_v2_plus_reliability,275,126,23,126,ec1c44a87a34057cff3ac018fcb62f544db06f38a45aa6faf5abbf922dc04d61
+jaad,5_15,KP-XY -> KP-XYC,kp_xy,kp_xyc,1545,723,120,702,aa75275cbf45fd62f9280d3962e75fb6509a52b775d957c65bf168863b399254
+jaad,5_15,BIU-v2 -> BIU-v2 + global confidence,biu_v2,biu_v2_plus_global_conf,1545,723,120,702,aa75275cbf45fd62f9280d3962e75fb6509a52b775d957c65bf168863b399254
+jaad,5_15,BIU-v2 -> BIU-v2 + BIU-specific reliability,biu_v2,biu_v2_plus_reliability,1545,723,120,702,aa75275cbf45fd62f9280d3962e75fb6509a52b775d957c65bf168863b399254
+jaad,5_15,BBox -> BBox + BIU-v2,bbox,bbox_plus_biu_v2,1545,723,120,702,aa75275cbf45fd62f9280d3962e75fb6509a52b775d957c65bf168863b399254
+jaad,5_15,BBox + BIU-v2 -> BBox + BIU-v2 + reliability,bbox_plus_biu_v2,bbox_plus_biu_v2_plus_reliability,1545,723,120,702,aa75275cbf45fd62f9280d3962e75fb6509a52b775d957c65bf168863b399254

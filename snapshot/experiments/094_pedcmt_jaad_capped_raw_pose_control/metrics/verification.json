@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "a_source_parity": true,
+    "all_three_arms_aligned": true,
+    "metric_recomputation": true,
+    "p10_cap_recomputation": true,
+    "phase_marker_order": true,
+    "u10_source_parity": true
+  },
+  "maximum_A_source_probability_difference": 9.252977051232847e-08,
+  "maximum_U10_source_probability_difference": 0.0,
+  "maximum_absolute_metric_difference": 0.0,
+  "maximum_cap_probability_difference": 1.2351045186598242e-08,
+  "passed": true,
+  "tolerances": {
+    "cap_probability": 1e-07,
+    "copied_source_probability": 1e-12,
+    "metric": 1e-12,
+    "reproduced_parent_probability": 1e-06
+  }
+}

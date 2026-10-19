@@ -1,0 +1,3 @@
+variant,source,historical_f1,fresh_protocol_parity,note
+A,ICVES paper reported final result / thesis-authoritative stream target,0.8992,False,Historical reference only; exact paper runner/checkpoint is unavailable.
+F,AIBThings historical 72-D BIU-v1 definition,,False,Representation provenance reference only; no historical MSLSTM F result exists.

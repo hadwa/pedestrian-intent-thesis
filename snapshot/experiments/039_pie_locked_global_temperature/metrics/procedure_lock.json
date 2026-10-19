@@ -1,0 +1,20 @@
+{
+  "confirmation_set": "set06",
+  "development_sets": [
+    "set01",
+    "set02",
+    "set04",
+    "set05"
+  ],
+  "diagnostic_test_set": "set03",
+  "phase": "prepare",
+  "preregistration_sha256": "6aca4d5f952bf06246fd1f8c9e781b4199200d7acc255c870af3ae9436d13bb6",
+  "schema_version": 1,
+  "status": "locked",
+  "temperatures": {
+    "joint_temporal_ego_xgb": 1.8395656892513026,
+    "v1_bbox_rf": 1.0,
+    "v2_bbox_xgb": 2.0149628788881717
+  },
+  "threshold": 0.5
+}

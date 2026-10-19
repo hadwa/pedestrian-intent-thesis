@@ -1,0 +1,17 @@
+{
+  "confirmation_set": "set06",
+  "confirmed_candidate": null,
+  "development_sets": [
+    "set01",
+    "set02",
+    "set04",
+    "set05"
+  ],
+  "diagnostic_test_set": "set03",
+  "phase": "confirm",
+  "preregistration_sha256": "36cf361bb99799cb5232a660a4bf12b54cac3b92781719c098d60911c99ecdbb",
+  "schema_version": 1,
+  "selected_candidate": null,
+  "status": "no_advance",
+  "threshold": 0.5
+}

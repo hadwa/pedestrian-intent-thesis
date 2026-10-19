@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "prediction_files": 6,
+  "new_models": 3,
+  "train_rows": 2366,
+  "validation_rows": 3619,
+  "frozen_source_hashes_verified": true,
+  "test_accessed": false
+}

@@ -1,0 +1,138 @@
+{
+  "cue_arrays_verified": 114,
+  "cue_subset_rows_verified": 15664,
+  "union_groups_checked_against_original_feature_arrays": [
+    {
+      "setting": "all_102",
+      "split": "test",
+      "seed": 42,
+      "cue_columns": 32
+    },
+    {
+      "setting": "all_102",
+      "split": "test",
+      "seed": 43,
+      "cue_columns": 32
+    },
+    {
+      "setting": "all_102",
+      "split": "test",
+      "seed": 44,
+      "cue_columns": 32
+    },
+    {
+      "setting": "all_102",
+      "split": "val",
+      "seed": 42,
+      "cue_columns": 32
+    },
+    {
+      "setting": "all_102",
+      "split": "val",
+      "seed": 43,
+      "cue_columns": 32
+    },
+    {
+      "setting": "all_102",
+      "split": "val",
+      "seed": 44,
+      "cue_columns": 32
+    },
+    {
+      "setting": "beh_102",
+      "split": "test",
+      "seed": 42,
+      "cue_columns": 32
+    },
+    {
+      "setting": "beh_102",
+      "split": "test",
+      "seed": 43,
+      "cue_columns": 32
+    },
+    {
+      "setting": "beh_102",
+      "split": "test",
+      "seed": 44,
+      "cue_columns": 32
+    },
+    {
+      "setting": "beh_102",
+      "split": "val",
+      "seed": 42,
+      "cue_columns": 32
+    },
+    {
+      "setting": "beh_102",
+      "split": "val",
+      "seed": 43,
+      "cue_columns": 32
+    },
+    {
+      "setting": "beh_102",
+      "split": "val",
+      "seed": 44,
+      "cue_columns": 32
+    },
+    {
+      "setting": "clean_098",
+      "split": "test",
+      "seed": 42,
+      "cue_columns": 32
+    },
+    {
+      "setting": "clean_098",
+      "split": "test",
+      "seed": 43,
+      "cue_columns": 32
+    },
+    {
+      "setting": "clean_098",
+      "split": "test",
+      "seed": 44,
+      "cue_columns": 32
+    },
+    {
+      "setting": "clean_098",
+      "split": "val",
+      "seed": 42,
+      "cue_columns": 32
+    },
+    {
+      "setting": "clean_098",
+      "split": "val",
+      "seed": 43,
+      "cue_columns": 32
+    },
+    {
+      "setting": "clean_098",
+      "split": "val",
+      "seed": 44,
+      "cue_columns": 32
+    }
+  ],
+  "agreement_with_previous_standalone_audit": [
+    {
+      "setting": "pie_096",
+      "cue_seed_comparisons": 270,
+      "max_error": 9.8879238130678e-17
+    },
+    {
+      "setting": "clean_098",
+      "cue_seed_comparisons": 192,
+      "max_error": 9.71445146547012e-17
+    },
+    {
+      "setting": "beh_102",
+      "cue_seed_comparisons": 192,
+      "max_error": 1.1102230246251565e-16
+    },
+    {
+      "setting": "all_102",
+      "cue_seed_comparisons": 192,
+      "max_error": 9.8879238130678e-17
+    }
+  ],
+  "balanced_ranking_rows_verified": 748,
+  "sources_unchanged": true
+}

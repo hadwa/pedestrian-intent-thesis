@@ -1,0 +1,16 @@
+{
+  "development_yolop_upstream": {
+    "device": "cuda:0",
+    "elapsed_seconds": 840.3142259120941,
+    "inference_batch_size": 8,
+    "unique_frames": 31131
+  },
+  "summarizer": {
+    "mean_ms": 0.011550965600000001,
+    "median_ms": 0.01127,
+    "p95_ms": 0.0119333,
+    "repetitions": 5000,
+    "warmups": 100
+  },
+  "vitpose_biu_upstream": "separate_not_remeasured"
+}

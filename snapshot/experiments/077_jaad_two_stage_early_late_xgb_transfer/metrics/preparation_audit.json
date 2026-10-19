@@ -1,0 +1,70 @@
+{
+  "train": {
+    "archived_parity": {
+      "bbox": {
+        "max_abs_difference": 1.8189894035458565e-12,
+        "mismatch_rows": 0,
+        "nan_mismatches": 0,
+        "rows": 1552,
+        "status": "exact"
+      },
+      "biu": {
+        "max_abs_difference": 6.2416850260718295,
+        "mismatch_rows": 14,
+        "nan_mismatches": 0,
+        "rows": 1552,
+        "status": "expected_exact_pose_vs_historical_nearest_frame_repair_difference"
+      }
+    },
+    "keypoints": {
+      "duplicate_identical_frames": 0,
+      "loaded_frames": 6658,
+      "missing_frames": 0,
+      "required_frames": 6658,
+      "source_new_frames": {
+        "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/data/jaad_keypoints_vitpose_s_extended_short_horizon.jsonl": 6622,
+        "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/030_final_confidence_benchmark/jaad30_repair/jaad30_missing_supplemental_keypoints.jsonl": 36
+      }
+    },
+    "views": {
+      "early_feature_count": 161,
+      "missing_windows": 0,
+      "portable_feature_count": 182,
+      "rows": 1552
+    }
+  },
+  "validation": {
+    "archived_parity": {
+      "bbox": {
+        "max_abs_difference": 9.094947017729282e-13,
+        "mismatch_rows": 0,
+        "nan_mismatches": 0,
+        "rows": 274,
+        "status": "exact"
+      },
+      "biu": {
+        "max_abs_difference": 2.0554001336944068,
+        "mismatch_rows": 4,
+        "nan_mismatches": 0,
+        "rows": 274,
+        "status": "expected_exact_pose_vs_historical_nearest_frame_repair_difference"
+      }
+    },
+    "keypoints": {
+      "duplicate_identical_frames": 0,
+      "loaded_frames": 1186,
+      "missing_frames": 0,
+      "required_frames": 1186,
+      "source_new_frames": {
+        "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/data/jaad_keypoints_vitpose_s_extended_short_horizon.jsonl": 1176,
+        "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/030_final_confidence_benchmark/jaad30_repair/jaad30_missing_supplemental_keypoints.jsonl": 10
+      }
+    },
+    "views": {
+      "early_feature_count": 161,
+      "missing_windows": 0,
+      "portable_feature_count": 182,
+      "rows": 274
+    }
+  }
+}

@@ -1,0 +1,16 @@
+cohort,split,label_source,label,windows,tracks
+jaad_all,test,behavior_crossing_action,0,704,64
+jaad_all,test,behavior_crossing_action,1,1177,107
+jaad_all,test,official_non_behavior_negative,0,4851,441
+jaad_all,train,behavior_crossing_action,0,374,34
+jaad_all,train,behavior_crossing_action,1,1760,160
+jaad_all,train,official_non_behavior_negative,0,6479,589
+jaad_all,val,behavior_crossing_action,0,66,6
+jaad_all,val,behavior_crossing_action,1,176,16
+jaad_all,val,official_non_behavior_negative,0,1023,93
+jaad_beh,test,behavior_crossing_action,0,704,64
+jaad_beh,test,behavior_crossing_action,1,1177,107
+jaad_beh,train,behavior_crossing_action,0,374,34
+jaad_beh,train,behavior_crossing_action,1,1760,160
+jaad_beh,val,behavior_crossing_action,0,66,6
+jaad_beh,val,behavior_crossing_action,1,176,16

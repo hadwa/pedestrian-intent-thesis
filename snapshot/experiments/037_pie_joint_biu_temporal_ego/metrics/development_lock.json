@@ -1,0 +1,20 @@
+{
+  "confirmation_set": "set06",
+  "development_sets": [
+    "set01",
+    "set02",
+    "set04",
+    "set05"
+  ],
+  "phase": "develop",
+  "preregistration_sha256": "36cf361bb99799cb5232a660a4bf12b54cac3b92781719c098d60911c99ecdbb",
+  "schema_version": 1,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "selected_candidate": null,
+  "status": "no_candidate",
+  "threshold": 0.5
+}

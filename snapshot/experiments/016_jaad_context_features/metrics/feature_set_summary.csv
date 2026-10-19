@@ -1,0 +1,9 @@
+feature_set,n_features,n_rows
+bbox_only,53,3327
+biu_bbox,125,3327
+context_only,20,3327
+bbox_plus_context,73,3327
+biu_bbox_plus_context,145,3327
+context_no_motion_only,18,3327
+bbox_plus_context_no_motion,71,3327
+biu_bbox_plus_context_no_motion,143,3327

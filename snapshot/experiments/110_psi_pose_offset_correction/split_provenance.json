@@ -1,0 +1,6 @@
+{
+  "url": "https://s3.amazonaws.com/pedestrian.datatset.files/PSI_Dataset_1_2.zip",
+  "etag": "\"3868cb96ae54e00a99ad64d9e17bc701-325\"",
+  "member": "PSI/PSI2.0_TrainVal/splits/PSI2_split.json",
+  "sha256": "f48e63b04bfc0988382d6e6847d772ed6d2323adf930d599dfe7bdefc68c1b83"
+}

@@ -1,0 +1,7 @@
+{
+  "train": 26295,
+  "validation": 14922,
+  "shared_features_exact": true,
+  "recipe_parity": true,
+  "test_accessed": false
+}

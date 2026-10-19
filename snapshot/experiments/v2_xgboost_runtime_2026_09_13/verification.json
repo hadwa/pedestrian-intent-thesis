@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "raw_measurements": 29200,
+  "measurement_groups": 21,
+  "saved_models_unchanged": 6,
+  "features_checked": 195,
+  "observation_windows": 100,
+  "max_probability_error": 2.9796600298226398e-08,
+  "new_fits": 0,
+  "road_geometry_extraction_included": false
+}

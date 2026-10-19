@@ -1,0 +1,3062 @@
+[
+  {
+    "seed": 42,
+    "model_name": "xgb",
+    "selected_threshold": 0.10411423444747925,
+    "candidate_val_f1": {
+      "logreg": 0.8,
+      "rf": 0.7777777777777778,
+      "xgb": 0.8125
+    },
+    "test_predictions": [
+      {
+        "sequence_id": "video_0005:0_5_12b:160:175:205:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0005:0_5_12b",
+        "probability": 0.019701020792126656,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0005:0_5_13b:160:175:205:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0005:0_5_13b",
+        "probability": 0.12631574273109436,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0005:0_5_14b:135:150:180:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0005:0_5_14b",
+        "probability": 0.06810296326875687,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0005:0_5_16b:112:127:157:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0005:0_5_16b",
+        "probability": 0.87957364320755,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0005:0_5_18b:78:93:123:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0005:0_5_18b",
+        "probability": 0.9115906953811646,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0005:0_5_19b:134:149:179:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0005:0_5_19b",
+        "probability": 0.027319367974996567,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0017:0_17_74b:224:239:269:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0017:0_17_74b",
+        "probability": 0.030353281646966934,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0048:0_48_217b:138:153:183:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0048:0_48_217b",
+        "probability": 0.051808666437864304,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0055:0_55_253b:151:166:196:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0055:0_55_253b",
+        "probability": 0.9697345495223999,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0055:0_55_254b:131:146:176:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0055:0_55_254b",
+        "probability": 0.029927296563982964,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0059:0_59_260b:48:63:93:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0059:0_59_260b",
+        "probability": 0.03895919397473335,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0059:0_59_265b:34:49:79:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0059:0_59_265b",
+        "probability": 0.05518011376261711,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0071:0_71_365b:113:128:158:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0071:0_71_365b",
+        "probability": 0.9307445287704468,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0071:0_71_370b:284:299:329:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0071:0_71_370b",
+        "probability": 0.6347637176513672,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0087:0_87_477b:50:65:95:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0087:0_87_477b",
+        "probability": 0.917243480682373,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0090:0_90_497b:55:70:100:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0090:0_90_497b",
+        "probability": 0.950172483921051,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0093:0_93_511b:65:80:110:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0093:0_93_511b",
+        "probability": 0.806637704372406,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0096:0_96_528b:33:48:78:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0096:0_96_528b",
+        "probability": 0.9829257726669312,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0103:0_103_570b:73:88:118:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0103:0_103_570b",
+        "probability": 0.5519844889640808,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0103:0_103_572b:65:80:110:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0103:0_103_572b",
+        "probability": 0.9351488947868347,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0103:0_103_573b:48:63:93:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0103:0_103_573b",
+        "probability": 0.8503698706626892,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0105:0_105_578b:47:62:92:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0105:0_105_578b",
+        "probability": 0.9454975128173828,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0105:0_105_580b:64:79:109:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0105:0_105_580b",
+        "probability": 0.9866108894348145,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0105:0_105_581b:34:49:79:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0105:0_105_581b",
+        "probability": 0.834572434425354,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0106:0_106_584b:109:124:154:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0106:0_106_584b",
+        "probability": 0.9450288414955139,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0106:0_106_585b:131:146:176:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0106:0_106_585b",
+        "probability": 0.052731726318597794,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0116:0_116_671b:221:236:266:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0116:0_116_671b",
+        "probability": 0.935468316078186,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0117:0_117_674b:554:569:599:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0117:0_117_674b",
+        "probability": 0.5213983058929443,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0117:0_117_679b:554:569:599:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0117:0_117_679b",
+        "probability": 0.046636831015348434,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0124:0_124_727b:404:419:449:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0124:0_124_727b",
+        "probability": 0.006957605015486479,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0124:0_124_742b:78:93:123:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0124:0_124_742b",
+        "probability": 0.8675193190574646,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0124:0_124_743b:257:272:302:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0124:0_124_743b",
+        "probability": 0.9430111050605774,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0125:0_125_744b:56:71:101:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0125:0_125_744b",
+        "probability": 0.14512348175048828,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0128:0_128_754b:314:329:359:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0128:0_128_754b",
+        "probability": 0.9806228876113892,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0128:0_128_759b:282:297:327:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0128:0_128_759b",
+        "probability": 0.566940426826477,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0128:0_128_760b:120:135:165:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0128:0_128_760b",
+        "probability": 0.014819009229540825,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0135:0_135_801b:123:138:168:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_801b",
+        "probability": 0.9693886041641235,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0135:0_135_805b:107:122:152:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_805b",
+        "probability": 0.9204792380332947,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0135:0_135_815b:73:88:118:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_815b",
+        "probability": 0.9672417044639587,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0135:0_135_817b:103:118:148:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_817b",
+        "probability": 0.9584290385246277,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0135:0_135_819b:100:115:145:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_819b",
+        "probability": 0.9808923602104187,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0135:0_135_825b:383:398:428:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_825b",
+        "probability": 0.8871594667434692,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0135:0_135_828b:111:126:156:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_828b",
+        "probability": 0.9954109787940979,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0135:0_135_829b:429:444:474:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_829b",
+        "probability": 0.335112065076828,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0148:0_148_952b:34:49:79:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0148:0_148_952b",
+        "probability": 0.021984778344631195,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0148:0_148_953b:32:47:77:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0148:0_148_953b",
+        "probability": 0.7066985368728638,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0150:0_150_970b:126:141:171:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0150:0_150_970b",
+        "probability": 0.045357607305049896,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0151:0_151_987b:31:46:76:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0151:0_151_987b",
+        "probability": 0.9860306978225708,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0151:0_151_988b:58:73:103:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0151:0_151_988b",
+        "probability": 0.9821747541427612,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0152:0_152_1010b:73:88:118:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0152:0_152_1010b",
+        "probability": 0.025354409590363503,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0163:0_163_1103b:64:79:109:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0163:0_163_1103b",
+        "probability": 0.9498068690299988,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0165:0_165_1137b:69:84:114:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0165:0_165_1137b",
+        "probability": 0.22233031690120697,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0165:0_165_1140b:79:94:124:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0165:0_165_1140b",
+        "probability": 0.9870651960372925,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0165:0_165_1143b:40:55:85:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0165:0_165_1143b",
+        "probability": 0.37816256284713745,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0173:0_173_1211b:39:54:84:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0173:0_173_1211b",
+        "probability": 0.5180901288986206,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0177:0_177_1263b:44:59:89:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0177:0_177_1263b",
+        "probability": 0.13670727610588074,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0179:0_179_1286b:90:105:135:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0179:0_179_1286b",
+        "probability": 0.9819350242614746,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0183:0_183_1294b:118:133:163:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0183:0_183_1294b",
+        "probability": 0.8820620775222778,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0183:0_183_1295b:94:109:139:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0183:0_183_1295b",
+        "probability": 0.9785862565040588,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0203:0_203_1474b:74:89:119:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0203:0_203_1474b",
+        "probability": 0.18091809749603271,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0203:0_203_1476b:54:69:99:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0203:0_203_1476b",
+        "probability": 0.07975822687149048,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0203:0_203_1479b:74:89:119:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0203:0_203_1479b",
+        "probability": 0.7718650698661804,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0206:0_206_1491b:111:126:156:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0206:0_206_1491b",
+        "probability": 0.05426454171538353,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0211:0_211_1517b:91:106:136:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0211:0_211_1517b",
+        "probability": 0.015979105606675148,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0221:0_221_1623b:223:238:268:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0221:0_221_1623b",
+        "probability": 0.8273404836654663,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0221:0_221_1634b:219:234:264:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0221:0_221_1634b",
+        "probability": 0.6990646123886108,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0221:0_221_1639b:213:228:258:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0221:0_221_1639b",
+        "probability": 0.703402042388916,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0223:0_223_1650b:42:57:87:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0223:0_223_1650b",
+        "probability": 0.888041615486145,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0223:0_223_1655b:85:100:130:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0223:0_223_1655b",
+        "probability": 0.7218554615974426,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0223:0_223_1664b:101:116:146:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0223:0_223_1664b",
+        "probability": 0.9572944045066833,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0223:0_223_1666b:351:366:396:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0223:0_223_1666b",
+        "probability": 0.03240897133946419,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0223:0_223_1672b:358:373:403:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0223:0_223_1672b",
+        "probability": 0.06782418489456177,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0224:0_224_1680b:6:21:51:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0224:0_224_1680b",
+        "probability": 0.9942832589149475,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0224:0_224_1683b:92:107:137:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0224:0_224_1683b",
+        "probability": 0.9908856749534607,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0239:0_239_1856b:66:81:111:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0239:0_239_1856b",
+        "probability": 0.5773887634277344,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0244:0_244_1876b:57:72:102:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0244:0_244_1876b",
+        "probability": 0.05153163895010948,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0244:0_244_1878b:49:64:94:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0244:0_244_1878b",
+        "probability": 0.701659083366394,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0245:0_245_1887b:49:64:94:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0245:0_245_1887b",
+        "probability": 0.08901778608560562,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0245:0_245_1893b:59:74:104:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0245:0_245_1893b",
+        "probability": 0.006567798089236021,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0251:0_251_1947b:144:159:189:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0251:0_251_1947b",
+        "probability": 0.9244152307510376,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0253:0_253_1973b:134:149:179:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0253:0_253_1973b",
+        "probability": 0.011749045923352242,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0253:0_253_1974b:125:140:170:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0253:0_253_1974b",
+        "probability": 0.09751266986131668,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0270:0_270_2139b:43:58:88:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0270:0_270_2139b",
+        "probability": 0.042226631194353104,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0271:0_271_2149b:36:51:81:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0271:0_271_2149b",
+        "probability": 0.9894158840179443,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0277:0_277_2180b:134:149:179:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0277:0_277_2180b",
+        "probability": 0.9830762147903442,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0277:0_277_2182b:110:125:155:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0277:0_277_2182b",
+        "probability": 0.5621607899665833,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0277:0_277_2185b:192:207:237:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0277:0_277_2185b",
+        "probability": 0.9469506740570068,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0288:0_288_2236b:74:89:119:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0288:0_288_2236b",
+        "probability": 0.01676695980131626,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0294:0_294_2286b:83:98:128:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0294:0_294_2286b",
+        "probability": 0.9929261207580566,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0299:0_299_2323b:45:60:90:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0299:0_299_2323b",
+        "probability": 0.8602721095085144,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0299:0_299_2328b:44:59:89:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0299:0_299_2328b",
+        "probability": 0.26497942209243774,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0300:0_300_2330b:104:119:149:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0300:0_300_2330b",
+        "probability": 0.006413215305656195,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0304:0_304_2359b:57:72:102:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0304:0_304_2359b",
+        "probability": 0.10258884727954865,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0305:0_305_2363b:104:119:149:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0305:0_305_2363b",
+        "probability": 0.9174008369445801,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0305:0_305_2365b:104:119:149:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0305:0_305_2365b",
+        "probability": 0.9841216802597046,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0305:0_305_2370b:104:119:149:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0305:0_305_2370b",
+        "probability": 0.8062694668769836,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0305:0_305_2373b:102:117:147:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0305:0_305_2373b",
+        "probability": 0.956977128982544,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0305:0_305_2375b:40:55:85:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0305:0_305_2375b",
+        "probability": 0.9792962074279785,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0307:0_307_2390b:34:49:79:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0307:0_307_2390b",
+        "probability": 0.828957736492157,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0307:0_307_2395b:30:45:75:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0307:0_307_2395b",
+        "probability": 0.748334527015686,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0308:0_308_2398b:159:174:204:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0308:0_308_2398b",
+        "probability": 0.1427476555109024,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0309:0_309_2400b:44:59:89:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0309:0_309_2400b",
+        "probability": 0.11312514543533325,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0309:0_309_2401b:35:50:80:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0309:0_309_2401b",
+        "probability": 0.016843991354107857,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0309:0_309_2402b:30:45:75:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0309:0_309_2402b",
+        "probability": 0.04958721622824669,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0309:0_309_2405b:32:47:77:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0309:0_309_2405b",
+        "probability": 0.31958213448524475,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0309:0_309_2406b:31:46:76:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0309:0_309_2406b",
+        "probability": 0.00914283562451601,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0313:0_313_2452b:369:384:414:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0313:0_313_2452b",
+        "probability": 0.2530249059200287,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0313:0_313_2455b:32:47:77:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0313:0_313_2455b",
+        "probability": 0.6894689202308655,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0313:0_313_2456b:404:419:449:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0313:0_313_2456b",
+        "probability": 0.14907214045524597,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0313:0_313_2462b:390:405:435:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0313:0_313_2462b",
+        "probability": 0.09065109491348267,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0314:0_314_2470b:74:89:119:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0314:0_314_2470b",
+        "probability": 0.8282816410064697,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0314:0_314_2473b:74:89:119:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0314:0_314_2473b",
+        "probability": 0.9139003157615662,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0314:0_314_2475b:74:89:119:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0314:0_314_2475b",
+        "probability": 0.9783278703689575,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0329:0_329_2591b:284:299:329:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0329:0_329_2591b",
+        "probability": 0.7184779644012451,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0332:0_332_2607b:103:118:148:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0332:0_332_2607b",
+        "probability": 0.9974250793457031,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0332:0_332_2608b:100:115:145:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0332:0_332_2608b",
+        "probability": 0.9882537126541138,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0332:0_332_2609b:60:75:105:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0332:0_332_2609b",
+        "probability": 0.9865944385528564,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0333:0_333_2610b:50:65:95:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0333:0_333_2610b",
+        "probability": 0.6732357740402222,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0334:0_334_2612b:65:80:110:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0334:0_334_2612b",
+        "probability": 0.9516807198524475,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0334:0_334_2614b:254:269:299:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0334:0_334_2614b",
+        "probability": 0.9295800924301147,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0336:0_336_2627b:115:130:160:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0336:0_336_2627b",
+        "probability": 0.023479724302887917,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0336:0_336_2630b:50:65:95:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0336:0_336_2630b",
+        "probability": 0.058674558997154236,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0339:0_339_2648b:47:62:92:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0339:0_339_2648b",
+        "probability": 0.8959726691246033,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0344:0_344_2689b:44:59:89:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0344:0_344_2689b",
+        "probability": 0.02194049023091793,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0344:0_344_2692b:42:57:87:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0344:0_344_2692b",
+        "probability": 0.13173283636569977,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0344:0_344_2696b:44:59:89:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0344:0_344_2696b",
+        "probability": 0.0098549360409379,
+        "prediction": 0
+      }
+    ]
+  },
+  {
+    "seed": 43,
+    "model_name": "xgb",
+    "selected_threshold": 0.0898837074637413,
+    "candidate_val_f1": {
+      "logreg": 0.8,
+      "rf": 0.7878787878787878,
+      "xgb": 0.8125
+    },
+    "test_predictions": [
+      {
+        "sequence_id": "video_0005:0_5_12b:160:175:205:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0005:0_5_12b",
+        "probability": 0.02613960951566696,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0005:0_5_13b:160:175:205:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0005:0_5_13b",
+        "probability": 0.11814101040363312,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0005:0_5_14b:135:150:180:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0005:0_5_14b",
+        "probability": 0.10872287303209305,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0005:0_5_16b:112:127:157:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0005:0_5_16b",
+        "probability": 0.8465124368667603,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0005:0_5_18b:78:93:123:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0005:0_5_18b",
+        "probability": 0.9097354412078857,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0005:0_5_19b:134:149:179:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0005:0_5_19b",
+        "probability": 0.029079323634505272,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0017:0_17_74b:224:239:269:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0017:0_17_74b",
+        "probability": 0.03434712812304497,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0048:0_48_217b:138:153:183:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0048:0_48_217b",
+        "probability": 0.058932363986968994,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0055:0_55_253b:151:166:196:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0055:0_55_253b",
+        "probability": 0.9533339738845825,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0055:0_55_254b:131:146:176:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0055:0_55_254b",
+        "probability": 0.03775467351078987,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0059:0_59_260b:48:63:93:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0059:0_59_260b",
+        "probability": 0.0524720773100853,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0059:0_59_265b:34:49:79:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0059:0_59_265b",
+        "probability": 0.07004029303789139,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0071:0_71_365b:113:128:158:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0071:0_71_365b",
+        "probability": 0.9306270480155945,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0071:0_71_370b:284:299:329:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0071:0_71_370b",
+        "probability": 0.5560751557350159,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0087:0_87_477b:50:65:95:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0087:0_87_477b",
+        "probability": 0.9227665066719055,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0090:0_90_497b:55:70:100:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0090:0_90_497b",
+        "probability": 0.9064086079597473,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0093:0_93_511b:65:80:110:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0093:0_93_511b",
+        "probability": 0.6990141868591309,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0096:0_96_528b:33:48:78:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0096:0_96_528b",
+        "probability": 0.985385537147522,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0103:0_103_570b:73:88:118:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0103:0_103_570b",
+        "probability": 0.5831912755966187,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0103:0_103_572b:65:80:110:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0103:0_103_572b",
+        "probability": 0.9272153377532959,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0103:0_103_573b:48:63:93:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0103:0_103_573b",
+        "probability": 0.8473487496376038,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0105:0_105_578b:47:62:92:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0105:0_105_578b",
+        "probability": 0.9028976559638977,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0105:0_105_580b:64:79:109:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0105:0_105_580b",
+        "probability": 0.9856282472610474,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0105:0_105_581b:34:49:79:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0105:0_105_581b",
+        "probability": 0.8056492209434509,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0106:0_106_584b:109:124:154:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0106:0_106_584b",
+        "probability": 0.9133309721946716,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0106:0_106_585b:131:146:176:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0106:0_106_585b",
+        "probability": 0.05046072602272034,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0116:0_116_671b:221:236:266:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0116:0_116_671b",
+        "probability": 0.8096005916595459,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0117:0_117_674b:554:569:599:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0117:0_117_674b",
+        "probability": 0.6112716794013977,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0117:0_117_679b:554:569:599:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0117:0_117_679b",
+        "probability": 0.0941435769200325,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0124:0_124_727b:404:419:449:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0124:0_124_727b",
+        "probability": 0.009316479787230492,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0124:0_124_742b:78:93:123:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0124:0_124_742b",
+        "probability": 0.8797329068183899,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0124:0_124_743b:257:272:302:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0124:0_124_743b",
+        "probability": 0.914578378200531,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0125:0_125_744b:56:71:101:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0125:0_125_744b",
+        "probability": 0.13891103863716125,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0128:0_128_754b:314:329:359:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0128:0_128_754b",
+        "probability": 0.9807883501052856,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0128:0_128_759b:282:297:327:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0128:0_128_759b",
+        "probability": 0.5338795185089111,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0128:0_128_760b:120:135:165:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0128:0_128_760b",
+        "probability": 0.01393220666795969,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0135:0_135_801b:123:138:168:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_801b",
+        "probability": 0.9573564529418945,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0135:0_135_805b:107:122:152:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_805b",
+        "probability": 0.9106087684631348,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0135:0_135_815b:73:88:118:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_815b",
+        "probability": 0.9525795578956604,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0135:0_135_817b:103:118:148:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_817b",
+        "probability": 0.9160369038581848,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0135:0_135_819b:100:115:145:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_819b",
+        "probability": 0.9759038686752319,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0135:0_135_825b:383:398:428:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_825b",
+        "probability": 0.8401120901107788,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0135:0_135_828b:111:126:156:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_828b",
+        "probability": 0.9926593899726868,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0135:0_135_829b:429:444:474:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_829b",
+        "probability": 0.30550047755241394,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0148:0_148_952b:34:49:79:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0148:0_148_952b",
+        "probability": 0.01896073669195175,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0148:0_148_953b:32:47:77:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0148:0_148_953b",
+        "probability": 0.6843957304954529,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0150:0_150_970b:126:141:171:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0150:0_150_970b",
+        "probability": 0.05889881029725075,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0151:0_151_987b:31:46:76:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0151:0_151_987b",
+        "probability": 0.9856626391410828,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0151:0_151_988b:58:73:103:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0151:0_151_988b",
+        "probability": 0.9837337136268616,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0152:0_152_1010b:73:88:118:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0152:0_152_1010b",
+        "probability": 0.035388633608818054,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0163:0_163_1103b:64:79:109:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0163:0_163_1103b",
+        "probability": 0.8946593403816223,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0165:0_165_1137b:69:84:114:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0165:0_165_1137b",
+        "probability": 0.19531561434268951,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0165:0_165_1140b:79:94:124:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0165:0_165_1140b",
+        "probability": 0.9918096661567688,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0165:0_165_1143b:40:55:85:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0165:0_165_1143b",
+        "probability": 0.25257062911987305,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0173:0_173_1211b:39:54:84:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0173:0_173_1211b",
+        "probability": 0.5741357803344727,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0177:0_177_1263b:44:59:89:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0177:0_177_1263b",
+        "probability": 0.17417757213115692,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0179:0_179_1286b:90:105:135:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0179:0_179_1286b",
+        "probability": 0.983271062374115,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0183:0_183_1294b:118:133:163:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0183:0_183_1294b",
+        "probability": 0.8097442388534546,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0183:0_183_1295b:94:109:139:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0183:0_183_1295b",
+        "probability": 0.988170862197876,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0203:0_203_1474b:74:89:119:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0203:0_203_1474b",
+        "probability": 0.2178967446088791,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0203:0_203_1476b:54:69:99:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0203:0_203_1476b",
+        "probability": 0.06329930573701859,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0203:0_203_1479b:74:89:119:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0203:0_203_1479b",
+        "probability": 0.8298720121383667,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0206:0_206_1491b:111:126:156:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0206:0_206_1491b",
+        "probability": 0.05392875149846077,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0211:0_211_1517b:91:106:136:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0211:0_211_1517b",
+        "probability": 0.025109080597758293,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0221:0_221_1623b:223:238:268:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0221:0_221_1623b",
+        "probability": 0.7904157638549805,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0221:0_221_1634b:219:234:264:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0221:0_221_1634b",
+        "probability": 0.7878594994544983,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0221:0_221_1639b:213:228:258:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0221:0_221_1639b",
+        "probability": 0.7549808621406555,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0223:0_223_1650b:42:57:87:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0223:0_223_1650b",
+        "probability": 0.8952440023422241,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0223:0_223_1655b:85:100:130:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0223:0_223_1655b",
+        "probability": 0.7816237211227417,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0223:0_223_1664b:101:116:146:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0223:0_223_1664b",
+        "probability": 0.9714259505271912,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0223:0_223_1666b:351:366:396:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0223:0_223_1666b",
+        "probability": 0.04505065828561783,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0223:0_223_1672b:358:373:403:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0223:0_223_1672b",
+        "probability": 0.1004144623875618,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0224:0_224_1680b:6:21:51:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0224:0_224_1680b",
+        "probability": 0.994415283203125,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0224:0_224_1683b:92:107:137:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0224:0_224_1683b",
+        "probability": 0.9895918965339661,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0239:0_239_1856b:66:81:111:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0239:0_239_1856b",
+        "probability": 0.542160153388977,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0244:0_244_1876b:57:72:102:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0244:0_244_1876b",
+        "probability": 0.0363788977265358,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0244:0_244_1878b:49:64:94:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0244:0_244_1878b",
+        "probability": 0.6307170391082764,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0245:0_245_1887b:49:64:94:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0245:0_245_1887b",
+        "probability": 0.07831211388111115,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0245:0_245_1893b:59:74:104:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0245:0_245_1893b",
+        "probability": 0.007716985885053873,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0251:0_251_1947b:144:159:189:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0251:0_251_1947b",
+        "probability": 0.9468318223953247,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0253:0_253_1973b:134:149:179:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0253:0_253_1973b",
+        "probability": 0.013191035948693752,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0253:0_253_1974b:125:140:170:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0253:0_253_1974b",
+        "probability": 0.04753122478723526,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0270:0_270_2139b:43:58:88:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0270:0_270_2139b",
+        "probability": 0.03507594019174576,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0271:0_271_2149b:36:51:81:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0271:0_271_2149b",
+        "probability": 0.9881453514099121,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0277:0_277_2180b:134:149:179:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0277:0_277_2180b",
+        "probability": 0.9857718348503113,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0277:0_277_2182b:110:125:155:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0277:0_277_2182b",
+        "probability": 0.6460828185081482,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0277:0_277_2185b:192:207:237:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0277:0_277_2185b",
+        "probability": 0.9281497597694397,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0288:0_288_2236b:74:89:119:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0288:0_288_2236b",
+        "probability": 0.015389911830425262,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0294:0_294_2286b:83:98:128:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0294:0_294_2286b",
+        "probability": 0.9921922087669373,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0299:0_299_2323b:45:60:90:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0299:0_299_2323b",
+        "probability": 0.928745448589325,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0299:0_299_2328b:44:59:89:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0299:0_299_2328b",
+        "probability": 0.39300093054771423,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0300:0_300_2330b:104:119:149:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0300:0_300_2330b",
+        "probability": 0.008607466705143452,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0304:0_304_2359b:57:72:102:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0304:0_304_2359b",
+        "probability": 0.1293085515499115,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0305:0_305_2363b:104:119:149:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0305:0_305_2363b",
+        "probability": 0.9016415476799011,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0305:0_305_2365b:104:119:149:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0305:0_305_2365b",
+        "probability": 0.9812488555908203,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0305:0_305_2370b:104:119:149:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0305:0_305_2370b",
+        "probability": 0.7238452434539795,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0305:0_305_2373b:102:117:147:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0305:0_305_2373b",
+        "probability": 0.968957245349884,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0305:0_305_2375b:40:55:85:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0305:0_305_2375b",
+        "probability": 0.9824421405792236,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0307:0_307_2390b:34:49:79:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0307:0_307_2390b",
+        "probability": 0.7555514574050903,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0307:0_307_2395b:30:45:75:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0307:0_307_2395b",
+        "probability": 0.7062639594078064,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0308:0_308_2398b:159:174:204:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0308:0_308_2398b",
+        "probability": 0.1843869388103485,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0309:0_309_2400b:44:59:89:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0309:0_309_2400b",
+        "probability": 0.08821365237236023,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0309:0_309_2401b:35:50:80:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0309:0_309_2401b",
+        "probability": 0.015996215865015984,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0309:0_309_2402b:30:45:75:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0309:0_309_2402b",
+        "probability": 0.04913070797920227,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0309:0_309_2405b:32:47:77:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0309:0_309_2405b",
+        "probability": 0.30920669436454773,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0309:0_309_2406b:31:46:76:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0309:0_309_2406b",
+        "probability": 0.009197021834552288,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0313:0_313_2452b:369:384:414:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0313:0_313_2452b",
+        "probability": 0.25474292039871216,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0313:0_313_2455b:32:47:77:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0313:0_313_2455b",
+        "probability": 0.6717119812965393,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0313:0_313_2456b:404:419:449:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0313:0_313_2456b",
+        "probability": 0.15430627763271332,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0313:0_313_2462b:390:405:435:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0313:0_313_2462b",
+        "probability": 0.07262349128723145,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0314:0_314_2470b:74:89:119:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0314:0_314_2470b",
+        "probability": 0.7906954884529114,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0314:0_314_2473b:74:89:119:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0314:0_314_2473b",
+        "probability": 0.9480524659156799,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0314:0_314_2475b:74:89:119:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0314:0_314_2475b",
+        "probability": 0.9784048199653625,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0329:0_329_2591b:284:299:329:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0329:0_329_2591b",
+        "probability": 0.7172209620475769,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0332:0_332_2607b:103:118:148:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0332:0_332_2607b",
+        "probability": 0.9969825148582458,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0332:0_332_2608b:100:115:145:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0332:0_332_2608b",
+        "probability": 0.9889639616012573,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0332:0_332_2609b:60:75:105:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0332:0_332_2609b",
+        "probability": 0.9843927621841431,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0333:0_333_2610b:50:65:95:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0333:0_333_2610b",
+        "probability": 0.6452874541282654,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0334:0_334_2612b:65:80:110:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0334:0_334_2612b",
+        "probability": 0.9522773027420044,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0334:0_334_2614b:254:269:299:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0334:0_334_2614b",
+        "probability": 0.9278918504714966,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0336:0_336_2627b:115:130:160:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0336:0_336_2627b",
+        "probability": 0.015170358121395111,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0336:0_336_2630b:50:65:95:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0336:0_336_2630b",
+        "probability": 0.04042130336165428,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0339:0_339_2648b:47:62:92:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0339:0_339_2648b",
+        "probability": 0.9144302010536194,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0344:0_344_2689b:44:59:89:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0344:0_344_2689b",
+        "probability": 0.031646717339754105,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0344:0_344_2692b:42:57:87:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0344:0_344_2692b",
+        "probability": 0.23313194513320923,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0344:0_344_2696b:44:59:89:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0344:0_344_2696b",
+        "probability": 0.012298145331442356,
+        "prediction": 0
+      }
+    ]
+  },
+  {
+    "seed": 44,
+    "model_name": "logreg",
+    "selected_threshold": 0.007580929212399682,
+    "candidate_val_f1": {
+      "logreg": 0.8,
+      "rf": 0.7878787878787878,
+      "xgb": 0.7878787878787878
+    },
+    "test_predictions": [
+      {
+        "sequence_id": "video_0005:0_5_12b:160:175:205:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0005:0_5_12b",
+        "probability": 0.007457576767339391,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0005:0_5_13b:160:175:205:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0005:0_5_13b",
+        "probability": 0.5742321453241628,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0005:0_5_14b:135:150:180:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0005:0_5_14b",
+        "probability": 0.9689561198554573,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0005:0_5_16b:112:127:157:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0005:0_5_16b",
+        "probability": 0.9998513777218218,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0005:0_5_18b:78:93:123:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0005:0_5_18b",
+        "probability": 0.920565702206891,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0005:0_5_19b:134:149:179:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0005:0_5_19b",
+        "probability": 0.027162488318645747,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0017:0_17_74b:224:239:269:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0017:0_17_74b",
+        "probability": 2.2935706416520878e-08,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0048:0_48_217b:138:153:183:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0048:0_48_217b",
+        "probability": 0.005273822026873864,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0055:0_55_253b:151:166:196:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0055:0_55_253b",
+        "probability": 0.818621093034318,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0055:0_55_254b:131:146:176:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0055:0_55_254b",
+        "probability": 3.9273655520406004e-07,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0059:0_59_260b:48:63:93:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0059:0_59_260b",
+        "probability": 0.15154670630195546,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0059:0_59_265b:34:49:79:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0059:0_59_265b",
+        "probability": 0.571114314614017,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0071:0_71_365b:113:128:158:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0071:0_71_365b",
+        "probability": 0.9960079614532655,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0071:0_71_370b:284:299:329:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0071:0_71_370b",
+        "probability": 0.9135416551515099,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0087:0_87_477b:50:65:95:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0087:0_87_477b",
+        "probability": 0.9999890975042972,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0090:0_90_497b:55:70:100:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0090:0_90_497b",
+        "probability": 0.6352916394677867,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0093:0_93_511b:65:80:110:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0093:0_93_511b",
+        "probability": 0.9999755976500964,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0096:0_96_528b:33:48:78:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0096:0_96_528b",
+        "probability": 0.9962503684456285,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0103:0_103_570b:73:88:118:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0103:0_103_570b",
+        "probability": 0.06781666676514744,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0103:0_103_572b:65:80:110:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0103:0_103_572b",
+        "probability": 0.5445645680429837,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0103:0_103_573b:48:63:93:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0103:0_103_573b",
+        "probability": 0.4820634307496239,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0105:0_105_578b:47:62:92:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0105:0_105_578b",
+        "probability": 0.9947685463617243,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0105:0_105_580b:64:79:109:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0105:0_105_580b",
+        "probability": 0.9910208428309415,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0105:0_105_581b:34:49:79:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0105:0_105_581b",
+        "probability": 0.6997286038081608,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0106:0_106_584b:109:124:154:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0106:0_106_584b",
+        "probability": 0.34879221814612177,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0106:0_106_585b:131:146:176:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0106:0_106_585b",
+        "probability": 0.05153162671140077,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0116:0_116_671b:221:236:266:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0116:0_116_671b",
+        "probability": 0.9925864470587944,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0117:0_117_674b:554:569:599:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0117:0_117_674b",
+        "probability": 0.6053494975097267,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0117:0_117_679b:554:569:599:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0117:0_117_679b",
+        "probability": 0.12616672708580534,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0124:0_124_727b:404:419:449:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0124:0_124_727b",
+        "probability": 1.7516767682063635e-08,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0124:0_124_742b:78:93:123:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0124:0_124_742b",
+        "probability": 0.9998580297532073,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0124:0_124_743b:257:272:302:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0124:0_124_743b",
+        "probability": 0.9869210905759171,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0125:0_125_744b:56:71:101:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0125:0_125_744b",
+        "probability": 0.27132911470193327,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0128:0_128_754b:314:329:359:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0128:0_128_754b",
+        "probability": 0.9885216858875503,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0128:0_128_759b:282:297:327:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0128:0_128_759b",
+        "probability": 0.8317521394498567,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0128:0_128_760b:120:135:165:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0128:0_128_760b",
+        "probability": 7.81315719596132e-05,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0135:0_135_801b:123:138:168:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_801b",
+        "probability": 0.9707076898616454,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0135:0_135_805b:107:122:152:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_805b",
+        "probability": 0.9810589460093962,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0135:0_135_815b:73:88:118:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_815b",
+        "probability": 0.9739722991057539,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0135:0_135_817b:103:118:148:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_817b",
+        "probability": 0.9762882031014251,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0135:0_135_819b:100:115:145:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_819b",
+        "probability": 0.9184576782577801,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0135:0_135_825b:383:398:428:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_825b",
+        "probability": 0.9240244626619893,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0135:0_135_828b:111:126:156:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_828b",
+        "probability": 0.9999214988901995,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0135:0_135_829b:429:444:474:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0135:0_135_829b",
+        "probability": 0.7700883393290151,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0148:0_148_952b:34:49:79:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0148:0_148_952b",
+        "probability": 0.0004481521366104531,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0148:0_148_953b:32:47:77:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0148:0_148_953b",
+        "probability": 0.9426190604079203,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0150:0_150_970b:126:141:171:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0150:0_150_970b",
+        "probability": 0.026728831412095158,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0151:0_151_987b:31:46:76:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0151:0_151_987b",
+        "probability": 0.968124717269644,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0151:0_151_988b:58:73:103:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0151:0_151_988b",
+        "probability": 0.9672221510541642,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0152:0_152_1010b:73:88:118:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0152:0_152_1010b",
+        "probability": 0.007198483451068235,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0163:0_163_1103b:64:79:109:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0163:0_163_1103b",
+        "probability": 0.984965677744335,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0165:0_165_1137b:69:84:114:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0165:0_165_1137b",
+        "probability": 0.0636319506749293,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0165:0_165_1140b:79:94:124:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0165:0_165_1140b",
+        "probability": 0.9911448599200912,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0165:0_165_1143b:40:55:85:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0165:0_165_1143b",
+        "probability": 0.05752554011581435,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0173:0_173_1211b:39:54:84:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0173:0_173_1211b",
+        "probability": 0.5549328285371655,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0177:0_177_1263b:44:59:89:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0177:0_177_1263b",
+        "probability": 0.44404243991639125,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0179:0_179_1286b:90:105:135:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0179:0_179_1286b",
+        "probability": 0.9996341584042825,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0183:0_183_1294b:118:133:163:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0183:0_183_1294b",
+        "probability": 0.9999987551209989,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0183:0_183_1295b:94:109:139:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0183:0_183_1295b",
+        "probability": 0.9983642513037381,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0203:0_203_1474b:74:89:119:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0203:0_203_1474b",
+        "probability": 0.11954239886187071,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0203:0_203_1476b:54:69:99:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0203:0_203_1476b",
+        "probability": 0.003542378798697051,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0203:0_203_1479b:74:89:119:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0203:0_203_1479b",
+        "probability": 0.9029796307493602,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0206:0_206_1491b:111:126:156:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0206:0_206_1491b",
+        "probability": 0.7967368370336387,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0211:0_211_1517b:91:106:136:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0211:0_211_1517b",
+        "probability": 0.0036397307262619645,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0221:0_221_1623b:223:238:268:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0221:0_221_1623b",
+        "probability": 0.9415181616283469,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0221:0_221_1634b:219:234:264:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0221:0_221_1634b",
+        "probability": 0.9814713333742386,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0221:0_221_1639b:213:228:258:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0221:0_221_1639b",
+        "probability": 0.8461134134146479,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0223:0_223_1650b:42:57:87:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0223:0_223_1650b",
+        "probability": 0.9353082480432606,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0223:0_223_1655b:85:100:130:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0223:0_223_1655b",
+        "probability": 0.8625460635593665,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0223:0_223_1664b:101:116:146:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0223:0_223_1664b",
+        "probability": 0.9923960481123252,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0223:0_223_1666b:351:366:396:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0223:0_223_1666b",
+        "probability": 0.06471226548941275,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0223:0_223_1672b:358:373:403:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0223:0_223_1672b",
+        "probability": 0.00903923317055284,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0224:0_224_1680b:6:21:51:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0224:0_224_1680b",
+        "probability": 0.9999998761373661,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0224:0_224_1683b:92:107:137:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0224:0_224_1683b",
+        "probability": 0.9999100021167993,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0239:0_239_1856b:66:81:111:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0239:0_239_1856b",
+        "probability": 0.8791832746399781,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0244:0_244_1876b:57:72:102:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0244:0_244_1876b",
+        "probability": 0.02650989833045854,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0244:0_244_1878b:49:64:94:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0244:0_244_1878b",
+        "probability": 0.541678249812488,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0245:0_245_1887b:49:64:94:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0245:0_245_1887b",
+        "probability": 0.005176394013062256,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0245:0_245_1893b:59:74:104:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0245:0_245_1893b",
+        "probability": 0.006077898464049508,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0251:0_251_1947b:144:159:189:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0251:0_251_1947b",
+        "probability": 0.42197831931385416,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0253:0_253_1973b:134:149:179:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0253:0_253_1973b",
+        "probability": 0.031089848021174534,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0253:0_253_1974b:125:140:170:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0253:0_253_1974b",
+        "probability": 0.10321755013410085,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0270:0_270_2139b:43:58:88:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0270:0_270_2139b",
+        "probability": 0.19264400923627145,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0271:0_271_2149b:36:51:81:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0271:0_271_2149b",
+        "probability": 0.9988282628583155,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0277:0_277_2180b:134:149:179:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0277:0_277_2180b",
+        "probability": 0.9999194008499092,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0277:0_277_2182b:110:125:155:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0277:0_277_2182b",
+        "probability": 0.8203943742189186,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0277:0_277_2185b:192:207:237:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0277:0_277_2185b",
+        "probability": 0.9668093452474804,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0288:0_288_2236b:74:89:119:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0288:0_288_2236b",
+        "probability": 0.0011401099860123974,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0294:0_294_2286b:83:98:128:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0294:0_294_2286b",
+        "probability": 0.9948253950975844,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0299:0_299_2323b:45:60:90:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0299:0_299_2323b",
+        "probability": 0.522199636123639,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0299:0_299_2328b:44:59:89:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0299:0_299_2328b",
+        "probability": 0.13136380469553385,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0300:0_300_2330b:104:119:149:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0300:0_300_2330b",
+        "probability": 1.643586719975845e-08,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0304:0_304_2359b:57:72:102:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0304:0_304_2359b",
+        "probability": 0.10110433842884897,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0305:0_305_2363b:104:119:149:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0305:0_305_2363b",
+        "probability": 0.9855077044810651,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0305:0_305_2365b:104:119:149:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0305:0_305_2365b",
+        "probability": 0.9808433867018352,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0305:0_305_2370b:104:119:149:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0305:0_305_2370b",
+        "probability": 0.8534170628134096,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0305:0_305_2373b:102:117:147:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0305:0_305_2373b",
+        "probability": 0.9965128638957941,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0305:0_305_2375b:40:55:85:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0305:0_305_2375b",
+        "probability": 0.010946048269421796,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0307:0_307_2390b:34:49:79:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0307:0_307_2390b",
+        "probability": 0.42303355110174357,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0307:0_307_2395b:30:45:75:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0307:0_307_2395b",
+        "probability": 0.7692511599164172,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0308:0_308_2398b:159:174:204:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0308:0_308_2398b",
+        "probability": 0.06998850232432444,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0309:0_309_2400b:44:59:89:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0309:0_309_2400b",
+        "probability": 0.10129642544962435,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0309:0_309_2401b:35:50:80:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0309:0_309_2401b",
+        "probability": 0.10085349214180406,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0309:0_309_2402b:30:45:75:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0309:0_309_2402b",
+        "probability": 0.005976298058498812,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0309:0_309_2405b:32:47:77:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0309:0_309_2405b",
+        "probability": 0.06576362382791581,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0309:0_309_2406b:31:46:76:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0309:0_309_2406b",
+        "probability": 0.05591291516164111,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0313:0_313_2452b:369:384:414:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0313:0_313_2452b",
+        "probability": 0.9370867504534165,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0313:0_313_2455b:32:47:77:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0313:0_313_2455b",
+        "probability": 0.9641529891360572,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0313:0_313_2456b:404:419:449:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0313:0_313_2456b",
+        "probability": 0.9901279664287348,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0313:0_313_2462b:390:405:435:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0313:0_313_2462b",
+        "probability": 0.5167988803940887,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0314:0_314_2470b:74:89:119:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0314:0_314_2470b",
+        "probability": 0.9880958281375628,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0314:0_314_2473b:74:89:119:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0314:0_314_2473b",
+        "probability": 0.9478856823018744,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0314:0_314_2475b:74:89:119:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0314:0_314_2475b",
+        "probability": 0.6975632802243668,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0329:0_329_2591b:284:299:329:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0329:0_329_2591b",
+        "probability": 0.237236521245126,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0332:0_332_2607b:103:118:148:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0332:0_332_2607b",
+        "probability": 0.9998921909561631,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0332:0_332_2608b:100:115:145:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0332:0_332_2608b",
+        "probability": 0.9986779718803741,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0332:0_332_2609b:60:75:105:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0332:0_332_2609b",
+        "probability": 0.9765225362534077,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0333:0_333_2610b:50:65:95:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0333:0_333_2610b",
+        "probability": 0.44125005509918186,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0334:0_334_2612b:65:80:110:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0334:0_334_2612b",
+        "probability": 0.9928147721449988,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0334:0_334_2614b:254:269:299:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0334:0_334_2614b",
+        "probability": 0.9999998814444838,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0336:0_336_2627b:115:130:160:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0336:0_336_2627b",
+        "probability": 1.6603539703855187e-06,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0336:0_336_2630b:50:65:95:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0336:0_336_2630b",
+        "probability": 0.05637733015476664,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0339:0_339_2648b:47:62:92:1",
+        "split": "test",
+        "label": 1,
+        "track_id": "video_0339:0_339_2648b",
+        "probability": 1.0395925892734616e-66,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0344:0_344_2689b:44:59:89:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0344:0_344_2689b",
+        "probability": 0.00023354493304208782,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "video_0344:0_344_2692b:42:57:87:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0344:0_344_2692b",
+        "probability": 0.011114690416110995,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "video_0344:0_344_2696b:44:59:89:0",
+        "split": "test",
+        "label": 0,
+        "track_id": "video_0344:0_344_2696b",
+        "probability": 0.0001229058400552143,
+        "prediction": 0
+      }
+    ]
+  }
+]

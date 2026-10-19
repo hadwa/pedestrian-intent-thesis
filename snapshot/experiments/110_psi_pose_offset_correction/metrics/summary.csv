@@ -1,0 +1,9 @@
+metric,scope,variant,error,videos
+joint,all_annotated,corrected,0.06845041310712362,24
+joint,all_annotated,original,0.07154577950952727,24
+joint,keyframes,corrected,0.07066413543087625,24
+joint,keyframes,original,0.0733306115483664,24
+cue,all_annotated,corrected,0.8846466075233955,24
+cue,all_annotated,original,0.9355529023601048,24
+cue,keyframes,corrected,1.8807305102667975,24
+cue,keyframes,original,1.9360184838744303,24

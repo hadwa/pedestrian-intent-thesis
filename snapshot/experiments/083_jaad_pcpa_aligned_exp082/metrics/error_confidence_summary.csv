@@ -1,0 +1,3 @@
+cohort,seeds,fp_mean,fp_std,fn_mean,fn_std,high_confidence_fp_mean,high_confidence_fp_std,high_confidence_fn_mean,high_confidence_fn_std
+jaad_beh,3,497.333333,4.932883,108.000000,6.082763,300.000000,11.357817,20.666667,3.214550
+jaad_all,3,530.000000,8.717798,201.000000,3.000000,138.333333,4.509250,47.333333,3.214550

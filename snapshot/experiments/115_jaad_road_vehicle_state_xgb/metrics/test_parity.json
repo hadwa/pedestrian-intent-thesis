@@ -1,0 +1,98 @@
+[
+  {
+    "cohort": "jaad_clean",
+    "split": "test",
+    "seed": 42,
+    "arm": "R242",
+    "max_probability_error": 2.9766082709770103e-08,
+    "ids_labels_match": true
+  },
+  {
+    "cohort": "jaad_clean",
+    "split": "test",
+    "seed": 42,
+    "arm": "V197",
+    "max_probability_error": 1.1102230246251565e-16,
+    "ids_labels_match": true
+  },
+  {
+    "cohort": "jaad_clean",
+    "split": "test",
+    "seed": 43,
+    "arm": "R242",
+    "max_probability_error": 2.9643249521704718e-08,
+    "ids_labels_match": true
+  },
+  {
+    "cohort": "jaad_clean",
+    "split": "test",
+    "seed": 43,
+    "arm": "V197",
+    "max_probability_error": 1.1102230246251565e-16,
+    "ids_labels_match": true
+  },
+  {
+    "cohort": "jaad_clean",
+    "split": "test",
+    "seed": 44,
+    "arm": "R242",
+    "max_probability_error": 2.977752688870794e-08,
+    "ids_labels_match": true
+  },
+  {
+    "cohort": "jaad_clean",
+    "split": "test",
+    "seed": 44,
+    "arm": "V197",
+    "max_probability_error": 1.1102230246251565e-16,
+    "ids_labels_match": true
+  },
+  {
+    "cohort": "jaad_beh",
+    "split": "test",
+    "seed": 42,
+    "arm": "R242",
+    "max_probability_error": 2.9735565232336114e-08,
+    "ids_labels_match": true
+  },
+  {
+    "cohort": "jaad_beh",
+    "split": "test",
+    "seed": 43,
+    "arm": "R242",
+    "max_probability_error": 2.9799652079276484e-08,
+    "ids_labels_match": true
+  },
+  {
+    "cohort": "jaad_beh",
+    "split": "test",
+    "seed": 44,
+    "arm": "R242",
+    "max_probability_error": 2.9789733901885995e-08,
+    "ids_labels_match": true
+  },
+  {
+    "cohort": "jaad_all",
+    "split": "test",
+    "seed": 42,
+    "arm": "R242",
+    "max_probability_error": 2.9787445066098428e-08,
+    "ids_labels_match": true
+  },
+  {
+    "cohort": "jaad_all",
+    "split": "test",
+    "seed": 43,
+    "arm": "R242",
+    "max_probability_error": 2.9799652079276484e-08,
+    "ids_labels_match": true
+  },
+  {
+    "cohort": "jaad_all",
+    "split": "test",
+    "seed": 44,
+    "arm": "R242",
+    "max_probability_error": 2.9790496847148518e-08,
+    "ids_labels_match": true
+  }
+]

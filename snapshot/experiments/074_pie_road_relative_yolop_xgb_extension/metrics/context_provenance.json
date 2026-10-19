@@ -1,0 +1,27 @@
+{
+  "exp063_contracts": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/scripts/contracts.py",
+    "sha256": "c3ec52090c6d6f42a09174932abeb4d437c8414f745e86bc26feb793cf8b4998",
+    "size_bytes": 3867
+  },
+  "exp063_extract": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/scripts/extract_trainval.py",
+    "sha256": "a07c8333d1ff3dc7c84e42a211349ad133758c901b5309eee6b9e2f74eef8d90",
+    "size_bytes": 18603
+  },
+  "exp063_manifest": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/metrics/extraction_manifest.json",
+    "sha256": "23aa9f72e4f3930427c21fcf21d1d408fa494b6daa8a8b93f40e3a4b4d96ff52",
+    "size_bytes": 23787
+  },
+  "exp063_representations": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/scripts/representations.py",
+    "sha256": "066d1cea57d38726dd1fd6cad36587733ea2f85fe1f03634c5db568969a25b03",
+    "size_bytes": 14683
+  },
+  "exp063_yolop": {
+    "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/063_pie_corrected_yolop_road_relative_context/scripts/yolop_inference.py",
+    "sha256": "ec8851ac671dc8240757069e2e68f49615ba94e512cb74510747ea8bbffa41fd",
+    "size_bytes": 8692
+  }
+}

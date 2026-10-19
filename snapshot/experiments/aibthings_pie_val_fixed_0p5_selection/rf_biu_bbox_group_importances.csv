@@ -1,0 +1,13 @@
+group,importance
+BBox,0.7905936928759931
+BIU: lead_foot_elevation,0.04504301065915625
+BIU: stride_length,0.0280459121711453
+BIU: norm_shoulder_width,0.022438069496937336
+BIU: head_yaw_angle,0.022130251582323342
+BIU: face_yaw_angle,0.020118981406454052
+BIU: gaze_to_car_angle,0.018534855883507326
+BIU: body_yaw_angle,0.018343315213746457
+BIU: arm_swing_asymmetry,0.01565181220029542
+BIU: torso_lean_angle,0.01523154098210725
+BIU: lead_foot_lifted,0.003191724715362872
+BIU: other,0.000676832812971281

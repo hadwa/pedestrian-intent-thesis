@@ -1,0 +1,20 @@
+teacher_name: MSLSTM_BBOX_POSE
+benchmark_config: configs/benchmark_pie.yaml
+splits_dir: data/splits
+external_repo: external/MSLSTM-PID
+active_streams:
+  - bbox
+  - pose
+feature_roots:
+  bbox: data/processed/features/bbox
+  pose: data/processed/features/pose
+  pedestrian_action: data/processed/features/pedestrian_action
+  ego: data/processed/features/ego
+  yolop_scene: data/processed/features/yolop_scene
+  static_context: data/processed/features/static_context
+training:
+  seed: 42
+outputs:
+  prepared_inputs: data/processed/teacher_inputs/teacher_ablation_bbox_pose
+  predictions: results/predictions/teacher_ablation_bbox_pose_predictions.csv
+  metrics: results/teacher_ablation_bbox_pose_metrics.json

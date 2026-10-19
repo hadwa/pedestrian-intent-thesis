@@ -1,0 +1,21 @@
+{
+  "conditions": {
+    "D_high_confidence_errors_no_more_than_A": true,
+    "D_minus_A_mean_f1_noninferior": true,
+    "D_minus_A_mean_roc_auc_noninferior": true,
+    "D_minus_A_pr_auc_positive_all_seeds": false,
+    "D_minus_C_mean_pr_auc_positive": true
+  },
+  "deltas": {
+    "D_minus_A_combined_high_confidence_errors": -28,
+    "D_minus_A_mean_f1": 0.08612234384846607,
+    "D_minus_A_mean_roc_auc": 0.0689102564102565,
+    "D_minus_A_pr_auc_by_seed": {
+      "42": -0.01013511385141841,
+      "43": -0.0036977048821108527,
+      "44": -0.022426776754671973
+    },
+    "D_minus_C_mean_pr_auc": 0.010656016321693995
+  },
+  "gate_status": "no_advance"
+}

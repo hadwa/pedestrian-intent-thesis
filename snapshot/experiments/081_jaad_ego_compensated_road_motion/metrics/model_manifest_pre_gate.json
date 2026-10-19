@@ -1,0 +1,66 @@
+{
+  "frozen_before_test_access": true,
+  "models": [
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/models/variant_A_seed42.joblib",
+      "sha256": "32cca01bc01bd126b4c958975e579f3542d4e801005cd7ba45f9ba1403625d74",
+      "size_bytes": 354016
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/models/variant_B_seed42.joblib",
+      "sha256": "2078d036936b8436adfa78d25cf04af98da3b3552a80cbd89b73d52772292838",
+      "size_bytes": 357394
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/models/variant_C_seed42.joblib",
+      "sha256": "1884b192dbea9ff95bd30d36839af3abceea5530b6c9f574b25e836c4b8816e5",
+      "size_bytes": 351291
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/models/variant_D_seed42.joblib",
+      "sha256": "c0de0a4308e268af948632b26a2ef29c3bcacf0f61baa46b32bb0ed1cf25955b",
+      "size_bytes": 351568
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/models/variant_A_seed43.joblib",
+      "sha256": "91d60e208e42365c23b00c26b0d32b57041b483b8664d477db2294780a30059c",
+      "size_bytes": 353201
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/models/variant_B_seed43.joblib",
+      "sha256": "4d63d06734c5edb89078b861d5330e23c159c1105126f082ffe8747f933560b4",
+      "size_bytes": 357119
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/models/variant_C_seed43.joblib",
+      "sha256": "a485af8273e6503694910502e17eb37b1247806469e1af3fa893433b89c7a249",
+      "size_bytes": 350001
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/models/variant_D_seed43.joblib",
+      "sha256": "50573cc5e54911c349cc052626d5a4265abf35c80ee3b0c7e2e56686dccd0b3a",
+      "size_bytes": 350205
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/models/variant_A_seed44.joblib",
+      "sha256": "f50ac36ec82f2cd911a83488c91a51565568145572ab68df45c9010e84428564",
+      "size_bytes": 352793
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/models/variant_B_seed44.joblib",
+      "sha256": "b6cb1a337410de9a78a7d1d9807786acbabfeaafaa632997867447486a0815ec",
+      "size_bytes": 356374
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/models/variant_C_seed44.joblib",
+      "sha256": "f101caeb0e4ba87082632707b1476b2f1e31bc6e6e6e4b89148979c76d707e15",
+      "size_bytes": 349050
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/081_jaad_ego_compensated_road_motion/models/variant_D_seed44.joblib",
+      "sha256": "0497531c1a3156b8208e383f0abd7b4c55f697b23d3a821b69d33190ca0ae303",
+      "size_bytes": 351092
+    }
+  ],
+  "test_accessed": false
+}

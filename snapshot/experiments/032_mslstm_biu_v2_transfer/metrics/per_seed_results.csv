@@ -1,0 +1,5 @@
+variant,seed,threshold_rule,threshold_status,selected_threshold,best_epoch,train_rows,val_rows,test_rows,train_positive_rate,val_positive_rate,test_positive_rate,wall_time_seconds,val_accuracy,val_balanced_accuracy,val_precision,val_recall,val_f1,val_roc_auc,val_pr_auc,val_tn,val_fp,val_fn,val_tp,val_fpr,val_fnr,test_accuracy,test_balanced_accuracy,test_precision,test_recall,test_f1,test_roc_auc,test_pr_auc,test_tn,test_fp,test_fn,test_tp,test_fpr,test_fnr
+variant_a_mslstm_control,42,fixed_0_5,available,0.5,1,4,4,4,0.0,0.0,0.0,0.3057105541229248,0.0,0.0,0.0,0.0,0.0,,,0.0,4.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,,,0.0,4.0,0.0,0.0,1.0,
+variant_a_mslstm_control,42,val_f1,available,0.0,1,4,4,4,0.0,0.0,0.0,0.3213827610015869,0.0,0.0,0.0,0.0,0.0,,,0.0,4.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,,,0.0,4.0,0.0,0.0,1.0,
+variant_b_mslstm_plus_biu_v2,42,fixed_0_5,available,0.5,1,4,4,4,0.0,0.0,0.0,0.23648667335510254,0.0,0.0,0.0,0.0,0.0,,,0.0,4.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,,,0.0,4.0,0.0,0.0,1.0,
+variant_b_mslstm_plus_biu_v2,42,val_f1,available,0.0,1,4,4,4,0.0,0.0,0.0,0.24164891242980957,0.0,0.0,0.0,0.0,0.0,,,0.0,4.0,0.0,0.0,1.0,,0.0,0.0,0.0,0.0,0.0,,,0.0,4.0,0.0,0.0,1.0,

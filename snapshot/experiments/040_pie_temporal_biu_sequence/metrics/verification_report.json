@@ -1,0 +1,13 @@
+{
+  "authorized_sets": [
+    "set01",
+    "set02",
+    "set04",
+    "set05",
+    "set06"
+  ],
+  "forbidden_set": "set03",
+  "sequence_oof_rows": 5985,
+  "set03_outputs": [],
+  "status": "PASS"
+}

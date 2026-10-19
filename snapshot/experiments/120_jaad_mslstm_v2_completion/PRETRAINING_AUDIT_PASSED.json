@@ -1,0 +1,5 @@
+{
+  "test_accessed": false,
+  "gpu": "NVIDIA GeForce RTX 3070 Laptop GPU",
+  "smoke_backward": true
+}

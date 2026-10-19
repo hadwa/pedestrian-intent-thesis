@@ -1,0 +1,16 @@
+{
+  "threads": 1,
+  "cpu": 2,
+  "batch": 1,
+  "windows": 32,
+  "warmups_per_block": 60,
+  "measurements_per_block": 200,
+  "blocks": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "scope": "ready inputs through frozen parent and correction to probability; excludes feature preparation/perception; validation windows only",
+  "torch_version": "2.11.0+cu128"
+}

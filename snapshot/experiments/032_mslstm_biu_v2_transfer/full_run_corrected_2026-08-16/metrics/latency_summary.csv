@@ -1,0 +1,7 @@
+variant,seed,latency_seconds_per_batch,latency_seconds_per_sample,batch_size,device
+variant_a_mslstm_control,42,0.022112867159885353,0.0006910270987464173,32,cuda
+variant_a_mslstm_control,43,0.01369335496041458,0.00042791734251295565,32,cuda
+variant_a_mslstm_control,44,0.01408143092005048,0.0004400447162515775,32,cuda
+variant_b_mslstm_plus_biu_v2,42,0.016015243220026606,0.0005004763506258315,32,cuda
+variant_b_mslstm_plus_biu_v2,43,0.013410209579742514,0.00041906904936695355,32,cuda
+variant_b_mslstm_plus_biu_v2,44,0.0143300455796998,0.00044781392436561875,32,cuda

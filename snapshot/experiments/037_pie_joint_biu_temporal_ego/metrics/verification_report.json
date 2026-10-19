@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "confirm_manifest": "pass",
+    "develop_manifest": "pass",
+    "development_oof_predictions.csv_metrics": "pass",
+    "prepare_manifest": "pass",
+    "set03_not_materialized_or_evaluated": "pass"
+  },
+  "confirmation_status": "no_advance",
+  "status": "PASS"
+}

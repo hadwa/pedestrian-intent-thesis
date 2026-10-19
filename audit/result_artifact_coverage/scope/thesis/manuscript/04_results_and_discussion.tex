@@ -1,0 +1,671 @@
+\clearpage
+\chapter{Results and Discussion}\label{chap:results_discussion}
+
+This chapter presents the prediction results, matched representation comparisons,
+computational costs and cue-level explanations. It follows BIU development with the
+proposed XGBoost architecture across datasets, then neural integration, published-method
+comparisons, cue explanations and efficiency. PIE provides the main empirical evidence.
+
+\FloatBarrier
+\section{Evaluation Scope}\label{sec:ch4_scope}
+
+The dataset populations and splits follow Section~\ref{sec:method_datasets}; metric
+and uncertainty calculations follow Section~\ref{sec:metrics_method}. PR-AUC denotes
+average precision (AP). Tables report
+three-run means unless stated otherwise; $\pm$ denotes sample standard deviation.
+A displayed zero standard deviation can result from rounding.
+Bold values mark the best displayed score within each classifier or dataset comparison,
+including ties at the reported precision; lower error rates are preferred. Highlighting
+is descriptive and does not indicate statistical significance or model selection. Appendix~\ref{app:experiment_map} links the descriptive model names to
+experiment identifiers and source artifacts.
+
+Confusion matrices show actual classes in rows and predicted classes in columns.
+Their counts are averaged across runs and their percentages are calculated within each
+actual class. Counts represent observation windows, so fractional averages do not
+represent fractions of pedestrians.
+
+The matched version comparisons revisit an already examined PIE test cohort and are
+interpreted retrospectively. Bootstrap conclusions apply only to the comparisons for
+which the intervals were computed; the reported rankings are not used for new model
+selection.
+
+% SOURCE: experiments/012_pie_biu_v2_30_60_benchmark/README.md
+% SOURCE: experiments/096_pie_exp072_matched_biu_ablation/DESIGN.md
+
+\FloatBarrier
+\section{BIU Development and Representation Comparisons}\label{sec:ch4_initial}
+
+\subsection{Initial BIU-v1 study: raw pose and full fusion}
+
+The initial study tests whether BIUs improve prediction beyond BBox features, and
+whether adding raw keypoints provides further benefit~\cite{Pasha2026BIU}.
+Table~\ref{tab:ch4_pose_fusion} compares BBox alone, BBox+BIU-v1, BBox+raw keypoints
+and their full fusion across four classifiers. Each row is an individual saved run.
+This study predates BIU-v2; the following subsection evaluates the later direction-aware
+representation. Raw keypoints include confidence values, unlike the XY-only neural
+pose streams.
+The recorded validation procedure selected Random Forest for all four input packages;
+the other classifiers are shown to make their representation trade-offs visible.
+
+\input{Tables/ch4_pose_fusion}
+
+For Random Forest, BIU+BBox attains $F_1=0.869$, compared with 0.865 for BBox alone and approximately 0.812
+for either raw-pose fusion. Adding raw keypoints to BIU+BBox therefore does not recover an
+advantage in this setting. Supplying more source coordinates is not sufficient to make
+them useful to this learner. The result supports the usefulness of organizing pose into
+the tested summaries, without implying that BIUs contain information absent from their
+inputs or that raw pose is ineffective under every model.
+
+For Random Forest, the BIU+BBox improvement over BBox is modest: the saved paired track-bootstrap interval
+for their $F_1$ difference spans approximately $[-0.014,0.021]$. It does not establish a
+statistically decisive gain. The more substantial descriptive difference from the
+raw-pose arms should likewise not be assigned significance using an interval computed
+for a different comparison.
+
+LightGBM changes little across the four inputs: its $F_1$ ranges from 0.856 to 0.860.
+Its highest PR-AUC occurs with raw keypoints, whereas its highest $F_1$ and ROC-AUC
+occur with BIU-v1. For XGBoost, BIU-v1 improves the ranking metrics but slightly lowers
+$F_1$ relative to BBox alone. These individual runs show why the Random Forest outcome
+should not be generalized to every classifier.
+
+% SOURCE: experiments/aibthings_pie_val_fixed_0p5_selection/pie_val_fixed_0p5_all_models.csv
+% SOURCE: experiments/aibthings_pie_val_fixed_0p5_selection/pie_selected_by_val_fixed_0p5.csv
+% SOURCE: experiments/aibthings_pie_val_fixed_0p5_selection/cluster_bootstrap_tests.csv
+
+\FloatBarrier
+\subsection{From BIU-v1 to BIU-v2}
+
+The next comparison evaluates the direction-aware refinements introduced in BIU-v2
+(Section~\ref{sec:biu_v2_method}). Table~\ref{tab:ch4_initial} compares BBox alone,
+BBox+BIU-v1 and BBox+BIU-v2 within logistic regression, Random Forest and XGBoost.
+These are three-seed means from the later version study, rather than the individual
+runs in the preceding raw-pose comparison.
+
+\input{Tables/ch4_initial_classifiers}
+
+For Random Forest, adding v1 increases mean PR-AUC from 0.887 to 0.911, while mean $F_1$
+changes only from 0.867 to 0.868. The error counts explain the small operating-point gain:
+false positives decrease from 186.0 to 161.0, but false negatives increase from 94.3 to
+111.3. Substituting v2 does not improve this setting. Relative to v1, it produces
+both more false positives and more false negatives, with mean $F_1$ falling to 0.847.
+
+XGBoost gives a different result. Both BIU packages improve mean $F_1$ and ranking metrics
+over its BBox reference. The v2 arm has slightly fewer FP and FN than v1 and the
+highest PR-AUC within that classifier. Logistic regression also favors v2 on mean
+$F_1$, although v1 produces one fewer false positive. Thus, v2 is a refinement whose
+benefit depends on how the learner uses the representation. These comparisons do not
+support a rule that the later version must replace v1 in every predictor.
+
+Within XGBoost, the direction-aware BIU-v2 representation gives the highest mean
+$F_1$, PR-AUC and ROC-AUC of the three input configurations. This supports its use
+in the proposed multimodal architecture, while the Random Forest results retain the
+case for v1 in that classifier. The following comparison examines the version choice with additional temporal and
+contextual inputs.
+
+Figure~\ref{fig:cm_initial} shows the XGBoost error trade-offs for these same three
+input packages, complementing the classifier-wide metrics in Table~\ref{tab:ch4_initial}.
+\input{Figures/ch4_cm_initial}
+
+\FloatBarrier
+\section{Proposed Multimodal XGBoost Architecture}\label{sec:ch4_architecture}
+
+\subsection{Matched BIU-version comparison in XGBoost}\label{sec:ch4_versions}
+
+A further comparison examines the BIU versions with the temporal and ego-motion
+inputs defined in Section~\ref{sec:lightweight_architecture}. It holds the PIE samples,
+seeds and XGBoost recipe fixed while changing the representation package. Table~\ref{tab:matched_xgb_arms}
+shows the shared baseline and the additions in each arm. The v2 package includes
+its movement contrasts, so this compares complete feature packages rather than only
+substituting one set of anatomical cues for another.
+
+\begin{table}[!htbp]
+\centering
+\caption{Inputs to the matched XGBoost version comparison.}
+\label{tab:matched_xgb_arms}
+
+
+\begin{tabularx}{\textwidth}{@{}>{\RaggedRight\arraybackslash}p{0.12\textwidth}Xr@{}}
+\toprule
+\textbf{Arm} & \textbf{Contents} & \textbf{Dimensions} \\[3pt]
+\midrule
+Base & BBox53, six BBox contrasts, five ego summaries & 64 \\[3pt]
+v1 & Base, 72 v1 features, three pose-quality contrasts & 139 \\[3pt]
+v2 & Base, 56 v2 features, three pose-quality and twelve v2 contrasts & 135 \\[3pt]
+\bottomrule
+\end{tabularx}
+\end{table}
+
+% SOURCE: experiments/096_pie_exp072_matched_biu_ablation/scripts/feature_contract.py
+% SOURCE: experiments/096_pie_exp072_matched_biu_ablation/DESIGN.md
+
+Table~\ref{tab:ch4_versions} reports their performance. The no-BIU baseline is the
+same baseline used in the PIE architecture results in Section~\ref{sec:ch4_xgb_pie}. False-positive and false-negative rates
+show the error trade-offs: FPR is the percentage of noncrossing windows predicted as
+crossing; FNR is the percentage of crossing windows missed.
+\input{Tables/ch4_versions}
+
+The v2 package has the highest mean PR-AUC and ROC-AUC. Relative to the base, its
+seed-ensemble track-bootstrap intervals are positive for PR-AUC
+($[0.0053,0.0369]$) and ROC-AUC ($[0.0008,0.0076]$), while the $F_1$ interval includes
+zero ($[-0.0115,0.0184]$). These are intervals for paired ensemble comparisons; they are
+not uncertainty intervals around the individual-seed means in the table.
+
+Relative to v1, v2 has fewer mean false positives and false negatives. However, the
+base still has a lower FPR (5.81\% versus 6.11\%), whereas v2 has a lower FNR
+(8.82\% versus 9.45\%). A favorable ranking result
+therefore does not establish fewer classification errors than a predictor without BIUs.
+The initial classifier comparison also demonstrates classifier dependence.
+
+BIU-v2 is therefore adopted as the principal behavioral representation of this thesis: its 56 features address
+direction handling and explicit lower-body and torso motion with fewer inputs than v1's
+72, and its package has the strongest ranking performance in the main matched PIE
+comparison. This choice combines representation design, compactness and predictive
+evidence.
+
+\FloatBarrier
+
+\subsection{PIE: behavioral model and road-context extension}\label{sec:ch4_xgb_pie}
+
+Table~\ref{tab:ch4_architecture} starts with the no-BIU XGBoost baseline, then adds
+the behavioral package and road context. The baseline contains 53 BBox summaries,
+six BBox early/late features and five ego-speed summaries: $53+6+5=64$ inputs.
+Adding BIU-v2 (56 features), 12 pose-derived movement contrasts and three pose-confidence
+summaries gives 135 inputs. The 60-feature road branch brings the total to 195.
+Section~\ref{sec:lightweight_architecture} describes these branches.
+
+\input{Tables/ch4_architecture}
+
+The baseline and the XGBoost behavioral model both round to $F_1=0.877$, while the behavioral package
+increases PR-AUC from 0.919 to 0.939 and ROC-AUC from 0.970 to 0.974.
+With road context,
+mean $F_1$ rises to 0.883, while PR-AUC decreases to 0.930 and ROC-AUC to 0.973.
+The road branch therefore provides an operating-point trade-off, rather than an
+improvement in every metric. Both configurations remain visible.
+% SOURCE: experiments/096_pie_exp072_matched_biu_ablation/metrics/test_summary_results.csv
+% SOURCE: experiments/116_xgboost_v2_core_completion/metrics/summary_results.csv
+
+\FloatBarrier
+\subsection{JAAD in-domain evidence}\label{sec:ch4_jaad}
+
+Results are reported separately for clean event-aligned JAAD, API JAAD$_{beh}$ and
+API JAAD$_{all}$, using the populations defined in Section~\ref{sec:method_datasets}.
+Their event alignment and negative populations differ, so the comparisons below are
+within each cohort.
+
+\paragraph{In-domain prediction with BIU-v2.}
+Table~\ref{tab:ch4_jaad_native} brings together the completed BBox controls and the
+56-D BIU-v2 configurations. Every model is trained on its own JAAD training cohort.
+The road-context inputs are BBox53, BIU-v2, 21 temporal contrasts, 60 compensated road
+summaries and, where specified, 15 categorical vehicle-state summaries. The vehicle-only
+clean control retains its recorded 145-input package. Rows are complete configurations;
+no metric is taken from a different model to construct a best-score row.
+
+\input{Tables/ch4_jaad_native}
+
+On clean JAAD, BBox+BIU-v2 changes mean $F_1$ only slightly, from 0.7038 to 0.7051,
+while lowering AP and ROC-AUC. The road-context extension with vehicle state reaches
+$F_1=0.7282$, AP 0.6806 and ROC-AUC 0.7527. The vehicle-only configuration has
+lower $F_1$ (0.7253) but higher AP (0.7304) and ROC-AUC (0.7650). More context
+therefore does not improve every metric, and a compact pose representation alone is
+not enough to explain performance on this cohort.
+
+On JAAD$_{beh}$, adding BIU-v2 to BBox improves all three mean metrics slightly.
+The road-plus-vehicle model has higher AP (0.7819) and ROC-AUC (0.6970), but its
+$F_1$ (0.7755) is below both BBox+BIU-v2 (0.7782) and BBox alone (0.7764).
+On JAAD$_{all}$, the same road-context extension with vehicle state reaches $F_1=0.7327$, AP 0.8227
+and ROC-AUC 0.9487, improving on the simpler BBox and BBox+BIU-v2 controls.
+Its additional noncrossing population also changes the class balance: crossing windows
+constitute 17.5\% of JAAD$_{all}$ test examples, compared with 62.6\% for JAAD$_{beh}$
+and 48.0\% for clean JAAD. The all-cohort ranking result is consequently not evidence
+that difficult behavior pedestrians have been resolved.
+
+The 56-D representation is retained as the main definition, not declared a universal winner.
+The capped PedCMT evidence in Section~\ref{sec:ch4_neural} supplies a separate
+within-architecture comparison and is not pooled with these tree-model results.
+% SOURCE: experiments/098_jaad_matched_biu_xgb/metrics/summary_results.csv
+% SOURCE: experiments/100_jaad_exp099_biu_pathways/metrics/summary_results.csv
+% SOURCE: experiments/102_jaad_api_matched_biu/metrics/summary_results.csv
+% SOURCE: experiments/116_xgboost_v2_core_completion/metrics/summary_results.csv
+
+JAAD supports conditional complementarity and
+competitive performance on some cohort/metric combinations, alongside clear limitations
+in behavior-cohort prediction. Zero-shot performance of the retained 56-D architecture
+is not established by these in-domain experiments.
+
+
+\FloatBarrier
+\subsection{PSI: perceived-intention results}\label{sec:ch4_psi}
+
+The PSI models use estimated ViTPose-S keypoints. Section~\ref{sec:method_psi} specifies the
+protocol and the shared complete-input population used below. The classification task is inspired
+by its dynamic human intent annotations~\cite{Jing2025PSI}. Fifteen observed frames
+predict the aggregated intent label at the next frame. The test cohort contains 20,547 overlapping windows from
+96 tracks: 15,462 positive and 5,085 negative windows. Windows advance by one frame,
+so a sustained error on one track can contribute many erroneous windows. Raw error
+counts are therefore much larger than counts of affected pedestrians and cannot be
+compared directly with those from PIE's smaller test cohort. This experiment supplies
+in-domain PSI evidence, not PIE-to-PSI zero-shot transfer.
+
+\input{Tables/ch4_psi}
+
+The matched comparison holds all training and evaluation windows fixed across the four
+input configurations. Adding BIU-v2 to BBox raises mean macro-$F_1$ from 0.546 to
+0.570, AP from 0.833 to 0.859 and ROC-AUC from 0.604 to 0.652. Adding temporal
+and ego inputs together further raises macro-$F_1$ to 0.601, although AP falls to
+0.847. Thus the sequence does not improve every metric at every step.
+
+The road extension raises accuracy from 0.7043 to 0.7324, positive-class $F_1$ from
+0.8040 to 0.8247, macro-$F_1$ from 0.6010 to 0.6297, AP from 0.8474 to 0.8622,
+and ROC-AUC from 0.6608 to 0.6904. The behavioral model and road-context extension are reused unchanged;
+the matched simple controls make the full 53/109/135/195-input sequence comparable
+without changing the training population. The positive class accounts for about
+75.3\% of test windows, so macro-$F_1$ and ranking metrics remain essential context.
+% SOURCE: experiments/124_psi_matched_lightweight_ablation/metrics/summary_results.csv
+
+\paragraph{Class-specific errors.}
+Figure~\ref{fig:cm_psi} shows all four matched PSI arms on their shared test population.
+The road extension reduces mean FNR from 19.4\% to 16.3\% and FPR from 60.5\%
+to 58.4\%; substantial errors remain in both classes. Higher positive-class $F_1$ therefore does not imply equally
+strong recognition of noncrossing intention. These counts refer to overlapping
+windows with human-rated labels, not distinct pedestrians with verified future events.
+\input{Figures/ch4_cm_psi}
+\FloatBarrier
+
+% SOURCE: experiments/114_psi_native_extended_xgb/test_evaluation/FINAL_REPORT.md
+% SOURCE: experiments/113_psi_native_biu_xgb/test_evaluation/README.md
+% SOURCE: experiments/113_psi_native_biu_xgb/test_evaluation/metrics/per_seed_results.csv
+% SOURCE: experiments/113_psi_native_biu_xgb/DESIGN.md
+
+\FloatBarrier
+\subsection{Does ordered frame history improve the summaries?}\label{sec:ch4_ordered_history}
+
+The development comparison in Section~\ref{sec:ordered_history_method} appends ordered
+measurements from all 16 observed frames to the 135-feature model, producing 471 inputs.
+It is evaluated on PIE validation data only. Across three seeds, mean $F_1$ changes from
+0.7128 to 0.7110, PR-AUC from 0.7826 to 0.7831, and ROC-AUC from 0.9198 to 0.9186.
+The small PR-AUC increase accompanies lower mean $F_1$ and ROC-AUC; there is no convincing
+validation gain, and the candidate does not proceed to test evaluation.
+
+This result supports retaining the compact summary input under the tested training recipe.
+One possible explanation is that the summaries already capture much of the useful motion
+within this short observation. The comparison does not establish that explanation:
+extra measurements may be redundant or noisy, and the larger feature pool changes column
+subsampling. It neither proves that summaries preserve all useful temporal information
+nor rules out gains from another sequence representation or learner. These validation
+scores are development evidence and are separate from the PIE test results in
+Section~\ref{sec:ch4_xgb_pie}.
+
+% SOURCE: experiments/118_pie_ordered_history_xgb/metrics/summary_results.csv
+% SOURCE: experiments/118_pie_ordered_history_xgb/metrics/decision.json
+% SOURCE: experiments/118_pie_ordered_history_xgb/metrics/INDEPENDENT_VERIFICATION.json
+
+\FloatBarrier
+\section{Complementarity in Neural Predictors}\label{sec:ch4_neural}
+
+The neural evidence comprises the adapted MSLSTM representation controls and PedCMT with
+a capped BIU correction. Sections~\ref{sec:mslstm_method} and~\ref{sec:pedcmt_method}
+define their architectures and actual inputs, with the original methods providing research
+lineage~\cite{Elsamalouty2025MSLSTM,Chen2024PedCMT}. Each comparison uses the thesis
+anticipation benchmark and its own retained baseline. Initial PedCMT fusion trials provide
+the design rationale in Chapter~\ref{chap:methodology}; the following results concern the
+capped formulation.
+
+\subsection{Adapted MSLSTM}
+
+Table~\ref{tab:ch4_neural} groups the adapted MSLSTM comparisons on PIE and clean
+JAAD. The PIE baseline follows Section~\ref{sec:mslstm_method}, with the clean-JAAD
+adjustments in Section~\ref{sec:xgb_dataset_inputs}; the two
+dataset groups use separately trained models.
+\input{Tables/ch4_neural}
+
+\paragraph{PIE.}
+BIU-v2 (56-D) attains mean $F_1=0.812$, PR-AUC 0.851 and ROC-AUC 0.932.
+The seven-feature neural extension improves these means to 0.829, 0.860 and 0.938,
+respectively, with all three metrics higher in every paired seed. The extension therefore
+helps this adapted recurrent predictor under the recorded training procedure.
+
+The annotation reference adds ground-truth Action and Look to the same baseline.
+It attains $F_1=0.827$, PR-AUC 0.863 and ROC-AUC 0.946. These are supplied
+annotations, not outputs of deployed Action/Look detectors. BIU-v2 with supporting cues has slightly higher mean $F_1$, but lower ranking scores than this reference.
+
+Both the 56-D and 63-D inputs remain in the table.
+Raw pose produces fewer false positives than either the 56-D or 63-D BIU input,
+so their advantages should not be interpreted as dominance over all controls and error types.
+% SOURCE: experiments/117_neural_v2_core_completion/metrics/summary_results.csv
+% SOURCE: experiments/117_neural_v2_core_completion/metrics/paired_deltas.csv
+
+
+\paragraph{Clean JAAD.}
+The clean-JAAD block in Table~\ref{tab:ch4_neural} presents the completed adaptation
+with vehicle state and scene context. BIU-v2 plus supporting cues has the highest mean accuracy, $F_1$
+and ROC-AUC, whereas BIU-v2 without supporting cues has the highest AP. The 63-D arm exceeds raw
+pose on all four displayed means, but its AP remains below the no-pose baseline.
+A higher mean therefore does not imply uniform improvement across metrics or seeds.
+
+The initial configuration used noisy oversampling and selected checkpoints by validation
+$F_1$. With that recipe, adding either BIU input reduced mean $F_1$, AP and ROC-AUC. The later comparison
+uses the validation-AP and noise-free duplication recipe described in
+Section~\ref{sec:mslstm_training}. The negative initial result remains evidence that
+integration and training choices matter; the follow-up is not a causal ablation of all
+changes between recipes. In particular, the seven supporting cues improve $F_1$ and
+ROC-AUC over the 56-D follow-up arm while reducing AP.
+% SOURCE: experiments/120_jaad_mslstm_v2_completion/FINAL_REPORT.md
+% SOURCE: experiments/122_jaad_mslstm_no_noise/test_evaluation/metrics/summary_results.csv
+
+Figure~\ref{fig:cm_mslstm} shows the PIE practical-input variants in Table~\ref{tab:ch4_neural}.
+The ground-truth annotation reference is reported in the table only.
+\input{Figures/ch4_cm_mslstm}
+
+\FloatBarrier
+\subsection{PedCMT with a capped BIU correction}
+
+Table~\ref{tab:ch4_pedcmt_capped} evaluates the frozen-baseline correction defined in
+Section~\ref{sec:pedcmt_capped}. It compares raw pose, BIU-v2 (56-D), and BIU-v2 plus
+seven supporting cues (63-D), with the same parent and correction factor within each
+dataset.
+
+\input{Tables/ch4_pedcmt_capped}
+
+On PIE, the 63-D correction raises mean $F_1$ from 0.7926 to 0.7955, PR-AUC from
+0.8584 to 0.8665, and ROC-AUC from 0.9192 to 0.9228. All three metrics improve over
+both the parent and matched raw pose in every seed. The gains remain modest. The
+56-D correction also improves these mean metrics, although its AP gain is not uniform
+across seeds. Adding the supporting cues improves mean scores over the BIU-v2 alone.
+
+On clean JAAD, the 63-D correction gives mean $F_1=0.6981$, PR-AUC 0.6700 and
+ROC-AUC 0.7259, compared with 0.6734, 0.6256 and 0.6891 for the parent. Both BIU
+forms exceed the raw-pose correction on all four displayed mean metrics. Their ranking
+scores improve over the parent and raw pose in every seed; $F_1$ improves in two seeds
+and ties in one. The 63-D input also has higher mean scores than the 56-D input.
+
+These findings support the supporting-cue extension in the tested capped architecture,
+not a universal need for all seven descriptors or an effect attributable to the cap
+alone. No clustered confidence intervals were computed for these comparisons. The correction
+factor transfers unchanged between datasets, but the parents and branches are trained
+separately. Figure~\ref{fig:cm_pedcmt} shows their classification outcomes.
+\input{Figures/ch4_cm_pedcmt_capped}
+\FloatBarrier
+% SOURCE: experiments/119_pedcmt_v2_capped_completion/metrics/summary_results.csv
+% SOURCE: experiments/119_pedcmt_v2_capped_completion/metrics/paired_deltas.csv
+
+\FloatBarrier
+\section{Comparison with Published Methods}\label{sec:ch4_literature}
+
+This section compares our results with published scores, grouped by dataset and cohort.
+The TrajFusionNet rows retain the cited 2025 author-version scores; Chapter~\ref{chap:lit_rev}
+cites the journal publication for the method.
+These literature comparisons complement the controlled neural adaptations in
+Section~\ref{sec:ch4_neural}; they are not matched reruns. Bold marks the highest
+displayed value within each comparison, and a dash denotes an unreported metric.
+AUC retains each source's definition; PSI's positive-class and macro-$F_1$ are reported
+separately. Protocol differences are identified alongside each dataset comparison.
+
+\subsection{PIE anticipatory benchmark}
+
+Table~\ref{tab:ch4_literature_pie} compares the behavioral model and road-context extension of the proposed XGBoost architecture
+with published approaches targeting 16 observations and TTE 30--60. PCPA supplies the
+benchmark reference, GTransPDM supplies pose/without-pose variants, and TrajFusionNet
+supplies a recent multimodal reference. Their rows come from their own tables; the latter
+two use the cited author-manuscript versions. PCAP-SL is represented only by its selected
+ViT-16-s configuration from Table 4 of the author-uploaded text. This is particularly
+relevant because it also combines pretrained neural perception with XGBoost prediction.
+
+\input{Tables/ch4_literature_pie}
+
+The BIU-v2 road model attains mean $F_1=0.8829$ and accuracy 0.9350, compared with
+0.863 and 0.934 for selected PCAP-SL. Its recall is higher (0.9164 versus 0.830),
+while its precision is lower (0.8517 versus 0.898). Relative to TrajFusionNet's reported
+$F_1=0.860$, the result is also numerically higher. These observations support competitive
+performance with a different precision--recall balance, rather than superiority on every
+measure. Within our models, the 135-D configuration has higher AP (0.9395 versus 0.9304)
+and ROC-AUC (0.9740 versus 0.9731), while the road model has higher $F_1$; both complete
+rows are retained.
+
+\begingroup
+\setlength{\emergencystretch}{2em}
+Our results use three seeds and the PIE benchmark with separate routes. The GTransPDM
+row also uses its benchmark split; its separate random-person evaluation is excluded. Exact PCAP-SL overlap,
+generated sample identity and final-typeset table identity are unverified in the inspected
+author copy. Threshold policies and AUC implementations are not established as identical
+across papers; our AUC is computed from continuous probabilities. Accordingly, the
+numerical differences are reported comparisons without a cross-paper significance claim.
+The evidence for BIU contribution itself comes from the matched controls earlier in this
+chapter. Prediction timing and upstream perception costs retain their separate measurement
+boundaries in Section~\ref{sec:ch4_cost}.
+\par\endgroup
+% SOURCE: experiments/096_pie_exp072_matched_biu_ablation/metrics/test_summary_results.csv
+% SOURCE: experiments/116_xgboost_v2_core_completion/metrics/summary_results.csv
+% SOURCE: papers/Kotseruba_2021_PCPA_Benchmark.pdf, Table 3
+% SOURCE: papers/Xie_2025_GTransPDM_arxiv_v2.pdf, Table I
+% SOURCE: papers/Landry_Akhloufi_2025_TrajFusionNet_v1.pdf, Table II
+% SOURCE: PCAP-SL author text, Table 4 (selected ViT-16-s)
+
+\subsection{JAAD: comparison within each cohort}
+
+Table~\ref{tab:ch4_literature_jaad} presents JAAD$_{beh}$ and JAAD$_{all}$ separately.
+These API-based populations provide the closest supported comparison with published
+16-frame, 1--2-second anticipation results. Clean JAAD uses our stricter event filtering;
+its internal comparisons remain in Section~\ref{sec:ch4_jaad}.
+
+\input{Tables/ch4_literature_jaad}
+
+\paragraph{Behavior pedestrians.}
+Our BBox+BIU-v2 model reaches $F_1=0.7782$, above Yang et al.'s reported 0.740 but
+below PCAP-SL's 0.801 and TrajFusionNet's 0.820. Adding road context and vehicle state
+improves AP in our matched comparison but gives $F_1=0.7755$. Its precision is slightly
+higher than PCAP-SL's (0.6795 versus 0.671), while recall is lower (0.9031 versus 0.983).
+The added context therefore does not close the reported $F_1$ gap on this cohort.
+
+\par\noindent\begin{minipage}{\textwidth}
+\paragraph{All pedestrians.}
+The road-context extension with vehicle state reaches accuracy 0.8918 and $F_1=0.7327$,
+compared with TrajFusionNet's 0.890 and 0.720. PCAP-SL reports higher $F_1$ (0.841),
+precision and recall, while our accuracy is higher than its 0.852. Performance is thus
+competitive on some metrics, with a substantial $F_1$ gap to PCAP-SL.
+\end{minipage}\par
+
+The table uses PCPA and Yang et al.'s own tables, the cited TrajFusionNet author
+manuscript, and PCAP-SL's selected ViT-16-s model from its author-uploaded Table 4.
+The PCAP-SL source qualifications discussed for PIE also apply here. Exact generated
+windows, decision rules and AUC implementations are not established as identical across
+papers. In particular, our AUC uses continuous probabilities, so its higher JAAD$_{all}$
+value is a reported numerical difference, not proof of a ranking advantage under an
+identical evaluation.
+% SOURCE: papers/Kotseruba_2021_PCPA_Benchmark.pdf, Table 3
+% SOURCE: papers/Yang_2022_Feature_Fusion_Spatio_Temporal_Attention.pdf, Tables I--II
+% SOURCE: papers/Landry_Akhloufi_2025_TrajFusionNet_v1.pdf, Table II
+% SOURCE: PCAP-SL author full text, Table 4; URL and verification in thesis_jaad_finalization_2026_09_13/README.md
+
+\subsection{PSI next-frame perceived intention}
+
+Table~\ref{tab:ch4_literature_psi} uses the completed 56-D BIU-v2 models from
+Section~\ref{sec:ch4_psi}, including the matched 109-, 135- and 195-input configurations.
+It compares them with the published PSI results~\cite{Jing2025PSI}.
+Both evaluations use 15 observations and
+predict intent at frame 16, which is separate from the PIE/JAAD future-crossing-event
+benchmark. The table keeps macro-$F_1$, positive-class $F_1$ and class-wise average
+accuracy distinct.
+
+\input{Tables/ch4_literature_psi}
+
+The road-context extension has accuracy 0.7324, macro-$F_1=0.6297$ and balanced accuracy
+0.6261. The PSI eP2P model with disagreement and reasoning reports 0.6309, 0.5855
+and 0.6253, respectively. Our accuracy and macro-$F_1$ are numerically higher, while
+balanced accuracy is nearly the same.
+
+Sample construction limits the interpretation of these differences. The PSI paper
+uses a 75/5/20 video split and 60-frame clips with overlap 0.9. Our recovered release lists
+contain 108/35/49 train/validation/test videos and use 16-frame windows at stride one,
+with 15 observed frames and the target at frame 16. The shared population for our matched configurations is defined in
+Section~\ref{sec:method_psi}. The table therefore supplies contextual
+evidence, not an identical-benchmark
+leaderboard.
+The supported PSI finding is improved discrimination across both intent classes under
+the matched representation/context controls, with substantial remaining errors.
+% SOURCE: NeurIPS 2025 PSI paper, Table 4 and Section 3.2 (p. 9).
+% https://papers.neurips.cc/paper_files/paper/2025/file/436fb0fa57c75e0d2063b5bc19a21da1-Paper-Datasets_and_Benchmarks_Track.pdf
+% SOURCE: experiments/116_xgboost_v2_core_completion/metrics/summary_results.csv
+% SOURCE: experiments/113_psi_native_biu_xgb/DESIGN.md
+% SOURCE: experiments/114_psi_native_extended_xgb/APPROVED_COHORT_AMENDMENT.md
+% SOURCE: experiments/124_psi_matched_lightweight_ablation/DESIGN.md
+
+% SOURCE: experiments/thesis_confusion_matrices_2026_09_12/sources_sha256.json
+% SOURCE: experiments/thesis_confusion_matrices_2026_09_12/matrix_cells.csv
+
+\FloatBarrier
+\section{Interpreting BIU Importance and Cue Contributions}\label{sec:ch4_inspectability}
+
+This section asks two questions: how much the fitted predictor relies on BIUs, and
+how often each cue pushes its score toward the known label. Importance describes
+magnitude; toward-label frequency describes direction. Neither is the percentage of
+correct predictions caused by BIUs. Section~\ref{sec:cue_attribution_method} defines
+the calculations. The plots explain retained models without retraining or selecting
+features from their test explanations.
+
+\subsection{BIU-v2 reliance across datasets}
+
+Figure~\ref{fig:ch4_v2_input_share} reports the 56-feature BIU-v2 block's share of
+summed absolute feature SHAP contributions. The additional early/late pose contrasts remain
+outside this block. The bars refer to the 135-input PIE behavioral model, the
+145-input clean-JAAD vehicle model and the 135-input PSI behavioral model.
+All use the same attribution calculation, but their populations, available context
+and, for PSI, prediction task differ.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\textwidth]{ch4_v2_input_share.pdf}
+\caption{BIU-v2 share of absolute feature attribution on test data; three-seed means.}
+\label{fig:ch4_v2_input_share}
+\end{figure}
+
+The share is 25.6\% on PIE, 23.1\% on clean JAAD with vehicle context and 31.4\%
+on PSI. BIUs therefore account for a substantial part of the explanations in all
+three settings. A higher share means greater attribution to this block within that
+predictor; it does not establish a better representation or higher prediction accuracy.
+
+\subsection{Cue contributions across datasets}
+
+Overall prediction scores tell us how well the model performs, but they do not show
+which observed behaviors influence its decisions. Examining individual BIUs makes
+this evidence visible. Importance identifies the cues with the strongest influence,
+while toward-label frequency shows how consistently their contributions support the
+known outcome. Together, they help direct error analysis toward influential cues
+whose contributions frequently oppose the label.
+
+Table~\ref{tab:ch4_v2_cue_importance} shows the share of within-BIU absolute
+attribution assigned to each cue. Figure~\ref{fig:ch4_v2_cue_direction} shows every v2 cue's toward-label frequency
+for these three settings. It answers how often a cue supports the annotation,
+including windows whose final prediction is still incorrect.
+
+\input{Tables/ch4_v2_cue_importance}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\textwidth]{ch4_v2_cue_direction.pdf}
+\caption{Percentage of test windows in which each BIU-v2 cue supports the label; three-seed means.}
+\label{fig:ch4_v2_cue_direction}
+\end{figure}
+
+Ankle elevation has the largest within-BIU importance on clean JAAD with vehicle
+context (19.2\%), yet it points toward the label in only 47.3\% of windows.
+Its magnitude and supportive frequency therefore give different descriptions of its
+use. On PIE, shoulder-center motion has
+16.4\% of within-BIU importance and supports the label in 86.2\% of windows.
+These observations show why a single importance ranking is insufficient for deciding
+whether a cue is helpful or misleading.
+
+% SOURCE: experiments/matched_biu_cue_rankings_2026_09_12/summary.csv
+% SOURCE: experiments/matched_biu_cue_rankings_2026_09_12/DESIGN.md
+% SOURCE: experiments/matched_biu_cue_rankings_2026_09_12/verification.json
+% SOURCE: experiments/aibthings_pie_val_fixed_0p5_selection/rf_biu_bbox_group_importances.csv
+
+On PSI, the retained behavioral model in Table~\ref{tab:ch4_psi} is explained using
+all 20,547 test windows and three seeds. Head orientation accounts for 38.1\%
+of the within-BIU absolute attribution, followed by stride length at 20.5\%.
+These cues support the label in 65.2\% and 59.8\% of windows, respectively.
+
+Class-specific inspection also matters: head orientation supports the label in
+69.9\% of positive-label windows and 50.9\% of negative-label windows. The overall
+percentage reflects PSI's class balance as well as the model's behavior. These
+contributions describe support for perceived-intention labels, not verified future
+crossing events.
+% SOURCE: experiments/psi_v2_attribution_2026_10_19/summary.csv
+% SOURCE: experiments/psi_v2_attribution_2026_10_19/verification.json
+
+For adaptation to another dataset, these comparisons identify cues worth closer
+inspection: for example, a cue with strong label support in one setting but weaker
+support in another. Its pose measurements and associated prediction errors can then
+be examined to understand the difference. This is a practical benefit of named BIUs:
+model analysis can refer to specific behaviors such as shoulder motion or ankle
+elevation. Collection conditions, pose quality, class composition, available context
+and the prediction task remain relevant when interpreting these differences.
+
+\FloatBarrier
+\section{Measured Downstream Cost}\label{sec:ch4_cost}
+
+Table~\ref{tab:ch4_runtime} reports the measured BIU-v2 pipeline cost on an Intel Core
+i7-11800H CPU. From ready features, prediction averages 1.06\,ms for the behavioral model
+and 1.17\,ms for the road-context extension. Recomputing the behavioral model’s features from available boxes,
+keypoints and speed, then predicting, takes 9.55\,ms per observation window
+(Figure~\ref{fig:ch4_runtime}). The corresponding 95th percentile is 10.59\,ms.
+
+\input{Tables/ch4_runtime}
+\input{Figures/ch4_runtime}
+
+Most execution time is spent constructing features. BIU-v2 extraction averages 2.69\,ms,
+and the early/late contrasts, which rerun the extractor on both halves, average 3.98\,ms.
+The road-context extension takes 9.64\,ms when road-relative geometry is already
+available; deriving that geometry from masks is not included. These measurements support
+a lightweight downstream decision stage, without assigning its latency to upstream
+neural perception.
+
+% SOURCE: experiments/v2_xgboost_runtime_2026_09_13/headline.csv
+% SOURCE: experiments/v2_xgboost_runtime_2026_09_13/stage_summary.csv
+
+\paragraph{Competitive performance with a compact predictor.}
+Table~\ref{tab:ch4_model_size} compares the retained predictors under the separate
+ready-input CPU audit defined in Section~\ref{sec:efficiency_method}. Both XGBoost
+configurations contain 250 trees: 5,674--5,756 total nodes for the behavioral model and
+5,872--5,890 for the road-context extension across seeds. The road-context extension and its imputer occupy
+0.360--0.361\,MiB and take a mean 1.174\,ms from ready inputs. This is distinct from
+the 9.64\,ms feature-construction-plus-prediction measurement above.
+
+Within adapted MSLSTM, adding the 63-D BIU input increases the baseline by 74,241
+parameters, including its fusion weight, compared with 2,240,770 for the raw-pose pathway.
+The complete MSLSTM predictor with BIUs is also faster than its raw-pose counterpart
+in this ready-input audit, although
+BIU construction is excluded. The 56-D and 63-D projectors differ by only 896 weights.
+The completed capped PedCMT has 1,834,416 frozen parent parameters and either 90,113
+(56-D) or 91,009 (63-D) trainable correction parameters. Reporting only the correction
+would omit most of the deployed predictor. Its newer timing run uses prepared validation
+windows on the same CPU protocol; it is distinct from the earlier test-window audit.
+Inference-only file sizes for these new branches were not measured in that audit.
+
+These measurements support a compact and fast downstream XGBoost predictor among the
+retained implementations. Published-model performance remains a separate comparison
+in Section~\ref{sec:ch4_literature}.
+
+\input{Tables/ch4_model_size}
+% SOURCE: docs/retained_predictor_complexity_2026_09_16/evidence/AUDIT.md
+% SOURCE: docs/retained_predictor_complexity_2026_09_16/evidence/latency_summary.csv
+% SOURCE: docs/retained_predictor_complexity_2026_09_16/evidence/serialized_sizes.csv
+
+\FloatBarrier
+\section{Limitations of the Current Evidence}\label{sec:ch4_limits}
+
+The gains vary with the classifier, available inputs and dataset. BIU-v2 gives strong
+results in the proposed architecture, but no representation improves every reported
+metric. The comparisons therefore show where each configuration is useful.
+
+BIUs depend on estimated two-dimensional keypoints. Occlusion, viewpoint and pose
+errors can affect their measurements. Named cues and SHAP make the predictor's use
+of these measurements easier to inspect; they do not explain what caused the
+pedestrian's behavior.
+
+The main comparisons evaluate models within each dataset; they do not establish
+performance in new environments. PSI uses perceived-intention labels rather
+than the PIE/JAAD future-crossing task. Overlapping windows from one pedestrian are
+related observations; the selected track-level analyses account for this dependence.
+Published-method comparisons remain qualified by differences in sample construction
+and evaluation settings.
+\clearpage

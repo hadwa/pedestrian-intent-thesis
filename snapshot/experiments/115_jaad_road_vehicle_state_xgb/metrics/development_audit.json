@@ -1,0 +1,110 @@
+[
+  {
+    "cohort": "jaad_clean",
+    "split": "train",
+    "n": 1552,
+    "positive": 999,
+    "negative": 553,
+    "tracks": 154,
+    "videos": 98,
+    "vehicle_annotation_coverage": 1.0,
+    "no_dropped_rows": true,
+    "category_observation_counts": {
+      "stopped": 2446,
+      "moving_slow": 709,
+      "moving_fast": 772,
+      "decelerating": 15840,
+      "accelerating": 5065
+    }
+  },
+  {
+    "cohort": "jaad_clean",
+    "split": "validation",
+    "n": 274,
+    "positive": 170,
+    "negative": 104,
+    "tracks": 28,
+    "videos": 15,
+    "vehicle_annotation_coverage": 1.0,
+    "no_dropped_rows": true,
+    "category_observation_counts": {
+      "stopped": 21,
+      "moving_slow": 52,
+      "moving_fast": 113,
+      "decelerating": 3259,
+      "accelerating": 939
+    }
+  },
+  {
+    "cohort": "jaad_beh",
+    "split": "train",
+    "n": 2134,
+    "positive": 1760,
+    "negative": 374,
+    "tracks": 194,
+    "videos": 106,
+    "vehicle_annotation_coverage": 1.0,
+    "no_dropped_rows": true,
+    "category_observation_counts": {
+      "stopped": 3905,
+      "moving_slow": 107,
+      "moving_fast": 109,
+      "decelerating": 20927,
+      "accelerating": 9096
+    }
+  },
+  {
+    "cohort": "jaad_beh",
+    "split": "validation",
+    "n": 242,
+    "positive": 176,
+    "negative": 66,
+    "tracks": 22,
+    "videos": 14,
+    "vehicle_annotation_coverage": 1.0,
+    "no_dropped_rows": true,
+    "category_observation_counts": {
+      "stopped": 31,
+      "moving_slow": 44,
+      "moving_fast": 18,
+      "decelerating": 2815,
+      "accelerating": 964
+    }
+  },
+  {
+    "cohort": "jaad_all",
+    "split": "train",
+    "n": 8613,
+    "positive": 1760,
+    "negative": 6853,
+    "tracks": 783,
+    "videos": 155,
+    "vehicle_annotation_coverage": 1.0,
+    "no_dropped_rows": true,
+    "category_observation_counts": {
+      "stopped": 19542,
+      "moving_slow": 307,
+      "moving_fast": 639,
+      "decelerating": 71067,
+      "accelerating": 46253
+    }
+  },
+  {
+    "cohort": "jaad_all",
+    "split": "validation",
+    "n": 1265,
+    "positive": 176,
+    "negative": 1089,
+    "tracks": 115,
+    "videos": 26,
+    "vehicle_annotation_coverage": 1.0,
+    "no_dropped_rows": true,
+    "category_observation_counts": {
+      "stopped": 3016,
+      "moving_slow": 72,
+      "moving_fast": 88,
+      "decelerating": 8730,
+      "accelerating": 8334
+    }
+  }
+]

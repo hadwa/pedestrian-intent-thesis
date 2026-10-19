@@ -1,0 +1,14 @@
+{
+  "cases": [
+    "mslstm_pie",
+    "pedcmt_pie",
+    "pedcmt_jaad"
+  ],
+  "gpu": "NVIDIA GeForce RTX 3070 Laptop GPU",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "test_accessed": false
+}

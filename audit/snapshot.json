@@ -1,0 +1,9 @@
+{
+  "time_utc": "2026-10-19T21:37:33.170439+00:00",
+  "source": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean",
+  "commit": "aac84f4018cc2bfd516ffc45f3349c628815e44a",
+  "branch": "exp/050-pie-standardized-behavior",
+  "files": 4903,
+  "bytes": 378688325,
+  "note": "Working-tree export, not a Git commit snapshot. Source may be concurrently edited. Per-file hashes record copied bytes."
+}

@@ -1,0 +1,14 @@
+torso_lean_angle
+stride_length
+head_yaw_angle
+lead_foot_elevation
+lead_foot_lifted
+arm_swing_asymmetry
+gaze_to_car_angle
+body_yaw_angle
+face_yaw_angle
+norm_shoulder_width
+frame_idx
+pid
+video
+label

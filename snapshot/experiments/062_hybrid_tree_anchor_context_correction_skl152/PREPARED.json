@@ -1,0 +1,22 @@
+{
+  "config_sha256": "f47f787f1ee2d84bbdece8c33bc9c46f78d0a4cb813efc6b48dca646f2c21f18",
+  "input_artifact_paths": {
+    "SOURCE_STAGING.json": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/062_hybrid_tree_anchor_context_correction_skl152/SOURCE_STAGING.json",
+    "logs/prepare.log": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/062_hybrid_tree_anchor_context_correction_skl152/logs/prepare.log",
+    "metrics/context_scaler.json": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/062_hybrid_tree_anchor_context_correction_skl152/metrics/context_scaler.json"
+  },
+  "input_artifacts": {
+    "SOURCE_STAGING.json": "72bd00819dd00e67d305de12394a637ee1b58152ff61704cd75e95c052108362",
+    "logs/prepare.log": "c1354526de23caaf8009adf0733a8b23c244718fb9538c24d89a7daffbeb2024",
+    "metrics/context_scaler.json": "70c1049e98e80262259462f5efe3faef18343c120d3a96e508f50fd561aa417e"
+  },
+  "marker_schema": "exp062-authenticated-phase-marker-v1",
+  "payload": {
+    "phase": "prepare",
+    "train_row_manifest_sha256": "a2b85335c3df505c34ec49aa1c7b1819ecd6cb608c3a2cda7ed5137375aa0382",
+    "train_rows": 2366,
+    "validation_rows": 3619
+  },
+  "producing_command_sha256": "a0c542a020a897393d68fe7cbe6e418b3d87f95cd931e78bf19237804f2dd80d",
+  "source_manifest_sha256": "72bd00819dd00e67d305de12394a637ee1b58152ff61704cd75e95c052108362"
+}

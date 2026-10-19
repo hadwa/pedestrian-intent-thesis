@@ -1,0 +1,31 @@
+{
+  "confidence_path": false,
+  "mean_deltas": {
+    "f1": -0.0041530237633650895,
+    "pr_auc": -0.00293386509873117,
+    "roc_auc": 0.0013410756833752702
+  },
+  "mean_high_confidence": {
+    "candidate_combined": 214.33333333333331,
+    "candidate_fn": 111.33333333333333,
+    "candidate_fp": 103.0,
+    "combined_ratio": 1.0698835274542429,
+    "reference_combined": 200.33333333333334,
+    "reference_fn": 90.66666666666667,
+    "reference_fp": 109.66666666666667
+  },
+  "mean_transitions": {
+    "corrections": 62.666666666666664,
+    "harms": 61.0
+  },
+  "model_manifest_pre_gate": {
+    "sha256": "cdfb40535bee0d2d770df773b8a59d9d85357d648643f65525147acc341caecc",
+    "size_bytes": 636
+  },
+  "per_seed_safety": true,
+  "performance_path": false,
+  "reference": "Exp072_XGBoost",
+  "set03_materialized": false,
+  "status": "no_advance",
+  "threshold": 0.5
+}

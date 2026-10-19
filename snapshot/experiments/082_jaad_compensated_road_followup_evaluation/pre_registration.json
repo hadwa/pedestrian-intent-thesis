@@ -1,0 +1,76 @@
+{
+  "experiment": "082_jaad_compensated_road_followup_evaluation",
+  "status": "frozen_before_followup_test_evaluation",
+  "parent_experiment": "081_jaad_ego_compensated_road_motion",
+  "selection_timing": "after_validation_before_test",
+  "parent_gate_status": "no_advance",
+  "interpretation": "validation_selected_followup_not_retroactive_exp081_gate_pass",
+  "benchmark": "clean_JAAD_16_observed_frames_TTE_30_60",
+  "test_rows": 1501,
+  "threshold": 0.5,
+  "seeds": [42, 43, 44],
+  "evaluated_variants": ["A", "D"],
+  "retraining": false,
+  "retuning": false,
+  "variant_A": "Exp081 exact 182-D Exp077 portable anchor",
+  "variant_D": "Variant A plus exact Exp081 60-D ego-compensated road representation",
+  "selection_evidence": {
+    "mean_delta_D_minus_A_f1": 0.08612234384846607,
+    "mean_delta_D_minus_A_roc_auc": 0.0689102564102565,
+    "mean_delta_D_minus_A_pr_auc": -0.0120865318294003,
+    "pr_auc_delta_by_seed": {
+      "42": -0.01013511385141841,
+      "43": -0.0036977048821108527,
+      "44": -0.022426776754671973
+    },
+    "combined_high_confidence_error_delta_D_minus_A": -28
+  },
+  "reporting": {
+    "primary": ["fixed_0p5_f1", "pr_auc", "roc_auc"],
+    "also": ["accuracy", "precision", "recall", "brier", "log_loss", "fp", "fn", "high_confidence_fp", "high_confidence_fn"],
+    "test_model_selection": "none",
+    "claim_limit": "followup_test_evidence_selected_from_validation"
+  },
+  "sources": {
+    "exp081_registration": {
+      "path": "experiments/081_jaad_ego_compensated_road_motion/pre_registration.json",
+      "size_bytes": 9054,
+      "sha256": "196bc0cc26989cde595a90c4951183ce266ed4db7e09e67c064d9118f07f96ee"
+    },
+    "exp081_validation_gate": {
+      "path": "experiments/081_jaad_ego_compensated_road_motion/metrics/validation_gate.json",
+      "size_bytes": 658,
+      "sha256": "9de6bbfaf038e6a8b590b6e4ca6aae35a08f86363a552394422278e45571de6b"
+    },
+    "exp081_model_manifest": {
+      "path": "experiments/081_jaad_ego_compensated_road_motion/metrics/model_manifest_pre_gate.json",
+      "size_bytes": 3348,
+      "sha256": "bb419e0af9d6f7eae1e9c768477f65f10fc37c85dbdc8f1d59408e534e3cee71"
+    },
+    "exp081_extract": {
+      "path": "experiments/081_jaad_ego_compensated_road_motion/scripts/extract.py",
+      "size_bytes": 34748,
+      "sha256": "e0107d6614797d69b877b3c0221911d39f2856f555a16ac89b9244ef7bad4e43"
+    },
+    "exp081_model": {
+      "path": "experiments/081_jaad_ego_compensated_road_motion/scripts/model.py",
+      "size_bytes": 11723,
+      "sha256": "dd00565a645b9ac842ad080dd48900744e220dee28c7fb2e79d2f0712749077d"
+    },
+    "exp081_jaad_data": {
+      "path": "experiments/081_jaad_ego_compensated_road_motion/scripts/jaad_data.py",
+      "size_bytes": 8814,
+      "sha256": "b6576380b610d5fb46e38c340cda3d25937344689fe3cbda7f330b3cf87085f1"
+    },
+    "test_anchor": {
+      "path": "experiments/077_jaad_two_stage_early_late_xgb_transfer/metrics/prepared_jaad_test.csv",
+      "size_bytes": 8659126,
+      "sha256": "378e9a95f43510f08268980f42943689fd7804ab3175dba49af6694a2cc6a595"
+    },
+    "test_split": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/jaad_splits_event_16_30_60_overlap08_default/test.csv",
+      "size_bytes": 1440196,
+      "sha256": "04c68bccaae80bb3b648852d49c7c84609f2016d17d4a3146dfaecf88f441595"
+    }
+  }
+}

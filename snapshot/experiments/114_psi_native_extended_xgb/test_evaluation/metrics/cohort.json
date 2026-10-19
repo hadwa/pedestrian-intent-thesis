@@ -1,0 +1,9 @@
+{
+  "annotation_vote_ties": 3050,
+  "negatives": 5085,
+  "pose_complete": 20547,
+  "positives": 15462,
+  "tracks": 96,
+  "videos": 49,
+  "windows": 20547
+}

@@ -1,0 +1,35 @@
+\chapter{Result-to-Experiment Mapping}\label{app:experiment_map}
+
+Repository: \href{https://github.com/hadwa/pedestrian-intent-biu}{hadwa/pedestrian-intent-biu}.\par
+Full paths: \texttt{thesis/14\_RESULT\_SOURCE\_MAP.md}.
+
+\begingroup
+\thesistablestyle
+\setlength{\extrarowheight}{1pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{longtable}{@{}>{\RaggedRight\arraybackslash}p{0.64\dimexpr\textwidth-2\tabcolsep\relax}>{\RaggedRight\arraybackslash}p{0.36\dimexpr\textwidth-2\tabcolsep\relax}@{}}
+\caption{Thesis results and their supporting experiments.}\label{tab:experiment_map}\\[3pt]
+\toprule
+\textbf{Table or result} & \textbf{Experiment or report}\\[3pt]
+\midrule
+\endfirsthead
+\toprule
+\textbf{Table or result} & \textbf{Experiment or report}\\[3pt]
+\midrule
+\endhead
+Table~\ref{tab:ch4_initial}; Figure~\ref{fig:cm_initial}: classifier/version controls & Exp012\\[3pt]
+Table~\ref{tab:ch4_pose_fusion}: raw-pose and BIU fusion & PIE classifier report\\[3pt]
+Tables~\ref{tab:ch4_versions} and~\ref{tab:ch4_architecture}: XGBoost versions and architecture & Exp096; Exp116\\[3pt]
+Table~\ref{tab:ch4_pedcmt_capped}; Figure~\ref{fig:cm_pedcmt}: capped PedCMT & Exp119 (parents/raw control reused)\\[3pt]
+Table~\ref{tab:ch4_neural}; Figure~\ref{fig:cm_mslstm}: MSLSTM controls & Exp053; Exp095; Exp117\\[3pt]
+Table~\ref{tab:ch4_neural} (clean-JAAD block): MSLSTM & Exp122 test evaluation; Exp120/121 development\\[3pt]
+Table~\ref{tab:ch4_jaad_native}: JAAD XGBoost & Exp098; Exp100; Exp102; Exp116\\[3pt]
+Table~\ref{tab:ch4_psi}; Figure~\ref{fig:cm_psi}: PSI XGBoost & Exp124 (extended arms reused from Exp116)\\[3pt]
+Tables~\ref{tab:ch4_literature_pie}--\ref{tab:ch4_literature_psi}: our literature-comparison rows & Exp096; Exp102; Exp116; Exp124\\[3pt]
+Table~\ref{tab:ch4_v2_cue_importance}; Figures~\ref{fig:ch4_v2_input_share}--\ref{fig:ch4_v2_cue_direction}: BIU-v2 attribution & Exp096; Exp100; matched cue report; Exp116/124 PSI v2 cue report\\[3pt]
+Table~\ref{tab:ch4_runtime}; Figure~\ref{fig:ch4_runtime}: measured latency & V2 runtime report\\[3pt]
+Table~\ref{tab:ch4_model_size}: retained predictor complexity and latency & Exp053/095/117; Exp119; Exp096/116; retained-predictor audit\\[3pt]
+Section~\ref{sec:ch4_ordered_history}: ordered-history trial & Exp118\\[3pt]
+\bottomrule
+\end{longtable}
+\endgroup

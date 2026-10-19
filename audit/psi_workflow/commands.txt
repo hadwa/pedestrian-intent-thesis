@@ -1,0 +1,12 @@
+Preparation and installation:
+python /tmp/psi_companion_build/install.py
+/home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python -B /home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/psi.py prepare --source /home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/116_xgboost_v2_core_completion/cache --output /home/abdelrahman/Hadwa/pedestrian-intent-thesis/data/psi_frozen
+python /tmp/psi_companion_build/check.py
+cp /tmp/psi_companion_build/replay_psi.py /home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/replay_psi.py
+python /tmp/psi_companion_build/check.py
+python /tmp/psi_companion_build/finish.py
+
+Exact isolated subprocess commands and outputs: checks.json (initial failed check), checks_v2.json (corrected checks).
+Source paths/checksums for copied reference artifacts: reference_copy_manifest.json.
+Frozen feature file checksums: configs/psi_exp124.json.
+No training command was executed successfully; train command tests intentionally failed before fit or output creation.

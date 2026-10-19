@@ -1,0 +1,19 @@
+{
+  "keypoints": {
+    "duplicate_identical_frames": 0,
+    "loaded_frames": 28152,
+    "missing_frames": 0,
+    "required_frames": 28152,
+    "source_new_frames": {
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/049_exp048_to_jaad_zero_shot/cache/jaad_keypoints_vitpose_s_exp049_extended.jsonl": 7866,
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/079_jaad_api_protocol_two_stage_xgb/cache/jaad_api_protocol_missing_pose.jsonl": 20286
+    }
+  },
+  "source_rows": 6732,
+  "views": {
+    "early_feature_count": 161,
+    "gapped_api_trajectory_windows": 0,
+    "portable_feature_count": 182,
+    "rows": 6732
+  }
+}

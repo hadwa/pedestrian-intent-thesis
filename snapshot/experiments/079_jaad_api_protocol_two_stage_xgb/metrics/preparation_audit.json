@@ -1,0 +1,40 @@
+{
+  "train": {
+    "keypoints": {
+      "duplicate_identical_frames": 0,
+      "loaded_frames": 36018,
+      "missing_frames": 0,
+      "required_frames": 36018,
+      "source_new_frames": {
+        "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/049_exp048_to_jaad_zero_shot/cache/jaad_keypoints_vitpose_s_exp049_extended.jsonl": 4404,
+        "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/079_jaad_api_protocol_two_stage_xgb/cache/jaad_api_protocol_missing_pose.jsonl": 31614
+      }
+    },
+    "source_rows": 8613,
+    "views": {
+      "early_feature_count": 161,
+      "gapped_api_trajectory_windows": 2,
+      "portable_feature_count": 182,
+      "rows": 8613
+    }
+  },
+  "validation": {
+    "keypoints": {
+      "duplicate_identical_frames": 0,
+      "loaded_frames": 5290,
+      "missing_frames": 0,
+      "required_frames": 5290,
+      "source_new_frames": {
+        "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/049_exp048_to_jaad_zero_shot/cache/jaad_keypoints_vitpose_s_exp049_extended.jsonl": 727,
+        "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/079_jaad_api_protocol_two_stage_xgb/cache/jaad_api_protocol_missing_pose.jsonl": 4563
+      }
+    },
+    "source_rows": 1265,
+    "views": {
+      "early_feature_count": 161,
+      "gapped_api_trajectory_windows": 0,
+      "portable_feature_count": 182,
+      "rows": 1265
+    }
+  }
+}

@@ -1,0 +1,27 @@
+% Reuses unchanged rows from ch4_literature_jaad_beh.tex and ch4_literature_jaad_all.tex.
+\begin{table}[!htbp]
+\centering
+\caption{Published JAAD results by cohort; our scores are three-run means.}\label{tab:ch4_literature_jaad}
+\begin{tabularx}{\textwidth}{@{}Xrrrrr@{}}\toprule
+\textbf{Method} & \textbf{Acc.} & \textbf{\boldmath $F_1$} & \textbf{Precision} & \textbf{Recall} & \textbf{AUC} \\[3pt]
+\midrule
+\thesistablegroup{6}{JAAD$_{beh}$: behavior pedestrians}
+PCPA~\cite{Kotseruba2021Benchmark} & 0.580 & 0.710 & -- & -- & 0.500\\[3pt]
+Yang et al.~\cite{Yang2022FeatureFusion} & 0.620 & 0.740 & 0.650 & 0.850 & 0.540\\[3pt]
+TrajFusionNet~\cite{Landry2025TrajFusionNet} & \textbf{0.740} & \textbf{0.820} & \textbf{0.730} & 0.930 & 0.680\\[3pt]
+PCAP-SL: selected ViT-16-s~\cite{Benkabou2026PCAPSL} & \textbf{0.740} & 0.801 & 0.671 & \textbf{0.983} & \textbf{0.721}\\[3pt]
+\midrule
+Ours: BBox + BIU-v2 (109-D) & 0.6750 & 0.7782 & 0.6790 & 0.9114 & 0.6885\\[3pt]
+Ours: XGBoost + road context + vehicle state (205-D) & 0.6729 & 0.7755 & 0.6795 & 0.9031 & 0.6970\\[3pt]
+\midrule
+\thesistablegroup{6}{JAAD$_{all}$: all pedestrians}
+PCPA~\cite{Kotseruba2021Benchmark} & 0.850 & 0.680 & -- & -- & 0.860\\[3pt]
+Yang et al.~\cite{Yang2022FeatureFusion} & 0.830 & 0.630 & 0.510 & 0.810 & 0.820\\[3pt]
+TrajFusionNet~\cite{Landry2025TrajFusionNet} & 0.890 & 0.720 & 0.640 & 0.820 & 0.860\\[3pt]
+PCAP-SL: selected ViT-16-s~\cite{Benkabou2026PCAPSL} & 0.852 & \textbf{0.841} & \textbf{0.791} & \textbf{0.892} & 0.852\\[3pt]
+\midrule
+Ours: BBox + BIU-v2 (109-D) & 0.8668 & 0.6772 & 0.5875 & 0.7992 & 0.9284\\[3pt]
+Ours: XGBoost + road context + vehicle state (205-D) & \textbf{0.8918} & 0.7327 & 0.6447 & 0.8485 & \textbf{0.9487}\\[3pt]
+\bottomrule
+\end{tabularx}
+\end{table}

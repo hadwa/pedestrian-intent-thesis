@@ -1,0 +1,47 @@
+{
+  "full_protocol_coverage": {
+    "all": {
+      "cached_unique_frames": 69460,
+      "fully_covered_window_fraction": 1.0,
+      "fully_covered_windows": 16610,
+      "missing_unique_frames": 0,
+      "required_unique_frames": 69460,
+      "windows": 16610
+    },
+    "test": {
+      "cached_unique_frames": 28152,
+      "fully_covered_window_fraction": 1.0,
+      "fully_covered_windows": 6732,
+      "missing_unique_frames": 0,
+      "required_unique_frames": 28152,
+      "windows": 6732
+    },
+    "train": {
+      "cached_unique_frames": 36018,
+      "fully_covered_window_fraction": 1.0,
+      "fully_covered_windows": 8613,
+      "missing_unique_frames": 0,
+      "required_unique_frames": 36018,
+      "windows": 8613
+    },
+    "val": {
+      "cached_unique_frames": 5290,
+      "fully_covered_window_fraction": 1.0,
+      "fully_covered_windows": 1265,
+      "missing_unique_frames": 0,
+      "required_unique_frames": 5290,
+      "windows": 1265
+    }
+  },
+  "output": {
+    "coco17_shape_valid": true,
+    "exact_bbox": true,
+    "exact_manifest_coverage": true,
+    "expected_records": 56463,
+    "finite": true,
+    "records": 56463
+  },
+  "pose_output_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/079_jaad_api_protocol_two_stage_xgb/cache/jaad_api_protocol_missing_pose.jsonl",
+  "pose_output_sha256": "d0c0fd771eff1dadd7c499a680cef704409e6a07a72ca31f3f3b39d6a86fe038",
+  "pose_output_size_bytes": 68682860
+}

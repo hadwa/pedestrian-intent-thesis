@@ -1,0 +1,3 @@
+split,n_windows,complete_window_count,complete_window_rate,incomplete_window_count,mean_valid_frame_fraction,median_valid_frame_fraction
+train,333454,333453,0.999997001085607,1,0.9999999000361035,1.0
+val,77288,77284,0.9999482455232378,4,0.999998274849335,1.0

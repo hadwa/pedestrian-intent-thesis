@@ -1,0 +1,72 @@
+[
+  {
+    "kind": "mslstm_base",
+    "check": "all state keys/tensors identical and declared export size matches",
+    "tensors": 69,
+    "passed": true
+  },
+  {
+    "kind": "mslstm_63",
+    "check": "all state keys/tensors identical and declared export size matches",
+    "tensors": 73,
+    "passed": true
+  },
+  {
+    "kind": "mslstm_raw",
+    "check": "all state keys/tensors identical and declared export size matches",
+    "tensors": 89,
+    "passed": true
+  },
+  {
+    "kind": "mslstm_56",
+    "check": "all state keys/tensors identical and declared export size matches",
+    "tensors": 73,
+    "passed": true
+  },
+  {
+    "kind": "ped_parent_pie",
+    "check": "all state keys/tensors identical and declared export size matches",
+    "tensors": 189,
+    "passed": true
+  },
+  {
+    "kind": "ped_branch_pie",
+    "check": "all state keys/tensors identical and declared export size matches",
+    "tensors": 14,
+    "passed": true
+  },
+  {
+    "kind": "ped_parent_jaad",
+    "check": "all state keys/tensors identical and declared export size matches",
+    "tensors": 189,
+    "passed": true
+  },
+  {
+    "kind": "ped_branch_jaad",
+    "check": "all state keys/tensors identical and declared export size matches",
+    "tensors": 14,
+    "passed": true
+  },
+  {
+    "kind": "ped_complete_pie",
+    "check": "all state keys/tensors identical and declared export size matches",
+    "tensors": 203,
+    "passed": true
+  },
+  {
+    "kind": "ped_complete_jaad",
+    "check": "all state keys/tensors identical and declared export size matches",
+    "tensors": 203,
+    "passed": true
+  },
+  {
+    "kind": "xgb_core",
+    "check": "identical tree dumps and declared UBJSON size",
+    "passed": true
+  },
+  {
+    "kind": "xgb_road",
+    "check": "identical tree dumps and declared UBJSON size",
+    "passed": true
+  }
+]

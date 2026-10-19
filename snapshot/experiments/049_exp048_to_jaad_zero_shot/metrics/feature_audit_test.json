@@ -1,0 +1,26 @@
+{
+  "action_missing_observation_frames": 0,
+  "all_zero_pose_windows": 0,
+  "biu_v2_bbox_direction_fallback_windows": 43,
+  "biu_v2_direction_sources": {
+    "ankle_center_x": 230,
+    "bbox_center_x": 43,
+    "hip_center_x": 44373
+  },
+  "cross_values_present_in_database": false,
+  "ego_speed_max": 1.0,
+  "ego_speed_mean": 0.6866195553166391,
+  "ego_speed_min": 0.0,
+  "look_missing_observation_frames": 0,
+  "nonfinite_feature_windows": 0,
+  "official_test_videos": 117,
+  "phase": "label_sealed_non_yolop_feature_audit",
+  "pose_invalid_windows": 0,
+  "pose_valid_windows": 44646,
+  "probabilities_computed": false,
+  "target_labels_attached": false,
+  "valid_joint_fraction_mean": 1.0,
+  "valid_joint_fraction_median": 1.0,
+  "windows": 44646,
+  "yolop_included": false
+}

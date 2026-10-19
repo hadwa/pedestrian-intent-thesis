@@ -1,0 +1,1037 @@
+[
+  {
+    "case": "jaad_clean_simple",
+    "dimensions": 109,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 116,
+    "positives": 999,
+    "rows": 1552,
+    "split": "train"
+  },
+  {
+    "case": "jaad_clean_simple",
+    "dimensions": 109,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 116,
+    "positives": 170,
+    "rows": 274,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_clean_simple",
+    "parent_replay_max_abs": 2.9517364552589243e-08,
+    "seed": 42,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_clean_simple",
+    "parent_replay_max_abs": 2.902145390670796e-08,
+    "seed": 43,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_clean_simple",
+    "parent_replay_max_abs": 2.950286870362362e-08,
+    "seed": 44,
+    "split": "validation"
+  },
+  {
+    "case": "psi_simple",
+    "dimensions": 109,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 116,
+    "positives": 18799,
+    "rows": 26880,
+    "split": "train"
+  },
+  {
+    "case": "psi_simple",
+    "dimensions": 109,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 116,
+    "positives": 11240,
+    "rows": 14922,
+    "split": "validation"
+  },
+  {
+    "case": "psi_simple",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 42,
+    "split": "validation"
+  },
+  {
+    "case": "psi_simple",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 43,
+    "split": "validation"
+  },
+  {
+    "case": "psi_simple",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 44,
+    "split": "validation"
+  },
+  {
+    "case": "pie_road",
+    "dimensions": 195,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 247,
+    "positives": 679,
+    "rows": 2366,
+    "split": "train"
+  },
+  {
+    "case": "pie_road",
+    "dimensions": 195,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 247,
+    "positives": 751,
+    "rows": 3619,
+    "split": "validation"
+  },
+  {
+    "case": "pie_road",
+    "parent_replay_max_abs": 2.9669952383848397e-08,
+    "seed": 42,
+    "split": "validation"
+  },
+  {
+    "case": "pie_road",
+    "parent_replay_max_abs": 2.968139645176393e-08,
+    "seed": 43,
+    "split": "validation"
+  },
+  {
+    "case": "pie_road",
+    "parent_replay_max_abs": 2.965698242540782e-08,
+    "seed": 44,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_clean_road",
+    "dimensions": 190,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 242,
+    "positives": 999,
+    "rows": 1552,
+    "split": "train"
+  },
+  {
+    "case": "jaad_clean_road",
+    "dimensions": 190,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 242,
+    "positives": 170,
+    "rows": 274,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_clean_road",
+    "parent_replay_max_abs": 2.9531860401554866e-08,
+    "seed": 42,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_clean_road",
+    "parent_replay_max_abs": 2.97248839986608e-08,
+    "seed": 43,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_clean_road",
+    "parent_replay_max_abs": 2.9351806651867207e-08,
+    "seed": 44,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_beh",
+    "pose_recovery": {
+      "duplicate_identical": 0,
+      "loaded": 8924,
+      "required": 8924,
+      "source_contributions": {
+        "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/049_exp048_to_jaad_zero_shot/cache/jaad_keypoints_vitpose_s_exp049_extended.jsonl": 4404,
+        "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/079_jaad_api_protocol_two_stage_xgb/cache/jaad_api_protocol_missing_pose.jsonl": 4520
+      }
+    },
+    "split": "train"
+  },
+  {
+    "case": "jaad_beh_road",
+    "dimensions": 190,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 242,
+    "positives": 1760,
+    "rows": 2134,
+    "split": "train"
+  },
+  {
+    "case": "jaad_beh",
+    "pose_recovery": {
+      "duplicate_identical": 0,
+      "loaded": 1012,
+      "required": 1012,
+      "source_contributions": {
+        "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/049_exp048_to_jaad_zero_shot/cache/jaad_keypoints_vitpose_s_exp049_extended.jsonl": 727,
+        "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/079_jaad_api_protocol_two_stage_xgb/cache/jaad_api_protocol_missing_pose.jsonl": 285
+      }
+    },
+    "split": "validation"
+  },
+  {
+    "case": "jaad_beh_road",
+    "dimensions": 190,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 242,
+    "positives": 176,
+    "rows": 242,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_beh_road",
+    "parent_replay_max_abs": 2.955398559212341e-08,
+    "seed": 42,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_beh_road",
+    "parent_replay_max_abs": 2.952041622261703e-08,
+    "seed": 43,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_beh_road",
+    "parent_replay_max_abs": 2.9710388149695177e-08,
+    "seed": 44,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_all",
+    "pose_recovery": {
+      "duplicate_identical": 0,
+      "loaded": 36018,
+      "required": 36018,
+      "source_contributions": {
+        "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/049_exp048_to_jaad_zero_shot/cache/jaad_keypoints_vitpose_s_exp049_extended.jsonl": 4404,
+        "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/079_jaad_api_protocol_two_stage_xgb/cache/jaad_api_protocol_missing_pose.jsonl": 31614
+      }
+    },
+    "split": "train"
+  },
+  {
+    "case": "jaad_all_road",
+    "dimensions": 190,
+    "finite": true,
+    "frame_gap_windows": 2,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 242,
+    "positives": 1760,
+    "rows": 8613,
+    "split": "train"
+  },
+  {
+    "case": "jaad_all",
+    "pose_recovery": {
+      "duplicate_identical": 0,
+      "loaded": 5290,
+      "required": 5290,
+      "source_contributions": {
+        "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/049_exp048_to_jaad_zero_shot/cache/jaad_keypoints_vitpose_s_exp049_extended.jsonl": 727,
+        "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/079_jaad_api_protocol_two_stage_xgb/cache/jaad_api_protocol_missing_pose.jsonl": 4563
+      }
+    },
+    "split": "validation"
+  },
+  {
+    "case": "jaad_all_road",
+    "dimensions": 190,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 242,
+    "positives": 176,
+    "rows": 1265,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_all_road",
+    "parent_replay_max_abs": 2.972030643810797e-08,
+    "seed": 42,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_all_road",
+    "parent_replay_max_abs": 2.9598999029545325e-08,
+    "seed": 43,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_all_road",
+    "parent_replay_max_abs": 2.978134150399825e-08,
+    "seed": 44,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_clean_road_vehicle",
+    "dimensions": 205,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 257,
+    "positives": 999,
+    "rows": 1552,
+    "split": "train"
+  },
+  {
+    "case": "jaad_clean_road_vehicle",
+    "dimensions": 205,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 257,
+    "positives": 170,
+    "rows": 274,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_clean_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 42,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_clean_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 43,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_clean_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 44,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_beh_road_vehicle",
+    "dimensions": 205,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 257,
+    "positives": 1760,
+    "rows": 2134,
+    "split": "train"
+  },
+  {
+    "case": "jaad_beh_road_vehicle",
+    "dimensions": 205,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 257,
+    "positives": 176,
+    "rows": 242,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_beh_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 42,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_beh_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 43,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_beh_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 44,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_all_road_vehicle",
+    "dimensions": 205,
+    "finite": true,
+    "frame_gap_windows": 2,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 257,
+    "positives": 1760,
+    "rows": 8613,
+    "split": "train"
+  },
+  {
+    "case": "jaad_all_road_vehicle",
+    "dimensions": 205,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 257,
+    "positives": 176,
+    "rows": 1265,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_all_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 42,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_all_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 43,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_all_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 44,
+    "split": "validation"
+  },
+  {
+    "case": "psi_ego",
+    "dimensions": 135,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 187,
+    "positives": 18598,
+    "rows": 26295,
+    "split": "train"
+  },
+  {
+    "case": "psi_ego",
+    "dimensions": 135,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 187,
+    "positives": 11240,
+    "rows": 14922,
+    "split": "validation"
+  },
+  {
+    "case": "psi_ego",
+    "parent_replay_max_abs": 2.980194091506405e-08,
+    "seed": 42,
+    "split": "validation"
+  },
+  {
+    "case": "psi_ego",
+    "parent_replay_max_abs": 2.980194091506405e-08,
+    "seed": 43,
+    "split": "validation"
+  },
+  {
+    "case": "psi_ego",
+    "parent_replay_max_abs": 2.9797363243488917e-08,
+    "seed": 44,
+    "split": "validation"
+  },
+  {
+    "case": "psi_road_ego",
+    "dimensions": 195,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 247,
+    "positives": 18598,
+    "rows": 26295,
+    "split": "train"
+  },
+  {
+    "case": "psi_road_ego",
+    "dimensions": 195,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 247,
+    "positives": 11240,
+    "rows": 14922,
+    "split": "validation"
+  },
+  {
+    "case": "psi_road_ego",
+    "parent_replay_max_abs": 2.980194091506405e-08,
+    "seed": 42,
+    "split": "validation"
+  },
+  {
+    "case": "psi_road_ego",
+    "parent_replay_max_abs": 2.9795837352963872e-08,
+    "seed": 43,
+    "split": "validation"
+  },
+  {
+    "case": "psi_road_ego",
+    "parent_replay_max_abs": 2.979812618875144e-08,
+    "seed": 44,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_clean_simple",
+    "parent_replay_max_abs": 2.9517364552589243e-08,
+    "seed": 42,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_clean_simple",
+    "parent_replay_max_abs": 2.902145390670796e-08,
+    "seed": 43,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_clean_simple",
+    "parent_replay_max_abs": 2.950286870362362e-08,
+    "seed": 44,
+    "split": "validation"
+  },
+  {
+    "case": "psi_simple",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 42,
+    "split": "validation"
+  },
+  {
+    "case": "psi_simple",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 43,
+    "split": "validation"
+  },
+  {
+    "case": "psi_simple",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 44,
+    "split": "validation"
+  },
+  {
+    "case": "pie_road",
+    "parent_replay_max_abs": 2.9669952383848397e-08,
+    "seed": 42,
+    "split": "validation"
+  },
+  {
+    "case": "pie_road",
+    "parent_replay_max_abs": 2.968139645176393e-08,
+    "seed": 43,
+    "split": "validation"
+  },
+  {
+    "case": "pie_road",
+    "parent_replay_max_abs": 2.965698242540782e-08,
+    "seed": 44,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_clean_road",
+    "parent_replay_max_abs": 2.9531860401554866e-08,
+    "seed": 42,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_clean_road",
+    "parent_replay_max_abs": 2.97248839986608e-08,
+    "seed": 43,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_clean_road",
+    "parent_replay_max_abs": 2.9351806651867207e-08,
+    "seed": 44,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_beh_road",
+    "parent_replay_max_abs": 2.955398559212341e-08,
+    "seed": 42,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_beh_road",
+    "parent_replay_max_abs": 2.952041622261703e-08,
+    "seed": 43,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_beh_road",
+    "parent_replay_max_abs": 2.9710388149695177e-08,
+    "seed": 44,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_all_road",
+    "parent_replay_max_abs": 2.972030643810797e-08,
+    "seed": 42,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_all_road",
+    "parent_replay_max_abs": 2.9598999029545325e-08,
+    "seed": 43,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_all_road",
+    "parent_replay_max_abs": 2.978134150399825e-08,
+    "seed": 44,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_clean_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 42,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_clean_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 43,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_clean_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 44,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_beh_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 42,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_beh_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 43,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_beh_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 44,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_all_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 42,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_all_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 43,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_all_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 44,
+    "split": "validation"
+  },
+  {
+    "case": "psi_ego",
+    "parent_replay_max_abs": 2.980194091506405e-08,
+    "seed": 42,
+    "split": "validation"
+  },
+  {
+    "case": "psi_ego",
+    "parent_replay_max_abs": 2.980194091506405e-08,
+    "seed": 43,
+    "split": "validation"
+  },
+  {
+    "case": "psi_ego",
+    "parent_replay_max_abs": 2.9797363243488917e-08,
+    "seed": 44,
+    "split": "validation"
+  },
+  {
+    "case": "psi_road_ego",
+    "parent_replay_max_abs": 2.980194091506405e-08,
+    "seed": 42,
+    "split": "validation"
+  },
+  {
+    "case": "psi_road_ego",
+    "parent_replay_max_abs": 2.9795837352963872e-08,
+    "seed": 43,
+    "split": "validation"
+  },
+  {
+    "case": "psi_road_ego",
+    "parent_replay_max_abs": 2.979812618875144e-08,
+    "seed": 44,
+    "split": "validation"
+  },
+  {
+    "case": "jaad_clean_simple",
+    "dimensions": 109,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 116,
+    "positives": 720,
+    "rows": 1501,
+    "split": "test"
+  },
+  {
+    "case": "jaad_clean_simple",
+    "parent_replay_max_abs": 2.9772949217132805e-08,
+    "seed": 42,
+    "split": "test"
+  },
+  {
+    "case": "jaad_clean_simple",
+    "parent_replay_max_abs": 2.9786682120835906e-08,
+    "seed": 43,
+    "split": "test"
+  },
+  {
+    "case": "jaad_clean_simple",
+    "parent_replay_max_abs": 2.9691314740176722e-08,
+    "seed": 44,
+    "split": "test"
+  },
+  {
+    "case": "psi_simple",
+    "dimensions": 109,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 116,
+    "positives": 15462,
+    "rows": 20547,
+    "split": "test"
+  },
+  {
+    "case": "psi_simple",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 42,
+    "split": "test"
+  },
+  {
+    "case": "psi_simple",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 43,
+    "split": "test"
+  },
+  {
+    "case": "psi_simple",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 44,
+    "split": "test"
+  },
+  {
+    "case": "pie_road",
+    "dimensions": 195,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 247,
+    "positives": 1005,
+    "rows": 3760,
+    "split": "test"
+  },
+  {
+    "case": "pie_road",
+    "parent_replay_max_abs": 2.9726409889185845e-08,
+    "seed": 42,
+    "split": "test"
+  },
+  {
+    "case": "pie_road",
+    "parent_replay_max_abs": 2.9726409889185845e-08,
+    "seed": 43,
+    "split": "test"
+  },
+  {
+    "case": "pie_road",
+    "parent_replay_max_abs": 2.9762268094479793e-08,
+    "seed": 44,
+    "split": "test"
+  },
+  {
+    "case": "jaad_clean_road",
+    "dimensions": 190,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 242,
+    "positives": 720,
+    "rows": 1501,
+    "split": "test"
+  },
+  {
+    "case": "jaad_clean_road",
+    "parent_replay_max_abs": 2.9766082709770103e-08,
+    "seed": 42,
+    "split": "test"
+  },
+  {
+    "case": "jaad_clean_road",
+    "parent_replay_max_abs": 2.9643249521704718e-08,
+    "seed": 43,
+    "split": "test"
+  },
+  {
+    "case": "jaad_clean_road",
+    "parent_replay_max_abs": 2.977752688870794e-08,
+    "seed": 44,
+    "split": "test"
+  },
+  {
+    "case": "jaad_beh",
+    "pose_recovery": {
+      "duplicate_identical": 0,
+      "loaded": 7866,
+      "required": 7866,
+      "source_contributions": {
+        "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/049_exp048_to_jaad_zero_shot/cache/jaad_keypoints_vitpose_s_exp049_extended.jsonl": 7866,
+        "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/079_jaad_api_protocol_two_stage_xgb/cache/jaad_api_protocol_missing_pose.jsonl": 0
+      }
+    },
+    "split": "test"
+  },
+  {
+    "case": "jaad_beh_road",
+    "dimensions": 190,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 242,
+    "positives": 1177,
+    "rows": 1881,
+    "split": "test"
+  },
+  {
+    "case": "jaad_beh_road",
+    "parent_replay_max_abs": 2.9735565232336114e-08,
+    "seed": 42,
+    "split": "test"
+  },
+  {
+    "case": "jaad_beh_road",
+    "parent_replay_max_abs": 2.9799652079276484e-08,
+    "seed": 43,
+    "split": "test"
+  },
+  {
+    "case": "jaad_beh_road",
+    "parent_replay_max_abs": 2.9789733901885995e-08,
+    "seed": 44,
+    "split": "test"
+  },
+  {
+    "case": "jaad_all",
+    "pose_recovery": {
+      "duplicate_identical": 0,
+      "loaded": 28152,
+      "required": 28152,
+      "source_contributions": {
+        "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/049_exp048_to_jaad_zero_shot/cache/jaad_keypoints_vitpose_s_exp049_extended.jsonl": 7866,
+        "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/079_jaad_api_protocol_two_stage_xgb/cache/jaad_api_protocol_missing_pose.jsonl": 20286
+      }
+    },
+    "split": "test"
+  },
+  {
+    "case": "jaad_all_road",
+    "dimensions": 190,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 242,
+    "positives": 1177,
+    "rows": 6732,
+    "split": "test"
+  },
+  {
+    "case": "jaad_all_road",
+    "parent_replay_max_abs": 2.9787445066098428e-08,
+    "seed": 42,
+    "split": "test"
+  },
+  {
+    "case": "jaad_all_road",
+    "parent_replay_max_abs": 2.9799652079276484e-08,
+    "seed": 43,
+    "split": "test"
+  },
+  {
+    "case": "jaad_all_road",
+    "parent_replay_max_abs": 2.9790496847148518e-08,
+    "seed": 44,
+    "split": "test"
+  },
+  {
+    "case": "jaad_clean_road_vehicle",
+    "dimensions": 205,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 257,
+    "positives": 720,
+    "rows": 1501,
+    "split": "test"
+  },
+  {
+    "case": "jaad_clean_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 42,
+    "split": "test"
+  },
+  {
+    "case": "jaad_clean_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 43,
+    "split": "test"
+  },
+  {
+    "case": "jaad_clean_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 44,
+    "split": "test"
+  },
+  {
+    "case": "jaad_beh_road_vehicle",
+    "dimensions": 205,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 257,
+    "positives": 1177,
+    "rows": 1881,
+    "split": "test"
+  },
+  {
+    "case": "jaad_beh_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 42,
+    "split": "test"
+  },
+  {
+    "case": "jaad_beh_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 43,
+    "split": "test"
+  },
+  {
+    "case": "jaad_beh_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 44,
+    "split": "test"
+  },
+  {
+    "case": "jaad_all_road_vehicle",
+    "dimensions": 205,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 257,
+    "positives": 1177,
+    "rows": 6732,
+    "split": "test"
+  },
+  {
+    "case": "jaad_all_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 42,
+    "split": "test"
+  },
+  {
+    "case": "jaad_all_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 43,
+    "split": "test"
+  },
+  {
+    "case": "jaad_all_road_vehicle",
+    "parent_replay_max_abs": 1.1102230246251565e-16,
+    "seed": 44,
+    "split": "test"
+  },
+  {
+    "case": "psi_ego",
+    "dimensions": 135,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 187,
+    "positives": 15462,
+    "rows": 20547,
+    "split": "test"
+  },
+  {
+    "case": "psi_ego",
+    "parent_replay_max_abs": 2.9800415024539006e-08,
+    "seed": 42,
+    "split": "test"
+  },
+  {
+    "case": "psi_ego",
+    "parent_replay_max_abs": 2.9790496847148518e-08,
+    "seed": 43,
+    "split": "test"
+  },
+  {
+    "case": "psi_ego",
+    "parent_replay_max_abs": 2.9797363243488917e-08,
+    "seed": 44,
+    "split": "test"
+  },
+  {
+    "case": "psi_road_ego",
+    "dimensions": 195,
+    "finite": true,
+    "frame_gap_windows": 0,
+    "non_biu_unchanged": true,
+    "parent_dimensions": 247,
+    "positives": 15462,
+    "rows": 20547,
+    "split": "test"
+  },
+  {
+    "case": "psi_road_ego",
+    "parent_replay_max_abs": 2.980194091506405e-08,
+    "seed": 42,
+    "split": "test"
+  },
+  {
+    "case": "psi_road_ego",
+    "parent_replay_max_abs": 2.9798889134013962e-08,
+    "seed": 43,
+    "split": "test"
+  },
+  {
+    "case": "psi_road_ego",
+    "parent_replay_max_abs": 2.980194091506405e-08,
+    "seed": 44,
+    "split": "test"
+  }
+]

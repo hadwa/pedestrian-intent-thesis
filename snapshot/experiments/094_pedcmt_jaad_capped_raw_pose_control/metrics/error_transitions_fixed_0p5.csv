@@ -1,0 +1,10 @@
+comparison,seed,wrong_to_correct,correct_to_wrong,fp_to_tn,fn_to_tp,tn_to_fp,tp_to_fn
+U10_minus_A,42,67,13,9,58,7,6
+P10_minus_A,42,26,11,0,26,11,0
+U10_minus_P10,42,58,19,18,40,5,14
+U10_minus_A,43,48,12,10,38,3,9
+P10_minus_A,43,19,5,4,15,4,1
+U10_minus_P10,43,32,10,7,25,0,10
+U10_minus_A,44,0,0,0,0,0,0
+P10_minus_A,44,0,0,0,0,0,0
+U10_minus_P10,44,0,0,0,0,0,0

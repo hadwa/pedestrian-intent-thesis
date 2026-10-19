@@ -1,0 +1,3 @@
+variant,seed,latency_seconds_per_batch,latency_seconds_per_sample,batch_size,device
+variant_a_mslstm_control,42,0.018572960240126123,0.004643240060031531,4,cpu
+variant_b_mslstm_plus_biu_v2,42,0.01844844181992812,0.00461211045498203,4,cpu

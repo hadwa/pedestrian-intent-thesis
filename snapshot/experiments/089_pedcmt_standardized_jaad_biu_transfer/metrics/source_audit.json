@@ -1,0 +1,37 @@
+{
+  "dimensions": {
+    "bbox": 4,
+    "biu_v1": 72,
+    "biu_v2": 63,
+    "ego": 1,
+    "pose": 34,
+    "union": 135
+  },
+  "population": {
+    "total": 1826,
+    "train": 1552,
+    "train_positive": 999,
+    "validation": 274,
+    "validation_positive": 170
+  },
+  "prepared_at_unix": 1788274631.0227308,
+  "sequence_id_sha256": "52042d7985e2b7767c9f1c3b9ef9577d66a0ddb3926a88a25b10b87db00bdb13",
+  "source_directory": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/trainval_source",
+  "source_sha256": {
+    "bbox.npy": "ee14bae4b4f9d260c5824dcf1f4fb37942eeb605e5828402175634e58096713e",
+    "biu_v1.npy": "3d948e2afb788a034a6008879f19af9f196d5559c93356092b9aa1ca7a1da768",
+    "biu_v2.npy": "52c0f7334cbea1928841178a4a3d703ce50dd822fc6b421605b5bb4b4ebb0545",
+    "ego_speed.npy": "a3c422c5476d76a58f29f02b39c4f37f27dc83bc106dfe6bf54edb748ca96319",
+    "metadata.json": "0f06effe349f9abed7850775df161a4f6c4d6e4e21cf729517c5502e36c070f6",
+    "pose.npy": "d5b738d01093834d0ca2f57925c6a467fc50c559e0567dd0b880a23460fb5cbd",
+    "rows.csv": "53e1ca8f79b569b7aec5eab959d3db7ce6b0d2b10c84caa19bb060c40ac389f7"
+  },
+  "test_cache_accessed": false,
+  "trainable_parameters": {
+    "A": 1834416,
+    "B": 2368944,
+    "C": 1860528,
+    "D": 1859376,
+    "E": 1868592
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "status": "frozen_ready_for_source_recovery",
+  "development_only": true,
+  "test_accessed": false,
+  "excluded_train_windows": {
+    "video_0032": 143,
+    "video_0055": 141,
+    "video_0093": 301
+  },
+  "excluded_validation_windows": {
+    "video_0032": 0,
+    "video_0055": 0,
+    "video_0093": 0
+  },
+  "cohort": {
+    "train": {
+      "windows": 26295,
+      "videos": 105,
+      "tracks": 171,
+      "unique_video_frames": 20268,
+      "positives": 18598
+    },
+    "val": {
+      "windows": 14922,
+      "videos": 35,
+      "tracks": 77,
+      "unique_video_frames": 9426,
+      "positives": 11240
+    }
+  },
+  "arms": {
+    "S187": 187,
+    "R247": 247
+  },
+  "planned_fits": 6,
+  "video_download": {
+    "members": 140,
+    "bytes": 4432752457,
+    "compressed_bytes": 4433470344
+  },
+  "sources": [
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/APPROVED_COHORT_AMENDMENT.md",
+      "bytes": 1557,
+      "sha256": "62ff9be3ae45d8db57b2ff3f4701ce4d4ed62b0500da5d39b2e043603d508bb4"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/amended_cohort.json",
+      "bytes": 567,
+      "sha256": "d01a8e91587b4537dfd6203dfb8fdc0b1f789aae1e4a329a7a67fa9f08c324b9"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/feature_contract.json",
+      "bytes": 14815,
+      "sha256": "f647835c31ebb23d13f38e141baf09b12b4ce8c2b3829ab63bef072d114a64c5"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/live_zip_directory_audit.json",
+      "bytes": 1013,
+      "sha256": "5a8d06a67b54085347669b05e28258f9c82673379baf33ce8c9ced6a95a9e5cb"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/113_psi_native_biu_xgb/cache/train/rows.csv",
+      "bytes": 4683369,
+      "sha256": "efa85fc49eb88c97292b84426a28ee7cc82267751b10055d0eba622b70af6ec8"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/113_psi_native_biu_xgb/cache/val/rows.csv",
+      "bytes": 2598191,
+      "sha256": "8768606d022bb930da6369ed0ef17b60d33ee6a3c628f29d0bd8f9530760df72"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/113_psi_native_biu_xgb/cache/train/A.npy",
+      "bytes": 11397248,
+      "sha256": "24a7f78503e6548f1a7d3639ad4ff245c99c67eae0e04e3cd0a5c3f6707a3c10"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/113_psi_native_biu_xgb/cache/train/B.npy",
+      "bytes": 26880128,
+      "sha256": "8bb6aac3834936a48d33b311c756fdffd443a117d24fbc406fbaf61216641ea3"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/113_psi_native_biu_xgb/cache/train/C.npy",
+      "bytes": 24944768,
+      "sha256": "1dcb689447d1551573b9f2d211077dde38bf762356c36d1a65bf129bd2405dc8"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/113_psi_native_biu_xgb/cache/val/A.npy",
+      "bytes": 6327056,
+      "sha256": "67bcfb0609d374193c721ab578a0d502938b235cf4e11ef5c96114eca1519851"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/113_psi_native_biu_xgb/cache/val/B.npy",
+      "bytes": 14922128,
+      "sha256": "704fc915d2f25c3b20dfe15592010241e741f4c95e47f43ceb7151f62ddd392a"
+    },
+    {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/113_psi_native_biu_xgb/cache/val/C.npy",
+      "bytes": 13847744,
+      "sha256": "f2c7f43dc07c79de59b640b004be66a93488031cfe13d0b5d63c6c34fd1e4251"
+    }
+  ]
+}

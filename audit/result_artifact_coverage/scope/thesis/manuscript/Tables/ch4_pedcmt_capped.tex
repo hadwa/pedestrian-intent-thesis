@@ -1,0 +1,21 @@
+% SOURCE: experiments/119_pedcmt_v2_capped_completion/metrics/summary_results.csv
+\begin{table}[!htbp]
+\centering
+\caption{Capped PedCMT with matched pose inputs; $F_1$ includes sample SD.}\label{tab:ch4_pedcmt_capped}
+\begin{tabularx}{\textwidth}{@{}Xrrrr@{}}\toprule
+\textbf{Predictor/input} & \textbf{Acc.} & \textbf{\boldmath $F_1$} & \textbf{PR-AUC} & \textbf{ROC-AUC} \\[3pt]
+\midrule
+\thesistablegroup{5}{PIE}
+BBox + ego/vehicle baseline & $0.889$ & $0.793\pm0.009$ & $0.858$ & $0.919$\\[3pt]
+Baseline + capped raw pose & $0.888$ & $0.792\pm0.010$ & $0.858$ & $0.920$\\[3pt]
+Baseline + capped BIU-v2 (56-D) & $0.890$ & $0.795\pm0.009$ & $0.861$ & $0.922$\\[3pt]
+Baseline + capped BIU-v2 + supporting cues (63-D) & $\mathbf{0.891}$ & $\mathbf{0.796}\pm0.011$ & $\mathbf{0.866}$ & $\mathbf{0.923}$\\[3pt]
+\midrule
+\thesistablegroup{5}{Clean JAAD}
+BBox + ego/vehicle baseline & $0.633$ & $0.673\pm0.057$ & $0.626$ & $0.689$\\[3pt]
+Baseline + capped raw pose & $0.639$ & $0.683\pm0.047$ & $0.602$ & $0.686$\\[3pt]
+Baseline + capped BIU-v2 (56-D) & $0.648$ & $0.691\pm0.045$ & $0.657$ & $0.713$\\[3pt]
+Baseline + capped BIU-v2 + supporting cues (63-D) & $\mathbf{0.654}$ & $\mathbf{0.698}\pm0.036$ & $\mathbf{0.670}$ & $\mathbf{0.726}$\\[3pt]
+\bottomrule
+\end{tabularx}
+\end{table}

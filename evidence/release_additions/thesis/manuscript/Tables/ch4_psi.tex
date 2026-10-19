@@ -1,0 +1,14 @@
+% SOURCE: experiments/124_psi_matched_lightweight_ablation/metrics/summary_results.csv
+\begin{table}[!htbp]
+\centering
+\caption{Matched PSI input ablation; $F_1$ is positive-class and includes sample SD.}\label{tab:ch4_psi}
+\begin{tabularx}{\textwidth}{@{}Xrrrr@{}}\toprule
+\textbf{Predictor/input} & \textbf{\boldmath $F_1$} & \textbf{\boldmath Macro-$F_1$} & \textbf{PR-AUC} & \textbf{ROC-AUC} \\[3pt]
+\midrule
+BBox53 & $0.746\pm0.005$ & $0.546$ & $0.833$ & $0.604$\\[3pt]
+BBox53 + BIU-v2 (56-D) & $0.760\pm0.001$ & $0.570$ & $0.859$ & $0.652$\\[3pt]
+XGBoost behavioral (135-D) & $0.804\pm0.001$ & $0.601$ & $0.847$ & $0.661$\\[3pt]
+XGBoost + road context (195-D) & $\mathbf{0.825}\pm0.003$ & $\mathbf{0.630}$ & $\mathbf{0.862}$ & $\mathbf{0.690}$\\[3pt]
+\bottomrule
+\end{tabularx}
+\end{table}

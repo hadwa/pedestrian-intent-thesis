@@ -1,0 +1,293 @@
+{
+  "archive_etag": "\"3868cb96ae54e00a99ad64d9e17bc701-325\"",
+  "development_only": true,
+  "records": [
+    {
+      "bytes": 46215366,
+      "compressed_bytes": 46224999,
+      "crc32": 3082929884,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0002.mp4",
+      "required_frames": 160,
+      "video": "video_0002"
+    },
+    {
+      "bytes": 46634918,
+      "compressed_bytes": 46644739,
+      "crc32": 776049583,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0006.mp4",
+      "required_frames": 189,
+      "video": "video_0006"
+    },
+    {
+      "bytes": 32138447,
+      "compressed_bytes": 32143808,
+      "crc32": 2780623030,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0010.mp4",
+      "required_frames": 114,
+      "video": "video_0010"
+    },
+    {
+      "bytes": 40363553,
+      "compressed_bytes": 40371429,
+      "crc32": 766335414,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0014.mp4",
+      "required_frames": 140,
+      "video": "video_0014"
+    },
+    {
+      "bytes": 35614119,
+      "compressed_bytes": 35620592,
+      "crc32": 876001591,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0018.mp4",
+      "required_frames": 304,
+      "video": "video_0018"
+    },
+    {
+      "bytes": 25940060,
+      "compressed_bytes": 25943587,
+      "crc32": 3777586634,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0022.mp4",
+      "required_frames": 88,
+      "video": "video_0022"
+    },
+    {
+      "bytes": 38087766,
+      "compressed_bytes": 38094934,
+      "crc32": 989862861,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0026.mp4",
+      "required_frames": 209,
+      "video": "video_0026"
+    },
+    {
+      "bytes": 35729186,
+      "compressed_bytes": 35735695,
+      "crc32": 2205209595,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0030.mp4",
+      "required_frames": 162,
+      "video": "video_0030"
+    },
+    {
+      "bytes": 37751093,
+      "compressed_bytes": 37758225,
+      "crc32": 3764005048,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0035.mp4",
+      "required_frames": 287,
+      "video": "video_0035"
+    },
+    {
+      "bytes": 32101972,
+      "compressed_bytes": 32107426,
+      "crc32": 1649585056,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0039.mp4",
+      "required_frames": 103,
+      "video": "video_0039"
+    },
+    {
+      "bytes": 23805063,
+      "compressed_bytes": 23807973,
+      "crc32": 1326745691,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0043.mp4",
+      "required_frames": 275,
+      "video": "video_0043"
+    },
+    {
+      "bytes": 43267510,
+      "compressed_bytes": 43276295,
+      "crc32": 53700637,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0047.mp4",
+      "required_frames": 135,
+      "video": "video_0047"
+    },
+    {
+      "bytes": 42031939,
+      "compressed_bytes": 42040331,
+      "crc32": 2903038392,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0051.mp4",
+      "required_frames": 218,
+      "video": "video_0051"
+    },
+    {
+      "bytes": 36784300,
+      "compressed_bytes": 36791135,
+      "crc32": 761579885,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0056.mp4",
+      "required_frames": 120,
+      "video": "video_0056"
+    },
+    {
+      "bytes": 25972609,
+      "compressed_bytes": 25976148,
+      "crc32": 3632841756,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0060.mp4",
+      "required_frames": 174,
+      "video": "video_0060"
+    },
+    {
+      "bytes": 50119545,
+      "compressed_bytes": 50130504,
+      "crc32": 1655532057,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0065.mp4",
+      "required_frames": 185,
+      "video": "video_0065"
+    },
+    {
+      "bytes": 50604931,
+      "compressed_bytes": 50616033,
+      "crc32": 1421463355,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0069.mp4",
+      "required_frames": 88,
+      "video": "video_0069"
+    },
+    {
+      "bytes": 48073250,
+      "compressed_bytes": 48083497,
+      "crc32": 842082735,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0073.mp4",
+      "required_frames": 101,
+      "video": "video_0073"
+    },
+    {
+      "bytes": 29858248,
+      "compressed_bytes": 29862917,
+      "crc32": 1037664687,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0077.mp4",
+      "required_frames": 190,
+      "video": "video_0077"
+    },
+    {
+      "bytes": 32659046,
+      "compressed_bytes": 32664650,
+      "crc32": 4153426076,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0081.mp4",
+      "required_frames": 450,
+      "video": "video_0081"
+    },
+    {
+      "bytes": 32669767,
+      "compressed_bytes": 32675365,
+      "crc32": 3733499336,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0085.mp4",
+      "required_frames": 150,
+      "video": "video_0085"
+    },
+    {
+      "bytes": 37837761,
+      "compressed_bytes": 37844984,
+      "crc32": 2374862757,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0089.mp4",
+      "required_frames": 450,
+      "video": "video_0089"
+    },
+    {
+      "bytes": 29921711,
+      "compressed_bytes": 29926409,
+      "crc32": 2662896143,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0094.mp4",
+      "required_frames": 231,
+      "video": "video_0094"
+    },
+    {
+      "bytes": 35526355,
+      "compressed_bytes": 35532845,
+      "crc32": 1093757999,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0098.mp4",
+      "required_frames": 122,
+      "video": "video_0098"
+    },
+    {
+      "bytes": 51906447,
+      "compressed_bytes": 51917939,
+      "crc32": 618394197,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0102.mp4",
+      "required_frames": 340,
+      "video": "video_0102"
+    },
+    {
+      "bytes": 44541278,
+      "compressed_bytes": 44550417,
+      "crc32": 471739291,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0107.mp4",
+      "required_frames": 231,
+      "video": "video_0107"
+    },
+    {
+      "bytes": 11354841,
+      "compressed_bytes": 11353269,
+      "crc32": 2855778770,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0112.mp4",
+      "required_frames": 250,
+      "video": "video_0112"
+    },
+    {
+      "bytes": 12540193,
+      "compressed_bytes": 12539119,
+      "crc32": 3419810759,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0116.mp4",
+      "required_frames": 113,
+      "video": "video_0116"
+    },
+    {
+      "bytes": 10909021,
+      "compressed_bytes": 10907246,
+      "crc32": 3519800792,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0120.mp4",
+      "required_frames": 260,
+      "video": "video_0120"
+    },
+    {
+      "bytes": 10616042,
+      "compressed_bytes": 10614137,
+      "crc32": 4159099951,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0124.mp4",
+      "required_frames": 216,
+      "video": "video_0124"
+    },
+    {
+      "bytes": 14969918,
+      "compressed_bytes": 14969661,
+      "crc32": 1323385704,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0128.mp4",
+      "required_frames": 376,
+      "video": "video_0128"
+    },
+    {
+      "bytes": 11834944,
+      "compressed_bytes": 11833646,
+      "crc32": 301559352,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0132.mp4",
+      "required_frames": 217,
+      "video": "video_0132"
+    },
+    {
+      "bytes": 13811755,
+      "compressed_bytes": 13810868,
+      "crc32": 2838262342,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0136.mp4",
+      "required_frames": 450,
+      "video": "video_0136"
+    },
+    {
+      "bytes": 14337637,
+      "compressed_bytes": 14336974,
+      "crc32": 3701138982,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0140.mp4",
+      "required_frames": 192,
+      "video": "video_0140"
+    },
+    {
+      "bytes": 11277300,
+      "compressed_bytes": 11275814,
+      "crc32": 1732905089,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/cache/videos/video_0144.mp4",
+      "required_frames": 393,
+      "video": "video_0144"
+    }
+  ],
+  "shard_count": 4,
+  "shard_index": 1,
+  "status": "complete",
+  "test_accessed": false,
+  "total_expected_videos": 140,
+  "transferred_bytes": 1052456544,
+  "videos": 35
+}

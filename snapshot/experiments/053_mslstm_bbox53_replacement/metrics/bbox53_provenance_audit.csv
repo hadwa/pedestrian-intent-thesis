@@ -1,0 +1,5 @@
+scope,rows,features,max_standardized_abs_error,mean_standardized_abs_error,archived_original_values_used,recomputed_augmented_rows
+trainval_original_roundtrip,5985,53,0.0002237558364868164,2.233847453680937e-06,True,
+augmented_seed42,3374,53,0.0,0.0,True,1008.0
+augmented_seed43,3374,53,0.0,0.0,True,1008.0
+augmented_seed44,3374,53,0.0,0.0,True,1008.0

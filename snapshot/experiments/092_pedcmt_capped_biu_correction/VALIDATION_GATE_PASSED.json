@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "accuracy_within_0p005": true,
+    "f1_within_0p005": true,
+    "no_high_confidence_error_increase": true,
+    "pr_auc_gain_at_least_0p005": true
+  },
+  "mean_metrics": {
+    "A_parent": {
+      "accuracy": 0.7725060827250608,
+      "f1": 0.825006546216287,
+      "high_conf_fn": 0.0,
+      "high_conf_fp": 0.0,
+      "pr_auc": 0.8119581472907788,
+      "roc_auc": 0.7845871040723983
+    },
+    "N10": {
+      "accuracy": 0.7712895377128953,
+      "f1": 0.823649627443364,
+      "high_conf_fn": 0.0,
+      "high_conf_fp": 0.0,
+      "pr_auc": 0.8765022955236416,
+      "roc_auc": 0.8217571644042231
+    }
+  },
+  "passed": true,
+  "scale": 0.1
+}

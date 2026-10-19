@@ -1,0 +1,12 @@
+{
+  "model_split_seed_checks": 114,
+  "reused_shap": 18,
+  "new_exact_shap": 96,
+  "source_files": 212,
+  "sources_unchanged": true,
+  "no_fits": true,
+  "no_threshold_changes": true,
+  "xgboost": "3.2.0",
+  "max_probability_error": 2.980194091506405e-08,
+  "max_additivity_error": 8.604853064753115e-06
+}

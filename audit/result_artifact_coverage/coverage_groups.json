@@ -1,0 +1,561 @@
+[
+  {
+    "id": "01",
+    "title": "Classifier/version controls and initial confusion figure",
+    "primary": [
+      "experiments/012_pie_biu_v2_30_60_benchmark/metrics/pie_biu_v2_benchmark_results_mean_std.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/metrics/pie_biu_v2_benchmark_results.csv"
+    ],
+    "code": [
+      "scripts/experiments/pie_biu_v2_30_60_benchmark.py"
+    ],
+    "contracts": [
+      "experiments/012_pie_biu_v2_30_60_benchmark/README.md",
+      "experiments/012_pie_biu_v2_30_60_benchmark/metrics/pie_biu_v2_feature_set_definitions.csv"
+    ],
+    "note": "Exp012 predictions available; runner has no model serialization. No weights found in this experiment. Wider original-model availability needs verification.",
+    "weights": [],
+    "predictions": [
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/bbox_only__logreg__seed42.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/bbox_only__logreg__seed43.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/bbox_only__logreg__seed44.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/bbox_only__rf__seed42.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/bbox_only__rf__seed43.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/bbox_only__rf__seed44.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/bbox_only__xgb__seed42.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/bbox_only__xgb__seed43.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/bbox_only__xgb__seed44.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__logreg__seed42.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__logreg__seed43.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__logreg__seed44.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__rf__seed42.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__rf__seed43.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__rf__seed44.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__xgb__seed42.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__xgb__seed43.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v1_plus_bbox__xgb__seed44.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v2_core_plus_bbox__logreg__seed42.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v2_core_plus_bbox__logreg__seed43.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v2_core_plus_bbox__logreg__seed44.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v2_core_plus_bbox__rf__seed42.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v2_core_plus_bbox__rf__seed43.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v2_core_plus_bbox__rf__seed44.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v2_core_plus_bbox__xgb__seed42.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v2_core_plus_bbox__xgb__seed43.csv",
+      "experiments/012_pie_biu_v2_30_60_benchmark/predictions/biu_v2_core_plus_bbox__xgb__seed44.csv"
+    ]
+  },
+  {
+    "id": "02",
+    "title": "Earlier raw-pose and BIU fusion",
+    "primary": [
+      "experiments/aibthings_pie_val_fixed_0p5_selection/pie_val_fixed_0p5_all_models.csv"
+    ],
+    "code": [
+      "experiments/aibthings_pie_val_fixed_0p5_selection/run_val_fixed_0p5_selection.py"
+    ],
+    "contracts": [
+      "experiments/aibthings_pie_val_fixed_0p5_selection/README.md"
+    ],
+    "note": "Individual runs, not three-seed averages. Source probabilities reside in archive. Original checkpoint identity for each row needs verification; a later reproduced RF is not automatically the original model.",
+    "weights": [],
+    "predictions": [
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_logistic_regression.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_random_forest.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_xgboost.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_lightgbm.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_logistic_regression.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_random_forest.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_xgboost.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_lightgbm.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_logistic_regression.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_random_forest.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_xgboost.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_lightgbm.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_logistic_regression.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_random_forest.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_xgboost.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_lightgbm.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_logistic_regression.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_random_forest.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_xgboost.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_lightgbm.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_logistic_regression.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_random_forest.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_xgboost.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_lightgbm.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_logistic_regression.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_random_forest.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_xgboost.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_val_predictions_lightgbm.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_logistic_regression.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_random_forest.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_xgboost.csv",
+      "/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/student_biu_kp_bbox_supervised_wacv_pcpa_30_60_overlap06_test_predictions_lightgbm.csv"
+    ]
+  },
+  {
+    "id": "03",
+    "title": "PIE XGBoost versions and architecture",
+    "primary": [
+      "experiments/096_pie_exp072_matched_biu_ablation/metrics/test_summary_results.csv",
+      "experiments/116_xgboost_v2_core_completion/metrics/summary_results.csv"
+    ],
+    "code": [
+      "experiments/096_pie_exp072_matched_biu_ablation/scripts/run_experiment.py",
+      "experiments/116_xgboost_v2_core_completion/scripts/run.py"
+    ],
+    "contracts": [
+      "experiments/096_pie_exp072_matched_biu_ablation/DESIGN.md",
+      "experiments/096_pie_exp072_matched_biu_ablation/scripts/feature_contract.py",
+      "experiments/116_xgboost_v2_core_completion/DESIGN.md"
+    ],
+    "note": "Use Exp096 base/v1/v2 and Exp116 pie_road only; union is not required for these displayed rows.",
+    "weights": [
+      "experiments/096_pie_exp072_matched_biu_ablation/models/base_seed42.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/base_seed43.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/base_seed44.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v1_seed42.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v1_seed43.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v1_seed44.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v2_seed42.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v2_seed43.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v2_seed44.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/pie_road_seed42.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/pie_road_seed43.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/pie_road_seed44.joblib"
+    ],
+    "predictions": []
+  },
+  {
+    "id": "04",
+    "title": "Capped PedCMT and confusion figure",
+    "primary": [
+      "experiments/119_pedcmt_v2_capped_completion/metrics/summary_results.csv"
+    ],
+    "code": [
+      "experiments/119_pedcmt_v2_capped_completion/scripts/run.py",
+      "experiments/093_pedcmt_pie_capped_biu_correction/scripts/run_experiment.py"
+    ],
+    "contracts": [
+      "experiments/119_pedcmt_v2_capped_completion/DESIGN.md",
+      "experiments/119_pedcmt_v2_capped_completion/metrics/all_sources.json"
+    ],
+    "note": "Need frozen parent plus correction branch, statistics, and inference cap .10. JAAD raw uses Exp094 P; do not replace it with an uncapped diagnostic.",
+    "weights": [
+      "experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/core56_seed42.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/core56_seed43.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/core56_seed44.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/full63_seed42.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/full63_seed43.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/full63_seed44.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/core56_seed42.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/core56_seed43.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/core56_seed44.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/full63_seed42.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/full63_seed43.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/full63_seed44.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/raw_seed42.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/raw_seed43.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/raw_seed44.best.pt",
+      "experiments/084_pedcmt_biu_transfer/checkpoints/A_seed42.best.pt",
+      "experiments/084_pedcmt_biu_transfer/checkpoints/A_seed43.best.pt",
+      "experiments/084_pedcmt_biu_transfer/checkpoints/A_seed44.best.pt",
+      "experiments/089_pedcmt_standardized_jaad_biu_transfer/checkpoints/A_seed42.best.pt",
+      "experiments/089_pedcmt_standardized_jaad_biu_transfer/checkpoints/A_seed43.best.pt",
+      "experiments/089_pedcmt_standardized_jaad_biu_transfer/checkpoints/A_seed44.best.pt",
+      "experiments/094_pedcmt_jaad_capped_raw_pose_control/checkpoints/P_seed42.best.pt",
+      "experiments/094_pedcmt_jaad_capped_raw_pose_control/checkpoints/P_seed43.best.pt",
+      "experiments/094_pedcmt_jaad_capped_raw_pose_control/checkpoints/P_seed44.best.pt"
+    ],
+    "predictions": []
+  },
+  {
+    "id": "05",
+    "title": "PIE MSLSTM and confusion figure",
+    "primary": [
+      "experiments/117_neural_v2_core_completion/metrics/summary_results.csv"
+    ],
+    "code": [
+      "experiments/117_neural_v2_core_completion/scripts/run.py",
+      "experiments/053_mslstm_bbox53_replacement/scripts/run_experiment.py",
+      "experiments/095_mslstm_bbox53_final_controls/scripts/run_experiment.py"
+    ],
+    "contracts": [
+      "experiments/053_mslstm_bbox53_replacement/DESIGN.md",
+      "experiments/117_neural_v2_core_completion/DESIGN.md"
+    ],
+    "note": "G/H/I from Exp053; J raw and K GT Action/Look from Exp095; core56 from Exp117. GT row is an annotation reference; L neural union excluded.",
+    "weights": [
+      "experiments/053_mslstm_bbox53_replacement/checkpoints/G_seed42.best.pt",
+      "experiments/053_mslstm_bbox53_replacement/checkpoints/G_seed43.best.pt",
+      "experiments/053_mslstm_bbox53_replacement/checkpoints/G_seed44.best.pt",
+      "experiments/053_mslstm_bbox53_replacement/checkpoints/H_seed42.best.pt",
+      "experiments/053_mslstm_bbox53_replacement/checkpoints/H_seed43.best.pt",
+      "experiments/053_mslstm_bbox53_replacement/checkpoints/H_seed44.best.pt",
+      "experiments/053_mslstm_bbox53_replacement/checkpoints/I_seed42.best.pt",
+      "experiments/053_mslstm_bbox53_replacement/checkpoints/I_seed43.best.pt",
+      "experiments/053_mslstm_bbox53_replacement/checkpoints/I_seed44.best.pt",
+      "experiments/095_mslstm_bbox53_final_controls/checkpoints/J_seed42.best.pt",
+      "experiments/095_mslstm_bbox53_final_controls/checkpoints/J_seed43.best.pt",
+      "experiments/095_mslstm_bbox53_final_controls/checkpoints/J_seed44.best.pt",
+      "experiments/095_mslstm_bbox53_final_controls/checkpoints/K_seed42.best.pt",
+      "experiments/095_mslstm_bbox53_final_controls/checkpoints/K_seed43.best.pt",
+      "experiments/095_mslstm_bbox53_final_controls/checkpoints/K_seed44.best.pt",
+      "experiments/117_neural_v2_core_completion/mslstm_pie/checkpoints/I_seed42.best.pt",
+      "experiments/117_neural_v2_core_completion/mslstm_pie/checkpoints/I_seed43.best.pt",
+      "experiments/117_neural_v2_core_completion/mslstm_pie/checkpoints/I_seed44.best.pt"
+    ],
+    "predictions": []
+  },
+  {
+    "id": "06",
+    "title": "Clean-JAAD MSLSTM",
+    "primary": [
+      "experiments/122_jaad_mslstm_no_noise/test_evaluation/metrics/summary_results.csv",
+      "experiments/120_jaad_mslstm_v2_completion/FINAL_REPORT.md"
+    ],
+    "code": [
+      "experiments/122_jaad_mslstm_no_noise/test_evaluation/evaluate.py",
+      "experiments/122_jaad_mslstm_no_noise/scripts/run.py"
+    ],
+    "contracts": [
+      "experiments/122_jaad_mslstm_no_noise/DESIGN.md",
+      "experiments/122_jaad_mslstm_no_noise/metrics/bbox53_scaler.json",
+      "experiments/122_jaad_mslstm_no_noise/metrics/feature_contract.json"
+    ],
+    "note": "A/B/C/D use AP-selected weights. Exp120/121 are development history, not alternate main test evidence.",
+    "weights": [
+      "experiments/122_jaad_mslstm_no_noise/checkpoints/A_seed42_ap.pt",
+      "experiments/122_jaad_mslstm_no_noise/checkpoints/A_seed43_ap.pt",
+      "experiments/122_jaad_mslstm_no_noise/checkpoints/A_seed44_ap.pt",
+      "experiments/122_jaad_mslstm_no_noise/checkpoints/B_seed42_ap.pt",
+      "experiments/122_jaad_mslstm_no_noise/checkpoints/B_seed43_ap.pt",
+      "experiments/122_jaad_mslstm_no_noise/checkpoints/B_seed44_ap.pt",
+      "experiments/122_jaad_mslstm_no_noise/checkpoints/C_seed42_ap.pt",
+      "experiments/122_jaad_mslstm_no_noise/checkpoints/C_seed43_ap.pt",
+      "experiments/122_jaad_mslstm_no_noise/checkpoints/C_seed44_ap.pt",
+      "experiments/122_jaad_mslstm_no_noise/checkpoints/D_seed42_ap.pt",
+      "experiments/122_jaad_mslstm_no_noise/checkpoints/D_seed43_ap.pt",
+      "experiments/122_jaad_mslstm_no_noise/checkpoints/D_seed44_ap.pt"
+    ],
+    "predictions": []
+  },
+  {
+    "id": "07",
+    "title": "JAAD native XGBoost",
+    "primary": [
+      "experiments/098_jaad_matched_biu_xgb/metrics/summary_results.csv",
+      "experiments/100_jaad_exp099_biu_pathways/metrics/summary_results.csv",
+      "experiments/102_jaad_api_matched_biu/metrics/summary_results.csv",
+      "experiments/116_xgboost_v2_core_completion/metrics/summary_results.csv"
+    ],
+    "code": [
+      "experiments/098_jaad_matched_biu_xgb/scripts/run_experiment.py",
+      "experiments/100_jaad_exp099_biu_pathways/scripts/run_experiment.py",
+      "experiments/102_jaad_api_matched_biu/scripts/run_experiment.py",
+      "experiments/116_xgboost_v2_core_completion/scripts/run.py"
+    ],
+    "contracts": [
+      "experiments/102_jaad_api_matched_biu/metrics/reuse_audit.json",
+      "experiments/102_jaad_api_matched_biu/REUSE_AUDIT.md"
+    ],
+    "note": "JAAD_all/A intentionally reuses Exp031 saved probabilities; original checkpoint unavailable per reuse audit. Keep clean/API-beh/API-all cohorts separate.",
+    "weights": [
+      "experiments/098_jaad_matched_biu_xgb/models/A_seed42.joblib",
+      "experiments/098_jaad_matched_biu_xgb/models/A_seed43.joblib",
+      "experiments/098_jaad_matched_biu_xgb/models/A_seed44.joblib",
+      "experiments/100_jaad_exp099_biu_pathways/models/v2_seed42.joblib",
+      "experiments/100_jaad_exp099_biu_pathways/models/v2_seed43.joblib",
+      "experiments/100_jaad_exp099_biu_pathways/models/v2_seed44.joblib",
+      "experiments/102_jaad_api_matched_biu/models/jaad_beh_A_42.joblib",
+      "experiments/102_jaad_api_matched_biu/models/jaad_beh_A_43.joblib",
+      "experiments/102_jaad_api_matched_biu/models/jaad_beh_A_44.joblib",
+      "experiments/102_jaad_api_matched_biu/models/jaad_beh_C_42.joblib",
+      "experiments/102_jaad_api_matched_biu/models/jaad_beh_C_43.joblib",
+      "experiments/102_jaad_api_matched_biu/models/jaad_beh_C_44.joblib",
+      "experiments/102_jaad_api_matched_biu/models/jaad_all_C_42.joblib",
+      "experiments/102_jaad_api_matched_biu/models/jaad_all_C_43.joblib",
+      "experiments/102_jaad_api_matched_biu/models/jaad_all_C_44.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_clean_simple_seed42.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_clean_simple_seed43.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_clean_simple_seed44.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_clean_road_seed42.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_clean_road_seed43.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_clean_road_seed44.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_clean_road_vehicle_seed42.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_clean_road_vehicle_seed43.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_clean_road_vehicle_seed44.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_beh_road_seed42.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_beh_road_seed43.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_beh_road_seed44.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_beh_road_vehicle_seed42.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_beh_road_vehicle_seed43.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_beh_road_vehicle_seed44.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_all_road_seed42.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_all_road_seed43.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_all_road_seed44.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_all_road_vehicle_seed42.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_all_road_vehicle_seed43.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_all_road_vehicle_seed44.joblib"
+    ],
+    "predictions": []
+  },
+  {
+    "id": "08",
+    "title": "PSI XGBoost and confusion figure",
+    "primary": [
+      "experiments/124_psi_matched_lightweight_ablation/metrics/summary_results.csv"
+    ],
+    "code": [
+      "experiments/124_psi_matched_lightweight_ablation/run.py",
+      "experiments/116_xgboost_v2_core_completion/scripts/run.py"
+    ],
+    "contracts": [
+      "experiments/124_psi_matched_lightweight_ablation/DESIGN.md",
+      "experiments/124_psi_matched_lightweight_ablation/metrics/feature_contract.json"
+    ],
+    "note": "A/B Exp124; C/D Exp116. Frozen-feature evaluation verified; raw-video pipeline and public inputs not ready.",
+    "weights": [
+      "experiments/124_psi_matched_lightweight_ablation/models/A_seed42.joblib",
+      "experiments/124_psi_matched_lightweight_ablation/models/A_seed43.joblib",
+      "experiments/124_psi_matched_lightweight_ablation/models/A_seed44.joblib",
+      "experiments/124_psi_matched_lightweight_ablation/models/B_seed42.joblib",
+      "experiments/124_psi_matched_lightweight_ablation/models/B_seed43.joblib",
+      "experiments/124_psi_matched_lightweight_ablation/models/B_seed44.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/psi_ego_seed42.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/psi_ego_seed43.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/psi_ego_seed44.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/psi_road_ego_seed42.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/psi_road_ego_seed43.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/psi_road_ego_seed44.joblib"
+    ],
+    "predictions": []
+  },
+  {
+    "id": "09",
+    "title": "Our rows in published-literature comparisons",
+    "primary": [
+      "experiments/096_pie_exp072_matched_biu_ablation/metrics/test_summary_results.csv",
+      "experiments/116_xgboost_v2_core_completion/metrics/summary_results.csv",
+      "experiments/102_jaad_api_matched_biu/metrics/summary_results.csv",
+      "experiments/124_psi_matched_lightweight_ablation/metrics/summary_results.csv"
+    ],
+    "code": [],
+    "contracts": [
+      "thesis/manuscript/bibliography.bib"
+    ],
+    "note": "Our rows reuse groups 03/07/08. Published third-party rows are citation-based, not local reruns; external papers were not verified in this audit.",
+    "weights": [
+      "experiments/096_pie_exp072_matched_biu_ablation/models/base_seed42.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/base_seed43.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/base_seed44.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v1_seed42.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v1_seed43.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v1_seed44.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v2_seed42.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v2_seed43.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v2_seed44.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/pie_road_seed42.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/pie_road_seed43.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/pie_road_seed44.joblib",
+      "experiments/098_jaad_matched_biu_xgb/models/A_seed42.joblib",
+      "experiments/098_jaad_matched_biu_xgb/models/A_seed43.joblib",
+      "experiments/098_jaad_matched_biu_xgb/models/A_seed44.joblib",
+      "experiments/100_jaad_exp099_biu_pathways/models/v2_seed42.joblib",
+      "experiments/100_jaad_exp099_biu_pathways/models/v2_seed43.joblib",
+      "experiments/100_jaad_exp099_biu_pathways/models/v2_seed44.joblib",
+      "experiments/102_jaad_api_matched_biu/models/jaad_beh_A_42.joblib",
+      "experiments/102_jaad_api_matched_biu/models/jaad_beh_A_43.joblib",
+      "experiments/102_jaad_api_matched_biu/models/jaad_beh_A_44.joblib",
+      "experiments/102_jaad_api_matched_biu/models/jaad_beh_C_42.joblib",
+      "experiments/102_jaad_api_matched_biu/models/jaad_beh_C_43.joblib",
+      "experiments/102_jaad_api_matched_biu/models/jaad_beh_C_44.joblib",
+      "experiments/102_jaad_api_matched_biu/models/jaad_all_C_42.joblib",
+      "experiments/102_jaad_api_matched_biu/models/jaad_all_C_43.joblib",
+      "experiments/102_jaad_api_matched_biu/models/jaad_all_C_44.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_clean_simple_seed42.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_clean_simple_seed43.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_clean_simple_seed44.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_clean_road_seed42.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_clean_road_seed43.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_clean_road_seed44.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_clean_road_vehicle_seed42.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_clean_road_vehicle_seed43.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_clean_road_vehicle_seed44.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_beh_road_seed42.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_beh_road_seed43.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_beh_road_seed44.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_beh_road_vehicle_seed42.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_beh_road_vehicle_seed43.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_beh_road_vehicle_seed44.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_all_road_seed42.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_all_road_seed43.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_all_road_seed44.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_all_road_vehicle_seed42.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_all_road_vehicle_seed43.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/jaad_all_road_vehicle_seed44.joblib",
+      "experiments/124_psi_matched_lightweight_ablation/models/A_seed42.joblib",
+      "experiments/124_psi_matched_lightweight_ablation/models/A_seed43.joblib",
+      "experiments/124_psi_matched_lightweight_ablation/models/A_seed44.joblib",
+      "experiments/124_psi_matched_lightweight_ablation/models/B_seed42.joblib",
+      "experiments/124_psi_matched_lightweight_ablation/models/B_seed43.joblib",
+      "experiments/124_psi_matched_lightweight_ablation/models/B_seed44.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/psi_ego_seed42.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/psi_ego_seed43.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/psi_ego_seed44.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/psi_road_ego_seed42.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/psi_road_ego_seed43.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/psi_road_ego_seed44.joblib"
+    ],
+    "predictions": []
+  },
+  {
+    "id": "10",
+    "title": "BIU-v2 attribution and cue table",
+    "primary": [
+      "experiments/matched_biu_cue_rankings_2026_09_12/summary.csv",
+      "experiments/psi_v2_attribution_2026_10_19/summary.csv",
+      "experiments/psi_v2_attribution_2026_10_19/block_summary.csv"
+    ],
+    "code": [
+      "experiments/matched_biu_cue_rankings_2026_09_12/analyze.py",
+      "experiments/psi_v2_attribution_2026_10_19/analyze.py",
+      "thesis/manuscript/Figures/build_ch4_attribution.py"
+    ],
+    "contracts": [
+      "experiments/matched_biu_cue_rankings_2026_09_12/verification.json",
+      "experiments/psi_v2_attribution_2026_10_19/verification.json"
+    ],
+    "note": "Select PIE_096 and clean_vehicle_100 core56 test ALL rows; PSI 56-feature v2 block. Older v1/union attribution files are not automatically main exhibits.",
+    "weights": [],
+    "predictions": []
+  },
+  {
+    "id": "11",
+    "title": "Runtime table and figure",
+    "primary": [
+      "experiments/v2_xgboost_runtime_2026_09_13/headline.csv",
+      "experiments/v2_xgboost_runtime_2026_09_13/stage_summary.csv"
+    ],
+    "code": [
+      "experiments/v2_xgboost_runtime_2026_09_13/run.py",
+      "experiments/v2_xgboost_runtime_2026_09_13/summarize.py"
+    ],
+    "contracts": [
+      "experiments/v2_xgboost_runtime_2026_09_13/environment.json",
+      "experiments/v2_xgboost_runtime_2026_09_13/sources.json"
+    ],
+    "note": "Historical timing evidence; no new timing performed. Feature-to-prediction excludes upstream perception; road begins with ready geometry.",
+    "weights": [
+      "experiments/096_pie_exp072_matched_biu_ablation/models/base_seed42.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/base_seed43.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/base_seed44.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v1_seed42.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v1_seed43.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v1_seed44.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v2_seed42.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v2_seed43.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v2_seed44.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/pie_road_seed42.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/pie_road_seed43.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/pie_road_seed44.joblib"
+    ],
+    "predictions": []
+  },
+  {
+    "id": "12",
+    "title": "Predictor complexity and latency",
+    "primary": [
+      "docs/retained_predictor_complexity_2026_09_16/evidence/counts.csv",
+      "docs/retained_predictor_complexity_2026_09_16/evidence/serialized_sizes.csv",
+      "docs/retained_predictor_complexity_2026_09_16/evidence/latency_summary.csv",
+      "experiments/119_pedcmt_v2_capped_completion/metrics/parameter_counts.csv",
+      "experiments/119_pedcmt_v2_capped_completion/metrics/efficiency.csv"
+    ],
+    "code": [],
+    "contracts": [
+      "docs/retained_predictor_complexity_2026_09_16/evidence/AUDIT.md",
+      "experiments/119_pedcmt_v2_capped_completion/metrics/latency_scope.json"
+    ],
+    "note": "Inference-only serialized PedCMT sizes are explicitly unmeasured, not missing reported values. PedCMT latency uses validation; earlier audit uses test windows.",
+    "weights": [
+      "experiments/096_pie_exp072_matched_biu_ablation/models/base_seed42.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/base_seed43.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/base_seed44.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v1_seed42.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v1_seed43.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v1_seed44.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v2_seed42.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v2_seed43.joblib",
+      "experiments/096_pie_exp072_matched_biu_ablation/models/v2_seed44.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/pie_road_seed42.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/pie_road_seed43.joblib",
+      "experiments/116_xgboost_v2_core_completion/models/pie_road_seed44.joblib",
+      "experiments/053_mslstm_bbox53_replacement/checkpoints/G_seed42.best.pt",
+      "experiments/053_mslstm_bbox53_replacement/checkpoints/G_seed43.best.pt",
+      "experiments/053_mslstm_bbox53_replacement/checkpoints/G_seed44.best.pt",
+      "experiments/053_mslstm_bbox53_replacement/checkpoints/H_seed42.best.pt",
+      "experiments/053_mslstm_bbox53_replacement/checkpoints/H_seed43.best.pt",
+      "experiments/053_mslstm_bbox53_replacement/checkpoints/H_seed44.best.pt",
+      "experiments/053_mslstm_bbox53_replacement/checkpoints/I_seed42.best.pt",
+      "experiments/053_mslstm_bbox53_replacement/checkpoints/I_seed43.best.pt",
+      "experiments/053_mslstm_bbox53_replacement/checkpoints/I_seed44.best.pt",
+      "experiments/095_mslstm_bbox53_final_controls/checkpoints/J_seed42.best.pt",
+      "experiments/095_mslstm_bbox53_final_controls/checkpoints/J_seed43.best.pt",
+      "experiments/095_mslstm_bbox53_final_controls/checkpoints/J_seed44.best.pt",
+      "experiments/095_mslstm_bbox53_final_controls/checkpoints/K_seed42.best.pt",
+      "experiments/095_mslstm_bbox53_final_controls/checkpoints/K_seed43.best.pt",
+      "experiments/095_mslstm_bbox53_final_controls/checkpoints/K_seed44.best.pt",
+      "experiments/117_neural_v2_core_completion/mslstm_pie/checkpoints/I_seed42.best.pt",
+      "experiments/117_neural_v2_core_completion/mslstm_pie/checkpoints/I_seed43.best.pt",
+      "experiments/117_neural_v2_core_completion/mslstm_pie/checkpoints/I_seed44.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/core56_seed42.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/core56_seed43.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/core56_seed44.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/full63_seed42.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/full63_seed43.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/jaad/checkpoints/full63_seed44.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/core56_seed42.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/core56_seed43.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/core56_seed44.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/full63_seed42.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/full63_seed43.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/full63_seed44.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/raw_seed42.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/raw_seed43.best.pt",
+      "experiments/119_pedcmt_v2_capped_completion/pie/checkpoints/raw_seed44.best.pt",
+      "experiments/084_pedcmt_biu_transfer/checkpoints/A_seed42.best.pt",
+      "experiments/084_pedcmt_biu_transfer/checkpoints/A_seed43.best.pt",
+      "experiments/084_pedcmt_biu_transfer/checkpoints/A_seed44.best.pt",
+      "experiments/089_pedcmt_standardized_jaad_biu_transfer/checkpoints/A_seed42.best.pt",
+      "experiments/089_pedcmt_standardized_jaad_biu_transfer/checkpoints/A_seed43.best.pt",
+      "experiments/089_pedcmt_standardized_jaad_biu_transfer/checkpoints/A_seed44.best.pt",
+      "experiments/094_pedcmt_jaad_capped_raw_pose_control/checkpoints/P_seed42.best.pt",
+      "experiments/094_pedcmt_jaad_capped_raw_pose_control/checkpoints/P_seed43.best.pt",
+      "experiments/094_pedcmt_jaad_capped_raw_pose_control/checkpoints/P_seed44.best.pt"
+    ],
+    "predictions": []
+  },
+  {
+    "id": "13",
+    "title": "Ordered-history trial",
+    "primary": [
+      "experiments/118_pie_ordered_history_xgb/metrics/summary_results.csv",
+      "experiments/118_pie_ordered_history_xgb/metrics/decision.json"
+    ],
+    "code": [
+      "experiments/118_pie_ordered_history_xgb/run.py"
+    ],
+    "contracts": [
+      "experiments/118_pie_ordered_history_xgb/DESIGN.md"
+    ],
+    "note": "Exploratory/negative trial retained in thesis; not the main proposed benchmark.",
+    "weights": [
+      "experiments/118_pie_ordered_history_xgb/models/ordered_seed42.joblib",
+      "experiments/118_pie_ordered_history_xgb/models/ordered_seed43.joblib",
+      "experiments/118_pie_ordered_history_xgb/models/ordered_seed44.joblib"
+    ],
+    "predictions": []
+  }
+]

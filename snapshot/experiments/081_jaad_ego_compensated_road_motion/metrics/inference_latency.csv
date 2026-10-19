@@ -1,0 +1,7 @@
+component,warmups,repetitions,scope,mean_ms,std_ms,median_ms,p95_ms,min_ms,max_ms
+twinlite_masks,3,30,16 predecoded JAAD frames; CUDA TwinLiteNet+ Large,157.5426571333333,4.617223900643589,156.4000545,168.03712149999998,151.684229,172.252839
+sparse_motion,3,30,15 transitions; all-pedestrian masks; CPU OpenCV,410.26579910000015,13.700984267460369,411.8232075,429.1537686,388.557446,441.110989
+raw_road,10,100,cached TwinLite masks to uncompensated 60-D summary,84.55415275000001,5.045371408429934,83.08738,91.26811349999998,78.970591,112.432129
+compensated_road,10,100,cached masks and motion to compensated 60-D summary,83.1900665,2.4017619057703885,82.683589,88.08634975,79.461716,90.143549
+cached_xgboost,20,500,cached 242-D Variant D row; one predictor,1.8119428560000002,0.20411056078907644,1.738155,2.2065326499999998,1.543288,2.771734
+incremental_pipeline,3,30,TwinLite + motion + compensated road + XGBoost; frame decode and ViTPose/anchor extraction excluded,666.7446881666668,9.977802644626802,664.668703,686.4578315,648.339331,697.710426

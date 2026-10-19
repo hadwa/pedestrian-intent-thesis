@@ -1,0 +1,11 @@
+{
+  "batch_size": 1,
+  "checkpoint_size_bytes": 7959943,
+  "device": "cuda:0",
+  "elapsed_seconds": 904.9704867030086,
+  "model_parameters": 1943911,
+  "peak_gpu_memory_bytes": 67522048,
+  "precision": "float16",
+  "throughput_unique_frames_per_second": 34.400016859573576,
+  "unique_frames": 31131
+}

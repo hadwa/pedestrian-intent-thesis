@@ -1,0 +1,808 @@
+{
+  "dimensions": {
+    "combined": 197,
+    "v1": 149,
+    "v2": 145
+  },
+  "new_fits": 6,
+  "reused_models": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "source_records": [
+    {
+      "bytes": 346605,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/099_jaad_exp077_vehicle_action/models/B_seed42.joblib",
+      "sha256": "5d1fc17ab0beb7b47e93efa49b0013307839b92ed30dc50a0c3ab709c0324f34"
+    },
+    {
+      "bytes": 52999,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/099_jaad_exp077_vehicle_action/predictions/validation_B_seed42.csv",
+      "sha256": "196eaa3ea004c1b56b3b07af7e3f5bfa836ae44a49b962571a12d56393c2b6f2"
+    },
+    {
+      "bytes": 246,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/099_jaad_exp077_vehicle_action/B_SEED42_COMPLETE.json",
+      "sha256": "167653259d8554ccbc1d08af8369a0987610c985b4b30d0221b9bcbd9c99955a"
+    },
+    {
+      "bytes": 346129,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/099_jaad_exp077_vehicle_action/models/B_seed43.joblib",
+      "sha256": "9eea42923fcc7936f0f7fb4a4ff4ad0c902095193911c7e3690b6da3cf3dfb12"
+    },
+    {
+      "bytes": 52993,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/099_jaad_exp077_vehicle_action/predictions/validation_B_seed43.csv",
+      "sha256": "9d3ddaf2eaee1333d5e5de9335e9b5b3ef19f3d7b7f5b21b857c26d1310d73b7"
+    },
+    {
+      "bytes": 246,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/099_jaad_exp077_vehicle_action/B_SEED43_COMPLETE.json",
+      "sha256": "b160418061816bd977883549be6741c92ca863394831d1a6c27ec321b61c4e7c"
+    },
+    {
+      "bytes": 346946,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/099_jaad_exp077_vehicle_action/models/B_seed44.joblib",
+      "sha256": "14544d92c3a1c061dbd5b166fd63535dffa7d4866c07d21f7c627656dffe93dc"
+    },
+    {
+      "bytes": 52986,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/099_jaad_exp077_vehicle_action/predictions/validation_B_seed44.csv",
+      "sha256": "51b22fb619ccc7d5a76ce4e127688f974260c5b67382ec5fc2007affb4045e3a"
+    },
+    {
+      "bytes": 246,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/099_jaad_exp077_vehicle_action/B_SEED44_COMPLETE.json",
+      "sha256": "ca48e6873c1e88ae48f14a4007ca32d7841dc7220d7433d0e2bbf4e335310348"
+    },
+    {
+      "bytes": 15961,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/100_jaad_exp099_biu_pathways/metrics/feature_contract.json",
+      "sha256": "0f34c75bc1a359650ceec66083092883eded12ed76e1264760c7297d16705aa0"
+    },
+    {
+      "bytes": 2040,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/100_jaad_exp099_biu_pathways/metrics/baseline_reuse_audit.json",
+      "sha256": "a5f5a5a78c70e604a4ff16bd66f14fef5042063b80fb6098a5c3fe6f88acb1a7"
+    },
+    {
+      "bytes": 23113,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/100_jaad_exp099_biu_pathways/MATERIALIZE_TRAIN_COMPLETE.json",
+      "sha256": "6c8d32bcebdeb35e2474d406e29957ff8849baec72f2975dd8f0bb60920d1bac"
+    },
+    {
+      "bytes": 6096998,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/100_jaad_exp099_biu_pathways/cache/train/features.npz",
+      "sha256": "d54d3332dd00513434f37136e40b0a0a2cb6e75ccbee24a7c138de67533f83e1"
+    },
+    {
+      "bytes": 8556986,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/100_jaad_exp099_biu_pathways/cache/train/rows.csv",
+      "sha256": "c519c41d86343114eec59658bdfb0e6f3572835faf0a8b3ffcab7ae4dd22e2c5"
+    },
+    {
+      "bytes": 48766,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/100_jaad_exp099_biu_pathways/metrics/train_source_audit.json",
+      "sha256": "36317c287798f0a157d35f4073c9c426f145c090404f78ba4e123a866b90eaa5"
+    },
+    {
+      "bytes": 8951202,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/077_jaad_two_stage_early_late_xgb_transfer/metrics/prepared_jaad_train.csv",
+      "sha256": "28b4678d58f5a7bed50d616fd67feeddb2c18f131b65ed953f1d1fa678395662"
+    },
+    {
+      "bytes": 1185,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/077_jaad_two_stage_early_late_xgb_transfer/metrics/.prepare.complete.json",
+      "sha256": "df8b234b6981bb564a221545a861d99b1c41562ad8bdb6bb06c663c11df667b8"
+    },
+    {
+      "bytes": 1841695,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/trainval_source/rows.csv",
+      "sha256": "53e1ca8f79b569b7aec5eab959d3db7ce6b0d2b10c84caa19bb060c40ac389f7"
+    },
+    {
+      "bytes": 116992,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/trainval_source/ego_speed.npy",
+      "sha256": "a3c422c5476d76a58f29f02b39c4f37f27dc83bc106dfe6bf54edb748ca96319"
+    },
+    {
+      "bytes": 1947,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/split_ids/default/train.txt",
+      "sha256": "52a1ca1f21efe580569339752feb272e52bfc5f853136b1f8e9fe790166b2e92"
+    },
+    {
+      "bytes": 21807,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0001_vehicle.xml",
+      "sha256": "4f0efe1c1b722ba2e8e61d8a218acbcde3ee361c1804e3bf31f9a9252c489ab3"
+    },
+    {
+      "bytes": 7105,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0004_vehicle.xml",
+      "sha256": "3226f2b0bdad839cbe252bc2f668003eb9af14f1127cd05277d89415c5dd23ba"
+    },
+    {
+      "bytes": 5902,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0008_vehicle.xml",
+      "sha256": "2bf159df8d4782ecde588fe9b831119f27b94392aae0a1d0d94ed015ffee7f92"
+    },
+    {
+      "bytes": 4690,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0009_vehicle.xml",
+      "sha256": "fdfa371b943d3b54a1fccd806612144d38d788dc79f947fb2f03f7c8f4ee9dd8"
+    },
+    {
+      "bytes": 3494,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0010_vehicle.xml",
+      "sha256": "f908f1d6d58da500291b2f36d51ecd48c3597c359ea6f6315a88c6ad867aa77f"
+    },
+    {
+      "bytes": 20064,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0020_vehicle.xml",
+      "sha256": "5d3a5ecf80ed8aed2b21753a8dfba9422f93e45119e42fccf3022398dea2423e"
+    },
+    {
+      "bytes": 8290,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0025_vehicle.xml",
+      "sha256": "0c56ae0860c5272947ed52ff5de4182ffac41ba2088cb7fa9d03b12d5c66cc87"
+    },
+    {
+      "bytes": 5895,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0027_vehicle.xml",
+      "sha256": "0094234ae5d88a6a3ff59077641e0d15dbc47387befb0f326555db61e89b7983"
+    },
+    {
+      "bytes": 11520,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0031_vehicle.xml",
+      "sha256": "88bfa371ce22731940236b5138b08e76a2cab2b68b5e34324f6086a18aa9b9f3"
+    },
+    {
+      "bytes": 10695,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0049_vehicle.xml",
+      "sha256": "beca20f57a5111169dd756b8da92718876669e66e56ae829a6282cce579ecbbb"
+    },
+    {
+      "bytes": 9502,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0057_vehicle.xml",
+      "sha256": "fbcfacc0287d8e0553903667e50d1d1ded31eb0f2031555fb0517091edf0c6d4"
+    },
+    {
+      "bytes": 7865,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0060_vehicle.xml",
+      "sha256": "39deb236b6956272d1f10aaba0f85ff7b05f321bb335c6f80fb33b918dfd2dc6"
+    },
+    {
+      "bytes": 11910,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0078_vehicle.xml",
+      "sha256": "33dbccef53cd82f8b685117eda2d95fa3ff7a5e63a9853c4f2f6900b0cd2a72e"
+    },
+    {
+      "bytes": 9510,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0079_vehicle.xml",
+      "sha256": "8990f21795583614a55b01d805bf06e6718baff66615a56e08552cdae674032c"
+    },
+    {
+      "bytes": 10340,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0080_vehicle.xml",
+      "sha256": "69e13c4469e179c0a72eecdd9d550765862608ed80208afb6294076d08d40f6e"
+    },
+    {
+      "bytes": 10680,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0085_vehicle.xml",
+      "sha256": "f4b20f9d1527165a9272da0838100f4704bd57d6911582b46bc3315ebb0afc24"
+    },
+    {
+      "bytes": 8424,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0088_vehicle.xml",
+      "sha256": "6eb4863624d340e5fce7323377ecb5646411ad78862c07bef101a9328b40151c"
+    },
+    {
+      "bytes": 11910,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0094_vehicle.xml",
+      "sha256": "4c62dec1340b0769728503d4c3181879df365557fe2651bd71984b456f7f4a9c"
+    },
+    {
+      "bytes": 9510,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0095_vehicle.xml",
+      "sha256": "7095f6a7aa6f2adf0664afc6598f2fc4009365ecac4e2e1d771f4306c88b0249"
+    },
+    {
+      "bytes": 8850,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0098_vehicle.xml",
+      "sha256": "33205ec061e484be54cd813413969b7a960e8af8961d55dca84471ac8119a603"
+    },
+    {
+      "bytes": 11910,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0108_vehicle.xml",
+      "sha256": "43b63aed1fcfa8b8ec1954dd7d3c8cabdcfaebfc13b595c807afdd6171a96afd"
+    },
+    {
+      "bytes": 14310,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0109_vehicle.xml",
+      "sha256": "3da65c51dd8b774a0711cad541604cc31077037aa67c27a06037027963df4574"
+    },
+    {
+      "bytes": 9507,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0112_vehicle.xml",
+      "sha256": "a051c70987e550814ce09e4e693585a0d4c2ba5415e9e00bc85381e4ee0b5b46"
+    },
+    {
+      "bytes": 11122,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0114_vehicle.xml",
+      "sha256": "c4c3e7ae692ee2d99c992418046c2286f606d9b4bdc1fc32faa9c28ebc62b994"
+    },
+    {
+      "bytes": 9505,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0120_vehicle.xml",
+      "sha256": "da9d0df6359df8c729f19b4fca8091f0a6d54fd6b5f92a5b6ce46309e207abd3"
+    },
+    {
+      "bytes": 11905,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0126_vehicle.xml",
+      "sha256": "8ef39ffde7f6286ce7712c392980950de67057d14de43afe642904b86fbd54d3"
+    },
+    {
+      "bytes": 9429,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0131_vehicle.xml",
+      "sha256": "fdb17ece321cb9c36fb9a92a5ee59220536091a489713e29e12246dcfb3ed0a6"
+    },
+    {
+      "bytes": 11905,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0132_vehicle.xml",
+      "sha256": "00fb7e2aa99aa76cb2d98ec9736c0e93a4b81989b769b60a8ecfe86c2041c587"
+    },
+    {
+      "bytes": 8304,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0133_vehicle.xml",
+      "sha256": "e21ea82f3ece6e5e1eedd05be518280f88891addafd0364f4af132438c094d8c"
+    },
+    {
+      "bytes": 23595,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0134_vehicle.xml",
+      "sha256": "cb87458c3ed0f9fb5f7947f37c1dfcf4a84b08b754ef4b357d8d9398223c365c"
+    },
+    {
+      "bytes": 11900,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0140_vehicle.xml",
+      "sha256": "330473ca28e85557e871ca49af0c6113710f3ec81f18789238e317ebe70de910"
+    },
+    {
+      "bytes": 11905,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0145_vehicle.xml",
+      "sha256": "e4d66fb481f35c30a57cc98040b7ab010b459502c54a044003bdd16768e50fb2"
+    },
+    {
+      "bytes": 14300,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0147_vehicle.xml",
+      "sha256": "a7dc8c5f88f339297b7fc0e52d46f89b511e2904b6934aad9f7303beaa33c169"
+    },
+    {
+      "bytes": 10984,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0149_vehicle.xml",
+      "sha256": "028d4590e070596fc23fb14a25926f4c6324454ecac3b858fe33c4ffadf75cfe"
+    },
+    {
+      "bytes": 13100,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0154_vehicle.xml",
+      "sha256": "1659ee72542cc74abba239cd81375044cc71aba76079de2a3133e13f9ffbba4a"
+    },
+    {
+      "bytes": 8305,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0166_vehicle.xml",
+      "sha256": "e3b53571091783222663d46978916d2297a309335e4f81897a5d71e1753aa59e"
+    },
+    {
+      "bytes": 5905,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0171_vehicle.xml",
+      "sha256": "5467b9dfd8dc89f671d528fdf6f115143e88c845149e3b7986ad1d21ab311ed9"
+    },
+    {
+      "bytes": 11225,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0176_vehicle.xml",
+      "sha256": "b058e6765db77da612cdbea873fbaae758d708a3bf4aac581329702dd9e1c306"
+    },
+    {
+      "bytes": 7095,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0180_vehicle.xml",
+      "sha256": "55cb5f6753ec24d9657c534ae73df2b3a2fe9ba3db1e96138a674516df098ab5"
+    },
+    {
+      "bytes": 11905,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0184_vehicle.xml",
+      "sha256": "862aaa14d7925dfb42318969c92132942cd4e085cb08c8f12fedc74f165c52d6"
+    },
+    {
+      "bytes": 8312,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0186_vehicle.xml",
+      "sha256": "4f043ac8649df50eca463f7fef6e30c5ee202c6440132360873494c9aea726d3"
+    },
+    {
+      "bytes": 8305,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0188_vehicle.xml",
+      "sha256": "52887faff8b00c976a2c1ec0432036518caf3b954fdba2025b1824a7f2f3da3c"
+    },
+    {
+      "bytes": 4699,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0189_vehicle.xml",
+      "sha256": "98e408109593748fc736066aaf3d78b82bb4f28dba14e3aeab7052083181a7b2"
+    },
+    {
+      "bytes": 13704,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0190_vehicle.xml",
+      "sha256": "5647d6e3d8c3f36d59355e9e099f732cf6b9f10764a731598974222fe8258c88"
+    },
+    {
+      "bytes": 4704,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0192_vehicle.xml",
+      "sha256": "812f47f822e115c5c31cb8214d96a3a66ca94c41b038797f5a280364ee767343"
+    },
+    {
+      "bytes": 21375,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0194_vehicle.xml",
+      "sha256": "6bb99ee18d05695afc1680a316300d41b330f60f46502c1fd3cdc31c961a2c86"
+    },
+    {
+      "bytes": 3519,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0195_vehicle.xml",
+      "sha256": "c43f3981d64ca917762675404243df1ccb20eff8445c8370c5abeced9b34589b"
+    },
+    {
+      "bytes": 7105,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0196_vehicle.xml",
+      "sha256": "f1874a89f5fc23190eea9b37c5f795c4343d0a09425e844105b861373b362e07"
+    },
+    {
+      "bytes": 5905,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0200_vehicle.xml",
+      "sha256": "ad1b8110f5f9b4c1b9324a110d6e18e56f13a6ced2f377ccb2ae53a0b82d518a"
+    },
+    {
+      "bytes": 5907,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0204_vehicle.xml",
+      "sha256": "d713fb99f58d61aac86e16fe7960c10fb159dd12dd941c24b825c5afc81fa457"
+    },
+    {
+      "bytes": 9505,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0208_vehicle.xml",
+      "sha256": "0ecb26a316c0028c7c231a12f75c159da4fd8e7a79d16dd029d5709a58bce343"
+    },
+    {
+      "bytes": 5900,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0209_vehicle.xml",
+      "sha256": "3b380089f6350836098413961cb7403ae4e9797f4d07f2b9690517ca15680957"
+    },
+    {
+      "bytes": 7074,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0210_vehicle.xml",
+      "sha256": "ca6c56082703e96edc25e87952b64457b6a85d7b5d479065c6793b6a1823af67"
+    },
+    {
+      "bytes": 11904,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0215_vehicle.xml",
+      "sha256": "cf158357c949f853736d4a1a524ad747456f77cae71ecd823f6a55d1b01215d4"
+    },
+    {
+      "bytes": 9500,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0219_vehicle.xml",
+      "sha256": "881180ef431e22e418f2dc6cc7812f8bbc17c46e81b154883eefcd3ea2220996"
+    },
+    {
+      "bytes": 8305,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0225_vehicle.xml",
+      "sha256": "5ebba15d6b6e214cd2d263222a4cfbdc3547fafeae0b602b1242738ceb064282"
+    },
+    {
+      "bytes": 7112,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0228_vehicle.xml",
+      "sha256": "44f4e3164e511af7da52f4a9d33cac22d1d3449c699066b800cf9baccd22f0b2"
+    },
+    {
+      "bytes": 10165,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0231_vehicle.xml",
+      "sha256": "f57d38c40d3d73d22b3429550588659885381dc656e9ae84ed5a16e5562e2a8f"
+    },
+    {
+      "bytes": 13105,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0232_vehicle.xml",
+      "sha256": "492a7a3332228fcda52398e4f57acbbd6fdc1e6443cd1a2198b2e3646575fe76"
+    },
+    {
+      "bytes": 9395,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0235_vehicle.xml",
+      "sha256": "20a23bcb4c9b27e3a201d4a67bfa00525fb809569df34f1bae4b0ac42c9fc61d"
+    },
+    {
+      "bytes": 8305,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0236_vehicle.xml",
+      "sha256": "f5d448f4c033a0d1fcbdf6a51885195ef6552751f6d805cc7698e711630268d5"
+    },
+    {
+      "bytes": 7105,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0237_vehicle.xml",
+      "sha256": "0446fa4c17fba397e4cb6ce8fd3dc994853b71925681d23d2464a23543544b98"
+    },
+    {
+      "bytes": 6975,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0242_vehicle.xml",
+      "sha256": "7d65fad5f61a72c91d272bce73f2e865e11d19c95a3216828a97a6c2b9e252bd"
+    },
+    {
+      "bytes": 4705,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0249_vehicle.xml",
+      "sha256": "413ef41e26ea78f8536234dbc210b2472bc23065108f4fe696fc74f49dfb4de6"
+    },
+    {
+      "bytes": 5899,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0254_vehicle.xml",
+      "sha256": "ccda0f4540a86311303b735fe9d44eea0a044d4ba5727fdbf275e7fb74acc08d"
+    },
+    {
+      "bytes": 7965,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0257_vehicle.xml",
+      "sha256": "fcf43625a0a7a70795ee49f5d0e1dd35557775d40ccce20948acf99cdb62f84b"
+    },
+    {
+      "bytes": 7102,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0258_vehicle.xml",
+      "sha256": "5d7ca96c4ca51abbbbc9787a3e283c465a7f580210a2ee1ff62787b389700c79"
+    },
+    {
+      "bytes": 8305,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0260_vehicle.xml",
+      "sha256": "4b437a717f8b69e64321bb70d8f556d96a674bcaf63aa01ae3cd01ff5c4ce26b"
+    },
+    {
+      "bytes": 8300,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0262_vehicle.xml",
+      "sha256": "83ebe7a41d479a913f5189e4b7f348e01f4dff853ba0101278e2c24fabff0bfd"
+    },
+    {
+      "bytes": 5905,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0264_vehicle.xml",
+      "sha256": "3de4e090daf3ad7edb1eab70f717ffb2aa4559c0e09e4d67d73b654040ef108d"
+    },
+    {
+      "bytes": 14305,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0266_vehicle.xml",
+      "sha256": "e539bd55b9ac5775705c86d07bae11e819ab564384cdc41d4fa9300fe922744d"
+    },
+    {
+      "bytes": 9133,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0268_vehicle.xml",
+      "sha256": "f1ef206cb7b418afbe396478e67ce8836b9efaabaef553b513028474df0c590d"
+    },
+    {
+      "bytes": 14115,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0269_vehicle.xml",
+      "sha256": "48bd4c564638e866480977bbd88f9d4a63d30028a9be4ff2b5a2aaf1c5581f46"
+    },
+    {
+      "bytes": 9502,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0272_vehicle.xml",
+      "sha256": "f543c4d15cfd343a63c2aeb2fd506a454f0a8093b619e64792d5d84213813e0d"
+    },
+    {
+      "bytes": 5905,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0275_vehicle.xml",
+      "sha256": "d9f4e9d7ba0d1ff0087adbdb04be9ea4227534b5fd550b00e1cdfa29fb9c8b32"
+    },
+    {
+      "bytes": 9490,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0276_vehicle.xml",
+      "sha256": "2e7ce603c45384c1529f3f39bdac72a5d16209aac92232899371b7c28f5fd419"
+    },
+    {
+      "bytes": 9495,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0281_vehicle.xml",
+      "sha256": "498f6b721c5ca1390afa593437b72e0fe079ab2254f86aebcf00ea274b6530df"
+    },
+    {
+      "bytes": 3515,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0284_vehicle.xml",
+      "sha256": "478df740a1e745078fbd62f17762a454b0e4dd988360769fc1d0f1110422bcf2"
+    },
+    {
+      "bytes": 10385,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0286_vehicle.xml",
+      "sha256": "a6378a758c5912ebaf1488387aac48af244e04fccd98ead1df8273ff85662fd0"
+    },
+    {
+      "bytes": 4705,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0289_vehicle.xml",
+      "sha256": "43458c40673ccac9b226cb70329ae1f38083679adc28e10c44f233309824a5c9"
+    },
+    {
+      "bytes": 4602,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0290_vehicle.xml",
+      "sha256": "3bf53c8cd8bbff5a3a370f33d61c39674444ef2ba7be38965cc204dfdda6b26f"
+    },
+    {
+      "bytes": 10694,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0293_vehicle.xml",
+      "sha256": "5a3f1bb5b3c380118f593ab6f8a53715081a365f0b055854aceffb5bfab765dd"
+    },
+    {
+      "bytes": 13569,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0297_vehicle.xml",
+      "sha256": "3c4aa77cf1b2dad5f4f4b33d0b457b7a6c9e387a4c4a5c0afc1568347009c9fc"
+    },
+    {
+      "bytes": 9885,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0298_vehicle.xml",
+      "sha256": "e0b0958431c98b1d97ab1d0f4141e76c02eeeac51ed2ae4bcbb619374c0a7ea1"
+    },
+    {
+      "bytes": 7957,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0301_vehicle.xml",
+      "sha256": "241dc58f14381bddd670e7ab90fa9748a9f854acfe3fba22886cf5cbc4ace148"
+    },
+    {
+      "bytes": 7105,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0302_vehicle.xml",
+      "sha256": "af709ef3cfe69f0baeaed8f413cdff7d310e971a1d2865dbd91a98bbcc9d025b"
+    },
+    {
+      "bytes": 5907,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0310_vehicle.xml",
+      "sha256": "d713fb99f58d61aac86e16fe7960c10fb159dd12dd941c24b825c5afc81fa457"
+    },
+    {
+      "bytes": 8304,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0315_vehicle.xml",
+      "sha256": "7769d249cf2b2faf0dd5af9880b4da295c97a37c15f5a8d64b8e7b184f802459"
+    },
+    {
+      "bytes": 10702,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0317_vehicle.xml",
+      "sha256": "a537c557de8ff536a4d596970805afccd98905f101828c11a5631f34a0181ee6"
+    },
+    {
+      "bytes": 9505,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0318_vehicle.xml",
+      "sha256": "3cfa05e1191e8b4b0e26ea514c934838b7740ddc7d6c8144ef34ea4df7ebb3aa"
+    },
+    {
+      "bytes": 7094,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0320_vehicle.xml",
+      "sha256": "3bbcc64fb33fb23dc1763d4efca700d869ef460a11ae60f2a8e424d5c1407933"
+    },
+    {
+      "bytes": 9189,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0324_vehicle.xml",
+      "sha256": "93764d8f1a850df26bfa5c34766153f9d73879eee689e341b89c4906a135c6b5"
+    },
+    {
+      "bytes": 5905,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0325_vehicle.xml",
+      "sha256": "d9f4e9d7ba0d1ff0087adbdb04be9ea4227534b5fd550b00e1cdfa29fb9c8b32"
+    },
+    {
+      "bytes": 7105,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0326_vehicle.xml",
+      "sha256": "23294d98068c89831e28734d157f11313f5a0eeb3527cbb604a6ccd3ba8da48f"
+    },
+    {
+      "bytes": 10710,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0331_vehicle.xml",
+      "sha256": "78910a9c43a0c7b4ff1ac5c322e4a57ef7d15177858feba124f776b61a8c3ded"
+    },
+    {
+      "bytes": 8305,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0335_vehicle.xml",
+      "sha256": "f5c5922f5b3a93b91adc4ce7b8e97fb7fd1081ecf19f35fda9e7892b6fa5971b"
+    },
+    {
+      "bytes": 5898,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0342_vehicle.xml",
+      "sha256": "94e372f5d4b9bde68ccc1554dfa9b7af87661affbdf1e3645f076b1a5e0ffb17"
+    },
+    {
+      "bytes": 5905,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0345_vehicle.xml",
+      "sha256": "53cddaf06e2850f3a59dca0df0a217f0d1f6198427f5bd86368d07c4968efa0b"
+    },
+    {
+      "bytes": 1485359,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/jaad_splits_event_16_30_60_overlap08_default/train.csv",
+      "sha256": "ea3ff9a4982b11a65e5579f751a4d353dc62a830fc797ff916f087b64efac866"
+    },
+    {
+      "bytes": 29071938,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/data/jaad_keypoints_vitpose_s_extended_short_horizon.jsonl",
+      "sha256": "4cf675a62f158dcedf79b8037ab39b4fdc94cefe1dd8783eb6e4523d792b2b64"
+    },
+    {
+      "bytes": 98116,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/030_final_confidence_benchmark/jaad30_repair/jaad30_missing_supplemental_keypoints.jsonl",
+      "sha256": "660eb16b1d758f971ff34b8e41f2453ba1c43c5d1410753e77c23481a660c57e"
+    },
+    {
+      "bytes": 2774,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/077_jaad_two_stage_early_late_xgb_transfer/metrics/source_provenance.json",
+      "sha256": "e375b6b188634e87951781c7c215ba4d0c8ee54c6a057dd70c9754cdb28e248b"
+    },
+    {
+      "bytes": 6084,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/100_jaad_exp099_biu_pathways/MATERIALIZE_VALIDATION_COMPLETE.json",
+      "sha256": "d98ea1f5ca7adaf94a115a486bf11d719d96367921ecef21d2691f20424cf47a"
+    },
+    {
+      "bytes": 1077014,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/100_jaad_exp099_biu_pathways/cache/validation/features.npz",
+      "sha256": "d7e7414c9d4bf882a60d6a7e6492c967560fb20060ebb19c23128e6fe60aa604"
+    },
+    {
+      "bytes": 1518768,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/100_jaad_exp099_biu_pathways/cache/validation/rows.csv",
+      "sha256": "736ff0cbd907727ce398002619b7aee6084d8e08bb2b676728c91b3c251b1076"
+    },
+    {
+      "bytes": 12176,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/100_jaad_exp099_biu_pathways/metrics/validation_source_audit.json",
+      "sha256": "e9d2879cf0196a79fbb7d415eb7f48c931eb4ae1a353f95f8b891604a1b85a60"
+    },
+    {
+      "bytes": 1587874,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/077_jaad_two_stage_early_late_xgb_transfer/metrics/prepared_jaad_validation.csv",
+      "sha256": "40bcc77324dbbdcbe3633adec5158e8b27502c59bab7df03f793da302b223285"
+    },
+    {
+      "bytes": 319,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/split_ids/default/val.txt",
+      "sha256": "f8ebc99d32308e56fc9b12a1cfed719e8bf8c9538810fb976401063c94eab35c"
+    },
+    {
+      "bytes": 13102,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0006_vehicle.xml",
+      "sha256": "8096baa37454621f5169cb3d1bfeb74b14b6517933044a7cd1a8da825e3ee8b9"
+    },
+    {
+      "bytes": 7109,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0021_vehicle.xml",
+      "sha256": "8ac3d07ba671a0732b5f7a15f01ba0de7f17641a09cfc3fb670eecf02f651e39"
+    },
+    {
+      "bytes": 8200,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0044_vehicle.xml",
+      "sha256": "b28a7c18aef6a744eac0249615ad59c25b215994f16636e3ddee45092bdd9566"
+    },
+    {
+      "bytes": 8315,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0072_vehicle.xml",
+      "sha256": "d7b4f95afc49d25c2328798a82327376fc1caa9779f4ce604c5051a90c3ec75f"
+    },
+    {
+      "bytes": 14054,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0089_vehicle.xml",
+      "sha256": "c5b14710396b187ab57f59c07980603b5df5e7bf291754bc657458f2b50fb2d4"
+    },
+    {
+      "bytes": 6799,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0172_vehicle.xml",
+      "sha256": "8106b53d096be3d047dd59b6767c421646c07480ccdc69acd6826581ebcb0e7d"
+    },
+    {
+      "bytes": 3515,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0181_vehicle.xml",
+      "sha256": "a8a377d8e1a7e26c1a892c4377c3244bcda299ee420209d49b191917847c1a6b"
+    },
+    {
+      "bytes": 37105,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0199_vehicle.xml",
+      "sha256": "aabbfc21cddc6c0ab05762ca0da71f43828dd63489de2c7006d29a66fb9c6b7a"
+    },
+    {
+      "bytes": 12580,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0226_vehicle.xml",
+      "sha256": "0125b0c9fc9bfb4f0b934bd830dc1570be180f754329bc29e5b049668e0ee3a5"
+    },
+    {
+      "bytes": 5896,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0252_vehicle.xml",
+      "sha256": "6533dcab9e5ade402d5af1f4bd08df10d598c317ffc4eded6a00d96071f6901c"
+    },
+    {
+      "bytes": 10225,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0274_vehicle.xml",
+      "sha256": "6827f2ee932d9ff8a416672e717c339f1a9dca4e03248a0ddf20929662717688"
+    },
+    {
+      "bytes": 7910,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0291_vehicle.xml",
+      "sha256": "1f77822085c5dfd96c0edc8578a6fbbe5fde20d61f97b30b174a30e51b0e741d"
+    },
+    {
+      "bytes": 6774,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0303_vehicle.xml",
+      "sha256": "cc8904216b931222cde7283272092a85241ed342d3ab45b18bb5aed2de052636"
+    },
+    {
+      "bytes": 9312,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0306_vehicle.xml",
+      "sha256": "a88e10632751bada79798cd8d6b6166a26d727d4b834fdf86b101893916b0675"
+    },
+    {
+      "bytes": 5905,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/annotations_vehicle/video_0340_vehicle.xml",
+      "sha256": "3ddaee5b4664a635af98b5a94b8e618963c90874bb54d4102ffed501305276f9"
+    },
+    {
+      "bytes": 261626,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation/data/jaad_splits_event_16_30_60_overlap08_default/val.csv",
+      "sha256": "d2e645d62eb1a4fc176b08bdaa2742e4c4f854484535cfa1eda08b56bdd75ec3"
+    },
+    {
+      "bytes": 4315,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/100_jaad_exp099_biu_pathways/DESIGN.md",
+      "sha256": "4ac65f7d8e2514a78c70bf538a287f2ac5e5f669c034055b223151bc7555fcae"
+    },
+    {
+      "bytes": 22778,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/100_jaad_exp099_biu_pathways/scripts/run_experiment.py",
+      "sha256": "2367697ea6582fc1f883f2e10745223c6b23aa10c4fef9c64f78cda1779609d0"
+    },
+    {
+      "bytes": 2746,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/100_jaad_exp099_biu_pathways/scripts/test_exp100.py",
+      "sha256": "02d8c5b8b27186535faa2028c0e139c014296f973a46f354b6b42af1631f85ba"
+    },
+    {
+      "bytes": 20855,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/099_jaad_exp077_vehicle_action/scripts/run_experiment.py",
+      "sha256": "1efe01f0ee23251e1ba7fac575f8982458773575d78fd27bc465bffef854d9d0"
+    },
+    {
+      "bytes": 21724,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/098_jaad_matched_biu_xgb/scripts/run_experiment.py",
+      "sha256": "8d5311e20070143ccb37807d74e6cbed0264483fe56f3da202a2475280bba974"
+    },
+    {
+      "bytes": 11486,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/072_pie_joint_biu_temporal_ego_confirmation/scripts/model_core.py",
+      "sha256": "f68b3ac04e37e8d6581172738a3e94dab5f05785ad6a8632279369449b8f5e87"
+    },
+    {
+      "bytes": 16384,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/076_pie_two_stage_early_late_xgb/scripts/two_stage_core.py",
+      "sha256": "5647a8538e804f318f3b5b37536aabead975078a10c3fd17188b64801060ab2b"
+    },
+    {
+      "bytes": 10290,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/076_pie_two_stage_early_late_xgb/scripts/data_core.py",
+      "sha256": "a7daf5df78ec9a44ca0f9fed5729e3e04e55c68f9291e9fe03ef5bad0311c9fa"
+    },
+    {
+      "bytes": 11768,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/012_pie_biu_v2_30_60_benchmark/metrics/pie_biu_v2_feature_set_definitions.csv",
+      "sha256": "6708d290d9263ad29000786cf6d15c5ec052dc8712c1b5a16741944295d0145c"
+    },
+    {
+      "bytes": 43883,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/src/biu_v2_extractor.py",
+      "sha256": "8302b7835dabda565d27bb844d2d3cceaa8ca68cb88f05a862e854f6522a30b7"
+    },
+    {
+      "bytes": 17755,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/src/features/biu_features.py",
+      "sha256": "253d02be87ac4fc66173a32ce6ea6311714f33291792cd233570a4ae7ed39520"
+    },
+    {
+      "bytes": 4160,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/099_jaad_exp077_vehicle_action/DESIGN.md",
+      "sha256": "ea26637690b204b3e04bcb404ff662b7f7151d325e7f3909da119b9142f4a791"
+    },
+    {
+      "bytes": 30300,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/099_jaad_exp077_vehicle_action/metrics/freeze.json",
+      "sha256": "f77af5c3cadeebe9b9e908dbf89b197f36a07941110e1b3efdee3a8b7fd18bef"
+    }
+  ],
+  "test_accessed": false,
+  "versions": {
+    "numpy": "2.2.6",
+    "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+    "sklearn": "1.7.2",
+    "xgboost": "3.2.0"
+  }
+}

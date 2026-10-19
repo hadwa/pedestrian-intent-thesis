@@ -1,0 +1,62 @@
+{
+  "architecture": {
+    "dilations": [
+      1,
+      2
+    ],
+    "dropout": 0.1,
+    "hidden_channels": 32,
+    "kernel_size": 3,
+    "pooling": "mean_and_last",
+    "type": "residual_temporal_conv1d"
+  },
+  "authorized_sets": [
+    "set01",
+    "set02",
+    "set04",
+    "set05",
+    "set06"
+  ],
+  "channel_count": 26,
+  "channel_names": [
+    "torso_lean_angle",
+    "body_yaw_angle",
+    "head_yaw_angle",
+    "stride_length",
+    "lead_foot_elevation",
+    "arm_swing_asymmetry",
+    "hip_center_x",
+    "knee_center_x",
+    "ankle_center_x",
+    "leg_center_x",
+    "lead_ankle_forward",
+    "stride_opening",
+    "lower_body_motion_magnitude",
+    "torso_center_x",
+    "shoulder_center_x",
+    "torso_motion_magnitude",
+    "lower_body_conf",
+    "torso_conf",
+    "head_conf",
+    "bbox_center_x_relative",
+    "bbox_center_y_relative",
+    "bbox_log_area_relative",
+    "bbox_center_x_velocity",
+    "bbox_center_y_velocity",
+    "obd_speed",
+    "obd_speed_delta"
+  ],
+  "forbidden_set": "set03",
+  "optimizer": {
+    "batch_size": 128,
+    "epochs": 80,
+    "learning_rate": 0.001,
+    "type": "Adam",
+    "weight_decay": 0.0001
+  },
+  "shape": [
+    5985,
+    16,
+    26
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "cpu_logical_id": 2,
+  "threads": 1,
+  "batch": 1,
+  "warmups_per_block": 60,
+  "measurements_per_block": 200,
+  "blocks": 3,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "windows": 32,
+  "scope": "ready tensors to probabilities; excludes all perception/feature construction/normalization/input allocation",
+  "probability_replay_atol": 0.0001,
+  "decisions_match": true,
+  "torch_version": "2.11.0+cu128"
+}

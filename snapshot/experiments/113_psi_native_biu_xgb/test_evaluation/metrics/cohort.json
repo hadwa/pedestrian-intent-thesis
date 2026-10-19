@@ -1,0 +1,14 @@
+{
+  "all_zero_pose": 0,
+  "annotation_vote_ties": 3050,
+  "bbox_fallback_count": 333,
+  "bbox_fallback_percent": 1.6206745510293474,
+  "complete_pose": 20547,
+  "mean_valid_joint_fraction": 1.0,
+  "median_valid_joint_fraction": 1.0,
+  "positives": 15462,
+  "tracks": 96,
+  "validation_parity": true,
+  "videos": 49,
+  "windows": 20547
+}

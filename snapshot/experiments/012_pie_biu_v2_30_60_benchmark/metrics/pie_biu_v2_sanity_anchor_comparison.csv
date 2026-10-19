@@ -1,0 +1,3 @@
+feature_set,model_name,archive_feature_set,archive_model,archive_test_f1_seed42,this_run_test_f1_seed42,this_run_test_f1_mean_seeds,this_run_test_f1_std_seeds,abs_deviation_seed42,abs_deviation_mean,anchor_source
+bbox_only,rf,bbox,random_forest,0.857564,0.8615533043897733,0.8612983909332582,0.0003435060065900656,0.003989304389773296,0.003734390933258225,/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/lightweight_baseline_metrics.csv
+biu_v1_plus_bbox,rf,biu_bbox,random_forest,0.866359,0.8620689655172413,0.8664045507422705,0.004437714841078579,0.0042900344827586645,4.555074227052813e-05,/home/abdelrahman/Hadwa/BIU-PID-Distillation/results/wacv_pcpa_30_60_overlap06/lightweight_baseline_metrics.csv

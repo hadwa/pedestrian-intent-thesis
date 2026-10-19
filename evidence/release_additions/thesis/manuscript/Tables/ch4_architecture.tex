@@ -1,0 +1,12 @@
+\begin{table}[!htbp]
+\centering
+\caption{PIE XGBoost: baseline, behavioral package and road extension (mean $\pm$ SD).}\label{tab:ch4_architecture}
+\begin{tabularx}{\textwidth}{@{}Xrrr@{}}\toprule
+\textbf{Predictor/input} & \textbf{\boldmath $F_1$} & \textbf{PR-AUC} & \textbf{ROC-AUC} \\[3pt]
+\midrule
+BBox + temporal + ego (\mbox{64-D}) & $0.877\pm0.003$ & $0.919\pm0.002$ & $0.970\pm0.001$\\[3pt]
+Baseline + BIU-v2 package (\mbox{135-D}) & $0.877\pm0.002$ & $\mathbf{0.939}\pm0.001$ & $\mathbf{0.974}\pm0.000$\\[3pt]
+Baseline + BIU-v2 package + road context (\mbox{195-D}) & $\mathbf{0.883}\pm0.004$ & $0.930\pm0.002$ & $0.973\pm0.001$\\[3pt]
+\bottomrule
+\end{tabularx}
+\end{table}

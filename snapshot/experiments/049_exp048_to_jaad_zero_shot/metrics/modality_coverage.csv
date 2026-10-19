@@ -1,0 +1,11 @@
+stream,complete_windows,total_windows,coverage_fraction
+bbox,44646,44646,1.0
+ped_action,44646,44646,1.0
+ped_look,44646,44646,1.0
+ego_speed,44646,44646,1.0
+ego_acc,44646,44646,1.0
+static_context,44646,44646,1.0
+yolop,44646,44646,1.0
+raw_pose,44646,44646,1.0
+biu_v2,44646,44646,1.0
+biu_v1,44646,44646,1.0

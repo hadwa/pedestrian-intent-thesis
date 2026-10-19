@@ -1,0 +1,16 @@
+{
+  "anchor_name": "rf_v1_bbox",
+  "artifacts": {
+    "checkpoints/road_relative__rf_v1_bbox__seed44.pt": "4b4f65a7757a9d9fc5e3482cc0bdcb5744b760f5c80354d265311c291bacfa05",
+    "logs/train_road_relative__rf_v1_bbox__seed44.log": "07802e45ba5a4b784294b2d40740338108f591b33f6f35db7c519719b0a48f6a",
+    "metrics/context_scaler_road_relative.json": "dcc223aed02291e43b611c7c2c8315f5918cb74650cb66f8438772197e97ce2d",
+    "metrics/training_history_road_relative__rf_v1_bbox__seed44.csv": "3e39e74d357e508b5e7b2c1f753133d00dea9773c602758728ca2661657c368a"
+  },
+  "best_epoch": 1,
+  "best_validation_harmonic": 0.6948602698200133,
+  "phase": "trained",
+  "probability_binding_sha256": "7ad633c8c2ebec3cb9ba3fd4996d1cc3b1db7fa0124cadf345b31d05ad2b99df",
+  "representation": "road_relative",
+  "seed": 44,
+  "set03_accessed": false
+}

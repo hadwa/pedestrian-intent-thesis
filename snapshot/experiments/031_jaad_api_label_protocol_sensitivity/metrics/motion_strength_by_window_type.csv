@@ -1,0 +1,5 @@
+protocol,temporal_position,n_windows,abs_center_x_displacement_mean,abs_center_x_velocity_mean_mean,bbox_area_change_mean,bbox_scale_change_ratio_mean
+clean_event_aligned,genuinely_pre_crossing,1889,36.0574377977766,2.40382918651844,2735.995235574378,1.2880429559627504
+api_style_reconstruction,genuinely_pre_crossing,1430,35.85979020979021,2.3906526806526807,3023.886013986014,1.2669293195309248
+api_style_reconstruction,already_crossing,44,101.51136363636364,6.767424242424242,6640.954545454545,1.3025521336430386
+api_style_reconstruction,onset_unavailable,1639,93.89322757779134,6.259548505186089,3056.8804148871263,1.2924255288472173

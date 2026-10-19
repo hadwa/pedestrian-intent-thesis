@@ -1,0 +1,80 @@
+{
+  "cpu": "11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "xgboost": "3.2.0",
+  "sklearn": "1.7.2",
+  "logical_cpus": 16,
+  "affinity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/site-packages/numpy.libs/libscipy_openblas64_-56d6093b.so",
+      "version": "0.3.29",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/site-packages/scipy.libs/libscipy_openblas-68440149.so",
+      "version": "0.3.28",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libgomp",
+      "filepath": "/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/site-packages/scikit_learn.libs/libgomp-a34b3233.so.1.0.0",
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libgomp",
+      "filepath": "/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/site-packages/xgboost.libs/libgomp-e985bcbb.so.1.0.0",
+      "version": null
+    }
+  ],
+  "xgboost_threads": 1,
+  "loadavg_before": [
+    0.5615234375,
+    0.33154296875,
+    0.20947265625
+  ],
+  "started": "2026-09-13 01:51:15 +0300",
+  "input_dtype": "float64 DataFrame; XGBoost internal precision unchanged",
+  "loadavg_after": [
+    0.826171875,
+    0.4462890625,
+    0.2578125
+  ],
+  "ended": "2026-09-13 01:52:12 +0300"
+}

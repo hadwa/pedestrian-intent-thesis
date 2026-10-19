@@ -1,0 +1,55 @@
+{
+  "anchor_name": "xgb_v2_bbox",
+  "assignment_count_sha256": "6b2d2a450eab361062d1744f6b1fda7c7015739d37d6d33ddfd74ff67f0c6a8c",
+  "feature_metadata": {
+    "anchor_name": "xgb_v2_bbox",
+    "feature_dimension": 109,
+    "feature_set": "biu_v2_core_plus_bbox"
+  },
+  "fold_artifacts": {
+    "1": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/062_hybrid_tree_anchor_context_correction_skl152/models/oof/xgb_v2_bbox_seed44/xgb_v2_bbox__seed44__fold1.joblib",
+      "sha256": "e9e62e9e170b813341fcc11206a0c77190c1af90e1ed5747107f2695d353a1b3",
+      "shared_track_count": 0
+    },
+    "2": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/062_hybrid_tree_anchor_context_correction_skl152/models/oof/xgb_v2_bbox_seed44/xgb_v2_bbox__seed44__fold2.joblib",
+      "sha256": "d1808c67d98c836f74155d0723fdb37af83e2bb1f5a7285f73915b6438a8b21c",
+      "shared_track_count": 0
+    },
+    "3": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/062_hybrid_tree_anchor_context_correction_skl152/models/oof/xgb_v2_bbox_seed44/xgb_v2_bbox__seed44__fold3.joblib",
+      "sha256": "d10f774d72b6a646d0a8d4c1fcbb87341e2a60d20026de48919d7c416057ac08",
+      "shared_track_count": 0
+    },
+    "4": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/062_hybrid_tree_anchor_context_correction_skl152/models/oof/xgb_v2_bbox_seed44/xgb_v2_bbox__seed44__fold4.joblib",
+      "sha256": "595ffbe90901a2b1a5b0e54a87daf5b37fccaff039872331d905c6e47fde2440",
+      "shared_track_count": 0
+    },
+    "5": {
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/062_hybrid_tree_anchor_context_correction_skl152/models/oof/xgb_v2_bbox_seed44/xgb_v2_bbox__seed44__fold5.joblib",
+      "sha256": "e9c6283510b82664a096e7525958899b36d0330c073a2cb76f28c3ce415302a0",
+      "shared_track_count": 0
+    }
+  },
+  "fold_assignment_sha256": "cc5bf5c4a9b270e7daaaa51e2cb3c6f42b2bf17a5b1ae0aeb265baff83fe2669",
+  "fold_audit_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/062_hybrid_tree_anchor_context_correction_skl152/probability_bundles/xgb_v2_bbox_seed44/oof_fold_audit.csv",
+  "fold_audit_sha256": "9a51c69b71adba3c196a3920f9134ac8b342ae86acaed530dfa68973ce849378",
+  "full_anchor_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/062_hybrid_tree_anchor_context_correction_skl152/models/xgb_v2_bbox_seed44.joblib",
+  "full_anchor_sha256": "229412d3f27aba47761ecf13db4f5357a3cd587436dd90d57b0103f31b91ace7",
+  "oof_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/062_hybrid_tree_anchor_context_correction_skl152/probability_bundles/xgb_v2_bbox_seed44/grouped_oof.npz",
+  "oof_probability_sha256": "5a227da5e2613c454fb765a45eb4f921c4f039c297442eb28666cec799e13a22",
+  "oof_sha256": "0536c8125f632ee6d625506e2cf87ab967e8c2db04c81060c1d8f58e5d00341c",
+  "parity_verified": true,
+  "schema": "exp062-authenticated-probability-bundle-v1",
+  "seed": 44,
+  "train_label_sha256": "ddb20558668736771d37ce8384416f582713eba0c2ec2590e7c1f0f4c6613591",
+  "train_sequence_id_sha256": "971f448d5dd499ebe0a84b2a613f856272912555219a83c5db67bf3fbbd7a584",
+  "train_track_id_sha256": "11287a1679948368b344bf5034df4ce37d3f072461ebb560dcb82d6ab12adb6e",
+  "validation_label_sha256": "bffd97fb4a4074505340a7d4f11b8d1a0d21d1323a7d17467c91f87a5702eede",
+  "validation_path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/062_hybrid_tree_anchor_context_correction_skl152/probability_bundles/xgb_v2_bbox_seed44/validation_full_anchor.csv",
+  "validation_probability_sha256": "f02f85e60ed9951b3dece3faa570a51a927332da60a8911a332798832229218e",
+  "validation_sequence_id_sha256": "3a7cbb8d1d6c9bf53d7d1c0a327fd4ed24748d06b232d9626e41d636d9e9de2e",
+  "validation_sha256": "debe1ac0d94ed84af175ccc384e3076062653db9f2479fa30c556184c77adc81"
+}

@@ -1,0 +1,10 @@
+{
+  "test_accessed": false,
+  "gpu": "NVIDIA GeForce RTX 3070 Laptop GPU",
+  "parameters": {
+    "A": 4590087,
+    "B": 6830857,
+    "C": 4663432,
+    "D": 4664328
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "biu_correction_scale": 0.1,
+  "branch_checkpoint_sha256": {
+    "42": "e45ef5131a0ed27fc78a128e82a56bd72cd3a29198aad69b2dc2cab6d242aa42",
+    "43": "9f1c4659b38ffe4121d1a5c8283d0ceafc6e4ecff8a0bd6793fa1d3391824a89",
+    "44": "708bc00739f85ceb05f4a4d64cf80682d236e4237758c09273349d4af59946fc"
+  },
+  "source_branch": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/091_pedcmt_natural_sampling_calibration",
+  "source_parent": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer",
+  "test_cache_accessed": false,
+  "training_performed": false
+}

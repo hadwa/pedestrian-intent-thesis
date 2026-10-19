@@ -1,0 +1,243 @@
+Figures/ch4_cm_initial.pdf
+                                       BBox                                               BBox + BIU-v1                                            BBox + BIU-v2
+
+
+                  CROSS    TP: 913.0          FN: 92.0                      CROSS    TP: 903.3        FN: 101.7                      CROSS    TP: 904.3        FN: 100.7
+                            90.8%              9.2%                                   89.9%            10.1%                                   90.0%            10.0%
+Actual label
+
+
+
+
+                                                          Actual label
+
+
+
+
+                                                                                                                   Actual label
+               NOT CROSS   FP: 231.7       TN: 2,523.3                   NOT CROSS   FP: 196.7       TN: 2,558.3                  NOT CROSS   FP: 194.7       TN: 2,560.3
+                             8.4%            91.6%                                     7.1%            92.9%                                    7.1%            92.9%
+
+                            CROSS             NOT CROSS                               CROSS           NOT CROSS                                CROSS           NOT CROSS
+                                 Predicted label                                           Predicted label                                          Predicted label
+
+
+Figures/ch4_cm_psi.pdf
+                                        BBox53                                              BBox53 + BIU-v2
+
+
+               Crossing   TP: 11,027.0        FN: 4,435.0                  Crossing   TP: 11,262.3        FN: 4,199.7
+                            (71.3%)            (28.7%)                                  (72.8%)            (27.2%)
+Annotated
+
+
+
+
+                                                            Annotated
+            Noncrossing   FP: 3,093.3         TN: 1,991.7               Noncrossing   FP: 2,913.3         TN: 2,171.7
+                           (60.8%)             (39.2%)                                 (57.3%)             (42.7%)
+
+
+                           Crossing           Noncrossing                              Crossing           Noncrossing
+                                      Predicted                                                   Predicted
+                                + temporal + ego                                             + road context
+
+
+               Crossing   TP: 12,462.0        FN: 3,000.0                  Crossing   TP: 12,935.0        FN: 2,527.0
+                            (80.6%)            (19.4%)                                  (83.7%)            (16.3%)
+Annotated
+
+
+
+
+                                                            Annotated
+
+
+
+
+            Noncrossing   FP: 3,076.0         TN: 2,009.0               Noncrossing   FP: 2,971.3         TN: 2,113.7
+                           (60.5%)             (39.5%)                                 (58.4%)             (41.6%)
+
+
+                           Crossing           Noncrossing                              Crossing           Noncrossing
+                                      Predicted                                                   Predicted
+
+
+Figures/ch4_cm_mslstm.pdf
+                       BBox53 + ego + YOLOP                                                + raw pose                                             + BIU-v1 (72-D)
+
+
+            CROSS    TP: 787.0             FN: 218.0                CROSS       TP: 804.7              FN: 200.3                CROSS       TP: 815.7           FN: 189.3
+                      78.3%                 21.7%                                80.1%                  19.9%                                81.2%               18.8%
+Actual
+
+
+
+
+                                                        Actual
+
+
+
+
+                                                                                                                    Actual
+         NOT CROSS   FP: 151.3            TN: 2,603.7            NOT CROSS      FP: 146.3             TN: 2,608.7            NOT CROSS      FP: 163.7          TN: 2,591.3
+                       5.5%                 94.5%                                 5.3%                  94.7%                                 5.9%               94.1%
+
+
+                      CROSS                 NOT CROSS                            CROSS                  NOT CROSS                            CROSS               NOT CROSS
+                                   Predicted                                                   Predicted                                                Predicted
+                                                          + BIU-v2 (56-D)                                   + BIU-v2 + supporting cues (63-D)
+
+
+                                      CROSS       TP: 793.7              FN: 211.3                CROSS       TP: 825.7              FN: 179.3
+                                                   79.0%                  21.0%                                82.2%                  17.8%
+                          Actual
+
+
+
+
+                                                                                      Actual
+                                   NOT CROSS      FP: 155.7             TN: 2,599.3            NOT CROSS      FP: 161.7             TN: 2,593.3
+                                                    5.7%                  94.3%                                 5.9%                  94.1%
+
+
+                                                   CROSS                  NOT CROSS                            CROSS                  NOT CROSS
+                                                                 Predicted                                                   Predicted
+
+
+Figures/ch4_cm_pedcmt_capped.pdf
+                                       PIE                                                   Clean JAAD
+                                     Baseline                                                 Baseline
+
+               Crossing      TP: 798.7      FN: 206.3                    Crossing      TP: 575.3      FN: 144.7
+                              (79.5%)        (20.5%)                                    (79.9%)        (20.1%)
+Annotated
+
+
+
+
+                                                          Annotated
+            Noncrossing      FP: 212.0     TN: 2,543.0                Noncrossing      FP: 406.3      TN: 374.7
+                              (7.7%)        (92.3%)                                     (52.0%)        (48.0%)
+
+                              Crossing      Noncrossing                                 Crossing      Noncrossing
+                                     Predicted                                                 Predicted
+                                      PIE                                                   Clean JAAD
+                                Capped raw pose                                           Capped raw pose
+
+               Crossing      TP: 797.0      FN: 208.0                    Crossing      TP: 588.7      FN: 131.3
+                              (79.3%)        (20.7%)                                    (81.8%)        (18.2%)
+Annotated
+
+
+
+
+                                                          Annotated
+
+
+
+
+            Noncrossing      FP: 211.7     TN: 2,543.3                Noncrossing      FP: 410.0      TN: 371.0
+                              (7.7%)        (92.3%)                                     (52.5%)        (47.5%)
+
+                              Crossing      Noncrossing                                 Crossing      Noncrossing
+                                     Predicted                                                 Predicted
+                                      PIE                                                   Clean JAAD
+                              Capped BIU-v2 (56-D)                                      Capped BIU-v2 (56-D)
+
+               Crossing      TP: 800.7      FN: 204.3                    Crossing      TP: 597.0      FN: 123.0
+                              (79.7%)        (20.3%)                                    (82.9%)        (17.1%)
+Annotated
+
+
+
+
+                                                          Annotated
+
+
+
+
+            Noncrossing      FP: 210.0     TN: 2,545.0                Noncrossing      FP: 405.3      TN: 375.7
+                              (7.6%)        (92.4%)                                     (51.9%)        (48.1%)
+
+                              Crossing      Noncrossing                                 Crossing      Noncrossing
+                                     Predicted                                                 Predicted
+                                      PIE                                                    Clean JAAD
+                          Capped BIU-v2 + 7 cues (63-D)                             Capped BIU-v2 + 7 cues (63-D)
+
+               Crossing      TP: 800.0      FN: 205.0                    Crossing      TP: 604.3      FN: 115.7
+                              (79.6%)        (20.4%)                                    (83.9%)        (16.1%)
+Annotated
+
+
+
+
+                                                          Annotated
+
+
+
+
+            Noncrossing      FP: 206.7     TN: 2,548.3                Noncrossing      FP: 403.3      TN: 377.7
+                              (7.5%)        (92.5%)                                     (51.6%)        (48.4%)
+
+                              Crossing      Noncrossing                                 Crossing      Noncrossing
+                                     Predicted                                                 Predicted
+
+
+Figures/ch4_v2_input_share.pdf
+                                                                   31.4%
+                   30
+BIU-v2 share (%)
+
+
+                            25.6%
+                                               23.1%
+                   20
+
+
+                   10
+
+
+                    0
+                              PIE            JAAD clean              PSI
+                        Behavioral model   Vehicle context   Perceived intention
+
+
+Figures/ch4_v2_cue_direction.pdf
+                                        JAAD clean
+                                 PIE     + vehicle   PSI
+
+                   Torso lean    55.1      45.0      59.9
+
+            Head orientation     54.5      51.7      65.2
+
+     Shoulder-line orientation   54.0      59.4      50.6
+                                                            100
+                Stride length    55.9      53.3      59.8
+
+
+
+
+                                                                  Windows pushed toward the label (%)
+              Ankle elevation    63.1      47.3      63.7
+                                                            80
+           Hip-center motion     84.0      61.8      48.4
+
+          Knee-center motion     87.2      60.2      53.8   60
+
+         Ankle-center motion     49.2      59.8      55.9
+
+   Lower-body center motion      87.1      57.3      45.6   40
+
+  Forward ankle displacement     42.4      57.0      67.6
+                                                            20
+  Relative ankle displacement    67.0      54.1      63.1
+
+Lower-body motion magnitude      47.9      59.3      54.9
+                                                            0
+         Torso-center motion     85.1      59.4      52.1
+
+      Shoulder-center motion     86.2      60.8      62.6
+
+     Torso motion magnitude      57.6      45.0      48.3
+

@@ -1,0 +1,4 @@
+cohort,total_windows,total_observation_frames,zero_or_absent_pose_frames,zero_or_absent_pose_rate,all_zero_pose_windows,all_zero_pose_window_rate
+train_effective,109934,3298020,1378882,0.4180938866350113,37945,0.34516164244000946
+validation,77288,2318640,1730059,0.7461524859400338,52025,0.6731316633888831
+test_diagnostic,271078,8132340,5016429,0.6168493939013863,146030,0.5387010380776013

@@ -1,0 +1,21 @@
+{
+  "authorized_sets": [
+    "set01",
+    "set02",
+    "set04",
+    "set05",
+    "set06"
+  ],
+  "epochs": 80,
+  "forbidden_set": "set03",
+  "phase": "develop",
+  "preregistration_sha256": "9870ee51101b240117b9810d230fd2656c00f0e2d21ba9fe1bbaa78f52d10973",
+  "schema_version": 1,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "status": "not_promising",
+  "threshold": 0.5
+}

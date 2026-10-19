@@ -1,0 +1,7 @@
+anchor_name,seed,anchor_fp_to_corrected_tn,anchor_fn_to_corrected_tp,anchor_tn_to_corrected_fp,anchor_tp_to_corrected_fn
+rf_v1_bbox,42,63,34,22,58
+rf_v1_bbox,43,0,0,0,0
+rf_v1_bbox,44,0,1,0,0
+xgb_v2_bbox,42,79,38,44,35
+xgb_v2_bbox,43,0,0,0,0
+xgb_v2_bbox,44,0,0,0,0

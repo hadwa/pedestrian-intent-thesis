@@ -1,0 +1,108 @@
+{
+  "archive_etag": "\"3868cb96ae54e00a99ad64d9e17bc701-325\"",
+  "records": [
+    {
+      "bytes": 10884185,
+      "compressed_bytes": 10882592,
+      "crc32": 3422346101,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0148.mp4",
+      "required_frames": 133,
+      "video": "video_0148"
+    },
+    {
+      "bytes": 14598757,
+      "compressed_bytes": 14598103,
+      "crc32": 2635172435,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0152.mp4",
+      "required_frames": 274,
+      "video": "video_0152"
+    },
+    {
+      "bytes": 12151569,
+      "compressed_bytes": 12150458,
+      "crc32": 2098259684,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0157.mp4",
+      "required_frames": 367,
+      "video": "video_0157"
+    },
+    {
+      "bytes": 10869377,
+      "compressed_bytes": 10867807,
+      "crc32": 2822906851,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0161.mp4",
+      "required_frames": 251,
+      "video": "video_0161"
+    },
+    {
+      "bytes": 12866176,
+      "compressed_bytes": 12865172,
+      "crc32": 587570324,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0166.mp4",
+      "required_frames": 209,
+      "video": "video_0166"
+    },
+    {
+      "bytes": 11881775,
+      "compressed_bytes": 11880455,
+      "crc32": 902966317,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0171.mp4",
+      "required_frames": 311,
+      "video": "video_0171"
+    },
+    {
+      "bytes": 14190062,
+      "compressed_bytes": 14189356,
+      "crc32": 1506049632,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0178.mp4",
+      "required_frames": 365,
+      "video": "video_0178"
+    },
+    {
+      "bytes": 11730750,
+      "compressed_bytes": 11729252,
+      "crc32": 743200024,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0182.mp4",
+      "required_frames": 273,
+      "video": "video_0182"
+    },
+    {
+      "bytes": 14004191,
+      "compressed_bytes": 14003648,
+      "crc32": 1776697026,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0186.mp4",
+      "required_frames": 395,
+      "video": "video_0186"
+    },
+    {
+      "bytes": 14401781,
+      "compressed_bytes": 14401081,
+      "crc32": 2213832058,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0190.mp4",
+      "required_frames": 294,
+      "video": "video_0190"
+    },
+    {
+      "bytes": 12682979,
+      "compressed_bytes": 12681844,
+      "crc32": 2508892895,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0195.mp4",
+      "required_frames": 282,
+      "video": "video_0195"
+    },
+    {
+      "bytes": 11757921,
+      "compressed_bytes": 11756673,
+      "crc32": 311483737,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/114_psi_native_extended_xgb/test_evaluation/cache/videos/video_0200.mp4",
+      "required_frames": 171,
+      "video": "video_0200"
+    }
+  ],
+  "shard_count": 4,
+  "shard_index": 1,
+  "status": "complete",
+  "test_authorized": true,
+  "total_expected_videos": 49,
+  "transferred_bytes": 152701788,
+  "videos": 12
+}

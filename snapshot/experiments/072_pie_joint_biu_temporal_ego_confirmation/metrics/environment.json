@@ -1,0 +1,9 @@
+{
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "python": "3.10.20",
+  "python_executable": "/home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python",
+  "scikit_learn": "1.7.2",
+  "xgboost": "3.2.0"
+}

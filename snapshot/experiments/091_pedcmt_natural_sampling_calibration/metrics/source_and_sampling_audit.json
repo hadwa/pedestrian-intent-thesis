@@ -1,0 +1,18 @@
+{
+  "biu_union_shape": [
+    1826,
+    135
+  ],
+  "parent_experiment": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer",
+  "source_experiment": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/090_pedcmt_direct_biu_fusion",
+  "test_cache_accessed": false,
+  "train_class_counts": {
+    "cross": 999,
+    "not_cross": 553
+  },
+  "train_windows": 1552,
+  "training_sampling": "natural; every train window exactly once",
+  "validation_tracks": 28,
+  "validation_windows": 274,
+  "variant": "C BIU-v1/v2 union direct residual"
+}

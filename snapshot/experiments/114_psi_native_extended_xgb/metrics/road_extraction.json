@@ -1,0 +1,1414 @@
+{
+  "batch_policy_source": "Exp075 batch parity was false; preserve selected batch size 1",
+  "batch_size": 1,
+  "development_only": true,
+  "device": "NVIDIA GeForce RTX 3070 Laptop GPU",
+  "first_partition_frames": 7,
+  "last_partition_frames": 8,
+  "new_video_reports": [
+    {
+      "drivable_foreground_mean": 0.1808087591786202,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.00930695191541439,
+      "lane_zero_frames": 0,
+      "seconds": 4.279380118008703,
+      "unique_frames": 122,
+      "video": "video_0001",
+      "windows": 108
+    },
+    {
+      "drivable_foreground_mean": 0.08195703803168404,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.004574863009982638,
+      "lane_zero_frames": 0,
+      "seconds": 3.3996680700220168,
+      "unique_frames": 160,
+      "video": "video_0002",
+      "windows": 146
+    },
+    {
+      "drivable_foreground_mean": 0.1074207293902003,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0048446907039818785,
+      "lane_zero_frames": 0,
+      "seconds": 5.109647509001661,
+      "unique_frames": 233,
+      "video": "video_0003",
+      "windows": 223
+    },
+    {
+      "drivable_foreground_mean": 0.12143957393685567,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.004653404209621993,
+      "lane_zero_frames": 0,
+      "seconds": 2.1730605860066134,
+      "unique_frames": 97,
+      "video": "video_0004",
+      "windows": 83
+    },
+    {
+      "drivable_foreground_mean": 0.11358504774305556,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.007292549189814815,
+      "lane_zero_frames": 0,
+      "seconds": 8.723449365992565,
+      "unique_frames": 300,
+      "video": "video_0005",
+      "windows": 1073
+    },
+    {
+      "drivable_foreground_mean": 0.17048162730562907,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.007352126276822458,
+      "lane_zero_frames": 0,
+      "seconds": 3.8158030589984264,
+      "unique_frames": 189,
+      "video": "video_0006",
+      "windows": 175
+    },
+    {
+      "drivable_foreground_mean": 0.10808785095579451,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.016595238761947434,
+      "lane_zero_frames": 0,
+      "seconds": 2.172762853995664,
+      "unique_frames": 93,
+      "video": "video_0007",
+      "windows": 143
+    },
+    {
+      "drivable_foreground_mean": 0.14213428337191358,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0077136923707561734,
+      "lane_zero_frames": 0,
+      "seconds": 3.9425637690001167,
+      "unique_frames": 180,
+      "video": "video_0008",
+      "windows": 166
+    },
+    {
+      "drivable_foreground_mean": 0.20212563871133205,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.012654610065498739,
+      "lane_zero_frames": 0,
+      "seconds": 1.8470709419925697,
+      "unique_frames": 88,
+      "video": "video_0009",
+      "windows": 74
+    },
+    {
+      "drivable_foreground_mean": 0.21235691360562867,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.022124699226364522,
+      "lane_zero_frames": 0,
+      "seconds": 3.0209625100251287,
+      "unique_frames": 114,
+      "video": "video_0010",
+      "windows": 255
+    },
+    {
+      "drivable_foreground_mean": 0.11781755332341269,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.013332907056051587,
+      "lane_zero_frames": 0,
+      "seconds": 3.012109570001485,
+      "unique_frames": 140,
+      "video": "video_0011",
+      "windows": 126
+    },
+    {
+      "drivable_foreground_mean": 0.08748242543260475,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0055774229659987865,
+      "lane_zero_frames": 0,
+      "seconds": 3.745823923003627,
+      "unique_frames": 183,
+      "video": "video_0012",
+      "windows": 169
+    },
+    {
+      "drivable_foreground_mean": 0.20956069916544837,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0003853646340968161,
+      "lane_zero_frames": 91,
+      "seconds": 4.108202408009674,
+      "unique_frames": 171,
+      "video": "video_0013",
+      "windows": 295
+    },
+    {
+      "drivable_foreground_mean": 0.14589164806547616,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.00477094959077381,
+      "lane_zero_frames": 0,
+      "seconds": 2.9143162459949963,
+      "unique_frames": 140,
+      "video": "video_0014",
+      "windows": 126
+    },
+    {
+      "drivable_foreground_mean": 0.10896044291020672,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0185265665374677,
+      "lane_zero_frames": 0,
+      "seconds": 4.661605712986784,
+      "unique_frames": 215,
+      "video": "video_0015",
+      "windows": 201
+    },
+    {
+      "drivable_foreground_mean": 0.29686200656741024,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.009306372097713244,
+      "lane_zero_frames": 2,
+      "seconds": 4.026954038999975,
+      "unique_frames": 198,
+      "video": "video_0016",
+      "windows": 184
+    },
+    {
+      "drivable_foreground_mean": 0.12775369758279911,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.009312533386752137,
+      "lane_zero_frames": 0,
+      "seconds": 2.764667813986307,
+      "unique_frames": 130,
+      "video": "video_0017",
+      "windows": 116
+    },
+    {
+      "drivable_foreground_mean": 0.23541950426603617,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.021210120128609282,
+      "lane_zero_frames": 0,
+      "seconds": 6.985060427017743,
+      "unique_frames": 304,
+      "video": "video_0018",
+      "windows": 600
+    },
+    {
+      "drivable_foreground_mean": 0.16863003557885597,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.015648871527777778,
+      "lane_zero_frames": 0,
+      "seconds": 6.363131257996429,
+      "unique_frames": 304,
+      "video": "video_0019",
+      "windows": 290
+    },
+    {
+      "drivable_foreground_mean": 0.1330462393326143,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.006969075816492583,
+      "lane_zero_frames": 0,
+      "seconds": 9.042542767012492,
+      "unique_frames": 367,
+      "video": "video_0020",
+      "windows": 997
+    },
+    {
+      "drivable_foreground_mean": 0.13993101331922744,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.010686018202039932,
+      "lane_zero_frames": 0,
+      "seconds": 1.4561886200099252,
+      "unique_frames": 64,
+      "video": "video_0021",
+      "windows": 50
+    },
+    {
+      "drivable_foreground_mean": 0.1944280820904356,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.011559540719696969,
+      "lane_zero_frames": 0,
+      "seconds": 1.8186955130076967,
+      "unique_frames": 88,
+      "video": "video_0022",
+      "windows": 74
+    },
+    {
+      "drivable_foreground_mean": 0.12050393905442508,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0037334169425602927,
+      "lane_zero_frames": 0,
+      "seconds": 5.455740681994939,
+      "unique_frames": 258,
+      "video": "video_0023",
+      "windows": 230
+    },
+    {
+      "drivable_foreground_mean": 0.21839001089686763,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.016497588221532702,
+      "lane_zero_frames": 0,
+      "seconds": 3.01023471399094,
+      "unique_frames": 141,
+      "video": "video_0024",
+      "windows": 127
+    },
+    {
+      "drivable_foreground_mean": 0.16145997336195927,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.00921084804389313,
+      "lane_zero_frames": 0,
+      "seconds": 2.8725201319903135,
+      "unique_frames": 131,
+      "video": "video_0025",
+      "windows": 117
+    },
+    {
+      "drivable_foreground_mean": 0.2029165109150718,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.01190897461456672,
+      "lane_zero_frames": 0,
+      "seconds": 4.30581020397949,
+      "unique_frames": 209,
+      "video": "video_0026",
+      "windows": 195
+    },
+    {
+      "drivable_foreground_mean": 0.1744844990079365,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.004635091145833332,
+      "lane_zero_frames": 0,
+      "seconds": 1.6075762940163258,
+      "unique_frames": 70,
+      "video": "video_0027",
+      "windows": 56
+    },
+    {
+      "drivable_foreground_mean": 0.1751010583948206,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.01842216209129051,
+      "lane_zero_frames": 0,
+      "seconds": 2.336173397023231,
+      "unique_frames": 96,
+      "video": "video_0028",
+      "windows": 82
+    },
+    {
+      "drivable_foreground_mean": 0.19584450086805555,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.01601125,
+      "lane_zero_frames": 0,
+      "seconds": 5.188088995986618,
+      "unique_frames": 250,
+      "video": "video_0029",
+      "windows": 236
+    },
+    {
+      "drivable_foreground_mean": 0.1275154053069273,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.004614572616598081,
+      "lane_zero_frames": 0,
+      "seconds": 3.7067810939915944,
+      "unique_frames": 162,
+      "video": "video_0030",
+      "windows": 265
+    },
+    {
+      "drivable_foreground_mean": 0.18612676907524614,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.019243617319356542,
+      "lane_zero_frames": 0,
+      "seconds": 6.8211909840174485,
+      "unique_frames": 316,
+      "video": "video_0031",
+      "windows": 461
+    },
+    {
+      "drivable_foreground_mean": 0.08488509012218291,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0064189586199554505,
+      "lane_zero_frames": 0,
+      "seconds": 9.923382948007202,
+      "unique_frames": 424,
+      "video": "video_0033",
+      "windows": 1030
+    },
+    {
+      "drivable_foreground_mean": 0.10440422731926638,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0002758719506766381,
+      "lane_zero_frames": 162,
+      "seconds": 4.656242185010342,
+      "unique_frames": 234,
+      "video": "video_0034",
+      "windows": 220
+    },
+    {
+      "drivable_foreground_mean": 0.04929749125895277,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0011658976662311266,
+      "lane_zero_frames": 17,
+      "seconds": 6.05802507000044,
+      "unique_frames": 287,
+      "video": "video_0035",
+      "windows": 306
+    },
+    {
+      "drivable_foreground_mean": 0.16296998039124502,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.016796477787078372,
+      "lane_zero_frames": 0,
+      "seconds": 2.5422102119773626,
+      "unique_frames": 112,
+      "video": "video_0036",
+      "windows": 157
+    },
+    {
+      "drivable_foreground_mean": 0.20642733517661177,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.004894855431241426,
+      "lane_zero_frames": 16,
+      "seconds": 5.401158402004512,
+      "unique_frames": 243,
+      "video": "video_0037",
+      "windows": 288
+    },
+    {
+      "drivable_foreground_mean": 0.13926232710040984,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.010629724499089253,
+      "lane_zero_frames": 0,
+      "seconds": 6.747573070984799,
+      "unique_frames": 305,
+      "video": "video_0038",
+      "windows": 362
+    },
+    {
+      "drivable_foreground_mean": 0.189834037048274,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.01714752098503236,
+      "lane_zero_frames": 0,
+      "seconds": 2.2478234399750363,
+      "unique_frames": 103,
+      "video": "video_0039",
+      "windows": 89
+    },
+    {
+      "drivable_foreground_mean": 0.1847110016177399,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.022723653774068812,
+      "lane_zero_frames": 0,
+      "seconds": 3.732803833001526,
+      "unique_frames": 176,
+      "video": "video_0040",
+      "windows": 162
+    },
+    {
+      "drivable_foreground_mean": 0.11372476636377069,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.01217229055851064,
+      "lane_zero_frames": 0,
+      "seconds": 4.998103858990362,
+      "unique_frames": 235,
+      "video": "video_0041",
+      "windows": 221
+    },
+    {
+      "drivable_foreground_mean": 0.14593143815952822,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.006378426152234636,
+      "lane_zero_frames": 0,
+      "seconds": 3.819158267986495,
+      "unique_frames": 179,
+      "video": "video_0042",
+      "windows": 165
+    },
+    {
+      "drivable_foreground_mean": 0.05581657986111111,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.007803839172979798,
+      "lane_zero_frames": 0,
+      "seconds": 5.471665796998423,
+      "unique_frames": 275,
+      "video": "video_0043",
+      "windows": 233
+    },
+    {
+      "drivable_foreground_mean": 0.18083617941712207,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.01858971211862477,
+      "lane_zero_frames": 0,
+      "seconds": 2.541674323991174,
+      "unique_frames": 122,
+      "video": "video_0044",
+      "windows": 108
+    },
+    {
+      "drivable_foreground_mean": 0.16808915395585317,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.017186211480034724,
+      "lane_zero_frames": 0,
+      "seconds": 4.540963378996821,
+      "unique_frames": 224,
+      "video": "video_0045",
+      "windows": 210
+    },
+    {
+      "drivable_foreground_mean": 0.10256712906003938,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.004730441409667541,
+      "lane_zero_frames": 0,
+      "seconds": 2.7078494449961,
+      "unique_frames": 127,
+      "video": "video_0046",
+      "windows": 113
+    },
+    {
+      "drivable_foreground_mean": 0.1831804671424897,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.010772264017489711,
+      "lane_zero_frames": 0,
+      "seconds": 3.1234159219893627,
+      "unique_frames": 135,
+      "video": "video_0047",
+      "windows": 121
+    },
+    {
+      "drivable_foreground_mean": 0.18049217802717152,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 1.072151951058201e-06,
+      "lane_zero_frames": 250,
+      "seconds": 7.305957017000765,
+      "unique_frames": 252,
+      "video": "video_0048",
+      "windows": 1154
+    },
+    {
+      "drivable_foreground_mean": 0.19225282726505713,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 4.289573598130842e-06,
+      "lane_zero_frames": 204,
+      "seconds": 4.830246950004948,
+      "unique_frames": 214,
+      "video": "video_0049",
+      "windows": 336
+    },
+    {
+      "drivable_foreground_mean": 0.07199000800706418,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.006724301626855843,
+      "lane_zero_frames": 0,
+      "seconds": 6.010287643002812,
+      "unique_frames": 232,
+      "video": "video_0050",
+      "windows": 379
+    },
+    {
+      "drivable_foreground_mean": 0.13413270598400867,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.010411689283893985,
+      "lane_zero_frames": 0,
+      "seconds": 5.182551093981601,
+      "unique_frames": 218,
+      "video": "video_0051",
+      "windows": 204
+    },
+    {
+      "drivable_foreground_mean": 0.20213469756738991,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0016572156476002628,
+      "lane_zero_frames": 16,
+      "seconds": 4.1068322630017065,
+      "unique_frames": 169,
+      "video": "video_0052",
+      "windows": 155
+    },
+    {
+      "drivable_foreground_mean": 0.10214265239713309,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.009095986287507428,
+      "lane_zero_frames": 0,
+      "seconds": 4.307533888990292,
+      "unique_frames": 187,
+      "video": "video_0053",
+      "windows": 173
+    },
+    {
+      "drivable_foreground_mean": 0.1283270770770771,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.007998037099599599,
+      "lane_zero_frames": 0,
+      "seconds": 2.842670406011166,
+      "unique_frames": 111,
+      "video": "video_0054",
+      "windows": 97
+    },
+    {
+      "drivable_foreground_mean": 0.18202367259837965,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.015087293836805555,
+      "lane_zero_frames": 0,
+      "seconds": 3.1561575999949127,
+      "unique_frames": 120,
+      "video": "video_0056",
+      "windows": 199
+    },
+    {
+      "drivable_foreground_mean": 0.17152656353339946,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.02022822627314815,
+      "lane_zero_frames": 0,
+      "seconds": 2.3898727420018986,
+      "unique_frames": 84,
+      "video": "video_0057",
+      "windows": 126
+    },
+    {
+      "drivable_foreground_mean": 0.04524825909300184,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.011214564389579499,
+      "lane_zero_frames": 0,
+      "seconds": 4.7666323330195155,
+      "unique_frames": 181,
+      "video": "video_0058",
+      "windows": 295
+    },
+    {
+      "drivable_foreground_mean": 0.15563160152936809,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.012896240855597966,
+      "lane_zero_frames": 0,
+      "seconds": 2.9767619730264414,
+      "unique_frames": 131,
+      "video": "video_0059",
+      "windows": 117
+    },
+    {
+      "drivable_foreground_mean": 0.21311583927003513,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.020513792854007024,
+      "lane_zero_frames": 0,
+      "seconds": 4.6835114900022745,
+      "unique_frames": 174,
+      "video": "video_0060",
+      "windows": 306
+    },
+    {
+      "drivable_foreground_mean": 0.1668199652777778,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.013891550925925927,
+      "lane_zero_frames": 0,
+      "seconds": 5.35849976199097,
+      "unique_frames": 225,
+      "video": "video_0061",
+      "windows": 211
+    },
+    {
+      "drivable_foreground_mean": 0.11611656123160831,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.009093892694063927,
+      "lane_zero_frames": 0,
+      "seconds": 5.366905381990364,
+      "unique_frames": 219,
+      "video": "video_0062",
+      "windows": 312
+    },
+    {
+      "drivable_foreground_mean": 0.2075404337416056,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.01512766855540293,
+      "lane_zero_frames": 0,
+      "seconds": 2.1680412699934095,
+      "unique_frames": 91,
+      "video": "video_0063",
+      "windows": 77
+    },
+    {
+      "drivable_foreground_mean": 0.12401245190503002,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.00811722855668168,
+      "lane_zero_frames": 0,
+      "seconds": 4.215995809005108,
+      "unique_frames": 185,
+      "video": "video_0065",
+      "windows": 171
+    },
+    {
+      "drivable_foreground_mean": 0.16673329818651872,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.012152105506491546,
+      "lane_zero_frames": 0,
+      "seconds": 4.75267263801652,
+      "unique_frames": 184,
+      "video": "video_0066",
+      "windows": 301
+    },
+    {
+      "drivable_foreground_mean": 0.0793728400495566,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.010723191143388105,
+      "lane_zero_frames": 0,
+      "seconds": 4.980303829011973,
+      "unique_frames": 213,
+      "video": "video_0067",
+      "windows": 199
+    },
+    {
+      "drivable_foreground_mean": 0.1173556224681713,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0076877441406249985,
+      "lane_zero_frames": 0,
+      "seconds": 3.1577575690171216,
+      "unique_frames": 120,
+      "video": "video_0068",
+      "windows": 106
+    },
+    {
+      "drivable_foreground_mean": 0.1406051728219697,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.004934303977272727,
+      "lane_zero_frames": 0,
+      "seconds": 2.274887990002753,
+      "unique_frames": 88,
+      "video": "video_0069",
+      "windows": 74
+    },
+    {
+      "drivable_foreground_mean": 0.08869510284251413,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0,
+      "lane_zero_frames": 59,
+      "seconds": 1.4988971580169164,
+      "unique_frames": 59,
+      "video": "video_0070",
+      "windows": 45
+    },
+    {
+      "drivable_foreground_mean": 0.16683224078065131,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.017422368893678163,
+      "lane_zero_frames": 0,
+      "seconds": 3.2407874960044865,
+      "unique_frames": 145,
+      "video": "video_0071",
+      "windows": 131
+    },
+    {
+      "drivable_foreground_mean": 0.06795867435515873,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.003860212053571428,
+      "lane_zero_frames": 0,
+      "seconds": 0.7069302040035836,
+      "unique_frames": 21,
+      "video": "video_0072",
+      "windows": 7
+    },
+    {
+      "drivable_foreground_mean": 0.07128333634144664,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.012693561348322334,
+      "lane_zero_frames": 0,
+      "seconds": 2.4330839189933613,
+      "unique_frames": 101,
+      "video": "video_0073",
+      "windows": 87
+    },
+    {
+      "drivable_foreground_mean": 0.04876403485656415,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0020671606316137563,
+      "lane_zero_frames": 5,
+      "seconds": 4.0578636650170665,
+      "unique_frames": 168,
+      "video": "video_0074",
+      "windows": 154
+    },
+    {
+      "drivable_foreground_mean": 0.09063785457269266,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.006768391927083333,
+      "lane_zero_frames": 0,
+      "seconds": 3.2181684499955736,
+      "unique_frames": 124,
+      "video": "video_0075",
+      "windows": 115
+    },
+    {
+      "drivable_foreground_mean": 0.09341131084816612,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.006094174019855717,
+      "lane_zero_frames": 0,
+      "seconds": 10.08624141800101,
+      "unique_frames": 412,
+      "video": "video_0076",
+      "windows": 718
+    },
+    {
+      "drivable_foreground_mean": 0.04442568416483918,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.008664388020833334,
+      "lane_zero_frames": 0,
+      "seconds": 4.348649423016468,
+      "unique_frames": 190,
+      "video": "video_0077",
+      "windows": 176
+    },
+    {
+      "drivable_foreground_mean": 0.09547236689814816,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 6.173336674303168e-05,
+      "lane_zero_frames": 244,
+      "seconds": 6.832730416004779,
+      "unique_frames": 291,
+      "video": "video_0078",
+      "windows": 277
+    },
+    {
+      "drivable_foreground_mean": 0.12122312366452992,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.008023893785612536,
+      "lane_zero_frames": 0,
+      "seconds": 3.5737107010209,
+      "unique_frames": 156,
+      "video": "video_0079",
+      "windows": 142
+    },
+    {
+      "drivable_foreground_mean": 0.1392466106606333,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.007033980072683835,
+      "lane_zero_frames": 0,
+      "seconds": 7.7708924030011985,
+      "unique_frames": 343,
+      "video": "video_0080",
+      "windows": 329
+    },
+    {
+      "drivable_foreground_mean": 0.13411397569444444,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.011206175250771604,
+      "lane_zero_frames": 0,
+      "seconds": 11.413051046023611,
+      "unique_frames": 450,
+      "video": "video_0081",
+      "windows": 615
+    },
+    {
+      "drivable_foreground_mean": 0.10699887116304853,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.016224259234943975,
+      "lane_zero_frames": 0,
+      "seconds": 3.1002684780105483,
+      "unique_frames": 119,
+      "video": "video_0082",
+      "windows": 105
+    },
+    {
+      "drivable_foreground_mean": 0.19062738050949546,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0016228763640873016,
+      "lane_zero_frames": 13,
+      "seconds": 2.4806344470125623,
+      "unique_frames": 98,
+      "video": "video_0083",
+      "windows": 84
+    },
+    {
+      "drivable_foreground_mean": 0.18319029655486602,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.008090839551319937,
+      "lane_zero_frames": 15,
+      "seconds": 6.690096125996206,
+      "unique_frames": 282,
+      "video": "video_0084",
+      "windows": 268
+    },
+    {
+      "drivable_foreground_mean": 0.19848310185185183,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.01686147280092593,
+      "lane_zero_frames": 0,
+      "seconds": 3.963463098014472,
+      "unique_frames": 150,
+      "video": "video_0085",
+      "windows": 230
+    },
+    {
+      "drivable_foreground_mean": 0.11158920214371981,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.015097231657608696,
+      "lane_zero_frames": 0,
+      "seconds": 1.8601128429872915,
+      "unique_frames": 69,
+      "video": "video_0086",
+      "windows": 55
+    },
+    {
+      "drivable_foreground_mean": 0.06806851973867692,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.00615367285112673,
+      "lane_zero_frames": 0,
+      "seconds": 5.574681512021925,
+      "unique_frames": 249,
+      "video": "video_0087",
+      "windows": 235
+    },
+    {
+      "drivable_foreground_mean": 0.14333594903213903,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.010636118030394524,
+      "lane_zero_frames": 0,
+      "seconds": 4.720583112997701,
+      "unique_frames": 207,
+      "video": "video_0088",
+      "windows": 193
+    },
+    {
+      "drivable_foreground_mean": 0.08729117959104937,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.007721684510030863,
+      "lane_zero_frames": 50,
+      "seconds": 10.23793562100036,
+      "unique_frames": 450,
+      "video": "video_0089",
+      "windows": 479
+    },
+    {
+      "drivable_foreground_mean": 0.31422445718344155,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.016647952741702745,
+      "lane_zero_frames": 0,
+      "seconds": 3.6221204579924233,
+      "unique_frames": 154,
+      "video": "video_0090",
+      "windows": 140
+    },
+    {
+      "drivable_foreground_mean": 0.1225888862656441,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.009801509796626983,
+      "lane_zero_frames": 0,
+      "seconds": 4.096254939009668,
+      "unique_frames": 182,
+      "video": "video_0091",
+      "windows": 168
+    },
+    {
+      "drivable_foreground_mean": 0.14070307249663977,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.00834566578927718,
+      "lane_zero_frames": 0,
+      "seconds": 4.3341294070123695,
+      "unique_frames": 186,
+      "video": "video_0092",
+      "windows": 172
+    },
+    {
+      "drivable_foreground_mean": 0.1576587442505411,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.00670813416907167,
+      "lane_zero_frames": 0,
+      "seconds": 5.5320746779907495,
+      "unique_frames": 231,
+      "video": "video_0094",
+      "windows": 217
+    },
+    {
+      "drivable_foreground_mean": 0.11569028807674199,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.011919402022520403,
+      "lane_zero_frames": 0,
+      "seconds": 4.021041948988568,
+      "unique_frames": 177,
+      "video": "video_0095",
+      "windows": 163
+    },
+    {
+      "drivable_foreground_mean": 0.14197159489792047,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.007176133452868852,
+      "lane_zero_frames": 0,
+      "seconds": 4.2718429239757825,
+      "unique_frames": 183,
+      "video": "video_0096",
+      "windows": 169
+    },
+    {
+      "drivable_foreground_mean": 0.11317247939382141,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.007740706261898581,
+      "lane_zero_frames": 0,
+      "seconds": 8.491953327000374,
+      "unique_frames": 321,
+      "video": "video_0097",
+      "windows": 641
+    },
+    {
+      "drivable_foreground_mean": 0.16054164532103826,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.013031470571493627,
+      "lane_zero_frames": 0,
+      "seconds": 2.992929458996514,
+      "unique_frames": 122,
+      "video": "video_0098",
+      "windows": 108
+    },
+    {
+      "drivable_foreground_mean": 0.21004719132532956,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.009499476469318894,
+      "lane_zero_frames": 0,
+      "seconds": 4.574358643003507,
+      "unique_frames": 177,
+      "video": "video_0099",
+      "windows": 314
+    },
+    {
+      "drivable_foreground_mean": 0.1520802174244557,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.011960023988832582,
+      "lane_zero_frames": 0,
+      "seconds": 3.478277912014164,
+      "unique_frames": 148,
+      "video": "video_0100",
+      "windows": 134
+    },
+    {
+      "drivable_foreground_mean": 0.19083086038436692,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.012956452546296293,
+      "lane_zero_frames": 0,
+      "seconds": 2.9478606219927315,
+      "unique_frames": 129,
+      "video": "video_0101",
+      "windows": 101
+    },
+    {
+      "drivable_foreground_mean": 0.16623735894097225,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.008589074627246732,
+      "lane_zero_frames": 0,
+      "seconds": 8.700057829002617,
+      "unique_frames": 340,
+      "video": "video_0102",
+      "windows": 735
+    },
+    {
+      "drivable_foreground_mean": 0.08776168319823663,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.009521569551099736,
+      "lane_zero_frames": 0,
+      "seconds": 6.840836957009742,
+      "unique_frames": 293,
+      "video": "video_0104",
+      "windows": 279
+    },
+    {
+      "drivable_foreground_mean": 0.18536465288906698,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.018669950624703228,
+      "lane_zero_frames": 0,
+      "seconds": 5.273418793018209,
+      "unique_frames": 234,
+      "video": "video_0105",
+      "windows": 220
+    },
+    {
+      "drivable_foreground_mean": 0.17478054242530344,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.002066519316059757,
+      "lane_zero_frames": 0,
+      "seconds": 3.171337704989128,
+      "unique_frames": 119,
+      "video": "video_0106",
+      "windows": 105
+    },
+    {
+      "drivable_foreground_mean": 0.16793730647246272,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.006183636964886965,
+      "lane_zero_frames": 2,
+      "seconds": 6.158668140997179,
+      "unique_frames": 231,
+      "video": "video_0107",
+      "windows": 430
+    },
+    {
+      "drivable_foreground_mean": 0.16403564575870413,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.011379498864850427,
+      "lane_zero_frames": 0,
+      "seconds": 10.855321886017919,
+      "unique_frames": 442,
+      "video": "video_0108",
+      "windows": 727
+    },
+    {
+      "drivable_foreground_mean": 0.16913827039930554,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.006390122251157407,
+      "lane_zero_frames": 0,
+      "seconds": 8.321551930974238,
+      "unique_frames": 300,
+      "video": "video_0109",
+      "windows": 698
+    },
+    {
+      "drivable_foreground_mean": 0.10467057997402889,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.009299812627032519,
+      "lane_zero_frames": 0,
+      "seconds": 2.992770040000323,
+      "unique_frames": 123,
+      "video": "video_0110",
+      "windows": 109
+    },
+    {
+      "drivable_foreground_mean": 0.17790635850694445,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0013847005208333337,
+      "lane_zero_frames": 78,
+      "seconds": 6.148613129014848,
+      "unique_frames": 250,
+      "video": "video_0112",
+      "windows": 418
+    },
+    {
+      "drivable_foreground_mean": 0.18953687548225306,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 8.123553240740742e-06,
+      "lane_zero_frames": 428,
+      "seconds": 11.157915174990194,
+      "unique_frames": 450,
+      "video": "video_0113",
+      "windows": 813
+    },
+    {
+      "drivable_foreground_mean": 0.17450364399293286,
+      "drivable_zero_frames": 2,
+      "lane_foreground_mean": 0.015516228497987828,
+      "lane_zero_frames": 3,
+      "seconds": 7.347859130008146,
+      "unique_frames": 283,
+      "video": "video_0114",
+      "windows": 598
+    },
+    {
+      "drivable_foreground_mean": 0.1273313319830247,
+      "drivable_zero_frames": 2,
+      "lane_foreground_mean": 0.008389426601080247,
+      "lane_zero_frames": 44,
+      "seconds": 11.114036249025958,
+      "unique_frames": 450,
+      "video": "video_0115",
+      "windows": 861
+    },
+    {
+      "drivable_foreground_mean": 0.19942004478552114,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.015186391884832843,
+      "lane_zero_frames": 0,
+      "seconds": 2.479820288979681,
+      "unique_frames": 113,
+      "video": "video_0116",
+      "windows": 99
+    },
+    {
+      "drivable_foreground_mean": 0.15799567364824718,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0012649182542335115,
+      "lane_zero_frames": 0,
+      "seconds": 4.591093387018191,
+      "unique_frames": 187,
+      "video": "video_0117",
+      "windows": 327
+    },
+    {
+      "drivable_foreground_mean": 0.12427245652664859,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0007891101371951221,
+      "lane_zero_frames": 16,
+      "seconds": 2.942141293984605,
+      "unique_frames": 123,
+      "video": "video_0118",
+      "windows": 109
+    },
+    {
+      "drivable_foreground_mean": 0.1531438276301465,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.006486849267616786,
+      "lane_zero_frames": 0,
+      "seconds": 10.825079939007992,
+      "unique_frames": 421,
+      "video": "video_0119",
+      "windows": 813
+    },
+    {
+      "drivable_foreground_mean": 0.15305523003472224,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.019013150206997866,
+      "lane_zero_frames": 0,
+      "seconds": 6.752248995995615,
+      "unique_frames": 260,
+      "video": "video_0120",
+      "windows": 676
+    },
+    {
+      "drivable_foreground_mean": 0.1669623888339921,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.00522967446201142,
+      "lane_zero_frames": 0,
+      "seconds": 6.758353190991329,
+      "unique_frames": 253,
+      "video": "video_0121",
+      "windows": 662
+    },
+    {
+      "drivable_foreground_mean": 0.04003234052891334,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.009678812620108317,
+      "lane_zero_frames": 0,
+      "seconds": 3.9107559050025884,
+      "unique_frames": 159,
+      "video": "video_0122",
+      "windows": 223
+    },
+    {
+      "drivable_foreground_mean": 0.10894528290719697,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.004828411063762626,
+      "lane_zero_frames": 0,
+      "seconds": 7.554721814987715,
+      "unique_frames": 330,
+      "video": "video_0123",
+      "windows": 302
+    },
+    {
+      "drivable_foreground_mean": 0.1441468892666538,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.00436082376864712,
+      "lane_zero_frames": 0,
+      "seconds": 4.788761589996284,
+      "unique_frames": 216,
+      "video": "video_0124",
+      "windows": 202
+    },
+    {
+      "drivable_foreground_mean": 0.08437116225438429,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.009286971866199437,
+      "lane_zero_frames": 0,
+      "seconds": 10.265151236992097,
+      "unique_frames": 434,
+      "video": "video_0125",
+      "windows": 582
+    },
+    {
+      "drivable_foreground_mean": 0.13795059883832564,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0031462613607270867,
+      "lane_zero_frames": 0,
+      "seconds": 5.059535662003327,
+      "unique_frames": 217,
+      "video": "video_0126",
+      "windows": 203
+    },
+    {
+      "drivable_foreground_mean": 0.16294099262523745,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.01098361081433998,
+      "lane_zero_frames": 0,
+      "seconds": 5.564692787011154,
+      "unique_frames": 234,
+      "video": "video_0127",
+      "windows": 356
+    },
+    {
+      "drivable_foreground_mean": 0.11722777165983304,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.016419354522200058,
+      "lane_zero_frames": 0,
+      "seconds": 10.04281859000912,
+      "unique_frames": 376,
+      "video": "video_0128",
+      "windows": 646
+    },
+    {
+      "drivable_foreground_mean": 0.24637128234540343,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0075358525028935185,
+      "lane_zero_frames": 0,
+      "seconds": 3.9396030089992564,
+      "unique_frames": 168,
+      "video": "video_0129",
+      "windows": 154
+    },
+    {
+      "drivable_foreground_mean": 0.133905475448821,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.008152873375535906,
+      "lane_zero_frames": 0,
+      "seconds": 7.577257605007617,
+      "unique_frames": 311,
+      "video": "video_0130",
+      "windows": 451
+    },
+    {
+      "drivable_foreground_mean": 0.11389930073302469,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.009159365354938274,
+      "lane_zero_frames": 0,
+      "seconds": 10.929456396988826,
+      "unique_frames": 450,
+      "video": "video_0131",
+      "windows": 602
+    },
+    {
+      "drivable_foreground_mean": 0.19692264304915516,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.009186412930427547,
+      "lane_zero_frames": 0,
+      "seconds": 4.7889670959848445,
+      "unique_frames": 217,
+      "video": "video_0132",
+      "windows": 203
+    },
+    {
+      "drivable_foreground_mean": 0.22128322227328429,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0032814733966503268,
+      "lane_zero_frames": 2,
+      "seconds": 1.6565742730163038,
+      "unique_frames": 68,
+      "video": "video_0133",
+      "windows": 54
+    },
+    {
+      "drivable_foreground_mean": 0.1824933464144483,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.006502866391782407,
+      "lane_zero_frames": 0,
+      "seconds": 3.6186216450005304,
+      "unique_frames": 144,
+      "video": "video_0134",
+      "windows": 220
+    },
+    {
+      "drivable_foreground_mean": 0.22274923210470085,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.007515650040064102,
+      "lane_zero_frames": 0,
+      "seconds": 3.4154925239854492,
+      "unique_frames": 156,
+      "video": "video_0135",
+      "windows": 142
+    },
+    {
+      "drivable_foreground_mean": 0.2407778790509259,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.00558125964506173,
+      "lane_zero_frames": 0,
+      "seconds": 13.64771887700772,
+      "unique_frames": 450,
+      "video": "video_0136",
+      "windows": 1626
+    },
+    {
+      "drivable_foreground_mean": 0.13551368300391736,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.010380080350783477,
+      "lane_zero_frames": 0,
+      "seconds": 0.9774662709969562,
+      "unique_frames": 39,
+      "video": "video_0137",
+      "windows": 25
+    },
+    {
+      "drivable_foreground_mean": 0.20974963348765432,
+      "drivable_zero_frames": 1,
+      "lane_foreground_mean": 0.009809420814043209,
+      "lane_zero_frames": 46,
+      "seconds": 11.644976965995738,
+      "unique_frames": 450,
+      "video": "video_0138",
+      "windows": 897
+    },
+    {
+      "drivable_foreground_mean": 0.1963315171096184,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.020756298473195742,
+      "lane_zero_frames": 0,
+      "seconds": 5.172037623007782,
+      "unique_frames": 214,
+      "video": "video_0139",
+      "windows": 303
+    },
+    {
+      "drivable_foreground_mean": 0.2756041067617911,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0012448628743489583,
+      "lane_zero_frames": 31,
+      "seconds": 4.672146833006991,
+      "unique_frames": 192,
+      "video": "video_0140",
+      "windows": 277
+    },
+    {
+      "drivable_foreground_mean": 0.1783209579292385,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.016659679193606322,
+      "lane_zero_frames": 0,
+      "seconds": 5.013438260008115,
+      "unique_frames": 232,
+      "video": "video_0141",
+      "windows": 218
+    },
+    {
+      "drivable_foreground_mean": 0.1885308074951172,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 1.3563368055555556e-07,
+      "lane_zero_frames": 127,
+      "seconds": 3.046853951003868,
+      "unique_frames": 128,
+      "video": "video_0142",
+      "windows": 114
+    },
+    {
+      "drivable_foreground_mean": 0.09723573835784313,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0037344286151960787,
+      "lane_zero_frames": 0,
+      "seconds": 9.895527586981189,
+      "unique_frames": 425,
+      "video": "video_0143",
+      "windows": 411
+    },
+    {
+      "drivable_foreground_mean": 0.031071292099590052,
+      "drivable_zero_frames": 114,
+      "lane_foreground_mean": 0.001442410698508623,
+      "lane_zero_frames": 16,
+      "seconds": 10.008644873014418,
+      "unique_frames": 393,
+      "video": "video_0144",
+      "windows": 730
+    },
+    {
+      "drivable_foreground_mean": 0.1981402977003643,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0060402199074074065,
+      "lane_zero_frames": 0,
+      "seconds": 4.062615363014629,
+      "unique_frames": 183,
+      "video": "video_0145",
+      "windows": 169
+    },
+    {
+      "drivable_foreground_mean": 0.11104146170910494,
+      "drivable_zero_frames": 0,
+      "lane_foreground_mean": 0.0016454909336419755,
+      "lane_zero_frames": 281,
+      "seconds": 10.85595975400065,
+      "unique_frames": 450,
+      "video": "video_0146",
+      "windows": 436
+    }
+  ],
+  "precision": "fp16",
+  "status": "complete",
+  "test_accessed": false,
+  "videos": 140
+}

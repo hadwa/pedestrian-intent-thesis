@@ -1,0 +1,6 @@
+python /tmp/complete_artifact_package.py
+python /home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/verify_artifact_package.py
+
+Exact source paths and hashes: copy_manifest.json
+Output locations: copy_manifest.json and coverage_after_packaging.json
+Preparation and read-only metadata selection are specified in package.py.

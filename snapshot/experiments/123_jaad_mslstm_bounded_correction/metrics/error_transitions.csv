@@ -1,0 +1,10 @@
+seed,arm,wrong_to_correct,correct_to_wrong,max_correction
+42,raw,3,2,0.19949226
+42,core56,3,5,0.1939079
+42,full63,4,2,0.1915592
+43,raw,0,0,0.0
+43,core56,0,0,0.0
+43,full63,0,0,0.0
+44,raw,6,3,0.19995221
+44,core56,4,3,0.19981754
+44,full63,3,0,0.15428971

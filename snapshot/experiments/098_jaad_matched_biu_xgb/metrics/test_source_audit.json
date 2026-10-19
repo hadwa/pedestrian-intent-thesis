@@ -1,0 +1,44 @@
+{
+  "bbox_reconstruction_passed": true,
+  "cached_pose_primary_sha": "4cf675a62f158dcedf79b8037ab39b4fdc94cefe1dd8783eb6e4523d792b2b64",
+  "cached_pose_supplement_sha": "660eb16b1d758f971ff34b8e41f2453ba1c43c5d1410753e77c23481a660c57e",
+  "no_missing_or_dropped_rows": true,
+  "no_observed_crossing": true,
+  "positives": 720,
+  "rows": 1501,
+  "sources": [
+    {
+      "bytes": 8659126,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/077_jaad_two_stage_early_late_xgb_transfer/metrics/prepared_jaad_test.csv",
+      "sha256": "378e9a95f43510f08268980f42943689fd7804ab3175dba49af6694a2cc6a595"
+    },
+    {
+      "bytes": 4455,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/test_source/metadata.json",
+      "sha256": "70c5e12ccba714f6072606449f921e93b28a7350172030853aed6564b4e40e2a"
+    },
+    {
+      "bytes": 1518554,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/test_source/rows.csv",
+      "sha256": "69261a0003bcbd245a6aae87179d24b64e1929064bda60d8f94805584cd8df70"
+    },
+    {
+      "bytes": 432416,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/test_source/biu_v1.npy",
+      "sha256": "863caa76c0e2b9db3fbe1585a9b73ac968905a718631a34065a7626be04d81bd"
+    },
+    {
+      "bytes": 378380,
+      "path": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/089_pedcmt_standardized_jaad_biu_transfer/cache/test_source/biu_v2.npy",
+      "sha256": "a107d29613223b336f8af76680d86848a17afa20c967311703b4bd1109bc1b4c"
+    },
+    {
+      "bytes": 1287,
+      "path": "/home/abdelrahman/Hadwa/datasets/JAAD/split_ids/default/test.txt",
+      "sha256": "fdd42edb5a897354bc652171e42a6384b587b5ebf365c8d9d1045c7a341353b9"
+    }
+  ],
+  "split": "test",
+  "tracks": 151,
+  "videos": 73
+}

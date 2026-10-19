@@ -1,0 +1,42 @@
+{
+  "train": {
+    "early_feature_count": 166,
+    "full_feature_count": 187,
+    "keypoints": {
+      "duplicate_identical_frames": 0,
+      "loaded_frames": 18246,
+      "missing_frames": 0,
+      "required_frames": 18246,
+      "source_new_frames": {
+        "/home/abdelrahman/Hadwa/pedestrian-intent-biu/data/data_keypoints_all.jsonl": 18246
+      }
+    },
+    "raw_reconstruction_max_abs_difference": 1.4551915228366852e-11,
+    "views": {
+      "early_feature_count": 166,
+      "missing_windows": 0,
+      "portable_feature_count": 182,
+      "rows": 2366
+    }
+  },
+  "validation": {
+    "early_feature_count": 166,
+    "full_feature_count": 187,
+    "keypoints": {
+      "duplicate_identical_frames": 0,
+      "loaded_frames": 27964,
+      "missing_frames": 0,
+      "required_frames": 27964,
+      "source_new_frames": {
+        "/home/abdelrahman/Hadwa/pedestrian-intent-biu/data/data_keypoints_all.jsonl": 27964
+      }
+    },
+    "raw_reconstruction_max_abs_difference": 1.4551915228366852e-11,
+    "views": {
+      "early_feature_count": 166,
+      "missing_windows": 0,
+      "portable_feature_count": 182,
+      "rows": 3619
+    }
+  }
+}

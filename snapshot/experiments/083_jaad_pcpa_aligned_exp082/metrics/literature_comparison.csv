@@ -1,0 +1,5 @@
+source,cohort,threshold_policy,accuracy,roc_auc,pr_auc,f1,precision,recall,comparability
+Exp083,JAAD_beh,fixed_0p5,0.678185,0.672254,0.746922,0.779342,0.682485,0.908241,published_protocol_aligned_not_row_identical
+PCAP-SL ViT-16s,JAAD_beh,not_reported,0.740,0.721,,0.801,0.671,0.983,published_literature_reference
+Exp083,JAAD_all,fixed_0p5,0.891414,0.945511,0.811555,0.727548,0.648088,0.829227,published_protocol_aligned_not_row_identical
+PCAP-SL ViT-16s,JAAD_all,not_reported,0.852,0.852,,0.841,0.791,0.892,published_literature_reference

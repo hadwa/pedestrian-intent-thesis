@@ -1,0 +1,6 @@
+{
+  "max_abs_logit": 5.960464477539062e-07,
+  "max_abs_anchor": 2.1457672119140625e-06,
+  "max_abs_probability": 1.410481302865918e-07,
+  "training_uses_original_cached_outputs": true
+}

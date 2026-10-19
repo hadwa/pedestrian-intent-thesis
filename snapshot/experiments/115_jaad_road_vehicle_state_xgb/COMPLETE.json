@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "models": 9,
+  "cohorts": [
+    "jaad_clean",
+    "jaad_beh",
+    "jaad_all"
+  ],
+  "metric_verification": "INDEPENDENT_VERIFICATION.json",
+  "attribution_verification": "report/verification.json",
+  "pdf": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/115_jaad_road_vehicle_state_xgb/report/Input_Attribution_with_Exp115.pdf",
+  "pdf_sha256": "d50587ead276c0c76780499a8e9f6c917f551d07f13b24b9052dc2e18639f4bb",
+  "pdf_pages": 6,
+  "original_four_pages_preserved": true
+}

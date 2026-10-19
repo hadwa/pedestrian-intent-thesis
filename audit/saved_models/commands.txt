@@ -1,0 +1,5 @@
+python /tmp/package_saved_models.py
+python /tmp/write_release_guides.py
+python /home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/verify_saved_weights.py
+Original source paths and hashes: copy_manifest.json
+Candidate source paths and sizes: weight_inventory.csv

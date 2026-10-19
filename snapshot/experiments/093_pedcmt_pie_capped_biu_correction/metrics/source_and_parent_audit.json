@@ -1,0 +1,18 @@
+{
+  "biu_union_dimension": 135,
+  "correction_scale_transferred_from_jaad": 0.1,
+  "parent_checkpoint_sha256": {
+    "42": "2afa77b4bb55b7f6cc28e85af547771406ab7e6b7ac9fa9f63d04168298c9efb",
+    "43": "63c16d30ddd7403049762c79c82120e21aa89897b700dbaa9db6010a697e4bbb",
+    "44": "f822c331fe334690ad7856252bb617218434545dd3ec0c63eeabdbb25e81d2b0"
+  },
+  "parent_experiment": "/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean/experiments/084_pedcmt_biu_transfer",
+  "parent_probability_max_abs_difference": {
+    "42": 8.142642289044044e-07,
+    "43": 1.3740714507326501e-06,
+    "44": 1.2068278040233693e-06
+  },
+  "test_cache_accessed": false,
+  "train_windows": 2366,
+  "validation_windows": 3619
+}

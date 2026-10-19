@@ -1,0 +1,10 @@
+{
+  "batch_size": 1,
+  "device": "NVIDIA GeForce RTX 3070 Laptop GPU",
+  "precision": "fp16",
+  "reports": [],
+  "status": "complete",
+  "test_authorized": true,
+  "unique_frames": 13144,
+  "videos": 49
+}

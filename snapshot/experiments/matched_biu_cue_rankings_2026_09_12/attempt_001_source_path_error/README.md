@@ -1,0 +1,1 @@
+Incomplete diagnostic attempt stopped after PIE because the clean-JAAD prepared-feature path was incorrect. These intermediate cue arrays are excluded from the final report. No benchmark outputs were modified.

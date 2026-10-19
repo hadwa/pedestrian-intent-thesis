@@ -1,0 +1,9 @@
+seed,manifest_position,source_cache_index,biu_v1_exact,biu_v2_exact
+42,0,474,True,True
+42,4,1307,True,True
+42,9,1628,True,True
+42,11,709,True,True
+42,14,629,True,True
+42,19,355,True,True
+42,22,869,True,True
+42,25,275,True,True

@@ -1,0 +1,333 @@
+{
+  "status": "PASS",
+  "saved_group_arrays_verified": 54,
+  "new_attribution_groups": 18,
+  "prior_attribution_groups_reused": 36,
+  "source_hashes_unchanged": true,
+  "checks": [
+    {
+      "experiment": "075",
+      "split": "test",
+      "seed": 42,
+      "n": 3760
+    },
+    {
+      "experiment": "075",
+      "split": "test",
+      "seed": 43,
+      "n": 3760
+    },
+    {
+      "experiment": "075",
+      "split": "test",
+      "seed": 44,
+      "n": 3760
+    },
+    {
+      "experiment": "075",
+      "split": "validation",
+      "seed": 42,
+      "n": 3619
+    },
+    {
+      "experiment": "075",
+      "split": "validation",
+      "seed": 43,
+      "n": 3619
+    },
+    {
+      "experiment": "075",
+      "split": "validation",
+      "seed": 44,
+      "n": 3619
+    },
+    {
+      "experiment": "114",
+      "split": "test",
+      "seed": 42,
+      "n": 20547
+    },
+    {
+      "experiment": "114",
+      "split": "test",
+      "seed": 43,
+      "n": 20547
+    },
+    {
+      "experiment": "114",
+      "split": "test",
+      "seed": 44,
+      "n": 20547
+    },
+    {
+      "experiment": "114",
+      "split": "validation",
+      "seed": 42,
+      "n": 14922
+    },
+    {
+      "experiment": "114",
+      "split": "validation",
+      "seed": 43,
+      "n": 14922
+    },
+    {
+      "experiment": "114",
+      "split": "validation",
+      "seed": 44,
+      "n": 14922
+    },
+    {
+      "experiment": "083_all",
+      "split": "test",
+      "seed": 42,
+      "n": 6732
+    },
+    {
+      "experiment": "083_all",
+      "split": "test",
+      "seed": 43,
+      "n": 6732
+    },
+    {
+      "experiment": "083_all",
+      "split": "test",
+      "seed": 44,
+      "n": 6732
+    },
+    {
+      "experiment": "083_all",
+      "split": "validation",
+      "seed": 42,
+      "n": 1265
+    },
+    {
+      "experiment": "083_all",
+      "split": "validation",
+      "seed": 43,
+      "n": 1265
+    },
+    {
+      "experiment": "083_all",
+      "split": "validation",
+      "seed": 44,
+      "n": 1265
+    },
+    {
+      "experiment": "083_beh",
+      "split": "test",
+      "seed": 42,
+      "n": 1881
+    },
+    {
+      "experiment": "083_beh",
+      "split": "test",
+      "seed": 43,
+      "n": 1881
+    },
+    {
+      "experiment": "083_beh",
+      "split": "test",
+      "seed": 44,
+      "n": 1881
+    },
+    {
+      "experiment": "083_beh",
+      "split": "validation",
+      "seed": 42,
+      "n": 242
+    },
+    {
+      "experiment": "083_beh",
+      "split": "validation",
+      "seed": 43,
+      "n": 242
+    },
+    {
+      "experiment": "083_beh",
+      "split": "validation",
+      "seed": 44,
+      "n": 242
+    },
+    {
+      "experiment": "082",
+      "split": "test",
+      "seed": 42,
+      "n": 1501
+    },
+    {
+      "experiment": "082",
+      "split": "test",
+      "seed": 43,
+      "n": 1501
+    },
+    {
+      "experiment": "082",
+      "split": "test",
+      "seed": 44,
+      "n": 1501
+    },
+    {
+      "experiment": "082",
+      "split": "validation",
+      "seed": 42,
+      "n": 274
+    },
+    {
+      "experiment": "082",
+      "split": "validation",
+      "seed": 43,
+      "n": 274
+    },
+    {
+      "experiment": "082",
+      "split": "validation",
+      "seed": 44,
+      "n": 274
+    },
+    {
+      "experiment": "099",
+      "split": "test",
+      "seed": 42,
+      "n": 1501
+    },
+    {
+      "experiment": "099",
+      "split": "test",
+      "seed": 43,
+      "n": 1501
+    },
+    {
+      "experiment": "099",
+      "split": "test",
+      "seed": 44,
+      "n": 1501
+    },
+    {
+      "experiment": "099",
+      "split": "validation",
+      "seed": 42,
+      "n": 274
+    },
+    {
+      "experiment": "099",
+      "split": "validation",
+      "seed": 43,
+      "n": 274
+    },
+    {
+      "experiment": "099",
+      "split": "validation",
+      "seed": 44,
+      "n": 274
+    },
+    {
+      "experiment": "115_all",
+      "split": "test",
+      "seed": 42,
+      "n": 6732
+    },
+    {
+      "experiment": "115_all",
+      "split": "test",
+      "seed": 43,
+      "n": 6732
+    },
+    {
+      "experiment": "115_all",
+      "split": "test",
+      "seed": 44,
+      "n": 6732
+    },
+    {
+      "experiment": "115_all",
+      "split": "validation",
+      "seed": 42,
+      "n": 1265
+    },
+    {
+      "experiment": "115_all",
+      "split": "validation",
+      "seed": 43,
+      "n": 1265
+    },
+    {
+      "experiment": "115_all",
+      "split": "validation",
+      "seed": 44,
+      "n": 1265
+    },
+    {
+      "experiment": "115_beh",
+      "split": "test",
+      "seed": 42,
+      "n": 1881
+    },
+    {
+      "experiment": "115_beh",
+      "split": "test",
+      "seed": 43,
+      "n": 1881
+    },
+    {
+      "experiment": "115_beh",
+      "split": "test",
+      "seed": 44,
+      "n": 1881
+    },
+    {
+      "experiment": "115_beh",
+      "split": "validation",
+      "seed": 42,
+      "n": 242
+    },
+    {
+      "experiment": "115_beh",
+      "split": "validation",
+      "seed": 43,
+      "n": 242
+    },
+    {
+      "experiment": "115_beh",
+      "split": "validation",
+      "seed": 44,
+      "n": 242
+    },
+    {
+      "experiment": "115_clean",
+      "split": "test",
+      "seed": 42,
+      "n": 1501
+    },
+    {
+      "experiment": "115_clean",
+      "split": "test",
+      "seed": 43,
+      "n": 1501
+    },
+    {
+      "experiment": "115_clean",
+      "split": "test",
+      "seed": 44,
+      "n": 1501
+    },
+    {
+      "experiment": "115_clean",
+      "split": "validation",
+      "seed": 42,
+      "n": 274
+    },
+    {
+      "experiment": "115_clean",
+      "split": "validation",
+      "seed": 43,
+      "n": 274
+    },
+    {
+      "experiment": "115_clean",
+      "split": "validation",
+      "seed": 44,
+      "n": 274
+    }
+  ]
+}

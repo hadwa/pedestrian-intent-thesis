@@ -1,0 +1,103 @@
+[
+  {
+    "label": "development_preflight",
+    "command": [
+      "/home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python",
+      "-B",
+      "-I",
+      "-c",
+      "import sys,runpy,os\nblocked=('/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean','/home/abdelrahman/Hadwa/BIU-PID-Distillation')\ndef guard(event,args):\n if event in ('open','os.listdir','os.scandir') and args and isinstance(args[0],(str,bytes)):\n  path=os.path.realpath(os.fsdecode(args[0]))\n  if any(path==root or path.startswith(root+'/') for root in blocked):raise RuntimeError('Original repository access denied: '+path)\nsys.addaudithook(guard)\nscript=sys.argv[1];sys.argv=sys.argv[1:];sys.path.insert(0,os.path.dirname(script));runpy.run_path(script,run_name='__main__')\n",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/psi.py",
+      "preflight",
+      "--bundle",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/data/psi_frozen"
+    ],
+    "cwd": "/tmp",
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"passed\",\n  \"test_opened\": false,\n  \"models_fitted\": 0,\n  \"environment\": {\n    \"python\": \"3.10.20\",\n    \"numpy\": \"2.2.6\",\n    \"pandas\": \"2.3.3\",\n    \"scikit-learn\": \"1.7.2\",\n    \"xgboost\": \"3.2.0\",\n    \"joblib\": \"1.5.3\",\n    \"scipy\": \"1.15.3\"\n  },\n  \"rows\": {\n    \"train\": 26295,\n    \"validation\": 14922\n  }\n}\n",
+    "stderr": ""
+  },
+  {
+    "label": "saved_model_replay",
+    "command": [
+      "/home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python",
+      "-B",
+      "-I",
+      "-c",
+      "import sys,runpy,os\nblocked=('/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean','/home/abdelrahman/Hadwa/BIU-PID-Distillation')\ndef guard(event,args):\n if event in ('open','os.listdir','os.scandir') and args and isinstance(args[0],(str,bytes)):\n  path=os.path.realpath(os.fsdecode(args[0]))\n  if any(path==root or path.startswith(root+'/') for root in blocked):raise RuntimeError('Original repository access denied: '+path)\nsys.addaudithook(guard)\nscript=sys.argv[1];sys.argv=sys.argv[1:];sys.path.insert(0,os.path.dirname(script));runpy.run_path(script,run_name='__main__')\n",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/replay_psi.py",
+      "--bundle",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/data/psi_frozen",
+      "--reference",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/data/psi_reference",
+      "--output",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/runs/psi_saved_model_replay_v2"
+    ],
+    "cwd": "/tmp",
+    "returncode": 0,
+    "stdout": "{\n  \"classification\": \"diagnostic saved-model replay, not retraining or raw-video reproduction\",\n  \"rows_checked\": 24,\n  \"max_probability_error\": 2.980194091506405e-08,\n  \"models_fitted\": 0,\n  \"environment\": {\n    \"python\": \"3.10.20\",\n    \"numpy\": \"2.2.6\",\n    \"pandas\": \"2.3.3\",\n    \"scikit-learn\": \"1.7.2\",\n    \"xgboost\": \"3.2.0\",\n    \"joblib\": \"1.5.3\",\n    \"scipy\": \"1.15.3\"\n  },\n  \"config_sha256\": \"b00fb875d9fcb0581b6f1454aaea4bcc93c54c22d29f53a0ff8c811a19e586fc\",\n  \"code_sha256\": \"24bacf62b18b59663be5e5577f6d4609b7a9980efa3902d7c24b734b1585a1f8\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "label": "reject_existing_training_output",
+    "command": [
+      "/home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python",
+      "-B",
+      "-I",
+      "-c",
+      "import sys,runpy,os\nblocked=('/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean','/home/abdelrahman/Hadwa/BIU-PID-Distillation')\ndef guard(event,args):\n if event in ('open','os.listdir','os.scandir') and args and isinstance(args[0],(str,bytes)):\n  path=os.path.realpath(os.fsdecode(args[0]))\n  if any(path==root or path.startswith(root+'/') for root in blocked):raise RuntimeError('Original repository access denied: '+path)\nsys.addaudithook(guard)\nscript=sys.argv[1];sys.argv=sys.argv[1:];sys.path.insert(0,os.path.dirname(script));runpy.run_path(script,run_name='__main__')\n",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/psi.py",
+      "train",
+      "--bundle",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/data/psi_frozen",
+      "--output",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/runs/psi_saved_model_replay_v2"
+    ],
+    "cwd": "/tmp",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 8, in <module>\n  File \"/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/runpy.py\", line 289, in run_path\n    return _run_module_code(code, init_globals, run_name,\n  File \"/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/runpy.py\", line 96, in _run_module_code\n    _run_code(code, mod_globals, init_globals,\n  File \"/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/psi.py\", line 154, in <module>\n    if __name__=='__main__':main()\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/psi.py\", line 153, in main\n    a=p.parse_args();globals()[a.command](a)\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/psi.py\", line 114, in train\n    out=fresh(args.output);(out/'models').mkdir();(out/'predictions').mkdir()\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/psi.py\", line 36, in fresh\n    p=inside(path,ROOT/'runs');p.mkdir(parents=True,exist_ok=False);return p\n  File \"/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/pathlib.py\", line 1175, in mkdir\n    self._accessor.mkdir(self, mode)\nFileExistsError: [Errno 17] File exists: '/home/abdelrahman/Hadwa/pedestrian-intent-thesis/runs/psi_saved_model_replay_v2'\n"
+  },
+  {
+    "label": "reject_external_training_output",
+    "command": [
+      "/home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python",
+      "-B",
+      "-I",
+      "-c",
+      "import sys,runpy,os\nblocked=('/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean','/home/abdelrahman/Hadwa/BIU-PID-Distillation')\ndef guard(event,args):\n if event in ('open','os.listdir','os.scandir') and args and isinstance(args[0],(str,bytes)):\n  path=os.path.realpath(os.fsdecode(args[0]))\n  if any(path==root or path.startswith(root+'/') for root in blocked):raise RuntimeError('Original repository access denied: '+path)\nsys.addaudithook(guard)\nscript=sys.argv[1];sys.argv=sys.argv[1:];sys.path.insert(0,os.path.dirname(script));runpy.run_path(script,run_name='__main__')\n",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/psi.py",
+      "train",
+      "--bundle",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/data/psi_frozen",
+      "--output",
+      "/tmp/psi_disallowed_output"
+    ],
+    "cwd": "/tmp",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 8, in <module>\n  File \"/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/runpy.py\", line 289, in run_path\n    return _run_module_code(code, init_globals, run_name,\n  File \"/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/runpy.py\", line 96, in _run_module_code\n    _run_code(code, mod_globals, init_globals,\n  File \"/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/psi.py\", line 154, in <module>\n    if __name__=='__main__':main()\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/psi.py\", line 153, in main\n    a=p.parse_args();globals()[a.command](a)\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/psi.py\", line 114, in train\n    out=fresh(args.output);(out/'models').mkdir();(out/'predictions').mkdir()\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/psi.py\", line 36, in fresh\n    p=inside(path,ROOT/'runs');p.mkdir(parents=True,exist_ok=False);return p\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/psi.py\", line 33, in inside\n    p=Path(path).resolve(); require(p.is_relative_to(root.resolve()),f'Path must be inside {root}: {p}');return p\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/psi.py\", line 19, in require\n    if not condition: raise ValueError(message)\nValueError: Path must be inside /home/abdelrahman/Hadwa/pedestrian-intent-thesis/runs: /tmp/psi_disallowed_output\n"
+  },
+  {
+    "label": "reject_test_before_training",
+    "command": [
+      "/home/abdelrahman/miniconda3/envs/biu-pid-distill/bin/python",
+      "-B",
+      "-I",
+      "-c",
+      "import sys,runpy,os\nblocked=('/home/abdelrahman/Hadwa/BIU-PID-Distillation-clean','/home/abdelrahman/Hadwa/BIU-PID-Distillation')\ndef guard(event,args):\n if event in ('open','os.listdir','os.scandir') and args and isinstance(args[0],(str,bytes)):\n  path=os.path.realpath(os.fsdecode(args[0]))\n  if any(path==root or path.startswith(root+'/') for root in blocked):raise RuntimeError('Original repository access denied: '+path)\nsys.addaudithook(guard)\nscript=sys.argv[1];sys.argv=sys.argv[1:];sys.path.insert(0,os.path.dirname(script));runpy.run_path(script,run_name='__main__')\n",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/psi.py",
+      "evaluate",
+      "--bundle",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/data/psi_frozen",
+      "--trained",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/runs/psi_saved_model_replay_v2",
+      "--output",
+      "/home/abdelrahman/Hadwa/pedestrian-intent-thesis/runs/psi_must_not_exist"
+    ],
+    "cwd": "/tmp",
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 8, in <module>\n  File \"/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/runpy.py\", line 289, in run_path\n    return _run_module_code(code, init_globals, run_name,\n  File \"/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/runpy.py\", line 96, in _run_module_code\n    _run_code(code, mod_globals, init_globals,\n  File \"/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/psi.py\", line 154, in <module>\n    if __name__=='__main__':main()\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/psi.py\", line 153, in main\n    a=p.parse_args();globals()[a.command](a)\n  File \"/home/abdelrahman/Hadwa/pedestrian-intent-thesis/tools/psi.py\", line 128, in evaluate\n    trained=inside(args.trained,ROOT/'runs');done=json.loads((trained/'TRAINED.json').read_text());frozen=json.loads((trained/'FROZEN.json').read_text())\n  File \"/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/pathlib.py\", line 1134, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n  File \"/home/abdelrahman/miniconda3/envs/biu-pid-distill/lib/python3.10/pathlib.py\", line 1119, in open\n    return self._accessor.open(self, mode, buffering, encoding, errors,\nFileNotFoundError: [Errno 2] No such file or directory: '/home/abdelrahman/Hadwa/pedestrian-intent-thesis/runs/psi_saved_model_replay_v2/TRAINED.json'\n"
+  }
+]
